@@ -1,0 +1,159 @@
+
+<div class="columns">
+  <div class="column-four">
+    <div class="panel-side">
+      <h3>YOUR DAILY UPDATE</h3>
+      <h4>- September 7, 2015 -</h4>
+      <div class="selection">
+        <h4 ng-click="loadInteresting();" data-ng-class="{active: selection == true}">INTERESTING</h4>
+        <h4 ng-click="loadIntriguing();" data-ng-class="{active: selection == false}">INTRIGUING</h4>
+      </div>
+      <div data-ng-hide="!selection" class="posts">
+        <div ng-repeat="article in articles" class="post">
+          <div class="top">
+            <div class="number">
+              <h5 ng-bind="($index + 1)"></h5>
+            </div>
+            <h2 ng-bind="article.title"></h2>
+          </div>
+          <div class="bottom">
+            <p ng-bind="article.content"></p>
+          </div>
+        </div>
+      </div>
+      <div data-ng-hide="selection" class="posts">
+        <div ng-repeat="article in articlesB" class="post">
+          <div class="top">
+            <div class="number">
+              <h5 ng-bind="($index + 1)"></h5>
+            </div>
+            <h2 ng-bind="article.title"></h2>
+          </div>
+          <div class="bottom">
+            <p ng-bind="article.content"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column-four">
+    <div class="panel-preview">
+      <div class="content">
+        <h2>Testing Header dolor sit amet</h2>
+        <div class="tags"><span>12/12/2014</span>
+          <P>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</P>
+        </div>
+        <div class="detail">
+          <div class="portrait"></div>
+          <div class="author-holder">
+            <h4>Joseph Wadra The Long Person</h4>
+            <h6>@josephwad</h6>
+            <div class="social"><span class="fa fa-facebook"></span><span class="fa fa-twitter"></span><span class="fa fa-instagram"></span></div>
+          </div>
+        </div>
+        <div class="tags">
+          <h5>Categories</h5><span>HEALTH</span><span>MENTAL</span>
+        </div>
+      </div>
+    </div>
+    <div class="panel-preview">
+      <div class="content">
+        <h2>Article Header</h2>
+        <div class="tags"><span>12/12/2014</span>
+          <P>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese sunt in culpa qui officia dese.</P>
+        </div>
+        <div class="detail">
+          <div class="portrait"></div>
+          <div class="author-holder">
+            <h4>Joseph Wadra</h4>
+            <h6>@josephwad</h6>
+            <div class="social"><span class="fa fa-facebook"></span><span class="fa fa-twitter"></span><span class="fa fa-instagram"></span></div>
+          </div>
+        </div>
+        <div class="tags">
+          <h5>Categories</h5><span>HEALTH</span><span>MENTAL</span><span>EMOTIONAL</span><span>PHYSICAL</span><span>MENTAL</span><span>EMOTIONAL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column-four">
+    <div class="panel-preview">
+      <div class="content">
+        <h2>Testing Header for Article</h2>
+        <div class="tags"><span>12/12/2014</span>
+          <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, accusamus. ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</P>
+        </div>
+        <div class="detail">
+          <div class="portrait"></div>
+          <div class="author-holder">
+            <h4>Joseph Wadra The Long Person</h4>
+            <h6>@josephwad</h6>
+            <div class="social"><span class="fa fa-facebook"></span><span class="fa fa-twitter"></span><span class="fa fa-instagram"></span></div>
+          </div>
+        </div>
+        <div class="tags">
+          <h5>Categories</h5><span>HEALTH</span><span>MENTAL</span>
+        </div>
+      </div>
+    </div>
+    <div class="panel-preview">
+      <div class="content">
+        <h2>Article Header</h2>
+        <div class="tags"><span>12/12/2014</span>
+          <P>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese sunt in culpa qui officia dese.</P>
+        </div>
+        <div class="detail">
+          <div class="portrait"></div>
+          <div class="author-holder">
+            <h4>Joseph Wadra</h4>
+            <h6>@josephwad</h6>
+            <div class="social"><span class="fa fa-facebook"></span><span class="fa fa-twitter"></span><span class="fa fa-instagram"></span></div>
+          </div>
+        </div>
+        <div class="tags">
+          <h5>Categories</h5><span>HEALTH</span><span>MENTAL</span><span>EMOTIONAL</span><span>PHYSICAL</span><span>MENTAL</span><span>EMOTIONAL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column-four">
+    <div class="panel-preview">
+      <div class="content">
+        <h2>Testing Header dolor sit amet</h2>
+        <div class="tags"><span>12/12/14</span>
+          <P>Lorem  ipsum dolor sit amet, consectetur adipisicing elit ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese</P>
+        </div>
+        <div class="detail">
+          <div class="portrait"></div>
+          <div class="author-holder">
+            <h4>Joseph Wadra</h4>
+            <h6>@josephwad</h6>
+            <div class="social"><span class="fa fa-facebook"></span><span class="fa fa-twitter"></span><span class="fa fa-instagram"></span></div>
+          </div>
+        </div>
+        <div class="tags">
+          <h5>Categories</h5><span>HEALTH</span><span>MENTAL</span><span>EMOTIONAL</span><span>PHYSICAL</span><span>MENTAL</span><span>EMOTIONAL</span>
+        </div>
+      </div>
+      <div class="panel-preview">
+        <div class="content">
+          <h2>Article Header</h2>
+          <div class="tags"><span>12/12/2014</span>
+            <P>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese sunt in culpa qui officia dese.</P>
+          </div>
+          <div class="detail">
+            <div class="portrait"></div>
+            <div class="author-holder">
+              <h4>Joseph Wadra</h4>
+              <h6>@josephwad</h6>
+              <div class="social"><span class="fa fa-facebook"></span><span class="fa fa-twitter"></span><span class="fa fa-instagram"></span></div>
+            </div>
+          </div>
+          <div class="tags">
+            <h5>Categories</h5><span>HEALTH</span><span>MENTAL</span><span>EMOTIONAL</span><span>PHYSICAL</span><span>MENTAL</span><span>EMOTIONAL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

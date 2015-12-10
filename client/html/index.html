@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <title ng-bind="$state.current.data.title"></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/css/index.css">
+    <base href="/index.html">
+    <body>
+      <div ui-view="index"></div>
+      <script src="/js/vendor/jquery/dist/jquery.min.js"></script>
+      <script src="/js/vendor/angular/angular.js"></script>
+      <script src="/js/vendor/angular-animate/angular-animate.js"></script>
+      <script src="/js/vendor/angular-cookies/angular-cookies.js"></script>
+      <script src="/js/vendor/angular-messages/angular-messages.min.js"></script>
+      <script src="/js/vendor/angular-resource/angular-resource.js"></script>
+      <script src="/js/vendor/angular-sanitize/angular-sanitize.js"></script>
+      <script src="/js/vendor/angular-ui-router/release/angular-ui-router.js"></script>
+      <script src="/js/vendor/lodash/dist/lodash.min.js"></script>
+      <script src="/js/vendor/angular-touch/angular-touch.js"></script>
+      <script src="/js/vendor/ng-mobile-menu/src/ng-mobile-menu.js"></script>
+      <script src="/js/app/app.module.js"></script>
+      <script src="/js/app/app.config.js"></script>
+      <script src="/js/app/app.routes.js"></script>
+      <script src="/js/app/app.run.js"></script>
+      <script src="/js/common/common.module.js"></script>
+      <script>
+        (function(d) {
+            var config = {
+                kitId: 'vna6vda',
+                scriptTimeout: 3000
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+      <script>
+        $(document).ready(function(){
+            $.getScript('//'+location.hostname+':35729/livereload.js');
+        });
+      </script>
+    </body>
+  </head>
+</html>
