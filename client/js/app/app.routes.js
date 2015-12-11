@@ -11,6 +11,7 @@
                 views: {
                     'index': {
                         templateUrl: 'front/index.html',
+                        controller: 'CommonController'
                     },
                 }
             })
@@ -20,6 +21,8 @@
                 views: {
                     'container': {
                         templateUrl: 'front/partials/index.html',
+                        controller: 'CommonIndexController'
+
                     },
                 },
             })
@@ -29,6 +32,8 @@
                 views: {
                     'container': {
                         templateUrl: 'front/partials/answers.html',
+                        controller: 'CommonAnswersController'
+
                     },
                 },
             })
@@ -37,7 +42,7 @@
                 url: '/testimonials/',
                 views: {
                     'container': {
-                        templateUrl: 'front/partials/answers.html',
+                        templateUrl: 'front/partials/testimonals.html',
                     },
                 },
             })
@@ -46,7 +51,7 @@
                 url: '/contact/',
                 views: {
                     'container': {
-                        templateUrl: 'front/partials/answers.html',
+                        templateUrl: 'front/partials/contact.html',
                     },
                 },
             });

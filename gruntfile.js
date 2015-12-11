@@ -153,7 +153,7 @@ module.exports = function (grunt) {
     grunt.registerTask('server', [
         // 'jshint:development',
         'express:server',
-        'open:server',
+        // 'open:server',
         'watch'
     ]);
 };

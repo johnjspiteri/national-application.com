@@ -1,0 +1,18 @@
+
+<div class="page">
+  <div class="content-holder">
+    <div class="content">
+      <div class="main">
+        <div class="answers">
+          <div ng-repeat="answer in answers" class="answer">
+            <h2 ng-bind="::answer.title"></h2>
+            <p ng-bind="::answer.content"></p>
+            <div ng-repeat="keyword in answer.keywords" class="tag">
+              <h5 ng-bind="::keyword.value"></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

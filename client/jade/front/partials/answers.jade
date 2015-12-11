@@ -1,0 +1,12 @@
+.page
+    .content-holder
+        .content
+            
+            .main
+                .answers
+                    .answer(ng-repeat="answer in answers")
+                        h2(ng-bind="::answer.title")
+                        p(ng-bind="::answer.content")
+                        .tag(ng-repeat="keyword in answer.keywords")
+                            h5(ng-bind="::keyword.value")
+                        

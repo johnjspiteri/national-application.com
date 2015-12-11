@@ -2614,4 +2614,42 @@ small {
     line-height: 16px;
     text-align: center;
   }
+  .answers {
+    float: left;
+    width: 460px;
+    padding: 0;
+    margin: 0;
+  }
+  .answers .answer {
+    float: left;
+    width: 440px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    background: #ff9;
+  }
+  .answers .answer h2 {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  .answers .answer p {
+    float: left;
+    width: 100%;
+    margin: 0 0 8px 0;
+    padding: 0;
+  }
+  .answers .answer .tag {
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 0;
+    background: #000;
+    border-radius: 4px;
+  }
+  .answers .answer .tag h5 {
+    float: left;
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+  }
 }
