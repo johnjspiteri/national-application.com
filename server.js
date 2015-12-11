@@ -5,7 +5,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
    var express = require('express'),
        // favicon = require('serve-favicon'),
-       config = require('./server/config/development.json'),
+    //    config = require('./server/config/development.json'),
         morgan = require('morgan'),
           path = require('path'),
 methodOverride = require('method-override'),
