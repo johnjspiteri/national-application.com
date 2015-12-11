@@ -2373,8 +2373,8 @@ small {
     padding: 0;
     margin: 20px 0 0 0;
     font-weight: 600;
-    font-size: 17px;
-    line-height: 22px;
+    font-size: 19px;
+    line-height: 23px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 1px 0px #000;
@@ -2409,11 +2409,7 @@ small {
     float: left;
     width: 460px;
     padding: 0;
-<<<<<<< HEAD
-    margin: 60px 0 50px 70px;
-=======
     margin: 50px 0 20px 70px;
->>>>>>> index
   }
   .content .main .rx-card {
     float: left;
@@ -2425,29 +2421,39 @@ small {
     border: 1px solid #444;
     border-radius: 8px;
   }
-  .content .main .rx-card .company {
+  .content .main .rx-card .card-headline {
     float: left;
-    width: 358px;
+    width: 260px;
+  }
+  .content .main .rx-card .card-headline .company {
+    float: left;
+    width: 100%;
     margin: 0 0 20px 0;
   }
-  .content .main .rx-card .company h2 {
+  .content .main .rx-card .card-headline .company h2 {
     float: left;
     width: 100%;
     font-size: 27px;
     line-height: 27px;
     text-shadow: 2px 1px 2px #ccc;
   }
-  .content .main .rx-card .card-title {
+  .content .main .rx-card .card-headline .card-title {
     float: left;
-    width: 358px;
+    width: 100%;
     margin: 0 0 16px 0;
   }
-  .content .main .rx-card .card-title p {
+  .content .main .rx-card .card-headline .card-title p {
     float: left;
     width: 100%;
     font-weight: 600;
     font-size: 13px;
     line-height: 13px;
+  }
+  .content .main .rx-card .card-logo {
+    float: left;
+    width: 90px;
+    height: 60px;
+    background: #ff9;
   }
   .content .main .rx-card .card-numbers {
     float: left;
@@ -2498,14 +2504,8 @@ small {
   .content .points {
     float: left;
     width: 388px;
-<<<<<<< HEAD
-    height: 320px;
-    padding: 0 40px 0 40px;
-    margin: 70px 0 50px 0;
-=======
     padding: 0 40px 0 40px;
     margin: 60px 0 0 0;
->>>>>>> index
   }
   .content .points .point {
     float: left;
@@ -2612,71 +2612,6 @@ small {
     margin: 0;
     font-size: 16px;
     line-height: 16px;
-    text-align: center;
-  }
-  .content .center {
-    float: left;
-    width: 1000px;
-  }
-  .content .center .center-holder {
-    float: left;
-    width: 1000px;
-    height: 300px;
-    margin: 0 0 50px 0;
-    border: 1px solid #aaa;
-    border-left: none;
-    border-right: none;
-  }
-  .content .center .center-holder h3 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    font-size: 22px;
-    text-align: center;
-    font-weight: 400;
-    line-height: 300px;
-  }
-  .content .bottom {
-    position: relative;
-    width: 1000px;
-    margin: 0 auto;
-  }
-  .content .bottom .bottom-holder {
-    float: left;
-    width: 980px;
-    padding: 0;
-    margin: 0 0 0 20px;
-  }
-  .content .bottom .bottom-holder .price-holder {
-    float: left;
-    width: 154px;
-    padding: 20px 10px 0 10px;
-    margin: 0 20px 50px 0;
-    border: 1px solid #aaa;
-  }
-  .content .bottom .bottom-holder .price-holder p {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-size: 12px;
-    text-align: center;
-  }
-  .content .bottom .bottom-holder .price-holder h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    font-size: 12px;
-    margin: 0 0 10px 0;
-    text-align: center;
-  }
-  .content .bottom .bottom-holder .price-holder h3 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 10px 0;
-    font-size: 10px;
     text-align: center;
   }
 }
