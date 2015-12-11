@@ -18,7 +18,7 @@
                 data : { title: ''},
                 url: '/',
                 views: {
-                    'container@index': {
+                    'container': {
                         templateUrl: 'front/partials/index.html',
                     },
                 },
@@ -27,7 +27,7 @@
                 data : { title: ''},
                 url: '/answers/',
                 views: {
-                    'container@index': {
+                    'container': {
                         templateUrl: 'front/partials/answers.html',
                     },
                 },

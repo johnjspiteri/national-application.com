@@ -1,14 +1,27 @@
 /*jslint node: true */
+'use strict';
 
 module.exports = function (grunt) {
-    'use strict';
     require('load-grunt-tasks')(grunt);
     require('time-grunt')(grunt);
 
     grunt.initConfig({
+        config: grunt.file.readJSON('server/config/development.json'),
+        banner: '/* Author: John Spiteri, http://johnspiteri.io, <%= grunt.template.today("yyyy") %> */\n',
+        usebanner: {
+            dist: {
+                options: {
+                    position: 'top',
+                    banner: '<%= banner %>'
+                },
+                files: {
+                    src: ['client/css/index.css']
+                }
+            }
+        },
         uglify: {
             options: {
-                beautify: false,
+                beautify: true,
                 mangle: false,
                 preserveComments: true,
                 compress: {
@@ -18,10 +31,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'public/js/app.min.js': [
-                        /* vendor */
-                        /* app */
-                    ]
+                    'client/js/vendor.min.js': []
                 }
             }
         },
@@ -31,11 +41,10 @@ module.exports = function (grunt) {
                     linenos: false,
                     compress: false,
                     firebug: false,
-                    // paths: 'client/styl/**',
                     import: ['config.styl'],
                 },
                 files: {
-                    'client/css/index.css': 'client/styl/index.styl',
+                    'client/css/style.css': 'client/styl/index.styl',
                 }
             },
         },
@@ -59,7 +68,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'client/css/index.css': 'client/css/index.css'
+                    'client/css/style.css': 'client/css/style.css',
                 }
             }
         },
@@ -68,52 +77,58 @@ module.exports = function (grunt) {
                 cache: 'client/cache'
             }
         },
+        jshint: {
+            jshint: ".jshintrc",
+            development: ['gruntfile.js', 'client/**/*.js', '!client/vendor/', 'server/**/*.js', '!node_modules'],
+            reporter: require('jshint-stylish')
+        },
         watch: {
             options: {
                 livereload: true,
             },
             stylus: {
                 files: 'client/styl/**/*.styl',
-                tasks: 'refresh-frontend'
+                tasks: 'client'
             },
             jade: {
                 files: 'client/jade/**/*.jade',
-                tasks: 'refresh-frontend'
+                tasks: 'client'
             },
-            // express: {
-            //     files: ['public/js/**/*.js', 'app/**/*.js', '!node_modules/**', '!public/js/vendor/**', '!source/**'],
-            //     tasks: 'server',
-            //     options: {
-            //         spawn: false
-            //     },
-            // },
+            express: {
+                files: ['client/js/**/*.js', 'server/**/*.js', '!node_modules/**', '!client/js/vendor/**'],
+                tasks: 'server',
+                options: {
+                    spawn: false
+                },
+            },
             gruntfile: {
                 files: ['gruntfile.js']
             }
         },
         express: {
-            options: {
-                port: 8080,
-                hostname: '192.168.1.78',
-                debug: true,
-            },
-            dev: {
+            server: {
                 options: {
-                    script: 'server.js',
+                    script: './server.js',
                 },
             },
         },
         'node-inspector': {
             custom: {
                 options: {
-                    'web-port': 8080,
-                    'web-host': '192.168.1.78',
+                    'web-port': 9000,
+                    'web-host': '<%- config.ip %>',
                     'debug-port': 5857,
                     'save-live-edit': true,
                     'no-preload': true,
                     'stack-trace-limit': 4,
                     'hidden': ['node_modules']
                 }
+            }
+        },
+        open: {
+            server: {
+                path: 'http://<%= config.ip %>:<%= config.port %>',
+                app: 'Safari'
             }
         },
         concurrent: {
@@ -123,24 +138,22 @@ module.exports = function (grunt) {
                 },
                 tasks: ['stylus', 'jade'],
             },
-            backend: {
-                options: {
-                    logConcurrentOutput: true
-                },
-                tasks: ['watch'],
-            }
         }
     });
     grunt.registerTask('default', [
+        'client',
+        'server'
+    ]);
+    grunt.registerTask('client', [
         'concurrent:frontend',
         // 'autoprefixer',
         // 'uglify',
-        'express:dev',
-        'concurrent:backend'
-    ]);
-    grunt.registerTask('refresh-frontend', [
-        'concurrent:frontend',
+        // 'usebanner',
     ]);
     grunt.registerTask('server', [
+        // 'jshint:development',
+        'express:server',
+        'open:server',
+        'watch'
     ]);
 };
