@@ -31,6 +31,24 @@
                         templateUrl: 'front/partials/answers.html',
                     },
                 },
+            })
+            .state('index.testimonials', {
+                data : { title: ''},
+                url: '/testimonials/',
+                views: {
+                    'container': {
+                        templateUrl: 'front/partials/answers.html',
+                    },
+                },
+            })
+            .state('index.contact', {
+                data : { title: ''},
+                url: '/contact/',
+                views: {
+                    'container': {
+                        templateUrl: 'front/partials/answers.html',
+                    },
+                },
             });
     }
 

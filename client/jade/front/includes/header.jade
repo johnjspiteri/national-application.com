@@ -3,11 +3,11 @@ header
         .brand
             .logo
         nav
-            .tile
+            .tile(ui-sref='index.contact', data-ng-class="{active: $state.includes('index.contact')}")
                 h4 About The<br>Company
-            .tile
+            .tile(ui-sref='index.testimonials', data-ng-class="{active: $state.includes('index.testimonials')}")
                 h4 Client<br>Testimonials
-            .tile(ui-sref='index.answers')
+            .tile(ui-sref='index.answers', data-ng-class="{active: $state.includes('index.answers')}")
                 h4 Frequently<br>Asked Questions
-            .tile.active
+            .tile(ui-sref='index.start', data-ng-class="{active: $state.includes('index.start')}")
                 h4 Get Your Free<br>Savings Card

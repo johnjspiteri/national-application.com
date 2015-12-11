@@ -2330,68 +2330,59 @@ small {
   header .header {
     position: relative;
     width: 1000px;
-    height: 84px;
+    height: 78px;
     padding: 0;
     margin: 0 auto;
   }
   header .header .brand {
     float: left;
     width: 250px;
-    height: 84px;
+    height: 78px;
     padding: 0;
     margin: 0;
-    background: #fff;
   }
   header .header .brand .logo {
     display: none;
     float: left;
     width: 250px;
-    height: 84px;
+    height: 78px;
     padding: 0;
     margin: 0;
     font-size: 14px;
     line-height: 50px;
-    background: #fff;
     text-align: center;
   }
   header .header nav {
     float: left;
     width: 749px;
-    height: 84px;
+    height: 78px;
     padding: 0;
     margin: 0;
     border-right: 1px solid #333;
   }
   header .header nav .tile {
     float: right;
-    height: 84px;
-    padding: 0 34px 0 34px;
+    height: 78px;
+    padding: 0 32px 0 32px;
     margin: 0;
-    background: #838383;
+    background: #731249;
     border-left: 1px solid #333;
   }
   header .header nav .tile h4 {
     float: left;
     padding: 0;
-    margin: 22px 0 0 0;
+    margin: 20px 0 0 0;
     font-weight: 600;
-    font-style: italic;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 17px;
+    line-height: 22px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 1px 0px #000;
   }
   header .header nav .tile.active {
-    height: 85px;
-    background: #731249;
+    height: 79px;
+    background: #838383;
     border-left: 1px solid #333;
-  }
-  header .header nav .tile.active h4 {
-    font-style: normal;
-    margin: 23px 0 0 0;
-    font-size: 20px;
-    line-height: 25px;
   }
   .page {
     float: left;
@@ -2412,37 +2403,85 @@ small {
     border: 1px solid #aaa;
     border-top: none;
     border-bottom: none;
-    background: #f1f1f1;
+    background: #838383;
   }
   .content .main {
     float: left;
     width: 460px;
     padding: 0;
+<<<<<<< HEAD
     margin: 60px 0 50px 70px;
+=======
+    margin: 50px 0 20px 70px;
+>>>>>>> index
   }
   .content .main .rx-card {
     float: left;
-    width: 418px;
-    height: 260px;
-    padding: 0;
+    width: 388px;
+    height: 190px;
+    padding: 28px 0px 24px 30px;
     margin: 0 0 18px 0;
-    background: #fff;
-    border: 1px solid #aaa;
+    background: #f1f1f1;
+    border: 1px solid #444;
     border-radius: 8px;
+  }
+  .content .main .rx-card .company {
+    float: left;
+    width: 358px;
+    margin: 0 0 20px 0;
+  }
+  .content .main .rx-card .company h2 {
+    float: left;
+    width: 100%;
+    font-size: 27px;
+    line-height: 27px;
+    text-shadow: 2px 1px 2px #ccc;
+  }
+  .content .main .rx-card .card-title {
+    float: left;
+    width: 358px;
+    margin: 0 0 16px 0;
+  }
+  .content .main .rx-card .card-title p {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .content .main .rx-card .card-numbers {
+    float: left;
+    width: 100%;
+  }
+  .content .main .rx-card .card-numbers .square {
+    float: left;
+    width: 80px;
+    height: 40px;
+    margin: 0 10px 0 0;
+    border: 1px solid #aaa;
+    background: #fff;
+  }
+  .content .main .rx-card .card-numbers .square p {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
   }
   .content .main .rx-card-download {
     float: left;
-    width: 460px;
+    width: 440px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 20px;
   }
   .content .main .rx-card-download .column {
     float: left;
-    width: 97px;
+    width: 87px;
     padding: 0;
     margin: 0 8px 0 0;
     background: #731249;
-    border: 1px solid #aaa;
+    border: 1px solid #777;
     border-radius: 4px;
   }
   .content .main .rx-card-download .column h4 {
@@ -2459,9 +2498,14 @@ small {
   .content .points {
     float: left;
     width: 388px;
+<<<<<<< HEAD
     height: 320px;
     padding: 0 40px 0 40px;
     margin: 70px 0 50px 0;
+=======
+    padding: 0 40px 0 40px;
+    margin: 60px 0 0 0;
+>>>>>>> index
   }
   .content .points .point {
     float: left;
@@ -2471,16 +2515,17 @@ small {
   }
   .content .points .point .number {
     float: left;
-    width: 60px;
-    height: 60px;
+    width: 58px;
+    height: 58px;
     padding: 0;
-    margin: 0 30px 0 0;
+    margin: 8px 30px 0 0;
     background: #731249;
+    border: 1px solid #000;
     border-radius: 1000px;
   }
   .content .points .point .number h1 {
     float: left;
-    width: 60px;
+    width: 58px;
     padding: 0;
     margin: 0;
     font-size: 25px;
@@ -2504,7 +2549,70 @@ small {
     font-weight: 400;
     font-size: 29px;
     line-height: 37px;
+    color: #fff;
     text-align: left;
+    text-shadow: 2px 1px 0px #000;
+  }
+  .content .center {
+    float: left;
+    width: 1000px;
+  }
+  .content .center .center-holder {
+    float: left;
+    width: 998px;
+    height: 260px;
+    margin: 30px 0 50px 0;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-left: none;
+    border-right: none;
+  }
+  .content .bottom {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .content .bottom .bottom-holder {
+    float: left;
+    width: 920px;
+    padding: 0;
+    margin: 0 0 60px 60px;
+  }
+  .content .bottom .bottom-holder .price-holder {
+    float: left;
+    width: 218px;
+    padding: 24px 30px 28px 30px;
+    margin: 0 20px 0 0;
+    background: #fff;
+    border: 1px solid #aaa;
+  }
+  .content .bottom .bottom-holder .price-holder p {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 28px 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+    text-align: center;
+  }
+  .content .bottom .bottom-holder .price-holder h2 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    font-size: 21px;
+    line-height: 21px;
+    margin: 0 0 14px 0;
+    text-align: center;
+  }
+  .content .bottom .bottom-holder .price-holder h3 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
   }
   .content .center {
     float: left;

@@ -5,16 +5,16 @@
       <div class="logo"></div>
     </div>
     <nav>
-      <div class="tile">
+      <div ui-sref="index.contact" data-ng-class="{active: $state.includes('index.contact')}" class="tile">
         <h4>About The<br>Company</h4>
       </div>
-      <div class="tile">
+      <div ui-sref="index.testimonials" data-ng-class="{active: $state.includes('index.testimonials')}" class="tile">
         <h4>Client<br>Testimonials</h4>
       </div>
-      <div ui-sref="index.answers" class="tile">
+      <div ui-sref="index.answers" data-ng-class="{active: $state.includes('index.answers')}" class="tile">
         <h4>Frequently<br>Asked Questions</h4>
       </div>
-      <div class="tile active">
+      <div ui-sref="index.start" data-ng-class="{active: $state.includes('index.start')}" class="tile">
         <h4>Get Your Free<br>Savings Card
         </h4>
       </div>
