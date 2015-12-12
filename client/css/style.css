@@ -2590,10 +2590,15 @@ small {
     float: left;
     width: 100%;
     padding: 0;
+<<<<<<< HEAD
     margin: 0 0 28px 0;
     font-size: 18px;
     line-height: 28px;
     color: #000;
+=======
+    margin: 0 0 30px 0;
+    font-size: 12px;
+>>>>>>> page
     text-align: center;
   }
   .content .bottom .bottom-holder .price-holder h2 {
