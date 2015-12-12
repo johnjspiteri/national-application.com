@@ -31,19 +31,19 @@
         <div ng-show="!state" class="rx-card">
           <h1>Thank You John <br>for Using The National Rx Card</h1>
           <p>Need Help?Have Questions?</p>
-          <p>1-800-8081213        </p>
+          <p>1-800-8081213</p>
         </div>
         <div class="rx-card-download">
-          <div class="column">
+          <div data-ng-click="saveModal();" class="column">
             <h4>Save</h4>
           </div>
-          <div class="column">
+          <div data-ng-click="textModal();" class="column">
             <h4>Text</h4>
           </div>
-          <div class="column">
+          <div data-ng-click="emailModal();" class="column">
             <h4>Email</h4>
           </div>
-          <div class="column">
+          <div data-ng-click="printModal();" class="column">
             <h4>Print</h4>
           </div>
         </div>

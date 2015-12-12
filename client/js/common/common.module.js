@@ -7,6 +7,7 @@
             'ngResource',
             'ngSanitize',
             'ngTouch',
+            'angularModalService',
             'shoppinpal.mobile-menu',
             'ui.router'
         ]);

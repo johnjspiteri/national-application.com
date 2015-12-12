@@ -1,11 +1,22 @@
 (function() {
     'use strict';
 
-    function CommonIndexController ($scope) {
+    function CommonIndexController ($scope, CommonModal) {
 
         $scope.state= false;
-
-
+        
+        $scope.saveModal = function() {
+            CommonModal.saveModal();
+        };
+        $scope.textModal = function() {
+            CommonModal.textModal();
+        };
+        $scope.emailModal = function() {
+            CommonModal.emailModal();
+        };
+        $scope.printModal = function() {
+            CommonModal.printModal();
+        };
 
     }
 
@@ -13,6 +24,6 @@
         .module('app.common')
         .controller('CommonIndexController', CommonIndexController);
 
-    CommonIndexController.$inject = ['$scope'];
+    CommonIndexController.$inject = ['$scope', 'CommonModal'];
 
 })();

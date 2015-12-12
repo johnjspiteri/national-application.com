@@ -24,16 +24,16 @@
                 .rx-card(ng-show='!state')
                     h1 Thank You John <br>for Using The National Rx Card
                     p Need Help?Have Questions?
-                    p 1-800-8081213        
+                    p 1-800-8081213
 
                 .rx-card-download
-                    .column
+                    .column(data-ng-click='saveModal();')
                         h4 Save
-                    .column
+                    .column(data-ng-click='textModal();')
                         h4 Text
-                    .column
+                    .column(data-ng-click='emailModal();')
                         h4 Email
-                    .column
+                    .column(data-ng-click='printModal();')
                         h4 Print
                         
 
