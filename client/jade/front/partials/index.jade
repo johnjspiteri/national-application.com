@@ -2,7 +2,7 @@
     .content-holder
         .content
             .main
-                .rx-card
+                .rx-card(ng-show='state')
                     .card-headline
                         .company
                             h2 National RX Card
@@ -21,6 +21,10 @@
                             p 3456
 
 
+                .rx-card(ng-show='!state')
+                    h1 Thank You John <br>for Using The National Rx Card
+                    p Need Help?Have Questions?
+                    p 1-800-8081213        
 
                 .rx-card-download
                     .column
@@ -31,6 +35,7 @@
                         h4 Email
                     .column
                         h4 Print
+                        
 
             .points
                 .point
@@ -54,19 +59,4 @@
             .center
                 .center-holder
 
-            .bottom
-                .bottom-holder
-                    .price-holder
-                        p “When I gave the pharmacist my RxCut Plus Card the price was only $71.00 with your discount."
-                        h2 James Anderson
-                        h3 Victoria, Texas
-
-                    .price-holder
-                        p “When I gave the pharmacist my RxCut Plus Card the price was only $71.00 with your discount."
-                        h2 James Anderson
-                        h3 Victoria, Texas
-
-                    .price-holder
-                        p “When I gave the pharmacist my RxCut Plus Card the price was only $71.00 with your discount."
-                        h2 James Anderson
-                        h3 Victoria, Texas
+include ./testimonals.jade

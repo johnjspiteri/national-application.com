@@ -3,7 +3,7 @@
   <div class="content-holder">
     <div class="content">
       <div class="main">
-        <div class="rx-card">
+        <div ng-show="state" class="rx-card">
           <div class="card-headline">
             <div class="company">
               <h2>National RX Card</h2>
@@ -27,6 +27,11 @@
               <p>3456</p>
             </div>
           </div>
+        </div>
+        <div ng-show="!state" class="rx-card">
+          <h1>Thank You John <br>for Using The National Rx Card</h1>
+          <p>Need Help?Have Questions?</p>
+          <p>1-800-8081213        </p>
         </div>
         <div class="rx-card-download">
           <div class="column">
@@ -72,19 +77,25 @@
       <div class="center">
         <div class="center-holder"></div>
       </div>
-      <div class="bottom">
-        <div class="bottom-holder">
-          <div class="price-holder">
+    </div>
+  </div>
+</div>
+<div class="page">
+  <div class="content-holder">
+    <div class="content">   
+      <div class="testimonals-holder">
+        <div class="testimonals">
+          <div class="testimonal">
             <p>“When I gave the pharmacist my RxCut Plus Card the price was only $71.00 with your discount."</p>
             <h2>James Anderson</h2>
             <h3>Victoria, Texas</h3>
           </div>
-          <div class="price-holder">
+          <div class="testimonal">
             <p>“When I gave the pharmacist my RxCut Plus Card the price was only $71.00 with your discount."</p>
             <h2>James Anderson</h2>
             <h3>Victoria, Texas</h3>
           </div>
-          <div class="price-holder">
+          <div class="testimonal">
             <p>“When I gave the pharmacist my RxCut Plus Card the price was only $71.00 with your discount."</p>
             <h2>James Anderson</h2>
             <h3>Victoria, Texas</h3>

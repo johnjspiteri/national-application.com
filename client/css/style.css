@@ -2409,7 +2409,7 @@ small {
     float: left;
     width: 460px;
     padding: 0;
-    margin: 50px 0 20px 70px;
+    margin: 50px 0 50px 70px;
   }
   .content .main .rx-card {
     float: left;
@@ -2479,7 +2479,7 @@ small {
     float: left;
     width: 440px;
     padding: 0;
-    margin: 0 0 0 20px;
+    margin: 0 0 50px 20px;
   }
   .content .main .rx-card-download .column {
     float: left;
@@ -2500,6 +2500,31 @@ small {
     line-height: 18px;
     text-align: center;
     text-shadow: 2px 1px 0px #000;
+  }
+  .content .main .confirmation {
+    float: left;
+    width: 418px;
+    padding: 0;
+    margin: 0 0 0 220px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+  }
+  .content .main .confirmation h1 {
+    float: left;
+    width: 100%;
+    padding: 0 0 40px 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .content .main .confirmation p {
+    float: left;
+    width: 100%;
+    padding: 40px 0 0 0;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
   }
   .content .points {
     float: left;
@@ -2556,29 +2581,32 @@ small {
   .content .center {
     float: left;
     width: 1000px;
+    padding: 0;
+    margin: 0 0 50px 0;
   }
   .content .center .center-holder {
     float: left;
     width: 998px;
     height: 260px;
-    margin: 30px 0 50px 0;
+    margin: 0;
     background: #fff;
     border: 1px solid #aaa;
     border-left: none;
     border-right: none;
   }
-  .content .bottom {
+  .content .testimonals-holder {
     position: relative;
     width: 1000px;
+    padding: 0;
     margin: 0 auto;
   }
-  .content .bottom .bottom-holder {
+  .content .testimonals-holder .testimonals {
     float: left;
     width: 920px;
     padding: 0;
-    margin: 0 0 60px 60px;
+    margin: 0 0 50px 60px;
   }
-  .content .bottom .bottom-holder .price-holder {
+  .content .testimonals-holder .testimonals .testimonal {
     float: left;
     width: 218px;
     padding: 24px 30px 28px 30px;
@@ -2586,22 +2614,17 @@ small {
     background: #fff;
     border: 1px solid #aaa;
   }
-  .content .bottom .bottom-holder .price-holder p {
+  .content .testimonals-holder .testimonals .testimonal p {
     float: left;
     width: 100%;
     padding: 0;
-<<<<<<< HEAD
-    margin: 0 0 28px 0;
+    margin: 0 0 0 0;
     font-size: 18px;
     line-height: 28px;
     color: #000;
-=======
-    margin: 0 0 30px 0;
-    font-size: 12px;
->>>>>>> page
     text-align: center;
   }
-  .content .bottom .bottom-holder .price-holder h2 {
+  .content .testimonals-holder .testimonals .testimonal h2 {
     float: left;
     width: 100%;
     padding: 0;
@@ -2610,7 +2633,7 @@ small {
     margin: 0 0 14px 0;
     text-align: center;
   }
-  .content .bottom .bottom-holder .price-holder h3 {
+  .content .testimonals-holder .testimonals .testimonal h3 {
     float: left;
     width: 100%;
     padding: 0;

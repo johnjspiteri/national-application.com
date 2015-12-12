@@ -1,7 +1,11 @@
 (function() {
     'use strict';
 
-    function CommonIndexController () {
+    function CommonIndexController ($scope) {
+
+        $scope.state= false;
+
+
 
     }
 
@@ -9,6 +13,6 @@
         .module('app.common')
         .controller('CommonIndexController', CommonIndexController);
 
-    CommonIndexController.$inject = [];
+    CommonIndexController.$inject = ['$scope'];
 
 })();
