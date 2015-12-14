@@ -2587,9 +2587,9 @@ small {
   }
   .content .center .center-holder {
     float: left;
-    width: 958px;
+    width: 918px;
     padding: 20px 0 0 20px;
-    margin: 0;
+    margin: 0 30px 0 30px;
     background: #fff;
     border: 1px solid #aaa;
     border-left: none;
@@ -2597,28 +2597,21 @@ small {
   }
   .content .center .center-holder h1 {
     float: left;
-    width: 958px;
     padding: 0 0 20px 0;
+    width: 918px;
     margin: 0;
     font-size: 22px;
     font-weight: 400;
   }
-  .content .center .center-holder .row {
+  .content .center .center-holder .logo {
     float: left;
-    width: 918px;
+    height: 40px;
     padding: 0;
-    margin: 0 0 20px 40px;
+    margin: 0 40px 20px 0;
   }
-  .content .center .center-holder .row .column {
+  .content .center .center-holder .logo img {
     float: left;
-    width: 218px;
-    padding: 0;
-    marging: 0 20px 0 0;
-  }
-  .content .center .center-holder .row .column img {
-    float: left;
-    width: 200px;
-    height: 50px;
+    height: 40px;
     padding: 0;
     margin: 0;
     font-size: 18px;
@@ -2778,7 +2771,6 @@ small {
     padding: 5px;
     color: #fff;
   }
-<<<<<<< HEAD
   .modal-holder {
     position: absolute;
     width: 400px;
@@ -2876,7 +2868,7 @@ small {
     margin: 0 0 0 10px;
     font-size: 18px;
     line-height: 24px;
-=======
+  }
   .contact-holder {
     float: left;
     width: 978px;
@@ -3004,6 +2996,5 @@ small {
     padding: 0;
     margin: 0;
     border: 1px solid #aaa;
->>>>>>> front
   }
 }
