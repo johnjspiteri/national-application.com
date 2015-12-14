@@ -16,7 +16,7 @@
         $scope.emailModal = function() {
             CommonModal.emailModal();
         };
-        $scope.emailModal();
+        // $scope.emailModal();
         $scope.printModal = function() {
             CommonModal.printModal();
         };
