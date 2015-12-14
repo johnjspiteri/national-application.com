@@ -9,6 +9,7 @@
             'ngTouch',
             'angularModalService',
             'shoppinpal.mobile-menu',
+            'uiGmapgoogle-maps',
             'ui.router'
         ]);
 })();

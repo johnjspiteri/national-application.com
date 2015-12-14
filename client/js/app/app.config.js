@@ -1,7 +1,13 @@
 (function() {
     'use strict';
 
-    function config ($urlRouterProvider) {
+    function config ($urlRouterProvider, uiGmapGoogleMapApiProvider) {
+
+        uiGmapGoogleMapApiProvider.configure({
+             //    key: 'your api key',
+            v: '3.17',
+            libraries: 'weather,geometry,visualization'
+        });
 
         $urlRouterProvider.otherwise('/404');
         $urlRouterProvider.rule(function ($injector, $location) {
@@ -20,6 +26,6 @@
         .module('app')
         .config(config);
 
-    config.$inject = ['$urlRouterProvider'];
+    config.$inject = ['$urlRouterProvider', 'uiGmapGoogleMapApiProvider'];
 
 })();

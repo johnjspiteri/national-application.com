@@ -1,0 +1,16 @@
+.map-holder
+	.map
+		form.directions(name='form', id='item', data-ng-model='item', data-ng-submit='form.submit(form.$valid)', novalidate)
+			.car
+			h3 Directions
+			input(type='text', name='postal_code', data-ng-model='item.postal_code', placeholder='Enter Postal Code', ng-minlength='7', ng-maxlength='7', required)
+			.direction-errors(ng-messages='form.postal_code.$error', ng-if='form.postal_code.$touched && form.postal_code.$invalid')
+				h5(ng-message='required') A postal code is required
+				h5(ng-message='minlength') The postal code format is <br> "M5M 1A1"
+				h5(ng-message='maxlength') The postal code format is <br> "M5M 1A1"
+				h5(ng-message='pattern') A postal code only has letters and numbers.
+
+			button.submit(ng-show='form.postal_code.$valid') Submit
+		#map_canvas
+			ui-gmap-google-map(center='map.center', zoom='map.zoom', options='options')
+				ui-gmap-marker(coords='marker.coords', options='marker.options', icon='marker.options.icon', idkey='marker.id')

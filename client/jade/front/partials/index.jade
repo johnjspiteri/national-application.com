@@ -55,7 +55,11 @@
                         h1 3
                     .text
                         h3 Selling Point That Appeals Third
-
+            .center
+                .center-holder
+                    #map_canvas
+                        ui-gmap-google-map(center='map.center', zoom='map.zoom', options='options')
+                            ui-gmap-marker(coords='marker.coords', options='marker.options', icon='marker.options.icon', idkey='marker.id')
             .center
                 .center-holder
                     h1 Accepted at over 66,000 U.S pharmacies:
