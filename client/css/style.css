@@ -272,6 +272,19 @@ small {
   filter: alpha(opacity=60);
   z-index: 100;
 }
+#map_canvas {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.angular-google-map-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 /*
  *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2642,6 +2655,78 @@ small {
     font-size: 16px;
     line-height: 16px;
     text-align: center;
+  }
+  .gmnoprint,
+  a[href] {
+    display: none !important;
+  }
+  .map-holder {
+    position: relative;
+    width: 300px;
+    height: 380px;
+    margin: 0 auto;
+    z-index: 98;
+  }
+  .map-holder .map {
+    float: left;
+    width: 298px;
+    height: 380px;
+    border: 1px solid #ccc;
+  }
+  .map-holder .map .directions {
+    position: absolute;
+    width: 130px;
+    padding: 12px 10px 5px 10px;
+    background: rgba(255,255,255,0.8);
+    margin: 14px 0 0 136px;
+    z-index: 9999;
+    border: 1px solid #ccc;
+  }
+  .map-holder .map .car {
+    display: none;
+  }
+  .map-holder .map h4 {
+    float: left;
+    width: 100%;
+    margin: 0 0 4px 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .map-holder .map input {
+    float: left;
+    width: 128px;
+    height: 33px;
+    padding: 1px 0 0 0;
+    margin: 6px 0;
+    font-size: 13px;
+    line-height: 13px;
+    color: #444;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .map-holder .map .submit {
+    float: left;
+    width: 140px;
+    height: 36px;
+    margin: 6px 0 8px 0;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    background-image: linear-gradient(to bottom, #444, #222);
+    background-repeat: repeat-x;
+    color: #fff;
+    border-radius: 4px;
+  }
+  .map-full {
+    height: 500px;
   }
   .faq-holder {
     float: left;
