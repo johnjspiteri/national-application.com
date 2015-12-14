@@ -2867,7 +2867,6 @@ small {
     padding: 5px;
     color: #fff;
   }
-<<<<<<< HEAD
   .modal-holder {
     position: absolute;
     width: 400px;
@@ -2965,7 +2964,7 @@ small {
     margin: 0 0 0 10px;
     font-size: 18px;
     line-height: 24px;
-=======
+  }
   .contact-holder {
     float: left;
     width: 978px;
@@ -3093,6 +3092,5 @@ small {
     padding: 0;
     margin: 0;
     border: 1px solid #aaa;
->>>>>>> front
   }
 }
