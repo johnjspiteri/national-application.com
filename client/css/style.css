@@ -2587,13 +2587,41 @@ small {
   }
   .content .center .center-holder {
     float: left;
-    width: 998px;
-    height: 260px;
+    width: 958px;
+    padding: 20px 0 0 20px;
     margin: 0;
     background: #fff;
     border: 1px solid #aaa;
     border-left: none;
     border-right: none;
+  }
+  .content .center .center-holder h1 {
+    float: left;
+    width: 958px;
+    padding: 0 0 20px 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .content .center .center-holder .row {
+    float: left;
+    width: 918px;
+    padding: 0;
+    margin: 0 0 20px 40px;
+  }
+  .content .center .center-holder .row .column {
+    float: left;
+    width: 218px;
+    padding: 0;
+    marging: 0 20px 0 0;
+  }
+  .content .center .center-holder .row .column img {
+    float: left;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
   }
   .content .testimonals-holder {
     position: relative;
@@ -2750,6 +2778,7 @@ small {
     padding: 5px;
     color: #fff;
   }
+<<<<<<< HEAD
   .modal-holder {
     position: absolute;
     width: 400px;
@@ -2847,5 +2876,134 @@ small {
     margin: 0 0 0 10px;
     font-size: 18px;
     line-height: 24px;
+=======
+  .contact-holder {
+    float: left;
+    width: 978px;
+    padding: 20px 0 20px 20px;
+    margin: 30px 0 0 0;
+  }
+  .contact-holder h1 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .contact-holder .contact-container {
+    float: left;
+    width: 978px;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .contact-holder .contact-container .contact-detail {
+    float: left;
+    width: 466px;
+    padding: 10px 0 10px 10px;
+    margin: 0 20px 20px 0;
+    border: 1px solid #aaa;
+  }
+  .contact-holder .contact-container .contact-detail h2 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+  .contact-holder .contact-container .contact-detail .address {
+    float: left;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-holder .contact-container .contact-detail .address p {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .contact-holder .contact-container .contact-detail .contact-information {
+    float: left;
+    width: 206px;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-holder .contact-container .contact-detail .contact-information h3 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .contact-holder .contact-container .contact-detail .logo {
+    float: left;
+    width: 120px;
+    border: 1px solid #aaa;
+  }
+  .contact-holder .contact-container .contact-detail .logo p {
+    float: left;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .contact-holder .contact-container .contact-form {
+    float: left;
+    width: 420px;
+    padding: 20px 0 10px 20px;
+    margin: 0;
+    border: 1px solid #aaa;
+  }
+  .contact-holder .contact-container .contact-form .row {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-holder .contact-container .contact-form .row .column {
+    float: left;
+    width: 148px;
+    padding: 0;
+    margin: 0 40px 20px 0;
+    border: 1px solid #aaa;
+  }
+  .contact-holder .contact-container .contact-form .row .column p {
+    float: right;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  .contact-holder .contact-container .contact-form .message {
+    float: left;
+    width: 400px;
+    height: 80px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    border: 1px solid #aaa;
+  }
+  .contact-holder .contact-container .contact-form p {
+    float: right;
+    width: 110px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  .contact-holder .map {
+    float: left;
+    width: 956px;
+    height: 420px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #aaa;
+>>>>>>> front
   }
 }
