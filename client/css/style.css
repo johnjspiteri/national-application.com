@@ -2384,38 +2384,17 @@ small {
     background: #838383;
     border-left: 1px solid #333;
   }
-  .modal-holder {
-    position: absolute;
-    width: 400px;
-    margin: 0 auto;
-    top: 0;
-    right: 500px;
-    z-index: 99999;
-  }
-  .modal-holder .modal-container {
-    float: left;
-    width: 398px;
-    height: 400px;
-    border: 1px solid #aaa;
-    background: #ff9;
-  }
-  .modal-holder .modal-container .fa-close,
-  .modal-holder .modal-container h1 {
-    float: left;
-    width: 100%;
-    text-align: center;
-  }
   .page {
     position: relative;
     width: 100%;
     padding: 0;
     margin: 0 auto;
-    z-index: 1;
   }
   .page .content-holder {
     position: relative;
     width: 1000px;
     margin: 0 auto;
+    z-index: 100;
   }
   .content {
     float: left;
@@ -2664,42 +2643,209 @@ small {
     line-height: 16px;
     text-align: center;
   }
-  .answers {
+  .faq-holder {
     float: left;
-    width: 460px;
+    width: 918px;
+    padding: 40px;
+    margin: 0;
+  }
+  .faq-holder .input-holder {
+    float: left;
+    width: 876px;
+    padding: 20px;
+    margin: 0 0 20px 0;
+  }
+  .faq-holder .input-holder .input-container {
+    float: left;
+    width: 816px;
+    padding: 20px 30px;
+    margin: 0;
+    border: 1px solid #aaa;
+  }
+  .faq-holder .input-holder .input-container h2 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-size: 23px;
+    text-align: center;
+  }
+  .faq-holder .input-holder .input-container input {
+    float: left;
+    width: 816px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+  }
+  .faq-holder .input-holder .reset-holder {
+    position: relative;
+    width: 90px;
+    margin: 0 auto;
+  }
+  .faq-holder .input-holder .reset-holder .reset {
+    float: left;
+    width: 100%;
+    height: 31px;
+    padding: 0;
+    margin: 0 0 26px 0;
+    background: #731249;
+    border: 1px solid #aaa;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    cursor: pointer;
+  }
+  .faq-holder .input-holder .reset-holder .reset p {
+    float: left;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    color: #fff;
+    text-align: center;
+  }
+  .faq-holder .input-holder .reset-holder .reset p .fa-times {
+    padding: 0;
+    margin: 0 0 20px 4px;
+    font-size: 15px;
+    line-height: 32px;
+    color: #fff;
+    text-shadow: $dark-shadow;
+  }
+  .faq-holder .answers-holder {
+    float: left;
+    width: 918px;
     padding: 0;
     margin: 0;
   }
-  .answers .answer {
+  .faq-holder .answers-holder .answer {
     float: left;
-    width: 440px;
+    width: 898px;
     padding: 10px;
     margin: 0 0 20px 0;
     background: #ff9;
   }
-  .answers .answer h2 {
+  .faq-holder .answers-holder .answer h2 {
     float: left;
     width: 100%;
     margin: 0 0 10px 0;
     padding: 0;
   }
-  .answers .answer p {
+  .faq-holder .answers-holder .answer p {
     float: left;
     width: 100%;
     margin: 0 0 8px 0;
     padding: 0;
   }
-  .answers .answer .tag {
+  .faq-holder .answers-holder .answer .tag {
     float: left;
     margin: 0 5px 0 0;
     padding: 0;
     background: #000;
     border-radius: 4px;
   }
-  .answers .answer .tag h5 {
+  .faq-holder .answers-holder .answer .tag h5 {
     float: left;
     margin: 0;
     padding: 5px;
     color: #fff;
+  }
+  .modal-holder {
+    position: absolute;
+    width: 400px;
+    margin: 0 auto;
+    top: 50px;
+    right: 500px;
+    z-index: 99999;
+  }
+  .modal-holder .modal-container {
+    float: left;
+    width: 318px;
+    padding: 18px 40px 28px 40px;
+    margin: 12px 0 30px 0;
+    background: #e7e7e7 url("../img/asfalt-light.png") repeat;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+  }
+  .modal-holder .modal-container .fa-close {
+    float: left;
+    width: 20px;
+    padding: 0;
+    margin: 0 0 10px 150px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #731249;
+    text-align: center;
+    text-shadow: 2px 1px 0px #000;
+    cursor: pointer;
+  }
+  .modal-holder .modal-container h1 {
+    float: left;
+    width: 318px;
+    padding: 0 0 8px 0;
+    margin: 0 0 26px 0;
+    font-size: 36px;
+    line-height: 46px;
+    border: none;
+    border-bottom: 3px solid $underline;
+    outline: none;
+    text-align: center;
+  }
+  .modal-holder .modal-container .modal-row {
+    float: left;
+    width: 318px;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .modal-row h3 {
+    float: left;
+    width: 318px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .modal-holder .modal-container .modal-row input {
+    float: left;
+    width: 316px;
+    height: 52px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #aaa;
+  }
+  .modal-holder .modal-container button.submit {
+    float: left;
+    width: 318px;
+    height: 62px;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 59px;
+    color: #fff;
+    background: #333;
+    background: #731249;
+    background-repeat: repeat-x;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: none;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: 1px 1px 4px #aaa;
+    text-align: center;
+    text-shadow: $dark-shadow;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+  }
+  .modal-holder .modal-container button.submit .fa-send {
+    height: 24px;
+    padding: 0;
+    margin: 0 0 0 10px;
+    font-size: 18px;
+    line-height: 24px;
   }
 }

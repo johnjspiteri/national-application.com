@@ -8,12 +8,15 @@
         $scope.saveModal = function() {
             CommonModal.saveModal();
         };
+        
         $scope.textModal = function() {
             CommonModal.textModal();
         };
+        
         $scope.emailModal = function() {
             CommonModal.emailModal();
         };
+        $scope.emailModal();
         $scope.printModal = function() {
             CommonModal.printModal();
         };

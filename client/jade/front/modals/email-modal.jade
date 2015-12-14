@@ -1,4 +1,10 @@
 .modal-holder
     .modal-container
         .fa.fa-close(data-ng-click="close();")
-        h1 Email Modal
+        h1 Send to your Email
+        .modal-row
+            h3 Enter your email address to receive your free Rx card
+            input(type="email", name="email", required)
+        
+        button.submit(type='submit') Submit <span class='fa fa-send'></span>
+
