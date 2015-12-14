@@ -2,7 +2,7 @@
     .content-holder
         .content
             .main
-                .rx-card(ng-show='state')
+                .rx-card(ng-show='!state')
                     .card-headline
                         .company
                             h2 National RX Card
@@ -58,5 +58,35 @@
 
             .center
                 .center-holder
-
+                    h1 Accepted at over 66,000 U.S pharmacies:
+                    .row
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-albertsons.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-ap.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-costco.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-duanereade.gif')
+                                
+                    .row
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-kmart.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-kroger.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-riteaid.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-target.gif')
+                                
+                    .row
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-vons.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-walgreens.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-walmart.gif')
+                        .column
+                            img(ng-src='/img/pharmacies/pharm-winndixie.gif')
+                
 include ./testimonals.jade
