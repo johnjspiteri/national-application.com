@@ -4,8 +4,8 @@ header
 	top 0
 	padding 0
 	margin 0
-	background $background-texture
-	border-bottom 1px solid #333
+	background $header
+	border-bottom $border-header
 
 	.header
 		position relative
@@ -38,15 +38,15 @@ header
 			height 78px
 			padding 0
 			margin 0
-			border-right 1px solid #333
+			border-right $border-header
 
 			.tile
 				float right
 				height 78px
 				padding 0 32px 0 32px
 				margin 0
-				background $burgundy
-				border-left 1px solid #333
+				background $header-tile
+				border-left $border-header
 
 				h4
 					float left
@@ -61,5 +61,5 @@ header
 
 			.tile.active
 				height 79px
-				background #838383
-				border-left 1px solid #333
+				background $background
+				border-left $border-header

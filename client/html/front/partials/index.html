@@ -3,35 +3,43 @@
   <div class="content-holder">
     <div class="content">
       <div class="main">
-        <div ng-show="!state" class="rx-card">
-          <div class="card-headline">
-            <div class="company">
-              <h2>National RX Card</h2>
+        <div data-ng-click="toggle();" ng-show="state" class="rx-card">
+          <div class="card-logo"><img ng-src="/img/icon.png"/></div>
+          <div class="card-content">
+            <div class="card-headline">
+              <div class="company">
+                <h2>National Rx Card</h2>
+              </div>
+              <div class="card-title">
+                <p>CARD NUMBER</p>
+              </div>
             </div>
-            <div class="card-title">
-              <p>CARD NUMBER</p>
+            <div class="card-numbers">
+              <div class="square">
+                <p>3456</p>
+              </div>
+              <div class="square">
+                <p>3456</p>
+              </div>
+              <div class="square">
+                <p>3456</p>
+              </div>
+              <div class="square">
+                <p>3456</p>
+              </div>
             </div>
-          </div>
-          <div class="card-logo"></div>
-          <div class="card-numbers">
-            <div class="square">
-              <p>3456</p>
-            </div>
-            <div class="square">
-              <p>3456</p>
-            </div>
-            <div class="square">
-              <p>3456</p>
-            </div>
-            <div class="square">
-              <p>3456</p>
+            <div class="card-name">
+              <input placeholder="Preferred Client"/>
             </div>
           </div>
         </div>
-        <div ng-show="!state" class="rx-card">
-          <h1>Thank You John <br>for Using The National Rx Card</h1>
-          <p>Need Help?Have Questions?</p>
-          <p>1-800-8081213</p>
+        <div data-ng-click="toggle();" ng-show="!state" class="rx-card">
+          <div class="card-logo"><img ng-src="/img/icon.png"/></div>
+          <div class="card-content">
+            <h1>Thank You John <br>for Using The National Rx Card</h1>
+            <p>Need Help? Have Questions?</p>
+            <p>1-800 808-1213</p>
+          </div>
         </div>
         <div class="rx-card-download">
           <div data-ng-click="saveModal();" class="column">
@@ -93,7 +101,7 @@
       </div>
     </div>
   </div>
-</div>>>>>>>> front
+</div>
 <div class="page">
   <div class="content-holder">
     <div class="content">   

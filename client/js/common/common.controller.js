@@ -2,6 +2,7 @@
     'use strict';
 
     function CommonController ($scope, uiGmapGoogleMapApi) {
+
         $scope.map = {
             center:
                 { latitude: 43.648125, longitude: -79.394845 },

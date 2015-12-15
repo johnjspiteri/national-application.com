@@ -2,29 +2,35 @@
     .content-holder
         .content
             .main
-                .rx-card(ng-show='!state')
-                    .card-headline
-                        .company
-                            h2 National RX Card
-                        .card-title
-                            p CARD NUMBER
+                .rx-card(data-ng-click='toggle();', ng-show='state')
                     .card-logo
-                        
-                    .card-numbers
-                        .square
-                            p 3456
-                        .square
-                            p 3456
-                        .square
-                            p 3456
-                        .square
-                            p 3456
+                        img(ng-src='/img/icon.png')
+                    .card-content
+                        .card-headline
+                            .company
+                                h2 National Rx Card
+                            .card-title
+                                p CARD NUMBER
 
+                        .card-numbers
+                            .square
+                                p 3456
+                            .square
+                                p 3456
+                            .square
+                                p 3456
+                            .square
+                                p 3456
+                        .card-name
+                            input(placeholder="Preferred Client")
 
-                .rx-card(ng-show='!state')
-                    h1 Thank You John <br>for Using The National Rx Card
-                    p Need Help?Have Questions?
-                    p 1-800-8081213
+                .rx-card(data-ng-click='toggle();', ng-show='!state')
+                    .card-logo
+                        img(ng-src='/img/icon.png')
+                    .card-content
+                        h1 Thank You John <br>for Using The National Rx Card
+                        p Need Help? Have Questions?
+                        p 1-800 808-1213
 
                 .rx-card-download
                     .column(data-ng-click='saveModal();')
@@ -35,7 +41,7 @@
                         h4 Email
                     .column(data-ng-click='printModal();')
                         h4 Print
-                        
+
 
             .points
                 .point
@@ -66,7 +72,7 @@
                         img(ng-src='/img/pharmacies/pharm-costco.gif')
                     .logo
                         img(ng-src='/img/pharmacies/pharm-duanereade.gif')
-                            
+
                     .logo
                         img(ng-src='/img/pharmacies/pharm-kmart.gif')
                     .logo
@@ -75,7 +81,7 @@
                         img(ng-src='/img/pharmacies/pharm-target.gif')
                     .logo
                         img(ng-src='/img/pharmacies/pharm-walmart.gif')
-                            
+
                     .logo
                         img(ng-src='/img/pharmacies/pharm-vons.gif')
                     .logo
@@ -84,6 +90,5 @@
                         img(ng-src='/img/pharmacies/pharm-riteaid.gif')
                     .logo
                         img(ng-src='/img/pharmacies/pharm-winndixie.gif')
-                
->>>>>>> front
+
 include ./testimonals.jade

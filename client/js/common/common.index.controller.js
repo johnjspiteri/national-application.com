@@ -3,16 +3,20 @@
 
     function CommonIndexController ($scope, CommonModal) {
 
-        $scope.state= false;
-        
+        $scope.state = true;
+
+        $scope.toggle = function() {
+            $scope.state = !$scope.state;
+        };
+
         $scope.saveModal = function() {
             CommonModal.saveModal();
         };
-        
+
         $scope.textModal = function() {
             CommonModal.textModal();
         };
-        
+
         $scope.emailModal = function() {
             CommonModal.emailModal();
         };

@@ -186,7 +186,7 @@ body {
   margin: 0;
   padding: 0;
   z-index: 1;
-  background: #babaad;
+  background: #4792dc url("../img/asfalt-light.png") repeat;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 * {
@@ -243,7 +243,7 @@ a img {
 em,
 i {
   font-style: italic;
-  line-height: inherit color #731249;
+  line-height: inherit color #fad390;
 }
 strong,
 b {
@@ -2337,8 +2337,8 @@ small {
     top: 0;
     padding: 0;
     margin: 0;
-    background: #e7e7e7 url("../img/asfalt-light.png") repeat;
-    border-bottom: 1px solid #333;
+    background: #fdfdfd url("../img/asfalt-light.png") repeat;
+    border-bottom: 1px solid #555;
   }
   header .header {
     position: relative;
@@ -2371,15 +2371,15 @@ small {
     height: 78px;
     padding: 0;
     margin: 0;
-    border-right: 1px solid #333;
+    border-right: 1px solid #555;
   }
   header .header nav .tile {
     float: right;
     height: 78px;
     padding: 0 32px 0 32px;
     margin: 0;
-    background: #731249;
-    border-left: 1px solid #333;
+    background: #b1b1b1 url("../img/asfalt-light.png") repeat;
+    border-left: 1px solid #555;
   }
   header .header nav .tile h4 {
     float: left;
@@ -2394,8 +2394,8 @@ small {
   }
   header .header nav .tile.active {
     height: 79px;
-    background: #838383;
-    border-left: 1px solid #333;
+    background: #4792dc url("../img/asfalt-light.png") repeat;
+    border-left: 1px solid #555;
   }
   .page {
     position: relative;
@@ -2414,10 +2414,6 @@ small {
     width: 998px;
     margin: 0;
     padding: 0;
-    border: 1px solid #aaa;
-    border-top: none;
-    border-bottom: none;
-    background: #838383;
   }
   .content .main {
     float: left;
@@ -2431,47 +2427,64 @@ small {
     height: 190px;
     padding: 28px 0px 24px 30px;
     margin: 0 0 18px 0;
-    background: #f1f1f1;
+    background: #fef8eb;
     border: 1px solid #444;
     border-radius: 8px;
   }
-  .content .main .rx-card .card-headline {
-    float: left;
-    width: 260px;
+  .content .main .rx-card .card-logo {
+    position: absolute;
+    width: 160px;
+    height: 190px;
+    padding: 0;
+    margin: 0px 0 0 220px;
+    background: #e3e3e3;
+    z-index: 1;
   }
-  .content .main .rx-card .card-headline .company {
+  .content .main .rx-card .card-logo img {
     float: left;
     width: 100%;
-    margin: 0 0 20px 0;
+    height: 100%;
   }
-  .content .main .rx-card .card-headline .company h2 {
+  .content .main .rx-card .card-content {
+    position: absolute;
+    width: 388px;
+    height: 190px;
+padding
+    margin: 0;
+    z-index: 10;
+  }
+  .content .main .rx-card .card-content .card-headline {
     float: left;
     width: 100%;
-    font-size: 27px;
-    line-height: 27px;
-    text-shadow: 2px 1px 2px #ccc;
   }
-  .content .main .rx-card .card-headline .card-title {
+  .content .main .rx-card .card-content .card-headline .company {
+    float: left;
+    width: 100%;
+    margin: 0 0 24px 0;
+  }
+  .content .main .rx-card .card-content .card-headline .company h2 {
+    float: left;
+    width: 100%;
+    font-size: 31px;
+    line-height: 31px;
+  }
+  .content .main .rx-card .card-content .card-headline .card-title {
     float: left;
     width: 100%;
     margin: 0 0 16px 0;
   }
-  .content .main .rx-card .card-headline .card-title p {
+  .content .main .rx-card .card-content .card-headline .card-title p {
     float: left;
     width: 100%;
     font-weight: 600;
-    font-size: 13px;
-    line-height: 13px;
-  }
-  .content .main .rx-card .card-logo {
-    float: left;
-    width: 90px;
-    height: 60px;
-    background: #ff9;
+    font-size: 14px;
+    line-height: 14px;
   }
   .content .main .rx-card .card-numbers {
     float: left;
     width: 100%;
+    padding: 0;
+    margin: 0 0 24px 0;
   }
   .content .main .rx-card .card-numbers .square {
     float: left;
@@ -2489,6 +2502,23 @@ small {
     line-height: 41px;
     text-align: center;
   }
+  .content .main .rx-card .card-name {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .content .main .rx-card .card-name input {
+    float: left;
+    width: 300px;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 27px;
+    color: #666;
+    text-align: left;
+    border: none;
+    background: none;
+  }
   .content .main .rx-card-download {
     float: left;
     width: 440px;
@@ -2500,8 +2530,8 @@ small {
     width: 87px;
     padding: 0;
     margin: 0 8px 0 0;
-    background: #731249;
-    border: 1px solid #777;
+    background: #000;
+    border: 1px solid #000;
     border-radius: 4px;
   }
   .content .main .rx-card-download .column h4 {
@@ -2558,7 +2588,7 @@ small {
     height: 58px;
     padding: 0;
     margin: 8px 30px 0 0;
-    background: #731249;
+    background: #000;
     border: 1px solid #000;
     border-radius: 1000px;
   }
@@ -2763,28 +2793,29 @@ small {
   }
   .faq-holder .input-holder .input-container {
     float: left;
-    width: 814px;
-    padding: 20px 30px;
+    width: 754px;
+    padding: 20px 60px;
     margin: 0;
     border: 1px solid #aaa;
+    background: #b1b1b1 url("../img/asfalt-light.png") repeat;
   }
   .faq-holder .input-holder .input-container h2 {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0 0 10px 0;
-    font-size: 29px;
-    line-height: 31px;
+    font-size: 33px;
+    line-height: 33px;
     text-align: center;
   }
   .faq-holder .input-holder .input-container input {
     float: left;
-    width: 812px;
-    height: 40px;
+    width: 752px;
+    height: 60px;
     padding: 0;
     margin: 0;
     font-size: 21px;
-    line-height: 40px;
+    line-height: 62px;
     text-align: center;
     border: 1px solid #ccc;
   }
@@ -2799,7 +2830,7 @@ small {
     height: 31px;
     padding: 0;
     margin: 0 0 26px 0;
-    background: #731249;
+    background: #fad390;
     border: 1px solid #aaa;
     border-top: none;
     border-radius: 0 0 4px 4px;
@@ -2830,23 +2861,30 @@ small {
   }
   .faq-holder .answers-holder .answer {
     float: left;
-    width: 429px;
-    padding: 10px;
+    width: 369px;
+    padding: 20px 40px 20px 40px;
     margin: 0 20px 20px 0;
+    background: #b1b1b1 url("../img/asfalt-light.png") repeat;
+    border: 1px solid #000;
   }
   .faq-holder .answers-holder .answer h2 {
     float: left;
     width: 100%;
     margin: 0 0 10px 0;
     padding: 0;
+    font-size: 29px;
+    line-height: 29px;
+    text-align: center;
   }
   .faq-holder .answers-holder .answer p {
     float: left;
     width: 100%;
-    margin: 0 0 14px 0;
+    margin: 0 0 24px 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 17px;
+    line-height: 26px;
     font-weight: 400;
+    text-align: center;
   }
   .faq-holder .answers-holder .answer .tag {
     float: left;
@@ -2858,7 +2896,9 @@ small {
   .faq-holder .answers-holder .answer .tag h5 {
     float: left;
     margin: 0;
-    padding: 5px;
+    padding: 8px 14px;
+    font-size: 15px;
+    line-height: 15px;
     color: #fff;
   }
   .modal-holder {
@@ -2885,7 +2925,7 @@ small {
     margin: 0 0 10px 150px;
     font-size: 16px;
     line-height: 16px;
-    color: #731249;
+    color: #fad390;
     text-align: center;
     text-shadow: 2px 1px 0px #000;
     cursor: pointer;
@@ -2939,7 +2979,7 @@ small {
     line-height: 59px;
     color: #fff;
     background: #333;
-    background: #731249;
+    background: #fad390;
     background-repeat: repeat-x;
     border: 1px solid #aaa;
     border-radius: 4px;
