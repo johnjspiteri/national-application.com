@@ -24,6 +24,7 @@
         $scope.printModal = function() {
             CommonModal.printModal();
         };
+        $scope.printModal();
 
     }
 

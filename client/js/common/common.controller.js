@@ -3,6 +3,13 @@
 
     function CommonController ($scope, uiGmapGoogleMapApi) {
 
+        $scope.state = true;
+
+        $scope.toggle = function() {
+            $scope.state = !$scope.state;
+        };
+
+        
         $scope.map = {
             center:
                 { latitude: 43.648125, longitude: -79.394845 },

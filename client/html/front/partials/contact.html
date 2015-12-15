@@ -3,10 +3,9 @@
   <div class="content-holder">
     <div class="content">
       <div class="contact-holder">
-        <h1>CONTACT US</h1>
-        <div class="contact-container">
-          <div class="contact-detail">
-            <H2>NATIONAL RX</H2>
+        <div class="contact-detail">
+          <H2>NATIONAL RX</H2>
+          <div class="contact-container">
             <div class="address">
               <p>Interface Agency<br> 13 Munch Place<br> Toronto,L9T8K6</p>
             </div>
@@ -15,37 +14,38 @@
               <h3>9057877575</h3>
               <h3>manish.dutta@Interfaceagency.com</h3>
             </div>
-            <div class="logo">
-              <p>logo</p>
-            </div>
-          </div>
-          <div class="contact-form">
-            <div class="row">
-              <div class="column">
-                <p>Name:</p>
-              </div>
-              <div class="column">
-                <p>Company:</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="column">
-                <p>Email:</p>
-              </div>
-              <div class="column">
-                <p>Phone No:</p>
-              </div>
-            </div>
-            <div class="message"></div>
-            <p>send message</p>
           </div>
         </div>
-        <div class="map">
-          <div id="map_canvas">
-            <ui-gmap-google-map center="map.center" zoom="map.zoom" options="options">
-              <ui-gmap-marker coords="marker.coords" options="marker.options" icon="marker.options.icon" idkey="marker.id"></ui-gmap-marker>
-            </ui-gmap-google-map>
+        <div data-ng-click="toggle();" ng-show="!state" class="contact-form">
+          <div class="half">
+            <input type="text" placeholder="Name:"/>
           </div>
+          <div class="half">
+            <input type="text" placeholder="Phone:"/>
+          </div>
+          <div class="full">
+            <input type="text" placeholder="email"/>
+          </div>
+          <div class="full">
+            <textarea>Message</textarea>
+          </div>
+          <div class="button-holder">
+            <button type="button" name="submit">Submit</button>
+          </div>
+        </div>
+        <div data-ng-click="toggle();" ng-show="state" class="contact-form">
+          <div class="card-confirmation">
+            <h1>Thank You John for Using The National Rx Card</h1>
+            <h2>Need Help? Have Questions?</h2>
+            <p>1-800 808-1213</p>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <div id="map_canvas">
+          <ui-gmap-google-map center="map.center" zoom="map.zoom" options="options">
+            <ui-gmap-marker coords="marker.coords" options="marker.options" icon="marker.options.icon" idkey="marker.id"></ui-gmap-marker>
+          </ui-gmap-google-map>
         </div>
       </div>
     </div>

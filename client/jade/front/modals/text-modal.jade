@@ -1,11 +1,13 @@
 .modal-holder
     .modal-container
         .fa.fa-close(data-ng-click="close();")
-        h1 Send to your Phone
-        .modal-row
-            h3 Enter you phone number to receive your free Rx card
-            input(type="tel", name="contact")
-        
-        button.submit(type='submit') Submit <span class='fa fa-send'></span>
+        h1 Text My Free Rx Discount Card 
+        .modal-row-half
+            .half
+                input(type="text" placeholder="Name")
+            .half
+                input(type="tel" placeholder="Phone")
+        textarea Message
+        button.submit(type='submit') Submit 
 
         

@@ -1,4 +1,36 @@
 .modal-holder
     .modal-container
         .fa.fa-close(data-ng-click="close();")
-        h1 Save modal
+        h1 Save PDF To Device
+        .rx-card
+            .card-logo
+                img(ng-src='/img/icon.png')
+            .card-content
+                .card-headline
+                    .company
+                        h2 National Rx Card
+                        
+                    .patient-holder
+                        .row
+                            h2 Patient ID
+                            h4 NRX43710
+                        .row
+                            .column
+                                h3 Group
+                            .column
+                                h4 96100245    
+                        .row
+                            .column
+                                h3 BIN
+                            .column
+                                h4 018398
+                        .row
+                            .column
+                                h3 PCN
+                            .column
+                                h4 48300712
+                                
+                .card-name
+                    input(placeholder="Preferred Client")
+                        
+        button.submit(type='submit') Submit

@@ -4,32 +4,26 @@
     padding 20px 0 20px 20px
     margin 30px 0 0 0
 
-    h1
+    .contact-detail
         float left
-        width 100%
-        padding 0
-        margin 0 0 10px 0
-        font-size 18px
-        font-weight 400
-    .contact-container
-        float left
-        width 978px
-        padding 0
-        margin 0 0 20px 0
-
-        .contact-detail
+        width  428px
+        padding 20px 0 20px 30px
+        margin 0 20px 0 0
+        border $border
+        background $white
+        h2
             float left
-            width  466px
-            padding 10px 0 10px 10px
-            margin 0 20px 20px 0
-            border $border
+            width 200px
+            padding 0
+            margin 0 0 10px 0
+            font-size 18px
+            text-align center
 
-            h2
-                float left
-                width 100%
-                padding 0
-                margin 0 0 10px 0
-                font-size 14px
+        .contact-container
+            float left
+            width 428px
+            padding 0
+            margin 0
 
             .address
                 float left
@@ -39,16 +33,17 @@
 
                 p
                     float left
-                    width 100%
+                    width 150px
                     padding 0
                     margin 0
                     font-size 14px
-                    line-height 18px
+                    font-weight 200
+                    line-height 22px
                     font-weight 400
 
             .contact-information
                 float left
-                width 206px
+                width 268px
                 padding 0
                 margin 0
                 //background #def
@@ -57,65 +52,90 @@
                     width 100%
                     padding 0
                     margin 0
-                    font-size 12px
-                    line-height 18px
+                    font-size 16px
+                    font-weight 300
+                    line-height 22px
                     font-weight 400
 
-            .logo
-                float left
-                width 120px
-                border $border
-                p
-                    float left
-                    width 100%
-                    padding 20px 0 20px 0
-                    margin 0
-                    text-align center
-                    font-size 14px
-                    font-weight 400
+    .contact-form
+        float left
+        width 466px
+        //height 220px
+        padding 20px 0 10px 30px
+        margin 0 0 20px 0
+        border $border
 
-        .contact-form
+        .half
             float left
-            width 420px
-            //height 150px
-            padding 20px 0 10px 20px
-            margin 0
-            border $border
+            width 208px
+            padding 0
+            margin 0 20px 20px 0
+            background #ff9
+            //border $border
+            input
+                float left
+                width 198px
+                padding 5px
+                margin 0
 
-            .row
+        .full
+            float left
+            width 436px
+            padding 0
+            margin 0 0 20px 0
+
+            input
+            textarea
+                float left
+                width 426px
+                padding 5px
+                margin 0
+
+        .button-holder
+            position relative
+            width 466px
+            margin 0 auto
+
+            button
+                float left
+                width 434px
+                height 40px
+                padding 0
+                margin 0
+                border $border
+                cursor pointer
+                
+        .card-confirmation
+            float left
+            width 466px
+            padding 0
+            margin 0
+
+            h1
+                float left
+                width 436px
+                padding 0
+                margin 0 0 20px 0
+                font-size 24px
+                text-align center
+
+            h2
                 float left
                 width 100%
                 padding 0
-                margin 0
-
-                .column
-                    float left
-                    width 148px
-                    padding 0
-                    margin 0 40px 20px 0
-                    border $border
-
-                    p
-                        float right
-                        width 100%
-                        padding 0
-                        margin 0
-                        font-size 14px
-
-            .message
-                float left
-                width 400px
-                height 80px
-                padding 0
-                margin 0 0 10px 0
-                border $border
+                margin 0 0 15px 0
+                font-size 18px
+                font-weight 400
+                text-align center
 
             p
-                float right
-                width 110px
-                padding 0
+                float left
+                width 100%
                 margin 0
                 font-size 14px
+                font-weight 200
+                text-align center
+
     .map
         float left
         width 956px

@@ -2423,7 +2423,7 @@ small {
   }
   .content .main .rx-card {
     float: left;
-    width: 388px;
+    width: 428px;
     height: 190px;
     padding: 28px 0px 24px 30px;
     margin: 0 0 18px 0;
@@ -2436,7 +2436,7 @@ small {
     width: 160px;
     height: 190px;
     padding: 0;
-    margin: 0px 0 0 220px;
+    margin: 0px 0 0 244px;
     background: #e3e3e3;
     z-index: 1;
   }
@@ -2447,9 +2447,9 @@ small {
   }
   .content .main .rx-card .card-content {
     position: absolute;
-    width: 388px;
+    width: 244px;
     height: 190px;
-padding
+    padding: 0;
     margin: 0;
     z-index: 10;
   }
@@ -2460,7 +2460,7 @@ padding
   .content .main .rx-card .card-content .card-headline .company {
     float: left;
     width: 100%;
-    margin: 0 0 24px 0;
+    margin: 0 0 15px 0;
   }
   .content .main .rx-card .card-content .card-headline .company h2 {
     float: left;
@@ -2468,47 +2468,62 @@ padding
     font-size: 31px;
     line-height: 31px;
   }
-  .content .main .rx-card .card-content .card-headline .card-title {
-    float: left;
-    width: 100%;
-    margin: 0 0 16px 0;
-  }
-  .content .main .rx-card .card-content .card-headline .card-title p {
-    float: left;
-    width: 100%;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 14px;
-  }
-  .content .main .rx-card .card-numbers {
+  .content .main .rx-card .card-content .card-headline .patient-holder {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 24px 0;
+    margin: 0;
   }
-  .content .main .rx-card .card-numbers .square {
+  .content .main .rx-card .card-content .card-headline .patient-holder .row {
     float: left;
-    width: 80px;
-    height: 40px;
-    margin: 0 10px 0 0;
-    border: 1px solid #aaa;
-    background: #fff;
+    width: 244px;
+    padding: 0;
+    margin: 0;
   }
-  .content .main .rx-card .card-numbers .square p {
-    float: left;
-    width: 100%;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 41px;
-    text-align: center;
-  }
-  .content .main .rx-card .card-name {
+  .content .main .rx-card .card-content .card-headline .patient-holder .row h2 {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 26px;
   }
-  .content .main .rx-card .card-name input {
+  .content .main .rx-card .card-content .card-headline .patient-holder .row h4 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 10px;
+    font-size: 16px;
+  }
+  .content .main .rx-card .card-content .card-headline .patient-holder .row .column {
+    float: left;
+    width: 70px;
+    padding: 0;
+    margin: 0;
+  }
+  .content .main .rx-card .card-content .card-headline .patient-holder .row .column h3 {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+  }
+  .content .main .rx-card .card-content .card-headline .patient-holder .row .column h4 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .content .main .rx-card .card-content .card-name {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 10px 0;
+  }
+  .content .main .rx-card .card-content .card-name input {
     float: left;
     width: 300px;
     font-style: italic;
@@ -2643,8 +2658,9 @@ padding
     padding: 0 0 20px 0;
     width: 918px;
     margin: 0;
-    font-size: 22px;
+    font-size: 29px;
     font-weight: 400;
+    text-align: center;
   }
   .content .center .center-holder .logo {
     float: left;
@@ -2669,13 +2685,13 @@ padding
     float: left;
     width: 920px;
     padding: 0;
-    margin: 0 0 50px 60px;
+    margin: 50px 0 50px 60px;
   }
   .content .testimonals-holder .testimonals .testimonal {
     float: left;
     width: 218px;
-    padding: 24px 30px 28px 30px;
-    margin: 0 20px 0 0;
+    padding: 10px 20px 10px 20px;
+    margin: 0 10px 0 0;
     background: #fff;
     border: 1px solid #aaa;
   }
@@ -2683,9 +2699,9 @@ padding
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 0 0;
-    font-size: 18px;
-    line-height: 28px;
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    line-height: 25px;
     color: #000;
     text-align: center;
   }
@@ -2694,8 +2710,9 @@ padding
     width: 100%;
     padding: 0;
     font-size: 21px;
+    font-weight: 400;
     line-height: 21px;
-    margin: 0 0 14px 0;
+    margin: 0 0 8px 0;
     text-align: center;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
@@ -2704,6 +2721,7 @@ padding
     padding: 0;
     margin: 0;
     font-size: 16px;
+    font-weight: 300;
     line-height: 16px;
     text-align: center;
   }
@@ -2911,8 +2929,8 @@ padding
   }
   .modal-holder .modal-container {
     float: left;
-    width: 318px;
-    padding: 18px 40px 28px 40px;
+    width: 358px;
+    padding: 18px 0 28px 40px;
     margin: 12px 0 30px 0;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
     border: 1px solid #aaa;
@@ -2936,7 +2954,7 @@ padding
     padding: 0 0 8px 0;
     margin: 0 0 26px 0;
     font-size: 36px;
-    line-height: 46px;
+    line-height: 30px;
     border: none;
     border-bottom: 3px solid $underline;
     outline: none;
@@ -2978,7 +2996,6 @@ padding
     font-size: 27px;
     line-height: 59px;
     color: #fff;
-    background: #333;
     background: #fad390;
     background-repeat: repeat-x;
     border: 1px solid #aaa;
@@ -2999,125 +3016,312 @@ padding
     font-size: 18px;
     line-height: 24px;
   }
+  .modal-holder .modal-container h1 {
+    float: left;
+    width: 298px;
+    padding: 0;
+    margin: 0 0 15px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .modal-holder .modal-container .modal-row-half {
+    float: left;
+    width: 358px;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .modal-row-half .half {
+    float: left;
+    width: 147px;
+    padding: 0;
+    margin: 0 20px 20px 0;
+    background: #ff9;
+  }
+  .modal-holder .modal-container .modal-row-half .half input {
+    float: left;
+    width: 142px;
+    height: 50px;
+    padding: 0 5px;
+    margin: 0;
+    font-size: 22px;
+    border: 1px solid #aaa;
+    text-align: center;
+  }
+  .modal-holder .modal-container textarea {
+    float: left;
+    width: 318px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    height: 60px;
+    text-align: center;
+    line-height: 62px;
+  }
+  .modal-holder .modal-container .mail-holder {
+    float: left;
+    width: 318px;
+    height: 50px;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  .modal-holder .modal-container .mail-holder input {
+    float: left;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .modal-holder .modal-container .rx-card {
+    float: left;
+    width: 358px;
+    height: 190px;
+    padding: 28px 0px 24px 30px;
+    margin: 0 0 18px 0;
+    background: #fef8eb;
+    border: 1px solid #444;
+    border-radius: 8px;
+  }
+  .modal-holder .modal-container .rx-card .card-logo {
+    position: absolute;
+    width: 160px;
+    height: 190px;
+    padding: 0;
+    margin: 0px 0 0 244px;
+    background: #e3e3e3;
+    z-index: 1;
+  }
+  .modal-holder .modal-container .rx-card .card-logo img {
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+  .modal-holder .modal-container .rx-card .card-content {
+    position: absolute;
+    width: 244px;
+    height: 190px;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline {
+    float: left;
+    width: 100%;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company {
+    float: left;
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company h2 {
+    float: left;
+    width: 100%;
+    font-size: 31px;
+    line-height: 31px;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row {
+    float: left;
+    width: 244px;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h2 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 26px;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h4 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 10px;
+    font-size: 16px;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row .column {
+    float: left;
+    width: 70px;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row .column h3 {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row .column h4 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-name {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0 10px 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-name input {
+    float: left;
+    width: 300px;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 27px;
+    color: #666;
+    text-align: left;
+    border: none;
+    background: none;
+  }
   .contact-holder {
     float: left;
     width: 978px;
     padding: 20px 0 20px 20px;
     margin: 30px 0 0 0;
   }
-  .contact-holder h1 {
+  .contact-holder .contact-detail {
     float: left;
-    width: 100%;
+    width: 428px;
+    padding: 20px 0 20px 30px;
+    margin: 0 20px 0 0;
+    border: 1px solid #aaa;
+    background: #fff;
+  }
+  .contact-holder .contact-detail h2 {
+    float: left;
+    width: 200px;
     padding: 0;
     margin: 0 0 10px 0;
     font-size: 18px;
-    font-weight: 400;
+    text-align: center;
   }
-  .contact-holder .contact-container {
+  .contact-holder .contact-detail .contact-container {
     float: left;
-    width: 978px;
+    width: 428px;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0;
   }
-  .contact-holder .contact-container .contact-detail {
-    float: left;
-    width: 466px;
-    padding: 10px 0 10px 10px;
-    margin: 0 20px 20px 0;
-    border: 1px solid #aaa;
-  }
-  .contact-holder .contact-container .contact-detail h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 10px 0;
-    font-size: 14px;
-  }
-  .contact-holder .contact-container .contact-detail .address {
+  .contact-holder .contact-detail .contact-container .address {
     float: left;
     width: 130px;
     padding: 0;
     margin: 0;
   }
-  .contact-holder .contact-container .contact-detail .address p {
+  .contact-holder .contact-detail .contact-container .address p {
     float: left;
-    width: 100%;
+    width: 150px;
     padding: 0;
     margin: 0;
     font-size: 14px;
-    line-height: 18px;
+    font-weight: 200;
+    line-height: 22px;
     font-weight: 400;
   }
-  .contact-holder .contact-container .contact-detail .contact-information {
+  .contact-holder .contact-detail .contact-container .contact-information {
     float: left;
-    width: 206px;
+    width: 268px;
     padding: 0;
     margin: 0;
   }
-  .contact-holder .contact-container .contact-detail .contact-information h3 {
+  .contact-holder .contact-detail .contact-container .contact-information h3 {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
     font-weight: 400;
   }
-  .contact-holder .contact-container .contact-detail .logo {
+  .contact-holder .contact-form {
     float: left;
-    width: 120px;
+    width: 466px;
+    padding: 20px 0 10px 30px;
+    margin: 0 0 20px 0;
     border: 1px solid #aaa;
   }
-  .contact-holder .contact-container .contact-detail .logo p {
+  .contact-holder .contact-form .half {
     float: left;
-    width: 100%;
-    padding: 20px 0 20px 0;
+    width: 208px;
+    padding: 0;
+    margin: 0 20px 20px 0;
+    background: #ff9;
+  }
+  .contact-holder .contact-form .half input {
+    float: left;
+    width: 198px;
+    padding: 5px;
     margin: 0;
+  }
+  .contact-holder .contact-form .full {
+    float: left;
+    width: 436px;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .contact-holder .contact-form .full input,
+  .contact-holder .contact-form .full textarea {
+    float: left;
+    width: 426px;
+    padding: 5px;
+    margin: 0;
+  }
+  .contact-holder .contact-form .button-holder {
+    position: relative;
+    width: 466px;
+    margin: 0 auto;
+  }
+  .contact-holder .contact-form .button-holder button {
+    float: left;
+    width: 434px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #aaa;
+    cursor: pointer;
+  }
+  .contact-holder .contact-form .card-confirmation {
+    float: left;
+    width: 466px;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-holder .contact-form .card-confirmation h1 {
+    float: left;
+    width: 436px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 24px;
     text-align: center;
-    font-size: 14px;
+  }
+  .contact-holder .contact-form .card-confirmation h2 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 15px 0;
+    font-size: 18px;
     font-weight: 400;
+    text-align: center;
   }
-  .contact-holder .contact-container .contact-form {
-    float: left;
-    width: 420px;
-    padding: 20px 0 10px 20px;
-    margin: 0;
-    border: 1px solid #aaa;
-  }
-  .contact-holder .contact-container .contact-form .row {
+  .contact-holder .contact-form .card-confirmation p {
     float: left;
     width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .contact-holder .contact-container .contact-form .row .column {
-    float: left;
-    width: 148px;
-    padding: 0;
-    margin: 0 40px 20px 0;
-    border: 1px solid #aaa;
-  }
-  .contact-holder .contact-container .contact-form .row .column p {
-    float: right;
-    width: 100%;
-    padding: 0;
     margin: 0;
     font-size: 14px;
-  }
-  .contact-holder .contact-container .contact-form .message {
-    float: left;
-    width: 400px;
-    height: 80px;
-    padding: 0;
-    margin: 0 0 10px 0;
-    border: 1px solid #aaa;
-  }
-  .contact-holder .contact-container .contact-form p {
-    float: right;
-    width: 110px;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
   }
   .contact-holder .map {
     float: left;

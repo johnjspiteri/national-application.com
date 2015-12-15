@@ -2,39 +2,38 @@
     .content-holder
         .content
             .contact-holder
-                h1 CONTACT US
-                .contact-container
-                    .contact-detail
-                        H2 NATIONAL RX
+                .contact-detail
+                    H2 NATIONAL RX
+                    .contact-container
                         .address
                             p Interface Agency<br> 13 Munch Place<br> Toronto,L9T8K6
                         .contact-information
                             h3 6476085645
                             h3 9057877575
                             h3 manish.dutta@Interfaceagency.com
-                        
-                        .logo
-                            p logo
-                    .contact-form
-                        .row
-                            .column
-                                p Name:
-                                 
-                            .column
-                                p Company:
-                                     
-                        .row
-                            .column
-                                p Email:
-                                
-                            .column
-                                p Phone No:
-                                
-                        .message
-                        p send message
-                            
-                .map
-                    #map_canvas
-                        ui-gmap-google-map(center='map.center', zoom='map.zoom', options='options')
-                            ui-gmap-marker(coords='marker.coords', options='marker.options', icon='marker.options.icon', idkey='marker.id')
                     
+                .contact-form(data-ng-click='toggle();', ng-show='!state')
+                    .half
+                        input(type="text" placeholder="Name:")
+                        
+                    .half
+                        input(type="text" placeholder="Phone:")                                                                                 
+                    .full
+                        input(type="text" placeholder="email")                                  
+                    .full
+                        textarea Message
+                    .button-holder
+                        button(type="button" name="submit") Submit
+                
+                .contact-form(data-ng-click='toggle();', ng-show='state')
+                    .card-confirmation
+                        h1 Thank You John for Using The National Rx Card
+                        h2 Need Help? Have Questions?
+                        p 1-800 808-1213
+                    
+                            
+            .map
+                #map_canvas
+                    ui-gmap-google-map(center='map.center', zoom='map.zoom', options='options')
+                        ui-gmap-marker(coords='marker.coords', options='marker.options', icon='marker.options.icon', idkey='marker.id')
+                
