@@ -9,32 +9,35 @@ header
 
 	.header
 		position relative
-		width 1000px
+		width 1024px
 		height 78px
 		padding 0
 		margin 0 auto
 
 		.brand
 			float left
-			width 250px
+			width 254px
 			height 78px
 			padding 0
 			margin 0
 
 			.logo
-				display none
 				float left
-				width 250px
+				width 242px
 				height 78px
 				padding 0
 				margin 0
 				font-size 14px
 				line-height 50px
+				background #d1d1d1
+				border 1px dotted $black
+				border-top none
+				border-bottom none
 				text-align center
 
 		nav
 			float left
-			width 749px
+			width 769px
 			height 78px
 			padding 0
 			margin 0
@@ -43,18 +46,20 @@ header
 			.tile
 				float right
 				height 78px
-				padding 0 32px 0 32px
+				padding 0 36px 0 36px
 				margin 0
 				background $header-tile
 				border-left $border-header
+				cursor pointer
 
 				h4
 					float left
 					padding 0
-					margin 20px 0 0 0
-					font-weight 600
-					font-size 19px
-					line-height 23px
+					margin 18px 0 0 0
+					font-style italic
+					font-weight 500
+					font-size 21px
+					line-height 26px
 					color $white
 					text-align center
 					text-shadow $shadow
@@ -63,3 +68,7 @@ header
 				height 79px
 				background $background
 				border-left $border-header
+
+				h4
+					margin 19px 0 0 0
+					font-style normal

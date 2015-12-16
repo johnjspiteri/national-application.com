@@ -9,16 +9,18 @@
                         .card-headline
                             .company
                                 h2 National Rx Card
-                                
+
                             .patient-holder
                                 .row
-                                    h2 Patient ID
+                                    h5 Patient ID
                                     h4 NRX43710
+                                .row
+                                    input(placeholder="Preferred Client")
                                 .row
                                     .column
                                         h3 Group
                                     .column
-                                        h4 96100245    
+                                        h4 96100245
                                 .row
                                     .column
                                         h3 BIN
@@ -29,27 +31,24 @@
                                         h3 PCN
                                     .column
                                         h4 48300712
-                                        
-                        .card-name
-                            input(placeholder="Preferred Client")
 
-                .rx-card(data-ng-click='toggle();', ng-show='!state')
-                    .card-logo
-                        img(ng-src='/img/icon.png')
-                    .card-content
-                        h1 Thank You John <br>for Using The National Rx Card
-                        p Need Help? Have Questions?
-                        p 1-800 808-1213
+                //- .rx-card(data-ng-click='toggle();', ng-show='!state')
+                //-     .card-logo
+                //-         img(ng-src='/img/icon.png')
+                //-     .card-content
+                //-         h1 Thank You John <br>for Using The National Rx Card
+                //-         p Need Help? Have Questions?
+                //-         p 1-800 808-1213
 
                 .rx-card-download
                     .column(data-ng-click='saveModal();')
-                        h4 Save
+                        h4 <span class='fa fa-cloud'></span> Save
                     .column(data-ng-click='textModal();')
-                        h4 Text
+                        h4 <span class='fa fa-mobile fa-rotate-90'></span> Text
                     .column(data-ng-click='emailModal();')
-                        h4 Email
+                        h4 <span class='fa fa-send'></span> Email
                     .column(data-ng-click='printModal();')
-                        h4 Print
+                        h4 <span class='fa fa-print'></span> Print
 
 
             .points
@@ -57,19 +56,19 @@
                     .number
                         h1 1
                     .text
-                        h3 Selling Point That Appeals First
+                        h3 This Is What I Have To Say <span>To You First Things First!</span>
 
                 .point
                     .number
                         h1 2
                     .text
-                        h3 Selling Point That Appeals Second
+                        h3 This Is What I Have To Say To You Second Thing!
 
                 .point
                     .number
                         h1 3
                     .text
-                        h3 Selling Point That Appeals Third
+                        h3 This Is What I Have To Say To You Third Thing!
             .center
                 .center-holder
                     h1 Accepted at over 66,000 U.S pharmacies:

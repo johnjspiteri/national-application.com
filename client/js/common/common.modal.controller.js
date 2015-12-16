@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    function CommonModalController ($scope, $document, $window, close) {
+    function CommonModalController ($rootScope, $scope, $document, $window, close) {
 
         // $scope.displayState = true;
         // $scope.settings = setting.query();
@@ -262,7 +262,7 @@
         // };
 
         $scope.close = function() {
-            // $scope.displayState = false;
+            $rootScope.display = false;
             close();
         };
 
@@ -275,6 +275,6 @@
         .module('app.common')
         .controller('CommonModalController', CommonModalController);
 
-    CommonModalController.$inject = ['$scope', '$document', '$window', 'close'];
+    CommonModalController.$inject = ['$rootScope', '$scope', '$document', '$window', 'close'];
 
 })();

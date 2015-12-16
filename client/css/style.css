@@ -186,7 +186,7 @@ body {
   margin: 0;
   padding: 0;
   z-index: 1;
-  background: #4792dc url("../img/asfalt-light.png") repeat;
+  background: #008584 url("../img/asfalt-light.png") repeat;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 * {
@@ -243,7 +243,7 @@ a img {
 em,
 i {
   font-style: italic;
-  line-height: inherit color #fad390;
+  line-height: inherit color #8a0d4a;
 }
 strong,
 b {
@@ -268,8 +268,8 @@ small {
   top: 0;
   left: 0;
   background: #000;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  opacity: 0.7;
+  filter: alpha(opacity=70);
   z-index: 100;
 }
 #map_canvas {
@@ -2338,64 +2338,73 @@ small {
     padding: 0;
     margin: 0;
     background: #fdfdfd url("../img/asfalt-light.png") repeat;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #333;
   }
   header .header {
     position: relative;
-    width: 1000px;
+    width: 1024px;
     height: 78px;
     padding: 0;
     margin: 0 auto;
   }
   header .header .brand {
     float: left;
-    width: 250px;
+    width: 254px;
     height: 78px;
     padding: 0;
     margin: 0;
   }
   header .header .brand .logo {
-    display: none;
     float: left;
-    width: 250px;
+    width: 242px;
     height: 78px;
     padding: 0;
     margin: 0;
     font-size: 14px;
     line-height: 50px;
+    background: #d1d1d1;
+    border: 1px dotted #000;
+    border-top: none;
+    border-bottom: none;
     text-align: center;
   }
   header .header nav {
     float: left;
-    width: 749px;
+    width: 769px;
     height: 78px;
     padding: 0;
     margin: 0;
-    border-right: 1px solid #555;
+    border-right: 1px solid #333;
   }
   header .header nav .tile {
     float: right;
     height: 78px;
-    padding: 0 32px 0 32px;
+    padding: 0 36px 0 36px;
     margin: 0;
-    background: #b1b1b1 url("../img/asfalt-light.png") repeat;
-    border-left: 1px solid #555;
+    background: #666 url("../img/asfalt-light.png") repeat;
+    border-left: 1px solid #333;
+    cursor: pointer;
   }
   header .header nav .tile h4 {
     float: left;
     padding: 0;
-    margin: 20px 0 0 0;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 23px;
+    margin: 18px 0 0 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 1px 0px #000;
   }
   header .header nav .tile.active {
     height: 79px;
-    background: #4792dc url("../img/asfalt-light.png") repeat;
-    border-left: 1px solid #555;
+    background: #008584 url("../img/asfalt-light.png") repeat;
+    border-left: 1px solid #333;
+  }
+  header .header nav .tile.active h4 {
+    margin: 19px 0 0 0;
+    font-style: normal;
   }
   .page {
     position: relative;
@@ -2417,27 +2426,27 @@ small {
   }
   .content .main {
     float: left;
-    width: 460px;
+    width: 480px;
     padding: 0;
-    margin: 50px 0 50px 70px;
+    margin: 50px 0 20px 0;
   }
   .content .main .rx-card {
     float: left;
     width: 428px;
-    height: 190px;
-    padding: 28px 0px 24px 30px;
-    margin: 0 0 18px 0;
-    background: #fef8eb;
-    border: 1px solid #444;
-    border-radius: 8px;
+    height: 210px;
+    padding: 22px 0px 20px 30px;
+    margin: 0 0 24px 0;
+    background: #fff;
+    border-bottom: 4px solid #333;
+    border-radius: 12px;
   }
   .content .main .rx-card .card-logo {
     position: absolute;
-    width: 160px;
-    height: 190px;
+    width: 140px;
+    height: 160px;
     padding: 0;
-    margin: 0px 0 0 244px;
-    background: #e3e3e3;
+    margin: 30px 0 0 264px;
+    background: none;
     z-index: 1;
   }
   .content .main .rx-card .card-logo img {
@@ -2447,7 +2456,7 @@ small {
   }
   .content .main .rx-card .card-content {
     position: absolute;
-    width: 244px;
+    width: 344px;
     height: 190px;
     padding: 0;
     margin: 0;
@@ -2460,13 +2469,13 @@ small {
   .content .main .rx-card .card-content .card-headline .company {
     float: left;
     width: 100%;
-    margin: 0 0 15px 0;
+    margin: 0 0 24px 0;
   }
   .content .main .rx-card .card-content .card-headline .company h2 {
     float: left;
     width: 100%;
-    font-size: 31px;
-    line-height: 31px;
+    font-size: 33px;
+    line-height: 33px;
   }
   .content .main .rx-card .card-content .card-headline .patient-holder {
     float: left;
@@ -2480,85 +2489,127 @@ small {
     padding: 0;
     margin: 0;
   }
-  .content .main .rx-card .card-content .card-headline .patient-holder .row h2 {
+  .content .main .rx-card .card-content .card-headline .patient-holder .row h5 {
     float: left;
-    width: 100%;
+    width: 86px;
     padding: 0;
     margin: 0;
-    font-size: 22px;
     font-weight: 100;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #444;
   }
   .content .main .rx-card .card-content .card-headline .patient-holder .row h4 {
     float: left;
-    width: 100%;
+    width: 120px;
     padding: 0;
-    margin: 0 0 10px 10px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
     font-size: 16px;
+    line-height: 16px;
+    color: #000;
+  }
+  .content .main .rx-card .card-content .card-headline .patient-holder .row input {
+    float: left;
+    width: 300px;
+    font-style: italic;
+    margin: 10px 0 20px 0;
+    font-size: 25px;
+    line-height: 25px;
+    color: #666;
+    text-align: left;
+    border: none;
+    background: none;
   }
   .content .main .rx-card .card-content .card-headline .patient-holder .row .column {
     float: left;
-    width: 70px;
+    width: 64px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 10px 0;
   }
   .content .main .rx-card .card-content .card-headline .patient-holder .row .column h3 {
     float: left;
     width: 100%;
-    font-size: 16px;
     font-weight: 100;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #444;
   }
   .content .main .rx-card .card-content .card-headline .patient-holder .row .column h4 {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .content .main .rx-card .card-content .card-name {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 10px 0 10px 0;
-  }
-  .content .main .rx-card .card-content .card-name input {
-    float: left;
-    width: 300px;
-    font-style: italic;
-    font-size: 27px;
-    line-height: 27px;
-    color: #666;
-    text-align: left;
-    border: none;
-    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000;
   }
   .content .main .rx-card-download {
     float: left;
-    width: 440px;
+    width: 478px;
     padding: 0;
-    margin: 0 0 50px 20px;
+    margin: 0 0 50px 0px;
   }
   .content .main .rx-card-download .column {
     float: left;
-    width: 87px;
-    padding: 0;
-    margin: 0 8px 0 0;
-    background: #000;
-    border: 1px solid #000;
-    border-radius: 4px;
+    width: 104px;
+    padding: 12px 0 12px 0;
+    margin: 0 14px 0 0;
+    background: #8a0d4a;
+    border-bottom: 4px solid #4a0024;
+    border-radius: 8px;
   }
   .content .main .rx-card-download .column h4 {
     float: left;
     width: 100%;
-    padding: 14px 0 12px 0;
+    padding: 0;
     margin: 0;
+    font-weight: 100;
     color: #fff;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 20px;
     text-align: center;
     text-shadow: 2px 1px 0px #000;
+  }
+  .content .main .rx-card-download .column h4 span.fa-cloud {
+    float: left;
+    width: 100%;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 0 6px 0;
+    text-align: center;
+  }
+  .content .main .rx-card-download .column h4 span.fa-mobile {
+    float: left;
+    width: 100%;
+    font-size: 37px;
+    line-height: 25px;
+    margin: 0 0 6px 0;
+    text-align: center;
+  }
+  .content .main .rx-card-download .column h4 span.fa-send {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0 0 6px 0;
+    text-align: center;
+  }
+  .content .main .rx-card-download .column h4 span.fa-print {
+    float: left;
+    width: 100%;
+    font-size: 23px;
+    line-height: 25px;
+    margin: 0 0 6px 0;
+    text-align: center;
+  }
+  .content .main .rx-card-download .column h4 .fa-rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
   .content .main .confirmation {
     float: left;
@@ -2587,24 +2638,24 @@ small {
   }
   .content .points {
     float: left;
-    width: 388px;
-    padding: 0 40px 0 40px;
+    width: 458px;
+    padding: 0 0 0 60px;
     margin: 60px 0 0 0;
   }
   .content .points .point {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 28px 0;
+    margin: 0 0 44px 0;
   }
   .content .points .point .number {
     float: left;
     width: 58px;
     height: 58px;
     padding: 0;
-    margin: 8px 30px 0 0;
-    background: #000;
-    border: 1px solid #000;
+    margin: 16px 30px 0 0;
+    background: #8a0d4a;
+    border-bottom: 4px solid #4a0024;
     border-radius: 1000px;
   }
   .content .points .point .number h1 {
@@ -2620,7 +2671,7 @@ small {
   }
   .content .points .point .text {
     float: left;
-    width: 298px;
+    width: 358px;
     padding: 0;
     margin: 0;
     border: none;
@@ -2631,11 +2682,15 @@ small {
     padding: 0;
     margin: 0;
     font-weight: 400;
-    font-size: 29px;
-    line-height: 37px;
+    font-size: 31px;
+    line-height: 44px;
     color: #fff;
     text-align: left;
     text-shadow: 2px 1px 0px #000;
+  }
+  .content .points .point .text h3 span {
+    padding: 0 0 8px 0;
+    border-bottom: 6px solid #444;
   }
   .content .center {
     float: left;
@@ -2645,20 +2700,21 @@ small {
   }
   .content .center .center-holder {
     float: left;
-    width: 918px;
-    padding: 20px 0 0 20px;
-    margin: 0 30px 0 30px;
+    width: 968px;
+    padding: 24px 0 12px 30px;
+    margin: 0;
     background: #fff;
-    border: 1px solid #aaa;
-    border-left: none;
-    border-right: none;
+    border-bottom: 4px solid #333;
+    border-radius: 12px;
   }
   .content .center .center-holder h1 {
     float: left;
-    padding: 0 0 20px 0;
+    padding: 0 0 30px 0;
     width: 918px;
     margin: 0;
-    font-size: 29px;
+    font-size: 35px;
+    line-height: 35px;
+    font-style: italic;
     font-weight: 400;
     text-align: center;
   }
@@ -2683,25 +2739,26 @@ small {
   }
   .content .testimonals-holder .testimonals {
     float: left;
-    width: 920px;
+    width: 930px;
     padding: 0;
-    margin: 50px 0 50px 60px;
+    margin: 0 0 50px 50px;
   }
   .content .testimonals-holder .testimonals .testimonal {
     float: left;
     width: 218px;
-    padding: 10px 20px 10px 20px;
-    margin: 0 10px 0 0;
+    padding: 22px 30px 22px 30px;
+    margin: 0 30px 0 0;
     background: #fff;
-    border: 1px solid #aaa;
+    border-bottom: 4px solid #333;
+    border-radius: 12px;
   }
   .content .testimonals-holder .testimonals .testimonal p {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 12px 0;
-    font-size: 14px;
-    line-height: 25px;
+    margin: 0 0 22px 0;
+    font-size: 17px;
+    line-height: 27px;
     color: #000;
     text-align: center;
   }
@@ -2709,10 +2766,10 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 21px;
-    margin: 0 0 8px 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0 0 14px 0;
     text-align: center;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
@@ -2720,9 +2777,9 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 16px;
     font-weight: 300;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 18px;
     text-align: center;
   }
   .gmnoprint,
@@ -2800,7 +2857,7 @@ small {
   .faq-holder {
     float: left;
     width: 958px;
-    padding: 40px 0 0 40px;
+    padding: 40px 0 20px 40px;
     margin: 0;
   }
   .faq-holder .input-holder {
@@ -2815,13 +2872,14 @@ small {
     padding: 20px 60px;
     margin: 0;
     border: 1px solid #aaa;
-    background: #b1b1b1 url("../img/asfalt-light.png") repeat;
+    border-radius: 4px;
+    background: #f1f1f1;
   }
   .faq-holder .input-holder .input-container h2 {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
     font-size: 33px;
     line-height: 33px;
     text-align: center;
@@ -2832,8 +2890,8 @@ small {
     height: 60px;
     padding: 0;
     margin: 0;
-    font-size: 21px;
-    line-height: 62px;
+    font-weight: 600;
+    font-size: 29px;
     text-align: center;
     border: 1px solid #ccc;
   }
@@ -2848,10 +2906,11 @@ small {
     height: 31px;
     padding: 0;
     margin: 0 0 26px 0;
-    background: #fad390;
+    background: #000;
     border: 1px solid #aaa;
     border-top: none;
     border-radius: 0 0 4px 4px;
+    border: 1px solid #000;
     cursor: pointer;
   }
   .faq-holder .input-holder .reset-holder .reset p {
@@ -2880,15 +2939,15 @@ small {
   .faq-holder .answers-holder .answer {
     float: left;
     width: 369px;
-    padding: 20px 40px 20px 40px;
+    padding: 24px 40px 20px 40px;
     margin: 0 20px 20px 0;
-    background: #b1b1b1 url("../img/asfalt-light.png") repeat;
+    background: #f1f1f1;
     border: 1px solid #000;
   }
   .faq-holder .answers-holder .answer h2 {
     float: left;
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0 0 18px 0;
     padding: 0;
     font-size: 29px;
     line-height: 29px;
@@ -2897,7 +2956,7 @@ small {
   .faq-holder .answers-holder .answer p {
     float: left;
     width: 100%;
-    margin: 0 0 24px 0;
+    margin: 0 0 14px 0;
     padding: 0;
     font-size: 17px;
     line-height: 26px;
@@ -2906,7 +2965,7 @@ small {
   }
   .faq-holder .answers-holder .answer .tag {
     float: left;
-    margin: 0 5px 0 0;
+    margin: 10px 5px 0 0;
     padding: 0;
     background: #000;
     border-radius: 4px;
@@ -2943,7 +3002,7 @@ small {
     margin: 0 0 10px 150px;
     font-size: 16px;
     line-height: 16px;
-    color: #fad390;
+    color: #8a0d4a;
     text-align: center;
     text-shadow: 2px 1px 0px #000;
     cursor: pointer;
@@ -2996,7 +3055,7 @@ small {
     font-size: 27px;
     line-height: 59px;
     color: #fff;
-    background: #fad390;
+    background: #8a0d4a;
     background-repeat: repeat-x;
     border: 1px solid #aaa;
     border-radius: 4px;
@@ -3078,7 +3137,7 @@ small {
     height: 190px;
     padding: 28px 0px 24px 30px;
     margin: 0 0 18px 0;
-    background: #fef8eb;
+    background: #fff;
     border: 1px solid #444;
     border-radius: 8px;
   }
