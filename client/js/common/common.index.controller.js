@@ -28,7 +28,7 @@
             $rootScope.display = true;
             CommonModal.printModal();
         };
-        // $scope.printModal();
+        $scope.textModal();
 
     }
 

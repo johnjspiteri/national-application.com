@@ -16,7 +16,7 @@
             </div>
           </div>
         </div>
-        <div data-ng-click="toggle();" ng-show="!state" class="contact-form">
+        <div data-ng-click="toggle();" ng-show="state" class="contact-form">
           <div class="half">
             <input type="text" placeholder="Name:"/>
           </div>
@@ -30,10 +30,10 @@
             <textarea>Message</textarea>
           </div>
           <div class="button-holder">
-            <button type="button" name="submit">Submit</button>
+            <button type="button" name="submit" class="submit">Submit</button>
           </div>
         </div>
-        <div data-ng-click="toggle();" ng-show="state" class="contact-form">
+        <div data-ng-click="toggle();" ng-show="!state" class="contact-form">
           <div class="card-confirmation">
             <h1>Thank You John for Using The National Rx Card</h1>
             <h2>Need Help? Have Questions?</h2>

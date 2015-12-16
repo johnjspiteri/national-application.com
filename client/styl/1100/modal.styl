@@ -2,14 +2,14 @@
 	position absolute
 	width 400px
 	margin 0 auto
-	top 50px
+	top 0
 	right 500px
 	z-index 99999
 
 	.modal-container
 		float left
 		width 358px
-		padding 18px 0 28px 40px
+		padding 18px 20px 28px 40px
 		margin 12px 0 30px 0
 		background $background-texture
 		border $border
@@ -149,118 +149,129 @@
 				padding 0
 				margin 0
 				text-align center
+		.rx-cardholder
+			position relative
+			wwidth 358px
+			padding 0
+			margin 0
 
-		.rx-card
-			float left
-			width 358px
-			height 190px
-			padding 28px 0px 24px 30px
-			margin 0 0 18px 0
-			background $card
-			border 1px solid #444
-			border-radius 8px
-			// overflow hidden
-
-			.card-logo
-				position absolute
-				width 160px
-				height 190px
-				padding 0
-				margin 0px 0 0 244px
-				background #e3e3e3
-				z-index 1
-
-				img
+			.rx-card
+				float left
+				width 318px
+				height 210px
+				padding 28px 0 24px 20px
+				margin 0 20px 18px 0
+				background $card
+				border 1px solid #444
+				border-radius 8px
+				// overflow hidden
+				.company
 					float left
 					width 100%
-					height 100%
+					margin 0 0 0 0
 
-			.card-content
-				position absolute
-				width 244px
-				height 190px
-				padding 0
-				margin 0
-				z-index 10
-
-				.card-headline
-					float left
-					width 100%
-
-					.company
+					h2
 						float left
 						width 100%
-						margin 0 0 15px 0
+						font-size 26px
+						line-height 31px
+						margin 0 0 20px 0
+						// text-shadow $white-shadow
+				.card-holder
+					float left
+					width 318px
+					padding 0
+					margin 0
+					.card-logo
+						position absolute
+						width 100px
+						height 150px
+						padding 0
+						margin 0 0 0 210px
+						background #e3e3e3
+						z-index 1
 
-						h2
+						img
 							float left
 							width 100%
-							font-size 31px
-							line-height 31px
-							// text-shadow $white-shadow
+							height 100%
 
-					.patient-holder
-						float left
-						width 100%
+					.card-content
+						position absolute
+						width 218px
+						//height 190px
 						padding 0
 						margin 0
+						z-index 10
 
-						.row
+						.card-headline
 							float left
-							width 244px
+							width 100%
 
-							padding 0
-							margin 0
 
-							h2
+
+							.patient-holder
 								float left
 								width 100%
 								padding 0
 								margin 0
-								font-size 22px
-								font-weight 100
-								line-height 26px
 
-							h4
-								float left
-								width 100%
-								padding 0
-								margin 0 0 10px 10px
-								font-size 16px
-
-							.column
-								float left
-								width 70px
-								padding 0
-								margin 0
-
-								h3
+								.row
 									float left
-									width 100%
-									font-size 16px
-									font-weight 100
-									line-height 24px
-
-								h4
-									float left
-									width 100%
+									width 218px
 									padding 0
 									margin 0
-									font-size 16px
-									line-height 24px
-				.card-name
-					float left
-					width 100%
-					padding 0
-					margin 10px 0 10px 0
 
-					input
-						float left
-						width 300px
-						font-style italic
-						font-size 27px
-						line-height 27px
-						color #666
-						text-align left
-						border none
-						background none
+									h2
+										float left
+										width 80px
+										padding 0
+										margin 0
+										font-size 18px
+										font-weight 100
+										line-height 26px
+
+									h4
+										float left
+										width 90px
+										padding 0
+										margin 0 0 10px 10px
+										font-size 16px
+										line-height 26px
+
+									.column
+										float left
+										width 70px
+										padding 0
+										margin 0
+
+										h3
+											float left
+											width 100%
+											font-size 16px
+											font-weight 100
+											line-height 24px
+
+										h4
+											float left
+											width 100%
+											padding 0
+											margin 0
+											font-size 16px
+											line-height 24px
+						.card-name
+							float left
+							width 100%
+							padding 0
+							margin 10px 0 10px 0
+
+							input
+								float left
+								width 300px
+								font-style italic
+								font-size 27px
+								line-height 27px
+								color #666
+								text-align left
+								border none
+								background none

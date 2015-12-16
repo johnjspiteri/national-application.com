@@ -2747,7 +2747,7 @@ small {
     float: left;
     width: 218px;
     padding: 22px 30px 22px 30px;
-    margin: 0 30px 0 0;
+    margin: 40px 30px 0 0;
     background: #fff;
     border-bottom: 4px solid #333;
     border-radius: 12px;
@@ -2938,9 +2938,9 @@ small {
   }
   .faq-holder .answers-holder .answer {
     float: left;
-    width: 369px;
+    width: 828px;
     padding: 24px 40px 20px 40px;
-    margin: 0 20px 20px 0;
+    margin: 0 50px 20px 0;
     background: #f1f1f1;
     border: 1px solid #000;
   }
@@ -2949,7 +2949,7 @@ small {
     width: 100%;
     margin: 0 0 18px 0;
     padding: 0;
-    font-size: 29px;
+    font-size: 27px;
     line-height: 29px;
     text-align: center;
   }
@@ -2958,19 +2958,25 @@ small {
     width: 100%;
     margin: 0 0 14px 0;
     padding: 0;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 200;
     text-align: center;
   }
-  .faq-holder .answers-holder .answer .tag {
+  .faq-holder .answers-holder .answer .tag-holder {
+    position: relative;
+    width: 350px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .faq-holder .answers-holder .answer .tag-holder .tag {
     float: left;
     margin: 10px 5px 0 0;
     padding: 0;
     background: #000;
     border-radius: 4px;
   }
-  .faq-holder .answers-holder .answer .tag h5 {
+  .faq-holder .answers-holder .answer .tag-holder .tag h5 {
     float: left;
     margin: 0;
     padding: 8px 14px;
@@ -2982,14 +2988,14 @@ small {
     position: absolute;
     width: 400px;
     margin: 0 auto;
-    top: 50px;
+    top: 0;
     right: 500px;
     z-index: 99999;
   }
   .modal-holder .modal-container {
     float: left;
     width: 358px;
-    padding: 18px 0 28px 40px;
+    padding: 18px 20px 28px 40px;
     margin: 12px 0 30px 0;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
     border: 1px solid #aaa;
@@ -3131,95 +3137,108 @@ small {
     margin: 0;
     text-align: center;
   }
-  .modal-holder .modal-container .rx-card {
+  .modal-holder .modal-container .rx-cardholder {
+    position: relative;
+    wwidth: 358px;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .rx-cardholder .rx-card {
     float: left;
-    width: 358px;
-    height: 190px;
-    padding: 28px 0px 24px 30px;
-    margin: 0 0 18px 0;
+    width: 318px;
+    height: 210px;
+    padding: 28px 0 24px 20px;
+    margin: 0 20px 18px 0;
     background: #fff;
     border: 1px solid #444;
     border-radius: 8px;
   }
-  .modal-holder .modal-container .rx-card .card-logo {
-    position: absolute;
-    width: 160px;
-    height: 190px;
+  .modal-holder .modal-container .rx-cardholder .rx-card .company {
+    float: left;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .modal-holder .modal-container .rx-cardholder .rx-card .company h2 {
+    float: left;
+    width: 100%;
+    font-size: 26px;
+    line-height: 31px;
+    margin: 0 0 20px 0;
+  }
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder {
+    float: left;
+    width: 318px;
     padding: 0;
-    margin: 0px 0 0 244px;
+    margin: 0;
+  }
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-logo {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    padding: 0;
+    margin: 0 0 0 210px;
     background: #e3e3e3;
     z-index: 1;
   }
-  .modal-holder .modal-container .rx-card .card-logo img {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-logo img {
     float: left;
     width: 100%;
     height: 100%;
   }
-  .modal-holder .modal-container .rx-card .card-content {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content {
     position: absolute;
-    width: 244px;
-    height: 190px;
+    width: 218px;
     padding: 0;
     margin: 0;
     z-index: 10;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-headline {
     float: left;
     width: 100%;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company {
-    float: left;
-    width: 100%;
-    margin: 0 0 15px 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company h2 {
-    float: left;
-    width: 100%;
-    font-size: 31px;
-    line-height: 31px;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-headline .patient-holder {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-headline .patient-holder .row {
     float: left;
-    width: 244px;
+    width: 218px;
     padding: 0;
     margin: 0;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h2 {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-headline .patient-holder .row h2 {
     float: left;
-    width: 100%;
+    width: 80px;
     padding: 0;
     margin: 0;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 100;
     line-height: 26px;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h4 {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-headline .patient-holder .row h4 {
     float: left;
-    width: 100%;
+    width: 90px;
     padding: 0;
     margin: 0 0 10px 10px;
     font-size: 16px;
+    line-height: 26px;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row .column {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-headline .patient-holder .row .column {
     float: left;
     width: 70px;
     padding: 0;
     margin: 0;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row .column h3 {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-headline .patient-holder .row .column h3 {
     float: left;
     width: 100%;
     font-size: 16px;
     font-weight: 100;
     line-height: 24px;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row .column h4 {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-headline .patient-holder .row .column h4 {
     float: left;
     width: 100%;
     padding: 0;
@@ -3227,13 +3246,13 @@ small {
     font-size: 16px;
     line-height: 24px;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-name {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-name {
     float: left;
     width: 100%;
     padding: 0;
     margin: 10px 0 10px 0;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-name input {
+  .modal-holder .modal-container .rx-cardholder .rx-card .card-holder .card-content .card-name input {
     float: left;
     width: 300px;
     font-style: italic;
@@ -3256,7 +3275,7 @@ small {
     padding: 20px 0 20px 30px;
     margin: 0 20px 0 0;
     border: 1px solid #aaa;
-    background: #fff;
+    background: #e7e7e7 url("../img/asfalt-light.png") repeat;
   }
   .contact-holder .contact-detail h2 {
     float: left;
@@ -3264,7 +3283,6 @@ small {
     padding: 0;
     margin: 0 0 10px 0;
     font-size: 18px;
-    text-align: center;
   }
   .contact-holder .contact-detail .contact-container {
     float: left;
@@ -3307,22 +3325,26 @@ small {
   .contact-holder .contact-form {
     float: left;
     width: 466px;
-    padding: 20px 0 10px 30px;
+    padding: 30px 0 20px 30px;
     margin: 0 0 20px 0;
     border: 1px solid #aaa;
+    background: #e7e7e7 url("../img/asfalt-light.png") repeat;
   }
   .contact-holder .contact-form .half {
     float: left;
     width: 208px;
     padding: 0;
     margin: 0 20px 20px 0;
-    background: #ff9;
   }
   .contact-holder .contact-form .half input {
     float: left;
     width: 198px;
-    padding: 5px;
+    height: 40px;
+    padding: 0;
     margin: 0;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #aaa;
   }
   .contact-holder .contact-form .full {
     float: left;
@@ -3330,25 +3352,52 @@ small {
     padding: 0;
     margin: 0 0 20px 0;
   }
-  .contact-holder .contact-form .full input,
-  .contact-holder .contact-form .full textarea {
-    float: left;
-    width: 426px;
-    padding: 5px;
-    margin: 0;
-  }
-  .contact-holder .contact-form .button-holder {
-    position: relative;
-    width: 466px;
-    margin: 0 auto;
-  }
-  .contact-holder .contact-form .button-holder button {
-    float: left;
-    width: 434px;
+  .contact-holder .contact-form .full input {
+    width: 424px;
     height: 40px;
     padding: 0;
     margin: 0;
+    font-size: 18px;
+    text-align: center;
     border: 1px solid #aaa;
+  }
+  .contact-holder .contact-form .full textarea {
+    float: left;
+    width: 426px;
+    height: 60px;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 62px;
+    border: 1px solid #aaa;
+  }
+  .contact-holder .contact-form .button-holder {
+    float: left;
+    width: 466px;
+    margin: 0;
+  }
+  .contact-holder .contact-form .button-holder .submit {
+    float: left;
+    width: 426px;
+    height: 62px;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 59px;
+    color: #fff;
+    background: #8a0d4a;
+    background-repeat: repeat-x;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: none;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: 1px 1px 4px #aaa;
+    text-align: center;
+    text-shadow: $dark-shadow;
+    vertical-align: middle;
+    user-select: none;
     cursor: pointer;
   }
   .contact-holder .contact-form .card-confirmation {

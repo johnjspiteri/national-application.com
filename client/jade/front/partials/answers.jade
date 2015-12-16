@@ -16,6 +16,6 @@
                     .answer(ng-repeat="answer in answers| filter: {title: search}")
                         h2(ng-bind="::answer.title")
                         p(ng-bind="::answer.content")
-                        .tag(ng-repeat="keyword in answer.keywords")
-                            h5(ng-bind="::keyword.value")
-
+                        .tag-holder
+                            .tag(ng-repeat="keyword in answer.keywords")
+                                h5(ng-bind="::keyword.value")

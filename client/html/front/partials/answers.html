@@ -18,8 +18,10 @@
           <div ng-repeat="answer in answers| filter: {title: search}" class="answer">
             <h2 ng-bind="::answer.title"></h2>
             <p ng-bind="::answer.content"></p>
-            <div ng-repeat="keyword in answer.keywords" class="tag">
-              <h5 ng-bind="::keyword.value"></h5>
+            <div class="tag-holder">
+              <div ng-repeat="keyword in answer.keywords" class="tag">
+                <h5 ng-bind="::keyword.value"></h5>
+              </div>
             </div>
           </div>
         </div>
