@@ -1,19 +1,19 @@
 
 <div class="modal-holder">
-  <div class="modal-container">
+  <form data-ng-submit="emailForm();" data-ng-modal="data" class="modal-container">
     <div data-ng-click="close();" class="fa fa-close"></div>
     <h1>Email My Free Rx Discount Card </h1>
     <div class="modal-row-half">
       <div class="half">
-        <input type="text" placeholder="Name"/>
+        <input type="text" placeholder="Name" data-ng-modal="data.name"/>
       </div>
       <div class="half">
-        <input type="tel" placeholder="Phone"/>
+        <input type="tel" placeholder="Phone" data-ng-modal="data.phone"/>
       </div>
     </div>
     <div class="mail-holder">
-      <input type="email" placeholder="email"/>
+      <input type="email" placeholder="email" data-ng-modal="data.email"/>
     </div>
     <button type="submit" class="submit">Submit     </button>
-  </div>
+  </form>
 </div>

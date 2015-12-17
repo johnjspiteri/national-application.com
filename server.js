@@ -7,20 +7,20 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
        // favicon = require('serve-favicon'),
        //    config = require('./server/config/development.json'),
 
-        mongoose = require('mongoose'),
-        morgan = require('morgan'),
-          path = require('path'),
-methodOverride = require('method-override'),
-   compression = require('compression'),
+    mongoose = require('mongoose'),
+    morgan = require('morgan'),
+    path = require('path'),
+    methodOverride = require('method-override'),
+    compression = require('compression'),
     bodyParser = require('body-parser'),
-  cookieParser = require('cookie-parser'),
-  errorHandler = require('errorhandler'),
-           app = express(),
-            ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
-          port = process.env.OPENSHIFT_NODEJS_PORT || '8080',
-    connection = '127.0.0.1:27017/rx',
-        server = require('http').createServer(app),
-           env = app.get('env');
+    cookieParser = require('cookie-parser'),
+    errorHandler = require('errorhandler'),
+    app = express(),
+    ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
+    port = process.env.OPENSHIFT_NODEJS_PORT || '8080',
+    connection = 'mongodb://127.0.0.1:27017/rx',
+    server = require('http').createServer(app),
+    env = app.get('env');
 
 app.set('views', __dirname + '/public/html');
 app.set('view engine', 'jade');
@@ -42,9 +42,9 @@ db.once('open', function callback () {
 mongoose
     .set('debug', true);
 
-if (seedDB) {
-    require('./server/config/seed');
-}
+// if (seedDB) {
+//     require('./server/config/seed');
+// }
 
 if ('production' === env) {
     app.use(express.static(__dirname + '/client'));
@@ -64,11 +64,7 @@ app.all('/*', function(req, res, next) {
     res.sendFile('client/html/index.html', { root: __dirname });
 });
 
-<<<<<<< HEAD
 app.use('/api/mail', require('./server/api/mail'));
-=======
-app.use('/api/auth', require('./server/api/auth'));
->>>>>>> test
 app.use(errorHandler({ dumpExceptions: true, showStack: true }));
 
 server.listen(port, ip, function () {

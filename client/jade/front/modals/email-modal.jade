@@ -1,12 +1,12 @@
 .modal-holder
-    .modal-container
+    form.modal-container(data-ng-submit="emailForm();", data-ng-modal="data" )
         .fa.fa-close(data-ng-click="close();")
         h1 Email My Free Rx Discount Card 
         .modal-row-half
             .half
-                input(type="text" placeholder="Name")
+                input(type="text" placeholder="Name", data-ng-modal="data.name")
             .half
-                input(type="tel" placeholder="Phone")
+                input(type="tel" placeholder="Phone", data-ng-modal="data.phone")
         .mail-holder
-            input(type="email" placeholder="email")
+            input(type="email" placeholder="email", data-ng-modal="data.email")
         button.submit(type='submit') Submit     

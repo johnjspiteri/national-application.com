@@ -10,6 +10,7 @@
 
     // Get list of items
     exports.index = function (req,res,next) {
+        console.log(req);
         Mail.find({}, {"images": 0}, function (err,items) {
             if (err) { return handleError(res,err); }
             return res.status(200).json(items);
@@ -25,6 +26,7 @@
     };
 
     exports.create = function (req, res) {
+        console.log(req);
         Mail.create(req.body, function (err, data) {
             if (err) { return handleError(res, err); }
             return res.status(201).json(data);
