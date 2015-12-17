@@ -6,6 +6,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
    var express = require('express'),
        // favicon = require('serve-favicon'),
        //    config = require('./server/config/development.json'),
+
         mongoose = require('mongoose'),
         morgan = require('morgan'),
           path = require('path'),
@@ -63,7 +64,11 @@ app.all('/*', function(req, res, next) {
     res.sendFile('client/html/index.html', { root: __dirname });
 });
 
+<<<<<<< HEAD
 app.use('/api/mail', require('./server/api/mail'));
+=======
+app.use('/api/auth', require('./server/api/auth'));
+>>>>>>> test
 app.use(errorHandler({ dumpExceptions: true, showStack: true }));
 
 server.listen(port, ip, function () {
