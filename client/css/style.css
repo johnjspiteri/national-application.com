@@ -3279,48 +3279,39 @@ small {
   }
   .contact-holder .contact-detail h2 {
     float: left;
-    width: 200px;
-    padding: 0;
+    width: 398px;
+    padding: 10px 0;
     margin: 0 0 10px 0;
-    font-size: 18px;
+    font-size: 26px;
+    text-align: center;
   }
   .contact-holder .contact-detail .contact-container {
     float: left;
-    width: 428px;
+    width: 398px;
     padding: 0;
     margin: 0;
   }
-  .contact-holder .contact-detail .contact-container .address {
-    float: left;
-    width: 130px;
-    padding: 0;
-    margin: 0;
-  }
-  .contact-holder .contact-detail .contact-container .address p {
-    float: left;
-    width: 150px;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    font-weight: 200;
-    line-height: 22px;
-    font-weight: 400;
-  }
-  .contact-holder .contact-detail .contact-container .contact-information {
-    float: left;
-    width: 268px;
-    padding: 0;
-    margin: 0;
-  }
-  .contact-holder .contact-detail .contact-container .contact-information h3 {
+  .contact-holder .contact-detail .contact-container h3 {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 22px;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .contact-holder .contact-detail .contact-container .address {
+    float: left;
+    width: 180px;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-holder .contact-detail .contact-container .contact-information {
+    float: left;
+    width: 218px;
+    padding: 0;
+    margin: 0;
   }
   .contact-holder .contact-form {
     float: left;
@@ -3380,12 +3371,12 @@ small {
   .contact-holder .contact-form .button-holder .submit {
     float: left;
     width: 426px;
-    height: 62px;
+    height: 52px;
     padding: 0;
     margin: 0;
     font-weight: 600;
-    font-size: 27px;
-    line-height: 59px;
+    font-size: 24px;
+    line-height: 54px;
     color: #fff;
     background: #8a0d4a;
     background-repeat: repeat-x;
