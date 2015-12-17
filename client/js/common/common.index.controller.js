@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    function CommonIndexController ($rootScope, $scope, CommonModal) {
+    function CommonIndexController ($rootScope, $scope, mail, CommonModal) {
 
         $scope.state = true;
 
@@ -23,7 +23,7 @@
             $rootScope.display = true;
             CommonModal.emailModal();
         };
-        // $scope.emailModal();
+        $scope.emailModal();
         $scope.printModal = function() {
             $rootScope.display = true;
             CommonModal.printModal();
@@ -36,6 +36,6 @@
         .module('app.common')
         .controller('CommonIndexController', CommonIndexController);
 
-    CommonIndexController.$inject = ['$rootScope', '$scope', 'CommonModal'];
+    CommonIndexController.$inject = ['$rootScope', '$scope', 'mail', 'CommonModal'];
 
 })();

@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    function Mail ($resource) {
+    function mail ($resource) {
         return $resource("/api/mail/:id", { id: "@_id" },
             {
                 'create':  { method: 'POST' },
@@ -14,9 +14,9 @@
     }
 
     angular
-        .module('app.common')
-        .factory('Mail', Mail);
+        .module('app')
+        .factory('mail', mail);
 
-    Mail.$inject = ['$resource'];
+    mail.$inject = ['$resource'];
 
 })();

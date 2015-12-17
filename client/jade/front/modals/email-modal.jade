@@ -1,12 +1,13 @@
-.modal-holder
-    form.modal-container(data-ng-submit="emailForm();", data-ng-modal="data" )
-        .fa.fa-close(data-ng-click="close();")
-        h1 Email My Free Rx Discount Card 
-        .modal-row-half
-            .half
-                input(type="text" placeholder="Name", data-ng-modal="data.name")
-            .half
-                input(type="tel" placeholder="Phone", data-ng-modal="data.phone")
-        .mail-holder
-            input(type="email" placeholder="email", data-ng-modal="data.email")
-        button.submit(type='submit') Submit     
+form(name='user', id="user", data-ng-model='user', data-ng-submit="emailForm(user.$valid);", novalidate)
+    .modal-holder
+        .modal-container
+            .fa.fa-close(data-ng-click="close();")
+            h1 Email My Free Rx Discount Card
+            .modal-row-half
+                .half
+                    input(type="text" placeholder="Name", data-ng-model="user.name")
+                //- .half
+                //-     input(type="tel" placeholder="Phone", data-ng-model="user.phone")
+            .mail-holder
+                input(type="text" placeholder="email", data-ng-model="user.email")
+            button.submit(type='submit') Submit

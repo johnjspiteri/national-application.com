@@ -18,7 +18,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
     app = express(),
     ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
     port = process.env.OPENSHIFT_NODEJS_PORT || '8080',
-    connection = 'mongodb://127.0.0.1:27017/rx',
+    connection = 'mongodb://localhost/rx',
     server = require('http').createServer(app),
     env = app.get('env');
 
@@ -40,7 +40,7 @@ db.once('open', function callback () {
     console.log('Connected to MongoDB');
 });
 mongoose
-    .set('debug', true);
+    .set('debug', false);
 
 // if (seedDB) {
 //     require('./server/config/seed');
@@ -60,11 +60,12 @@ if ('development' === env || 'test' === env) {
     app.use(express.static(__dirname + '/client/js'));
 }
 
+app.use('/api/mail', require('./server/api/mail'));
+
 app.all('/*', function(req, res, next) {
     res.sendFile('client/html/index.html', { root: __dirname });
 });
 
-app.use('/api/mail', require('./server/api/mail'));
 app.use(errorHandler({ dumpExceptions: true, showStack: true }));
 
 server.listen(port, ip, function () {
