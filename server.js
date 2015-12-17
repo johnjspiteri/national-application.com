@@ -5,7 +5,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
    var express = require('express'),
        // favicon = require('serve-favicon'),
-    //    config = require('./server/config/development.json'),
+       //    config = require('./server/config/development.json'),
+        mongoose = require('mongoose'),
         morgan = require('morgan'),
           path = require('path'),
 methodOverride = require('method-override'),
@@ -31,6 +32,18 @@ app.use(bodyParser.urlencoded({
 app.use(methodOverride());
 app.use(cookieParser());
 
+mongoose.connect(connection);
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'Error connecting to MongoDB'));
+db.once('open', function callback () {
+    console.log('Connected to MongoDB');
+});
+mongoose
+    .set('debug', true);
+
+if (seedDB) {
+    require('./server/config/seed');
+}
 
 if ('production' === env) {
     app.use(express.static(__dirname + '/client'));
@@ -50,6 +63,7 @@ app.all('/*', function(req, res, next) {
     res.sendFile('client/html/index.html', { root: __dirname });
 });
 
+app.use('/api/mail', require('./server/api/mail'));
 app.use(errorHandler({ dumpExceptions: true, showStack: true }));
 
 server.listen(port, ip, function () {
