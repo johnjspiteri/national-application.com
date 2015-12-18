@@ -2,24 +2,18 @@
     .content-holder
         .content
             .contact-holder
-                .contact-detail
-                    H2 NATIONAL RX
-                    .contact-container
-                        .address
-                            h3 Interface Agency<br> 13 Munch Place<br> Toronto,L9T8K6
-                        .contact-information
-                            h3 6476085645
-                            h3 9057877575
-                            h3 manish.dutta@hotmail.com
-                    
                 .contact-form(data-ng-click='toggle();', ng-show='state')
-                    .half
-                        input(type="text" placeholder="Name:")
-                        
-                    .half
-                        input(type="text" placeholder="Phone:")                                                                                 
                     .full
-                        input(type="text" placeholder="email")                                  
+                        p Your name(required)
+                        input(type="text" placeholder="Name:")
+                            
+                    .full
+                        p Your email(required)
+                        input(type="text" placeholder="email") 
+                            
+                    .full
+                        p Your phone number(required)
+                        input(type="text" placeholder="Phone:")                                                                                 
                     .full
                         textarea Message
                     .button-holder
@@ -31,7 +25,17 @@
                         h2 Need Help? Have Questions?
                         p 1-800 808-1213
                     
-                            
+                .contact-detail
+                    H2 NATIONAL RX
+                    .contact-container
+                        p Phone:
+                        h3 6476085645
+                        
+                        p Email:
+                        h3 manish.dutta@hotmail.com 
+                        
+                        h2 Address:
+                        h3 Interface Agency<br> 13 Munch Place<br> Toronto,L9T8K6           
             .map
                 #map_canvas
                     ui-gmap-google-map(center='map.center', zoom='map.zoom', options='options')
