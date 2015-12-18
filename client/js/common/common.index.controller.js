@@ -23,12 +23,11 @@
             $rootScope.display = true;
             CommonModal.emailModal();
         };
-        //$scope.emailModal();
+
         $scope.printModal = function() {
             $rootScope.display = true;
             CommonModal.printModal();
         };
-        // $scope.textModal();
 
     }
 
