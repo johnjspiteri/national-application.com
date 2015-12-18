@@ -98,5 +98,28 @@
                         img(ng-src='/img/pharmacies/pharm-riteaid.gif')
                     .logo
                         img(ng-src='/img/pharmacies/pharm-winndixie.gif')
-
+            .locator
+                .locator-holder
+                    h1 Search By Zip Code...
+                    h2 Enter your 5 digit zip code and then click the Search button.
+                    
+                    .input-holder
+                        p Zip Code:
+                        input(type="text")
+                            
+                    .button-holder
+                        button.submit(type='submit') Search  
+                              
+                .locator-holder
+                    h1 Pharmacy Lookup
+                    h2 Select your state,then select your city and then click Search
+                    .state-holder
+                        p States:
+                        select(type="text")
+                    .city-holder
+                        p Cities:
+                        select(type="text")
+                    .button-holder
+                        button.submit(type='submit') Search  
+                                
 include ./testimonals.jade
