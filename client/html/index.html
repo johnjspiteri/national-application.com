@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <base href="/index.html">
     <body>
-      <div ui-view="index"></div>
+      <div ui-view="header"></div>
+      <div ui-view="page"></div>
       <script src="/js/vendor/jquery/dist/jquery.min.js"></script>
       <script src="/js/vendor/angular/angular.js"></script>
       <script src="/js/vendor/angular-animate/angular-animate.js"></script>
@@ -19,22 +20,24 @@
       <script src="/js/vendor/angular-resource/angular-resource.js"></script>
       <script src="/js/vendor/angular-sanitize/angular-sanitize.js"></script>
       <script src="/js/vendor/angular-google-maps/dist/angular-google-maps.min.js"></script>
+      <script src="/js/vendor/angular-scroll/angular-scroll.js"></script>
+      <script src="/js/vendor/angular-ui-mask/dist/mask.js"></script>
       <script src="/js/vendor/angular-ui-router/release/angular-ui-router.js"></script>
       <script src="/js/vendor/lodash/dist/lodash.min.js"></script>
       <script src="/js/vendor/angular-touch/angular-touch.js"></script>
-      <script src="/js/vendor/ng-mobile-menu/src/ng-mobile-menu.js"></script>
-      <script src="/js/vendor/angular-modal-service/dst/angular-modal-service.js"></script>
       <script src="/js/app/app.module.js"></script>
       <script src="/js/app/app.config.js"></script>
       <script src="/js/app/app.routes.js"></script>
       <script src="/js/app/app.run.js"></script>
-      <script src="/js/common/common.module.js"></script>
-      <script src="/js/common/common.controller.js"></script>
-      <script src="/js/common/common.index.controller.js"></script>
-      <script src="/js/common/common.answers.controller.js"></script>
-      <script src="/js/common/common.modal.controller.js"></script>
-      <script src="/js/common/common.modal.service.js"></script>
-      <script src="/js/common/common.mail.service.js"></script>
+      <script src="/js/index/index.text.service.js"></script>
+      <script src="/js/index/index.email.service.js"></script>
+      <script src="/js/index/index.save.service.js"></script>
+      <script src="/js/index/index.print.service.js"></script>
+      <script src="/js/index/index.controller.js"></script>
+      <script src="/js/index/index.text.modal.controller.js"></script>
+      <script src="/js/index/index.email.modal.controller.js"></script>
+      <script src="/js/index/index.save.modal.controller.js"></script>
+      <script src="/js/index/index.print.modal.controller.js"></script>
       <script>
         (function(d) {
             var config = {

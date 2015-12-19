@@ -1,0 +1,115 @@
+.page
+    .content-holder
+        .content
+            .main
+                .rx-card
+                    .card-logo
+                        img(ng-src='/img/icon.png')
+                    .card-content
+                        .card-headline
+                            .company
+                                h2 National Rx Card
+
+                            .patient-holder
+                                .row
+                                    h6 PATIENT ID
+                                    h6 NRX43710
+                                .row
+                                    input(placeholder="Preferred Client")
+                                .row
+                                    .column
+                                        h3 Group
+                                    .column
+                                        h4 96100245
+                                .row
+                                    .column
+                                        h3 BIN
+                                    .column
+                                        h4 018398
+                                .row
+                                    .column
+                                        h3 PCN
+                                    .column
+                                        h4 48300712
+
+                .rx-card-download
+                    .column(data-ng-click='textModal();')
+                        h4 <span class='fa fa-mobile fa-rotate-90'></span> Text
+                    .column(data-ng-click='emailModal();')
+                        h4 <span class='fa fa-send'></span> Email
+                    .column(data-ng-click='saveModal();')
+                        h4 <span class='fa fa-cloud'></span> Save
+                    .column(data-ng-click='printModal();')
+                        h4 <span class='fa fa-file-text'></span> Print
+
+
+            .points
+                .point
+                    .number
+                        h1 1
+                    .text
+                        h3 This Is What I Have To Say <span>To You First Things First!</span>
+
+                .point
+                    .number
+                        h1 2
+                    .text
+                        h3 This Is What I Have To Say To You Second Thing!
+
+                .point
+                    .number
+                        h1 3
+                    .text
+                        h3 This Is What I Have To Say To You Third Thing!
+            .center
+                .center-holder
+                    h1 Accepted at over 66,000 U.S pharmacies:
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-albertsons.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-ap.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-costco.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-duanereade.gif')
+
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-kmart.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-kroger.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-target.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-walmart.gif')
+
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-vons.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-walgreens.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-riteaid.gif')
+                    .logo
+                        img(ng-src='/img/pharmacies/pharm-winndixie.gif')
+
+            .locator
+                .locator-holder
+                    h1 Search By Zip Code
+                    h2 Enter your 5 digit zip code and then click the Search button.
+
+                    input(type="text")
+
+                    button.submit(type='submit') Search
+
+                .locator-holder
+                    h1 Pharmacy Lookup
+                    h2 Select your state,then select your city and then click Search
+                    .state-holder
+                        p States:
+                        select(type="text")
+                    .city-holder
+                        p Cities:
+                        select(type="text")
+                    .button-holder
+                        button.submit(type='submit') Search
+
+    //- include ../testimonal/testimonal.jade

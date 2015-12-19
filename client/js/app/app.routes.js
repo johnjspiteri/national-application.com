@@ -3,55 +3,90 @@
 
     function routes($locationProvider, $stateProvider) {
         $locationProvider.html5Mode(true);
-
         $stateProvider
-            .state('index', {
-                url: '',
+            .state('frontend', {
+                url: '/',
                 abstract: true,
                 views: {
-                    'index': {
-                        templateUrl: 'front/index.html',
-                        controller: 'CommonController'
+                    'header': {
+                        templateUrl: 'header/header.html',
+                        // controller: 'Header',
+                    },
+                    'page': {
+                        templateUrl: 'page/page.html',
+                    },
+                    //  'footer': {
+                    //     templateUrl: 'footer/footer.a1.html',
+                        // controller: 'Footer',
+                    // },
+                    //  'corner': {
+                    //     templateUrl: 'corner/corner.a1.html',
+                        // controller: 'Corner',
+                    // },
+                }
+            })
+            .state('frontend.index', {
+                meta: {
+                    title: 'Test This To The Auto Dealership | Interface Agency',
+                    description: 'This is the description shown in Google search results'
+                },
+                url: '',
+                views: {
+                    'container@frontend': {
+                        templateUrl: 'index/index.html',
+                        controller: 'Index'
                     },
                 }
             })
-            .state('index.start', {
-                data : { title: ''},
-                url: '/',
+            .state('frontend.index.text', {
+                url: 'text-a-free-rx-card',
                 views: {
-                    'container': {
-                        templateUrl: 'front/partials/index.html',
-                        controller: 'CommonIndexController'
-
+                    'container@frontend': {
+                        templateUrl: 'index/index.html',
+                        controller: 'Index'
+                    },
+                    'modal@frontend': {
+                        templateUrl: 'index/index.text.modal.html',
+                        controller: 'IndexTextModal'
                     },
                 },
             })
-            .state('index.answers', {
-                data : { title: ''},
-                url: '/answers/',
+            .state('frontend.index.email', {
+                url: 'email-a-free-rx-card',
                 views: {
-                    'container': {
-                        templateUrl: 'front/partials/answers.html',
-                        controller: 'CommonAnswersController'
-
+                    'container@frontend': {
+                        templateUrl: 'index/index.html',
+                        controller: 'Index'
+                    },
+                    'modal@frontend': {
+                        templateUrl: 'index/index.email.modal.html',
+                        controller: 'IndexEmailModal'
                     },
                 },
             })
-            .state('index.testimonials', {
-                data : { title: ''},
-                url: '/testimonials/',
+            .state('frontend.index.save', {
+                url: 'save-a-free-rx-card',
                 views: {
-                    'container': {
-                        templateUrl: 'front/partials/testimonals.html',
+                    'container@frontend': {
+                        templateUrl: 'index/index.html',
+                        controller: 'Index'
+                    },
+                    'modal@frontend': {
+                        templateUrl: 'index/index.save.modal.html',
+                        controller: 'IndexSaveModal'
                     },
                 },
             })
-            .state('index.contact', {
-                data : { title: ''},
-                url: '/contact/',
+            .state('frontend.index.print', {
+                url: 'print-a-free-rx-card',
                 views: {
-                    'container': {
-                        templateUrl: 'front/partials/contact.html',
+                    'container@frontend': {
+                        templateUrl: 'index/index.html',
+                        controller: 'Index'
+                    },
+                    'modal@frontend': {
+                        templateUrl: 'index/index.print.modal.html',
+                        controller: 'IndexPrintModal'
                     },
                 },
             });

@@ -5,11 +5,9 @@
         $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
             $rootScope.title = current.$$route.title;
         });
-        $rootScope.display = false;
-        $rootScope.applicationState = false;
         $rootScope.$state = $state;
         $rootScope.$stateParams = $stateParams;
-        $state.go('index.start');
+        $state.go('frontend.index');
     }
 
     angular

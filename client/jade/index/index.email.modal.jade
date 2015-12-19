@@ -1,0 +1,9 @@
+.modal-holder
+    form.modal-container(name='user', id="user", data-ng-model='user', data-ng-submit="emailForm(user.$valid);", novalidate)
+        .fa.fa-close(data-ng-click="close();")
+        h1 Email Me A Free Rx
+        h2 Discount Card
+        .row
+            input(type="text" placeholder="Email Address", data-ng-model="user.email")
+        button.submit(type='submit') Submit
+#panel(data-ng-show='display')

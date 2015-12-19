@@ -1,0 +1,13 @@
+
+<div class="modal-holder">
+  <form name="user" id="user" data-ng-model="user" data-ng-submit="emailForm(user.$valid);" novalidate="novalidate" class="modal-container">
+    <div data-ng-click="close();" class="fa fa-close"></div>
+    <h1>Email Me A Free Rx</h1>
+    <h2>Discount Card</h2>
+    <div class="row">
+      <input type="text" placeholder="Email Address" data-ng-model="user.email"/>
+    </div>
+    <button type="submit" class="submit">Submit</button>
+  </form>
+</div>
+<div id="panel" data-ng-show="display"></div>

@@ -3,6 +3,17 @@
 
     angular
         .module('app', [
-            'app.common',
+            // 'app.index',
+            // 'app.question',
+            // 'app.testimonal',
+            // 'app.contact',
+            'ngAnimate',
+            'ngResource',
+            'ngSanitize',
+            'ngTouch',
+            'uiGmapgoogle-maps',
+            'ui.router',
+            'ui.mask',
+            'duScroll',
         ]);
 })();

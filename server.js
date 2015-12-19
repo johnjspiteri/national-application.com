@@ -42,10 +42,6 @@ db.once('open', function callback () {
 mongoose
     .set('debug', false);
 
-// if (seedDB) {
-//     require('./server/config/seed');
-// }
-
 if ('production' === env) {
     app.use(express.static(__dirname + '/client'));
     app.use(express.static(__dirname + '/client/html'));

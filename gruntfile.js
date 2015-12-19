@@ -58,7 +58,8 @@ module.exports = function (grunt) {
                     cwd: 'client/jade',
                     src: '**/*.jade',
                     dest: 'client/html',
-                    ext: '.html'
+                    ext: '.html',
+                    extDot: 'last'                    
                 }]
             }
         },

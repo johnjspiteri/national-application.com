@@ -19,6 +19,7 @@
     "angular-slick": "~0.1.18",
     "angular-touch": "~1.2.20",
     "angular-truncate": "*",
+    "angular-ui-mask": "~1.4.7",
     "angular-ui-router": "~0.2.10",
     "angular-ui-utils": "~0.1.1",
     "angularLocalStorage": "~0.2.0",
