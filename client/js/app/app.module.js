@@ -3,10 +3,6 @@
 
     angular
         .module('app', [
-            // 'app.index',
-            // 'app.question',
-            // 'app.testimonal',
-            // 'app.contact',
             'ngAnimate',
             'ngResource',
             'ngSanitize',

@@ -9,38 +9,25 @@
             <div class="card-headline">
               <div class="company">
                 <h2>National Rx Card</h2>
+                <h5>Free</h5><span>&bull;</span>
+                <h5>Fast</h5><span>&bull;</span>
+                <h5>Discounts</h5>
               </div>
               <div class="patient-holder">
                 <div class="row">
-                  <h6>PATIENT ID</h6>
+                  <input type="text" value="Enter Your Name"/>
+                </div>
+                <div class="row">
+                  <h6>PATIENT</h6>
                   <h6>NRX43710</h6>
                 </div>
                 <div class="row">
-                  <input placeholder="Preferred Client"/>
+                  <h6>GROUP</h6>
+                  <h6>96100245</h6>
                 </div>
                 <div class="row">
-                  <div class="column">
-                    <h3>Group</h3>
-                  </div>
-                  <div class="column">
-                    <h4>96100245</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="column">
-                    <h3>BIN</h3>
-                  </div>
-                  <div class="column">
-                    <h4>018398</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="column">
-                    <h3>PCN</h3>
-                  </div>
-                  <div class="column">
-                    <h4>48300712</h4>
-                  </div>
+                  <h6>BIN</h6>
+                  <h6>018398</h6>
                 </div>
               </div>
             </div>
@@ -48,83 +35,51 @@
         </div>
         <div class="rx-card-download">
           <div data-ng-click="textModal();" class="column">
-            <h4><span class='fa fa-mobile fa-rotate-90'></span> Text</h4>
+            <p><span class='fa fa-mobile'></span> Text</p>
           </div>
           <div data-ng-click="emailModal();" class="column">
-            <h4><span class='fa fa-send'></span> Email</h4>
+            <p><span class='fa fa-send'></span> Email</p>
           </div>
           <div data-ng-click="saveModal();" class="column">
-            <h4><span class='fa fa-cloud'></span> Save</h4>
+            <p><span class='fa fa-cloud'></span> Save</p>
           </div>
           <div data-ng-click="printModal();" class="column">
-            <h4><span class='fa fa-file-text'></span> Print</h4>
+            <p><span class='fa fa-file-text'></span> Print</p>
           </div>
         </div>
       </div>
       <div class="points">
         <div class="point">
-          <div class="number">
-            <h1>1</h1>
-          </div>
-          <div class="text">
-            <h3>This Is What I Have To Say <span>To You First Things First!</span></h3>
-          </div>
-        </div>
-        <div class="point">
-          <div class="number">
-            <h1>2</h1>
-          </div>
-          <div class="text">
-            <h3>This Is What I Have To Say To You Second Thing!</h3>
-          </div>
-        </div>
-        <div class="point">
-          <div class="number">
-            <h1>3</h1>
-          </div>
-          <div class="text">
-            <h3>This Is What I Have To Say To You Third Thing!</h3>
-          </div>
         </div>
       </div>
       <div class="center">
+        <h1>Accepted At Over 66,000 U.S Pharmacies</h1>
         <div class="center-holder">
-          <h1>Accepted at over 66,000 U.S pharmacies:</h1>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-albertsons.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-ap.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-costco.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-duanereade.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-kmart.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-kroger.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-target.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-walmart.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-vons.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-walgreens.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-riteaid.gif"/></div>
-          <div class="logo"><img ng-src="/img/pharmacies/pharm-winndixie.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/albertsons.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/ap.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/kmart.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/costco.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/duanereade.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/kroger.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/target.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/walmart.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/vons.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/walgreens.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/riteaid.gif"/></div>
+          <div class="logo"><img ng-src="/img/pharmacies/winndixie.gif"/></div>
         </div>
       </div>
       <div class="locator">
-        <div class="locator-holder">
-          <h1>Search By Zip Code</h1>
-          <h2>Enter your 5 digit zip code and then click the Search button.</h2>
+        <div class="locator-zip">
+          <h2>Search By Zip Code</h2>
           <input type="text"/>
           <button type="submit" class="submit">Search</button>
         </div>
-        <div class="locator-holder">
-          <h1>Pharmacy Lookup</h1>
-          <h2>Select your state,then select your city and then click Search</h2>
-          <div class="state-holder">
-            <p>States:</p>
-            <select type="text"></select>
-          </div>
-          <div class="city-holder">
-            <p>Cities:</p>
-            <select type="text"></select>
-          </div>
-          <div class="button-holder">
-            <button type="submit" class="submit">Search</button>
-          </div>
+        <div class="locator-state">
+          <h2>Search By City & State</h2>
+          <select type="text"></select>
+          <select type="text"></select>
+          <button type="submit" class="submit">Search</button>
         </div>
       </div>
     </div>

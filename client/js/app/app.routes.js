@@ -89,6 +89,16 @@
                         controller: 'IndexPrintModal'
                     },
                 },
+            })
+            .state('frontend.question', {
+                data : { title: ''},
+                url: 'questions',
+                views: {
+                    'container': {
+                        templateUrl: 'question/question.html',
+                        controller: 'Question',
+                    },
+                },
             });
     }
 

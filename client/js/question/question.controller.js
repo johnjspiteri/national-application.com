@@ -71,7 +71,7 @@
     }
 
     angular
-        .module('app.question')
+        .module('app')
         .controller('Question', Question);
 
     Question.$inject = ['$scope'];
