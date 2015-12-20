@@ -2415,15 +2415,12 @@ small {
     width: 1000px;
     margin: 0;
     padding: 0;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
   }
   .content .main {
     float: left;
     width: 480px;
     padding: 0;
-    margin: 50px 0 20px 0;
+    margin: 60px 0 20px 0;
   }
   .content .main .rx-card {
     float: left;
@@ -2530,15 +2527,15 @@ small {
     float: left;
     width: 478px;
     padding: 0;
-    margin: 0 0 30px 20px;
+    margin: 0 0 30px 36px;
   }
   .content .main .rx-card-download .column {
     float: left;
-    width: 94px;
+    width: 86px;
     padding: 16px 0 12px 0;
     margin: 0 14px 0 0;
-    background: linear-gradient(to bottom, #aa1d69, #8a0d4a);
-    border-bottom: 4px solid #4a0024;
+    background: #666 url("../img/asfalt-light.png") repeat;
+    border-bottom: 4px solid #333;
     border-radius: 8px;
     cursor: pointer;
   }
@@ -2547,7 +2544,6 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-style: italic;
     font-weight: 500;
     color: #fff;
     font-size: 18px;
@@ -2580,41 +2576,30 @@ small {
   }
   .content .points {
     float: left;
-    width: 490px;
+    width: 470px;
     height: 406px;
-    padding: 0 0 0 30px;
-    margin: 50px 0 0 0;
+    padding: 0 0 0 50px;
+    margin: 60px 0 0 0;
   }
   .content .points .point {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 40px 0;
+    margin: 0 0 32px 0;
   }
-  .content .points .point .number {
+  .content .points .point div.fa-certificate {
     float: left;
-    width: 58px;
-    padding: 14px 0 12px;
-    margin: 0 20px 0 0;
-    background: #666 url("../img/asfalt-light.png") repeat;
-    border-bottom: 2px solid #333;
-    border-radius: 8px;
-  }
-  .content .points .point .number h3 {
-    float: left;
-    width: 58px;
+    width: 76px;
     padding: 0;
     margin: 0;
-    font-size: 27px;
-    line-height: 40px;
-    color: #fff;
-    text-align: center;
+    color: #ff9;
+    font-size: 49px;
     text-shadow: 2px 2px 0px #000;
   }
   .content .points .point .text {
     float: left;
-    width: 338px;
-    padding: 14px 30px 12px 30px;
+    width: 394px;
+    padding: 0;
     margin: 0;
   }
   .content .points .point .text h3 {
@@ -2622,28 +2607,41 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-weight: 400;
-    font-size: 29px;
-    line-height: 40px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 49px;
     color: #fff;
-    text-align: center;
+    text-align: left;
     text-shadow: 2px 2px 0px #000;
+  }
+  .content .points .point .text h3 span {
+    padding: 0 0 10px 0;
+    font-style: italic;
+    border-bottom: 6px solid #666;
   }
   .content .center {
     float: left;
     width: 1000px;
     padding: 0;
-    margin: 0 0 30px 0;
+    margin: 0 0 40px 0;
+  }
+  .content .center span.fa-certificate {
+    position: absolute;
+    width: 30px;
+    margin: -16px 0 0 878px;
+    font-size: 39px;
+    color: #ff9;
+    text-shadow: 2px 2px 0px #000;
   }
   .content .center h1 {
     float: left;
-    width: 640px;
+    width: 800px;
     height: 60px;
     padding: 0;
-    margin: 0 0 14px 180px;
+    margin: 0 0 18px 100px;
     font-weight: 500;
     font-size: 29px;
-    line-height: 64px;
+    line-height: 62px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
@@ -2654,7 +2652,7 @@ small {
   .content .center .center-holder {
     float: left;
     width: 958px;
-    padding: 34px 0 0 40px;
+    padding: 34px 0 10px 40px;
     margin: 0;
     background: #fff;
     border-bottom: 4px solid #333;
@@ -2662,12 +2660,12 @@ small {
   }
   .content .center .center-holder .logo {
     float: left;
-    padding: 0 20px 38px 20px;
+    padding: 0 30px 38px 30px;
     margin: 0;
   }
   .content .center .center-holder .logo img {
     float: left;
-    height: 30px;
+    height: 40px;
     padding: 0;
     margin: 0;
     font-size: 18px;
@@ -2682,12 +2680,13 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 10px 0;
+    margin: 0 0 18px 0;
     font-weight: 500;
     font-size: 29px;
     line-height: 64px;
-    color: #000;
+    color: #fff;
     text-align: center;
+    text-shadow: 2px 2px 0px #000;
   }
   .content .locator .submit {
     float: left;
@@ -2697,17 +2696,17 @@ small {
     line-height: 49px;
     color: #fff;
     border: none;
-    background: linear-gradient(to bottom, #aa1d69, #8a0d4a);
-    border-bottom: 4px solid #4a0024;
+    background: #666 url("../img/asfalt-light.png") repeat;
+    border-bottom: 4px solid #333;
     border-radius: 8px;
     cursor: pointer;
   }
   .content .locator .locator-zip {
     float: left;
     width: 300px;
-    padding: 14px 40px 30px 40px;
+    padding: 10px 40px 30px 40px;
     margin: 0 20px 0 0;
-    background: linear-gradient(to bottom, #fff, #ff9);
+    background: #666 url("../img/asfalt-light.png") repeat;
     border-bottom: 4px solid #333;
     border-radius: 12px;
   }
@@ -2717,20 +2716,21 @@ small {
     height: 48px;
     padding: 0;
     margin: 0 20px 0 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    border: 1px solid #aaa;
-    border-bottom: 4px solid #444;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 23px;
+    border: none;
+    border-bottom: 4px solid #333;
     border-radius: 8px;
+    text-align: center;
     cursor: pointer;
   }
   .content .locator .locator-state {
     float: left;
     width: 520px;
-    padding: 14px 40px 35px 40px;
-    margin: 0;
-    background: linear-gradient(to bottom, #fff, #ff9);
+    padding: 10px 40px 30px 40px;
+    margin: 0 0 30px 0;
+    background: #666 url("../img/asfalt-light.png") repeat;
     border-bottom: 4px solid #333;
     border-radius: 12px;
   }
@@ -2741,10 +2741,93 @@ small {
     padding: 0;
     margin: 0 20px 0 0;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 23px;
+    line-height: 23px;
     background: #fff;
-    border: 1px solid #aaa;
+    border: none;
+    border-bottom: 4px solid #333;
+    border-radius: 8px;
+  }
+  .content appearance:none {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  .content .locator-results {
+    float: left;
+    width: 920px;
+    background: #666 url("../img/asfalt-light.png") repeat;
+    padding: 40px 40px 35px 40px;
+    border-radius: 12px;
+    border-bottom: 4px solid #333;
+  }
+  .content .locator-results h2 {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 28px 0;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 39px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .content .locator-results .locator-results-content {
+    float: left;
+    width: 920px;
+    padding: 0;
+    background: #fff;
+  }
+  .content .locator-results .locator-results-content .row {
+    float: left;
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+  }
+  .content .locator-results .locator-results-content .row h4 {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 46px;
+    color: #444;
+  }
+  .content .locator-results .locator-results-content .row h4.title {
+    font-size: 20px;
+    color: #000;
+  }
+  .content .locator-results .locator-results-content .row .pharmacy {
+    float: left;
+    width: 250px;
+    height: 44px;
+    padding: 0 0 0 20px;
+    border-right: 1px solid #ccc;
+  }
+  .content .locator-results .locator-results-content .row .address {
+    float: left;
+    width: 270px;
+    height: 44px;
+    padding: 0 0 0 20px;
+    border-right: 1px solid #ccc;
+  }
+  .content .locator-results .locator-results-content .row .phone {
+    float: left;
+    width: 179px;
+    height: 44px;
+    padding: 0;
+    border-right: 1px solid #ccc;
+  }
+  .content .locator-results .locator-results-content .row .phone h4 {
+    text-align: center;
+  }
+  .content .locator-results .locator-results-content .row .directions {
+    float: left;
+    width: 168px;
+    height: 44px;
+    padding: 0;
+  }
+  .content .locator-results .locator-results-content .row .directions h4 {
+    text-align: center;
   }
   .content .testimonals-holder {
     position: relative;
@@ -2754,15 +2837,15 @@ small {
   }
   .content .testimonals-holder .testimonals {
     float: left;
-    width: 930px;
+    width: 1020px;
     padding: 0;
-    margin: 0 0 50px 50px;
+    margin: 0 0 60px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
     float: left;
-    width: 218px;
-    padding: 22px 30px 22px 30px;
-    margin: 40px 30px 0 0;
+    width: 240px;
+    padding: 28px 40px 28px 40px;
+    margin: 40px 20px 0 0;
     background: linear-gradient(to bottom, #fff, #ff9);
     border-bottom: 4px solid #333;
     border-radius: 12px;
@@ -2771,31 +2854,36 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 22px 0;
-    font-size: 17px;
-    line-height: 27px;
+    margin: 0 0 24px 0;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 31px;
     color: #000;
     text-align: center;
+    text-shadow: 2px 1px 0 #fff;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     float: left;
     width: 100%;
     padding: 0;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 22px;
-    margin: 0 0 14px 0;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 23px;
+    margin: 0 0 12px 0;
     text-align: center;
+    text-shadow: 2px 1px 0 #fff;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 18px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
     text-align: center;
+    text-shadow: 2px 1px 0 #fff;
   }
   .faq-holder {
     float: left;

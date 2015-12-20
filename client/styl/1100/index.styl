@@ -20,7 +20,7 @@
 				float left
 				width 480px
 				padding 0
-				margin 50px 0 20px 0
+				margin 60px 0 20px 0
 
 				.rx-card
 					float left
@@ -128,15 +128,15 @@
 					float left
 					width 478px
 					padding 0
-					margin 0 0 30px 20px
+					margin 0 0 30px 36px
 
 					.column
 						float left
-						width 94px
+						width 86px
 						padding 16px 0 12px 0
 						margin 0 14px 0 0
-						background $burgundy-gradient
-						border-bottom 4px solid $burgundy-border
+						background $header-tile
+						border-bottom 4px solid #333
 						border-radius 8px
 						cursor pointer
 
@@ -145,7 +145,6 @@
 							width 100%
 							padding 0
 							margin 0
-							font-style italic
 							font-weight 500
 							color $white
 							font-size 18px
@@ -178,10 +177,10 @@
 
 			.points
 				float left
-				width 490px
+				width 470px
 				height 406px
-				padding 0 0 0 30px
-				margin 50px 0 0 0
+				padding 0 0 0 50px
+				margin 60px 0 0 0
 				// background $header-tile
 				// border-bottom 4px solid #333
 				// border-radius 8px
@@ -190,64 +189,63 @@
 					float left
 					width 100%
 					padding 0
-					margin 0 0 40px 0
+					margin 0 0 32px 0
 
-					.number
+					div.fa-certificate
 						float left
-						width 58px
-						padding 14px 0 12px
-						margin 0 20px 0 0
-						background $header-tile
-						border-bottom 2px solid #333
-						border-radius 8px
-
-						h3
-							float left
-							width 58px
-							padding 0
-							margin 0
-							font-size 27px
-							line-height 40px
-							color $white
-							text-align center
-							text-shadow $shadow
+						width 76px
+						padding 0
+						margin 0
+						color #ff9
+						font-size 49px
+						text-shadow $shadow
 
 					.text
 						float left
-						width 338px
-						padding 14px 30px 12px 30px
+						width 394px
+						padding 0
 						margin 0
-						// background $header-tile
-						// border-bottom 2px solid #333
-						// border-radius 8px
 
 						h3
 							float left
 							width 100%
 							padding 0
 							margin 0
-							font-weight 400
-							font-size 29px
-							line-height 40px
+							font-weight 600
+							font-size 35px
+							line-height 49px
 							color $white
-							text-align center
+							text-align left
 							text-shadow $shadow
+
+							span
+								padding 0 0 10px 0
+								font-style italic
+								border-bottom 6px solid #666
 
 			.center
 				float left
 				width 1000px
 				padding 0
-				margin 0 0 30px 0
+				margin 0 0 40px 0
+
+				span.fa-certificate
+					position absolute
+					width 30px
+					margin -16px 0 0 878px
+					font-size 39px
+					color #ff9
+					text-shadow $shadow
 
 				h1
 					float left
-					width 640px
+					width 800px
 					height 60px
 					padding 0
-					margin 0 0 14px 180px
+					margin 0 0 18px 100px
 					font-weight 500
 					font-size 29px
-					line-height 64px
+					line-height 62px
 					color $white
 					text-align center
 					text-shadow $shadow
@@ -258,7 +256,7 @@
 				.center-holder
 					float left
 					width 958px
-					padding 34px 0 0 40px
+					padding 34px 0 10px 40px
 					margin 0
 					background #FFF
 					border-bottom 4px solid #333
@@ -266,12 +264,12 @@
 
 					.logo
 						float left
-						padding 0 20px 38px 20px
+						padding 0 30px 38px 30px
 						margin 0
 
 						img
 							float left
-							height 30px
+							height 40px
 							padding 0
 							margin 0
 							font-size 18px
@@ -286,12 +284,13 @@
 					float left
 					width 100%
 					padding 0
-					margin 0 0 10px 0
+					margin 0 0 18px 0
 					font-weight 500
 					font-size 29px
 					line-height 64px
-					color $black
+					color $white
 					text-align center
+					text-shadow $shadow
 
 				.submit
 					float left
@@ -301,17 +300,17 @@
 					line-height 49px
 					color $white
 					border none
-					background $burgundy-gradient
-					border-bottom 4px solid $burgundy-border
+					background $header-tile
+					border-bottom 4px solid #333
 					border-radius 8px
 					cursor pointer
 
 				.locator-zip
 					float left
 					width 300px
-					padding 14px 40px 30px 40px
+					padding 10px 40px 30px 40px
 					margin 0 20px 0 0
-					background $card
+					background $header-tile
 					border-bottom 4px solid #333
 					border-radius 12px
 
@@ -321,20 +320,21 @@
 						height 48px
 						padding 0
 						margin 0 20px 0 0
-						font-size 16px
-						font-weight 400
-						line-height 18px
-						border $border
-						border-bottom 4px solid $grey
+						font-size 23px
+						font-weight 500
+						line-height 23px
+						border none
+						border-bottom 4px solid #333
 						border-radius 8px
+						text-align center
 						cursor pointer
 
 				.locator-state
 					float left
 					width 520px
-					padding 14px 40px 35px 40px
-					margin 0
-					background $card
+					padding 10px 40px 30px 40px
+					margin 0 0 30px 0
+					background $header-tile
 					border-bottom 4px solid #333
 					border-radius 12px
 
@@ -345,13 +345,93 @@
 						padding 0
 						margin 0 20px 0 0
 						font-weight 400
-						font-size 16px
-						line-height 18px
+						font-size 23px
+						line-height 23px
 						background $white
-						border $border
+						border none
+						border-bottom 4px solid #333
+						border-radius 8px
 			            appearance:none
-			            -webkit-appearance: none
-			            -moz-appearance: none
+						-webkit-appearance none
+						-moz-appearance none
+
+				.locator-results
+					float left
+					width 920px
+					background $header-tile
+					padding 40px 40px 35px 40px
+					border-radius 12px
+					border-bottom 4px solid #333
+
+					h2
+						float left
+						width 100%
+						padding 0
+						margin 0 0 28px 0
+						font-weight 500
+						font-size 39px
+						line-height 39px
+						color $white
+						text-align center
+						text-shadow $shadow
+
+					.locator-results-content
+						float left
+						width 920px
+						padding 0
+						background $white
+
+						.row
+							float left
+							width 100%
+							height 44px
+							border-bottom 1px solid #ccc
+
+							h4
+								float left
+								width 100%
+								font-weight 600
+								font-size 19px
+								line-height 46px
+								color $grey
+
+							h4.title
+								font-size 20px
+								color $black
+
+							.pharmacy
+								float left
+								width 250px
+								height 44px
+								padding 0 0 0 20px
+								border-right 1px solid #ccc
+
+							.address
+								float left
+								width 270px
+								height 44px
+								padding 0 0 0 20px
+								border-right 1px solid #ccc
+
+							.phone
+								float left
+								width 179px
+								height 44px
+								padding 0
+								border-right 1px solid #ccc
+
+								h4
+									text-align center
+
+							.directions
+								float left
+								width 168px
+								height 44px
+								padding 0
+
+								h4
+									text-align center
+
 
 			.testimonals-holder
 				position relative
@@ -361,15 +441,15 @@
 
 				.testimonals
 					float left
-					width 930px
+					width 1020px
 					padding 0
-					margin 0 0 50px 50px
+					margin 0 0 60px 0
 
 					.testimonal
 						float left
-						width 218px
-						padding 22px 30px 22px 30px
-						margin 40px 30px 0 0
+						width 240px
+						padding 28px 40px 28px 40px
+						margin 40px 20px 0 0
 						background $card
 						border-bottom 4px solid #333
 						border-radius 12px
@@ -378,28 +458,32 @@
 							float left
 							width 100%
 							padding 0
-							margin 0 0 22px 0
-							font-size 17px
-							line-height 27px
-							color #000
+							margin 0 0 24px 0
+							font-style italic
+							font-weight 600
+							font-size 19px
+							line-height 31px
+							color $black
 							text-align center
-
+							text-shadow $white-shadow
 						h2
 							float left
 							width 100%
 							padding 0
-							font-weight 500
-							font-size 22px
-							line-height 22px
-							margin 0 0 14px 0
+							font-weight 600
+							font-size 23px
+							line-height 23px
+							margin 0 0 12px 0
 							text-align center
+							text-shadow $white-shadow
 
 						h3
 							float left
 							width 100%
 							padding 0
 							margin 0
-							font-weight 300
-							font-size 18px
-							line-height 18px
+							font-weight 500
+							font-size 17px
+							line-height 17px
 							text-align center
+							text-shadow $white-shadow

@@ -43,37 +43,25 @@
 
             .points
                 .point
-                    //- .number
-                    //-     h3 1
-                    //- .text
-                    //-     h3 This Is What I Have To Say About Why Everyone Will Like This A Lot
-
-                //- .point
-                //-     .number
-                //-         h3 2
-                //-     .text
-                //-         h3 This Is What I Have To Say When People Think Why?
-                //-
-                //- .point
-                //-     .number
-                //-         h3 3
-                //-     .text
-                //-         h3 This Is What I Have To Say
-
-                //- .point
-                //-     .number
-                //-         h3 4
-                //-     .text
-                //-         h3 This Is What I Have To Say
-                //-
-                //- .point
-                //-     .number
-                //-         h3 5
-                //-     .text
-                //-         h3 This Is What I Have To Say
+                    div.fa.fa-certificate
+                    .text
+                        h3 Membership <span>Is Free</span>
+                .point
+                    div.fa.fa-certificate
+                    .text
+                        h3 Everyone <span>Qualifies</span>
+                .point
+                    div.fa.fa-certificate
+                    .text
+                        h3 No <span>Waiting/Deductibles</span>
+                .point
+                    div.fa.fa-certificate
+                    .text
+                        h3 No Pre-Existing <span>Exclusions</span>
 
             .center
-                h1 Accepted At Over 66,000 U.S Pharmacies
+                span.fa.fa-certificate
+                h1 We Are Partnered With Over 63,000 Pharmacies Nationwide
                 .center-holder
                     .logo
                         img(ng-src='/img/pharmacies/albertsons.gif')
@@ -105,11 +93,96 @@
             .locator
                 .locator-zip
                     h2 Search By Zip Code
-                    input(type="text")
+                    input(type="text", value='10010')
                     button.submit(type='submit') Search
 
                 .locator-state
-                    h2 Search By City & State
-                    select(type="text")
-                    select(type="text")
+                    h2 Search By State & City
+                    select(type="text", data-ng-model='state', ng-options="state for state in states")
+                    select(type="text", data-ng-model='city', ng-options="city for city in cities | orderBy:'toString()'", ng-disabled="!state")
                     button.submit(type='submit') Search
+
+                .locator-results
+                    h2 Pharmacy Locator Results
+
+                    .locator-results-content
+                        .row
+                            .pharmacy
+                                h4.title Pharmacy
+                            .address
+                                h4.title Address
+                            .phone
+                                h4.title Phone Number
+                            .directions
+                                h4.title Get Directions
+                        .row
+                            .pharmacy
+                                h4 CVS Pharmacy #01903
+                            .address
+                                h4 798 Park Road 06002
+                            .phone
+                                h4 1-860 434-4566
+                            .directions
+                                h4 Get Directions
+                        .row
+                            .pharmacy
+                                h4 CVS Pharmacy #01903
+                            .address
+                                h4 798 Park Road 06002
+                            .phone
+                                h4 1-860 434-4566
+                            .directions
+                                h4 Get Directions
+                        .row
+                            .pharmacy
+                                h4 CVS Pharmacy #01903
+                            .address
+                                h4 798 Park Road 06002
+                            .phone
+                                h4 1-860 434-4566
+                            .directions
+                                h4 Get Directions
+                        .row
+                            .pharmacy
+                                h4 CVS Pharmacy #01903
+                            .address
+                                h4 798 Park Road 06002
+                            .phone
+                                h4 1-860 434-4566
+                            .directions
+                                h4 Get Directions
+                        .row
+                            .pharmacy
+                                h4 CVS Pharmacy #01903
+                            .address
+                                h4 798 Park Road 06002
+                            .phone
+                                h4 1-860 434-4566
+                            .directions
+                                h4 Get Directions
+                        .row
+                            .pharmacy
+                                h4 CVS Pharmacy #01903
+                            .address
+                                h4 798 Park Road 06002
+                            .phone
+                                h4 1-860 434-4566
+                            .directions
+                                h4 Get Directions
+
+            .testimonals-holder
+                .testimonals
+                    .testimonal
+                        p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
+                        h2 Sarah Anderson
+                        h3 Manhattan, New York
+
+                    .testimonal
+                        p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
+                        h2 Nino Fluentes
+                        h3 Victoria, Texas
+
+                    .testimonal
+                        p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
+                        h2 Kathleen White
+                        h3 St. Paul, Maryland
