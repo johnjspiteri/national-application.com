@@ -102,9 +102,9 @@
                     select(type="text", data-ng-model='city', ng-options="city for city in cities | orderBy:'toString()'", ng-disabled="!state")
                     button.submit(type='submit') Search
             
-                .locator-results
+                .locator-results.hide
                     h2 Pharmacy Locator Results
-            
+                    
                     .locator-results-content
                         .row
                             .pharmacy
