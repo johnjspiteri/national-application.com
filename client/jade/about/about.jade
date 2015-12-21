@@ -3,35 +3,29 @@
         .content
             .contact-holder
                 .contact-detail
-                    H2 NATIONAL RX
+                    h2 National RX Card
                     .contact-container
-                        p Phone:
-                        h3 6476085645
+                        h3 1-800 456-7890
+                        h3 info@natonalrxcard.com
+                        h4 13 Super Success Highway West<br> Portland, Oregon, 14530
 
-                        p Email:
-                        h3 manish.dutta@hotmail.com
-
-                        h2 Address:
-                        h3 Interface Agency<br> 13 Munch Place<br> Toronto,L9T8K6
-
-                form.contact-form(data-ng-click='toggle();', ng-show='contact')
+                form.contact-form(ng-show='contact')
                     .row
-                        input(type="text", placeholder="Name")
+                        input(type="text", data-ng-model='data.name', placeholder="Name")
 
                     .row
-                        input(type="text", placeholder="Email")
+                        input(type="text", data-ng-model='data.email', placeholder="Email")
 
                     .row
-                        input(type="text", placeholder="Phone:")
+                        input(type="text", data-ng-model='data.phone', placeholder="Phone")
                     .row
-                        textarea Message
-                    button.submit(type="button", name="submit") Submit
+                        textarea()
+                    button.submit(type="button", data-ng-click='toggle();', data-ng-model='data.message', name="submit") Submit
 
-                .contact-form(data-ng-click='toggle();', ng-show='!contact')
-                    .card-confirmation
-                        h1 Thank You John for Using The National Rx Card
-                        h2 Need Help? Have Questions?
-                        p 1-800 808-1213
+                .contact-detail(data-ng-click='toggle();', ng-show='!contact')
+                    h2 Thank You<br>{{data.name}} for Using The National Rx Card
+                    .contact-container
+                        h3 We appreciate your time contact us, and we will respond within one business day.
 
             .map
                 #map_canvas

@@ -3029,57 +3029,69 @@ small {
   }
   .contact-holder .contact-detail {
     float: left;
-    width: 428px;
-    padding: 20px 0 20px 30px;
+    width: 378px;
+    padding: 20px 40px 20px 40px;
     margin: 0 20px 20px 0;
     border: 1px solid #aaa;
+    border-bottom: 4px solid #333;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
+    border-radius: 0 0 8px 8px;
   }
   .contact-holder .contact-detail h2 {
     float: left;
-    width: 398px;
+    width: 378px;
     padding: 10px 0;
-    margin: 0 0 10px 0;
-    font-size: 26px;
+    margin: 0 0 18px 0;
+    font-size: 33px;
+    line-height: 43px;
     text-align: center;
   }
   .contact-holder .contact-detail .contact-container {
     float: left;
-    width: 398px;
+    width: 378px;
     padding: 0;
     margin: 0;
   }
   .contact-holder .contact-detail .contact-container p {
     float: left;
-    width: 60px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-  .contact-holder .contact-detail .contact-container h2 {
-    float: left;
     width: 100%;
+    margin: 0 0 14px 0;
     font-size: 16px;
+    line-height: 16px;
     font-weight: 400;
-    line-height: 24px;
-    text-align: left;
+    text-align: center;
   }
   .contact-holder .contact-detail .contact-container h3 {
     float: left;
-    width: 338px;
+    width: 378px;
     padding: 0;
-    margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    margin: 0 0 12px 0;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #8a0d4a;
+    text-align: center;
+    text-shadow: 2px 1px 0 #fff;
+  }
+  .contact-holder .contact-detail .contact-container h4 {
+    float: left;
+    width: 398px;
+    padding: 0;
+    margin: 18px 0 12px 0;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
   }
   .contact-holder .contact-form {
     float: left;
     width: 428px;
-    padding: 38px 0 20px 30px;
+    padding: 38px 0 30px 30px;
     margin: 0 20px 20px 0;
-    border: 1px solid #aaa;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
+    border: 1px solid #aaa;
+    border-bottom: 4px solid #333;
+    border-radius: 0 0 8px 8px;
   }
   .contact-holder .contact-form .row {
     float: left;
@@ -3089,38 +3101,40 @@ small {
   }
   .contact-holder .contact-form .row input {
     width: 396px;
-    height: 60px;
-    padding: 0;
+    height: 64px;
+    padding: 4px 0 0 0;
     margin: 0;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 23px;
+    line-height: 23px;
     text-align: center;
     border: 1px solid #aaa;
   }
   .contact-holder .contact-form .row textarea {
     float: left;
     width: 396px;
-    height: 60px;
+    height: 90px;
     padding: 10px 0;
     margin: 0;
-    font-size: 18px;
-    text-align: center;
-    line-height: 62px;
+    font-size: 23px;
+    line-height: 29px;
     border: 1px solid #aaa;
+    text-align: center;
   }
   .contact-holder .contact-form .submit {
     float: left;
     width: 398px;
-    height: 52px;
+    height: 68px;
     padding: 0;
     margin: 0;
+    font-style: italic;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 54px;
+    font-size: 31px;
+    line-height: 70px;
     color: #fff;
     background: #8a0d4a;
     background-repeat: repeat-x;
-    border: 1px solid #aaa;
+    border: none;
+    border: 1px solid #000;
     border-radius: 4px;
     box-shadow: none;
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
@@ -3165,11 +3179,13 @@ small {
   .map {
     float: left;
     width: 458px;
-    height: 720px;
+    height: 800px;
     padding: 0;
     margin: 50px 0 0 0;
     border: 1px solid #aaa;
     background: #ccc;
+    border-bottom: 4px solid #333;
+    border-radius: 0 0 8px 8px;
   }
   .modal-holder {
     position: absolute;

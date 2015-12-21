@@ -4,36 +4,32 @@
     <div class="content">
       <div class="contact-holder">
         <div class="contact-detail">
-          <H2>NATIONAL RX</H2>
+          <h2>National RX Card</h2>
           <div class="contact-container">
-            <p>Phone:</p>
-            <h3>6476085645</h3>
-            <p>Email:</p>
-            <h3>manish.dutta@hotmail.com</h3>
-            <h2>Address:</h2>
-            <h3>Interface Agency<br> 13 Munch Place<br> Toronto,L9T8K6</h3>
+            <h3>1-800 456-7890</h3>
+            <h3>info@natonalrxcard.com</h3>
+            <h4>13 Super Success Highway West<br> Portland, Oregon, 14530</h4>
           </div>
         </div>
-        <form data-ng-click="toggle();" ng-show="contact" class="contact-form">
+        <form ng-show="contact" class="contact-form">
           <div class="row">
-            <input type="text" placeholder="Name"/>
+            <input type="text" data-ng-model="data.name" placeholder="Name"/>
           </div>
           <div class="row">
-            <input type="text" placeholder="Email"/>
+            <input type="text" data-ng-model="data.email" placeholder="Email"/>
           </div>
           <div class="row">
-            <input type="text" placeholder="Phone:"/>
+            <input type="text" data-ng-model="data.phone" placeholder="Phone"/>
           </div>
           <div class="row">
-            <textarea>Message</textarea>
+            <textarea></textarea>
           </div>
-          <button type="button" name="submit" class="submit">Submit</button>
+          <button type="button" data-ng-click="toggle();" data-ng-model="data.message" name="submit" class="submit">Submit</button>
         </form>
-        <div data-ng-click="toggle();" ng-show="!contact" class="contact-form">
-          <div class="card-confirmation">
-            <h1>Thank You John for Using The National Rx Card</h1>
-            <h2>Need Help? Have Questions?</h2>
-            <p>1-800 808-1213</p>
+        <div data-ng-click="toggle();" ng-show="!contact" class="contact-detail">
+          <h2>Thank You<br>{{data.name}} for Using The National Rx Card</h2>
+          <div class="contact-container">
+            <h3>We appreciate your time contact us, and we will respond within one business day.</h3>
           </div>
         </div>
       </div>
