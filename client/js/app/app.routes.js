@@ -46,7 +46,7 @@
                 }
             })
             .state('frontend.index.text', {
-                url: '/text-a-free-rx-card',
+                url: 'text-a-free-rx-card',
                 views: {
                     'container@frontend': {
                         templateUrl: 'index/index.html',
@@ -59,7 +59,7 @@
                 },
             })
             .state('frontend.index.email', {
-                url: '/email-a-free-rx-card',
+                url: 'email-a-free-rx-card',
                 views: {
                     'container@frontend': {
                         templateUrl: 'index/index.html',
@@ -72,7 +72,7 @@
                 },
             })
             .state('frontend.index.save', {
-                url: '/save-a-free-rx-card',
+                url: 'save-a-free-rx-card',
                 views: {
                     'container@frontend': {
                         templateUrl: 'index/index.html',
@@ -85,7 +85,7 @@
                 },
             })
             .state('frontend.index.print', {
-                url: '/print-a-free-rx-card',
+                url: 'print-a-free-rx-card',
                 views: {
                     'container': {
                         templateUrl: 'index/index.html',

@@ -1,7 +1,9 @@
 (function() {
     'use strict';
 
-    function config ($urlRouterProvider, uiGmapGoogleMapApiProvider) {
+    function config ($compileProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
+
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(mailto|file|tel):/);
 
         uiGmapGoogleMapApiProvider.configure({
              //    key: 'your api key',
@@ -28,6 +30,6 @@
         .module('app')
         .config(config);
 
-    config.$inject = ['$urlRouterProvider', 'uiGmapGoogleMapApiProvider'];
+    config.$inject = ['$compileProvider', '$urlRouterProvider', 'uiGmapGoogleMapApiProvider'];
 
 })();

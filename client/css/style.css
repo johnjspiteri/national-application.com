@@ -298,6 +298,13 @@ small {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
@@ -2343,14 +2350,14 @@ small {
   }
   header .header .brand {
     float: left;
-    width: 280px;
+    width: 260px;
     height: 78px;
     padding: 0;
     margin: 0;
   }
   header .header .brand .logo {
     float: left;
-    width: 270px;
+    width: 260px;
     height: 78px;
     padding: 0;
     margin: 0;
@@ -2363,7 +2370,7 @@ small {
   }
   header .header nav {
     float: left;
-    width: 719px;
+    width: 739px;
     height: 78px;
     padding: 0;
     margin: 0;
@@ -2382,7 +2389,7 @@ small {
     float: left;
     padding: 0;
     margin: 19px 0 0 0;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 24px;
     color: #fff;
@@ -2394,7 +2401,6 @@ small {
     background: #2774b9 url("../img/asfalt-light.png") repeat;
   }
   header .header nav .tile.active h4 {
-    margin: 20px 0 0 0;
     font-size: 20px;
     line-height: 24px;
   }
@@ -2470,6 +2476,7 @@ small {
     font-size: 39px;
     line-height: 39px;
     text-align: left;
+    text-shadow: 2px 1px 0 #fff;
   }
   .content .main .rx-card .card-content .card-headline .company h5 {
     float: left;
@@ -2479,6 +2486,7 @@ small {
     line-height: 25px;
     color: #000;
     text-align: left;
+    text-shadow: 2px 1px 0 #fff;
   }
   .content .main .rx-card .card-content .card-headline .company span {
     float: left;
@@ -2503,7 +2511,7 @@ small {
   .content .main .rx-card .card-content .card-headline .patient-holder .row input {
     float: left;
     width: 300px;
-    margin: 0 0 18px 0;
+    margin: 0 0 22px 0;
     font-weight: 500;
     font-size: 27px;
     line-height: 27px;
@@ -2512,6 +2520,7 @@ small {
     border: none;
     outline: none;
     text-align: left;
+    text-shadow: 2px 1px 0 #fff;
   }
   .content .main .rx-card .card-content .card-headline .patient-holder .row h6 {
     float: left;
@@ -2522,6 +2531,7 @@ small {
     font-size: 11px;
     line-height: 11px;
     color: #777;
+    text-shadow: 2px 1px 0 #fff;
   }
   .content .main .rx-card-download {
     float: left;
@@ -2532,7 +2542,7 @@ small {
   .content .main .rx-card-download .column {
     float: left;
     width: 86px;
-    padding: 16px 0 12px 0;
+    padding: 16px 0 14px 0;
     margin: 0 14px 0 0;
     background: #666 url("../img/asfalt-light.png") repeat;
     border-bottom: 4px solid #333;
@@ -2544,7 +2554,7 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     font-size: 18px;
     line-height: 18px;
@@ -2559,20 +2569,20 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    height: 40px;
-    font-size: 30px;
+    height: 38px;
+    font-size: 28px;
     text-align: center;
   }
   .content .main .rx-card-download .column p span.fa-mobile {
-    height: 48px;
-    font-size: 41px;
-    margin: -8px 0 0 0;
+    height: 50px;
+    font-size: 42px;
+    margin: -12px 0 0 -4px;
   }
   .content .main .rx-card-download .column p span.fa-send {
-    font-size: 25px;
+    font-size: 22px;
   }
   .content .main .rx-card-download .column p span.fa-file-text {
-    font-size: 26px;
+    font-size: 24px;
   }
   .content .points {
     float: left;
@@ -3189,7 +3199,7 @@ small {
   }
   .modal-holder {
     position: absolute;
-    width: 400px;
+    width: 380px;
     margin: 0 0 0 -200px;
     top: 30px;
     left: 50%;
@@ -3198,21 +3208,22 @@ small {
   .modal-holder .modal-container {
     float: left;
     width: 358px;
-    padding: 26px 20px 36px 40px;
+    padding: 26px 10px 36px 30px;
     margin: 0;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
     border: 1px solid #000;
-    border-radius: 8px;
+    border-radius: 4px;
   }
   .modal-holder .modal-container .fa-close {
     float: left;
-    width: 18px;
+    width: 20px;
     padding: 0;
-    margin: 0 0 24px 160px;
+    margin: 0 0 18px 158px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 19px;
     color: #444;
     text-align: center;
+    text-shadow: 2px 1px 0 #fff;
     cursor: pointer;
   }
   .modal-holder .modal-container h1 {
@@ -3246,43 +3257,168 @@ small {
   .modal-holder .modal-container .row input {
     float: left;
     width: 336px;
-    height: 62px;
+    height: 52px;
     padding: 6px 0 0 0;
-    margin: 0 0 20px 0;
-    font-size: 29px;
-    line-height: 29px;
+    margin: 0 0 14px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
     text-align: center;
     border: 1px solid #aaa;
+    border-bottom: 2px solid #333;
+    border-radius: 8px;
   }
   .modal-holder .modal-container .rx-card {
     float: left;
-    width: 336px;
-    height: 160px;
-    margin: 0 0 22px 0;
+    width: 276px;
+    height: 180px;
+    padding: 24px 30px 30px 30px;
+    margin: 0 0 32px 0;
     background: linear-gradient(to bottom, #fff, #ff9);
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #333;
     border-radius: 8px;
+  }
+  .modal-holder .modal-container .rx-card .card-logo {
+    position: absolute;
+    width: 140px;
+    height: 160px;
+    padding: 0;
+    margin: 30px 0 0 264px;
+    background: none;
+    z-index: 1;
+  }
+  .modal-holder .modal-container .rx-card .card-logo img {
+    display: none;
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+  .modal-holder .modal-container .rx-card .card-content {
+    float: left;
+    width: 336px;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline {
+    float: left;
+    width: 100%;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company h2 {
+    float: left;
+    width: 100%;
+    margin: 0 0 4px 0;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 31px;
+    border: none;
+    text-align: left;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company h5 {
+    float: left;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 21px;
+    color: #000;
+    text-align: left;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company span {
+    float: left;
+    margin: 0 8px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #444;
+    text-align: left;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row {
+    float: left;
+    width: 244px;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h3 {
+    float: left;
+    width: 300px;
+    margin: 0 0 18px 0;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #777;
+    background: none;
+    border: none;
+    outline: none;
+    text-align: left;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h6 {
+    float: left;
+    width: 82px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+    color: #444;
+    text-shadow: 2px 1px 0 #fff;
   }
   .modal-holder .modal-container .submit {
     float: left;
     width: 338px;
-    padding: 10px 0;
-    margin: 0;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 31px;
-    line-height: 37px;
+    padding: 12px 0 10px 0;
+    margin: 0 0 22px 0;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
     color: #fff;
-    background: linear-gradient(to bottom, #aa1d69, #8a0d4a);
+    background: #666 url("../img/asfalt-light.png") repeat;
     border: none;
     outline: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #333;
     border-radius: 8px;
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
     box-shadow: 1px 1px 4px #aaa;
     text-align: center;
-    text-shadow: $dark-shadow;
+    text-shadow: 2px 2px 0px #000;
     cursor: pointer;
+  }
+  .modal-holder .modal-container .legal {
+    float: left;
+    width: 100%;
+  }
+  .modal-holder .modal-container .legal p {
+    float: left;
+    width: 338px;
+    margin: 18px 0 0 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color: #444;
+    text-align: center;
+    text-shadow: 2px 1px 0 #fff;
+  }
+  .modal-holder .modal-container .legal a {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 4px 0 0 0;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    text-align: center;
+    text-shadow: 2px 1px 0 #fff;
   }
   .gmnoprint,
   a[href] {
