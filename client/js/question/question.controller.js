@@ -9,7 +9,7 @@
 
         $scope.answers= [{
             title: "Once I create my card how do I use it?",
-            content: "YES, EACH FAMILY MEMBER NEEDS TO GO BACK TO THE WEBSITE AND CREATE A NEW CARD FOR EACH MEMBER OF THE FAMILY. HOWEVER, OTHER FAMILY MEMBERS AND FRIENDS MAY USE YOUR DISCOUNT COUPON CARD. ",
+            content: "No, there is no sign up or application fee to join the Florida Discount Drug Card program. All a Florida resident has to do is visit the Web site or call the Discount Drug Card help desk to sign up.",
             keywords: [{
                 value: "Test",
             },{
@@ -21,7 +21,7 @@
             }]
         }, {
             title: "What If I Change Pharmacies?",
-            content: "YES, EACH FAMILY MEMBER NEEDS TO GO BACK TO THE WEBSITE AND CREATE A NEW CARD FOR EACH MEMBER OF THE FAMILY. HOWEVER, OTHER FAMILY MEMBERS AND FRIENDS MAY USE YOUR DISCOUNT COUPON CARD. ",
+            content: "No, there is no sign up or application fee to join the Florida Discount Drug Card program. All a Florida resident has to do is visit the Web site or call the Discount Drug Card help desk to sign up.",
             keywords:[{
                 value: "Drug",
             },{
@@ -33,7 +33,7 @@
             }]
         },{
             title: "Does Every Family Member Need A Card?",
-            content: "YES, EACH FAMILY MEMBER NEEDS TO GO BACK TO THE WEBSITE AND CREATE A NEW CARD FOR EACH MEMBER OF THE FAMILY. HOWEVER, OTHER FAMILY MEMBERS AND FRIENDS MAY USE YOUR DISCOUNT COUPON CARD. ",
+            content: "No, there is no sign up or application fee to join the Florida Discount Drug Card program. All a Florida resident has to do is visit the Web site or call the Discount Drug Card help desk to sign up.",
             keywords:[{
                 value: "Test",
             },{
@@ -45,7 +45,7 @@
             }]
         },{
             title: "How Much Does This Program Cost Me?",
-            content: "YES, EACH FAMILY MEMBER NEEDS TO GO BACK TO THE WEBSITE AND CREATE A NEW CARD FOR EACH MEMBER OF THE FAMILY. HOWEVER, OTHER FAMILY MEMBERS AND FRIENDS MAY USE YOUR DISCOUNT COUPON CARD. ",
+            content: "No, there is no sign up or application fee to join the Florida Discount Drug Card program. All a Florida resident has to do is visit the Web site or call the Discount Drug Card help desk to sign up.",
             keywords:[{
                 value: "Drug",
             },{
@@ -57,7 +57,7 @@
             }]
         },{
             title: "Which Pharmacies Can I Go To?",
-            content: "YES, EACH FAMILY MEMBER NEEDS TO GO BACK TO THE WEBSITE AND CREATE A NEW CARD FOR EACH MEMBER OF THE FAMILY. HOWEVER, OTHER FAMILY MEMBERS AND FRIENDS MAY USE YOUR DISCOUNT COUPON CARD. ",
+            content: "No, there is no sign up or application fee to join the Florida Discount Drug Card program. All a Florida resident has to do is visit the Web site or call the Discount Drug Card help desk to sign up.",
             keywords:[{
                 value: "Test",
             },{

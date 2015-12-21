@@ -1,0 +1,54 @@
+
+<div class="page">
+  <div class="content-holder">
+    <div class="content">
+      <div class="contact-holder">
+        <div data-ng-click="toggle();" ng-show="state" class="contact-form">
+          <div class="full">
+            <p>Your name(required)</p>
+            <input type="text" placeholder="Name:"/>
+          </div>
+          <div class="full">
+            <p>Your email(required)</p>
+            <input type="text" placeholder="email"/>
+          </div>
+          <div class="full">
+            <p>Your phone number(required)</p>
+            <input type="text" placeholder="Phone:"/>
+          </div>
+          <div class="full">
+            <textarea>Message</textarea>
+          </div>
+          <div class="button-holder">
+            <button type="button" name="submit" class="submit">Submit</button>
+          </div>
+        </div>
+        <div data-ng-click="toggle();" ng-show="!state" class="contact-form">
+          <div class="card-confirmation">
+            <h1>Thank You John for Using The National Rx Card</h1>
+            <h2>Need Help? Have Questions?</h2>
+            <p>1-800 808-1213</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <H2>NATIONAL RX</H2>
+          <div class="contact-container">
+            <p>Phone:</p>
+            <h3>6476085645</h3>
+            <p>Email:</p>
+            <h3>manish.dutta@hotmail.com </h3>
+            <h2>Address:</h2>
+            <h3>Interface Agency<br> 13 Munch Place<br> Toronto,L9T8K6           </h3>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <div id="map_canvas">
+          <ui-gmap-google-map center="map.center" zoom="map.zoom" options="options">
+            <ui-gmap-marker coords="marker.coords" options="marker.options" icon="marker.options.icon" idkey="marker.id"></ui-gmap-marker>
+          </ui-gmap-google-map>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
