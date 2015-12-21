@@ -1,41 +1,38 @@
 .modal-holder
     .modal-container
         .fa.fa-close(data-ng-click="close();")
-        h1 Save The Rx Card
-        h2 To Your Device
-
+        button.submit(type='submit') Save Rx Card To Your Device
         .rx-card
-            //- .company
-            //-     h2 National Rx Card
-            //- .card-holder
-            //-     .card-logo
-            //-         img(ng-src='/img/icon.png')
-        //-             .card-content
-        //-                 .card-headline
-        //-                     .patient-holder
-        //-                         .row
-        //-                             h2 Patient ID
-        //-                             h4 NRX43710
-        //-
-        //-                         .card-name
-        //-                             input(placeholder="Preferred Client")
-        //-
-        //-                         .row
-        //-                             .column
-        //-                                 h3 Group
-        //-                             .column
-        //-                                 h4 96100245
-        //-                         .row
-        //-                             .column
-        //-                                 h3 BIN
-        //-                             .column
-        //-                                 h4 018398
-        //-                         .row
-        //-                             .column
-        //-                                 h3 PCN
-        //-                             .column
-        //-                                 h4 48300712
+            //- .card-logo
+            //-     img(ng-src='/img/icon.png')
+            .card-content
+                .card-headline
+                    .company
+                        h2 National Rx Card
+                        h5 Free
+                        span &bull;
+                        h5 Fast
+                        span &bull;
+                        h5 Discounts
 
-        button.submit(type='submit') Save Rx Card
+                    .patient-holder
+                        .row
+                            h3 Preferred Client
+                        .row
+                            h6 PATIENT
+                            h6 NRX43710
+                        .row
+                            h6 GROUP
+                            h6 96100245
+                        .row
+                            h6 BIN
+                            h6 018398
+                        //- .row
+                        //-     h6 PCN
+                        //-     h6 48300712
 
+        .legal
+            p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.
+            p <b><i>Note To Utah Residents:</i></b> This discount card program is not protected by the Utah Life and Health Guaranty Association.
+            p NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT:<br><a href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a>
 #panel(data-ng-show='display')
