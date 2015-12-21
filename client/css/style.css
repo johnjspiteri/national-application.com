@@ -2885,28 +2885,16 @@ small {
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
   }
-  .faq-holder {
+  .filter-holder {
     float: left;
-    width: 958px;
-    padding: 40px 0 20px 40px;
-    margin: 0;
-  }
-  .faq-holder .input-holder {
-    float: left;
-    width: 918px;
-    padding: 20px;
-    margin: 0 0 20px 0;
-  }
-  .faq-holder .input-holder .input-container {
-    float: left;
-    width: 714px;
-    padding: 30px 80px;
-    margin: 0;
-    background: linear-gradient(to bottom, #fff, #ff9);
+    width: 878px;
+    padding: 28px 60px;
+    margin: 50px 0 30px 0;
+    background: #666 url("../img/asfalt-light.png") repeat;
     border-bottom: 4px solid #333;
-    border-radius: 4px;
+    border-radius: 8px;
   }
-  .faq-holder .input-holder .input-container h2 {
+  .filter-holder h2 {
     float: left;
     width: 100%;
     padding: 0;
@@ -2914,79 +2902,95 @@ small {
     font-weight: 600;
     font-size: 33px;
     line-height: 33px;
+    color: #fff;
     text-align: center;
+    text-shadow: 2px 2px 0px #000;
   }
-  .faq-holder .input-holder .input-container input {
+  .filter-holder .filter-container {
     float: left;
-    width: 712px;
-    height: 60px;
+    width: 878px;
     padding: 0;
     margin: 0;
+  }
+  .filter-holder .filter-container select {
+    float: left;
+    width: 258px;
+    height: 66px;
+    padding: 0;
+    margin: 0 20px 0 0;
+    font-weight: 600;
+    font-size: 29px;
+    background: transparent;
+    border: none;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-bottom: 4px solid #333;
+    border-radius: 8px;
+    text-align: center;
+    appearance: none;
+  }
+  .filter-holder .filter-container input {
+    float: left;
+    width: 498px;
+    height: 60px;
+    padding: 0;
+    margin: 0 20px 0 0;
     font-weight: 600;
     font-size: 29px;
     text-align: center;
     border: 1px solid #ccc;
+    border-bottom: 4px solid #333;
+    border-radius: 8px;
   }
-  .faq-holder .input-holder .reset-holder {
-    position: relative;
-    width: 90px;
-    margin: 0 auto;
-  }
-  .faq-holder .input-holder .reset-holder .reset {
+  .filter-holder .filter-container .reset {
     float: left;
-    width: 100%;
-    height: 31px;
-    padding: 0;
-    margin: 0 0 26px 0;
-    background: #000;
-    border: 1px solid #aaa;
-    border-top: none;
-    border-radius: 0 0 4px 4px;
-    border: 1px solid #000;
-    cursor: pointer;
-  }
-  .faq-holder .input-holder .reset-holder .reset p {
-    float: left;
-    width: 100%;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 33px;
-    color: #fff;
-    text-align: center;
-  }
-  .faq-holder .input-holder .reset-holder .reset p .fa-times {
-    padding: 0;
-    margin: 0 0 20px 4px;
-    font-size: 15px;
-    line-height: 32px;
-    color: #fff;
-    text-shadow: $dark-shadow;
-  }
-  .faq-holder .answers-holder {
-    float: left;
-    width: 918px;
+    width: 78px;
+    height: 60px;
     padding: 0;
     margin: 0;
-    background: #ff9;
+    background: #000;
+    border: none;
+    border-bottom: 4px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
   }
-  .faq-holder .answers-holder .answer {
-    float: left;
-    width: 828px;
-    padding: 24px 40px 20px 40px;
-    margin: 0 50px 20px 0;
-    background: #f1f1f1;
-    border: 1px solid #000;
-  }
-  .faq-holder .answers-holder .answer h2 {
+  .filter-holder .filter-container .reset .fa-times {
     float: left;
     width: 100%;
-    margin: 0 0 18px 0;
     padding: 0;
-    font-size: 27px;
-    line-height: 29px;
+    margin: 0;
+    font-size: 23px;
+    line-height: 66px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .answers-holder {
+    float: left;
+    width: 1020px;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .answers-holder .answer {
+    float: left;
+    width: 408px;
+    padding: 24px 40px 20px 40px;
+    margin: 0 20px 20px 0;
+    background: #fff;
+    border: 1px solid #000;
+    border-bottom: 4px solid #333;
+    border-radius: 4px;
+  }
+  .answers-holder .answer h2 {
+    float: left;
+    width: 368px;
+    margin: 0 0 18px 0;
+    padding: 0 20px;
+    font-size: 31px;
+    line-height: 39px;
     text-align: center;
   }
-  .faq-holder .answers-holder .answer p {
+  .answers-holder .answer p {
     float: left;
     width: 100%;
     margin: 0 0 14px 0;
@@ -2996,20 +3000,20 @@ small {
     font-weight: 200;
     text-align: center;
   }
-  .faq-holder .answers-holder .answer .tag-holder {
+  .answers-holder .answer .tag-holder {
     position: relative;
     width: 350px;
     padding: 0;
     margin: 0 auto;
   }
-  .faq-holder .answers-holder .answer .tag-holder .tag {
+  .answers-holder .answer .tag-holder .tag {
     float: left;
     margin: 10px 5px 0 0;
     padding: 0;
     background: #000;
     border-radius: 4px;
   }
-  .faq-holder .answers-holder .answer .tag-holder .tag h5 {
+  .answers-holder .answer .tag-holder .tag h5 {
     float: left;
     margin: 0;
     padding: 8px 14px;

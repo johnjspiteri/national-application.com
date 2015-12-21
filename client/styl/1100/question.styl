@@ -1,134 +1,135 @@
-.faq-holder
+.filter-holder
     float left
-    width 958px
-    padding 40px 0 20px 40px
-    margin 0
+    width 878px
+    padding 28px 60px
+    margin 50px 0 30px 0
+    background $header-tile
+    border-bottom 4px solid #333
+    border-radius 8px
 
-    .input-holder
+    h2
         float left
-        width 918px
-        padding 20px
-        margin 0 0 20px 0
+        width 100%
+        padding 0
+        margin 0 0 28px 0
+        font-weight 600
+        font-size 33px
+        line-height 33px
+        color $white
+        text-align center
+        text-shadow $shadow
 
-        .input-container
-            float left
-            width 714px
-            padding 30px 80px
-            margin 0
-            background $card
-            border-bottom 4px solid #333
-            border-radius 4px
-
-            h2
-                float left
-                width 100%
-                padding 0
-                margin 0 0 28px 0
-                font-weight 600
-                font-size 33px
-                line-height 33px
-                text-align center
-
-            input
-                float left
-                width 712px
-                height 60px
-                padding 0
-                margin 0
-                font-weight 600
-                font-size 29px
-                text-align center
-                border $border-light
-
-
-        .reset-holder
-            position relative
-            width 90px
-            margin 0 auto
-
-            .reset
-                float left
-                width 100%
-                height 31px
-                padding 0
-                margin 0 0 26px 0
-                background $black
-                border $border
-                border-top none
-                border-radius 0 0 4px 4px
-                border 1px solid $black
-                cursor pointer
-
-                p
-                    float left
-                    width 100%
-                    font-weight 400
-                    font-size 16px
-                    line-height 33px
-                    color $white
-                    text-align center
-
-                    .fa-times
-                        padding: 0
-                        margin 0 0 20px 4px
-                        font-size 15px
-                        line-height 32px
-                        color $white
-                        text-shadow $dark-shadow
-
-
-
-    .answers-holder
+    .filter-container
         float left
-        width 918px
+        width 878px
         padding 0
         margin 0
-        background #ff9
 
-        .answer
+        select
             float left
-            width 828px
-            padding 24px 40px 20px 40px
-            margin 0 50px 20px 0
-            background #f1f1f1
-            border 1px solid #000
+            width 258px
+            height 66px
+            padding 0
+            margin 0 20px 0 0
+            font-weight 600
+            font-size 29px
+            background: transparent
+            border: none
+            background #fff
+            border $border
+            border-bottom 4px solid #333
+            border-radius 8px
+            text-align center
+            appearance none
 
-            h2
+        input
+            float left
+            width 498px
+            height 60px
+            padding 0
+            margin 0 20px 0 0
+            font-weight 600
+            font-size 29px
+            text-align center
+            border $border-light
+            border-bottom 4px solid #333
+            border-radius 8px
+
+        .reset
+            float left
+            width 78px
+            height 60px
+            padding 0
+            margin 0
+            background $black
+            border none
+            border-bottom 4px solid #333
+            border-radius 8px
+            cursor pointer
+
+            .fa-times
                 float left
                 width 100%
-                margin 0 0 18px 0
-                padding 0
-                font-size 27px
-                line-height 29px
+                padding: 0
+                margin 0
+                font-size 23px
+                line-height 66px
+                color $white
                 text-align center
+                text-shadow $shadow
 
-            p
+.answers-holder
+    float left
+    width 1020px
+    padding 0
+    margin 0 0 20px 0
+
+    .answer
+        float left
+        width 408px
+        padding 24px 40px 20px 40px
+        margin 0 20px 20px 0
+        background #fff
+        border 1px solid #000
+        border-bottom 4px solid #333
+        border-radius 4px
+
+        h2
+            float left
+            width 368px
+            margin 0 0 18px 0
+            padding 0 20px
+            font-size 31px
+            line-height 39px
+            text-align center
+
+        p
+            float left
+            width 100%
+            margin 0 0 14px 0
+            padding 0
+            font-size 15px
+            line-height 26px
+            font-weight 200
+            text-align center
+
+        .tag-holder
+            position relative
+            width 350px
+            padding 0
+            margin 0 auto
+
+            .tag
                 float left
-                width 100%
-                margin 0 0 14px 0
+                margin 10px 5px 0 0
                 padding 0
-                font-size 15px
-                line-height 26px
-                font-weight 200
-                text-align center
+                background #000
+                border-radius 4px
 
-            .tag-holder
-                position relative
-                width 350px
-                padding 0
-                margin 0 auto
-
-                .tag
+                h5
                     float left
-                    margin 10px 5px 0 0
-                    padding 0
-                    background #000
-                    border-radius 4px
-
-                    h5
-                        float left
-                        margin 0
-                        padding 8px 14px
-                        font-size 15px
-                        line-height 15px
-                        color $white
+                    margin 0
+                    padding 8px 14px
+                    font-size 15px
+                    line-height 15px
+                    color $white

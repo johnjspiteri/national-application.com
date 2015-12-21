@@ -2,26 +2,21 @@
 <div class="page">
   <div class="content-holder">
     <div class="content">
-      <div class="faq-holder">
-        <div class="input-holder">
-          <div class="input-container">
-            <h2>Ask Question:</h2>
-            <input type="text" data-ng-model="search"/>
-          </div>
-          <div data-ng-show="search" class="reset-holder">
-            <div data-ng-click="reset();" class="reset">
-              <p>Reset <span class='fa fa-times'></span></p>
-            </div>
-          </div>
+      <div class="filter-holder">
+        <h2>Frequently Asked Questions?</h2>
+        <div class="filter-container">
+          <select type="text" data-ng-model="dropdown"></select>
+          <input type="text" data-ng-model="filter"/>
+          <div data-ng-click="reset();" class="reset"><span class="fa fa-times"></span></div>
         </div>
-        <div class="answers-holder">
-          <div ng-repeat="answer in answers| filter: {title: search}" class="answer">
-            <h2 ng-bind="::answer.title"></h2>
-            <p ng-bind="::answer.content"></p>
-            <div class="tag-holder">
-              <div ng-repeat="keyword in answer.keywords" class="tag">
-                <h5 ng-bind="::keyword.value"></h5>
-              </div>
+      </div>
+      <div class="answers-holder">
+        <div ng-repeat="answer in answers| filter: {title: filter}" class="answer">
+          <h2 ng-bind="::answer.title"></h2>
+          <p ng-bind="::answer.content"></p>
+          <div class="tag-holder">
+            <div ng-repeat="keyword in answer.keywords" class="tag">
+              <h5 ng-bind="::keyword.value"></h5>
             </div>
           </div>
         </div>

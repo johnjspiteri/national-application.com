@@ -1,21 +1,19 @@
 .page
     .content-holder
         .content
-            .faq-holder
-                .input-holder
-                    .input-container
-                        h2 Ask Question:
-                        input(type="text", data-ng-model='search')
+            .filter-holder
+                h2 Frequently Asked Questions?
+                .filter-container
+                    select(type="text", data-ng-model='dropdown')
+                    input(type="text", data-ng-model='filter')
 
+                    .reset(data-ng-click='reset();')
+                        span.fa.fa-times
 
-                    .reset-holder(data-ng-show='search')
-                        .reset(data-ng-click='reset();')
-                            p Reset <span class='fa fa-times'></span>
-
-                .answers-holder
-                    .answer(ng-repeat="answer in answers| filter: {title: search}")
-                        h2(ng-bind="::answer.title")
-                        p(ng-bind="::answer.content")
-                        .tag-holder
-                            .tag(ng-repeat="keyword in answer.keywords")
-                                h5(ng-bind="::keyword.value")
+            .answers-holder
+                .answer(ng-repeat="answer in answers| filter: {title: filter}")
+                    h2(ng-bind="::answer.title")
+                    p(ng-bind="::answer.content")
+                    .tag-holder
+                        .tag(ng-repeat="keyword in answer.keywords")
+                            h5(ng-bind="::keyword.value")
