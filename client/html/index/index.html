@@ -63,7 +63,7 @@
         <div class="point">
           <div class="fa fa-certificate"></div>
           <div class="text">
-            <h3>No <span>Waiting/Deductibles</span></h3>
+            <h3>No Waiting Or <span>Deductibles</span></h3>
           </div>
         </div>
         <div class="point">
@@ -93,7 +93,7 @@
       <div class="locator">
         <div class="locator-zip">
           <h2>Search By Zip Code</h2>
-          <input type="text" value="10010"/>
+          <input type="text" data-ng-model="zip" placeholder="10010"/>
           <button type="submit" class="submit">Search</button>
         </div>
         <div class="locator-state">
@@ -102,7 +102,7 @@
           <select type="text" data-ng-model="city" ng-options="city for city in cities | orderBy:'toString()'" ng-disabled="!state"></select>
           <button type="submit" class="submit">Search</button>
         </div>
-        <div class="locator-results hide">
+        <div data-ng-show="zip" class="locator-results hide">
           <h2>Pharmacy Locator Results</h2>
           <div class="locator-results-content">
             <div class="row">

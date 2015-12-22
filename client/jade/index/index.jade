@@ -40,7 +40,7 @@
                         p <span class='fa fa-cloud'></span> Save
                     .column(data-ng-click='printModal();')
                         p <span class='fa fa-file-text'></span> Print
-            
+
             .points
                 .point
                     div.fa.fa-certificate
@@ -53,12 +53,12 @@
                 .point
                     div.fa.fa-certificate
                     .text
-                        h3 No <span>Waiting/Deductibles</span>
+                        h3 No Waiting Or <span>Deductibles</span>
                 .point
                     div.fa.fa-certificate
                     .text
                         h3 No Pre-Existing <span>Exclusions</span>
-            
+
             .center
                 span.fa.fa-certificate
                 h1 We Are Partnered With Over 63,000 Pharmacies Nationwide
@@ -71,7 +71,7 @@
                         img(ng-src='/img/pharmacies/kmart.gif')
                     .logo
                         img(ng-src='/img/pharmacies/costco.gif')
-            
+
                     .logo
                         img(ng-src='/img/pharmacies/duanereade.gif')
                     .logo
@@ -80,7 +80,7 @@
                         img(ng-src='/img/pharmacies/target.gif')
                     .logo
                         img(ng-src='/img/pharmacies/walmart.gif')
-            
+
                     .logo
                         img(ng-src='/img/pharmacies/vons.gif')
                     .logo
@@ -89,22 +89,22 @@
                         img(ng-src='/img/pharmacies/riteaid.gif')
                     .logo
                         img(ng-src='/img/pharmacies/winndixie.gif')
-            
+
             .locator
                 .locator-zip
                     h2 Search By Zip Code
-                    input(type="text", value='10010')
+                    input(type="text", data-ng-model='zip', placeholder='10010')
                     button.submit(type='submit') Search
-            
+
                 .locator-state
                     h2 Search By State & City
                     select(type="text", data-ng-model='state', ng-options="state for state in states")
                     select(type="text", data-ng-model='city', ng-options="city for city in cities | orderBy:'toString()'", ng-disabled="!state")
                     button.submit(type='submit') Search
-            
-                .locator-results.hide
+
+                .locator-results.hide(data-ng-show='zip')
                     h2 Pharmacy Locator Results
-                    
+
                     .locator-results-content
                         .row
                             .pharmacy
@@ -169,19 +169,19 @@
                                 h4 1-860 434-4566
                             .directions
                                 h4 Get Directions
-            
+
             .testimonals-holder
                 .testimonals
                     .testimonal
                         p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
                         h2 Sarah Anderson
                         h3 Manhattan, New York
-            
+
                     .testimonal
                         p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
                         h2 Nino Fluentes
                         h3 Victoria, Texas
-            
+
                     .testimonal.hide
                         p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
                         h2 Kathleen White
