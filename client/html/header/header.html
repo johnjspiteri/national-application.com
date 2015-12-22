@@ -2,7 +2,11 @@
 <header>
   <div class="header">
     <div class="brand">
-      <div class="logo"></div>
+      <div class="logo">
+        <div data-ng-click="open();" class="mobile-navigation-button">
+          <h5>Navigation</h5>
+        </div>
+      </div>
     </div>
     <nav>
       <div ui-sref="frontend.about" data-ng-class="{active: $state.includes('frontend.about')}" class="tile">

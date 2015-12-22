@@ -11,7 +11,7 @@
 
                 form.contact-form(ng-show='contact')
                     .row
-                        input(type="text", data-ng-model='data.name', placeholder="Name")
+                        input(type="text", data-ng-model='data.name', placeholder="Name") 
 
                     .row
                         input(type="text", data-ng-model='data.email', placeholder="Email")
@@ -31,4 +31,3 @@
                 #map_canvas
                     ui-gmap-google-map(center='map.center', zoom='map.zoom', options='options')
                         ui-gmap-marker(coords='marker.coords', options='marker.options', icon='marker.options.icon', idkey='marker.id')
-
