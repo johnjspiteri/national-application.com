@@ -11,15 +11,15 @@
 
                 form.contact-form(ng-show='contact')
                     .row
-                        input(type="text", data-ng-model='data.name', placeholder="Name") 
+                        input(type="text", data-ng-model='data.name', placeholder="Name", required) 
 
                     .row
-                        input(type="text", data-ng-model='data.email', placeholder="Email")
+                        input(type="text", data-ng-model='data.email', placeholder="Email", required)
 
                     .row
-                        input(type="text", data-ng-model='data.phone', placeholder="Phone")
+                        input(type="text", data-ng-model='data.phone', placeholder="Phone", required)
                     .row
-                        textarea()
+                        textarea(data-ng-model='data.message',placeholder="Message", required)
                     button.submit(type="button", data-ng-click='toggle();', data-ng-model='data.message', name="submit") Submit
 
                 .contact-detail(data-ng-click='toggle();', ng-show='!contact')

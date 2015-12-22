@@ -13,16 +13,16 @@
         </div>
         <form ng-show="contact" class="contact-form">
           <div class="row">
-            <input type="text" data-ng-model="data.name" placeholder="Name"/>
+            <input type="text" data-ng-model="data.name" placeholder="Name" required="required"/>
           </div>
           <div class="row">
-            <input type="text" data-ng-model="data.email" placeholder="Email"/>
+            <input type="text" data-ng-model="data.email" placeholder="Email" required="required"/>
           </div>
           <div class="row">
-            <input type="text" data-ng-model="data.phone" placeholder="Phone"/>
+            <input type="text" data-ng-model="data.phone" placeholder="Phone" required="required"/>
           </div>
           <div class="row">
-            <textarea></textarea>
+            <textarea data-ng-model="data.message" placeholder="Message" required="required"></textarea>
           </div>
           <button type="button" data-ng-click="toggle();" data-ng-model="data.message" name="submit" class="submit">Submit</button>
         </form>
