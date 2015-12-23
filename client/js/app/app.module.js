@@ -11,5 +11,7 @@
             'ui.router',
             'ui.mask',
             'duScroll',
+            'ngMaterial',
+            'ngAria',
         ]);
 })();

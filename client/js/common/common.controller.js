@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    function CommonController ($scope, uiGmapGoogleMapApi) {
+    function CommonController ($scope,$mdSidenav,uiGmapGoogleMapApi) {
 
         $scope.state = true;
 
@@ -45,6 +45,6 @@
         .module('app.common')
         .controller('CommonController', CommonController);
 
-    CommonController.$inject = ['$scope', 'uiGmapGoogleMapApi'];
+    CommonController.$inject = ['$scope','$mdSidenav','uiGmapGoogleMapApi'];
 
 })();
