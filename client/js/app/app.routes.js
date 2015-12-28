@@ -17,7 +17,7 @@
                 views: {
                     'header': {
                         templateUrl: 'header/header.html',
-                        // controller: 'Header',
+                        controller: 'CommonController',
                     },
                     'page': {
                         templateUrl: 'page/page.html',
