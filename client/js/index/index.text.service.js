@@ -10,7 +10,7 @@
     }
 
     angular
-        .module('app')
+        .module('app.index')
         .factory('text', text);
 
     text.$inject = ['$resource'];

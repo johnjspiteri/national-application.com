@@ -7,7 +7,7 @@
     }
 
     angular
-        .module('app')
+        .module('app.testimonial')
         .controller('Testimonial', Testimonial);
 
     Testimonial.$inject = ['$scope'];

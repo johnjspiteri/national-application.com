@@ -10,6 +10,7 @@ html(lang='en', ng-app='app')
     link(rel='stylesheet', href='/css/style.css')
     base(href='/index.html')
     body
+        div(ui-view='modal')
         div(ui-view='header')
         div(ui-view='page')
         div(ui-view='footer')
@@ -29,27 +30,30 @@ html(lang='en', ng-app='app')
         script(src='/js/vendor/angular-touch/angular-touch.js')
         script(src='/js/vendor/angular-material/angular-material.js')
         script(src='/js/vendor/angular-aria/angular-aria.js')
-            
-            
+
         script(src='/js/app/app.module.js')
         script(src='/js/app/app.config.js')
         script(src='/js/app/app.routes.js')
         script(src='/js/app/app.run.js')
-        
 
-        //- script(src='/js/index/index.module.js')
-        //- script(src='/js/index/index.routes.js')
+        script(src='/js/index/index.module.js')
+        script(src='/js/index/index.routes.js')
         script(src='/js/index/index.text.service.js')
         script(src='/js/index/index.email.service.js')
-        script(src='/js/index/index.save.service.js')
-        script(src='/js/index/index.print.service.js')
         script(src='/js/index/index.controller.js')
         script(src='/js/index/index.text.modal.controller.js')
         script(src='/js/index/index.email.modal.controller.js')
         script(src='/js/index/index.save.modal.controller.js')
         script(src='/js/index/index.print.modal.controller.js')
+
+        script(src='/js/question/question.module.js')
+        script(src='/js/question/question.routes.js')
         script(src='/js/question/question.controller.js')
+        script(src='/js/testimonial/testimonial.module.js')
+        script(src='/js/testimonial/testimonial.routes.js')
         script(src='/js/testimonial/testimonial.controller.js')
+        script(src='/js/about/about.module.js')
+        script(src='/js/about/about.routes.js')
         script(src='/js/about/about.controller.js')
 
         script.

@@ -5,8 +5,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
    var express = require('express'),
        // favicon = require('serve-favicon'),
-       //    config = require('./server/config/development.json'),
-
+    config = require('./server/config/development.json'),
     mongoose = require('mongoose'),
     morgan = require('morgan'),
     path = require('path'),
@@ -16,8 +15,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
     cookieParser = require('cookie-parser'),
     errorHandler = require('errorhandler'),
     app = express(),
-    ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
-    port = process.env.OPENSHIFT_NODEJS_PORT || '8080',
+    ip = process.env.OPENSHIFT_NODEJS_IP || config.ip,
+    port = process.env.OPENSHIFT_NODEJS_PORT || config.port,
     connection = 'mongodb://localhost/rx',
     server = require('http').createServer(app),
     env = app.get('env');

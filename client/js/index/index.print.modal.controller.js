@@ -15,7 +15,7 @@
     }
 
     angular
-        .module('app')
+        .module('app.index')
         .controller('IndexPrintModal', IndexPrintModal);
 
     IndexPrintModal.$inject = ['$document', '$scope', '$state'];

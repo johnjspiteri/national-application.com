@@ -14,7 +14,7 @@
     }
 
     angular
-        .module('app')
+        .module('app.index')
         .factory('mail', mail);
 
     mail.$inject = ['$resource'];

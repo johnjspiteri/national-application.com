@@ -44,7 +44,7 @@
     }
 
     angular
-        .module('app')
+        .module('app.index')
         .controller('Index', Index);
 
     Index.$inject = ['$document', '$scope', '$state', 'statesResolve'];

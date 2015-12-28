@@ -13,7 +13,7 @@
     }
 
     angular
-        .module('app')
+        .module('app.index')
         .controller('IndexEmailModal', IndexEmailModal);
 
     IndexEmailModal.$inject = ['$document', '$scope', '$state'];

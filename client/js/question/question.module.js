@@ -2,7 +2,5 @@
     'use strict';
 
     angular
-        .module('app', [
-            'app.question',
-        ]);
+        .module('app.question', []);
 })();

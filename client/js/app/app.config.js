@@ -3,7 +3,7 @@
 
     function config ($compileProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
 
-        $compileProvider.aHrefSanitizationWhitelist(/^\s*(mailto|file|tel):/);
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel|blob):/);
 
         uiGmapGoogleMapApiProvider.configure({
              //    key: 'your api key',

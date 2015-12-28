@@ -6,12 +6,16 @@
             'ngAnimate',
             'ngResource',
             'ngSanitize',
-            'ngTouch',
+            // 'ngTouch',
             'uiGmapgoogle-maps',
             'ui.router',
             'ui.mask',
             'duScroll',
             'ngMaterial',
             'ngAria',
+            'app.index',
+            'app.question',
+            'app.testimonial',
+            'app.about',            
         ]);
 })();

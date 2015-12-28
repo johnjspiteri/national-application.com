@@ -42,7 +42,7 @@
     }
 
     angular
-        .module('app')
+        .module('app.about')
         .controller('About', About);
 
     About.$inject = ['$scope', 'uiGmapGoogleMapApi'];

@@ -5,26 +5,36 @@
         $locationProvider.html5Mode(true);
 
         $stateProvider
-            .state('testimonial', {
-                abstract: true,
-                url: '',
+            .state('frontend.testimonial', {
+                url: '/testimonial',
                 views: {
-                    'container@frontend': {
+                    'page@': {
                         templateUrl: 'testimonial/testimonial.html',
-                    },
-                }
-            })
-            .state('testimonial.list', {
-                data : { title: ''},
-                url: '/testimonials',
-                views: {
-                    'container': {
-                        templateUrl: 'testimonial/testimonial.list.html',
-                        controller: 'Testimonial'
-
+                        controller: 'Testimonial',
                     },
                 },
-            })
+            });
+
+            // .state('testimonial', {
+            //     abstract: true,
+            //     url: '',
+            //     views: {
+            //         'container@frontend': {
+            //             templateUrl: 'testimonial/testimonial.html',
+            //         },
+            //     }
+            // })
+            // .state('testimonial.list', {
+            //     data : { title: ''},
+            //     url: '/testimonials',
+            //     views: {
+            //         'container': {
+            //             templateUrl: 'testimonial/testimonial.list.html',
+            //             controller: 'Testimonial'
+            //
+            //         },
+            //     },
+            // })
     }
 
     angular

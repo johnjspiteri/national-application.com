@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <base href="/index.html">
     <body>
+      <div ui-view="modal"></div>
       <div ui-view="header"></div>
       <div ui-view="page"></div>
       <div ui-view="footer"></div>
@@ -32,17 +33,23 @@
       <script src="/js/app/app.config.js"></script>
       <script src="/js/app/app.routes.js"></script>
       <script src="/js/app/app.run.js"></script>
+      <script src="/js/index/index.module.js"></script>
+      <script src="/js/index/index.routes.js"></script>
       <script src="/js/index/index.text.service.js"></script>
       <script src="/js/index/index.email.service.js"></script>
-      <script src="/js/index/index.save.service.js"></script>
-      <script src="/js/index/index.print.service.js"></script>
       <script src="/js/index/index.controller.js"></script>
       <script src="/js/index/index.text.modal.controller.js"></script>
       <script src="/js/index/index.email.modal.controller.js"></script>
       <script src="/js/index/index.save.modal.controller.js"></script>
       <script src="/js/index/index.print.modal.controller.js"></script>
+      <script src="/js/question/question.module.js"></script>
+      <script src="/js/question/question.routes.js"></script>
       <script src="/js/question/question.controller.js"></script>
+      <script src="/js/testimonial/testimonial.module.js"></script>
+      <script src="/js/testimonial/testimonial.routes.js"></script>
       <script src="/js/testimonial/testimonial.controller.js"></script>
+      <script src="/js/about/about.module.js"></script>
+      <script src="/js/about/about.routes.js"></script>
       <script src="/js/about/about.controller.js"></script>
       <script>
         (function(d) {
