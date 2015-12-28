@@ -25,10 +25,8 @@ app.set('views', __dirname + '/public/html');
 app.set('view engine', 'jade');
 app.use(morgan('dev'));
 app.use(compression());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
+app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 app.use(methodOverride());
 app.use(cookieParser());
 
@@ -56,6 +54,7 @@ if ('development' === env || 'test' === env) {
 }
 
 app.use('/api/mail', require('./server/api/mail'));
+app.use('/api/client', require('./server/api/client'));
 
 app.all('/*', function(req, res, next) {
     res.sendFile('client/html/index.html', { root: __dirname });

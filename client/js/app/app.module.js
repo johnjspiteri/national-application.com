@@ -7,6 +7,7 @@
             'ngResource',
             'ngSanitize',
             // 'ngTouch',
+            'naif.base64',
             'uiGmapgoogle-maps',
             'ui.router',
             'ui.mask',
@@ -16,6 +17,7 @@
             'app.index',
             'app.question',
             'app.testimonial',
-            'app.about',            
+            'app.about',
+            'app.client',
         ]);
 })();

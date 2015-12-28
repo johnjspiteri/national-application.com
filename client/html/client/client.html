@@ -1,0 +1,21 @@
+
+<div class="page">
+  <div class="content-holder">
+    <form name="form" id="item" data-ng-model="item" data-ng-submit="addItem(form.$valid)" novalidate="novalidate" class="content">
+      <div class="item-tabs-entry">
+        <input data-ng-model="item.plan" placeholder="Plan Number"/>
+        <input data-ng-model="item.organization" placeholder="Organization Name"/>
+        <input data-ng-model="item.email" placeholder="Organization Email"/>
+        <div class="item-gallery full">
+          <div class="item-thumbs">
+            <div class="thumb-holder">
+              <object data="data:application/pdf;base64,{{item.pdf.base64}}" type="application/pdf"></object>
+              <input type="file" ng-model="item.pdf" base-sixty-four-input="base-sixty-four-input" class="input-holder"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" ng-disabled="form.$invalid" ng-class="{'disabled': form.$invalid}" class="submit">Add Game</button>
+    </form>
+  </div>
+</div>
