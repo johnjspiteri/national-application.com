@@ -54,6 +54,7 @@ if ('development' === env || 'test' === env) {
 }
 
 app.use('/api/mail', require('./server/api/mail'));
+app.use('/api/text', require('./server/api/text'));
 app.use('/api/client', require('./server/api/client'));
 
 app.all('/*', function(req, res, next) {

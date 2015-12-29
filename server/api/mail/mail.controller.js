@@ -6,7 +6,6 @@ var sesTransport = require('nodemailer-ses-transport');
 var Mail = require('./mail.model');
 
 exports.create = function (req, res) {
-    // var userEmail = req.body.name + ' <' + req.body.email + '>';
 
     var message = {
         from: 'National Rx Card <delivery@nationalrxcard.com>',
@@ -20,8 +19,6 @@ exports.create = function (req, res) {
             encoding: 'base64'
         }]
     };
-
-
 
     var transport = nodemailer.createTransport(sesTransport({
         accessKeyId: "AKIAINA5UIHF3IA4NUPA",

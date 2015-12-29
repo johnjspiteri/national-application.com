@@ -1,8 +1,8 @@
 .modal-holder
-    .modal-container
+    form.modal-container(name='user', id="user", data-ng-model='user', data-ng-submit="textForm(user.$valid);", novalidate)
         .fa.fa-close(data-ng-click="close();")
         .row
-            input(type="text", data-ng-model='data.phone', placeholder="416 588-3989" data-ng-min='10', data-ng-max='10', required)
+            input(type="text", data-ng-model='data.destination', placeholder="416 588-3989" data-ng-min='10', data-ng-max='10', required)
         button.submit(type='submit') Text Me A Free<br>Rx Discount Card
         .rx-card
             //- .card-logo
