@@ -19,6 +19,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
     port = process.env.OPENSHIFT_NODEJS_PORT || config.port,
     connection = 'mongodb://localhost/rx',
     server = require('http').createServer(app),
+    seed = true,
     env = app.get('env');
 
 app.set('views', __dirname + '/public/html');
@@ -38,6 +39,10 @@ db.once('open', function callback () {
 });
 mongoose
     .set('debug', false);
+
+if (seed) {
+  require('./server/config/seed');
+}
 
 if ('production' === env) {
     app.use(express.static(__dirname + '/client'));
