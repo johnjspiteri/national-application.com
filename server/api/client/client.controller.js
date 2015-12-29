@@ -2,7 +2,7 @@
     'use strict';
 
     function handleError(res, err) {
-        return res.send(500, err);
+        res.status(500).send(err)
     }
     var mongoose = require('mongoose');
     var Client = require('./client.model');
