@@ -2355,22 +2355,6 @@ small {
   header .header .brand .logo {
     float: left;
     width: 278px;
-<<<<<<< HEAD
-    height: 88px;
-    padding: 0;
-    margin: 10px 0 10px 0;
-    font-size: 14px;
-    line-height: 50px;
-    background: #d1d1d1;
-=======
-    height: 128px;
-    padding: 0 0 0 0;
-    margin: 0 0 10px 0;
-    font-size: 14px;
-    line-height: 50px;
-    background: #d1d1d1;
-    border: 1px dotted #000;
->>>>>>> new
     border-top: none;
     border-bottom: none;
     text-align: center;
@@ -2378,18 +2362,22 @@ small {
   header .header .brand .mobile-navigation-button {
     float: left;
     width: 258px;
-<<<<<<< HEAD
     padding: 10px 0 12px 0;
     margin: 0 0 0 10px;
-=======
-    padding: 10px 0 8px 0;
-    margin: 78px 0 0 10px;
->>>>>>> new
     background: linear-gradient(to bottom, #fff, #ff9);
     border: 1px solid #aaa;
     border-radius: 4px;
   }
   header .header .brand .mobile-navigation-button h5 {
+    float: left;
+    width: 258px;
+    padding: 10px 0 8px 0;
+    margin: 78px 0 0 10px;
+    background: linear-gradient(to bottom, #fff, #ff9);
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  header .header .brand .mobile-navigation-button h5 h5 {
     float: left;
     width: 258px;
     font-size: 22px;
@@ -2460,11 +2448,7 @@ small {
     float: left;
     width: 280px;
     padding: 0;
-<<<<<<< HEAD
-    margin: 0 0 40px 20px;
-=======
     margin: 0 0 0 20px;
->>>>>>> new
   }
   .content .main .rx-card {
     float: left;
@@ -3517,19 +3501,13 @@ small {
   }
   header .header {
     width: 320px;
-<<<<<<< HEAD
-=======
     padding: 0;
     margin: 0 auto;
->>>>>>> new
   }
   header .header .brand {
     width: 320px;
-<<<<<<< HEAD
-=======
     padding: 0;
     margin: 0;
->>>>>>> new
   }
   header .header .brand .logo {
     float: left;
