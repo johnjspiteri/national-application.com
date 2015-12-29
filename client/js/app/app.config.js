@@ -1,9 +1,9 @@
 (function() {
     'use strict';
 
-    function config ($compileProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
+    function config ($compileProvider, $urlRouterProvider, $sceDelegateProvider, uiGmapGoogleMapApiProvider) {
 
-        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel|blob):/);
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel|href|blob|):/);
 
         uiGmapGoogleMapApiProvider.configure({
              //    key: 'your api key',
@@ -30,6 +30,6 @@
         .module('app')
         .config(config);
 
-    config.$inject = ['$compileProvider', '$urlRouterProvider', 'uiGmapGoogleMapApiProvider'];
+    config.$inject = ['$compileProvider', '$urlRouterProvider', '$sceDelegateProvider', 'uiGmapGoogleMapApiProvider'];
 
 })();

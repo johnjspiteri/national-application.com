@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    function Index ($document, $scope, $state, statesResolve) {
+    function Index ($sce, $document, $scope, $state, statesResolve) {
 
         $scope.display = false;
 
@@ -47,6 +47,6 @@
         .module('app.index')
         .controller('Index', Index);
 
-    Index.$inject = ['$document', '$scope', '$state', 'statesResolve'];
+    Index.$inject = ['$sce', '$document', '$scope', '$state', 'statesResolve'];
 
 })();

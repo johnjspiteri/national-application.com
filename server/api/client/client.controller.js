@@ -14,7 +14,7 @@
         });
     };
     exports.show = function (req, res, next) {
-        Client.findOne({clean:req.params.id}, function (err, data) {
+        Client.findOne({plan:req.params.id}, function (err, data) {
             if (err) { return handleError(res, err); }
             if (!data) { return res.sendStatus(404); }
             return res.json(data);

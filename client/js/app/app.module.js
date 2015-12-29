@@ -6,6 +6,7 @@
             'ngAnimate',
             'ngResource',
             'ngSanitize',
+            'ngFileSaver',
             // 'ngTouch',
             'naif.base64',
             'uiGmapgoogle-maps',

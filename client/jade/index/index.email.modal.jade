@@ -2,7 +2,7 @@
     form.modal-container(name='user', id="user", data-ng-model='user', data-ng-submit="emailForm(user.$valid);", novalidate)
         .fa.fa-close(data-ng-click="close();")
         .row
-            input(type="text" placeholder="Email Address", data-ng-model="user.email")
+            input(type="email" placeholder="Email Address", data-ng-model="user.email")
         button.submit(type='submit') Submit
         .rx-card
             //- .card-logo
