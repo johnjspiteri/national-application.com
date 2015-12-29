@@ -7,7 +7,7 @@ var ClientSchema = new Schema({
     plan: Number,
     organization: String,
     email: String,
-    card: Object
+    file: String
 });
 
 module.exports = mongoose.model('Client', ClientSchema);

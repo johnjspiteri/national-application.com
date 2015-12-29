@@ -1,9 +1,12 @@
 (function() {
     'use strict';
 
-    function IndexTextModal ($document, $scope, $state, text) {
+    function IndexTextModal ($document, $scope, $state, clientResolve, text) {
 
         $scope.display = true;
+        $scope.card = clientResolve;
+
+        console.log($scope.card);
 
         $scope.close = function () {
             $scope.display = false;
@@ -14,11 +17,12 @@
             $document.scrollTopAnimated(0);
         };
 
-        $scope.textForm = function () {
+        $scope.text = function () {
             text.create({
-                destination: $scope.user.destination,
+                destination: $scope.data.destination,
+                file: $scope.card.file
             });
-            $scope.user = {};
+            $scope.data = {};
             $scope.display = false;
             $scope.toTheTop();
             $scope.close();
@@ -30,6 +34,6 @@
         .module('app.index')
         .controller('IndexTextModal', IndexTextModal);
 
-    IndexTextModal.$inject = ['$document', '$scope', '$state','text'];
+    IndexTextModal.$inject = ['$document', '$scope', '$state', 'clientResolve', 'text'];
 
 })();

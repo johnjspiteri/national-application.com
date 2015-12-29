@@ -9,7 +9,7 @@
                 .item-gallery.full
                     .item-thumbs
                         .thumb-holder
-                            object(data='data:application/pdf;base64,{{item.pdf.base64}}', type="application/pdf")
-                            input.input-holder(type='file', ng-model='item.pdf' base-sixty-four-input)
+                            img(data-ng-src='{{item.card}}', data-ng-show='item.card')
+                            input.input-holder(type='file', ng-model='item.card' base-sixty-four-input)
 
             button.submit(type="submit", ng-disabled="form.$invalid", ng-class="{'disabled': form.$invalid}") Add Game

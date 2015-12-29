@@ -1,11 +1,11 @@
 
 <div class="modal-holder">
-  <form name="user" id="user" data-ng-model="user" data-ng-submit="textForm(user.$valid);" novalidate="novalidate" class="modal-container">
+  <div class="modal-container">
     <div data-ng-click="close();" class="fa fa-close"></div>
     <div class="row">
       <input type="text" data-ng-model="data.destination" placeholder="416 588-3989" data-ng-min="10" data-ng-max="10" required="required"/>
     </div>
-    <button type="submit" class="submit">Text Me A Free<br>Rx Discount Card</button>
+    <div data-ng-click="text();" class="submit">Text Me A Free<br>Rx Discount Card</div>
     <div class="rx-card">
       <div class="card-content">
         <div class="card-headline">
@@ -40,6 +40,6 @@
       <p><b><i>Note To Utah Residents:</i></b> This discount card program is not protected by the Utah Life and Health Guaranty Association.</p>
       <p>NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT:<br></p><a ng-href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a>
     </div>
-  </form>
+  </div>
 </div>
 <div id="panel" data-ng-show="display"></div>

@@ -8,9 +8,8 @@
         <input data-ng-model="item.email" placeholder="Organization Email"/>
         <div class="item-gallery full">
           <div class="item-thumbs">
-            <div class="thumb-holder">
-              <object data="data:application/pdf;base64,{{item.pdf.base64}}" type="application/pdf"></object>
-              <input type="file" ng-model="item.pdf" base-sixty-four-input="base-sixty-four-input" class="input-holder"/>
+            <div class="thumb-holder"><img data-ng-src="{{item.card}}" data-ng-show="item.card"/>
+              <input type="file" ng-model="item.card" base-sixty-four-input="base-sixty-four-input" class="input-holder"/>
             </div>
           </div>
         </div>
