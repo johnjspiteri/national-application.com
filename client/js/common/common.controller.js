@@ -2,8 +2,19 @@
     'use strict';
 
     function CommonController ($scope,$mdSidenav,uiGmapGoogleMapApi) {
-
+        console.log("controller test");
         $scope.state = true;
+
+        $scope.open = function () {
+            // $scope.display = true;
+            $mdSidenav('navigationPanel').open();
+            console.log("test");
+        };
+
+        $scope.close = function () {
+            // $scope.display = false;
+            $mdSidenav('navigationPanel').close()
+        };
 
         $scope.toggle = function() {
             $scope.state = !$scope.state;
@@ -42,7 +53,7 @@
     }
 
     angular
-        .module('app.common')
+        .module('app')
         .controller('CommonController', CommonController);
 
     CommonController.$inject = ['$scope','$mdSidenav','uiGmapGoogleMapApi'];

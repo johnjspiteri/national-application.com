@@ -38,4 +38,20 @@ header
 //-             li(ui-sref="frontend.terms", data-ng-click='closeNavigation();', data-ng-class="{active: $state.includes('frontend.terms')}")
 //-                 h4 Terms
 //-
+md-sidenav(md-component-id="navigationPanel", class="md-sidenav-left md-closed")
+    .side
+        ul
+            li.close
+                .fa.fa-long-arrow-left(ng-click="close();")
+            li(ui-sref='frontend.index', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.index')}")
+                h4 Home
+            li(ui-sref='frontend.about', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.about')}")
+                h4 About
+            li(ui-sref='frontend.testimonial', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.testimonial')}")
+                h4 Testimonials
+            li(ui-sref='frontend.question', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.question')}")
+                h4 FAQ
+            
+
+>>>>>>> style
 //- #panel(ng-show='display')
