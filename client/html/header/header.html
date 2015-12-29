@@ -24,3 +24,25 @@
     </nav>
   </div>
 </header>
+<md-sidenav md-component-id="navigationPanel" class="md-sidenav-left md-closed">
+  <div class="side">
+    <ul>
+      <li class="close">
+        <div ng-click="close();" class="fa fa-long-arrow-left"></div>
+      </li>
+      <li ui-sref="frontend.about" data-ng-click="close();" data-ng-class="{active: $state.includes('frontend.about')}">
+        <h4>About</h4>
+      </li>
+      <li ui-sref="frontend.testimonial" data-ng-click="close();" data-ng-class="{active: $state.includes('frontend.testimonial')}">
+        <h4>Testimonials</h4>
+      </li>
+      <li ui-sref="frontend.question" data-ng-click="close();" data-ng-class="{active: $state.includes('frontend.question')}">
+        <h4>FAQ</h4>
+      </li>
+      <li ui-sref="frontend.index" data-ng-click="close();" data-ng-class="{active: $state.includes('frontend.index')}">
+        <h4>Savings Card</h4>
+      </li>
+    </ul>
+  </div>
+</md-sidenav>
+<div id="panel" ng-show="display"></div>
