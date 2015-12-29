@@ -1,14 +1,14 @@
 (function() {
     'use strict';
 
-    function IndexSaveModal ($scope, $state, $sce, $window, clientResolve, FileSaver, Blob) {
+    function IndexSaveModal ($scope, $state, $window, clientResolve, FileSaver, Blob) {
 
         $scope.display = true;
         $scope.client = clientResolve;
 
-        $scope.html = 'https://s3.amazonaws.com/nationalrx/card/national_test.png';
+        // $scope.html = 'https://s3.amazonaws.com/nationalrx/card/national_test.png';
 
-        $scope.trustedHtml = $sce.trustAsUrl($scope.html);
+        // $scope.trustedHtml = $sce.trustAsUrl($scope.html);
         //
         // $scope.base64 = $scope.client.card.base64;
         // console.log($scope.base64);
@@ -52,6 +52,6 @@
         .module('app.index')
         .controller('IndexSaveModal', IndexSaveModal);
 
-    IndexSaveModal.$inject = ['$scope', '$state', '$sce', '$window', 'clientResolve', 'FileSaver', 'Blob'];
+    IndexSaveModal.$inject = ['$scope', '$state', '$window', 'clientResolve', 'FileSaver', 'Blob'];
 
 })();

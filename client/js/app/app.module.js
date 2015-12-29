@@ -19,6 +19,6 @@
             'app.question',
             'app.testimonial',
             'app.about',
-            'app.client',
+            // 'app.client',
         ]);
 })();

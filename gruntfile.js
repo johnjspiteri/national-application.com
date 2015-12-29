@@ -59,7 +59,7 @@ module.exports = function (grunt) {
                     src: '**/*.jade',
                     dest: 'client/html',
                     ext: '.html',
-                    extDot: 'last'                    
+                    extDot: 'last'
                 }]
             }
         },
@@ -80,7 +80,12 @@ module.exports = function (grunt) {
         },
         jshint: {
             jshint: ".jshintrc",
-            development: ['gruntfile.js', 'client/**/*.js', '!client/vendor/', 'server/**/*.js', '!node_modules'],
+            development: ['gruntfile.js',
+            // 'client/**/*.js',
+            // '!client/vendor/',
+            'server/**/*.js',
+            // '!node_modules'
+        ],
             reporter: require('jshint-stylish')
         },
         watch: {
@@ -154,6 +159,7 @@ module.exports = function (grunt) {
     grunt.registerTask('server', [
         // 'jshint:development',
         'express:server',
+        'node-inspector',
         // 'open:server',
         'watch'
     ]);
