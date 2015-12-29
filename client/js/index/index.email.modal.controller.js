@@ -5,7 +5,7 @@
 
         $scope.display = true;
         $scope.client = clientResolve;
-        console.log($scope.client.card.base64);
+        console.log($scope.client);
 
         $scope.close = function () {
             $scope.display = false;
@@ -16,10 +16,10 @@
             $document.scrollTopAnimated(0);
         };
 
-        $scope.emailForm = function () {
+        $scope.email = function () {
             mail.create({
-                email: $scope.user.email,
-                attachment: $scope.client.card.base64,
+                email: $scope.data.email,
+                file: $scope.client.file,
             });
             $scope.user = {};
             $scope.display = false;

@@ -1,9 +1,9 @@
 .modal-holder
-    form.modal-container(name='user', id="user", data-ng-model='user', data-ng-submit="emailForm(user.$valid);", novalidate)
+    .modal-container
         .fa.fa-close(data-ng-click="close();")
         .row
-            input(type="email" placeholder="Email Address", data-ng-model="user.email")
-        button.submit(type='submit') Submit
+            input(type="email" placeholder="Email Address", data-ng-model="data.email")
+        .submit(data-ng-click='email();') Submit
         .rx-card
             //- .card-logo
             //-     img(ng-src='/img/icon.png')

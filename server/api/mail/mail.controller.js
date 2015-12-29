@@ -14,9 +14,8 @@ exports.create = function (req, res) {
         text: 'Here is your National Rx Card, you can use this card at over 63,000 pharmacies nationwide.',
         // html: ''
         attachments: [{
-            filename: 'National Rx Card.pdf',
-            content: req.body.attachment,
-            encoding: 'base64'
+            filename: 'National Rx Card.png',
+            path: req.body.file,
         }]
     };
 
