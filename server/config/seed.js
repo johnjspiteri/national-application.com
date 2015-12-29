@@ -9,6 +9,6 @@ Client.find({}).remove(function () {
         file: 'https://s3.amazonaws.com/nationalrx/card/national_test.png'
     },
     function () {
-        // console.log('Finished populating client');
+        console.log('Finished populating client');
     });
 });

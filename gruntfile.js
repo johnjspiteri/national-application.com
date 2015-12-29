@@ -159,7 +159,7 @@ module.exports = function (grunt) {
     grunt.registerTask('server', [
         // 'jshint:development',
         'express:server',
-        'node-inspector',
+        // 'node-inspector',
         // 'open:server',
         'watch'
     ]);
