@@ -6,13 +6,6 @@
         <input data-ng-model="item.plan" placeholder="Plan Number"/>
         <input data-ng-model="item.organization" placeholder="Organization Name"/>
         <input data-ng-model="item.email" placeholder="Organization Email"/>
-        <div class="item-gallery full">
-          <div class="item-thumbs">
-            <div class="thumb-holder"><img data-ng-src="{{item.card}}" data-ng-show="item.card"/>
-              <input type="file" ng-model="item.card" base-sixty-four-input="base-sixty-four-input" class="input-holder"/>
-            </div>
-          </div>
-        </div>
       </div>
       <button type="submit" ng-disabled="form.$invalid" ng-class="{'disabled': form.$invalid}" class="submit">Add Game</button>
     </form>

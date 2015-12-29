@@ -17,7 +17,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
     app = express(),
     // ip = process.env.OPENSHIFT_NODEJS_IP || config.ip,
     // port = process.env.OPENSHIFT_NODEJS_PORT || config.port,
-    ip = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
+    ip = process.env.OPENSHIFT_NODEJS_IP || 'localhost',
     port = process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
     connection = 'mongodb://localhost/rx',
