@@ -1,188 +1,187 @@
 .page
-    .content-holder
-        .content
-            .main
-                .rx-card
-                    h2 National Rx Card
-                    //- .card-logo
-                    //-     img(ng-src='/img/icon.png')
-                    .card-content
-                        .card-headline
-                            .company
-                                h5 Free
-                                span &bull;
-                                h5 Fast
-                                span &bull;
-                                h5 Discounts
+    .content
+        .main
+            .rx-card
+                h2 National Rx Card
+                //- .card-logo
+                //-     img(ng-src='/img/icon.png')
+                .card-content
+                    .card-headline
+                        .company
+                            h5 Free
+                            span &bull;
+                            h5 Fast
+                            span &bull;
+                            h5 Discounts
 
-                            .patient-holder
-                                .row
-                                    input(type='text', value='Enter Your Name')
-                                .row
-                                    h6 PATIENT
-                                    h6 NRX43710
-                                .row
-                                    h6 GROUP
-                                    h6 96100245
-                                .row
-                                    h6 BIN
-                                    h6 018398
-                                //- .row
-                                //-     h6 PCN
-                                //-     h6 48300712
+                        .patient-holder
+                            .row
+                                input(type='text', value='Enter Your Name')
+                            .row
+                                h6 PATIENT
+                                h6 NRX43710
+                            .row
+                                h6 GROUP
+                                h6 96100245
+                            .row
+                                h6 BIN
+                                h6 018398
+                            //- .row
+                            //-     h6 PCN
+                            //-     h6 48300712
 
-                .rx-card-download
-                    .column(data-ng-click='textModal();')
-                        p <span class='fa fa-mobile fa-rotate-90'></span> Text
-                    .column(data-ng-click='emailModal();')
-                        p <span class='fa fa-send'></span> Email
-                    .column(data-ng-click='saveModal();')
-                        p <span class='fa fa-cloud'></span> Save
-                    .column(data-ng-click='printModal();')
-                        p <span class='fa fa-file-text'></span> Print
+            .rx-card-download
+                .column(data-ng-click='textModal();')
+                    p <span class='fa fa-mobile fa-rotate-90'></span> Text
+                .column(data-ng-click='emailModal();')
+                    p <span class='fa fa-send'></span> Email
+                .column(data-ng-click='saveModal();')
+                    p <span class='fa fa-cloud'></span> Save
+                .column(data-ng-click='printModal();')
+                    p <span class='fa fa-file-text'></span> Print
 
-            .points
-                .point
-                    div.fa.fa-certificate
-                    .text
-                        h3 Membership <span>Is Free</span>
-                .point
-                    div.fa.fa-certificate
-                    .text
-                        h3 Everyone <span>Qualifies</span>
-                .point
-                    div.fa.fa-certificate
-                    .text
-                        h3 No Waiting Or <span>Deductibles</span>
-                .point
-                    div.fa.fa-certificate
-                    .text
-                        h3 No Pre-Existing <span>Exclusions</span>
+        .points
+            .point
+                div.fa.fa-certificate
+                .text
+                    h3 Membership <span>Is Free</span>
+            .point
+                div.fa.fa-certificate
+                .text
+                    h3 Everyone <span>Qualifies</span>
+            .point
+                div.fa.fa-certificate
+                .text
+                    h3 No Waiting Or <span>Deductibles</span>
+            .point
+                div.fa.fa-certificate
+                .text
+                    h3 No Pre-Existing <span>Exclusions</span>
 
-            .center
-                span.fa.fa-certificate
-                h1 We Are Partnered With Over 63,000 Pharmacies Nationwide
-                .center-holder
-                    .logo
-                        img(ng-src='/img/pharmacies/albertsons.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/ap.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/kmart.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/costco.gif')
+        .center
+            span.fa.fa-certificate
+            h1 We Are Partnered With Over 63,000 Pharmacies Nationwide
+            .center-holder
+                .logo
+                    img(ng-src='/img/pharmacies/albertsons.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/ap.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/kmart.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/costco.gif')
 
-                    .logo
-                        img(ng-src='/img/pharmacies/duanereade.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/kroger.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/target.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/walmart.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/duanereade.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/kroger.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/target.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/walmart.gif')
 
-                    .logo
-                        img(ng-src='/img/pharmacies/vons.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/walgreens.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/riteaid.gif')
-                    .logo
-                        img(ng-src='/img/pharmacies/winndixie.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/vons.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/walgreens.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/riteaid.gif')
+                .logo
+                    img(ng-src='/img/pharmacies/winndixie.gif')
 
-            .locator
-                .locator-zip
-                    h2 Search By Zip Code
-                    input(type="text", data-ng-model='zip', placeholder='10010')
-                    button.submit(type='submit') Search
+        .locator
+            .locator-zip
+                h2 Search By Zip Code
+                input(type="text", data-ng-model='zip', placeholder='10010')
+                button.submit(type='submit') Search
 
-                .locator-state
-                    h2 Search By State & City
-                    select(type="text", data-ng-model='state', ng-options="state for state in states")
-                    select(type="text", data-ng-model='city', ng-options="city for city in cities | orderBy:'toString()'", ng-disabled="!state")
-                    button.submit(type='submit') Search
+            .locator-state
+                h2 Search By State & City
+                select(type="text", data-ng-model='state', ng-options="state for state in states")
+                select(type="text", data-ng-model='city', ng-options="city for city in cities | orderBy:'toString()'", ng-disabled="!state")
+                button.submit(type='submit') Search
 
-                .locator-results.hide(data-ng-show='zip')
-                    h2 Pharmacy Locator Results
+            .locator-results.hide(data-ng-show='zip')
+                h2 Pharmacy Locator Results
 
-                    .locator-results-content
-                        .row
-                            .pharmacy
-                                h4.title Pharmacy
-                            .address
-                                h4.title Address
-                            .phone
-                                h4.title Phone Number
-                            .directions
-                                h4.title Get Directions
-                        .row
-                            .pharmacy
-                                h4 CVS Pharmacy #01903
-                            .address
-                                h4 798 Park Road 06002
-                            .phone
-                                h4 1-860 434-4566
-                            .directions
-                                h4 Get Directions
-                        .row
-                            .pharmacy
-                                h4 CVS Pharmacy #01903
-                            .address
-                                h4 798 Park Road 06002
-                            .phone
-                                h4 1-860 434-4566
-                            .directions
-                                h4 Get Directions
-                        .row
-                            .pharmacy
-                                h4 CVS Pharmacy #01903
-                            .address
-                                h4 798 Park Road 06002
-                            .phone
-                                h4 1-860 434-4566
-                            .directions
-                                h4 Get Directions
-                        .row
-                            .pharmacy
-                                h4 CVS Pharmacy #01903
-                            .address
-                                h4 798 Park Road 06002
-                            .phone
-                                h4 1-860 434-4566
-                            .directions
-                                h4 Get Directions
-                        .row
-                            .pharmacy
-                                h4 CVS Pharmacy #01903
-                            .address
-                                h4 798 Park Road 06002
-                            .phone
-                                h4 1-860 434-4566
-                            .directions
-                                h4 Get Directions
-                        .row
-                            .pharmacy
-                                h4 CVS Pharmacy #01903
-                            .address
-                                h4 798 Park Road 06002
-                            .phone
-                                h4 1-860 434-4566
-                            .directions
-                                h4 Get Directions
+                .locator-results-content
+                    .row
+                        .pharmacy
+                            h4.title Pharmacy
+                        .address
+                            h4.title Address
+                        .phone
+                            h4.title Phone Number
+                        .directions
+                            h4.title Get Directions
+                    .row
+                        .pharmacy
+                            h4 CVS Pharmacy #01903
+                        .address
+                            h4 798 Park Road 06002
+                        .phone
+                            h4 1-860 434-4566
+                        .directions
+                            h4 Get Directions
+                    .row
+                        .pharmacy
+                            h4 CVS Pharmacy #01903
+                        .address
+                            h4 798 Park Road 06002
+                        .phone
+                            h4 1-860 434-4566
+                        .directions
+                            h4 Get Directions
+                    .row
+                        .pharmacy
+                            h4 CVS Pharmacy #01903
+                        .address
+                            h4 798 Park Road 06002
+                        .phone
+                            h4 1-860 434-4566
+                        .directions
+                            h4 Get Directions
+                    .row
+                        .pharmacy
+                            h4 CVS Pharmacy #01903
+                        .address
+                            h4 798 Park Road 06002
+                        .phone
+                            h4 1-860 434-4566
+                        .directions
+                            h4 Get Directions
+                    .row
+                        .pharmacy
+                            h4 CVS Pharmacy #01903
+                        .address
+                            h4 798 Park Road 06002
+                        .phone
+                            h4 1-860 434-4566
+                        .directions
+                            h4 Get Directions
+                    .row
+                        .pharmacy
+                            h4 CVS Pharmacy #01903
+                        .address
+                            h4 798 Park Road 06002
+                        .phone
+                            h4 1-860 434-4566
+                        .directions
+                            h4 Get Directions
 
-            .testimonals-holder
-                .testimonals
-                    .testimonal
-                        p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
-                        h2 Sarah Anderson
-                        h3 Manhattan, New York
+        .testimonals-holder
+            .testimonals
+                .testimonal
+                    p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
+                    h2 Sarah Anderson
+                    h3 Manhattan, New York
 
-                    .testimonal
-                        p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
-                        h2 Nino Fluentes
-                        h3 Victoria, Texas
+                .testimonal
+                    p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
+                    h2 Nino Fluentes
+                    h3 Victoria, Texas
 
-                    .testimonal.hide
-                        p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
-                        h2 Kathleen White
-                        h3 St. Paul, Maryland
+                .testimonal.hide
+                    p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
+                    h2 Kathleen White
+                    h3 St. Paul, Maryland
