@@ -12,7 +12,7 @@
                 plan: $scope.item.plan,
                 organization: $scope.item.organization,
                 email: $scope.item.email,
-                card: $scope.item.pdf
+                file: $scope.item.file
             });
             $scope.item = {};
             $scope.item.pdf = {};
