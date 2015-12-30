@@ -5,14 +5,15 @@ header
             .mobile-navigation(data-ng-click="open();")
                 h5 Navigation
         nav
-            .tile(ui-sref='frontend.about', data-ng-class="{active: $state.includes('frontend.about')}")
-                h4 About The<br>Company
-            .tile(ui-sref='frontend.testimonial', data-ng-class="{active: $state.includes('frontend.testimonial')}")
-                h4 Client<br>Testimonials
-            .tile(ui-sref='frontend.question', data-ng-class="{active: $state.includes('frontend.question')}")
-                h4 Frequently<br>Asked Questions
             .tile(ui-sref='frontend.index', data-ng-class="{active: $state.includes('frontend.index')}")
                 h4 Get Your Free<br>Savings Card
+            .tile(ui-sref='frontend.question', data-ng-class="{active: $state.includes('frontend.question')}")
+                h4 Frequently<br>Asked Questions
+            .tile(ui-sref='frontend.testimonial', data-ng-class="{active: $state.includes('frontend.testimonial')}")
+                h4 Client<br>Testimonials
+            .tile(ui-sref='frontend.about', data-ng-class="{active: $state.includes('frontend.about')}")
+                h4 About The<br>Company
+
 //-
 //- md-sidenav(md-component-id="navigationPanel", class="md-sidenav-left md-closed")
 //-     .side

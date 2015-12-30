@@ -1,56 +1,53 @@
 header
-	float left
-	width 100%
-	top 0
-	padding 0
-	margin 0 0 20px 0
-	background $header
-	border-bottom $border-header
+	margin 0 0 40px 0
 
 	.header
-		position relative
-		width 700px
-		height 108px
-		padding 0
-		margin 0 auto
+		width 768px
 
 		.brand
-			display none
+			padding 0
+
+			.logo
+				width 688px
+				height 160px
+				margin 0 0 30px 40px
+
+			.mobile-navigation
+				display none
 
 		nav
 			display block
 			float left
-			width 769px
-			height 98px
+			height 84px
 			padding 0
-			margin 0
-			border-right $border-header
+			margin 0 0 1px 15px
+			border-left $border-header
 
 			.tile
-				float right
-				height 78px
-				padding 0 26px 0 26px
+				float left
+				height 85px
+				padding 0 28px
 				margin 0
 				background $header-tile
-				border-left $border-header
+				border-top $border-header
+				border-right $border-header
 				cursor pointer
 
 				h4
 					float left
 					padding 0
-					margin 18px 0 0 0
+					margin 16px 0 0 0
 					font-style italic
-					font-weight 500
-					font-size 17px
-					line-height 23px
+					font-weight 600
+					font-size 22px
+					line-height 27px
 					color $white
 					text-align center
 					text-shadow $shadow
 
 			.tile.active
-				height 79px
+				height 85px
 				background $background
-				border-left $border-header
 
 				h4
 					margin 19px 0 0 0
