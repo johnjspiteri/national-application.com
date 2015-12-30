@@ -16,11 +16,11 @@
 			padding 0
 			margin 0 0 0 20px
 
-			.rx-card
+			.card
 				float left
-				width 250px
-				padding 18px 0px 16px 30px
-				margin 0 0 10px 0
+				width 254px
+				padding 20px 0px 12px 26px
+				margin 0 0 12px 0
 				background $card
 				border-top none
 				border-bottom 4px solid #333
@@ -29,7 +29,7 @@
 				h2
 					float left
 					width 100%
-					margin 0 0 10px 0
+					margin 0 0 8px 0
 					font-weight 600
 					font-size 29px
 					line-height 35px
@@ -53,86 +53,80 @@
 				.card-content
 					float left
 					width 250px
-					// height 190px
 					padding 0
 					margin 0
-					z-index 10
 
-					.card-headline
+					.company
 						float left
 						width 100%
+						margin 0 0 16px 0
 
-						.company
+						h5
 							float left
-							width 100%
-							margin 0 0 18px 0
+							font-style italic
+							font-weight 500
+							font-size 19px
+							line-height 22px
+							color $black
+							text-align left
+							text-shadow $white-shadow
 
-							h5
-								float left
-								font-style italic
-								font-weight 500
-								font-size 18px
-								line-height 22px
-								color $black
-								text-align left
-								text-shadow $white-shadow
+						span
+							float left
+							margin 0 8px
+							font-size 17px
+							line-height 24px
+							color $grey
+							text-align left
 
-							span
-								float left
-								margin 0 6px
-								font-size 16px
-								line-height 23px
-								color $grey
-								text-align left
+					.patient-holder
+						float left
+						width 100%
+						padding 0
+						margin 0
 
-						.patient-holder
+						.row
 							float left
 							width 100%
 							padding 0
-							margin 0
+							margin 0 0 9px 0
 
-							.row
+							input
 								float left
 								width 100%
+								margin 0 0 12px 0
+								font-weight 500
+								font-size 18px
+								line-height 24px
+								color $grey-light
+								background none
+								border none
+								outline none
+								text-align left
+								text-shadow $white-shadow
+
+							h6
+								float left
+								width 72px
 								padding 0
-								margin 0 0 10px 0
+								margin 0
+								font-weight 700
+								font-size 9px
+								line-height 9px
+								color $grey-light
+								text-shadow $white-shadow
 
-								input
-									float left
-									width 100%
-									margin 0 0 12px 0
-									font-weight 500
-									font-size 19px
-									line-height 24px
-									color $grey-light
-									background none
-									border none
-									outline none
-									text-align left
-									text-shadow $white-shadow
-
-								h6
-									float left
-									width 82px
-									padding 0
-									margin 0
-									font-weight 700
-									font-size 10px
-									line-height 10px
-									color $grey-light
-									text-shadow $white-shadow
-
-			.rx-card-download
+			.download
 				float left
 				width 300px
 				padding 0
-				margin 0 0 20px 0
+				margin 0 0 38px 0
 
-				.column
+				.tag
 					float left
 					width 61px
 					padding 10px 0 10px 0
-					margin 0 12px 10px 0
+					margin 0 12px 0 0
 					background $header-tile
 					border-bottom 4px solid #333
 					border-radius 8px
@@ -142,34 +136,37 @@
 						float left
 						width 100%
 						padding 0
-						margin 0
+						margin 2px 0 0 0
 						font-weight 500
 						color $white
-						font-size 15px
-						line-height 15px
+						font-size 16px
+						line-height 16px
 						text-align center
 						text-shadow $shadow
 
-						span.fa-cloud
-						span.fa-mobile
-						span.fa-send
-						span.fa-file-text
-							float left
-							width 100%
-							padding 0
-							margin 0
-							height 26px
-							font-size 21px
-							text-align center
+					.fa-cloud
+					.fa-mobile
+					.fa-send
+					.fa-file-text
+						float left
+						width 100%
+						padding 0
+						margin 0
+						height 26px
+						font-size 21px
+						line-height 21px
+						color $white
+						text-align center
+						text-shadow $shadow
 
-						span.fa-mobile
-							font-size 26px
+					.fa-mobile
+						font-size 28px
 
-						span.fa-send
-							font-size 16px
+					.fa-send
+						font-size 16px
 
-						span.fa-file-text
-							font-size 19px
+					.fa-file-text
+						font-size 19px
 
 		.points
 			float left
@@ -181,13 +178,13 @@
 				float left
 				width 100%
 				padding 0
-				margin 0 0 31px 0
+				margin 0
 
-				div.fa-certificate
+				.fa-certificate
 					float left
-					width 56px
+					width 52px
 					padding 0
-					margin 0
+					margin 0 0 0 4px
 					color #ff9
 					font-size 39px
 					text-shadow $shadow
@@ -196,7 +193,7 @@
 					float left
 					width 224px
 					padding 0
-					margin 0
+					margin 3px 0 32px 0
 
 					h3
 						float left
@@ -205,7 +202,7 @@
 						margin 0
 						font-weight 600
 						font-size 25px
-						line-height 34px
+						line-height 35px
 						color $white
 						text-align left
 						text-shadow $shadow
@@ -219,12 +216,12 @@
 			float left
 			width 100%
 			padding 0
-			margin 0 0 0 0
+			margin 0 0 20px 0
 
-			span.fa-certificate
+			.fa-certificate
 				position absolute
 				width 20px
-				margin -26px 0 0 270px
+				margin -18px 0 0 270px
 				font-size 39px
 				color #ff9
 				text-shadow $shadow
@@ -232,7 +229,7 @@
 			h1
 				float left
 				width 220px
-				padding 20px 20px
+				padding 14px 20px
 				margin 0 0 18px 30px
 				font-weight 500
 				font-size 27px
@@ -248,7 +245,7 @@
 				float left
 				width 300px
 				padding 20px 0 24px 20px
-				margin 0 0 20px 0
+				margin 0
 				background #FFF
 				border-left none
 				border-right none
@@ -272,46 +269,34 @@
 			margin 0 0 0 20px
 			padding 0
 
-			h2
-				float left
-				width 100%
-				padding 0
-				margin 0 0 18px 0
-				font-weight 500
-				font-size 28px
-				line-height 35px
-				color $white
-				text-align center
-				text-shadow $shadow
-
-			.submit
-				float left
-				width 100%
-				height 48px
-				font-size 23px
-				line-height 25px
-				color $white
-				border none
-				background $black
-				border-bottom 4px solid #333
-				border-radius 8px
-				cursor pointer
-
 			.locator-zip
+			.locator-state
 				float left
-				width 200px
-				padding 20px 40px 30px 40px
+				width 240px
+				padding 20px 20px 20px 20px
 				margin 0 0 20px 0
 				background $header-tile
 				border-bottom 4px solid #333
 				border-radius 12px
+
+				h2
+					float left
+					width 100%
+					padding 0
+					margin 0 0 18px 0
+					font-weight 500
+					font-size 24px
+					line-height 35px
+					color $white
+					text-align center
+					text-shadow $shadow
 
 				input
 					float left
 					width 200px
 					height 48px
 					padding 0
-					margin 0 20px 14px 0
+					margin 0 0 14px 20px
 					font-size 18px
 					font-weight 500
 					line-height 23px
@@ -321,21 +306,12 @@
 					text-align center
 					cursor pointer
 
-			.locator-state
-				float left
-				width 200px
-				padding 20px 40px 20px 40px
-				margin 0 0 30px 0
-				background $header-tile
-				border-bottom 4px solid #333
-				border-radius 12px
-
 				select
 					float left
 					width 200px
 					height 52px
 					padding 0
-					margin 0 0 10px 0
+					margin 0 0 10px 20px
 					font-weight 400
 					font-size 23px
 					line-height 23px
@@ -347,15 +323,28 @@
 					-webkit-appearance none
 					-moz-appearance none
 
+				.submit
+					float left
+					width 200px
+					margin 0 0 0 20px
+					height 48px
+					font-size 23px
+					line-height 25px
+					color $white
+					border none
+					background $black
+					border-bottom 4px solid #333
+					border-radius 8px
+					cursor pointer
 
 			.locator-results
 				display none
 
 		.testimonals-holder
-			position relative
+			float left
 			width 280px
 			padding 0
-			margin 0 auto
+			margin 0 0 0 20px
 
 			.testimonals
 				float left
@@ -392,7 +381,7 @@
 						font-weight 600
 						font-size 23px
 						line-height 23px
-						margin 0 0 12px 0
+						margin 0 0 14px 0
 						text-align center
 						text-shadow $white-shadow
 
@@ -401,9 +390,10 @@
 						width 100%
 						padding 0
 						margin 0
+						font-style italic
 						font-weight 500
-						font-size 17px
-						line-height 17px
+						font-size 19px
+						line-height 19px
 						text-align center
 						text-shadow $white-shadow
 
