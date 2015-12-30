@@ -2336,7 +2336,7 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 0 0;
     background: #fdfdfd url("../img/asfalt-light.png") repeat;
     border-bottom: 1px solid #333;
   }
@@ -2355,15 +2355,17 @@ small {
   header .header .brand .logo {
     float: left;
     width: 278px;
-    border-top: none;
-    border-bottom: none;
+    height: 100px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    border: 1px solid #aaa;
     text-align: center;
   }
   header .header .brand .mobile-navigation-button {
     float: left;
-    width: 258px;
+    width: 278px;
     padding: 10px 0 12px 0;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0;
     background: linear-gradient(to bottom, #fff, #ff9);
     border: 1px solid #aaa;
     border-radius: 4px;
@@ -2371,16 +2373,10 @@ small {
   header .header .brand .mobile-navigation-button h5 {
     float: left;
     width: 258px;
-    padding: 10px 0 8px 0;
-    margin: 78px 0 0 10px;
-    background: linear-gradient(to bottom, #fff, #ff9);
-    border: 1px solid #aaa;
-    border-radius: 4px;
-  }
-  header .header .brand .mobile-navigation-button h5 h5 {
-    float: left;
-    width: 258px;
+    padding: 0;
+    margin: 0;
     font-size: 22px;
+    font-weight: 600;
     line-height: 24px;
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
@@ -2456,6 +2452,7 @@ small {
     padding: 18px 0px 16px 30px;
     margin: 0 0 10px 0;
     background: linear-gradient(to bottom, #fff, #ff9);
+    border-top: none;
     border-bottom: 4px solid #333;
     border-radius: 12px;
   }
@@ -2831,13 +2828,13 @@ small {
     float: left;
     width: 280px;
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: 0 0 0 20px;
   }
   .contact-holder .contact-detail {
     float: left;
     width: 238px;
     padding: 20px;
-    margin: 0 0 15px 0;
+    margin: 0 0 25px 0;
     border: 1px solid #aaa;
     border-bottom: 4px solid #333;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
@@ -2846,7 +2843,7 @@ small {
   .contact-holder .contact-detail h2 {
     float: left;
     width: 238px;
-    padding: 10px 0;
+    padding: 0;
     margin: 0 0 18px 0;
     font-size: 28px;
     line-height: 32px;
@@ -2861,6 +2858,7 @@ small {
   .contact-holder .contact-detail .contact-container p {
     float: left;
     width: 100%;
+    padding: 0;
     margin: 0 0 14px 0;
     font-size: 16px;
     line-height: 16px;
@@ -2893,7 +2891,7 @@ small {
     float: left;
     width: 238px;
     padding: 20px;
-    margin: 0 0 15px 0;
+    margin: 0 0 25px 0;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
     border: 1px solid #aaa;
     border-bottom: 4px solid #333;
@@ -2903,12 +2901,12 @@ small {
     float: left;
     width: 238px;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
   }
   .contact-holder .contact-form .row input {
-    width: 100%;
+    width: 220px;
     height: 50px;
-    padding: 4px 0 0 0;
+    padding: 9px;
     margin: 0;
     font-size: 21px;
     line-height: 21px;
@@ -2959,7 +2957,7 @@ small {
   }
   .contact-holder .contact-form .card-confirmation h1 {
     float: left;
-    width: 236px;
+    width: 100%;
     padding: 0;
     margin: 0 0 20px 0;
     font-size: 24px;
@@ -2987,7 +2985,7 @@ small {
     width: 278px;
     height: 320px;
     padding: 0;
-    margin: 0 0 40px 0;
+    margin: 0 0 35px 20px;
     border: 1px solid #aaa;
     background: #ccc;
     border-bottom: 4px solid #333;
@@ -3241,9 +3239,9 @@ small {
   }
   .filter-holder {
     float: left;
-    width: 240px;
-    padding: 20px;
-    margin: 50px 0 30px 0;
+    width: 280px;
+    padding: 0;
+    margin: 0 0 30px 20px;
     background: #666 url("../img/asfalt-light.png") repeat;
     border-bottom: 4px solid #333;
     border-radius: 4px;
@@ -3251,7 +3249,7 @@ small {
   .filter-holder h2 {
     float: left;
     width: 100%;
-    padding: 0;
+    padding: 20px 0 0 0;
     margin: 0 0 20px 0;
     font-weight: 600;
     font-size: 24px;
@@ -3262,23 +3260,22 @@ small {
   }
   .filter-holder .filter-container {
     float: left;
-    width: 220px;
+    width: 280px;
     padding: 0;
-    margin: 0 0 0 10px;
+    margin: 0;
   }
   .filter-holder .filter-container select {
     float: left;
     width: 220px;
-    height: 50px;
+    height: 60px;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 30px;
     font-weight: 600;
     font-size: 27px;
     line-height: 29px;
     background: transparent;
     border: none;
     background: #fff;
-    border: 1px solid #aaa;
     border-bottom: 4px solid #333;
     border-radius: 8px;
     text-align: center;
@@ -3286,10 +3283,10 @@ small {
   }
   .filter-holder .filter-container input {
     float: left;
-    width: 220px;
+    width: 208px;
     height: 50px;
-    padding: 0;
-    margin: 0 0 20px 0;
+    padding: 5px;
+    margin: 0 0 20px 30px;
     font-weight: 600;
     font-size: 27px;
     line-height: 29px;
@@ -3303,12 +3300,11 @@ small {
     width: 220px;
     height: 50px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px 30px;
     color: #fff;
     font-weight: 500;
     font-size: 23px;
     line-height: 54px;
-    text-align: center;
     border: none;
     border-bottom: 4px solid #333;
     border-radius: 8px;
@@ -3317,7 +3313,7 @@ small {
   .filter-holder .filter-container .reset .fa-times {
     width: 30px;
     padding: 0;
-    margin: 0 0 0 10px;
+    margin: 0;
     font-size: 23px;
     line-height: 54px;
     color: #fff;
@@ -3328,13 +3324,13 @@ small {
     float: left;
     width: 280px;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 20px;
   }
   .answers-holder .answer {
     float: left;
     width: 238px;
     padding: 20px;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     background: #fff;
     border: 1px solid #000;
     border-bottom: 4px solid #333;
@@ -3505,26 +3501,20 @@ small {
     margin: 0 auto;
   }
   header .header .brand {
-    width: 320px;
-    padding: 0;
+    width: 318px;
+    padding: 0 0 10px 0;
     margin: 0;
   }
   header .header .brand .logo {
-    float: left;
     width: 318px;
-    font-size: 14px;
-    line-height: 50px;
-    background: #d1d1d1;
-    border: 1px dotted #000;
     border-top: none;
-    border-bottom: none;
     text-align: center;
   }
-  header .header .brand .logo .mobile-navigation-button {
+  header .header .brand .mobile-navigation-button {
     float: left;
-    width: 296px;
+    width: 318px;
   }
-  header .header .brand .logo .mobile-navigation-button h5 {
+  header .header .brand .mobile-navigation-button h5 {
     float: left;
     width: 100%;
     font-size: 24px;
@@ -3542,24 +3532,24 @@ small {
     margin: 0 auto;
   }
   .content {
-    width: 320px;
+    width: 375px;
   }
   .content .main {
-    width: 320px;
+    width: 335px;
     padding: 0;
     margin: 0 0 0 20px;
   }
   .content .main .rx-card {
-    width: 290px;
-    padding: 28px 0px 16px 30px;
-    margin: 0 0 20px 0;
+    width: 305px;
+    padding: 18px 0px 16px 30px;
+    margin: 0 0 10px 0;
   }
   .content .main .rx-card h2 {
     width: 100%;
     margin: 0 0 10px 0;
   }
   .content .main .rx-card .card-content {
-    width: 260px;
+    width: 305px;
   }
   .content .main .rx-card .card-content .card-headline {
     width: 100%;
@@ -3589,29 +3579,19 @@ small {
   .content .main .rx-card .card-content .card-headline .patient-holder .row input {
     width: 100%;
     margin: 0 0 12px 0;
-    font-size: 22px;
-    line-height: 24px;
   }
   .content .main .rx-card .card-content .card-headline .patient-holder .row h6 {
     width: 82px;
     padding: 0;
     margin: 0;
-    font-size: 10px;
-    line-height: 10px;
   }
   .content .main .rx-card-download {
-    width: 320px;
+    width: 335px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 20px 0;
   }
   .content .main .rx-card-download .column {
-    width: 68px;
-    padding: 10px 0 10px 0;
-    margin: 0 12px 10px 0;
-    background: #666 url("../img/asfalt-light.png") repeat;
-    border-bottom: 4px solid #333;
-    border-radius: 8px;
-    cursor: pointer;
+    width: 71px;
   }
   .content .main .rx-card-download .column p {
     padding: 0;
@@ -3635,7 +3615,7 @@ small {
     font-size: 19px;
   }
   .content .points {
-    width: 320px;
+    width: 375px;
   }
   .content .points .point {
     margin: 0 0 31px 0;
@@ -3644,7 +3624,7 @@ small {
     width: 56px;
   }
   .content .points .point .text {
-    width: 234px;
+    width: 263px;
   }
   .content .points .point .text h3 {
     font-size: 26px;
@@ -3654,22 +3634,22 @@ small {
     padding: 0 0 10px 0;
   }
   .content .center {
-    width: 320px;
+    width: 375px;
   }
   .content .center span.fa-certificate {
     position: absolute;
     width: 20px;
-    margin: -18px 0 0 310px;
+    margin: -26px 0 0 310px;
   }
   .content .center h1 {
-    width: 260px;
+    width: 265px;
     padding: 20px 20px;
-    margin: 0 0 28px 10px;
+    margin: 0 0 28px 30px;
   }
   .content .center .center-holder {
-    width: 300px;
-    padding: 20px 0 20px 20px;
-    margin: 0;
+    width: 355px;
+    padding: 20px 0 24px 20px;
+    margin: 0 0 20px 0;
   }
   .content .center .center-holder .logo {
     padding: 0 20px 20px 0;
@@ -3680,12 +3660,11 @@ small {
     height: 30px;
     padding: 0;
     margin: 0;
-    font-size: 22px;
   }
   .content .locator {
     float: left;
-    width: 320px;
-    margin: 0;
+    width: 335px;
+    margin: 0 0 0 20px;
     padding: 0;
   }
   .content .locator h2 {
@@ -3696,49 +3675,51 @@ small {
   }
   .content .locator .submit {
     float: left;
-    width: 100%;
+    width: 235px;
+    padding: 0;
+    margin: 0 0 0 10px;
   }
   .content .locator .locator-zip {
     float: left;
-    width: 240px;
+    width: 255px;
     padding: 20px 40px 30px 40px;
     margin: 0 0 20px 0;
   }
   .content .locator .locator-zip input {
     float: left;
-    width: 240px;
+    width: 235px;
     height: 48px;
     padding: 0;
-    margin: 0 20px 14px 0;
+    margin: 0 0 14px 10px;
   }
   .content .locator .locator-state {
     float: left;
-    width: 240px;
+    width: 255px;
     padding: 20px 40px 20px 40px;
     margin: 0 0 30px 0;
   }
   .content .locator .locator-state select {
-    width: 240px;
+    width: 235px;
     height: 52px;
     padding: 0;
-    margin: 0 0 10px 0px;
+    margin: 0 0 10px 10px;
   }
   .content .locator .locator-results {
     display: none;
   }
   .content .testimonals-holder {
     position: relative;
-    width: 320px;
+    width: 335px;
     padding: 0;
     margin: 0 auto;
   }
   .content .testimonals-holder .testimonals {
-    width: 320px;
+    width: 335px;
     padding: 0;
-    margin: 24px 0 0 0;
+    margin: 0 0 60px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
-    width: 280px;
+    width: 295px;
     padding: 28px 20px 28px 20px;
     margin: 0 0 14px 0;
   }
@@ -3758,26 +3739,27 @@ small {
   }
   .contact-holder {
     float: left;
-    width: 320px;
+    width: 335px;
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: 0 0 0 20px;
   }
   .contact-holder .contact-detail {
-    width: 278px;
+    width: 293px;
     padding: 20px;
-    margin: 0 0 15px 0;
+    margin: 0 0 25px 0;
   }
   .contact-holder .contact-detail h2 {
-    width: 278px;
-    padding: 10px 0;
+    width: 100%;
+    padding: 0;
     margin: 0 0 18px 0;
   }
   .contact-holder .contact-detail .contact-container {
-    width: 278px;
+    width: 100%;
     padding: 0;
     margin: 0;
   }
   .contact-holder .contact-detail .contact-container p {
+    padding: 0;
     margin: 0 0 14px 0;
   }
   .contact-holder .contact-detail .contact-container h3 {
@@ -3791,39 +3773,40 @@ small {
     margin: 25px 0 8px 0;
   }
   .contact-holder .contact-form {
-    width: 278px;
+    width: 293px;
     padding: 20px;
-    margin: 0 0 15px 0;
+    margin: 0 0 25px 0;
   }
   .contact-holder .contact-form .row {
-    width: 278px;
+    width: 293px;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
   }
   .contact-holder .contact-form .row input {
+    width: 275px;
     height: 50px;
-    padding: 4px 0 0 0;
+    padding: 9px;
     margin: 0;
   }
   .contact-holder .contact-form .row textarea {
-    width: 258px;
-    height: 50px;
+    width: 265px;
+    height: 80px;
     padding: 14px 10px;
     margin: 0;
   }
   .contact-holder .contact-form .submit {
-    width: 278px;
+    width: 293px;
     height: 68px;
     padding: 0;
     margin: 0;
   }
   .contact-holder .contact-form .card-confirmation {
-    width: 278px;
+    width: 293px;
     padding: 0;
     margin: 0;
   }
   .contact-holder .contact-form .card-confirmation h1 {
-    width: 276px;
+    width: 100%;
     padding: 0;
     margin: 0 0 20px 0;
   }
@@ -3838,10 +3821,9 @@ small {
   }
   .map {
     float: left;
-    width: 318px;
-    height: 320px;
+    width: 333px;
     padding: 0;
-    margin: 0 0 40px 0;
+    margin: 0 0 35px 20px;
   }
   .modal-holder {
     position: absolute;
@@ -4192,67 +4174,66 @@ small {
     height: 500px;
   }
   .filter-holder {
-    width: 280px;
-    padding: 20px;
-    margin: 50px 0 30px 0;
+    width: 335px;
+    padding: 0;
+    margin: 0 0 30px 20px;
   }
   .filter-holder h2 {
-    padding: 0;
+    padding: 20px 0 0 0;
     margin: 0 0 20px 0;
+    font-size: 28px;
+    line-height: 36px;
   }
   .filter-holder .filter-container {
-    width: 260px;
-    padding: 0;
-    margin: 0 0 0 20px;
-  }
-  .filter-holder .filter-container select {
-    width: 238px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 20px 0;
-  }
-  .filter-holder .filter-container input {
-    width: 238px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 20px 0;
-  }
-  .filter-holder .filter-container .reset {
-    width: 240px;
-    height: 50px;
+    width: 335px;
     padding: 0;
     margin: 0;
-    background: #000;
+  }
+  .filter-holder .filter-container select {
+    width: 275px;
+    height: 60px;
+    padding: 0;
+    margin: 0 0 20px 30px;
+  }
+  .filter-holder .filter-container input {
+    width: 263px;
+    height: 50px;
+  }
+  .filter-holder .filter-container .reset {
+    width: 275px;
+    height: 50px;
+    padding: 0;
+    margin: 0 0 20px 30px;
   }
   .filter-holder .filter-container .reset .fa-times {
-    width: 40px;
+    width: 30px;
     padding: 0;
-    margin: 0 0 0 10px;
+    margin: 0;
+    text-align: center;
   }
   .answers-holder {
-    width: 320px;
+    width: 335px;
   }
   .answers-holder .answer {
     float: left;
-    width: 280px;
+    width: 293px;
     padding: 20px;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
   }
   .answers-holder .answer h2 {
-    width: 280px;
+    width: 293px;
   }
   .answers-holder .answer p {
-    margin: 0 0 18px 0;
     padding: 0;
+    margin: 0 0 18px 0;
   }
   .answers-holder .answer .tag-holder {
     position: relative;
-    width: 238px;
+    width: 293px;
     padding: 0;
     margin: 0 auto;
   }
   .answers-holder .answer .tag-holder .tag {
-    float: left;
     margin: 10px 8px 0 0;
     padding: 0;
   }
