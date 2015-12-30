@@ -6,9 +6,11 @@
         $scope.display = true;
         $scope.client = clientResolve;
 
-        $scope.html = 'https://s3.amazonaws.com/nationalrx/card/national_test.png';
+        // $scope.html = '<a class="super" target="_blank" href="https://s3.amazonaws.com/nationalrx/card/national_test.png">  Trusted URL</a>';
 
-        // $scope.trustedHtml = $sce.trustAsURL(html);
+        // $scope.url = 'http://kintespace.com/khits.html';
+        // $scope.trustedUrl = $sce.trustAsResourceUrl($scope.url);
+        // $scope.trustedHtml = $sce.trustAsHtml($scope.html);
         //
         // $scope.base64 = $scope.client.card.base64;
         // console.log($scope.base64);
