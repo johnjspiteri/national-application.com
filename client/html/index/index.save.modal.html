@@ -1,5 +1,41 @@
 
 <div class="modal-holder">
-  <div class="modal-container"><a href='https://s3.amazonaws.com/nationalrx/card/national_test.png' target='_blank'>Testing</a>
+  <div class="modal-container">
+    <div data-ng-click="close();" class="fa fa-close"></div>
+    <div class="rx-card">
+      <div class="card-content">
+        <div class="card-headline">
+          <div class="company">
+            <h2>National Rx Card</h2>
+            <h5>Free</h5><span>&bull;</span>
+            <h5>Fast</h5><span>&bull;</span>
+            <h5>Discounts</h5>
+          </div>
+          <div class="patient-holder">
+            <div class="row">
+              <h3>Preferred Client</h3>
+            </div>
+            <div class="row">
+              <h6>PATIENT</h6>
+              <h6>NRX43710</h6>
+            </div>
+            <div class="row">
+              <h6>GROUP</h6>
+              <h6>96100245</h6>
+            </div>
+            <div class="row">
+              <h6>BIN</h6>
+              <h6>018398</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><a href="{{url}}" target="_blank" download="National Rx Card.png" class="submit">Save Rx Card To Your Device</a>
+    <div class="legal">
+      <p>This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.</p>
+      <p><b><i>Note To Utah Residents:</i></b> This discount card program is not protected by the Utah Life and Health Guaranty Association.</p>
+      <p>NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT:<br><a href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a></p>
+    </div>
   </div>
 </div>
+<div id="panel" data-ng-show="display"></div>

@@ -2818,6 +2818,185 @@ small {
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: none;
   }
+  .modal-holder {
+    position: absolute;
+    width: 300px;
+    margin: 0 0 0 -150px;
+    top: 0;
+    left: 50%;
+    z-index: 9999999;
+  }
+  .modal-holder .modal-container {
+    float: left;
+    width: 280px;
+    padding: 18px 10px 28px 10px;
+    margin: 12px 0 30px 0;
+    background: #e7e7e7 url("../img/asfalt-light.png") repeat;
+    border: 1px solid #aaa;
+    border-right: none;
+    border-left: none;
+    border-radius: 4px;
+  }
+  .modal-holder .modal-container .fa-close {
+    float: left;
+    width: 20px;
+    padding: 0;
+    margin: 0 0 12px 120px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #444;
+    text-align: center;
+    cursor: pointer;
+  }
+  .modal-holder .modal-container .row {
+    float: left;
+    width: 280px;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .row input {
+    float: left;
+    width: 278px;
+    height: 52px;
+    padding: 0;
+    margin: 0 0 15px 0;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #aaa;
+  }
+  .modal-holder .modal-container .submit {
+    float: left;
+    width: 238px;
+    padding: 8px 20px 6px 20px;
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 30px;
+    color: #fff;
+    background: #2774b9 url("../img/asfalt-light.png") repeat;
+    border: none;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    box-shadow: none;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: 1px 1px 4px #aaa;
+    text-align: center;
+    text-shadow: $dark-shadow;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+  }
+  .modal-holder .modal-container .rx-card {
+    float: left;
+    width: 248px;
+    padding: 22px 0px 18px 30px;
+    margin: 0 0 20px 0;
+    background: linear-gradient(to bottom, #fff, #ff9);
+    border-bottom: 4px solid #333;
+    border-radius: 12px;
+  }
+  .modal-holder .modal-container .rx-card h2 {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: left;
+  }
+  .modal-holder .modal-container .rx-card .card-content {
+    float: left;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline {
+    float: left;
+    width: 100%;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company {
+    float: left;
+    width: 100%;
+    margin: 0 0 18px 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company h5 {
+    float: left;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-align: left;
+    text-shadow: 2px 1px 0 #fff;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .company span {
+    float: left;
+    margin: 0 6px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #444;
+    text-align: left;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row input {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 12px 0;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    color: #777;
+    background: none;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-shadow: 2px 1px 0 #fff;
+  }
+  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h6 {
+    float: left;
+    width: 82px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+    color: #777;
+    text-shadow: 2px 1px 0 #fff;
+  }
+  .modal-holder .modal-container .legal {
+    float: left;
+    width: 258px;
+    padding: 0;
+    margin: 0 0 0 10px;
+  }
+  .modal-holder .modal-container .legal p {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .modal-holder .modal-container .legal a {
+    color: #8a0d4a;
+  }
 }
 @media (min-width: 360px) {
   header {
