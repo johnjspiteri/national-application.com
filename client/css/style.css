@@ -2349,19 +2349,28 @@ small {
   header .header .brand {
     float: left;
     width: 280px;
-    padding: 0 0 10px 0;
+    padding: 0 0 12px 0;
     margin: 0;
   }
   header .header .brand .logo {
     float: left;
     width: 278px;
+<<<<<<< HEAD
     height: 100px;
     padding: 0;
     margin: 0 0 10px 0;
     border: 1px solid #aaa;
+=======
+    height: 110px;
+    padding: 0;
+    margin: 0;
+    border-top: none;
+    border-bottom: none;
+>>>>>>> frontend
     text-align: center;
+    background: none;
   }
-  header .header .brand .mobile-navigation-button {
+  header .header .brand .mobile-navigation {
     float: left;
     width: 278px;
     padding: 10px 0 12px 0;
@@ -2370,63 +2379,24 @@ small {
     border: 1px solid #aaa;
     border-radius: 4px;
   }
+<<<<<<< HEAD
   header .header .brand .mobile-navigation-button h5 {
+=======
+  header .header .brand .mobile-navigation h5 {
+>>>>>>> frontend
     float: left;
     width: 258px;
     padding: 0;
     margin: 0;
     font-size: 22px;
+<<<<<<< HEAD
     font-weight: 600;
     line-height: 24px;
+=======
+    line-height: 22px;
+>>>>>>> frontend
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
-  }
-  header .header nav {
-    display: none;
-  }
-  md-sidenav {
-    position: absolute;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 144px;
-    max-width: 144px;
-    height: 600px;
-    max-height: 700px;
-    bottom: 0;
-    background: none;
-    outline: none;
-    overflow: none;
-    box-sizing: border-box;
-    left: 0;
-    top: 0;
-    z-index: 999999;
-    -webkit-transform: translate3d(0%, 0, 0);
-    transform: translate3d(0%, 0, 0);
-    overflow: scroll;
-  }
-  md-sidenav.md-closed {
-    transform: translate3d(-100%, 0, 0);
-  }
-  md-sidenav.md-closed-remove {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-closed-add.md-closed-add-active,
-  md-sidenav.md-closed-remove.md-closed-remove-active {
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-locked-open-add,
-  md-sidenav.md-locked-open-remove {
-    position: static;
-    display: -webkit-flex;
-  }
-  display: -ms-flexbox {
-    display: flex;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
   }
   .page {
     position: relative;
@@ -2990,6 +2960,13 @@ small {
     background: #ccc;
     border-bottom: 4px solid #333;
     border-radius: 0 0 8px 8px;
+  }
+  .super {
+    display: block;
+    float: left;
+    width: 40px;
+    heigh: 40px;
+    background: #ff9;
   }
   .modal-holder {
     position: absolute;
@@ -6209,6 +6186,45 @@ small {
   header .header .brand {
     display: none;
   }
+  header .header nav {
+    display: block;
+    float: left;
+    width: 769px;
+    height: 98px;
+    padding: 0;
+    margin: 0;
+    border-right: 1px solid #333;
+  }
+  header .header nav .tile {
+    float: right;
+    height: 78px;
+    padding: 0 26px 0 26px;
+    margin: 0;
+    background: #666 url("../img/asfalt-light.png") repeat;
+    border-left: 1px solid #333;
+    cursor: pointer;
+  }
+  header .header nav .tile h4 {
+    float: left;
+    padding: 0;
+    margin: 18px 0 0 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 0px #000;
+  }
+  header .header nav .tile.active {
+    height: 79px;
+    background: #2774b9 url("../img/asfalt-light.png") repeat;
+    border-left: 1px solid #333;
+  }
+  header .header nav .tile.active h4 {
+    margin: 19px 0 0 0;
+    font-style: normal;
+  }
   .page {
     position: relative;
     width: 100%;
@@ -6226,7 +6242,6 @@ small {
     width: 400px;
     padding: 0;
     margin: 30px 0 40px 0;
-    background: #ff9;
   }
   .content .main .rx-card {
     width: 385px;
@@ -7086,11 +7101,7 @@ small {
     line-height: 24px;
   }
   .page {
-    position: relative;
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
-    z-index: 1;
+    width: 1000px;
   }
   .content {
     float: left;

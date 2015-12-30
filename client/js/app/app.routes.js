@@ -21,11 +21,11 @@
                     },
                     //  'footer': {
                     //     templateUrl: 'footer/footer.a1.html',
-                        // controller: 'Footer',
+                    //     controller: 'Footer',
                     // },
                     //  'corner': {
                     //     templateUrl: 'corner/corner.a1.html',
-                        // controller: 'Corner',
+                    //     controller: 'Corner',
                     // },
                 }
             });

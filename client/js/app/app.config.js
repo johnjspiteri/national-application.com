@@ -1,11 +1,10 @@
 (function() {
     'use strict';
 
-    function config ($compileProvider, $urlRouterProvider, $sceDelegateProvider, uiGmapGoogleMapApiProvider) {
+    function config ($compileProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
 
-        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|data:image|file|tel|blob|):/);
-        // $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|chrome-extension):/);
-        $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|mailto|data:image|chrome-extension):/);
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|chrome-extension):/);
+        // //  $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|mailto|data:image|chrome-extension):/);
 
         uiGmapGoogleMapApiProvider.configure({
              //    key: 'your api key',
@@ -25,13 +24,13 @@
             }
             return false;
         });
-
+        // $sceProvider.enabled(false);
     }
 
     angular
         .module('app')
         .config(config);
 
-    config.$inject = ['$compileProvider', '$urlRouterProvider', '$sceDelegateProvider', 'uiGmapGoogleMapApiProvider'];
+    config.$inject = ['$compileProvider','$urlRouterProvider', 'uiGmapGoogleMapApiProvider'];
 
 })();
