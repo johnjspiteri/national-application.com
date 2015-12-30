@@ -1,33 +1,32 @@
 .page
-    .content-holder
-        .content
-            .contact-holder
-                .contact-detail
-                    h2 National RX Card
-                    .contact-container
-                        h3 1-800 456-7890
-                        h3 info@natonalrxcard.com
-                        h4 13 Super Success Highway West<br> Portland, Oregon, 14530
+    .content
+        .contact-holder
+            .contact-detail
+                h2 National RX Card
+                .contact-container
+                    h3 1-800 456-7890
+                    h3 info@natonalrxcard.com
+                    h4 13 Super Success Highway West<br> Portland, Oregon, 14530
 
-                form.contact-form(ng-show='contact')
-                    .row
-                        input(type="text", data-ng-model='data.name', placeholder="Name", required) 
+            form.contact-form(ng-show='contact')
+                .row
+                    input(type="text", data-ng-model='data.name', placeholder="Name", required)
 
-                    .row
-                        input(type="text", data-ng-model='data.email', placeholder="Email", required)
+                .row
+                    input(type="text", data-ng-model='data.email', placeholder="Email", required)
 
-                    .row
-                        input(type="text", data-ng-model='data.phone', placeholder="Phone", required)
-                    .row
-                        textarea(data-ng-model='data.message',placeholder="Message", required)
-                    button.submit(type="button", data-ng-click='toggle();', data-ng-model='data.message', name="submit") Submit
+                .row
+                    input(type="text", data-ng-model='data.phone', placeholder="Phone", required)
+                .row
+                    textarea(data-ng-model='data.message',placeholder="Message", required)
+                button.submit(type="button", data-ng-click='toggle();', data-ng-model='data.message', name="submit") Submit
 
-                .contact-detail(data-ng-click='toggle();', ng-show='!contact')
-                    h2 Thank You<br>{{data.name}} for Using The National Rx Card
-                    .contact-container
-                        h3 We appreciate your time contact us, and we will respond within one business day.
+            .contact-detail(data-ng-click='toggle();', ng-show='!contact')
+                h2 Thank You<br>{{data.name}} for Using The National Rx Card
+                .contact-container
+                    h3 We appreciate your time contact us, and we will respond within one business day.
 
-            .map
-                #map_canvas
-                    ui-gmap-google-map(center='map.center', zoom='map.zoom', options='options')
-                        ui-gmap-marker(coords='marker.coords', options='marker.options', icon='marker.options.icon', idkey='marker.id')
+        .map
+            #map_canvas
+                ui-gmap-google-map(center='map.center', zoom='map.zoom', options='options')
+                    ui-gmap-marker(coords='marker.coords', options='marker.options', icon='marker.options.icon', idkey='marker.id')

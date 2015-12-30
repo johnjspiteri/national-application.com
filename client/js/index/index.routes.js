@@ -21,43 +21,43 @@
                         controller: 'Index'
                     },
                 }
+            })
+            .state('frontend.index.text', {
+                url: 'text-a-free-rx-card',
+                views: {
+                    'modal@': {
+                        templateUrl: 'index/index.text.modal.html',
+                        controller: 'IndexTextModal'
+                    },
+                },
+            })
+            .state('frontend.index.email', {
+                url: 'email-a-free-rx-card',
+                views: {
+                    'modal@': {
+                        templateUrl: 'index/index.email.modal.html',
+                        controller: 'IndexEmailModal'
+                    },
+                },
+            })
+            .state('frontend.index.save', {
+                url: 'save-a-free-rx-card',
+                views: {
+                    'modal@': {
+                        templateUrl: 'index/index.save.modal.html',
+                        controller: 'IndexSaveModal'
+                    },
+                },
+            })
+            .state('frontend.index.print', {
+                url: 'print-a-free-rx-card',
+                views: {
+                    'modal@': {
+                        templateUrl: 'index/index.print.modal.html',
+                        controller: 'IndexPrintModal'
+                    },
+                },
             });
-            // .state('frontend.index.text', {
-            //     url: 'text-a-free-rx-card',
-            //     views: {
-            //         'modal@': {
-            //             templateUrl: 'index/index.text.modal.html',
-            //             controller: 'IndexTextModal'
-            //         },
-            //     },
-            // })
-            // .state('frontend.index.email', {
-            //     url: 'email-a-free-rx-card',
-            //     views: {
-            //         'modal@': {
-            //             templateUrl: 'index/index.email.modal.html',
-            //             controller: 'IndexEmailModal'
-            //         },
-            //     },
-            // })
-            // .state('frontend.index.save', {
-            //     url: 'save-a-free-rx-card',
-            //     views: {
-            //         'modal@': {
-            //             templateUrl: 'index/index.save.modal.html',
-            //             controller: 'IndexSaveModal'
-            //         },
-            //     },
-            // })
-            // .state('frontend.index.print', {
-            //     url: 'print-a-free-rx-card',
-            //     views: {
-            //         'modal@': {
-            //             templateUrl: 'index/index.print.modal.html',
-            //             controller: 'IndexPrintModal'
-            //         },
-            //     },
-            // });
     }
 
     angular
