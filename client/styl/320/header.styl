@@ -2,7 +2,7 @@ header
 	float left
 	width 100%
 	padding 0
-	margin 0 0 20px 0
+	margin 0 0 0 0
 	background $header
 	border-bottom $border-header
 
@@ -21,16 +21,20 @@ header
 			.logo
 				float left
 				width 278px
-
-				border-top none
-				border-bottom none
+				height 100px
+				padding 0
+				margin 0 0 10px 0
+				//border-top none
+				//border-bottom none
+				border $border
 				text-align center
 
 			.mobile-navigation-button
 				float left
-				width 258px
+				width 278px
+				//height 30px
 				padding 10px 0 12px 0
-				margin 0 0 0 10px
+				margin 0 0 0 0
 				background $card
 				border $border
 				border-radius 4px
@@ -38,20 +42,13 @@ header
 				h5
 					float left
 					width 258px
-
-					padding 10px 0 8px 0
-					margin 78px 0 0 10px
-					background $card
-					border $border
-					border-radius 4px
-
-					h5
-						float left
-						width 258px
-						font-size 22px
-						line-height 24px
-						text-align center
-						text-shadow $white-shadow
+					padding 0
+					margin 0
+					font-size 22px
+					font-weight 600
+					line-height 24px
+					text-align center
+					text-shadow $white-shadow
 
 		nav
 			display none
