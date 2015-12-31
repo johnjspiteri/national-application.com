@@ -2349,15 +2349,14 @@ small {
   header .header .brand {
     float: left;
     width: 100%;
-    padding: 0 0 12px 0;
+    padding: 0 0 14px 0;
     margin: 0;
   }
   header .header .brand .logo {
     float: left;
-    width: 100%;
-    height: 120px;
+    width: 260px;
     padding: 0;
-    margin: 0 0 10px 0;
+    margin: 10px 0 24px 0;
   }
   header .header .brand .logo img {
     float: left;
@@ -3047,7 +3046,8 @@ small {
     padding: 0 0 14px 0;
   }
   header .header .brand .logo {
-    height: 98px;
+    width: 280px;
+    margin: 10px 0 28px 5px;
   }
   header .header .brand .mobile-navigation {
     width: 318px;
@@ -3303,8 +3303,8 @@ small {
     padding: 0 0 14px 0;
   }
   header .header .brand .logo {
-    width: 440px;
-    height: 98px;
+    width: 340px;
+    margin: 12px 0 32px 40px;
   }
   header .header .brand .mobile-navigation {
     width: 400px;
@@ -3548,7 +3548,8 @@ small {
     padding: 0 0 14px 0;
   }
   header .header .brand .logo {
-    margin: 0 0 10px 0;
+    width: 340px;
+    margin: 12px 0 28px 30px;
   }
   header .header .brand .mobile-navigation {
     width: 358px;
@@ -3788,18 +3789,19 @@ small {
 }
 @media (min-width: 768px) {
   header {
+    height: 138px;
     margin: 0 0 60px 0;
   }
   header .header {
     width: 768px;
   }
   header .header .brand {
-    padding: 0;
+    width: 230px;
+    margin: 28px 0 36px 10px;
   }
   header .header .brand .logo {
-    width: 688px;
-    height: 160px;
-    margin: 0 0 30px 40px;
+    width: 230px;
+    margin: 0;
   }
   header .header .brand .mobile-navigation {
     display: none;
@@ -3807,19 +3809,19 @@ small {
   header .header nav {
     display: block;
     float: left;
+    width: 510px;
     height: 84px;
     padding: 0;
-    margin: 0 0 1px 15px;
-    border-left: 1px solid #333;
+    margin: 0 0 1px 0;
   }
   header .header nav .tile {
-    float: left;
+    float: right;
     height: 85px;
-    padding: 0 28px;
+    padding: 0 18px;
     margin: 0;
     background: #666 url("../img/asfalt-light.png") repeat;
     border-top: 1px solid #333;
-    border-right: 1px solid #333;
+    border-left: 1px solid #333;
     cursor: pointer;
   }
   header .header nav .tile h4 {
@@ -3828,7 +3830,7 @@ small {
     margin: 16px 0 0 0;
     font-style: italic;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 27px;
     color: #fff;
     text-align: center;
@@ -4088,35 +4090,37 @@ small {
 @media (min-width: 900px) {
   header {
     margin: 0 0 40px 0;
+    height: 138px;
   }
   header .header {
-    width: 1000px;
+    width: 1024px;
   }
   header .header .brand {
-    width: 800px;
+    width: 280px;
     padding: 0;
-    margin: 0 0 0 100px;
+    margin: 18px 39px 20px 25px;
   }
   header .header .brand .logo {
-    width: 688px;
-    height: 160px;
-    margin: 0 0 30px 40px;
+    width: 280px;
+    margin: 0;
+    margin: 0;
   }
   header .header nav {
-    height: 89px;
-    margin: 0 0 1px 40px;
+    width: 680px;
+    height: 76px;
+    margin: 62px 0 0 0;
   }
   header .header nav .tile {
-    height: 88px;
-    padding: 0 46px;
+    height: 75px;
+    padding: 0 24px;
   }
   header .header nav .tile h4 {
-    margin: 18px 0 0 0;
-    font-size: 23px;
-    line-height: 28px;
+    margin: 13px 0 0 0;
+    font-size: 21px;
+    line-height: 25px;
   }
   header .header nav .tile.active {
-    height: 89px;
+    height: 76px;
   }
   .page {
     width: 708px;
@@ -4379,6 +4383,7 @@ small {
     width: 689px;
     height: 69px;
     margin: 30px 0 0 0;
+    border-right: 1px solid #333;
   }
   header .header nav .tile {
     height: 68px;
