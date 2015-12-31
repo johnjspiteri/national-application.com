@@ -2349,15 +2349,14 @@ small {
   header .header .brand {
     float: left;
     width: 100%;
-    padding: 0 0 12px 0;
+    padding: 0 0 14px 0;
     margin: 0;
   }
   header .header .brand .logo {
     float: left;
-    width: 100%;
-    height: 120px;
+    width: 260px;
     padding: 0;
-    margin: 0 0 10px 0;
+    margin: 10px 0 24px 0;
   }
   header .header .brand .logo img {
     float: left;
@@ -3245,11 +3244,17 @@ small {
     margin: 0 auto;
     z-index: 98;
   }
+<<<<<<< HEAD
   .map-holder .map {
     float: left;
     width: 298px;
     height: 380px;
     border: 1px solid #ccc;
+=======
+  header .header .brand .logo {
+    width: 280px;
+    margin: 10px 0 28px 5px;
+>>>>>>> contact
   }
   .map-holder .map .directions {
     position: absolute;
@@ -3828,8 +3833,8 @@ small {
     padding: 0 0 14px 0;
   }
   header .header .brand .logo {
-    width: 440px;
-    height: 98px;
+    width: 340px;
+    margin: 12px 0 32px 40px;
   }
   header .header .brand .mobile-navigation {
     width: 400px;
@@ -4078,11 +4083,17 @@ small {
     padding: 0;
     margin: 0 0 0 10px;
   }
+<<<<<<< HEAD
   .modal-holder .modal-container .legal p {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0 0 10px 0;
+=======
+  header .header .brand .logo {
+    width: 340px;
+    margin: 12px 0 28px 30px;
+>>>>>>> contact
   }
   .modal-holder .modal-container .legal a {
     color: #8a0d4a;
@@ -4480,12 +4491,14 @@ small {
 }
 @media (min-width: 768px) {
   header {
+    height: 138px;
     margin: 0 0 60px 0;
   }
   header .header {
     width: 768px;
   }
   header .header .brand {
+<<<<<<< HEAD
 =======
   .contact-holder {
     float: left;
@@ -4503,6 +4516,14 @@ small {
     border-bottom: 4px solid #333;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
     border-radius: 0 0 8px 8px;
+=======
+    width: 230px;
+    margin: 28px 0 36px 10px;
+  }
+  header .header .brand .logo {
+    width: 230px;
+    margin: 0;
+>>>>>>> contact
   }
   .contact-holder .contact-detail h2 {
     float: left;
@@ -4515,6 +4536,7 @@ small {
   }
   .contact-holder .contact-detail .contact-container {
     float: left;
+<<<<<<< HEAD
     width: 398px;
     padding: 0;
     margin: 0;
@@ -4527,6 +4549,22 @@ small {
     line-height: 16px;
     font-weight: 400;
     text-align: center;
+=======
+    width: 510px;
+    height: 84px;
+    padding: 0;
+    margin: 0 0 1px 0;
+  }
+  header .header nav .tile {
+    float: right;
+    height: 85px;
+    padding: 0 18px;
+    margin: 0;
+    background: #666 url("../img/asfalt-light.png") repeat;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
+    cursor: pointer;
+>>>>>>> contact
   }
   .contact-holder .contact-detail .contact-container h3 {
     float: left;
@@ -4534,9 +4572,15 @@ small {
     padding: 0;
     margin: 0 0 12px 0;
     font-weight: 600;
+<<<<<<< HEAD
     font-size: 22px;
     line-height: 24px;
     color: #8a0d4a;
+=======
+    font-size: 17px;
+    line-height: 27px;
+    color: #fff;
+>>>>>>> contact
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
   }
@@ -5054,6 +5098,7 @@ small {
 }
 @media (min-width: 560px) {
   header {
+<<<<<<< HEAD
     margin: 0 0 30px 0;
   }
   header .header {
@@ -5072,6 +5117,40 @@ small {
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
     line-height: 26px;
+=======
+    margin: 0 0 40px 0;
+    height: 138px;
+  }
+  header .header {
+    width: 1024px;
+  }
+  header .header .brand {
+    width: 280px;
+    padding: 0;
+    margin: 18px 39px 20px 25px;
+  }
+  header .header .brand .logo {
+    width: 280px;
+    margin: 0;
+    margin: 0;
+  }
+  header .header nav {
+    width: 680px;
+    height: 76px;
+    margin: 62px 0 0 0;
+  }
+  header .header nav .tile {
+    height: 75px;
+    padding: 0 24px;
+  }
+  header .header nav .tile h4 {
+    margin: 13px 0 0 0;
+    font-size: 21px;
+    line-height: 25px;
+  }
+  header .header nav .tile.active {
+    height: 76px;
+>>>>>>> contact
   }
   .page {
     width: 480px;
@@ -5405,9 +5484,19 @@ small {
     border: 1px solid #aaa;
     text-align: center;
   }
+<<<<<<< HEAD
   .contact-holder .contact-form .submit {
     float: left;
     width: 436px;
+=======
+  header .header nav {
+    width: 689px;
+    height: 69px;
+    margin: 30px 0 0 0;
+    border-right: 1px solid #333;
+  }
+  header .header nav .tile {
+>>>>>>> contact
     height: 68px;
     padding: 0;
     margin: 0;
