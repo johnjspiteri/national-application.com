@@ -2355,10 +2355,14 @@ small {
   header .header .brand .logo {
     float: left;
     width: 100%;
-    height: 100px;
+    height: 120px;
     padding: 0;
     margin: 0 0 10px 0;
-    background: #f1f1f1;
+  }
+  header .header .brand .logo img {
+    float: left;
+    width: 100%;
+    height: 100%;
   }
   header .header .brand .mobile-navigation {
     float: left;
@@ -2768,7 +2772,7 @@ small {
     float: left;
     width: 280px;
     padding: 0;
-    margin: 0 0 60px 0;
+    margin: 0 0 30px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
     float: left;
@@ -2997,6 +3001,40 @@ small {
   .modal-holder .modal-container .legal a {
     color: #8a0d4a;
   }
+  footer {
+    float: left;
+    width: 100%;
+    height: 58px;
+    background: #666 url("../img/asfalt-light.png") repeat;
+    border-top: 1px solid #aaa;
+  }
+  footer .footer {
+    position: relative;
+    width: 320px;
+    height: 58px;
+    margin: 0 auto;
+  }
+  footer .footer .link {
+    float: left;
+    margin: 10px 20px 0 0;
+  }
+  footer .footer .link h4 {
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 0px #000;
+    text-align: center;
+  }
+  footer .footer .link.email {
+    display: none;
+  }
+  footer .footer .link.phone {
+    margin: 10px 20px 0 20px;
+  }
+  footer .footer .link.terms {
+    margin: 10px 0 0 0;
+  }
 }
 @media (min-width: 360px) {
   header {
@@ -3211,7 +3249,7 @@ small {
   }
   .content .testimonals-holder .testimonals {
     width: 335px;
-    margin: 0 0 60px 0;
+    margin: 0 0 30px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 295px;
@@ -3231,6 +3269,27 @@ small {
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 20px;
     line-height: 20px;
+  }
+  footer {
+    width: 100%;
+    height: 58px;
+  }
+  footer .footer {
+    width: 400px;
+    height: 58px;
+  }
+  footer .footer .link {
+    margin: 9px 20px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  footer .footer .link.phone {
+    margin: 9px 50px 0 30px;
+  }
+  footer .footer .link.terms {
+    margin: 9px 0 0 0;
   }
 }
 @media (min-width: 480px) {
@@ -3436,11 +3495,11 @@ small {
   }
   .content .testimonals-holder .testimonals {
     width: 400px;
-    margin: 0 0 60px 0;
+    margin: 0 0 20px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
-    width: 340px;
-    padding: 28px 30px 32px 30px;
+    width: 320px;
+    padding: 28px 40px 32px 40px;
     margin: 0 0 15px 0;
   }
   .content .testimonals-holder .testimonals .testimonal p {
@@ -3456,6 +3515,26 @@ small {
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 21px;
     line-height: 21px;
+  }
+  footer {
+    height: 60px;
+  }
+  footer .footer {
+    width: 400px;
+    height: 60px;
+  }
+  footer .footer .link {
+    margin: 7px 30px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  footer .footer .link.phone {
+    margin: 7px 60px 0 30px;
+  }
+  footer .footer .link.terms {
+    margin: 7px 0 0 0;
   }
 }
 @media (min-width: 560px) {
@@ -3661,7 +3740,7 @@ small {
   }
   .content .testimonals-holder .testimonals {
     width: 400px;
-    margin: 0 0 60px 0;
+    margin: 0 0 20px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 340px;
@@ -3681,6 +3760,30 @@ small {
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 21px;
     line-height: 21px;
+  }
+  footer {
+    height: 64px;
+  }
+  footer .footer {
+    width: 600px;
+    height: 64px;
+  }
+  footer .footer .link {
+    margin: 7px 30px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  footer .footer .link.email {
+    display: block;
+    margin: 8px 30px 0 0px;
+  }
+  footer .footer .link.phone {
+    margin: 7px 50px 0 0;
+  }
+  footer .footer .link.terms {
+    margin: 7px 0 0 0;
   }
 }
 @media (min-width: 768px) {
@@ -3958,6 +4061,29 @@ small {
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: block;
   }
+  footer {
+    height: 68px;
+  }
+  footer .footer {
+    width: 680px;
+    height: 68px;
+  }
+  footer .footer .link {
+    margin: 11px 40px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  footer .footer .link.email {
+    margin: 11px 40px 0 10px;
+  }
+  footer .footer .link.phone {
+    margin: 11px 90px 0 0;
+  }
+  footer .footer .link.terms {
+    margin: 11px 0 0 0;
+  }
 }
 @media (min-width: 900px) {
   header {
@@ -4208,6 +4334,29 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: block;
+  }
+  footer {
+    height: 68px;
+  }
+  footer .footer {
+    width: 760px;
+    height: 68px;
+  }
+  footer .footer .link {
+    margin: 10px 40px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  footer .footer .link.email {
+    margin: 10px 60px 0 0px;
+  }
+  footer .footer .link.phone {
+    margin: 10px 130px 0 0;
+  }
+  footer .footer .link.terms {
+    margin: 10px 0 0 0;
   }
 }
 @media (min-width: 1100px) {
@@ -4533,5 +4682,28 @@ small {
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 16px;
     line-height: 16px;
+  }
+  footer {
+    height: 72px;
+  }
+  footer .footer {
+    width: 920px;
+    height: 72px;
+  }
+  footer .footer .link {
+    margin: 10px 60px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  footer .footer .link.email {
+    margin: 10px 70px 0 30px;
+  }
+  footer .footer .link.phone {
+    margin: 10px 190px 0 0;
+  }
+  footer .footer .link.terms {
+    margin: 10px 0 0 0;
   }
 }

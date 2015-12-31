@@ -19,10 +19,9 @@
                         templateUrl: 'header/header.html',
                         controller: 'CommonController',
                     },
-                    //  'footer': {
-                    //     templateUrl: 'footer/footer.a1.html',
-                    //     controller: 'Footer',
-                    // },
+                     'footer@': {
+                        templateUrl: 'footer/footer.html',
+                    },
                     //  'corner': {
                     //     templateUrl: 'corner/corner.a1.html',
                     //     controller: 'Corner',

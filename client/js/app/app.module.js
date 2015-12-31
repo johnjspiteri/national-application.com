@@ -19,6 +19,8 @@
             'app.question',
             'app.testimonial',
             'app.about',
+            'app.privacy',
+            'app.terms',
             'app.client',
         ]);
 })();

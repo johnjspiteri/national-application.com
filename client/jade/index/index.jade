@@ -17,17 +17,17 @@
                         .row
                             input(type='text', value='Enter Your Name')
                         .row
-                            h6 PATIENT
-                            h6 NRX43710
-                        .row
-                            h6 GROUP
-                            h6 96100245
-                        .row
                             h6 BIN
                             h6 018398
                         .row
                             h6 PCN
                             h6 48300712
+                        .row
+                            h6 GROUP
+                            h6 96100245
+                        .row
+                            h6 PATIENT-ID
+                            h6 NRX43710
 
             .download
                 .tag(data-ng-click='textModal();')
@@ -94,12 +94,12 @@
 
         .locator
             .locator-zip
-                h2 Search By Zip Code
+                h2 Search Pharmacies By Zip Code
                 input(type="text", data-ng-model='zip', placeholder='10010')
                 button.submit(type='submit') Search
 
             .locator-state
-                h2 Search By State & City
+                h2 Search Pharmacies By State & City
                 select(type="text", data-ng-model='state', ng-options="state for state in states")
                 select(type="text", data-ng-model='city', ng-options="city for city in cities | orderBy:'toString()'", ng-disabled="!state", data-ng-show='state')
                 button.submit(type='submit') Search
@@ -188,7 +188,7 @@
                     p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
                     h2 Kathleen White
                     h3 St. Paul, Maryland
-                    
+
                 .testimonal.hide
                     p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
                     h2 Kathleen White
