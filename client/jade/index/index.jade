@@ -5,17 +5,15 @@
                 .card-logo
                     img(ng-src='/img/icon.png')
                 .card-content
-                    h2 National Rx Card
+                    h1 National Rx Card
                     .company
                         h5 Free
                         span &bull;
                         h5 Fast
                         span &bull;
                         h5 Discounts
-
                     .patient-holder
-                        .row
-                            input(type='text', value='Preferred Customer')
+                        p Preferred Customer
                         .row
                             h6 BIN
                             h6 018398
@@ -25,9 +23,9 @@
                         .row
                             h6 GROUP
                             h6 96100245
-                        .row
-                            h6 PATIENT-ID
-                            h6 NRX43710
+                        //- .row
+                        //-     h6 PATIENT
+                        //-     h6 NRX43710
 
             .download
                 .tag(data-ng-click='textModal();')
@@ -45,20 +43,20 @@
 
         .points
             .point
-                div.fa.fa-certificate
                 .text
+                    .fa.fa-certificate
                     h3 Membership <span>Is Free</span>
             .point
-                div.fa.fa-certificate
                 .text
+                    .fa.fa-certificate
                     h3 Everyone <span>Qualifies</span>
             .point
-                div.fa.fa-certificate
                 .text
+                    .fa.fa-certificate
                     h3 No Waiting Or <span>Deductibles</span>
             .point
-                div.fa.fa-certificate
                 .text
+                    .fa.fa-certificate
                     h3 No Pre-Existing <span>Exclusions</span>
 
         .center

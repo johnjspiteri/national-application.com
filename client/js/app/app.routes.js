@@ -22,10 +22,6 @@
                      'footer@': {
                         templateUrl: 'footer/footer.html',
                     },
-                    //  'corner': {
-                    //     templateUrl: 'corner/corner.a1.html',
-                    //     controller: 'Corner',
-                    // },
                 }
             });
     }
