@@ -3369,6 +3369,70 @@ small {
     color: #fff;
     text-shadow: 2px 2px 0px #000;
   }
+  .legal-container {
+    position: relative;
+    width: 298px;
+    padding: 0;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    border-bottom: none;
+  }
+  .legal-container .legal {
+    float: left;
+    width: 238px;
+    padding: 22px 30px 20px 30px;
+    background: #fff;
+  }
+  .legal-container .legal h1 {
+    float: left;
+    width: 100%;
+    font-size: 29px;
+    line-height: 29px;
+    margin: 0 0 16px 0;
+    text-align: center;
+  }
+  .legal-container .legal .title-container {
+    width: 238px;
+    text-align: center;
+  }
+  .legal-container .legal .title-container .title {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    z-index: 99;
+  }
+  .legal-container .legal .title-container .title h3 {
+    float: left;
+    padding: 4px 20px 2px 20px;
+    margin: 14px 0 8px 0;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    color: #fff;
+    background: #8a0d4a;
+    border-bottom: 4px solid #4a0024;
+    border-radius: 8px;
+    text-align: center;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .legal-container .legal h4 {
+    float: left;
+    width: 100%;
+    margin: 0 0 22px 0;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 13px;
+    color: #444;
+    text-align: center;
+  }
+  .legal-container .legal p {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0 0 14px 0;
+    text-align: center;
+  }
   md-sidenav.md-closed {
     display: none;
   }
@@ -4058,6 +4122,40 @@ small {
   .answers-holder .answer .tag-holder .tag h5 {
     margin: 0;
     padding: 8px 16px;
+  }
+  .legal-container {
+    width: 338px;
+  }
+  .legal-container .legal {
+    width: 278px;
+    padding: 26px 30px 20px 30px;
+  }
+  .legal-container .legal h1 {
+    font-size: 31px;
+    line-height: 31px;
+    margin: 0 0 16px 0;
+  }
+  .legal-container .legal .title-container {
+    width: 278px;
+  }
+  .legal-container .legal .title-container .title {
+    display: inline-block;
+  }
+  .legal-container .legal .title-container .title h3 {
+    padding: 4px 20px 2px 20px;
+    margin: 14px 0 8px 0;
+    font-size: 23px;
+    line-height: 31px;
+  }
+  .legal-container .legal h4 {
+    margin: 0 0 22px 0;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .legal-container .legal p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 14px 0;
   }
 }
 @media (min-width: 480px) {
@@ -4754,6 +4852,40 @@ small {
     color: #fff;
     text-shadow: 2px 2px 0px #000;
   }
+  .legal-container {
+    width: 438px;
+  }
+  .legal-container .legal {
+    width: 358px;
+    padding: 26px 40px 20px 40px;
+  }
+  .legal-container .legal h1 {
+    font-size: 33px;
+    line-height: 33px;
+    margin: 0 0 16px 0;
+  }
+  .legal-container .legal .title-container {
+    width: 358px;
+  }
+  .legal-container .legal .title-container .title {
+    display: inline-block;
+  }
+  .legal-container .legal .title-container .title h3 {
+    padding: 4px 20px 2px 20px;
+    margin: 14px 0 8px 0;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .legal-container .legal h4 {
+    margin: 0 0 26px 0;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .legal-container .legal p {
+    font-size: 17px;
+    line-height: 28px;
+    margin: 0 0 14px 0;
+  }
 }
 @media (min-width: 560px) {
   header {
@@ -5407,10 +5539,44 @@ small {
     margin: 0;
     padding: 8px 16px;
   }
+  .legal-container {
+    width: 538px;
+  }
+  .legal-container .legal {
+    width: 458px;
+    padding: 26px 40px 20px 40px;
+  }
+  .legal-container .legal h1 {
+    font-size: 34px;
+    line-height: 34px;
+    margin: 0 0 16px 0;
+  }
+  .legal-container .legal .title-container {
+    width: 458px;
+  }
+  .legal-container .legal .title-container .title {
+    display: inline-block;
+  }
+  .legal-container .legal .title-container .title h3 {
+    padding: 4px 20px 2px 20px;
+    margin: 14px 0 8px 0;
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .legal-container .legal h4 {
+    margin: 0 0 26px 0;
+    font-size: 17px;
+    line-height: 17px;
+  }
+  .legal-container .legal p {
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0 0 14px 0;
+  }
 }
 @media (min-width: 768px) {
   header {
-    height: 263px;
+    height: 248px;
     margin: 0 0 60px 0;
   }
   header .header {
@@ -5418,11 +5584,11 @@ small {
   }
   header .header .brand {
     width: 690px;
-    margin: 18px 0 22px 10px;
+    margin: 18px 0 12px 10px;
   }
   header .header .brand .logo {
-    width: 340px;
-    margin: 0 0 0 60px;
+    width: 320px;
+    margin: 0 0 0 80px;
   }
   header .header .brand .mobile-navigation {
     display: none;
@@ -6106,6 +6272,40 @@ small {
     margin: 0;
     padding: 8px 16px;
   }
+  .legal-container {
+    width: 688px;
+  }
+  .legal-container .legal {
+    width: 568px;
+    padding: 48px 60px 60px 60px;
+  }
+  .legal-container .legal h1 {
+    margin: 0 0 28px 0;
+    font-size: 49px;
+    line-height: 49px;
+  }
+  .legal-container .legal .title-container {
+    width: 568px;
+  }
+  .legal-container .legal .title-container .title {
+    display: inline-block;
+  }
+  .legal-container .legal .title-container .title h3 {
+    padding: 4px 20px 2px 20px;
+    margin: 34px 0 12px 0;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .legal-container .legal h4 {
+    margin: 0 0 36px 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .legal-container .legal p {
+    font-size: 21px;
+    line-height: 35px;
+    margin: 0 0 14px 0;
+  }
 }
 @media (min-width: 900px) {
   header {
@@ -6142,7 +6342,7 @@ small {
     height: 76px;
   }
   .page {
-    width: 708px;
+    width: 928px;
   }
   .content {
     width: 708px;
@@ -6787,6 +6987,40 @@ small {
     float: left;
     margin: 0;
     padding: 8px 16px;
+  }
+  .legal-container {
+    width: 928px;
+  }
+  .legal-container .legal {
+    width: 768px;
+    padding: 48px 80px 60px 80px;
+  }
+  .legal-container .legal h1 {
+    margin: 0 0 28px 0;
+    font-size: 49px;
+    line-height: 49px;
+  }
+  .legal-container .legal .title-container {
+    width: 768px;
+  }
+  .legal-container .legal .title-container .title {
+    display: inline-block;
+  }
+  .legal-container .legal .title-container .title h3 {
+    padding: 4px 20px 2px 20px;
+    margin: 34px 0 12px 0;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .legal-container .legal h4 {
+    margin: 0 0 36px 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .legal-container .legal p {
+    font-size: 21px;
+    line-height: 35px;
+    margin: 0 0 14px 0;
   }
 }
 @media (min-width: 1100px) {
@@ -7757,5 +7991,39 @@ small {
   }
   .map-full {
     height: 500px;
+  }
+  .legal-container {
+    width: 998px;
+  }
+  .legal-container .legal {
+    width: 838px;
+    padding: 48px 80px 60px 80px;
+  }
+  .legal-container .legal h1 {
+    margin: 0 0 28px 0;
+    font-size: 49px;
+    line-height: 49px;
+  }
+  .legal-container .legal .title-container {
+    width: 838px;
+  }
+  .legal-container .legal .title-container .title {
+    display: inline-block;
+  }
+  .legal-container .legal .title-container .title h3 {
+    padding: 4px 20px 2px 20px;
+    margin: 34px 0 12px 0;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .legal-container .legal h4 {
+    margin: 0 0 36px 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .legal-container .legal p {
+    font-size: 21px;
+    line-height: 35px;
+    margin: 0 0 14px 0;
   }
 }

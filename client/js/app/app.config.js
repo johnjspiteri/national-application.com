@@ -24,7 +24,6 @@
             }
             return false;
         });
-        // $sceProvider.enabled(false);
     }
 
     angular
