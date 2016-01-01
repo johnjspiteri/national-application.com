@@ -2620,42 +2620,41 @@ small {
     padding: 0;
     margin: 0 0 10px 40px;
   }
-  .content .points .point {
-    float: left;
-    width: 240px;
-    padding: 0;
+  .content .points .point-container {
     margin: 0 0 14px 0;
-    background: #777 url("../img/asfalt-light.png") repeat;
-    border-bottom: 4px solid #333;
-    border-radius: 12px;
+    text-align: center;
   }
-  .content .points .point .text {
-    float: left;
-    width: 240px;
-    padding: 8px 0 18px 0;
+  .content .points .point-container .point {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    z-index: 99;
   }
-  .content .points .point .text .fa-certificate {
+  .content .points .point-container .point .fa-certificate {
     position: absolute;
     width: 31px;
     padding: 0;
-    margin: -20px 0 0 -12px;
+    top: -14px;
+    left: -12px;
     color: #ff9;
     font-size: 31px;
     text-shadow: 2px 2px 0px #000;
   }
-  .content .points .point .text h3 {
+  .content .points .point-container .point h3 {
     float: left;
-    width: 100%;
-    padding: 0;
+    padding: 8px 20px 18px 20px;
     margin: 0;
     font-weight: 500;
     font-size: 23px;
     line-height: 28px;
     color: #fff;
     text-align: center;
+    background: #777 url("../img/asfalt-light.png") repeat;
+    border-bottom: 4px solid #333;
+    border-radius: 12px;
     text-shadow: 2px 2px 0px #000;
   }
-  .content .points .point .text h3 span {
+  .content .points .point-container .point h3 span {
     padding: 0 0 4px 0;
     font-weight: 500;
     font-style: italic;
@@ -3117,25 +3116,27 @@ small {
   footer {
     float: left;
     width: 100%;
-    height: 58px;
+    height: 74px;
     background: #777 url("../img/asfalt-light.png") repeat;
-    border-top: #444;
+    border-top: 1px solid #333;
   }
   footer .footer {
     position: relative;
     width: 320px;
-    height: 58px;
+    height: 74px;
     margin: 0 auto;
   }
   footer .footer .link {
     float: left;
-    margin: 10px 20px 0 0;
+    margin: 0 20px 0 0;
   }
   footer .footer .link p {
     float: left;
-    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
     color: #fff;
     text-shadow: 2px 2px 0px #000;
     text-align: center;
@@ -3147,10 +3148,14 @@ small {
     display: none;
   }
   footer .footer .link.phone {
-    margin: 10px 20px 0 20px;
+    margin: 12px 30px 0 30px;
   }
-  footer .footer .link.terms {
-    margin: 10px 0 0 0;
+  footer .footer .link.privacy {
+    margin: 12px 0 0 0;
+  }
+  footer .footer .legal {
+    float: left;
+    width: 150px;
   }
   .gmnoprint,
   a[href] {
@@ -3701,27 +3706,28 @@ small {
     font-size: 21px;
   }
   .content .points {
-    width: 285px;
-    margin: 0 0 30px 45px;
+    width: 375px;
+    margin: 0 0 30px 0;
   }
-  .content .points .point {
-    width: 285px;
+  .content .points .point-container {
+    width: 375px;
     margin: 0 0 16px 0;
   }
-  .content .points .point .text {
-    width: 285px;
-    padding: 10px 0 20px 0;
+  .content .points .point-container .point {
+    display: inline-block;
   }
-  .content .points .point .text .fa-certificate {
+  .content .points .point-container .point .fa-certificate {
+    top: -14px;
+    left: -12px;
     width: 33px;
-    margin: -20px 0 0 -12px;
     font-size: 33px;
   }
-  .content .points .point .text h3 {
+  .content .points .point-container .point h3 {
+    padding: 10px 20px 20px 20px;
     font-size: 26px;
     line-height: 36px;
   }
-  .content .points .point .text h3 span {
+  .content .points .point-container .point h3 span {
     padding: 0 0 6px 0;
   }
   .content .center {
@@ -3838,26 +3844,27 @@ small {
   }
   footer {
     width: 100%;
-    height: 62px;
+    height: 74px;
   }
   footer .footer {
     width: 360px;
-    height: 62px;
-    padding: 0;
-    margin: 0 auto;
+    height: 74px;
   }
   footer .footer .link {
-    margin: 11px 20px 0 0;
+    margin: 0 20px 0 0;
   }
   footer .footer .link p {
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 17px;
+    line-height: 26px;
   }
   footer .footer .link.phone {
-    margin: 11px 50px 0 30px;
+    margin: 12px 50px 0 30px;
   }
-  footer .footer .link.terms {
-    margin: 11px 0 0 0;
+  footer .footer .link.privacy {
+    margin: 12px 0 0 0;
+  }
+  footer .footer .legal {
+    width: 160px;
   }
   .contact-holder {
     float: left;
@@ -4272,27 +4279,28 @@ small {
     font-size: 22px;
   }
   .content .points {
-    width: 340px;
-    margin: 0 0 40px 75px;
+    width: 480px;
+    margin: 0 0 40px 0;
   }
-  .content .points .point {
-    width: 340px;
+  .content .points .point-container {
+    width: 480px;
     margin: 0 0 20px 0;
   }
-  .content .points .point .text {
-    width: 340px;
-    padding: 10px 0 20px 0;
+  .content .points .point-container .point {
+    display: inline-block;
   }
-  .content .points .point .text .fa-certificate {
+  .content .points .point-container .point .fa-certificate {
+    top: -14px;
+    left: -15px;
     width: 36px;
-    margin: -20px 0 0 -14px;
     font-size: 35px;
   }
-  .content .points .point .text h3 {
+  .content .points .point-container .point h3 {
+    padding: 10px 30px 20px 30px;
     font-size: 31px;
     line-height: 39px;
   }
-  .content .points .point .text h3 span {
+  .content .points .point-container .point h3 span {
     padding: 0 0 4px 0;
   }
   .content .center {
@@ -4392,24 +4400,27 @@ small {
     line-height: 21px;
   }
   footer {
-    height: 60px;
+    height: 74px;
   }
   footer .footer {
     width: 400px;
-    height: 60px;
+    height: 74px;
   }
   footer .footer .link {
-    margin: 9px 30px 0 0;
+    margin: 0;
   }
   footer .footer .link p {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 17px;
+    line-height: 26px;
   }
   footer .footer .link.phone {
-    margin: 9px 60px 0 30px;
+    margin: 12px 90px 0 30px;
   }
-  footer .footer .link.terms {
-    margin: 9px 0 0 0;
+  footer .footer .link.privacy {
+    margin: 12px 0 0 0;
+  }
+  footer .footer .legal {
+    width: 170px;
   }
   .contact-holder {
     float: left;
@@ -5047,27 +5058,28 @@ small {
     font-size: 24px;
   }
   .content .points {
-    width: 460px;
-    margin: 0 0 40px 30px;
+    width: 520px;
+    margin: 0 0 40px 0;
   }
-  .content .points .point {
-    width: 460px;
-    margin: 0 0 18px 0;
+  .content .points .point-container {
+    width: 520px;
+    margin: 0 0 20px 0;
   }
-  .content .points .point .text {
-    width: 460px;
-    padding: 10px 0 20px 0;
+  .content .points .point-container .point {
+    display: inline-block;
   }
-  .content .points .point .text .fa-certificate {
+  .content .points .point-container .point .fa-certificate {
+    top: -14px;
+    left: -15px;
     width: 36px;
-    margin: -24px 0 0 -14px;
     font-size: 35px;
   }
-  .content .points .point .text h3 {
+  .content .points .point-container .point h3 {
+    padding: 10px 30px 20px 30px;
     font-size: 33px;
     line-height: 43px;
   }
-  .content .points .point .text h3 span {
+  .content .points .point-container .point h3 span {
     padding: 0 0 4px 0;
   }
   .content .center {
@@ -5171,25 +5183,28 @@ small {
     height: 72px;
   }
   footer .footer {
-    width: 560px;
+    width: 580px;
     height: 72px;
   }
   footer .footer .link {
-    margin: 12px 30px 0 0;
+    margin: 0 30px 0 0;
   }
   footer .footer .link p {
     font-size: 17px;
-    line-height: 24px;
+    line-height: 26px;
   }
   footer .footer .link.email {
     display: block;
-    margin: 12px 40px 0 0;
+    margin: 12px 40px 0 30px;
   }
   footer .footer .link.phone {
     margin: 12px 50px 0 0;
   }
-  footer .footer .link.terms {
+  footer .footer .link.privacy {
     margin: 12px 0 0 0;
+  }
+  footer .footer .legal {
+    width: 170px;
   }
   .contact-holder {
     float: left;
@@ -5716,26 +5731,27 @@ small {
   .content .points {
     width: 600px;
     padding: 0;
-    margin: 0 0 70px 54px;
+    margin: 0 0 50px 54px;
   }
-  .content .points .point {
+  .content .points .point-container {
     width: 600px;
-    margin: 0 0 34px 0;
+    margin: 0 0 24px 0;
   }
-  .content .points .point .text {
-    width: 600px;
-    padding: 14px 0 24px 0;
+  .content .points .point-container .point {
+    display: inline-block;
   }
-  .content .points .point .text .fa-certificate {
+  .content .points .point-container .point .fa-certificate {
+    top: -20px;
+    left: -22px;
     width: 47px;
-    margin: -30px 0 0 -18px;
     font-size: 47px;
   }
-  .content .points .point .text h3 {
+  .content .points .point-container .point h3 {
+    padding: 14px 40px 24px 40px;
     font-size: 43px;
     line-height: 53px;
   }
-  .content .points .point .text h3 span {
+  .content .points .point-container .point h3 span {
     padding: 0 0 6px 0;
   }
   .content .center {
@@ -5852,20 +5868,23 @@ small {
     height: 82px;
   }
   footer .footer .link {
-    margin: 12px 40px 0 0;
+    margin: 0;
   }
   footer .footer .link p {
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 29px;
   }
   footer .footer .link.email {
-    margin: 12px 50px 0 10px;
+    margin: 12px 60px 0 10px;
   }
   footer .footer .link.phone {
     margin: 12px 90px 0 0;
   }
-  footer .footer .link.terms {
+  footer .footer .link.privacy {
     margin: 12px 0 0 0;
+  }
+  footer .footer .legal {
+    width: 180px;
   }
   .contact-holder {
     float: left;
@@ -6341,6 +6360,49 @@ small {
   header .header nav .tile.active {
     height: 76px;
   }
+  .card {
+    width: 476px;
+    padding: 42px 0px 24px 54px;
+    margin: 0 0 20px 0;
+  }
+  .card h1 {
+    margin: 0 0 18px 0;
+    font-size: 41px;
+    line-height: 42px;
+  }
+  .card .card-content {
+    width: 480px;
+  }
+  .card .card-content .company {
+    margin: 0 0 32px 0;
+  }
+  .card .card-content .company h5 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .card .card-content .company span {
+    margin: 0 12px;
+    font-size: 21px;
+    line-height: 26px;
+  }
+  .card .card-content .patient-holder {
+    width: 100%;
+  }
+  .card .card-content .patient-holder p {
+    margin: 0 0 22px 0;
+    font-size: 27px;
+    line-height: 33px;
+  }
+  .card .card-content .patient-holder .row {
+    margin: 0 0 20px 0;
+  }
+  .card .card-content .patient-holder .row h6 {
+    width: 98px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+  }
   .page {
     width: 928px;
   }
@@ -6350,49 +6412,6 @@ small {
   .content .main {
     width: 708px;
     margin: 0 0 60px 0;
-  }
-  .content .main .card {
-    width: 476px;
-    padding: 42px 0px 24px 54px;
-    margin: 0 0 20px 0;
-  }
-  .content .main .card h2 {
-    margin: 0 0 18px 0;
-    font-size: 41px;
-    line-height: 42px;
-  }
-  .content .main .card .card-content {
-    width: 480px;
-  }
-  .content .main .card .card-content .company {
-    margin: 0 0 32px 0;
-  }
-  .content .main .card .card-content .company h5 {
-    font-size: 26px;
-    line-height: 26px;
-  }
-  .content .main .card .card-content .company span {
-    margin: 0 12px;
-    font-size: 21px;
-    line-height: 26px;
-  }
-  .content .main .card .card-content .patient-holder {
-    width: 100%;
-  }
-  .content .main .card .card-content .patient-holder .row {
-    margin: 0 0 20px 0;
-  }
-  .content .main .card .card-content .patient-holder .row input {
-    margin: 0 0 22px 0;
-    font-size: 27px;
-    line-height: 33px;
-  }
-  .content .main .card .card-content .patient-holder .row h6 {
-    width: 98px;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    line-height: 14px;
   }
   .content .main .download {
     width: 120px;
@@ -6434,16 +6453,15 @@ small {
   .content .points .point {
     margin: 0;
   }
-  .content .points .point .fa-certificate {
-    width: 92px;
-    margin: 2px 0 0 0;
-    font-size: 62px;
-    line-height: 62px;
-  }
   .content .points .point .text {
     width: 584px;
-    padding: 0;
-    margin: 0 0 48px 0;
+    padding: 8px 0 18px 0;
+  }
+  .content .points .point .text .fa-certificate {
+    width: 92px;
+    margin: -20px 0 0 -22px;
+    font-size: 62px;
+    line-height: 62px;
   }
   .content .points .point .text h3 {
     font-size: 49px;
@@ -6578,7 +6596,7 @@ small {
   footer .footer .link.phone {
     margin: 10px 130px 0 0;
   }
-  footer .footer .link.terms {
+  footer .footer .link.privacy {
     margin: 10px 0 0 0;
   }
   .contact-holder {
@@ -7058,6 +7076,52 @@ small {
   header .header nav .tile.active {
     height: 68px;
   }
+  .card {
+    width: 400px;
+    padding: 32px 0px 22px 48px;
+    margin: 0 0 14px 0;
+  }
+  .card .card-logo {
+    width: 90px;
+    margin: 90px 0 0 280px;
+  }
+  .card .card-content {
+    width: 344px;
+  }
+  .card .card-content h1 {
+    margin: 0 0 12px 0;
+    font-size: 39px;
+    line-height: 39px;
+  }
+  .card .card-content .company {
+    margin: 0 0 32px 0;
+  }
+  .card .card-content .company h5 {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card .card-content .company span {
+    margin: 0 12px;
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .card .card-content .patient-holder {
+    width: 100%;
+  }
+  .card .card-content .patient-holder p {
+    width: 300px;
+    margin: 0 0 28px 0;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card .card-content .patient-holder .row {
+    margin: 0 0 14px 0;
+  }
+  .card .card-content .patient-holder .row h6 {
+    width: 82px;
+    font-size: 11px;
+    line-height: 11px;
+  }
   .page {
     width: 1000px;
   }
@@ -7065,54 +7129,8 @@ small {
     width: 1000px;
   }
   .content .main {
-    width: 470px;
-    margin: 0 0 50px 0px;
-  }
-  .content .main .card {
-    width: 400px;
-    padding: 32px 0px 22px 48px;
-    margin: 0 0 14px 0;
-  }
-  .content .main .card .card-logo {
-    width: 90px;
-    margin: 90px 0 0 280px;
-  }
-  .content .main .card .card-content {
-    width: 344px;
-  }
-  .content .main .card .card-content h2 {
-    margin: 0 0 12px 0;
-    font-size: 39px;
-    line-height: 39px;
-  }
-  .content .main .card .card-content .company {
-    margin: 0 0 32px 0;
-  }
-  .content .main .card .card-content .company h5 {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .content .main .card .card-content .company span {
-    margin: 0 12px;
-    font-size: 20px;
-    line-height: 21px;
-  }
-  .content .main .card .card-content .patient-holder {
-    width: 100%;
-  }
-  .content .main .card .card-content .patient-holder input {
-    width: 300px;
-    margin: 0 0 28px 0;
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .content .main .card .card-content .patient-holder .row {
-    margin: 0 0 14px 0;
-  }
-  .content .main .card .card-content .patient-holder .row h6 {
-    width: 82px;
-    font-size: 11px;
-    line-height: 11px;
+    width: 490px;
+    margin: 0 0 50px 0;
   }
   .content .main .download {
     width: 478px;
@@ -7148,31 +7166,32 @@ small {
     font-size: 24px;
   }
   .content .points {
-    width: 510px;
-    height: 406px;
-    padding: 0 0 0 20px;
+    width: 480px;
     margin: 0;
   }
-  .content .points .point {
-    margin: 0;
+  .content .points .point-container {
+    width: 480px;
+    margin: 0 0 18px 0;
   }
-  .content .points .point .fa-certificate {
+  .content .points .point-container .point {
+    display: inline-block;
+  }
+  .content .points .point-container .point .fa-certificate {
     width: 66px;
-    margin: 0;
-    font-size: 45px;
-    line-height: 45px;
+    top: -18px;
+    left: -32px;
+    font-size: 39px;
+    line-height: 39px;
   }
-  .content .points .point .text {
-    width: 444px;
-    margin: 0 0 38px 0;
+  .content .points .point-container .point h3 {
+    padding: 12px 40px 26px 40px;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: left;
   }
-  .content .points .point .text h3 {
-    margin: 0;
-    font-size: 35px;
-    line-height: 45px;
-  }
-  .content .points .point .text h3 span {
-    padding: 0 0 8px 0;
+  .content .points .point-container .point h3 span {
+    padding: 0 0 4px 0;
+    border-bottom: 5px solid #ff9;
   }
   .content .center {
     width: 1000px;
@@ -7360,27 +7379,30 @@ small {
     line-height: 16px;
   }
   footer {
-    height: 72px;
+    height: 82px;
   }
   footer .footer {
-    width: 920px;
-    height: 72px;
+    width: 960px;
+    height: 82px;
   }
   footer .footer .link {
-    margin: 10px 60px 0 0;
+    margin: 0;
   }
-  footer .footer .link h4 {
-    font-size: 20px;
-    line-height: 26px;
+  footer .footer .link p {
+    font-size: 19px;
+    line-height: 28px;
   }
   footer .footer .link.email {
-    margin: 10px 70px 0 30px;
+    margin: 13px 70px 0 50px;
   }
   footer .footer .link.phone {
-    margin: 10px 190px 0 0;
+    margin: 13px 250px 0 0;
   }
-  footer .footer .link.terms {
-    margin: 10px 0 0 0;
+  footer .footer .link.privacy {
+    margin: 13px 0 0 0;
+  }
+  footer .footer .legal {
+    width: 200px;
   }
   .filter-holder {
     float: left;
