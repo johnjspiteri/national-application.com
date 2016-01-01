@@ -2349,14 +2349,14 @@ small {
   header .header .brand {
     float: left;
     width: 100%;
-    padding: 0 0 14px 0;
+    padding: 0 0 12px 0;
     margin: 0;
   }
   header .header .brand .logo {
     float: left;
-    width: 260px;
+    width: 250px;
     padding: 0;
-    margin: 10px 0 24px 0;
+    margin: 6px 0 16px 15px;
   }
   header .header .brand .logo img {
     float: left;
@@ -2366,8 +2366,8 @@ small {
   header .header .brand .mobile-navigation {
     float: left;
     width: 278px;
-    padding: 10px 0 12px 0;
-    margin: 0 0 0 0;
+    padding: 10px 0 8px 0;
+    margin: 0;
     background: linear-gradient(to bottom, #fff, #ff9);
     border: 1px solid #aaa;
     border-radius: 4px;
@@ -2377,9 +2377,10 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 22px;
     font-weight: 600;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #444;
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
   }
@@ -2457,8 +2458,27 @@ small {
     border-top: none;
     border-bottom: 4px solid #333;
     border-radius: 12px;
+    overflow: hidden;
   }
-  .content .main .card h2 {
+  .content .main .card .card-logo {
+    position: absolute;
+    width: 62px;
+    padding: 0;
+    margin: 114px 0 0 170px;
+    z-index: 1;
+  }
+  .content .main .card .card-logo img {
+    float: left;
+    width: 100%;
+  }
+  .content .main .card .card-content {
+    position: relative;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+  }
+  .content .main .card .card-content h2 {
     float: left;
     width: 100%;
     margin: 0 0 8px 0;
@@ -2466,12 +2486,6 @@ small {
     font-size: 29px;
     line-height: 35px;
     text-align: left;
-  }
-  .content .main .card .card-content {
-    float: left;
-    width: 250px;
-    padding: 0;
-    margin: 0;
   }
   .content .main .card .card-content .company {
     float: left;
@@ -2703,7 +2717,7 @@ small {
     padding: 0;
     margin: 0 0 18px 0;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 35px;
     color: #fff;
     text-align: center;
@@ -2716,8 +2730,8 @@ small {
     height: 48px;
     padding: 0;
     margin: 0 0 14px 20px;
-    font-size: 18px;
     font-weight: 500;
+    font-size: 23px;
     line-height: 23px;
     border: none;
     border-bottom: 4px solid #333;
@@ -2775,8 +2789,8 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal {
     float: left;
-    width: 240px;
-    padding: 28px 20px 28px 20px;
+    width: 220px;
+    padding: 30px 30px 28px 30px;
     margin: 0 0 14px 0;
     background: #fff;
     border-bottom: 4px solid #333;
@@ -2786,11 +2800,11 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 24px 0;
+    margin: 0 0 18px 0;
     font-style: italic;
     font-weight: 600;
-    font-size: 19px;
-    line-height: 31px;
+    font-size: 21px;
+    line-height: 32px;
     color: #000;
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
@@ -2802,7 +2816,7 @@ small {
     font-weight: 600;
     font-size: 23px;
     line-height: 23px;
-    margin: 0 0 14px 0;
+    margin: 0 0 12px 0;
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
   }
@@ -2813,8 +2827,8 @@ small {
     margin: 0;
     font-style: italic;
     font-weight: 500;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 20px;
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
   }
@@ -3192,13 +3206,11 @@ small {
   .modal-holder .modal-container .legal a {
     color: #8a0d4a;
   }
-<<<<<<< HEAD
   footer {
     float: left;
     width: 100%;
     height: 58px;
     background: #666 url("../img/asfalt-light.png") repeat;
-    border-top: 1px solid #aaa;
   }
   footer .footer {
     position: relative;
@@ -3210,8 +3222,9 @@ small {
     float: left;
     margin: 10px 20px 0 0;
   }
-  footer .footer .link h4 {
+  footer .footer .link p {
     float: left;
+    font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     color: #fff;
@@ -3227,15 +3240,9 @@ small {
   footer .footer .link.terms {
     margin: 10px 0 0 0;
   }
-}
-@media (min-width: 360px) {
-  header {
-    margin: 0 0 20px 0;
-=======
   .gmnoprint,
   a[href] {
     display: none !important;
->>>>>>> new
   }
   .map-holder {
     position: relative;
@@ -3244,17 +3251,11 @@ small {
     margin: 0 auto;
     z-index: 98;
   }
-<<<<<<< HEAD
   .map-holder .map {
     float: left;
     width: 298px;
     height: 380px;
     border: 1px solid #ccc;
-=======
-  header .header .brand .logo {
-    width: 280px;
-    margin: 10px 0 28px 5px;
->>>>>>> contact
   }
   .map-holder .map .directions {
     position: absolute;
@@ -3512,7 +3513,7 @@ small {
     padding: 0;
     margin: 0;
     background: #f2f0d0;
-    border-right: $black-border;
+    border-right: 1px solid #000;
     z-index: 99999;
   }
   .side ul {
@@ -3567,6 +3568,7 @@ small {
 }
 @media (min-width: 360px) {
   header {
+    width: 100%;
     margin: 0 0 20px 0;
   }
   header .header {
@@ -3576,14 +3578,16 @@ small {
     padding: 0 0 14px 0;
   }
   header .header .brand .logo {
-    height: 98px;
+    width: 290px;
+    margin: 8px 0 18px 15px;
   }
   header .header .brand .mobile-navigation {
     width: 318px;
+    padding: 11px 0 8px 0;
   }
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
-    line-height: 26px;
+    line-height: 24px;
   }
   .page {
     width: 375px;
@@ -3600,13 +3604,17 @@ small {
     padding: 20px 0px 12px 30px;
     margin: 0 0 16px 0;
   }
-  .content .main .card h2 {
-    margin: 0 0 8px 0;
-    font-size: 29px;
-    line-height: 35px;
+  .content .main .card .card-logo {
+    width: 76px;
+    margin: 104px 0 0 200px;
   }
   .content .main .card .card-content {
     width: 305px;
+  }
+  .content .main .card .card-content h2 {
+    margin: 0 0 8px 0;
+    font-size: 29px;
+    line-height: 35px;
   }
   .content .main .card .card-content .company {
     margin: 0 0 16px 0;
@@ -3739,35 +3747,40 @@ small {
   .content .locator .locator-zip h2,
   .content .locator .locator-state h2 {
     float: left;
-    width: 100%;
+    width: 235px;
     padding: 0;
-    margin: 0 0 18px 0;
-    font-size: 26px;
+    margin: 0 0 18px 20px;
+    font-size: 29px;
     line-height: 37px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
     float: left;
     width: 255px;
-    height: 48px;
-    padding: 0;
+    height: 54px;
+    padding: 4px 0 0 0;
     margin: 0 0 14px 10px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     width: 255px;
-    height: 52px;
+    height: 58px;
     padding: 0;
     margin: 0 0 10px 10px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
     float: left;
     width: 255px;
+    height: 58px;
     padding: 0;
     margin: 0 0 0 10px;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 31px;
+    line-height: 57px;
   }
   .content .locator .locator-results {
     display: none;
@@ -3781,12 +3794,12 @@ small {
     margin: 0 0 30px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
-    width: 295px;
-    padding: 28px 20px 28px 20px;
+    width: 255px;
+    padding: 26px 40px 26px 40px;
     margin: 0 0 14px 0;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 24px 0;
+    margin: 0 0 22px 0;
     font-size: 20px;
     line-height: 32px;
   }
@@ -3799,7 +3812,6 @@ small {
     font-size: 20px;
     line-height: 20px;
   }
-<<<<<<< HEAD
   footer {
     width: 100%;
     height: 58px;
@@ -3821,29 +3833,10 @@ small {
   footer .footer .link.terms {
     margin: 9px 0 0 0;
   }
-}
-@media (min-width: 480px) {
-  header {
-    margin: 0 0 30px 0;
-  }
-  header .header {
-    width: 440px;
-  }
-  header .header .brand {
-    padding: 0 0 14px 0;
-  }
-  header .header .brand .logo {
-    width: 340px;
-    margin: 12px 0 32px 40px;
-  }
-  header .header .brand .mobile-navigation {
-    width: 400px;
-=======
   .contact-holder {
     float: left;
     width: 335px;
     padding: 0;
->>>>>>> new
     margin: 0 0 0 20px;
   }
   .contact-holder .contact-detail {
@@ -4004,16 +3997,6 @@ small {
     float: left;
     font-style: italic;
   }
-<<<<<<< HEAD
-  .content .testimonals-holder .testimonals {
-    width: 400px;
-    margin: 0 0 20px 0;
-  }
-  .content .testimonals-holder .testimonals .testimonal {
-    width: 320px;
-    padding: 28px 40px 32px 40px;
-    margin: 0 0 15px 0;
-=======
   .modal-holder .modal-container .rx-card .card-content .card-headline .company span {
     float: left;
     margin: 0 6px;
@@ -4023,7 +4006,6 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
->>>>>>> new
   }
   .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row {
     float: left;
@@ -4037,45 +4019,11 @@ small {
     padding: 0;
     margin: 0 0 12px 0;
   }
-<<<<<<< HEAD
-  .content .testimonals-holder .testimonals .testimonal h3 {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  footer {
-    height: 60px;
-  }
-  footer .footer {
-    width: 400px;
-    height: 60px;
-  }
-  footer .footer .link {
-    margin: 7px 30px 0 0;
-  }
-  footer .footer .link h4 {
-    font-size: 17px;
-    line-height: 22px;
-  }
-  footer .footer .link.phone {
-    margin: 7px 60px 0 30px;
-  }
-  footer .footer .link.terms {
-    margin: 7px 0 0 0;
-  }
-}
-@media (min-width: 560px) {
-  header {
-    margin: 0 0 30px 0;
-  }
-  header .header {
-    width: 440px;
-=======
   .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h6 {
     float: left;
     width: 82px;
     padding: 0;
     margin: 0;
->>>>>>> new
   }
   .modal-holder .modal-container .legal {
     float: left;
@@ -4083,17 +4031,11 @@ small {
     padding: 0;
     margin: 0 0 0 10px;
   }
-<<<<<<< HEAD
   .modal-holder .modal-container .legal p {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0 0 10px 0;
-=======
-  header .header .brand .logo {
-    width: 340px;
-    margin: 12px 0 28px 30px;
->>>>>>> contact
   }
   .modal-holder .modal-container .legal a {
     color: #8a0d4a;
@@ -4250,11 +4192,12 @@ small {
     padding: 0 0 14px 0;
   }
   header .header .brand .logo {
-    width: 440px;
-    height: 98px;
+    width: 320px;
+    margin: 6px 0 20px 60px;
   }
   header .header .brand .mobile-navigation {
     width: 400px;
+    padding: 9px 0 8px 0;
     margin: 0 0 0 20px;
   }
   header .header .brand .mobile-navigation h5 {
@@ -4272,23 +4215,27 @@ small {
     margin: 0;
   }
   .content .main .card {
-    width: 400px;
-    padding: 24px 0px 16px 40px;
-    margin: 0 0 20px 20px;
+    width: 360px;
+    padding: 22px 0 14px 40px;
+    margin: 0 0 20px 40px;
   }
-  .content .main .card h2 {
-    margin: 0 0 12px 0;
-    font-size: 31px;
-    line-height: 36px;
+  .content .main .card .card-logo {
+    width: 92px;
+    margin: 114px 0 0 240px;
   }
   .content .main .card .card-content {
     width: 360px;
   }
+  .content .main .card .card-content h2 {
+    margin: 0 0 8px 0;
+    font-size: 34px;
+    line-height: 39px;
+  }
   .content .main .card .card-content .company {
-    margin: 0 0 22px 0;
+    margin: 0 0 18px 0;
   }
   .content .main .card .card-content .company h5 {
-    font-size: 20px;
+    font-size: 21px;
     line-height: 23px;
   }
   .content .main .card .card-content .company span {
@@ -4445,8 +4392,8 @@ small {
     margin: 0 0 20px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
-    width: 340px;
-    padding: 28px 30px 32px 30px;
+    width: 320px;
+    padding: 28px 40px 32px 40px;
     margin: 0 0 15px 0;
   }
   .content .testimonals-holder .testimonals .testimonal p {
@@ -4463,47 +4410,29 @@ small {
     font-size: 21px;
     line-height: 21px;
   }
-<<<<<<< HEAD
   footer {
-    height: 64px;
+    height: 60px;
   }
   footer .footer {
-    width: 600px;
-    height: 64px;
+    width: 400px;
+    height: 60px;
   }
   footer .footer .link {
     margin: 7px 30px 0 0;
   }
   footer .footer .link h4 {
-    font-size: 18px;
-    line-height: 23px;
-  }
-  footer .footer .link.email {
-    display: block;
-    margin: 8px 30px 0 0px;
+    font-size: 17px;
+    line-height: 22px;
   }
   footer .footer .link.phone {
-    margin: 7px 50px 0 0;
+    margin: 7px 60px 0 30px;
   }
   footer .footer .link.terms {
     margin: 7px 0 0 0;
   }
-}
-@media (min-width: 768px) {
-  header {
-    height: 138px;
-    margin: 0 0 60px 0;
-  }
-  header .header {
-    width: 768px;
-  }
-  header .header .brand {
-<<<<<<< HEAD
-=======
   .contact-holder {
     float: left;
     width: 440px;
->>>>>>> new
     padding: 0;
     margin: 20px 0 0 0;
   }
@@ -4516,14 +4445,6 @@ small {
     border-bottom: 4px solid #333;
     background: #e7e7e7 url("../img/asfalt-light.png") repeat;
     border-radius: 0 0 8px 8px;
-=======
-    width: 230px;
-    margin: 28px 0 36px 10px;
-  }
-  header .header .brand .logo {
-    width: 230px;
-    margin: 0;
->>>>>>> contact
   }
   .contact-holder .contact-detail h2 {
     float: left;
@@ -4536,7 +4457,6 @@ small {
   }
   .contact-holder .contact-detail .contact-container {
     float: left;
-<<<<<<< HEAD
     width: 398px;
     padding: 0;
     margin: 0;
@@ -4549,22 +4469,6 @@ small {
     line-height: 16px;
     font-weight: 400;
     text-align: center;
-=======
-    width: 510px;
-    height: 84px;
-    padding: 0;
-    margin: 0 0 1px 0;
-  }
-  header .header nav .tile {
-    float: right;
-    height: 85px;
-    padding: 0 18px;
-    margin: 0;
-    background: #666 url("../img/asfalt-light.png") repeat;
-    border-top: 1px solid #333;
-    border-left: 1px solid #333;
-    cursor: pointer;
->>>>>>> contact
   }
   .contact-holder .contact-detail .contact-container h3 {
     float: left;
@@ -4572,15 +4476,9 @@ small {
     padding: 0;
     margin: 0 0 12px 0;
     font-weight: 600;
-<<<<<<< HEAD
     font-size: 22px;
     line-height: 24px;
     color: #8a0d4a;
-=======
-    font-size: 17px;
-    line-height: 27px;
-    color: #fff;
->>>>>>> contact
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
   }
@@ -5072,114 +4970,62 @@ small {
     color: #fff;
     text-shadow: 2px 2px 0px #000;
   }
-  footer {
-    height: 68px;
-  }
-  footer .footer {
-    width: 680px;
-    height: 68px;
-  }
-  footer .footer .link {
-    margin: 11px 40px 0 0;
-  }
-  footer .footer .link h4 {
-    font-size: 18px;
-    line-height: 23px;
-  }
-  footer .footer .link.email {
-    margin: 11px 40px 0 10px;
-  }
-  footer .footer .link.phone {
-    margin: 11px 90px 0 0;
-  }
-  footer .footer .link.terms {
-    margin: 11px 0 0 0;
-  }
 }
 @media (min-width: 560px) {
   header {
-<<<<<<< HEAD
-    margin: 0 0 30px 0;
+    margin: 0 0 40px 0;
   }
   header .header {
     width: 440px;
   }
   header .header .brand {
-    padding: 0 0 14px 0;
+    padding: 0 0 18px 0;
   }
   header .header .brand .logo {
-    margin: 0 0 10px 0;
+    width: 330px;
+    margin: 8px 0 20px 55px;
   }
   header .header .brand .mobile-navigation {
     width: 358px;
+    padding: 11px 0 10px 0;
     margin: 0 0 0 40px;
   }
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
-    line-height: 26px;
-=======
-    margin: 0 0 40px 0;
-    height: 138px;
-  }
-  header .header {
-    width: 1024px;
-  }
-  header .header .brand {
-    width: 280px;
-    padding: 0;
-    margin: 18px 39px 20px 25px;
-  }
-  header .header .brand .logo {
-    width: 280px;
-    margin: 0;
-    margin: 0;
-  }
-  header .header nav {
-    width: 680px;
-    height: 76px;
-    margin: 62px 0 0 0;
-  }
-  header .header nav .tile {
-    height: 75px;
-    padding: 0 24px;
-  }
-  header .header nav .tile h4 {
-    margin: 13px 0 0 0;
-    font-size: 21px;
-    line-height: 25px;
-  }
-  header .header nav .tile.active {
-    height: 76px;
->>>>>>> contact
+    line-height: 24px;
   }
   .page {
-    width: 480px;
+    width: 520px;
   }
   .content {
-    width: 480px;
+    width: 520px;
   }
   .content .main {
-    width: 480px;
+    width: 520px;
     margin: 0;
   }
   .content .main .card {
-    width: 440px;
-    padding: 32px 0px 18px 40px;
-    margin: 0 0 20px 0;
+    width: 430px;
+    padding: 28px 0 16px 50px;
+    margin: 0 0 20px 20px;
   }
-  .content .main .card h2 {
-    margin: 0 0 12px 0;
-    font-size: 32px;
-    line-height: 37px;
+  .content .main .card .card-logo {
+    width: 102px;
+    margin: 94px 0 0 270px;
   }
   .content .main .card .card-content {
     width: 440px;
   }
+  .content .main .card .card-content h2 {
+    margin: 0 0 10px 0;
+    font-size: 35px;
+    line-height: 40px;
+  }
   .content .main .card .card-content .company {
-    margin: 0 0 22px 0;
+    margin: 0 0 18px 0;
   }
   .content .main .card .card-content .company h5 {
-    font-size: 21px;
+    font-size: 22px;
     line-height: 24px;
   }
   .content .main .card .card-content .company span {
@@ -5202,17 +5048,17 @@ small {
     width: 90px;
     padding: 0;
     margin: 0;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 13px;
+    line-height: 13px;
   }
   .content .main .download {
     width: 430px;
     padding: 0;
-    margin: 0 0 58px 40px;
+    margin: 0 0 58px 60px;
   }
   .content .main .download .tag {
     width: 91px;
-    padding: 10px 0;
+    padding: 15px 0 10px 0;
     margin: 0 12px 0 0;
   }
   .content .main .download .tag p {
@@ -5224,22 +5070,23 @@ small {
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 32px;
-    font-size: 22px;
-    line-height: 22px;
+    height: 28px;
+    font-size: 25px;
   }
   .content .main .download .tag .fa-mobile {
-    font-size: 39px;
+    height: 32px;
+    margin: -4px 0 0 -4px;
+    font-size: 43px;
   }
   .content .main .download .tag .fa-send {
-    font-size: 20px;
-  }
-  .content .main .download .tag .fa-file-text {
     font-size: 22px;
   }
+  .content .main .download .tag .fa-file-text {
+    font-size: 24px;
+  }
   .content .points {
-    width: 440px;
-    margin: 0 0 40px 30px;
+    width: 500px;
+    margin: 0 0 40px 20px;
   }
   .content .points .point {
     margin: 0;
@@ -5250,7 +5097,7 @@ small {
     line-height: 48px;
   }
   .content .points .point .text {
-    width: 344px;
+    width: 420px;
     margin: 0 0 36px 0;
   }
   .content .points .point .text h3 {
@@ -5261,24 +5108,24 @@ small {
     padding: 0 0 10px 0;
   }
   .content .center {
-    width: 440px;
-    margin: 0 0 20px 0;
+    width: 500px;
+    margin: 0 0 30px 0;
   }
   .content .center .fa-certificate {
     width: 20px;
-    margin: -18px 0 0 430px;
+    margin: -18px 0 0 455px;
     font-size: 45px;
   }
   .content .center h1 {
     width: 380px;
-    padding: 18px 30px;
-    margin: 0 0 26px 20px;
+    padding: 14px 30px;
+    margin: 0 0 22px 40px;
     font-size: 33px;
     line-height: 43px;
   }
   .content .center .center-holder {
-    width: 440px;
-    padding: 20px 0 20px 30px;
+    width: 520px;
+    padding: 20px 0 20px 0;
     border-radius: 12px;
   }
   .content .center .center-holder .logo {
@@ -5290,51 +5137,53 @@ small {
   }
   .content .locator {
     width: 400px;
-    margin: 0 0 0 40px;
+    margin: 0 0 20px 60px;
   }
   .content .locator .locator-zip,
   .content .locator .locator-state {
     width: 360px;
-    padding: 28px 20px 30px 20px;
+    padding: 24px 20px 30px 20px;
     margin: 0 0 20px 0;
   }
   .content .locator .locator-zip h2,
   .content .locator .locator-state h2 {
-    margin: 0 0 24px 0;
-    font-size: 29px;
-    line-height: 29px;
+    width: 280px;
+    margin: 0 0 20px 40px;
+    font-size: 33px;
+    line-height: 42px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
     width: 300px;
-    height: 58px;
-    margin: 0 20px 15px 40px;
-    font-size: 18px;
-    line-height: 23px;
+    height: 56px;
+    padding: 8px 0 0 0;
+    margin: 0 20px 15px 30px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     width: 300px;
-    height: 52px;
-    margin: 0 0 15px 40px;
-    font-size: 23px;
-    line-height: 23px;
+    height: 64px;
+    margin: 0 0 15px 30px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
     width: 300px;
-    height: 58px;
-    margin: 0 0 0 40px;
-    font-size: 27px;
-    line-height: 27px;
+    height: 64px;
+    margin: 0 0 0 30px;
+    font-size: 31px;
+    line-height: 63px;
   }
   .content .testimonals-holder {
     width: 400px;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 60px;
   }
   .content .testimonals-holder .testimonals {
     width: 400px;
-    margin: 0 0 60px 0;
+    margin: 0 0 20px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 340px;
@@ -5343,17 +5192,41 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal p {
     margin: 0 0 24px 0;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 35px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    font-size: 25px;
-    line-height: 25px;
-    margin: 0 0 12px 0;
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0 0 14px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  footer {
+    height: 68px;
+  }
+  footer .footer {
+    width: 580px;
+    height: 68px;
+  }
+  footer .footer .link {
+    margin: 9px 20px 0 0;
+  }
+  footer .footer .link p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  footer .footer .link.email {
+    display: block;
+    margin: 9px 30px 0 0;
+  }
+  footer .footer .link.phone {
+    margin: 9px 50px 0 0;
+  }
+  footer .footer .link.terms {
+    margin: 9px 0 0 0;
   }
   .contact-holder {
     float: left;
@@ -5417,35 +5290,6 @@ small {
     line-height: 24px;
     text-align: center;
   }
-<<<<<<< HEAD
-  footer {
-    height: 68px;
-  }
-  footer .footer {
-    width: 760px;
-    height: 68px;
-  }
-  footer .footer .link {
-    margin: 10px 40px 0 0;
-  }
-  footer .footer .link h4 {
-    font-size: 19px;
-    line-height: 24px;
-  }
-  footer .footer .link.email {
-    margin: 10px 60px 0 0px;
-  }
-  footer .footer .link.phone {
-    margin: 10px 130px 0 0;
-  }
-  footer .footer .link.terms {
-    margin: 10px 0 0 0;
-  }
-}
-@media (min-width: 1100px) {
-  header {
-    margin: 0 0 60px 0;
-=======
   .contact-holder .contact-form {
     float: left;
     width: 438px;
@@ -5455,7 +5299,6 @@ small {
     border: 1px solid #aaa;
     border-bottom: 4px solid #333;
     border-radius: 0 0 8px 8px;
->>>>>>> new
   }
   .contact-holder .contact-form .row {
     float: left;
@@ -5484,19 +5327,9 @@ small {
     border: 1px solid #aaa;
     text-align: center;
   }
-<<<<<<< HEAD
   .contact-holder .contact-form .submit {
     float: left;
     width: 436px;
-=======
-  header .header nav {
-    width: 689px;
-    height: 69px;
-    margin: 30px 0 0 0;
-    border-right: 1px solid #333;
-  }
-  header .header nav .tile {
->>>>>>> contact
     height: 68px;
     padding: 0;
     margin: 0;
@@ -5830,18 +5663,19 @@ small {
 }
 @media (min-width: 768px) {
   header {
+    height: 263px;
     margin: 0 0 60px 0;
   }
   header .header {
     width: 768px;
   }
   header .header .brand {
-    padding: 0;
+    width: 690px;
+    margin: 18px 0 22px 10px;
   }
   header .header .brand .logo {
-    width: 688px;
-    height: 160px;
-    margin: 0 0 30px 40px;
+    width: 340px;
+    margin: 0 0 0 60px;
   }
   header .header .brand .mobile-navigation {
     display: none;
@@ -5849,26 +5683,26 @@ small {
   header .header nav {
     display: block;
     float: left;
-    height: 84px;
+    width: 750px;
+    height: 82px;
     padding: 0;
-    margin: 0 0 1px 15px;
-    border-left: 1px solid #333;
+    margin: 0 0 0 6px;
+    border-right: 1px solid #333;
   }
   header .header nav .tile {
-    float: left;
-    height: 85px;
+    float: right;
+    height: 81px;
     padding: 0 28px;
     margin: 0;
     background: #666 url("../img/asfalt-light.png") repeat;
     border-top: 1px solid #333;
-    border-right: 1px solid #333;
+    border-left: 1px solid #333;
     cursor: pointer;
   }
   header .header nav .tile h4 {
     float: left;
     padding: 0;
-    margin: 16px 0 0 0;
-    font-style: italic;
+    margin: 15px 0 0 0;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
@@ -5877,11 +5711,8 @@ small {
     text-shadow: 2px 2px 0px #000;
   }
   header .header nav .tile.active {
-    height: 85px;
+    height: 82px;
     background: #2774b9 url("../img/asfalt-light.png") repeat;
-  }
-  header .header nav .tile.active h4 {
-    font-style: normal;
   }
   .page {
     width: 708px;
@@ -6102,6 +5933,29 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: block;
+  }
+  footer {
+    height: 68px;
+  }
+  footer .footer {
+    width: 680px;
+    height: 68px;
+  }
+  footer .footer .link {
+    margin: 11px 40px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  footer .footer .link.email {
+    margin: 11px 40px 0 10px;
+  }
+  footer .footer .link.phone {
+    margin: 11px 90px 0 0;
+  }
+  footer .footer .link.terms {
+    margin: 11px 0 0 0;
   }
   .contact-holder {
     float: left;
@@ -6512,35 +6366,36 @@ small {
 @media (min-width: 900px) {
   header {
     margin: 0 0 40px 0;
+    height: 130px;
   }
   header .header {
-    width: 1000px;
+    width: 1024px;
   }
   header .header .brand {
-    width: 800px;
+    width: 270px;
     padding: 0;
-    margin: 0 0 0 100px;
+    margin: 14px 24px 0 29px;
   }
   header .header .brand .logo {
-    width: 688px;
-    height: 160px;
-    margin: 0 0 30px 40px;
+    width: 270px;
+    margin: 0;
   }
   header .header nav {
-    height: 89px;
-    margin: 0 0 1px 40px;
+    width: 700px;
+    height: 76px;
+    margin: 54px 0 0 0;
   }
   header .header nav .tile {
-    height: 88px;
-    padding: 0 46px;
+    height: 75px;
+    padding: 0 24px;
   }
   header .header nav .tile h4 {
-    margin: 18px 0 0 0;
-    font-size: 23px;
-    line-height: 28px;
+    margin: 13px 0 0 0;
+    font-size: 21px;
+    line-height: 25px;
   }
   header .header nav .tile.active {
-    height: 89px;
+    height: 76px;
   }
   .page {
     width: 708px;
@@ -6758,6 +6613,29 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: block;
+  }
+  footer {
+    height: 68px;
+  }
+  footer .footer {
+    width: 760px;
+    height: 68px;
+  }
+  footer .footer .link {
+    margin: 10px 40px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  footer .footer .link.email {
+    margin: 10px 60px 0 0px;
+  }
+  footer .footer .link.phone {
+    margin: 10px 130px 0 0;
+  }
+  footer .footer .link.terms {
+    margin: 10px 0 0 0;
   }
   .contact-holder {
     float: left;
@@ -7170,36 +7048,36 @@ small {
 @media (min-width: 1100px) {
   header {
     margin: 0 0 60px 0;
+    height: 120px;
   }
   header .header {
-    width: 1020px;
+    width: 1024px;
   }
   header .header .brand {
-    width: 330px;
-    margin: 0;
+    width: 270px;
+    padding: 0;
+    margin: 12px 24px 0 29px;
   }
   header .header .brand .logo {
-    width: 330px;
-    height: 98px;
+    width: 260px;
     margin: 0;
   }
   header .header nav {
-    width: 689px;
-    height: 69px;
-    margin: 30px 0 0 0;
+    width: 700px;
+    height: 76px;
+    margin: 44px 0 0 0;
   }
   header .header nav .tile {
-    height: 68px;
-    padding: 0 30px 0 30px;
+    height: 75px;
+    padding: 0 24px;
   }
   header .header nav .tile h4 {
-    margin: 12px 0 0 0;
-    font-weight: 500;
+    margin: 13px 0 0 0;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 25px;
   }
   header .header nav .tile.active {
-    height: 69px;
+    height: 76px;
   }
   .page {
     width: 1000px;
@@ -7208,8 +7086,8 @@ small {
     width: 1000px;
   }
   .content .main {
-    width: 460px;
-    margin: 0 0 70px 40px;
+    width: 470px;
+    margin: 0 0 50px 0px;
   }
   .content .main .card {
     width: 410px;
@@ -7218,8 +7096,8 @@ small {
   }
   .content .main .card h2 {
     margin: 0 0 14px 0;
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 35px;
+    line-height: 35px;
   }
   .content .main .card .card-content {
     width: 344px;
@@ -7228,12 +7106,12 @@ small {
     margin: 0 0 28px 0;
   }
   .content .main .card .card-content .company h5 {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .content .main .card .card-content .company span {
-    margin: 0 10px;
-    font-size: 19px;
+    margin: 0 12px;
+    font-size: 20px;
     line-height: 25px;
   }
   .content .main .card .card-content .patient-holder {
@@ -7276,7 +7154,7 @@ small {
   }
   .content .main .download .tag p .fa-mobile {
     font-size: 42px;
-    margin: -12px 0 0 -4px;
+    margin: -18px 0 0 -12px;
   }
   .content .main .download .tag p .fa-send {
     font-size: 22px;
@@ -7285,29 +7163,29 @@ small {
     font-size: 24px;
   }
   .content .points {
-    width: 420px;
+    width: 480px;
     height: 406px;
-    padding: 0 0 0 60px;
+    padding: 0 0 0 40px;
     margin: 0;
   }
   .content .points .point {
     margin: 0;
   }
   .content .points .point .fa-certificate {
-    width: 72px;
-    margin: 0 0 0 0;
+    width: 66px;
+    margin: 0;
     font-size: 45px;
   }
   .content .points .point .text {
-    width: 344px;
-    margin: 0 0 36px 0;
+    width: 414px;
+    margin: 0 0 42px 0;
   }
   .content .points .point .text h3 {
     font-size: 35px;
     line-height: 49px;
   }
   .content .points .point .text h3 span {
-    padding: 0 0 8px 0;
+    padding: 0 0 10px 0;
   }
   .content .center {
     width: 1000px;
@@ -7490,6 +7368,29 @@ small {
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 16px;
     line-height: 16px;
+  }
+  footer {
+    height: 72px;
+  }
+  footer .footer {
+    width: 920px;
+    height: 72px;
+  }
+  footer .footer .link {
+    margin: 10px 60px 0 0;
+  }
+  footer .footer .link h4 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  footer .footer .link.email {
+    margin: 10px 70px 0 30px;
+  }
+  footer .footer .link.phone {
+    margin: 10px 190px 0 0;
+  }
+  footer .footer .link.terms {
+    margin: 10px 0 0 0;
   }
   .filter-holder {
     float: left;
@@ -8100,28 +8001,5 @@ small {
   }
   .map-full {
     height: 500px;
-  }
-  footer {
-    height: 72px;
-  }
-  footer .footer {
-    width: 920px;
-    height: 72px;
-  }
-  footer .footer .link {
-    margin: 10px 60px 0 0;
-  }
-  footer .footer .link h4 {
-    font-size: 20px;
-    line-height: 26px;
-  }
-  footer .footer .link.email {
-    margin: 10px 70px 0 30px;
-  }
-  footer .footer .link.phone {
-    margin: 10px 190px 0 0;
-  }
-  footer .footer .link.terms {
-    margin: 10px 0 0 0;
   }
 }
