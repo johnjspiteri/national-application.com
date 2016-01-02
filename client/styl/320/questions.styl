@@ -3,21 +3,9 @@
     width 280px
     padding 0
     margin 0 0 30px 20px
-    background $header-tile
-    border-bottom 4px solid #333
-    border-radius 4px
-
-    h2
-        float left
-        width 100%
-        padding 20px 0 0 0
-        margin 0 0 20px 0
-        font-weight 600
-        font-size 24px
-        line-height 32px
-        color $white
-        text-align center
-        text-shadow $shadow
+    background $tag
+    border-bottom 3px solid $tag-border
+    border-radius $border-radius
 
     .filter-container
         float left
@@ -66,9 +54,10 @@
             font-weight 500
             font-size 23px
             line-height 54px
+            background $header-tile
             border none
-            border-bottom 4px solid #333
-            border-radius 8px
+            border-bottom 3px solid #333
+            border-radius $border-radius
             cursor pointer
 
             .fa-times
@@ -92,7 +81,7 @@
         width 238px
         padding 20px
         margin 0 0 10px 0
-        background #fff
+        background $card
         border 1px solid #000
         border-bottom 4px solid #333
         border-radius 0 0 4px 4px

@@ -32,9 +32,10 @@
 			float left
 			width 100%
 			margin 0 0 6px 0
-			font-weight 600
+			font-weight 500
 			font-size 29px
 			line-height 35px
+			color #222
 			text-align left
 
 		.company
@@ -48,7 +49,7 @@
 				font-weight 500
 				font-size 19px
 				line-height 19px
-				color $black
+				color $burgundy
 				text-align left
 				text-shadow $white-shadow
 
@@ -57,7 +58,7 @@
 				margin 0 8px
 				font-size 17px
 				line-height 19px
-				color $grey
+				color #555
 				text-align left
 
 		.patient-holder
@@ -71,10 +72,11 @@
 				width 100%
 				padding 0
 				margin 0 0 22px 0
-				font-weight 500
+				// font-style italic
+				font-weight 400
 				font-size 20px
 				line-height 20px
-				color $grey-light
+				color #222
 				background none
 				border none
 				outline none
@@ -85,9 +87,9 @@
 				float left
 				width 100%
 				padding 0
-				margin 0 0 9px 0
+				margin 0 0 19px 0
 
-				h6
+				p
 					float left
 					width 72px
 					padding 0
@@ -128,8 +130,8 @@
 					padding 12px 0 10px 0
 					margin 0 12px 0 0
 					background $tag
-					border-bottom 4px solid $tag-border
-					border-radius 8px
+					border-bottom 3px solid $tag-border
+					border-radius $border-radius
 					cursor pointer
 
 					p
@@ -137,7 +139,7 @@
 						width 100%
 						padding 0
 						margin 0
-						font-style italic
+						// font-style italic
 						font-weight 600
 						color $white
 						font-size 15px
@@ -177,13 +179,7 @@
 			margin 0 0 10px 40px
 
 			.point-container
-				// float left
-				// width 240px
-				// padding 0
 				margin 0 0 14px 0
-				// background $header-tile
-				// border-bottom 4px solid #333
-				// border-radius 12px
 				text-align center
 
 				.point
@@ -198,7 +194,6 @@
 						padding 0
 						top -14px
 						left -12px
-						// margin -20px 0 0 -12px
 						color $yellow
 						font-size 31px
 						text-shadow $shadow
@@ -212,9 +207,9 @@
 						line-height 28px
 						color $white
 						text-align center
-						background $header-tile
-						border-bottom 4px solid #333
-						border-radius 12px
+						background $tag
+						border-bottom 3px solid $tag-border
+						border-radius $border-radius
 						text-shadow $shadow
 
 						span
@@ -248,16 +243,16 @@
 				color $white
 				text-align center
 				text-shadow $shadow
-				background $header-tile
-				border-bottom 4px solid #333
-				border-radius 8px
+				background $tag
+				border-bottom 3px solid $tag-border
+				border-radius $border-radius
 
 			.center-holder
 				float left
 				width 300px
 				padding 20px 0 24px 20px
 				margin 0
-				background #FFF
+				background $card
 				border-left none
 				border-right none
 				border-bottom 4px solid #333
@@ -298,9 +293,9 @@
 				width 240px
 				padding 20px 20px 20px 20px
 				margin 0 0 30px 20px
-				background $header-tile
-				border-bottom 4px solid #333
-				border-radius 12px
+				background $tag
+				border-bottom 3px solid $tag-border
+				border-radius $border-radius
 
 				input
 					float left
@@ -313,7 +308,7 @@
 					line-height 23px
 					border none
 					border-bottom 4px solid #333
-					border-radius 8px
+					border-radius $border-radius
 					text-align center
 					cursor pointer
 
@@ -328,8 +323,8 @@
 					line-height 23px
 					background $white
 					border none
-					border-bottom 4px solid #333
-					border-radius 8px
+					border-bottom 3px solid #333
+					border-radius $border-radius
 		            appearance:none
 					-webkit-appearance none
 					-moz-appearance none
@@ -343,9 +338,9 @@
 					line-height 51px
 					color $white
 					border none
-					background $burgundy
-					border-bottom 4px solid $burgundy-border
-					border-radius 8px
+					background $background
+					border-bottom 3px solid #333
+					border-radius $border-radius
 					text-align center
 					cursor pointer
 
@@ -355,7 +350,7 @@
 				padding 20px 0 25px 0
 				margin 0 0 30px 0
 				background $header-tile
-				border-bottom 4px solid #333
+				border-bottom 3px solid #333
 
 				h2
 					width 280px
@@ -418,9 +413,9 @@
 					width 220px
 					padding 30px 30px 28px 30px
 					margin 0 0 14px 0
-					background $white
-					border-bottom 4px solid #333
-					border-radius 12px
+					background $card
+					border-bottom 3px solid #333
+					border-radius $border-radius
 
 					p
 						float left

@@ -14,32 +14,32 @@
                         h5 Discounts
                     .patient-holder
                         p Preferred Customer
-                        .row
-                            h6 BIN
-                            h6 018398
-                        .row
-                            h6 PCN
-                            h6 48300712
-                        .row
-                            h6 GROUP
-                            h6 96100245
                         //- .row
-                        //-     h6 PATIENT
-                        //-     h6 NRX43710
+                        //-     p BIN
+                        //-     p 018398
+                        .row
+                            p PCN
+                            p 48300712
+                        .row
+                            p GROUP
+                            p 96100245
+                        .row
+                            p PATIENT
+                            p NRX43710
 
             .download
                 .tag(data-ng-click='textModal();')
                     .fa.fa-mobile.fa-rotate-90
-                    p Text
+                    p Text Card
                 .tag(data-ng-click='emailModal();')
                     .fa.fa-send
-                    p Email
+                    p Email Card
                 .tag(data-ng-click='saveModal();')
                     .fa.fa-cloud
-                    p Save
+                    p Save Card
                 .tag(data-ng-click='printModal();')
                     .fa.fa-file-text
-                    p Print
+                    p Print Card
 
         .points
             .point-container
@@ -89,12 +89,12 @@
                     img(ng-src='/img/pharmacies/riteaid.gif')
                 .logo
                     img(ng-src='/img/pharmacies/winndixie.gif')
-                        
+
         .locator
             .locator-state
                 h2 Search Pharmacies By State & City
                 select(type="text", data-ng-model='location.state', ng-options="state for state in states", data-ng-change='stateUpdate()')
-                select(type="text", data-ng-model='location.city', ng-options="city for city in cities | orderBy:'toString()'", data-ng-change='cityResult()', ng-disabled="!location.state", data-ng-show='location.state')
+                select(type="text", data-ng-model='location.city', ng-options="city for city in cities | orderBy:'toString()'", data-ng-change='cityResult()', ng-disabled="!location.state")
                 .submit(type='submit') Search
 
             .locator-zip
@@ -118,21 +118,21 @@
         .testimonals-holder
             .testimonals
                 .testimonal
-                    p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
-                    h2 Sarah Anderson
-                    h3 Manhattan, New York
+                    p “I saved over 50% on my expensive prescriptions with National Rx Card. This was Unbelievable!!"
+                    h2 Chris
+                    h3 Arizona
 
                 .testimonal
-                    p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
-                    h2 Nino Fluentes
-                    h3 Victoria, Texas
+                    p “The National Rx Card was so easy to download to my mobile phone and the Savings was Amazing"
+                    h2 Lisa
+                    h3 California
 
-                .testimonal.hide
-                    p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
-                    h2 Kathleen White
-                    h3 St. Paul, Maryland
+                .testimonal
+                    p “I saved over $40.00 on my prescription with my amazing National Rx Card. Thank you very much!!!"
+                    h2 Terry
+                    h3 Texas
 
-                .testimonal.hide
-                    p “When I gave the pharmacist my National Rx Card the price was $71.00 with discount."
-                    h2 Kathleen White
-                    h3 St. Paul, Maryland
+                .testimonal
+                    p "The National Rx Card has saved me thousands of dollars!! Not sure what I would do with out it!!"
+                    h2 Mary
+                    h3 Ohio
