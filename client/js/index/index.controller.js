@@ -4,6 +4,10 @@
     function Index ($sce, $document, $scope, $state, $stateParams, location, zip) {
 
         $scope.display = false;
+        // $scope.results = [];
+        $scope.stateData = [];
+        $scope.cities = [];
+
         $scope.toTheTop = function() {
             $document.scrollTopAnimated(0);
         };
@@ -12,20 +16,23 @@
             return zip.query({
                 id: $scope.location.zip
             }).$promise.then(function(success) {
+                $scope.location.state = '';
+                $scope.location.city = '';
+                $scope.results = [];
                 $scope.results = success;
             });
         };
 
-        $scope.stateUpdate = function(data) {
+        $scope.stateUpdate = function() {
             return location.query({
-                id: data
+                id: $scope.location.state
             }).$promise.then(function(success) {
                 $scope.stateData = success;
                 $scope.citiesList();
+                console.log($scope.stateData);
             });
         };
 
-        $scope.cities = [];
         $scope.citiesList = function() {
             $scope.cities = [];
             var list = [];
@@ -38,6 +45,20 @@
                 return index === self.indexOf(elem);
             });
         };
+
+        $scope.cityResult = function() {
+            // $scope.cities = [];
+            var list = [];
+            angular.forEach($scope.stateData, function(item) {
+                if(item.city === $scope.location.city) {
+                    list.push(item);
+                }
+            });
+            $scope.location.zip = '';
+            $scope.results = [];
+            $scope.results = list;
+        };
+
 
         $scope.makeFilterUpdate = function() {
             $scope.modelFilter = null;
