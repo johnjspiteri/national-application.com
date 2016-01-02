@@ -1,21 +1,22 @@
 (function() {
     'use strict';
 
-    function Index ($sce, $document, $scope, $state, statesResolve) {
+    function Index ($sce, $document, $scope, $state, pharmacyResolve) {
 
         $scope.display = false;
 
-        $scope.data = statesResolve.data;
-        $scope.states = [];
-
-        $scope.statesList = function() {
-            $scope.states = [];
-            angular.forEach($scope.data, function(object) {
-                $scope.states.push(object.state);
-            });
-        };
-        $scope.statesList();
-
+        $scope.data = pharmacyResolve.data;
+        console.log($scope.data);
+        // $scope.states = [];
+        //
+        // $scope.statesList = function() {
+        //     $scope.states = [];
+        //     angular.forEach($scope.data, function(object) {
+        //         $scope.states.push(object.state);
+        //     });
+        // };
+        // $scope.statesList();
+        //
         $scope.toTheTop = function() {
             $document.scrollTopAnimated(0);
         };
@@ -47,6 +48,6 @@
         .module('app.index')
         .controller('Index', Index);
 
-    Index.$inject = ['$sce', '$document', '$scope', '$state', 'statesResolve'];
+    Index.$inject = ['$sce', '$document', '$scope', '$state', 'pharmacyResolve', 'statesResolve'];
 
 })();

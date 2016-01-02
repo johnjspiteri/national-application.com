@@ -14,6 +14,9 @@
                     clientResolve:  ['client', function(client) {
                         return client.show({id: 114}).$promise;
                     }],
+                    pharmacyResolve:  ['$http', function($http) {
+                        return $http({method: 'GET', url: '/js/app/pharmacies.json'})
+                    }],
                 },
                 views: {
                     'page@': {
