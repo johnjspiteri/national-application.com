@@ -1,12 +1,12 @@
 (function() {
     'use strict';
 
-    function Index ($sce, $document, $scope, $state, pharmacyResolve) {
+    function Index ($sce, $document, $scope, $state) {
 
         $scope.display = false;
 
-        $scope.data = pharmacyResolve.data;
-        console.log($scope.data);
+        // $scope.data = pharmacyResolve.data;
+        // console.log($scope.data);
         // $scope.states = [];
         //
         // $scope.statesList = function() {
@@ -48,6 +48,6 @@
         .module('app.index')
         .controller('Index', Index);
 
-    Index.$inject = ['$sce', '$document', '$scope', '$state', 'pharmacyResolve', 'statesResolve'];
+    Index.$inject = ['$sce', '$document', '$scope', '$state'];
 
 })();
