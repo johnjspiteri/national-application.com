@@ -4,19 +4,8 @@
     function Index ($sce, $document, $scope, $state) {
 
         $scope.display = false;
+        $scope.cardUrl='https://s3.amazonaws.com/nationalrx/card/national_test.png';
 
-        // $scope.data = pharmacyResolve.data;
-        // console.log($scope.data);
-        // $scope.states = [];
-        //
-        // $scope.statesList = function() {
-        //     $scope.states = [];
-        //     angular.forEach($scope.data, function(object) {
-        //         $scope.states.push(object.state);
-        //     });
-        // };
-        // $scope.statesList();
-        //
         $scope.toTheTop = function() {
             $document.scrollTopAnimated(0);
         };

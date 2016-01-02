@@ -1,12 +1,9 @@
 (function() {
     'use strict';
 
-    function IndexTextModal ($document, $scope, $state, clientResolve, text) {
+    function IndexTextModal ($document, $scope, $state, text) {
 
         $scope.display = true;
-        $scope.card = clientResolve;
-
-        console.log($scope.card);
 
         $scope.close = function () {
             $scope.display = false;
@@ -20,7 +17,7 @@
         $scope.text = function () {
             text.create({
                 destination: $scope.data.destination,
-                file: $scope.card.file
+                file: $scope.cardUrl
             });
             $scope.data = {};
             $scope.display = false;
@@ -34,6 +31,6 @@
         .module('app.index')
         .controller('IndexTextModal', IndexTextModal);
 
-    IndexTextModal.$inject = ['$document', '$scope', '$state', 'clientResolve', 'text'];
+    IndexTextModal.$inject = ['$document', '$scope', '$state', 'text'];
 
 })();

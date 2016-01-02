@@ -655,4 +655,6 @@
 {"id": 3000,"ncpdp": "0423258","pharmacy_name": "WALGREENS #12384","address1": "1800 AIRPORT RD","address2": "","city": "HOT SPRINGS","state": "AR","zip": "71913","zip+4": "5396","phone": "5017602089","NPI": "     1033348339"}, 
 {"id": 3001,"ncpdp": "0423260","pharmacy_name": "WALGREENS #12912","address1": "705 W CENTER ST","address2": "","city": "GREENWOOD","state": "AR","zip": "72936","zip+4": "3726","phone": "4799965522","NPI": "     1508097379"}, 
 {"id": 3002,"ncpdp": "0423272","pharmacy_name": "WALGREENS #12500","address1": "4206 W NEW HOPE RD","address2": "","city": "ROGERS","state": "AR","zip": "72758","zip+4": "8236","phone": "4796210958","NPI": "     1639302730"}, 
-
+{"id": 59583,"ncpdp": "9000938","pharmacy_name": "HARPS FOOD STORES INC","address1": "918 S GUTENSHON","address2": "","city": "SPRINGDALE","state": "AR","zip": "72762","zip+4": "0000","phone": "","NPI": ""}, 
+{"id": 59456,"ncpdp": "9000057","pharmacy_name": "WAL-MART PHARMACY DIVISION","address1": "MAIL STOP 0230","address2": "702 SW 8TH ST","city": "BENTONVILLE","state": "AR","zip": "72716","zip+4": "9113","phone": "4792771242","NPI": ""}, 
+{"id": 59631,"ncpdp": "9500400","pharmacy_name": "USA/SUPER D DRUG","address1": "3017 N MIDLAND DR","address2": "","city": "PINE BLUFF","state": "AR","zip": "71613","zip+4": "0000","phone": "8705355171","NPI": ""}, 

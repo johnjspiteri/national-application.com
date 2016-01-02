@@ -18,7 +18,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
     port = 8080,
     connection = 'mongodb://worker:nat1onal@127.0.0.1:27017/national',
     server = require('http').createServer(app),
-    seedDB = true,
+    seedDB = false,
     env = app.get('env');
 
 app.set('views', __dirname + '/public/html');
