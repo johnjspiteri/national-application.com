@@ -4,6 +4,7 @@
     function IndexTextModal ($document, $scope, $state, text) {
 
         $scope.display = true;
+        $scope.cardUrl='https://s3.amazonaws.com/nationalrx/card/national_test.png';
 
         $scope.close = function () {
             $scope.display = false;

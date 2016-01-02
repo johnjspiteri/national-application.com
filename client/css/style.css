@@ -2713,22 +2713,11 @@ small {
   }
   .content .locator {
     float: left;
-    width: 280px;
-    margin: 0 0 0 20px;
+    width: 320px;
+    margin: 0;
     padding: 0;
   }
-  .content .locator .locator-zip,
-  .content .locator .locator-state {
-    float: left;
-    width: 240px;
-    padding: 20px 20px 20px 20px;
-    margin: 0 0 20px 0;
-    background: #777 url("../img/asfalt-light.png") repeat;
-    border-bottom: 4px solid #333;
-    border-radius: 12px;
-  }
-  .content .locator .locator-zip h2,
-  .content .locator .locator-state h2 {
+  .content .locator h2 {
     float: left;
     width: 100%;
     padding: 0;
@@ -2739,6 +2728,16 @@ small {
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
+  }
+  .content .locator .locator-zip,
+  .content .locator .locator-state {
+    float: left;
+    width: 240px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 0 30px 20px;
+    background: #777 url("../img/asfalt-light.png") repeat;
+    border-bottom: 4px solid #333;
+    border-radius: 12px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
@@ -2780,17 +2779,66 @@ small {
     width: 200px;
     margin: 0 0 0 20px;
     height: 48px;
-    font-size: 23px;
-    line-height: 25px;
+    font-size: 27px;
+    line-height: 51px;
     color: #fff;
     border: none;
     background: #8a0d4a;
     border-bottom: 4px solid #4a0024;
     border-radius: 8px;
+    text-align: center;
     cursor: pointer;
   }
   .content .locator-results {
-    display: none;
+    float: left;
+    width: 320px;
+    padding: 20px 0 25px 0;
+    margin: 0 0 30px 0;
+    background: #777 url("../img/asfalt-light.png") repeat;
+    border-bottom: 4px solid #333;
+  }
+  .content .locator-results h2 {
+    width: 280px;
+    margin: 0 0 18px 20px;
+  }
+  .content .locator-results .locator-results-content {
+    float: left;
+    width: 298px;
+    padding: 0;
+    margin: 0 10px;
+    background: #fff;
+    border: 1px solid #000;
+  }
+  .content .locator-results .locator-results-content .row-container {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #000;
+  }
+  .content .locator-results .locator-results-content .row-container p {
+    float: left;
+    width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000;
+    text-align: center;
+  }
+  .content .locator-results .locator-results-content .row-container .pharmacy {
+    float: left;
+    width: 258px;
+    padding: 12px 20px 12px 20px;
+    border-bottom: 1px dotted #ccc;
+  }
+  .content .locator-results .locator-results-content .row-container .address {
+    float: left;
+    width: 258px;
+    padding: 12px 20px 12px 20px;
+    border-bottom: 1px dotted #ccc;
+  }
+  .content .locator-results .locator-results-content .row-container .phone {
+    float: left;
+    width: 258px;
+    padding: 12px 20px 12px 20px;
   }
   .content .testimonals-holder {
     float: left;
@@ -3140,6 +3188,7 @@ small {
     color: #fff;
     text-shadow: 2px 2px 0px #000;
     text-align: center;
+    cursor: pointer;
   }
   footer .footer .link p i {
     color: #ff9;
@@ -3763,25 +3812,22 @@ small {
   }
   .content .locator {
     float: left;
-    width: 335px;
-    margin: 0 0 0 20px;
-    padding: 0;
+    width: 375px;
   }
-  .content .locator .locator-zip,
-  .content .locator .locator-state {
-    float: left;
-    width: 275px;
-    padding: 20px 30px 20px 30px;
-    margin: 0 0 20px 0;
-  }
-  .content .locator .locator-zip h2,
-  .content .locator .locator-state h2 {
+  .content .locator h2 {
     float: left;
     width: 275px;
     padding: 0;
     margin: 0 0 22px 0;
     font-size: 31px;
     line-height: 39px;
+  }
+  .content .locator .locator-zip,
+  .content .locator .locator-state {
+    float: left;
+    width: 275px;
+    padding: 20px 30px 20px 30px;
+    margin: 0 0 30px 20px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
@@ -3813,7 +3859,36 @@ small {
     line-height: 57px;
   }
   .content .locator .locator-results {
-    display: none;
+    width: 375px;
+    padding: 20px 0 25px 0;
+    margin: 0 0 30px 0;
+  }
+  .content .locator .locator-results h2 {
+    width: 333px;
+    margin: 0 0 18px 20px;
+  }
+  .content .locator .locator-results .locator-results-content {
+    width: 333px;
+    margin: 0 20px;
+  }
+  .content .locator .locator-results .locator-results-content .row {
+    border-bottom: 1px solid #000;
+  }
+  .content .locator .locator-results .locator-results-content .row p {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  .content .locator .locator-results .locator-results-content .row .pharmacy {
+    width: 293px;
+    padding: 12px 20px 12px 20px;
+  }
+  .content .locator .locator-results .locator-results-content .row .address {
+    width: 293px;
+    padding: 12px 20px 12px 20px;
+  }
+  .content .locator .locator-results .locator-results-content .row .phone {
+    width: 293px;
+    padding: 12px 20px 12px 20px;
   }
   .content .testimonals-holder {
     width: 335px;
@@ -4331,14 +4406,13 @@ small {
     height: 30px;
   }
   .content .locator {
-    width: 400px;
-    margin: 0 0 0 40px;
+    width: 480px;
   }
   .content .locator .locator-zip,
   .content .locator .locator-state {
     width: 360px;
     padding: 22px 20px 28px 20px;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 40px;
   }
   .content .locator .locator-zip h2,
   .content .locator .locator-state h2 {
@@ -4371,6 +4445,38 @@ small {
     margin: 0 0 0 30px;
     font-size: 31px;
     line-height: 57px;
+  }
+  .content .locator .locator-results {
+    width: 480px;
+    padding: 20px 0 25px 0;
+    margin: 0 0 30px 0;
+  }
+  .content .locator .locator-results h2 {
+    width: 440px;
+    margin: 0 0 18px 20px;
+  }
+  .content .locator .locator-results .locator-results-content {
+    width: 398px;
+    margin: 0 40px;
+  }
+  .content .locator .locator-results .locator-results-content .row {
+    border-bottom: 1px solid #000;
+  }
+  .content .locator .locator-results .locator-results-content .row p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .content .locator .locator-results .locator-results-content .row .pharmacy {
+    width: 338px;
+    padding: 12px 30px 12px 30px;
+  }
+  .content .locator .locator-results .locator-results-content .row .address {
+    width: 338px;
+    padding: 12px 30px 12px 30px;
+  }
+  .content .locator .locator-results .locator-results-content .row .phone {
+    width: 338px;
+    padding: 12px 30px 12px 30px;
   }
   .content .testimonals-holder {
     width: 400px;
@@ -5111,21 +5217,19 @@ small {
     height: 30px;
   }
   .content .locator {
-    width: 400px;
-    margin: 0 0 20px 60px;
+    width: 520px;
+  }
+  .content .locator h2 {
+    width: 280px;
+    margin: 0 0 24px 40px;
+    font-size: 33px;
+    line-height: 42px;
   }
   .content .locator .locator-zip,
   .content .locator .locator-state {
     width: 360px;
     padding: 24px 20px 26px 20px;
-    margin: 0 0 20px 0;
-  }
-  .content .locator .locator-zip h2,
-  .content .locator .locator-state h2 {
-    width: 280px;
-    margin: 0 0 24px 40px;
-    font-size: 33px;
-    line-height: 42px;
+    margin: 0 0 20px 60px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
@@ -5151,6 +5255,39 @@ small {
     margin: 0 0 0 30px;
     font-size: 31px;
     line-height: 63px;
+  }
+  .content .locator .locator-results {
+    width: 520px;
+    padding: 20px 0 25px 0;
+    margin: 0 0 30px 0;
+    border-radius: 12px;
+  }
+  .content .locator .locator-results h2 {
+    width: 440px;
+    margin: 0 0 18px 40px;
+  }
+  .content .locator .locator-results .locator-results-content {
+    width: 438px;
+    margin: 0 40px;
+  }
+  .content .locator .locator-results .locator-results-content .row {
+    border-bottom: 1px solid #000;
+  }
+  .content .locator .locator-results .locator-results-content .row p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .content .locator .locator-results .locator-results-content .row .pharmacy {
+    width: 378px;
+    padding: 12px 30px 12px 30px;
+  }
+  .content .locator .locator-results .locator-results-content .row .address {
+    width: 378px;
+    padding: 12px 30px 12px 30px;
+  }
+  .content .locator .locator-results .locator-results-content .row .phone {
+    width: 378px;
+    padding: 12px 30px 12px 30px;
   }
   .content .testimonals-holder {
     width: 400px;
@@ -5784,26 +5921,27 @@ small {
     height: 40px;
   }
   .content .locator {
-    float: left;
     width: 728px;
-    margin: 0 0 30px 0;
+  }
+  .content .locator h2 {
+    margin: 0 0 28px 0;
+    font-size: 33px;
+    line-height: 42px;
   }
   .content .locator .locator-zip,
   .content .locator .locator-state {
     float: left;
     width: 304px;
-    padding: 28px 20px 22px 20px;
-    margin: 0 20px 0 0;
+    padding: 22px 20px 22px 20px;
+    margin: 0 20px 30px 0;
   }
   .content .locator .locator-zip h2,
   .content .locator .locator-state h2 {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 28px 0;
+    width: 284px;
+    margin: 0 0 18px 10px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
-    float: left;
     width: 304px;
     height: 56px;
     padding: 8px 0 0 0;
@@ -5811,7 +5949,6 @@ small {
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
-    float: left;
     width: 304px;
     height: 67px;
     padding: 0;
@@ -5819,10 +5956,44 @@ small {
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
-    float: left;
     width: 304px;
     padding: 0;
     margin: 0 0 0 0;
+  }
+  .content .locator .locator-results {
+    width: 708px;
+    padding: 28px 0 30px 0;
+    margin: 0 0 30px 0;
+    border-radius: 12px;
+  }
+  .content .locator .locator-results h2 {
+    width: 708px;
+    margin: 0 0 24px 0;
+    font-size: 37px;
+    line-height: 46px;
+  }
+  .content .locator .locator-results .locator-results-content {
+    width: 628px;
+    margin: 0 40px;
+  }
+  .content .locator .locator-results .locator-results-content .row-container {
+    border-bottom: 1px solid #000;
+  }
+  .content .locator .locator-results .locator-results-content .row-container p {
+    font-size: 22px;
+    line-height: 31px;
+  }
+  .content .locator .locator-results .locator-results-content .row-container .pharmacy {
+    width: 508px;
+    padding: 14px 60px 14px 60px;
+  }
+  .content .locator .locator-results .locator-results-content .row-container .address {
+    width: 508px;
+    padding: 14px 60px 14px 60px;
+  }
+  .content .locator .locator-results .locator-results-content .row-container .phone {
+    width: 508px;
+    padding: 14px 60px 14px 60px;
   }
   .content .testimonals-holder {
     width: 728px;
@@ -7225,16 +7396,20 @@ small {
     width: 1000px;
     margin: 0 0 30px 0;
   }
-  .content .locator .locator-zip {
-    width: 300px;
-    padding: 22px 40px 30px 40px;
-    margin: 0 20px 0 0;
-  }
-  .content .locator .locator-zip h2 {
+  .content .locator h2 {
     width: 280px;
     margin: 0 0 24px 10px;
     font-size: 31px;
     line-height: 37px;
+  }
+  .content .locator .locator-zip {
+    width: 300px;
+    padding: 22px 40px 30px 40px;
+    margin: 0 20px 20px 0;
+  }
+  .content .locator .locator-zip h2 {
+    width: 280px;
+    margin: 0 0 24px 10px;
   }
   .content .locator .locator-zip input {
     width: 158px;
@@ -7252,7 +7427,7 @@ small {
   .content .locator .locator-state {
     width: 520px;
     padding: 22px 40px 30px 40px;
-    margin: 0;
+    margin: 0 0 20px 0;
   }
   .content .locator .locator-state h2 {
     width: 320px;
@@ -7275,82 +7450,39 @@ small {
     line-height: 49px;
   }
   .content .locator .locator-results {
-    display: block;
-    float: left;
-    width: 920px;
-    background: #777 url("../img/asfalt-light.png") repeat;
-    padding: 40px 40px 35px 40px;
+    width: 1000px;
+    padding: 28px 0 40px 0;
+    margin: 0 0 30px 0;
     border-radius: 12px;
-    border-bottom: 4px solid #333;
   }
   .content .locator .locator-results h2 {
-    float: left;
     width: 100%;
-    padding: 0;
-    margin: 0 0 28px 0;
-    font-weight: 500;
-    font-size: 39px;
-    line-height: 39px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 2px 2px 0px #000;
+    margin: 0 0 24px 0;
+    font-size: 37px;
+    line-height: 46px;
   }
   .content .locator .locator-results .locator-results-content {
-    float: left;
-    width: 920px;
-    padding: 0;
-    background: #fff;
+    width: 800px;
+    margin: 0 100px;
   }
-  .content .locator .locator-results .locator-results-content .row {
-    float: left;
-    width: 100%;
-    height: 44px;
-    border-bottom: 1px solid #ccc;
+  .content .locator .locator-results .locator-results-content .row-container {
+    border-bottom: 1px solid #000;
   }
-  .content .locator .locator-results .locator-results-content .row h4 {
-    float: left;
-    width: 100%;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 46px;
-    color: #444;
-  }
-  .content .locator .locator-results .locator-results-content .row h4.title {
+  .content .locator .locator-results .locator-results-content .row-container p {
     font-size: 20px;
-    color: #000;
+    line-height: 29px;
   }
-  .content .locator .locator-results .locator-results-content .row .pharmacy {
-    float: left;
-    width: 250px;
-    height: 44px;
-    padding: 0 0 0 20px;
-    border-right: 1px solid #ccc;
+  .content .locator .locator-results .locator-results-content .row-container .pharmacy {
+    width: 620px;
+    padding: 16px 90px 16px 90px;
   }
-  .content .locator .locator-results .locator-results-content .row .address {
-    float: left;
-    width: 270px;
-    height: 44px;
-    padding: 0 0 0 20px;
-    border-right: 1px solid #ccc;
+  .content .locator .locator-results .locator-results-content .row-container .address {
+    width: 620px;
+    padding: 16px 90px 16px 90px;
   }
-  .content .locator .locator-results .locator-results-content .row .phone {
-    float: left;
-    width: 179px;
-    height: 44px;
-    padding: 0;
-    border-right: 1px solid #ccc;
-  }
-  .content .locator .locator-results .locator-results-content .row .phone h4 {
-    text-align: center;
-  }
-  .content .locator .locator-results .locator-results-content .row .directions {
-    float: left;
-    width: 168px;
-    height: 44px;
-    padding: 0;
-  }
-  .content .locator .locator-results .locator-results-content .row .directions h4 {
-    text-align: center;
+  .content .locator .locator-results .locator-results-content .row-container .phone {
+    width: 620px;
+    padding: 16px 90px 16px 90px;
   }
   .content .testimonals-holder {
     width: 1020px;

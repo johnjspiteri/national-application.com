@@ -1,232 +1,35 @@
 
 <div class="page">
   <div class="content">
-    <div class="main">
-      <div class="card">
-        <div class="card-logo"><img ng-src="/img/icon.png"/></div>
-        <div class="card-content">
-          <h1>National Rx Card</h1>
-          <div class="company">
-            <h5>Free</h5><span>&bull;</span>
-            <h5>Fast</h5><span>&bull;</span>
-            <h5>Discounts</h5>
-          </div>
-          <div class="patient-holder">
-            <p>Preferred Customer</p>
-            <div class="row">
-              <h6>BIN</h6>
-              <h6>018398</h6>
-            </div>
-            <div class="row">
-              <h6>PCN</h6>
-              <h6>48300712</h6>
-            </div>
-            <div class="row">
-              <h6>GROUP</h6>
-              <h6>96100245</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="download">
-        <div data-ng-click="textModal();" class="tag">
-          <div class="fa fa-mobile fa-rotate-90"></div>
-          <p>Text</p>
-        </div>
-        <div data-ng-click="emailModal();" class="tag">
-          <div class="fa fa-send"></div>
-          <p>Email</p>
-        </div>
-        <div data-ng-click="saveModal();" class="tag">
-          <div class="fa fa-cloud"></div>
-          <p>Save</p>
-        </div>
-        <div data-ng-click="printModal();" class="tag">
-          <div class="fa fa-file-text"></div>
-          <p>Print</p>
-        </div>
-      </div>
-    </div>
-    <div class="points">
-      <div class="point-container">
-        <div class="point">
-          <div class="fa fa-certificate"></div>
-          <h3>Membership <span>Is Free</span></h3>
-        </div>
-      </div>
-      <div class="point-container">
-        <div class="point">
-          <div class="fa fa-certificate"></div>
-          <h3>Everyone <span>Qualifies</span></h3>
-        </div>
-      </div>
-      <div class="point-container">
-        <div class="point">
-          <div class="fa fa-certificate"></div>
-          <h3>No Waiting Or <span>Deductibles</span></h3>
-        </div>
-      </div>
-      <div class="point-container">
-        <div class="point">
-          <div class="fa fa-certificate"></div>
-          <h3>No Pre-Existing <span>Exclusions</span></h3>
-        </div>
-      </div>
-    </div>
-    <div class="center"><span class="fa fa-certificate"></span>
-      <h1>We Are Partnered With Over 63,000 Pharmacies Nationwide</h1>
-      <div class="center-holder">
-        <div class="logo"><img ng-src="/img/pharmacies/albertsons.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/ap.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/kmart.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/costco.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/duanereade.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/kroger.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/target.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/walmart.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/vons.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/walgreens.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/riteaid.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/winndixie.gif"/></div>
-      </div>
-    </div>
     <div class="locator">
-      <div class="locator-zip">
-        <h2>Search Pharmacies By Zip Code</h2>
-        <input type="text" data-ng-model="zip" placeholder="10010"/>
-        <button type="submit" class="submit">Search</button>
-      </div>
       <div class="locator-state">
         <h2>Search Pharmacies By State & City</h2>
-        <select type="text" data-ng-model="state" ng-options="state for state in states"></select>
-        <select type="text" data-ng-model="city" ng-options="city for city in cities | orderBy:'toString()'" ng-disabled="!state" data-ng-show="state"></select>
-        <button type="submit" class="submit">Search</button>
+        <select type="text" data-ng-model="location.state" ng-options="state for state in states" data-ng-change="stateUpdate(location.state)"></select>
+        <select type="text" data-ng-model="location.city" ng-options="city for city in cities | orderBy:'toString()'" data-ng-change="stateUpdate(location.state)" ng-disabled="!location.state" data-ng-show="location.state"></select>
+        <div type="submit" class="submit">Search</div>
       </div>
-      <div data-ng-show="zip" class="locator-results hide">
+      <div class="locator-zip">
+        <h2>Search Pharmacies By Zip Code</h2>
+        <input type="text" data-ng-model="location.zip"/>
+        <div data-ng-click="zip()" class="submit">Search</div>
+      </div>
+      <div data-ng-show="results" class="locator-results">
         <h2>Pharmacy Locator Results</h2>
         <div class="locator-results-content">
-          <div class="row">
+          <div ng-repeat="row in results" class="row-container">
             <div class="pharmacy">
-              <h4 class="title">Pharmacy</h4>
+              <p ng-bind="::row.name"></p>
             </div>
             <div class="address">
-              <h4 class="title">Address</h4>
-            </div>
-            <div class="phone">
-              <h4 class="title">Phone Number</h4>
-            </div>
-            <div class="directions">
-              <h4 class="title">Get Directions</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="pharmacy">
-              <h4>CVS Pharmacy #01903</h4>
+              <p ng-bind="::row.address1"></p>
             </div>
             <div class="address">
-              <h4>798 Park Road 06002</h4>
+              <p>{{::row.state}} - {{::row.city}}</p>
             </div>
             <div class="phone">
-              <h4>1-860 434-4566</h4>
-            </div>
-            <div class="directions">
-              <h4>Get Directions</h4>
+              <p ng-bind="::row.phone"></p>
             </div>
           </div>
-          <div class="row">
-            <div class="pharmacy">
-              <h4>CVS Pharmacy #01903</h4>
-            </div>
-            <div class="address">
-              <h4>798 Park Road 06002</h4>
-            </div>
-            <div class="phone">
-              <h4>1-860 434-4566</h4>
-            </div>
-            <div class="directions">
-              <h4>Get Directions</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="pharmacy">
-              <h4>CVS Pharmacy #01903</h4>
-            </div>
-            <div class="address">
-              <h4>798 Park Road 06002</h4>
-            </div>
-            <div class="phone">
-              <h4>1-860 434-4566</h4>
-            </div>
-            <div class="directions">
-              <h4>Get Directions</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="pharmacy">
-              <h4>CVS Pharmacy #01903</h4>
-            </div>
-            <div class="address">
-              <h4>798 Park Road 06002</h4>
-            </div>
-            <div class="phone">
-              <h4>1-860 434-4566</h4>
-            </div>
-            <div class="directions">
-              <h4>Get Directions</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="pharmacy">
-              <h4>CVS Pharmacy #01903</h4>
-            </div>
-            <div class="address">
-              <h4>798 Park Road 06002</h4>
-            </div>
-            <div class="phone">
-              <h4>1-860 434-4566</h4>
-            </div>
-            <div class="directions">
-              <h4>Get Directions</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="pharmacy">
-              <h4>CVS Pharmacy #01903</h4>
-            </div>
-            <div class="address">
-              <h4>798 Park Road 06002</h4>
-            </div>
-            <div class="phone">
-              <h4>1-860 434-4566</h4>
-            </div>
-            <div class="directions">
-              <h4>Get Directions</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonals-holder">
-      <div class="testimonals">
-        <div class="testimonal">
-          <p>“When I gave the pharmacist my National Rx Card the price was $71.00 with discount."</p>
-          <h2>Sarah Anderson</h2>
-          <h3>Manhattan, New York</h3>
-        </div>
-        <div class="testimonal">
-          <p>“When I gave the pharmacist my National Rx Card the price was $71.00 with discount."</p>
-          <h2>Nino Fluentes</h2>
-          <h3>Victoria, Texas</h3>
-        </div>
-        <div class="testimonal hide">
-          <p>“When I gave the pharmacist my National Rx Card the price was $71.00 with discount."</p>
-          <h2>Kathleen White</h2>
-          <h3>St. Paul, Maryland</h3>
-        </div>
-        <div class="testimonal hide">
-          <p>“When I gave the pharmacist my National Rx Card the price was $71.00 with discount."</p>
-          <h2>Kathleen White</h2>
-          <h3>St. Paul, Maryland</h3>
         </div>
       </div>
     </div>

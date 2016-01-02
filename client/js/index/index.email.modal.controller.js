@@ -1,11 +1,10 @@
 (function() {
     'use strict';
 
-    function IndexEmailModal ($document, $scope, $state, clientResolve, mail) {
+    function IndexEmailModal ($document, $scope, $state, mail) {
 
         $scope.display = true;
-        $scope.client = clientResolve;
-        console.log($scope.client);
+        $scope.cardUrl='https://s3.amazonaws.com/nationalrx/card/national_test.png';
 
         $scope.close = function () {
             $scope.display = false;
@@ -19,7 +18,7 @@
         $scope.email = function () {
             mail.create({
                 email: $scope.data.email,
-                file: $scope.client.file,
+                file: $scope.cardUrl,
             });
             $scope.user = {};
             $scope.display = false;
@@ -32,6 +31,6 @@
         .module('app.index')
         .controller('IndexEmailModal', IndexEmailModal);
 
-    IndexEmailModal.$inject = ['$document', '$scope', '$state', 'clientResolve', 'mail'];
+    IndexEmailModal.$inject = ['$document', '$scope', '$state', 'mail'];
 
 })();

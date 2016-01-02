@@ -10,11 +10,6 @@
                     description: 'This is the description shown in Google search results'
                 },
                 url: '/',
-                // resolve: {
-                //     clientResolve:  ['client', function(client) {
-                //         return client.show({id: 114}).$promise;
-                //     }],
-                // },
                 views: {
                     'page@': {
                         templateUrl: 'index/index.html',

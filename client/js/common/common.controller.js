@@ -2,13 +2,11 @@
     'use strict';
 
     function CommonController ($scope,$mdSidenav,uiGmapGoogleMapApi) {
-        console.log("controller test");
-        $scope.state = true;
 
+        $scope.state = true;
         $scope.open = function () {
             // $scope.display = true;
             $mdSidenav('navigationPanel').open();
-            console.log("test");
         };
 
         $scope.close = function () {
