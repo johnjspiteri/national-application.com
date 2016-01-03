@@ -2702,14 +2702,17 @@ small {
   .content .center .center-holder .logo {
     float: left;
     padding: 0 20px 20px 0;
-    margin: 0 0 0 10px;
+    margin: 0 0 4px 10px;
   }
   .content .center .center-holder .logo img {
     float: left;
-    height: 30px;
+    height: 34px;
     padding: 0;
     margin: 0;
     font-size: 22px;
+  }
+  .content .center .center-holder .logo img.large {
+    height: 60px;
   }
   .content .locator {
     float: left;
