@@ -5,6 +5,7 @@
 
         $scope.display = false;
         // $scope.results = [];
+        // $scope.location.zip = '10010';
         $scope.stateData = [];
         $scope.cities = [];
 

@@ -2744,12 +2744,12 @@ small {
   .content .locator .locator-state input {
     float: left;
     width: 200px;
-    height: 48px;
+    height: 52px;
     padding: 0;
     margin: 0 0 14px 20px;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 23px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
     border: none;
     border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
@@ -2760,12 +2760,12 @@ small {
   .content .locator .locator-state select {
     float: left;
     width: 200px;
-    height: 52px;
+    height: 56px;
     padding: 0;
     margin: 0 0 10px 20px;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 23px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
     background: #fff;
     border: none;
     border-bottom: 3px solid #333;
@@ -2788,6 +2788,7 @@ small {
     border-bottom: 3px solid #333;
     border-radius: 6px 6px 6px 6px;
     text-align: center;
+    text-shadow: 2px 2px 0px #000;
     cursor: pointer;
   }
   .content .locator-results {
@@ -2799,26 +2800,34 @@ small {
     border-bottom: 3px solid #333;
   }
   .content .locator-results h2 {
+    float: left;
     width: 280px;
     margin: 0 0 18px 20px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 0px #000;
   }
   .content .locator-results .locator-results-content {
     float: left;
-    width: 298px;
+    width: 280px;
     padding: 0;
-    margin: 0 10px;
-    background: #fff;
-    border: 1px solid #000;
+    margin: 0 20px;
   }
   .content .locator-results .locator-results-content .row-container {
     float: left;
-    width: 100%;
-    border-bottom: 1px solid #000;
+    width: 280px;
+    background: #fff;
+    border-bottom: 3px solid #333;
+    border-radius: 6px 6px 6px 6px;
+    margin: 0 0 12px 0;
   }
   .content .locator-results .locator-results-content .row-container p {
     float: left;
     width: 100%;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 26px;
     color: #000;
@@ -2826,19 +2835,19 @@ small {
   }
   .content .locator-results .locator-results-content .row-container .pharmacy {
     float: left;
-    width: 258px;
+    width: 240px;
     padding: 12px 20px 12px 20px;
     border-bottom: 1px dotted #ccc;
   }
   .content .locator-results .locator-results-content .row-container .address {
     float: left;
-    width: 258px;
+    width: 240px;
     padding: 12px 20px 12px 20px;
     border-bottom: 1px dotted #ccc;
   }
   .content .locator-results .locator-results-content .row-container .phone {
     float: left;
-    width: 258px;
+    width: 240px;
     padding: 12px 20px 12px 20px;
   }
   .content .testimonals-holder {
@@ -2856,7 +2865,7 @@ small {
   .content .testimonals-holder .testimonals .testimonal {
     float: left;
     width: 220px;
-    padding: 30px 30px 28px 30px;
+    padding: 30px 30px 32px 30px;
     margin: 0 0 14px 0;
     background: #f7f8ee url("../img/cream-dust.png") repeat;
     border-bottom: 3px solid #333;
@@ -2880,8 +2889,8 @@ small {
     width: 100%;
     padding: 0;
     font-weight: 600;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 27px;
+    line-height: 27px;
     margin: 0 0 12px 0;
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
@@ -2893,8 +2902,8 @@ small {
     margin: 0;
     font-style: italic;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 22px;
     text-align: center;
     text-shadow: 2px 1px 0 #fff;
   }
@@ -3183,7 +3192,7 @@ small {
     float: left;
     padding: 0;
     margin: 0;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #fff;
@@ -3282,8 +3291,8 @@ small {
   .filter-holder {
     float: left;
     width: 280px;
-    padding: 0;
-    margin: 0 0 30px 20px;
+    padding: 20px 0 20px 0;
+    margin: 0 0 20px 20px;
     background: #8a0d4a;
     border-bottom: 3px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
@@ -3295,11 +3304,12 @@ small {
     margin: 0;
   }
   .filter-holder .filter-container select {
+    display: none;
     float: left;
     width: 220px;
     height: 60px;
     padding: 0;
-    margin: 0 0 20px 30px;
+    margin: 0 0 12px 30px;
     font-weight: 600;
     font-size: 27px;
     line-height: 29px;
@@ -3316,7 +3326,7 @@ small {
     width: 208px;
     height: 50px;
     padding: 5px;
-    margin: 0 0 20px 30px;
+    margin: 0 0 12px 30px;
     font-weight: 600;
     font-size: 27px;
     line-height: 29px;
@@ -3330,7 +3340,7 @@ small {
     width: 220px;
     height: 50px;
     padding: 0;
-    margin: 0 0 20px 30px;
+    margin: 0 0 0 30px;
     color: #fff;
     font-weight: 500;
     font-size: 23px;
@@ -3342,7 +3352,7 @@ small {
     cursor: pointer;
   }
   .filter-holder .filter-container .reset .fa-times {
-    width: 30px;
+    width: 100%;
     padding: 0;
     margin: 0;
     font-size: 23px;
@@ -3359,22 +3369,21 @@ small {
   }
   .answers-holder .answer {
     float: left;
-    width: 238px;
+    width: 240px;
     padding: 20px;
-    margin: 0 0 10px 0;
+    margin: 0 0 14px 0;
     background: #f7f8ee url("../img/cream-dust.png") repeat;
-    border: 1px solid #000;
     border-bottom: 4px solid #333;
-    border-radius: 0 0 4px 4px;
+    border-radius: 6px 6px 6px 6px;
   }
   .answers-holder .answer h2 {
     float: left;
-    width: 238px;
+    width: 100%;
     margin: 0 0 14px 0;
     padding: 0 0 8px 0;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 23px;
-    line-height: 33px;
+    line-height: 29px;
     text-align: center;
     border-bottom: 2px solid #ccc;
   }
@@ -3383,15 +3392,15 @@ small {
     width: 100%;
     margin: 0 0 18px 0;
     padding: 0;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 29px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
     color: #444;
     text-align: center;
   }
   .answers-holder .answer .tag-holder {
     position: relative;
-    width: 238px;
+    width: 240px;
     padding: 0;
     margin: 0 auto;
   }
@@ -3399,14 +3408,15 @@ small {
     float: left;
     margin: 10px 8px 0 0;
     padding: 0;
-    background: #999 url("../img/asfalt-light.png") repeat;
-    border-bottom: 4px solid #333;
-    border-radius: 4px;
+    background: #8a0d4a;
+    border-bottom: 4px solid #4a0024;
+    border-radius: 6px 6px 6px 6px;
   }
   .answers-holder .answer .tag-holder .tag h5 {
     float: left;
     margin: 0;
-    padding: 8px 16px;
+    padding: 8px 16px 6px 16px;
+    font-style: italic;
     font-weight: 400;
     font-size: 15px;
     line-height: 15px;
@@ -3817,14 +3827,14 @@ small {
     float: left;
     width: 275px;
     padding: 20px 30px 20px 30px;
-    margin: 0 0 30px 20px;
+    margin: 0 0 20px 20px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
     float: left;
     width: 255px;
-    height: 54px;
-    padding: 4px 0 0 0;
+    height: 58px;
+    padding: 0;
     margin: 0 0 14px 10px;
     font-size: 27px;
     line-height: 27px;
@@ -3832,9 +3842,9 @@ small {
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     width: 255px;
-    height: 58px;
+    height: 62px;
     padding: 0;
-    margin: 0 0 10px 10px;
+    margin: 0 0 14px 10px;
     font-size: 27px;
     line-height: 27px;
   }
@@ -3845,8 +3855,8 @@ small {
     height: 58px;
     padding: 0;
     margin: 0 0 0 10px;
-    font-size: 31px;
-    line-height: 57px;
+    font-size: 32px;
+    line-height: 62px;
   }
   .content .locator .locator-results {
     width: 375px;
@@ -3855,38 +3865,39 @@ small {
   }
   .content .locator .locator-results h2 {
     width: 333px;
-    margin: 0 0 18px 20px;
+    margin: 0 0 22px 20px;
   }
   .content .locator .locator-results .locator-results-content {
-    width: 333px;
-    margin: 0 20px;
+    width: 313px;
+    margin: 0 30px;
   }
-  .content .locator .locator-results .locator-results-content .row {
+  .content .locator .locator-results .locator-results-content .row-container {
+    width: 313px;
     border-bottom: 1px solid #000;
   }
-  .content .locator .locator-results .locator-results-content .row p {
+  .content .locator .locator-results .locator-results-content .row-container p {
     font-size: 19px;
     line-height: 27px;
   }
-  .content .locator .locator-results .locator-results-content .row .pharmacy {
-    width: 293px;
-    padding: 12px 20px 12px 20px;
+  .content .locator .locator-results .locator-results-content .row-container .pharmacy {
+    width: 273px;
+    padding: 12px 20px 10px 20px;
   }
-  .content .locator .locator-results .locator-results-content .row .address {
-    width: 293px;
-    padding: 12px 20px 12px 20px;
+  .content .locator .locator-results .locator-results-content .row-container .address {
+    width: 273px;
+    padding: 12px 20px 10px 20px;
   }
-  .content .locator .locator-results .locator-results-content .row .phone {
-    width: 293px;
+  .content .locator .locator-results .locator-results-content .row-container .phone {
+    width: 273px;
     padding: 12px 20px 12px 20px;
   }
   .content .testimonals-holder {
     width: 335px;
-    margin: 0 0 0 20px;
+    margin: 0 0 40px 20px;
   }
   .content .testimonals-holder .testimonals {
     width: 335px;
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 255px;
@@ -3908,28 +3919,27 @@ small {
     line-height: 22px;
   }
   footer {
-    width: 100%;
-    height: 74px;
+    height: 78px;
   }
   footer .footer {
     width: 360px;
-    height: 74px;
+    height: 78px;
   }
   footer .footer .link {
     margin: 0 20px 0 0;
   }
   footer .footer .link p {
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 27px;
   }
   footer .footer .link.phone {
-    margin: 12px 50px 0 30px;
+    margin: 12px 50px 0 20px;
   }
   footer .footer .link.privacy {
     margin: 12px 0 0 0;
   }
   footer .footer .legal {
-    width: 160px;
+    width: 170px;
   }
   .contact-holder {
     float: left;
@@ -4129,14 +4139,8 @@ small {
   }
   .filter-holder {
     width: 335px;
-    padding: 0;
-    margin: 0 0 30px 20px;
-  }
-  .filter-holder h2 {
-    padding: 20px 0 0 0;
-    margin: 0 0 20px 0;
-    font-size: 28px;
-    line-height: 36px;
+    padding: 30px 0 20px 0;
+    margin: 0 0 20px 20px;
   }
   .filter-holder .filter-container {
     width: 335px;
@@ -4145,45 +4149,52 @@ small {
   }
   .filter-holder .filter-container select {
     width: 275px;
-    height: 60px;
+    height: 64px;
     padding: 0;
-    margin: 0 0 20px 30px;
+    margin: 0 0 12px 30px;
+    font-size: 27px;
+    line-height: 29px;
   }
   .filter-holder .filter-container input {
-    width: 263px;
-    height: 50px;
+    width: 275px;
+    height: 54px;
+    padding: 0;
+    margin: 0 0 12px 30px;
+    font-size: 27px;
+    line-height: 29px;
   }
   .filter-holder .filter-container .reset {
     width: 275px;
-    height: 50px;
+    height: 56px;
     padding: 0;
-    margin: 0 0 20px 30px;
+    margin: 0 0 0 30px;
   }
   .filter-holder .filter-container .reset .fa-times {
-    width: 30px;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+    font-size: 23px;
+    line-height: 56px;
   }
   .answers-holder {
     width: 335px;
   }
   .answers-holder .answer {
-    float: left;
-    width: 293px;
+    width: 295px;
     padding: 20px;
-    margin: 0 0 10px 0;
+    margin: 0 0 14px 0;
   }
   .answers-holder .answer h2 {
-    width: 293px;
+    font-size: 27px;
+    line-height: 35px;
   }
   .answers-holder .answer p {
-    padding: 0;
+    width: 275px;
+    padding: 0 10px;
     margin: 0 0 18px 0;
+    font-size: 19px;
+    line-height: 28px;
   }
   .answers-holder .answer .tag-holder {
     position: relative;
-    width: 293px;
+    width: 295px;
     padding: 0;
     margin: 0 auto;
   }
@@ -4401,7 +4412,7 @@ small {
   .content .locator .locator-zip,
   .content .locator .locator-state {
     width: 360px;
-    padding: 22px 20px 28px 20px;
+    padding: 22px 20px 24px 20px;
     margin: 0 0 20px 40px;
   }
   .content .locator .locator-zip h2,
@@ -4415,26 +4426,28 @@ small {
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
     width: 300px;
-    height: 58px;
-    margin: 0 20px 15px 30px;
-    font-size: 27px;
-    line-height: 27px;
+    height: 56px;
+    margin: 0 20px 14px 30px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     width: 300px;
-    height: 52px;
-    margin: 0 0 15px 30px;
-    font-size: 27px;
-    line-height: 27px;
+    height: 60px;
+    padding: 0 0 0 30px;
+    margin: 0 0 14px 30px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
     width: 300px;
     height: 58px;
+    padding: 0;
     margin: 0 0 0 30px;
     font-size: 31px;
-    line-height: 57px;
+    line-height: 61px;
   }
   .content .locator .locator-results {
     width: 480px;
@@ -4444,29 +4457,32 @@ small {
   .content .locator .locator-results h2 {
     width: 440px;
     margin: 0 0 18px 20px;
+    font-size: 31px;
+    line-height: 39px;
   }
   .content .locator .locator-results .locator-results-content {
-    width: 398px;
+    width: 400px;
     margin: 0 40px;
   }
-  .content .locator .locator-results .locator-results-content .row {
+  .content .locator .locator-results .locator-results-content .row-container {
+    width: 400px;
     border-bottom: 1px solid #000;
   }
-  .content .locator .locator-results .locator-results-content .row p {
+  .content .locator .locator-results .locator-results-content .row-container p {
     font-size: 20px;
     line-height: 28px;
   }
-  .content .locator .locator-results .locator-results-content .row .pharmacy {
-    width: 338px;
-    padding: 12px 30px 12px 30px;
+  .content .locator .locator-results .locator-results-content .row-container .pharmacy {
+    width: 340px;
+    padding: 12px 30px 10px 30px;
   }
-  .content .locator .locator-results .locator-results-content .row .address {
-    width: 338px;
-    padding: 12px 30px 12px 30px;
+  .content .locator .locator-results .locator-results-content .row-container .address {
+    width: 340px;
+    padding: 12px 30px 10px 30px;
   }
-  .content .locator .locator-results .locator-results-content .row .phone {
-    width: 338px;
-    padding: 12px 30px 12px 30px;
+  .content .locator .locator-results .locator-results-content .row-container .phone {
+    width: 340px;
+    padding: 12px 30px 10px 30px;
   }
   .content .testimonals-holder {
     width: 400px;
@@ -4510,7 +4526,7 @@ small {
     line-height: 26px;
   }
   footer .footer .link.phone {
-    margin: 12px 90px 0 30px;
+    margin: 12px 70px 0 50px;
   }
   footer .footer .link.privacy {
     margin: 12px 0 0 0;
@@ -4812,128 +4828,59 @@ small {
     height: 500px;
   }
   .filter-holder {
-    float: left;
     width: 400px;
-    padding: 20px;
-    margin: 50px 0 30px 0;
-    background: #999 url("../img/asfalt-light.png") repeat;
-    border-bottom: 4px solid #333;
-    border-radius: 4px;
-  }
-  .filter-holder h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 2px 2px 0px #000;
+    padding: 26px 0 22px 0;
+    margin: 0 0 20px 40px;
   }
   .filter-holder .filter-container {
-    float: left;
     width: 370px;
-    padding: 0;
     margin: 0 0 0 30px;
   }
   .filter-holder .filter-container select {
-    float: left;
     width: 340px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-weight: 600;
+    height: 58px;
+    margin: 0 0 14px 0;
     font-size: 27px;
     line-height: 29px;
-    background: transparent;
-    border: none;
-    background: #fff;
-    border: 1px solid #aaa;
-    border-bottom: 4px solid #333;
-    border-radius: 8px;
-    text-align: center;
-    appearance: none;
   }
   .filter-holder .filter-container input {
-    float: left;
     width: 340px;
-    height: 50px;
+    height: 56px;
     padding: 0;
-    margin: 0 0 20px 0;
-    font-weight: 600;
+    margin: 0 0 14px 0;
     font-size: 27px;
     line-height: 29px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-bottom: 4px solid #333;
-    border-radius: 8px;
   }
   .filter-holder .filter-container .reset {
-    float: left;
     width: 340px;
-    height: 50px;
-    padding: 0;
+    height: 56px;
     margin: 0;
-    background: #000;
-    color: #fff;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 54px;
-    text-align: center;
-    border: none;
-    border-bottom: 4px solid #333;
-    border-radius: 8px;
-    cursor: pointer;
   }
   .filter-holder .filter-container .reset .fa-times {
-    width: 50px;
-    padding: 0;
-    margin: 0;
-    font-size: 29px;
-    line-height: 54px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 2px 2px 0px #000;
+    font-size: 24px;
+    line-height: 57px;
   }
   .answers-holder {
-    float: left;
-    width: 440px;
-    padding: 0;
-    margin: 0 0 20px 0;
+    width: 400px;
+    margin: 0 0 20px 40px;
   }
   .answers-holder .answer {
-    float: left;
-    width: 400px;
-    padding: 20px;
-    margin: 0 0 20px 0;
-    background: #fff;
-    border: 1px solid #000;
-    border-bottom: 4px solid #333;
-    border-radius: 0 0 4px 4px;
+    width: 320px;
+    padding: 22px 40px 20px 40px;
+    margin: 0 0 14px 0;
   }
   .answers-holder .answer h2 {
-    float: left;
-    width: 400px;
     margin: 0 0 14px 0;
     padding: 0 0 8px 0;
-    font-weight: 600;
-    font-size: 23px;
-    line-height: 33px;
-    text-align: center;
-    border-bottom: 2px solid #ccc;
+    font-size: 28px;
+    line-height: 36px;
   }
   .answers-holder .answer p {
-    float: left;
-    width: 100%;
-    margin: 0 0 18px 0;
+    width: 320px;
     padding: 0;
-    font-weight: 400;
+    margin: 0 0 10px 0;
     font-size: 17px;
     line-height: 29px;
-    color: #444;
-    text-align: center;
   }
   .answers-holder .answer .tag-holder {
     position: relative;
@@ -5224,27 +5171,28 @@ small {
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
     width: 300px;
-    height: 56px;
-    padding: 8px 0 0 0;
-    margin: 0 20px 15px 30px;
-    font-size: 27px;
-    line-height: 27px;
+    height: 60px;
+    padding: 0;
+    margin: 0 20px 14px 30px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     width: 300px;
     height: 64px;
-    margin: 0 0 15px 30px;
-    font-size: 27px;
-    line-height: 27px;
+    padding: 2px 0 0 30px;
+    margin: 0 0 14px 30px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
     width: 300px;
     height: 64px;
     margin: 0 0 0 30px;
-    font-size: 31px;
-    line-height: 63px;
+    font-size: 33px;
+    line-height: 68px;
   }
   .content .locator .locator-results {
     width: 520px;
@@ -5257,27 +5205,28 @@ small {
     margin: 0 0 18px 40px;
   }
   .content .locator .locator-results .locator-results-content {
-    width: 438px;
+    width: 440px;
     margin: 0 40px;
   }
-  .content .locator .locator-results .locator-results-content .row {
+  .content .locator .locator-results .locator-results-content .row-container {
+    width: 440px;
     border-bottom: 1px solid #000;
   }
-  .content .locator .locator-results .locator-results-content .row p {
+  .content .locator .locator-results .locator-results-content .row-container p {
     font-size: 20px;
     line-height: 28px;
   }
-  .content .locator .locator-results .locator-results-content .row .pharmacy {
-    width: 378px;
-    padding: 12px 30px 12px 30px;
+  .content .locator .locator-results .locator-results-content .row-container .pharmacy {
+    width: 380px;
+    padding: 12px 30px 10px 30px;
   }
-  .content .locator .locator-results .locator-results-content .row .address {
-    width: 378px;
-    padding: 12px 30px 12px 30px;
+  .content .locator .locator-results .locator-results-content .row-container .address {
+    width: 380px;
+    padding: 12px 30px 10px 30px;
   }
-  .content .locator .locator-results .locator-results-content .row .phone {
-    width: 378px;
-    padding: 12px 30px 12px 30px;
+  .content .locator .locator-results .locator-results-content .row-container .phone {
+    width: 380px;
+    padding: 12px 30px 10px 30px;
   }
   .content .testimonals-holder {
     width: 400px;
@@ -5589,87 +5538,54 @@ small {
     height: 500px;
   }
   .filter-holder {
-    float: left;
-    width: 480px;
-    padding: 20px;
-    margin: 50px 0 30px 0;
-  }
-  .filter-holder h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
+    width: 520px;
+    padding: 24px 0 20px;
     margin: 0 0 20px 0;
   }
   .filter-holder .filter-container {
-    float: left;
-    width: 480px;
-    padding: 0;
-    margin: 0;
-  }
-  .filter-holder .filter-container select {
-    float: left;
-    width: 340px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 20px 70px;
+    width: 400px;
+    margin: 0 0 0 60px;
   }
   .filter-holder .filter-container input {
-    float: left;
-    width: 340px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 20px 70px;
-    font-weight: 600;
+    width: 400px;
+    height: 56px;
+    margin: 0 0 14px 0;
+    font-size: 27px;
+    line-height: 29px;
   }
   .filter-holder .filter-container .reset {
-    float: left;
-    width: 340px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 0 70px;
-    background: #000;
+    width: 400px;
+    height: 56px;
+    margin: 0 0 0 0;
   }
   .filter-holder .filter-container .reset .fa-times {
-    width: 50px;
-    padding: 0;
-    margin: 0;
-    font-size: 29px;
-    line-height: 54px;
+    font-size: 27px;
+    line-height: 57px;
   }
   .answers-holder {
-    float: left;
-    width: 480px;
-    padding: 0;
+    width: 520px;
     margin: 0 0 20px 0;
   }
   .answers-holder .answer {
-    float: left;
-    width: 480px;
-    padding: 20px;
-    margin: 0 0 20px 0;
+    width: 420px;
+    padding: 28px 50px 20px 50px;
+    margin: 0 0 18px 0;
   }
   .answers-holder .answer h2 {
-    float: left;
-    width: 100%;
-    margin: 0 0 14px 0;
+    margin: 0 0 18px 0;
     padding: 0 0 8px 0;
-    font-size: 26px;
-    line-height: 33px;
+    font-size: 31px;
+    line-height: 41px;
   }
   .answers-holder .answer p {
-    float: left;
-    width: 100%;
+    width: 400px;
+    padding: 0 10px;
     margin: 0 0 18px 0;
-    padding: 0;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 32px;
   }
   .answers-holder .answer .tag-holder {
-    position: relative;
     width: 340px;
-    padding: 0;
-    margin: 0 auto;
   }
   .answers-holder .answer .tag-holder .tag {
     float: left;
@@ -5935,27 +5851,33 @@ small {
   .content .locator .locator-zip h2,
   .content .locator .locator-state h2 {
     width: 284px;
-    margin: 0 0 18px 10px;
+    margin: 0 0 26px 10px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
     width: 304px;
-    height: 56px;
-    padding: 8px 0 0 0;
+    height: 62px;
+    padding: 0;
     margin: 0 0 14px 0;
+    font-size: 29px;
+    line-height: 29px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     width: 304px;
-    height: 67px;
+    height: 66px;
     padding: 0;
     margin: 0 0 14px 0;
+    font-size: 29px;
+    line-height: 29px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
     width: 304px;
     padding: 0;
-    margin: 0 0 0 0;
+    margin: 0;
+    font-size: 31px;
+    line-height: 69px;
     text-shadow: 2px 2px 0px #000;
   }
   .content .locator .locator-results {
@@ -5966,32 +5888,34 @@ small {
   }
   .content .locator .locator-results h2 {
     width: 708px;
-    margin: 0 0 24px 0;
+    margin: 0 0 32px 0;
     font-size: 37px;
     line-height: 46px;
   }
   .content .locator .locator-results .locator-results-content {
-    width: 628px;
+    width: 648px;
     margin: 0 40px;
   }
   .content .locator .locator-results .locator-results-content .row-container {
+    width: 304px;
+    margin: 0 20px 14px 0;
     border-bottom: 1px solid #000;
   }
   .content .locator .locator-results .locator-results-content .row-container p {
-    font-size: 22px;
-    line-height: 31px;
+    font-size: 20px;
+    line-height: 29px;
   }
   .content .locator .locator-results .locator-results-content .row-container .pharmacy {
-    width: 508px;
-    padding: 14px 60px 14px 60px;
+    width: 264px;
+    padding: 14px 20px 12px 20px;
   }
   .content .locator .locator-results .locator-results-content .row-container .address {
-    width: 508px;
-    padding: 14px 60px 14px 60px;
+    width: 264px;
+    padding: 14px 20px 12px 20px;
   }
   .content .locator .locator-results .locator-results-content .row-container .phone {
-    width: 508px;
-    padding: 14px 60px 14px 60px;
+    width: 264px;
+    padding: 14px 20px 12px 20px;
   }
   .content .testimonals-holder {
     width: 728px;
@@ -6368,81 +6292,48 @@ small {
     height: 500px;
   }
   .filter-holder {
-    float: left;
-    width: 480px;
-    padding: 20px;
-    margin: 50px 0 30px 0;
-  }
-  .filter-holder h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 20px 0;
+    width: 568px;
+    padding: 32px 50px 26px 50px;
+    margin: 0 0 30px 20px;
   }
   .filter-holder .filter-container {
-    float: left;
-    width: 480px;
-    padding: 0;
+    width: 568px;
     margin: 0;
-  }
-  .filter-holder .filter-container select {
-    float: left;
-    width: 340px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 20px 70px;
   }
   .filter-holder .filter-container input {
-    float: left;
-    width: 340px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 20px 70px;
-    font-weight: 600;
+    width: 568px;
+    height: 74px;
+    margin: 0 0 18px 0;
   }
   .filter-holder .filter-container .reset {
-    float: left;
-    width: 340px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 0 70px;
-    background: #000;
+    width: 568px;
+    height: 66px;
   }
   .filter-holder .filter-container .reset .fa-times {
-    width: 50px;
-    padding: 0;
-    margin: 0;
-    font-size: 29px;
-    line-height: 54px;
+    font-size: 28px;
+    line-height: 66px;
   }
   .answers-holder {
-    float: left;
-    width: 480px;
-    padding: 0;
-    margin: 0 0 20px 0;
+    width: 568px;
+    margin: 0 0 20px 20px;
   }
   .answers-holder .answer {
-    float: left;
-    width: 480px;
-    padding: 20px;
-    margin: 0 0 20px 0;
+    width: 548px;
+    padding: 32px 60px 30px 60px;
+    margin: 0 0 16px 0;
   }
   .answers-holder .answer h2 {
-    float: left;
-    width: 100%;
-    margin: 0 0 14px 0;
+    margin: 0 0 22px 0;
     padding: 0 0 8px 0;
-    font-size: 26px;
-    line-height: 33px;
+    font-size: 38px;
+    line-height: 49px;
   }
   .answers-holder .answer p {
-    float: left;
-    width: 100%;
+    width: 528px;
+    padding: 0 10px;
     margin: 0 0 18px 0;
-    padding: 0;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 29px;
+    font-size: 23px;
+    line-height: 35px;
   }
   .answers-holder .answer .tag-holder {
     position: relative;
@@ -7083,79 +6974,46 @@ small {
     height: 500px;
   }
   .filter-holder {
-    float: left;
     width: 480px;
     padding: 20px;
     margin: 50px 0 30px 0;
   }
-  .filter-holder h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 20px 0;
-  }
   .filter-holder .filter-container {
-    float: left;
     width: 480px;
-    padding: 0;
-    margin: 0;
-  }
-  .filter-holder .filter-container select {
-    float: left;
-    width: 340px;
-    height: 50px;
-    padding: 0;
-    margin: 0 0 20px 70px;
   }
   .filter-holder .filter-container input {
-    float: left;
     width: 340px;
     height: 50px;
     padding: 0;
     margin: 0 0 20px 70px;
-    font-weight: 600;
   }
   .filter-holder .filter-container .reset {
-    float: left;
     width: 340px;
     height: 50px;
-    padding: 0;
     margin: 0 0 0 70px;
-    background: #000;
   }
   .filter-holder .filter-container .reset .fa-times {
     width: 50px;
-    padding: 0;
-    margin: 0;
     font-size: 29px;
     line-height: 54px;
   }
   .answers-holder {
-    float: left;
     width: 480px;
-    padding: 0;
     margin: 0 0 20px 0;
   }
   .answers-holder .answer {
-    float: left;
     width: 480px;
     padding: 20px;
     margin: 0 0 20px 0;
   }
   .answers-holder .answer h2 {
-    float: left;
-    width: 100%;
     margin: 0 0 14px 0;
     padding: 0 0 8px 0;
     font-size: 26px;
     line-height: 33px;
   }
   .answers-holder .answer p {
-    float: left;
-    width: 100%;
     margin: 0 0 18px 0;
-    padding: 0;
-    font-weight: 400;
     font-size: 19px;
     line-height: 29px;
   }
@@ -7402,7 +7260,7 @@ small {
   }
   .content .locator .locator-zip {
     width: 300px;
-    padding: 22px 40px 20px 40px;
+    padding: 22px 40px 24px 40px;
     margin: 0 0 20px 0;
   }
   .content .locator .locator-zip h2 {
@@ -7416,18 +7274,18 @@ small {
     height: 52px;
     padding: 0 0 0 0;
     margin: 0 20px 0 0;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .content .locator .locator-zip .submit {
     width: 120px;
     height: 52px;
-    font-size: 27px;
-    line-height: 54px;
+    font-size: 26px;
+    line-height: 56px;
   }
   .content .locator .locator-state {
     width: 520px;
-    padding: 22px 40px 20px 40px;
+    padding: 22px 40px 24px 40px;
     margin: 0 20px 20px 0;
   }
   .content .locator .locator-state h2 {
@@ -7448,43 +7306,48 @@ small {
   .content .locator .locator-state .submit {
     width: 120px;
     height: 52px;
-    font-size: 27px;
-    line-height: 54px;
+    font-size: 26px;
+    line-height: 56px;
   }
   .content .locator .locator-results {
     width: 1000px;
-    padding: 28px 0 40px 0;
+    padding: 28px 0 30px 0;
     margin: 0 0 30px 0;
-    border-radius: 12px;
+    border-radius: 6px 6px 6px 6px;
+    background: #999 url("../img/asfalt-light.png") repeat;
   }
   .content .locator .locator-results h2 {
     width: 100%;
-    margin: 0 0 24px 0;
+    margin: 0 0 34px 0;
     font-size: 43px;
     line-height: 56px;
   }
   .content .locator .locator-results .locator-results-content {
-    width: 800px;
+    width: 850px;
     margin: 0 100px;
   }
   .content .locator .locator-results .locator-results-content .row-container {
     border-bottom: 1px solid #000;
+    background: #f7f8ee url("../img/cream-dust.png") repeat;
+    width: 390px;
+    padding: 0;
+    margin: 0 20px 12px 0;
   }
   .content .locator .locator-results .locator-results-content .row-container p {
     font-size: 20px;
     line-height: 29px;
   }
   .content .locator .locator-results .locator-results-content .row-container .pharmacy {
-    width: 620px;
-    padding: 16px 90px 16px 90px;
+    width: 350px;
+    padding: 16px 20px 14px 20px;
   }
   .content .locator .locator-results .locator-results-content .row-container .address {
-    width: 620px;
-    padding: 16px 90px 16px 90px;
+    width: 350px;
+    padding: 16px 20px 14px 20px;
   }
   .content .locator .locator-results .locator-results-content .row-container .phone {
-    width: 620px;
-    padding: 16px 90px 16px 90px;
+    width: 350px;
+    padding: 16px 20px 14px 20px;
   }
   .content .testimonals-holder {
     width: 1020px;
@@ -7523,8 +7386,8 @@ small {
     margin: 0;
   }
   footer .footer .link p {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 19px;
+    line-height: 28px;
   }
   footer .footer .link.email {
     margin: 14px 70px 0 50px;
@@ -7541,22 +7404,9 @@ small {
   footer .footer .legal {
     width: 320px;
   }
-  h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 28px 0;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 29px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 2px 2px 0px #000;
-  }
   .filter-holder {
-    float: left;
     width: 878px;
-    padding: 28px 60px 24px 60px;
+    padding: 28px 60px 20px 60px;
     margin: 0 0 30px 0;
   }
   .filter-holder .filter-container {
@@ -7566,65 +7416,50 @@ small {
     margin: 0;
   }
   .filter-holder .filter-container select {
-    float: left;
+    display: block;
     width: 258px;
     height: 66px;
     padding: 0;
     margin: 0 20px 0 0;
-    font-weight: 600;
     font-size: 27px;
-    background: transparent;
-    border: none;
-    background: #fff;
-    border: 1px solid #aaa;
-    border-bottom: 4px solid #333;
-    border-radius: 8px;
-    text-align: center;
-    appearance: none;
   }
   .filter-holder .filter-container input {
-    float: left;
     width: 498px;
     height: 60px;
-    padding: 0;
     margin: 0 20px 0 0;
-    font-weight: 600;
     font-size: 27px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-bottom: 4px solid #333;
-    border-radius: 8px;
   }
   .filter-holder .filter-container .reset {
-    float: left;
+    margin: 0;
+    padding: 0;
     width: 78px;
     height: 60px;
-    padding: 0;
-    margin: 0;
   }
   .filter-holder .filter-container .reset .fa-times {
+    width: 100%;
     font-size: 23px;
-    line-height: 66px;
+    line-height: 61px;
   }
   .answers-holder {
-    float: left;
     width: 1020px;
     padding: 0;
     margin: 0 0 20px 0;
   }
   .answers-holder .answer {
     width: 258px;
-    padding: 24px 30px 20px 30px;
+    padding: 24px 30px 10px 30px;
     margin: 0 20px 20px 0;
   }
   .answers-holder .answer h2 {
     width: 258px;
-    margin: 0 0 14px 0;
+    margin: 0 0 16px 0;
     padding: 0 0 8px 0;
     font-size: 25px;
-    line-height: 35px;
+    line-height: 31px;
   }
   .answers-holder .answer p {
+    width: 258px;
+    padding: 0;
     margin: 0 0 24px 0;
     font-size: 17px;
     line-height: 29px;

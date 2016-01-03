@@ -5,7 +5,7 @@
       <div class="filter-holder">
         <div class="filter-container">
           <select type="text" data-ng-model="dropdown"></select>
-          <input type="text" data-ng-model="filter"/>
+          <input type="text" data-ng-model="filter" placeholder="Enter Your Search Here"/>
           <div data-ng-click="reset();" class="reset"><span class="fa fa-times"></span></div>
         </div>
       </div>
@@ -13,11 +13,6 @@
         <div ng-repeat="answer in answers| filter: {title: filter}" class="answer">
           <h2 ng-bind="::answer.title"></h2>
           <p ng-bind="::answer.content"></p>
-          <div class="tag-holder">
-            <div ng-repeat="keyword in answer.keywords" class="tag">
-              <h5 ng-bind="::keyword.value"></h5>
-            </div>
-          </div>
         </div>
       </div>
     </div>

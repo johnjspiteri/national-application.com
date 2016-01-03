@@ -5,7 +5,7 @@
             .filter-holder
                 .filter-container
                     select(type="text", data-ng-model='dropdown')
-                    input(type="text", data-ng-model='filter')
+                    input(type="text", data-ng-model='filter', placeholder='Enter Your Search Here')
                     .reset(data-ng-click='reset();')
                         span.fa.fa-times
 
@@ -13,6 +13,6 @@
                 .answer(ng-repeat="answer in answers| filter: {title: filter}")
                     h2(ng-bind="::answer.title")
                     p(ng-bind="::answer.content")
-                    .tag-holder
-                        .tag(ng-repeat="keyword in answer.keywords")
-                            h5(ng-bind="::keyword.value")
+                    //- .tag-holder
+                    //-     .tag(ng-repeat="keyword in answer.keywords")
+                    //-         h5(ng-bind="::keyword.value")
