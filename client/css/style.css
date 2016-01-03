@@ -2570,7 +2570,7 @@ small {
   .content .main .download .tag {
     float: left;
     width: 61px;
-    padding: 12px 0 10px 0;
+    padding: 12px 0 8px 0;
     margin: 0 12px 0 0;
     background: #8a0d4a;
     border-bottom: 3px solid #4a0024;
@@ -2579,13 +2579,13 @@ small {
   }
   .content .main .download .tag p {
     float: left;
-    width: 100%;
+    width: 51px;
     padding: 0;
-    margin: 0;
+    margin: 0 5px;
     font-weight: 600;
     color: #fff;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 20px;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
   }
@@ -2597,14 +2597,14 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    height: 32px;
+    height: 28px;
     font-size: 22px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
   }
   .content .main .download .tag .fa-mobile {
-    height: 40px;
+    height: 36px;
     margin: -8px 0 0 -2px;
     font-size: 35px;
   }
@@ -7070,6 +7070,7 @@ small {
   }
   .content .main .download .tag p {
     margin: 0;
+    width: 112px;
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
