@@ -1,13 +1,28 @@
 (function() {
     'use strict';
 
-    function About ($scope, uiGmapGoogleMapApi) {
+    function About ($scope, $document, contact, uiGmapGoogleMapApi) {
 
-        $scope.contact = true;
+        $scope.contacted = false;
 
-        $scope.toggle = function() {
-            $scope.contact = !$scope.contact;
+        $scope.toTheTop = function() {
+            $document.scrollTopAnimated(0);
         };
+
+        $scope.sendContact = function () {
+            contact.create({
+                id: '',
+                name: $scope.data.name,
+                email: $scope.data.email,
+                phone: $scope.data.phone,
+                message: $scope.data.message,
+            });
+            $scope.data = {};
+            $scope.contacted = true;
+            $scope.toTheTop();
+        };
+
+
         $scope.map = {
             center: {
                 latitude: 43.648125,
@@ -33,7 +48,6 @@
             },
             options: {
                 draggable: false,
-                icon: '/img/car-icon.png',
             }
         };
 
@@ -45,6 +59,6 @@
         .module('app.about')
         .controller('About', About);
 
-    About.$inject = ['$scope', 'uiGmapGoogleMapApi'];
+    About.$inject = ['$scope', '$document', 'contact', 'uiGmapGoogleMapApi'];
 
 })();

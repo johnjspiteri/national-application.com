@@ -8,20 +8,20 @@
                     a(href="tel:+1-855-525-6375") 1-855 525-6375
                     h4 13 Super Success Highway West<br> Portland, Oregon, 14530
 
-            form.contact-form(ng-show='contact')
+            form.contact-form(name='user', id='user', data-ng-model='data', data-ng-submit='sendContact(user.$valid)', ng-show='!contacted', novalidate)
                 .row
                     input(type="text", data-ng-model='data.name', placeholder="Name", required)
 
                 .row
-                    input(type="text", data-ng-model='data.email', placeholder="Email", required)
+                    input(type="email", data-ng-model='data.email', placeholder="Email", required)
 
                 .row
-                    input(type="text", data-ng-model='data.phone', placeholder="Phone", required)
+                    input(type="text", data-ng-model='data.phone', placeholder="Phone")
                 .row
                     textarea(data-ng-model='data.message',placeholder="Message", required)
-                button.submit(type="button", data-ng-click='toggle();', data-ng-model='data.message', name="submit") Submit
+                button.submit(type='submit', ng-disabled='user.$invalid') Submit
 
-            .contact-detail(data-ng-click='toggle();', ng-show='!contact')
+            .contact-detail(ng-show='contacted')
                 h2 Thank You<br>{{data.name}} for Using The National Rx Card
                 .contact-container
                     h3 We appreciate your time contact us, and we will respond within one business day.

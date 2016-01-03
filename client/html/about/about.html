@@ -8,22 +8,22 @@
           <h4>13 Super Success Highway West<br> Portland, Oregon, 14530</h4>
         </div>
       </div>
-      <form ng-show="contact" class="contact-form">
+      <form name="user" id="user" data-ng-model="data" data-ng-submit="sendContact(user.$valid)" ng-show="!contacted" novalidate="novalidate" class="contact-form">
         <div class="row">
           <input type="text" data-ng-model="data.name" placeholder="Name" required="required"/>
         </div>
         <div class="row">
-          <input type="text" data-ng-model="data.email" placeholder="Email" required="required"/>
+          <input type="email" data-ng-model="data.email" placeholder="Email" required="required"/>
         </div>
         <div class="row">
-          <input type="text" data-ng-model="data.phone" placeholder="Phone" required="required"/>
+          <input type="text" data-ng-model="data.phone" placeholder="Phone"/>
         </div>
         <div class="row">
           <textarea data-ng-model="data.message" placeholder="Message" required="required"></textarea>
         </div>
-        <button type="button" data-ng-click="toggle();" data-ng-model="data.message" name="submit" class="submit">Submit</button>
+        <button type="submit" ng-disabled="user.$invalid" class="submit">Submit</button>
       </form>
-      <div data-ng-click="toggle();" ng-show="!contact" class="contact-detail">
+      <div ng-show="contacted" class="contact-detail">
         <h2>Thank You<br>{{data.name}} for Using The National Rx Card</h2>
         <div class="contact-container">
           <h3>We appreciate your time contact us, and we will respond within one business day.</h3>
