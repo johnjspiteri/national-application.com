@@ -10,7 +10,7 @@
                 views: {
                     'page@': {
                         templateUrl: 'about/about.html',
-                        // controller: 'About',
+                        controller: 'About',
                     },
                 }
             });

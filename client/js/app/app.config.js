@@ -3,7 +3,7 @@
 
     function config ($compileProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
 
-        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|chrome-extension):/);
+        // $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|chrome-extension):/);
         // //  $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|mailto|data:image|chrome-extension):/);
 
         uiGmapGoogleMapApiProvider.configure({
