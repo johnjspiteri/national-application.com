@@ -2,7 +2,7 @@
     .modal-container
         .fa.fa-close(data-ng-click="close();")
         .row
-            input(type="text", data-ng-model='data.destination', placeholder="416 588-3989" data-ng-min='10', data-ng-max='10', required)
+            input(type="text", data-ng-model='data.destination', ng-init='data.destination="416 588-3989"' data-ng-min='10', data-ng-max='10', required)
         .submit(data-ng-click='text();') Text Me A Free<br>Rx Discount Card
         .card-modal
             .card-logo
@@ -34,7 +34,6 @@
         .legal
             p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.
             p <b><i>Note To Utah Residents:</i></b> This discount card program is not protected by the Utah Life and Health Guaranty Association.
-            p NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT:<br>
-            <a ng-href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a>
+            p NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT: <a ng-href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a>
 
 #panel(data-ng-show='display')

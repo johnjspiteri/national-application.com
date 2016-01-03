@@ -15,24 +15,22 @@ header
             .tile.first(ui-sref='frontend.index', data-ng-class="{active: $state.includes('frontend.index')}")
                 h4 Get Your Free<br>Savings Card
 
-//-
-//- md-sidenav(md-component-id="navigationPanel", class="md-sidenav-left md-closed")
-//-     .side
-//-         ul
-//-             li.close
-//-                 .fa.fa-long-arrow-left(ng-click="close();")
-//-
-//-             li(ui-sref='frontend.about', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.about')}")
-//-                 h4 About
-//-
-//-             li(ui-sref='frontend.testimonial', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.testimonial')}")
-//-                 h4 Testimonials
-//-
-//-             li(ui-sref='frontend.question', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.question')}")
-//-                 h4 FAQ
-//-
-//-             li(ui-sref='frontend.index', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.index')}")
-//-                 h4 Savings Card
-//-
-//-
-//- #panel(ng-show='display')
+
+md-sidenav(md-component-id="navigationPanel", class="md-sidenav-left md-closed")
+    .side
+        ul
+            li.close
+                .fa.fa-long-arrow-left(ng-click="close();")
+            li(ui-sref='frontend.index', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.index')}")
+                h4 Savings Card
+
+            li(ui-sref='frontend.question', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.question')}")
+                h4 FAQ
+
+            li(ui-sref='frontend.testimonial', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.testimonial')}")
+                h4 Testimonials
+
+            li(ui-sref='frontend.about', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.about')}")
+                h4 About
+
+#panel(ng-show='display')

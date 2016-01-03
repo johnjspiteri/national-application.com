@@ -2353,7 +2353,6 @@ small {
     margin: 0;
   }
   header .header .brand .logo {
-    display: none;
     float: left;
     width: 250px;
     padding: 0;
@@ -2366,12 +2365,13 @@ small {
   }
   header .header .brand .mobile-navigation {
     float: left;
-    width: 278px;
+    width: 280px;
     padding: 10px 0 8px 0;
     margin: 0;
     background: #8a0d4a;
     border-bottom: 4px solid #4a0024;
-    border-radius: 4px;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
   }
   header .header .brand .mobile-navigation h5 {
     float: left;
@@ -2470,7 +2470,7 @@ small {
     float: left;
     width: 100%;
     margin: 0 0 6px 0;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 29px;
     line-height: 35px;
     color: #222;
@@ -2489,9 +2489,9 @@ small {
     font-weight: 500;
     font-size: 19px;
     line-height: 19px;
-    color: #9e1e4c;
+    color: #444;
     text-align: left;
-    text-shadow: 2px 1px 0 #fff;
+    text-shadow: 1px 1px 0 #ddd;
   }
   .card .card-content .company span,
   .card-modal .card-content .company span {
@@ -2516,21 +2516,21 @@ small {
     padding: 0;
     margin: 0 0 22px 0;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    color: #222;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: 2px 1px 0 #fff;
+    text-shadow: 1px 1px 0 #ddd;
   }
   .card .card-content .patient-holder .row,
   .card-modal .card-content .patient-holder .row {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 19px 0;
+    margin: 0 0 8px 0;
   }
   .card .card-content .patient-holder .row p,
   .card-modal .card-content .patient-holder .row p {
@@ -2539,10 +2539,9 @@ small {
     padding: 0;
     margin: 0;
     font-weight: 700;
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 12px;
+    line-height: 12px;
     color: #777;
-    text-shadow: 2px 1px 0 #fff;
   }
   .page {
     position: relative;
@@ -2882,7 +2881,7 @@ small {
     line-height: 32px;
     color: #000;
     text-align: center;
-    text-shadow: 2px 1px 0 #fff;
+    text-shadow: 1px 1px 0 #ddd;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     float: left;
@@ -2893,7 +2892,7 @@ small {
     line-height: 27px;
     margin: 0 0 12px 0;
     text-align: center;
-    text-shadow: 2px 1px 0 #fff;
+    text-shadow: 1px 1px 0 #ddd;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     float: left;
@@ -2905,7 +2904,7 @@ small {
     font-size: 22px;
     line-height: 22px;
     text-align: center;
-    text-shadow: 2px 1px 0 #fff;
+    text-shadow: 1px 1px 0 #ddd;
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: none;
@@ -2961,7 +2960,7 @@ small {
     line-height: 20px;
     color: #9e1e4c;
     text-align: center;
-    text-shadow: $dark-shadow;
+    text-shadow: 1px 1px 0 #ddd;
   }
   .contact-holder .contact-detail .contact-container h4 {
     float: left;
@@ -3030,7 +3029,7 @@ small {
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
     box-shadow: 1px 1px 4px #aaa;
     text-align: center;
-    text-shadow: $dark-shadow;
+    text-shadow: 1px 1px 0 #ddd;
     vertical-align: middle;
     user-select: none;
     cursor: pointer;
@@ -3091,22 +3090,34 @@ small {
   .modal-holder .modal-container {
     float: left;
     width: 280px;
-    padding: 14px 10px 28px 10px;
-    margin: 8px 0 0 0;
-    background: $background-texture;
+    padding: 14px 10px 18px 10px;
+    margin: 8px 0 12px 0;
+    background: #999 url("../img/asfalt-light.png") repeat;
     border: 1px solid #aaa;
-    border-radius: 4px;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .modal-holder .modal-container .print {
+    float: left;
+    width: 280px;
+    border-bottom: 3px solid #444;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .modal-holder .modal-container .print img {
+    float: left;
+    width: 280px;
+    border-radius: 6px 6px 6px 6px;
   }
   .modal-holder .modal-container .fa-close {
     float: left;
     width: 20px;
     padding: 0;
-    margin: 0 0 12px 130px;
+    margin: 0 0 16px 130px;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 25px;
-    color: #444;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
     text-align: center;
+    text-shadow: 1px 1px 0 #ddd;
     cursor: pointer;
   }
   .modal-holder .modal-container .row {
@@ -3117,39 +3128,43 @@ small {
   }
   .modal-holder .modal-container .row input {
     float: left;
-    width: 278px;
-    height: 58px;
-    padding: 4px 0 0 0;
+    width: 280px;
+    height: 60px;
+    padding: 0;
     margin: 0 0 12px 0;
-    font-size: 25px;
-    line-height: 25px;
-    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
     background: #fff;
     border: none;
-    border-bottom: 4px solid #666;
-    border-radius: 8px;
+    border-bottom: 4px solid #444;
+    border-radius: 6px 6px 6px 6px;
+    text-align: center;
   }
   .modal-holder .modal-container .submit {
     float: left;
-    width: 278px;
-    padding: 8px 0 6px 0;
-    margin: 0 0 14px 0;
+    width: 280px;
+    padding: 12px 0 10px 0;
+    margin: 0 0 18px 0;
     font-weight: 600;
-    font-size: 25px;
-    line-height: 28px;
+    font-size: 29px;
+    line-height: 34px;
     color: #fff;
     background: #8a0d4a;
     border: none;
     border-bottom: 4px solid #4a0024;
-    border-radius: 8px;
+    border-radius: 6px 6px 6px 6px;
     box-shadow: none;
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
     box-shadow: 1px 1px 4px #aaa;
     text-align: center;
-    text-shadow: $dark-shadow;
+    text-shadow: 2px 2px 0px #000;
     vertical-align: middle;
     user-select: none;
     cursor: pointer;
+  }
+  .modal-holder .modal-container .submit.print {
+    margin: 14px 0 14px 0;
   }
   .modal-holder .modal-container .legal {
     float: left;
@@ -3166,13 +3181,15 @@ small {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
+    text-shadow: 1px 1px 0 #ddd;
   }
   .modal-holder .modal-container .legal a {
-    float: left;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
     color: #9e1e4c;
+    text-align: center;
+    text-shadow: 1px 1px 0 #ddd;
   }
   footer {
     float: left;
@@ -3429,12 +3446,13 @@ small {
     flex-direction: column;
     width: 144px;
     max-width: 144px;
-    height: 600px;
-    max-height: 700px;
+    height: 2000px;
+    min-height: 2000px;
     bottom: 0;
     background: none;
     outline: none;
     overflow: none;
+    background: #777;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -3470,25 +3488,26 @@ small {
     display: block;
     float: left;
     width: 144px;
-    height: 100%;
+    height: 2000px;
+    min-height: 2000px;
     top: 0;
-    padding: 0;
+    padding: 0 0 1000px 0;
     margin: 0;
-    background: #f2f0d0;
+    background: #777;
     border-right: 1px solid #000;
     z-index: 99999;
   }
   .side ul {
     float: left;
     width: 144px;
-    padding: 0;
+    height: 1000px;
   }
   .side ul li {
     float: left;
     width: 144px;
     padding: 20px 0 16px 0;
     margin: 0;
-    background: #f2f0d0;
+    background: #777;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -3499,11 +3518,11 @@ small {
     margin: 0;
     font-style: italic;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 17px;
-    color: #000;
+    font-size: 19px;
+    line-height: 19px;
+    color: #fff;
     text-align: right;
-    text-shadow: 2px 1px 0 #fff;
+    text-shadow: 2px 2px 0px #000;
   }
   .side ul li.close {
     float: left;
@@ -3512,17 +3531,16 @@ small {
   .side ul li.close .fa-long-arrow-left {
     float: left;
     width: 130px;
-    height: 22px;
     padding: 0;
     margin: 0;
-    font-size: 22px;
-    line-height: 22px;
-    color: #000;
+    font-size: 23px;
+    line-height: 23px;
+    color: #fff;
     text-align: right;
-    text-shadow: 2px 1px 0 #fff;
+    text-shadow: 2px 2px 0px #000;
   }
   .side ul li.active {
-    background: $primary;
+    background: #9e1e4c;
   }
   .side ul li.active h4 {
     font-style: normal;
@@ -3530,7 +3548,7 @@ small {
 }
 @media (min-width: 360px) {
   header {
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
   }
   header .header {
     width: 320px;
@@ -3543,8 +3561,9 @@ small {
     margin: 8px 0 18px 15px;
   }
   header .header .brand .mobile-navigation {
-    width: 318px;
+    width: 300px;
     padding: 11px 0 8px 0;
+    margin: 0 0 0 10px;
   }
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
@@ -3600,50 +3619,50 @@ small {
   }
   .card {
     width: 305px;
-    padding: 26px 0 12px 30px;
-    margin: 0 0 16px 0;
+    padding: 28px 0 16px 30px;
+    margin: 0 0 14px 0;
   }
   .card .card-logo {
-    width: 68px;
-    margin: 114px 0 0 210px;
+    width: 64px;
+    margin: 134px 0 0 190px;
   }
   .card .card-content {
     width: 305px;
   }
   .card .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 33px;
-    line-height: 33px;
+    margin: 0 0 8px 0;
+    font-size: 35px;
+    line-height: 35px;
   }
   .card .card-content .company {
     margin: 0 0 22px 0;
   }
   .card .card-content .company h5 {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .card .card-content .company span {
     margin: 0 10px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 21px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder p {
-    margin: 0 0 24px 0;
-    font-size: 20px;
-    line-height: 20px;
+    margin: 0 0 28px 0;
+    font-size: 27px;
+    line-height: 27px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
+    margin: 0 0 8px 0;
   }
   .card .card-content .patient-holder .row h6 {
-    width: 72px;
+    width: 78px;
     padding: 0;
     margin: 0;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 15px;
+    line-height: 15px;
   }
   .page {
     width: 375px;
@@ -3661,23 +3680,25 @@ small {
   }
   .content .main .download .tag {
     width: 76px;
-    padding: 12px 0 10px 0;
+    padding: 12px 0 8px 0;
     margin: 0 10px 0 0;
   }
   .content .main .download .tag p {
+    width: 56px;
+    margin: 0 10px;
     font-size: 17px;
-    line-height: 17px;
+    line-height: 21px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 32px;
+    height: 30px;
     font-size: 23px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 40px;
-    margin: -8px 0 0 -2px;
+    height: 38px;
+    margin: -8px 0 0 -1px;
     font-size: 38px;
   }
   .content .main .download .tag .fa-send {
@@ -3699,17 +3720,17 @@ small {
   }
   .content .points .point-container .point .fa-certificate {
     top: -14px;
-    left: -12px;
+    left: -14px;
     width: 33px;
     font-size: 33px;
   }
   .content .points .point-container .point h3 {
-    padding: 10px 20px 20px 20px;
+    padding: 10px 25px 20px 25px;
     font-size: 26px;
     line-height: 36px;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 6px 0;
+    padding: 0 0 7px 0;
   }
   .content .center {
     width: 375px;
@@ -3775,10 +3796,13 @@ small {
   .content .locator .locator-state select {
     width: 255px;
     height: 62px;
-    padding: 0;
+    padding: 0 0 0 50px;
     margin: 0 0 14px 10px;
     font-size: 27px;
     line-height: 27px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
@@ -3787,8 +3811,9 @@ small {
     height: 58px;
     padding: 0;
     margin: 0 0 0 10px;
-    font-size: 32px;
-    line-height: 62px;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 61px;
   }
   .content .locator .locator-results {
     width: 375px;
@@ -3832,13 +3857,13 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 255px;
-    padding: 28px 40px 32px 40px;
+    padding: 34px 40px 32px 40px;
     margin: 0 0 14px 0;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 20px 0;
+    margin: 0 0 22px 0;
     font-size: 22px;
-    line-height: 33px;
+    line-height: 35px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     font-size: 27px;
@@ -3967,34 +3992,50 @@ small {
   .modal-holder .modal-container {
     width: 300px;
     padding: 18px 20px 28px 20px;
-    margin: 12px 0 30px 0;
+    margin: 14px 0 30px 0;
+  }
+  .modal-holder .modal-container .print {
+    width: 300px;
+  }
+  .modal-holder .modal-container .print img {
+    width: 300px;
   }
   .modal-holder .modal-container .fa-close {
     width: 20px;
-    margin: 0 0 12px 140px;
+    margin: 0 0 16px 140px;
+    font-size: 19px;
+    line-height: 19px;
   }
   .modal-holder .modal-container .row {
     width: 300px;
   }
   .modal-holder .modal-container .row input {
-    width: 298px;
-    height: 58px;
-    padding: 4px 0 0 0;
+    width: 300px;
+    height: 62px;
+    padding: 0;
     margin: 0 0 12px 0;
+    font-size: 31px;
+    line-height: 33px;
   }
   .modal-holder .modal-container .submit {
-    width: 298px;
-    padding: 8px 0 6px 0;
+    width: 300px;
+    padding: 12px 0 10px 0;
     margin: 0 0 20px 0;
+    font-size: 30px;
+    line-height: 35px;
   }
   .modal-holder .modal-container .legal {
     width: 270px;
-    margin: 0 0 0 15px;
+    margin: 10px 0 0 15px;
   }
   .modal-holder .modal-container .legal p {
-    margin: 0 0 14px 0;
-    font-size: 17px;
-    line-height: 27px;
+    margin: 0 0 24px 0;
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .modal-holder .modal-container .legal a {
+    font-size: 21px;
+    line-height: 21px;
   }
   .map-holder {
     position: relative;
@@ -4167,6 +4208,115 @@ small {
     line-height: 26px;
     margin: 0 0 14px 0;
   }
+  md-sidenav.md-closed {
+    display: none;
+  }
+  md-sidenav {
+    position: absolute;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 164px;
+    max-width: 164px;
+    height: 2000px;
+    min-height: 2000px;
+    bottom: 0;
+    background: none;
+    outline: none;
+    overflow: none;
+    background: #777;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+    overflow: scroll;
+  }
+  md-sidenav.md-closed {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  md-sidenav.md-closed-remove {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  md-sidenav.md-closed-add.md-closed-add-active,
+  md-sidenav.md-closed-remove.md-closed-remove-active {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  md-sidenav.md-locked-open-add,
+  md-sidenav.md-locked-open-remove {
+    position: static;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .side {
+    display: block;
+    float: left;
+    width: 164px;
+    height: 2000px;
+    min-height: 2000px;
+    top: 0;
+    padding: 0 0 1000px 0;
+    margin: 0;
+    background: #777;
+    border-right: 1px solid #000;
+    z-index: 99999;
+  }
+  .side ul {
+    float: left;
+    width: 164px;
+    height: 1000px;
+  }
+  .side ul li {
+    float: left;
+    width: 164px;
+    padding: 22px 0 18px 0;
+    margin: 0;
+    background: #777;
+    border-bottom: 1px dotted #999;
+    cursor: pointer;
+  }
+  .side ul li h4 {
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #fff;
+    text-align: right;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .side ul li.close {
+    float: left;
+    padding: 14px 0 10px 0;
+  }
+  .side ul li.close .fa-long-arrow-left {
+    float: left;
+    width: 140px;
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+    line-height: 23px;
+    color: #fff;
+    text-align: right;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .side ul li.active {
+    background: #9e1e4c;
+  }
+  .side ul li.active h4 {
+    font-style: normal;
+  }
 }
 @media (min-width: 480px) {
   header {
@@ -4259,8 +4409,10 @@ small {
     margin: 0 12px 0 0;
   }
   .content .main .download .tag p {
+    width: 71px;
+    margin: 0 10px;
     font-size: 19px;
-    line-height: 19px;
+    line-height: 22px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -4548,34 +4700,33 @@ small {
   }
   .modal-holder .modal-container {
     width: 300px;
-    padding: 18px 30px 28px 30px;
+    padding: 18px 30px 18px 30px;
     margin: 12px 0 30px 0;
+  }
+  .modal-holder .modal-container .print {
+    width: 300px;
+  }
+  .modal-holder .modal-container .print img {
+    width: 300px;
   }
   .modal-holder .modal-container .fa-close {
     width: 30px;
-    margin: 0 0 12px 135px;
-    font-size: 25px;
-    line-height: 30px;
-  }
-  .modal-holder .modal-container h1 {
-    padding: 0 0 8px 0;
-    margin: 0 0 10px 0;
-    font-size: 32px;
-    line-height: 37px;
+    margin: 0 0 16px 135px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
-    padding: 0;
-    margin: 0;
   }
   .modal-holder .modal-container .row input {
-    width: 298px;
-    height: 65px;
-    padding: 0;
-    margin: 0 0 15px 0;
+    width: 300px;
+    height: 66px;
+    margin: 0 0 14px 0;
+    font-size: 33px;
+    line-height: 35px;
   }
   .modal-holder .modal-container .submit {
-    width: 298px;
+    width: 300px;
     padding: 8px 0 6px 0;
     margin: 0 0 20px 0;
     font-weight: 600;
@@ -4584,18 +4735,16 @@ small {
   }
   .modal-holder .modal-container .legal {
     width: 280px;
-    padding: 0;
-    margin: 0 10px;
+    margin: 10px;
   }
   .modal-holder .modal-container .legal p {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 16px 0;
-    font-size: 18px;
-    line-height: 28px;
+    margin: 0 0 24px 0;
+    font-size: 19px;
+    line-height: 29px;
   }
   .modal-holder .modal-container .legal a {
-    color: #9e1e4c;
+    font-size: 22px;
+    line-height: 22px;
   }
   .map-holder {
     position: relative;
@@ -4778,6 +4927,115 @@ small {
     line-height: 28px;
     margin: 0 0 14px 0;
   }
+  md-sidenav.md-closed {
+    display: none;
+  }
+  md-sidenav {
+    position: absolute;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 144px;
+    max-width: 144px;
+    height: 2000px;
+    min-height: 2000px;
+    bottom: 0;
+    background: none;
+    outline: none;
+    overflow: none;
+    background: #777;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+    overflow: scroll;
+  }
+  md-sidenav.md-closed {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  md-sidenav.md-closed-remove {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  md-sidenav.md-closed-add.md-closed-add-active,
+  md-sidenav.md-closed-remove.md-closed-remove-active {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  md-sidenav.md-locked-open-add,
+  md-sidenav.md-locked-open-remove {
+    position: static;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .side {
+    display: block;
+    float: left;
+    width: 144px;
+    height: 2000px;
+    min-height: 2000px;
+    top: 0;
+    padding: 0 0 1000px 0;
+    margin: 0;
+    background: #777;
+    border-right: 1px solid #000;
+    z-index: 99999;
+  }
+  .side ul {
+    float: left;
+    width: 144px;
+    height: 1000px;
+  }
+  .side ul li {
+    float: left;
+    width: 144px;
+    padding: 20px 0 16px 0;
+    margin: 0;
+    background: #777;
+    border-bottom: 1px dotted #999;
+    cursor: pointer;
+  }
+  .side ul li h4 {
+    float: left;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    color: #fff;
+    text-align: right;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .side ul li.close {
+    float: left;
+    padding: 12px 0 8px 0;
+  }
+  .side ul li.close .fa-long-arrow-left {
+    float: left;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+    line-height: 23px;
+    color: #fff;
+    text-align: right;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .side ul li.active {
+    background: #9e1e4c;
+  }
+  .side ul li.active h4 {
+    font-style: normal;
+  }
 }
 @media (min-width: 560px) {
   header {
@@ -4852,7 +5110,7 @@ small {
   .card {
     width: 430px;
     padding: 28px 0 16px 50px;
-    margin: 0 0 20px 20px;
+    margin: 0 0 16px 20px;
   }
   .card .card-logo {
     width: 102px;
@@ -4862,34 +5120,34 @@ small {
     width: 440px;
   }
   .card .card-content h1 {
-    margin: 0 0 10px 0;
-    font-size: 35px;
-    line-height: 40px;
+    margin: 0 0 12px 0;
+    font-size: 45px;
+    line-height: 45px;
   }
   .card .card-content .company {
-    margin: 0 0 18px 0;
+    margin: 0 0 24px 0;
   }
   .card .card-content .company h5 {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .card .card-content .company span {
-    margin: 0 8px;
-    font-size: 19px;
-    line-height: 26px;
+    margin: 0 10px;
+    font-size: 21px;
+    line-height: 25px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder p {
-    margin: 0 0 14px 0;
-    font-size: 21px;
+    margin: 0 0 22px 0;
+    font-size: 25px;
     line-height: 25px;
   }
   .card .card-content .patient-holder .row {
     margin: 0 0 14px 0;
   }
-  .card .card-content .patient-holder .row h6 {
+  .card .card-content .patient-holder .row p {
     width: 90px;
     padding: 0;
     margin: 0;
@@ -4913,12 +5171,14 @@ small {
   }
   .content .main .download .tag {
     width: 95px;
-    padding: 16px 0 12px 0;
+    padding: 16px 0 10px 0;
     margin: 0 12px 0 0;
   }
   .content .main .download .tag p {
+    width: 75px;
+    margin: 0 10px;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 23px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -4974,10 +5234,10 @@ small {
   }
   .content .center h1 {
     width: 380px;
-    padding: 12px 20px;
+    padding: 12px 20px 10px 20px;
     margin: 0 0 18px 50px;
     font-size: 33px;
-    line-height: 43px;
+    line-height: 40px;
   }
   .content .center .center-holder {
     width: 520px;
@@ -5192,47 +5452,50 @@ small {
   }
   .modal-holder .modal-container {
     width: 340px;
-    padding: 18px 30px 28px 30px;
-    margin: 12px 0 30px 0;
+    padding: 20px 30px 18px 30px;
+    margin: 18px 0 0 0;
+  }
+  .modal-holder .modal-container .print {
+    width: 340px;
+  }
+  .modal-holder .modal-container .print img {
+    width: 340px;
   }
   .modal-holder .modal-container .fa-close {
     width: 30px;
-    padding: 0;
-    margin: 0 0 12px 155px;
-    font-size: 25px;
-    line-height: 30px;
-  }
-  .modal-holder .modal-container h2 {
-    padding: 0 0 8px 0;
-    margin: 0 0 30px 0;
+    margin: 0 0 16px 155px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
-    padding: 0;
-    margin: 0;
   }
   .modal-holder .modal-container .row input {
-    width: 338px;
-    height: 65px;
-    padding: 0;
-    margin: 0 0 15px 0;
+    width: 340px;
+    height: 68px;
+    margin: 0 0 14px 0;
+    font-size: 33px;
+    line-height: 35px;
   }
   .modal-holder .modal-container .submit {
-    width: 338px;
-    padding: 8px 0 6px 0;
+    width: 340px;
+    padding: 12px 0 10px 0;
     margin: 0 0 20px 0;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 31px;
+    line-height: 36px;
   }
   .modal-holder .modal-container .legal {
     width: 320px;
-    padding: 0;
-    margin: 0 10px;
+    margin: 10px;
   }
   .modal-holder .modal-container .legal p {
-    margin: 0 0 16px 0;
-    font-size: 18px;
-    line-height: 28px;
+    margin: 0 0 24px 0;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .modal-holder .modal-container .legal a {
+    font-size: 22px;
+    line-height: 22px;
   }
   .map-holder {
     position: relative;
@@ -5395,6 +5658,115 @@ small {
     font-size: 18px;
     line-height: 29px;
     margin: 0 0 14px 0;
+  }
+  md-sidenav.md-closed {
+    display: none;
+  }
+  md-sidenav {
+    position: absolute;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 144px;
+    max-width: 144px;
+    height: 2000px;
+    min-height: 2000px;
+    bottom: 0;
+    background: none;
+    outline: none;
+    overflow: none;
+    background: #777;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+    overflow: scroll;
+  }
+  md-sidenav.md-closed {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  md-sidenav.md-closed-remove {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  md-sidenav.md-closed-add.md-closed-add-active,
+  md-sidenav.md-closed-remove.md-closed-remove-active {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  md-sidenav.md-locked-open-add,
+  md-sidenav.md-locked-open-remove {
+    position: static;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .side {
+    display: block;
+    float: left;
+    width: 144px;
+    height: 2000px;
+    min-height: 2000px;
+    top: 0;
+    padding: 0 0 1000px 0;
+    margin: 0;
+    background: #777;
+    border-right: 1px solid #000;
+    z-index: 99999;
+  }
+  .side ul {
+    float: left;
+    width: 144px;
+    height: 1000px;
+  }
+  .side ul li {
+    float: left;
+    width: 144px;
+    padding: 20px 0 16px 0;
+    margin: 0;
+    background: #777;
+    border-bottom: 1px dotted #999;
+    cursor: pointer;
+  }
+  .side ul li h4 {
+    float: left;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    color: #fff;
+    text-align: right;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .side ul li.close {
+    float: left;
+    padding: 12px 0 8px 0;
+  }
+  .side ul li.close .fa-long-arrow-left {
+    float: left;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+    line-height: 23px;
+    color: #fff;
+    text-align: right;
+    text-shadow: 2px 2px 0px #000;
+  }
+  .side ul li.active {
+    background: #9e1e4c;
+  }
+  .side ul li.active h4 {
+    font-style: normal;
   }
 }
 @media (min-width: 768px) {
@@ -5812,134 +6184,60 @@ small {
     margin: 0 0 40px 0;
   }
   .modal-holder {
-    position: absolute;
     width: 500px;
     margin: 0 0 0 -250px;
-    top: 0;
-    left: 50%;
-    z-index: 99999;
   }
   .modal-holder .modal-container {
     width: 440px;
-    padding: 18px 30px 28px 30px;
-    margin: 12px 0 30px 0;
+    padding: 28px 30px 28px 30px;
+    margin: 22px 0 0 0;
+  }
+  .modal-holder .modal-container .print {
+    width: 440px;
+  }
+  .modal-holder .modal-container .print img {
+    width: 440px;
   }
   .modal-holder .modal-container .fa-close {
     width: 40px;
-    padding: 0;
-    margin: 0 0 20px 205px;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
-  }
-  .modal-holder .modal-container h1 {
-    width: 440px;
-    padding: 0 0 8px 0;
-    margin: 0 0 15px 0;
-    font-size: 45px;
-    line-height: 55px;
-  }
-  .modal-holder .modal-container h2 {
-    width: 440px;
-    padding: 0 0 8px 0;
-    margin: 0 0 30px 0;
-    font-size: 38px;
-    line-height: 70px;
+    margin: 0 0 24px 205px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .modal-holder .modal-container .row {
     width: 440px;
-    padding: 0;
-    margin: 0;
   }
   .modal-holder .modal-container .row input {
     width: 440px;
-    height: 80px;
-    padding: 0;
-    margin: 0 0 25px 0;
-    font-size: 24px;
-    line-height: 28px;
+    height: 68px;
+    margin: 0 0 14px 0;
+    font-size: 34px;
+    line-height: 37px;
   }
   .modal-holder .modal-container .submit {
-    width: 438px;
+    width: 440px;
     padding: 12px 0 8px 0;
-    margin: 0 0 25px 0;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 50px;
+    margin: 0 0 24px 0;
+    font-size: 33px;
+    line-height: 38px;
   }
-  .modal-holder .modal-container .rx-card {
-    width: 410px;
-    padding: 22px 0px 18px 30px;
-    margin: 0 0 20px 0;
-  }
-  .modal-holder .modal-container .rx-card h2 {
-    width: 100%;
-    margin: 0 0 10px 0;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 39px;
-  }
-  .modal-holder .modal-container .rx-card .card-content {
-    width: 410px;
-    padding: 0;
-    margin: 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline {
-    width: 100%;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company {
-    width: 100%;
-    margin: 0 0 18px 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company h5 {
-    font-style: italic;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company span {
-    margin: 0 6px;
-    font-size: 24px;
-    line-height: 28px;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 10px 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h3 {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 12px 0;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 34px;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h6 {
-    width: 82px;
-    padding: 0;
-    margin: 0;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+  .modal-holder .modal-container .submit.print {
+    margin: 14px 0 25px 0;
   }
   .modal-holder .modal-container .legal {
     width: 440px;
-    padding: 0;
-    margin: 0;
+    margin: 10px 0 0 0;
   }
   .modal-holder .modal-container .legal p {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 10px 0;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 40px;
+    width: 420px;
+    margin: 0 0 10px 10px;
+    font-size: 22px;
+    line-height: 31px;
+  }
+  .modal-holder .modal-container .legal a {
+    margin: 4px 0 0 0;
+    font-size: 25px;
+    line-height: 25px;
   }
   .map-holder {
     width: 300px;
@@ -6447,136 +6745,61 @@ small {
     margin: 0 0 40px 0;
   }
   .modal-holder {
-    position: absolute;
     width: 500px;
     margin: 0 0 0 -250px;
-    top: 0;
-    left: 50%;
-    z-index: 99999;
   }
   .modal-holder .modal-container {
-    width: 420px;
-    padding: 18px 40px 28px 40px;
-    margin: 12px 0 30px 0;
+    width: 440px;
+    padding: 28px 40px 28px 40px;
+    margin: 22px 0 0 0;
+  }
+  .modal-holder .modal-container .print {
+    width: 440px;
+  }
+  .modal-holder .modal-container .print img {
+    width: 440px;
   }
   .modal-holder .modal-container .fa-close {
     width: 40px;
-    padding: 0;
-    margin: 0 0 20px 205px;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 36px;
-  }
-  .modal-holder .modal-container h1 {
-    width: 420px;
-    padding: 0 0 0 0;
-    margin: 0 0 15px 0;
-    font-size: 45px;
-    line-height: 55px;
-  }
-  .modal-holder .modal-container h2 {
-    width: 420px;
-    padding: 0 0 8px 0;
-    margin: 0 0 30px 0;
-    font-size: 38px;
-    line-height: 70px;
+    margin: 0 0 20px 200px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .modal-holder .modal-container .row {
-    width: 420px;
-    padding: 0;
-    margin: 0;
+    width: 440px;
   }
   .modal-holder .modal-container .row input {
-    width: 420px;
-    height: 80px;
-    padding: 0;
-    margin: 0 0 25px 0;
-    font-size: 24px;
-    line-height: 28px;
+    width: 440px;
+    height: 66px;
+    padding: 2px 0 0 0;
+    margin: 0 0 14px 0;
+    font-size: 35px;
+    line-height: 35px;
   }
   .modal-holder .modal-container .submit {
-    width: 418px;
+    width: 440px;
     padding: 12px 0 8px 0;
-    margin: 0 0 25px 0;
-  }
-  .modal-holder .modal-container .rx-card {
-    width: 390px;
-    padding: 22px 0px 18px 30px;
-    margin: 0 0 20px 0;
-    border-radius: 12px;
-  }
-  .modal-holder .modal-container .rx-card h2 {
-    width: 100%;
-    margin: 0 0 10px 0;
-    font-weight: 600;
+    margin: 0 0 24px 0;
     font-size: 34px;
     line-height: 39px;
-    text-align: left;
-    border: none;
   }
-  .modal-holder .modal-container .rx-card .card-content {
-    width: 390px;
-    padding: 0;
-    margin: 0;
-    z-index: 10;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline {
-    width: 100%;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company {
-    width: 100%;
-    margin: 0 0 18px 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company h5 {
-    font-style: italic;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company span {
-    margin: 0 6px;
-    font-size: 24px;
-    line-height: 28px;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 10px 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h3 {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 12px 0;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 34px;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h6 {
-    width: 82px;
-    padding: 0;
-    margin: 0;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
+  .modal-holder .modal-container .submit.print {
+    margin: 14px 0 25px 0;
   }
   .modal-holder .modal-container .legal {
-    width: 420px;
-    padding: 0;
-    margin: 0;
+    width: 440px;
+    margin: 10px 0 0 0;
   }
   .modal-holder .modal-container .legal p {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 10px 0;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 38px;
-    text-align: center;
+    width: 420px;
+    margin: 0 0 22px 10px;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .modal-holder .modal-container .legal a {
+    margin: 4px 0 0 0;
+    font-size: 25px;
+    line-height: 25px;
   }
   .map-holder {
     position: relative;
@@ -7233,229 +7456,61 @@ small {
     margin: 0 0 40px 0;
   }
   .modal-holder {
-    position: fixed;
     width: 380px;
-    top: 10px;
-    left: 50%;
     margin: 0 0 0 -190px;
-    z-index: 99999;
   }
   .modal-holder .modal-container {
-    float: left;
-    width: 358px;
-    padding: 26px 10px 36px 30px;
-    margin: 0;
-    background: $background-texture;
-    border: 1px solid #000;
-    border-radius: 4px;
+    width: 338px;
+    padding: 24px 30px 18px 30px;
+    margin: 22px 0 0 0;
+  }
+  .modal-holder .modal-container .print {
+    width: 338px;
+  }
+  .modal-holder .modal-container .print img {
+    width: 338px;
   }
   .modal-holder .modal-container .fa-close {
-    float: left;
     width: 20px;
-    padding: 0;
-    margin: 0 0 18px 158px;
-    font-weight: 600;
+    margin: 0 0 22px 158px;
     font-size: 19px;
-    color: #444;
-    text-align: center;
-    text-shadow: 2px 1px 0 #fff;
-    cursor: pointer;
-  }
-  .modal-holder .modal-container h1 {
-    float: left;
-    width: 338px;
-    padding: 0;
-    margin: 0;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 31px;
-    line-height: 31px;
-    text-align: center;
-  }
-  .modal-holder .modal-container h2 {
-    float: left;
-    width: 338px;
-    padding: 0 0 8px 0;
-    margin: 8px 0 30px 0;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 45px;
-    border-bottom: 6px solid #999;
-    text-align: center;
+    line-height: 19px;
   }
   .modal-holder .modal-container .row {
-    float: left;
     width: 338px;
-    padding: 0;
-    margin: 0;
   }
   .modal-holder .modal-container .row input {
-    float: left;
-    width: 336px;
-    height: 52px;
-    padding: 6px 0 0 0;
+    width: 338px;
+    height: 64px;
+    padding: 0;
     margin: 0 0 14px 0;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 24px;
-    text-align: center;
-    border: 1px solid #aaa;
-    border-bottom: 2px solid #333;
-    border-radius: 8px;
-  }
-  .modal-holder .modal-container .rx-card {
-    float: left;
-    width: 276px;
-    height: 180px;
-    padding: 24px 30px 30px 30px;
-    margin: 0 0 8px 0;
-    background: #f7f8ee url("../img/cream-dust.png") repeat;
-    border-bottom: 2px solid #333;
-    border-radius: 8px;
-  }
-  .modal-holder .modal-container .rx-card .card-logo {
-    position: absolute;
-    width: 140px;
-    height: 160px;
-    padding: 0;
-    margin: 30px 0 0 264px;
-    background: none;
-    z-index: 1;
-  }
-  .modal-holder .modal-container .rx-card .card-logo img {
-    display: none;
-    float: left;
-    width: 100%;
-    height: 100%;
-  }
-  .modal-holder .modal-container .rx-card .card-content {
-    float: left;
-    width: 336px;
-    padding: 0;
-    margin: 0;
-    z-index: 10;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline {
-    float: left;
-    width: 100%;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company {
-    float: left;
-    width: 100%;
-    margin: 0 0 20px 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company h2 {
-    float: left;
-    width: 100%;
-    margin: 0 0 4px 0;
-    font-weight: 600;
     font-size: 31px;
-    line-height: 31px;
-    border: none;
-    text-align: left;
+    line-height: 36px;
   }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company h5 {
-    float: left;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 21px;
-    color: #000;
-    text-align: left;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .company span {
-    float: left;
-    margin: 0 8px;
-    font-size: 18px;
-    line-height: 21px;
-    color: #444;
-    text-align: left;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row {
-    float: left;
-    width: 244px;
-    padding: 0;
-    margin: 0 0 10px 0;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h3 {
-    float: left;
-    width: 300px;
-    margin: 0 0 18px 0;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 23px;
-    color: #777;
-    background: none;
-    border: none;
-    outline: none;
-    text-align: left;
-  }
-  .modal-holder .modal-container .rx-card .card-content .card-headline .patient-holder .row h6 {
-    float: left;
-    width: 82px;
-    padding: 0;
-    margin: 0;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 10px;
-    color: #444;
-    text-shadow: 2px 1px 0 #fff;
-  }
-  .modal-holder .modal-container .submit,
-  .modal-holder .modal-container a.submit {
-    display: block;
-    float: left;
+  .modal-holder .modal-container .submit {
     width: 338px;
     padding: 12px 0 10px 0;
     margin: 0 0 22px 0;
-    font-weight: 600;
-    font-size: 27px;
-    line-height: 33px;
-    color: #fff;
-    background: #999 url("../img/asfalt-light.png") repeat;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #333;
-    border-radius: 8px;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
-    box-shadow: 1px 1px 4px #aaa;
-    text-align: center;
-    text-shadow: 2px 2px 0px #000;
-    cursor: pointer;
+    font-size: 28px;
+    line-height: 31px;
+  }
+  .modal-holder .modal-container .submit.print {
+    margin: 18px 0 26px 0;
   }
   .modal-holder .modal-container .legal {
-    float: left;
     width: 100%;
+    margin: 10px 0 0 0;
   }
   .modal-holder .modal-container .legal p {
-    float: left;
     width: 318px;
-    margin: 18px 0 0 10px;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 26px;
-    color: #444;
-    text-align: center;
-    text-shadow: 2px 1px 0 #fff;
+    margin: 0 0 18px 10px;
+    font-size: 18px;
+    line-height: 28px;
   }
   .modal-holder .modal-container .legal a {
-    display: block;
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 4px 0 0 0;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 18px;
-    color: #000;
-    text-align: center;
-    text-shadow: 2px 1px 0 #fff;
+    margin: 8px 0 0 0;
+    font-size: 20px;
+    line-height: 26px;
   }
   .map-holder {
     position: relative;
@@ -7558,5 +7613,38 @@ small {
     font-size: 21px;
     line-height: 35px;
     margin: 0 0 14px 0;
+  }
+}
+@media print {
+  html,
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #fff;
+  }
+  #panel,
+  .page,
+  header,
+  footer .footer {
+    display: none;
+  }
+  footer {
+    border: none;
+    background: none;
+  }
+  .modal-holder {
+    display: block;
+    background: none;
+  }
+  .modal-holder .modal-container {
+    background: none;
+    border: none;
+  }
+  .modal-holder .modal-container .fa-close,
+  .modal-holder .modal-container .submit,
+  .modal-holder .modal-container .legal {
+    display: none;
   }
 }

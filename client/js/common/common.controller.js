@@ -3,19 +3,16 @@
 
     function CommonController ($scope,$mdSidenav,uiGmapGoogleMapApi) {
 
-        $scope.state = true;
+        $scope.display = false;
+
         $scope.open = function () {
-            // $scope.display = true;
+            $scope.display = true;
             $mdSidenav('navigationPanel').open();
         };
 
         $scope.close = function () {
-            // $scope.display = false;
+            $scope.display = false;
             $mdSidenav('navigationPanel').close()
-        };
-
-        $scope.toggle = function() {
-            $scope.state = !$scope.state;
         };
 
         $scope.map = {
