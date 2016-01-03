@@ -11,13 +11,12 @@
     var Mail = require('./mail.model');
 
     exports.create = function (req, res) {
-
         var message = {
             from: 'National Rx Card <delivery@nationalrxcard.com>',
             to: req.body.email,
             subject: 'National Rx Card Delivery',
             text: 'Here is your National Rx Card, you can use this card at over 63,000 pharmacies nationwide.',
-            // html: ''
+            html: 'Here is your National Rx Card, you can use this card at over 63,000 pharmacies nationwide.<br><br>',
             attachments: [{
                 filename: 'National Rx Card.png',
                 path: req.body.file,

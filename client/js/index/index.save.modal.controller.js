@@ -4,7 +4,7 @@
     function IndexSaveModal ($scope, $state, $window) {
 
         $scope.display = true;
-        $scope.cardUrl='https://s3.amazonaws.com/nationalrx/card/national_test.png';
+        $scope.cardUrl='https://s3.amazonaws.com/nationalrx/card/NationalRxCard.jpg';
 
         $scope.close = function() {
             $scope.display = false;
