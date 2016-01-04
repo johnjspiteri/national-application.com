@@ -3,13 +3,16 @@
     width 280px
     padding 0
     margin 0 0 0 20px
+    border none !important
+    border-bottom none
+    background none
 
     .contact-detail
         float left
         width 238px
         padding 20px 20px 24px 20px
         margin 0 0 14px 0
-        border $border
+        border none
         border-bottom 3px solid #333
         background $card
         border-radius $border-radius
@@ -28,6 +31,7 @@
             width 238px
             padding 0
             margin 0
+            border none
 
             p
                 float left
@@ -67,7 +71,6 @@
         padding 30px 20px 20px 20px
         margin 0 0 15px 0
         background $card
-        border $border
         border-bottom 3px solid #333
         border-radius $border-radius
 
@@ -77,31 +80,35 @@
             padding 0
             margin 0 0 15px 0
 
-            input
-                width 238px
-                height 52px
-                padding 6px 0 0 0
-                margin 0
-                font-weight 500
-                font-size 21px
-                line-height 21px
-                text-align center
-                border $border
+        input
+            width 238px
+            height 52px
+            padding 6px 0 0 0
+            margin 0 0 15px 0
+            font-weight 500
+            font-size 21px
+            line-height 21px
+            text-align center
+            background $white
+            border none
+			border-radius $border-radius
+            border-bottom 3px solid #333
 
-            textarea
-                float left
-                width 218px
-                height 80px
-                padding 12px 10px 14px 10px
-                margin 0
-                font-size 21px
-                line-height 23px
-                border $border
-                text-align center
+        textarea
+            float left
+            width 218px
+            height 80px
+            padding 12px 10px 14px 10px
+            margin 0 0 15px 0
+            font-size 21px
+            line-height 23px
+            border none
+			border-bottom 3px solid #333
+            text-align center
 
         .submit
             float left
-            width 238px
+            width 240px
             height 50px
             padding 0
             margin 0
@@ -111,6 +118,7 @@
             line-height 52px
             color $white
             background $tag
+            border none
             border-bottom 3px solid $tag-border
             background-repeat repeat-x;
             border-radius $border-radius
@@ -123,45 +131,48 @@
             user-select none
             cursor pointer
 
-        .card-confirmation
+    .card-confirmation
+        float left
+        width 238px
+        padding 0
+        margin 0
+        border $border
+        border-bottom 3px solid #333
+        border-radius $border-radius
+
+        h1
             float left
-            width 238px
+            width 100%
             padding 0
+            margin 0 0 20px 0
+            font-size 24px
+            text-align center
+
+        h2
+            float left
+            width 100%
+            padding 0
+            margin 0 0 15px 0
+            font-size 18px
+            font-weight 400
+            text-align center
+
+        p
+            float left
+            width 100%
             margin 0
-
-            h1
-                float left
-                width 100%
-                padding 0
-                margin 0 0 20px 0
-                font-size 24px
-                text-align center
-
-            h2
-                float left
-                width 100%
-                padding 0
-                margin 0 0 15px 0
-                font-size 18px
-                font-weight 400
-                text-align center
-
-            p
-                float left
-                width 100%
-                margin 0
-                font-size 14px
-                font-weight 200
-                text-align center
+            font-size 14px
+            font-weight 200
+            text-align center
 
 .map
     float left
-    width 278px
+    width 280px
     height 280px
     padding 0
     margin 0 0 35px 20px
-    border $border
     background #ccc
+    border none
     border-bottom 4px solid #333
     border-radius $border-radius
 

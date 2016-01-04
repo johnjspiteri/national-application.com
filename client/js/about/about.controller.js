@@ -22,11 +22,10 @@
             $scope.toTheTop();
         };
 
-
         $scope.map = {
             center: {
-                latitude: 43.648125,
-                longitude: -79.394845
+                latitude: 40.751798,
+                longitude: -111.572597
             },
             zoom: 14
         };
@@ -43,8 +42,8 @@
         $scope.marker = {
             id: 1,
             coords: {
-                latitude: 43.648125,
-                longitude: -79.394845,
+                latitude: 40.751798,
+                longitude: -111.572597,
             },
             options: {
                 draggable: false,

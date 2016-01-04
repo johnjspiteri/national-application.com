@@ -2859,7 +2859,7 @@ small {
     font-size: 25px;
     line-height: 25px;
     border: none;
-    border-bottom: 4px solid #333;
+    border-bottom: 3px solid #333;
     border-radius: 6px 6px 6px 6px;
     text-align: center;
     cursor: pointer;
@@ -3027,13 +3027,16 @@ small {
     width: 280px;
     padding: 0;
     margin: 0 0 0 20px;
+    border: none !important;
+    border-bottom: none;
+    background: none;
   }
   .contact-holder .contact-detail {
     float: left;
     width: 238px;
     padding: 20px 20px 24px 20px;
     margin: 0 0 14px 0;
-    border: 1px solid #aaa;
+    border: none;
     border-bottom: 3px solid #333;
     background: #f7f8ee url("../img/cream-dust.png") repeat;
     border-radius: 6px 6px 6px 6px;
@@ -3052,6 +3055,7 @@ small {
     width: 238px;
     padding: 0;
     margin: 0;
+    border: none;
   }
   .contact-holder .contact-detail .contact-container p {
     float: left;
@@ -3091,7 +3095,6 @@ small {
     padding: 30px 20px 20px 20px;
     margin: 0 0 15px 0;
     background: #f7f8ee url("../img/cream-dust.png") repeat;
-    border: 1px solid #aaa;
     border-bottom: 3px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3101,31 +3104,37 @@ small {
     padding: 0;
     margin: 0 0 15px 0;
   }
-  .contact-holder .contact-form .row input {
+  .contact-holder .contact-form input {
     width: 238px;
     height: 52px;
     padding: 6px 0 0 0;
-    margin: 0;
+    margin: 0 0 15px 0;
     font-weight: 500;
     font-size: 21px;
     line-height: 21px;
     text-align: center;
-    border: 1px solid #aaa;
+    background: #fff;
+    border: none;
   }
-  .contact-holder .contact-form .row textarea {
+  border-radius $border-radius {
+    border-bottom: 3px solid #333;
+  }
+  textarea {
     float: left;
     width: 218px;
     height: 80px;
     padding: 12px 10px 14px 10px;
-    margin: 0;
+    margin: 0 0 15px 0;
     font-size: 21px;
     line-height: 23px;
-    border: 1px solid #aaa;
+    border: none;
+  }
+  border-bottom 3px solid #333 {
     text-align: center;
   }
-  .contact-holder .contact-form .submit {
+  .submit {
     float: left;
-    width: 238px;
+    width: 240px;
     height: 50px;
     padding: 0;
     margin: 0;
@@ -3135,6 +3144,7 @@ small {
     line-height: 52px;
     color: #fff;
     background: #8a0d4a;
+    border: none;
     border-bottom: 3px solid #4a0024;
     background-repeat: repeat-x;
     border-radius: 6px 6px 6px 6px;
@@ -3147,13 +3157,16 @@ small {
     user-select: none;
     cursor: pointer;
   }
-  .contact-holder .contact-form .card-confirmation {
+  .card-confirmation {
     float: left;
     width: 238px;
     padding: 0;
     margin: 0;
+    border: 1px solid #aaa;
+    border-bottom: 3px solid #333;
+    border-radius: 6px 6px 6px 6px;
   }
-  .contact-holder .contact-form .card-confirmation h1 {
+  .card-confirmation h1 {
     float: left;
     width: 100%;
     padding: 0;
@@ -3161,7 +3174,7 @@ small {
     font-size: 24px;
     text-align: center;
   }
-  .contact-holder .contact-form .card-confirmation h2 {
+  .card-confirmation h2 {
     float: left;
     width: 100%;
     padding: 0;
@@ -3170,7 +3183,7 @@ small {
     font-weight: 400;
     text-align: center;
   }
-  .contact-holder .contact-form .card-confirmation p {
+  .card-confirmation p {
     float: left;
     width: 100%;
     margin: 0;
@@ -3180,12 +3193,12 @@ small {
   }
   .map {
     float: left;
-    width: 278px;
+    width: 280px;
     height: 280px;
     padding: 0;
     margin: 0 0 35px 20px;
-    border: 1px solid #aaa;
     background: #ccc;
+    border: none;
     border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3369,10 +3382,10 @@ small {
   .filter-holder .filter-container select {
     display: none;
     float: left;
-    width: 220px;
+    width: 240px;
     height: 60px;
     padding: 0;
-    margin: 0 0 12px 30px;
+    margin: 0 0 12px 20px;
     font-weight: 600;
     font-size: 27px;
     line-height: 29px;
@@ -3386,28 +3399,31 @@ small {
   }
   .filter-holder .filter-container input {
     float: left;
-    width: 208px;
+    width: 240px;
     height: 50px;
-    padding: 5px;
-    margin: 0 0 12px 30px;
-    font-weight: 600;
+    padding: 0;
+    margin: 0 0 12px 20px;
+    font-weight: 500;
     font-size: 27px;
     line-height: 29px;
     text-align: center;
-    border: 1px solid #ccc;
-    border-bottom: 4px solid #333;
-    border-radius: 8px;
+    border: none;
+    border-bottom: 3px solid #333;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .filter-holder .filter-container ::-webkit-input-placeholder {
+    line-height: normal;
   }
   .filter-holder .filter-container .reset {
     float: left;
-    width: 220px;
+    width: 240px;
     height: 50px;
     padding: 0;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 20px;
     color: #fff;
     font-weight: 500;
     font-size: 23px;
-    line-height: 54px;
+    line-height: 52px;
     background: #666;
     border: none;
     border-bottom: 3px solid #333;
@@ -4131,22 +4147,19 @@ small {
     padding: 38px 30px 20px 30px;
     margin: 0 0 16px 0;
   }
-  .contact-holder .contact-form .row {
+  .contact-holder .contact-form input {
     width: 273px;
-    padding: 0;
-    margin: 0 0 15px 0;
-  }
-  .contact-holder .contact-form .row input {
-    width: 271px;
     height: 52px;
     padding: 6px 0 0 0;
+    margin: 0 0 15px 0;
     font-size: 23px;
     line-height: 23px;
   }
-  .contact-holder .contact-form .row textarea {
-    width: 251px;
+  .contact-holder .contact-form textarea {
+    width: 253px;
     height: 80px;
     padding: 14px 10px;
+    margin: 0 0 15px 0;
     font-size: 23px;
     line-height: 23px;
   }
@@ -4929,21 +4942,19 @@ small {
     padding: 40px 30px 30px 30px;
     margin: 0 0 16px 0;
   }
-  .contact-holder .contact-form .row {
+  .contact-holder .contact-form input {
     width: 378px;
-    margin: 0 0 20px 0;
-  }
-  .contact-holder .contact-form .row input {
-    width: 376px;
     height: 56px;
     padding: 4px 0 0 0;
+    margin: 0 0 20px 0;
     font-size: 23px;
     line-height: 23px;
   }
-  .contact-holder .contact-form .row textarea {
-    width: 356px;
+  .contact-holder .contact-form textarea {
+    width: 358px;
     height: 120px;
     padding: 16px 10px 10px 10px;
+    margin: 0 0 20px 0;
     font-size: 23px;
     line-height: 29px;
   }
@@ -5782,21 +5793,19 @@ small {
     padding: 40px 40px 30px 40px;
     margin: 0 0 20px 0;
   }
-  .contact-holder .contact-form .row {
-    width: 398px;
-    margin: 0 0 20px 0;
-  }
-  .contact-holder .contact-form .row input {
+  .contact-holder .contact-form input {
     width: 396px;
     height: 62px;
     padding: 10px 0 0 0;
+    margin: 0 0 20px 0;
     font-size: 26px;
     line-height: 26px;
   }
-  .contact-holder .contact-form .row textarea {
+  .contact-holder .contact-form textarea {
     width: 356px;
     height: 80px;
     padding: 20px 20px;
+    margin: 0 0 20px 0;
     font-size: 27px;
     line-height: 29px;
   }
@@ -6593,21 +6602,19 @@ small {
     width: 338px;
     padding: 40px 20px 30px 20px;
   }
-  .contact-holder .contact-form .row {
-    width: 338px;
-    margin: 0 0 20px 0;
-  }
-  .contact-holder .contact-form .row input {
+  .contact-holder .contact-form input {
     width: 336px;
     height: 54px;
     padding: 8px 0 0 0;
+    margin: 0 0 20px 0;
     font-size: 25px;
     line-height: 25px;
   }
-  .contact-holder .contact-form .row textarea {
+  .contact-holder .contact-form textarea {
     width: 336px;
     height: 100px;
     padding: 18px 0;
+    margin: 0 0 20px 0;
     margin: 0;
     font-size: 26px;
     line-height: 35px;
@@ -7287,23 +7294,19 @@ small {
     width: 338px;
     padding: 20px;
   }
-  .contact-holder .contact-form .row {
-    width: 338px;
-    margin: 0 0 20px 0;
-  }
-  .contact-holder .contact-form .row input {
+  .contact-holder .contact-form input {
     width: 336px;
     height: 50px;
     padding: 4px 0 0 0;
-    margin: 0;
+    margin: 0 0 20px 0;
     font-size: 23px;
     line-height: 23px;
   }
-  .contact-holder .contact-form .row textarea {
+  .contact-holder .contact-form textarea {
     width: 336px;
     height: 50px;
     padding: 10px 0;
-    margin: 0;
+    margin: 0 0 20px 0;
     font-size: 23px;
     line-height: 29px;
   }
@@ -7556,7 +7559,7 @@ small {
   }
   header .header .brand .logo {
     width: 240px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 20px;
   }
   header .header nav {
     width: 740px;
@@ -7565,13 +7568,13 @@ small {
   }
   header .header nav .tile {
     height: 71px;
-    padding: 0 30px;
+    padding: 0 28px;
   }
   header .header nav .tile h4 {
     margin: 13px 0 0 0;
     font-weight: 500;
-    font-size: 21px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 23px;
   }
   header .header nav .tile.active {
     height: 72px;
@@ -8043,7 +8046,7 @@ small {
   }
   .contact-holder .contact-detail h2 {
     width: 378px;
-    margin: 0 0 22px 0;
+    margin: 0 0 12px 0;
     font-weight: 500;
     font-size: 33px;
     line-height: 33px;
@@ -8052,20 +8055,20 @@ small {
     width: 378px;
   }
   .contact-holder .contact-detail .contact-container p {
-    margin: 0 0 14px 0;
+    margin: 0 0 12px 0;
     font-size: 16px;
     line-height: 16px;
   }
   .contact-holder .contact-detail .contact-container a {
     width: 378px;
-    margin: 0 0 20px 0;
-    font-weight: 500;
-    font-size: 27px;
-    line-height: 27px;
+    margin: 0 0 12px 0;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 23px;
   }
   .contact-holder .contact-detail .contact-container h4 {
     width: 378px;
-    margin: 8px 0 0 0;
+    margin: 6px 0 0 0;
     font-size: 21px;
     line-height: 30px;
   }
@@ -8074,43 +8077,42 @@ small {
     padding: 38px 0 30px 30px;
     margin: 0 20px 20px 0;
   }
-  .contact-holder .contact-form .row {
-    width: 398px;
-    margin: 0 0 20px 0;
-  }
-  .contact-holder .contact-form .row input {
+  .contact-holder .contact-form input {
     width: 396px;
     height: 58px;
     padding: 8px 0 0 0;
+    margin: 0 0 20px 0;
     font-size: 25px;
     line-height: 25px;
   }
-  .contact-holder .contact-form .row textarea {
+  border-bottom 3px solid #333 textarea {
     width: 356px;
     height: 120px;
     padding: 18px 20px;
+    margin: 0 0 20px 0;
     font-size: 25px;
     line-height: 29px;
+    border: none;
   }
-  .contact-holder .contact-form .submit {
+  border-bottom 3px solid #333 .submit {
     width: 398px;
     height: 68px;
     font-size: 31px;
     line-height: 70px;
   }
-  .contact-holder .contact-form .card-confirmation {
+  border-bottom 3px solid #333 .card-confirmation {
     width: 466px;
   }
-  .contact-holder .contact-form .card-confirmation h1 {
+  border-bottom 3px solid #333 .card-confirmation h1 {
     width: 436px;
     margin: 0 0 20px 0;
     font-size: 24px;
   }
-  .contact-holder .contact-form .card-confirmation h2 {
+  border-bottom 3px solid #333 .card-confirmation h2 {
     margin: 0 0 15px 0;
     font-size: 18px;
   }
-  .contact-holder .contact-form .card-confirmation p {
+  border-bottom 3px solid #333 .card-confirmation p {
     font-size: 14px;
   }
   .map {

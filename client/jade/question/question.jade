@@ -1,11 +1,10 @@
 .page
     .content-holder
         .content
-            //- h2 Frequently Asked Questions?
             .filter-holder
                 .filter-container
                     select(type="text", data-ng-model='dropdown')
-                    input(type="text", data-ng-model='filter', placeholder='Enter Your Search Here')
+                    input(type="text", data-ng-model='filter', placeholder='Enter Search')
                     .reset(data-ng-click='reset();')
                         span.fa.fa-times
 
@@ -13,6 +12,3 @@
                 .answer(ng-repeat="answer in answers| filter: {title: filter}")
                     h2(ng-bind="::answer.title")
                     p(ng-bind="::answer.content")
-                    //- .tag-holder
-                    //-     .tag(ng-repeat="keyword in answer.keywords")
-                    //-         h5(ng-bind="::keyword.value")
