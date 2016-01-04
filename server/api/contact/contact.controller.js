@@ -22,7 +22,7 @@
             from: 'National Rx Online Contact <info@nationalrxcard.com>',
             to: 'National Rx Information <info@nationalrxcard.com>',
             subject: 'National Rx Online Contact',
-            text: req.body,
+            text: req.body.message,
         };
 
         var transport = nodemailer.createTransport(sesTransport({
@@ -48,7 +48,6 @@
             if(error){
                 console.log(error);
             } else {
-
                 console.log(data);
             }
         });
