@@ -19,10 +19,10 @@
         };
 
         var message = {
-            from: req.body.email,
-            to: 'National Rx Card <info@nationalrxcard.com>',
-            subject: 'National Rx Card Contact',
-            text: 'Thank you for contacting us. We will respond within three business days.',
+            from: 'National Rx Online Contact <info@nationalrxcard.com>',
+            to: 'National Rx Information <info@nationalrxcard.com>',
+            subject: 'National Rx Online Contact',
+            text: req.body,
         };
 
         var transport = nodemailer.createTransport(sesTransport({
@@ -48,7 +48,8 @@
             if(error){
                 console.log(error);
             } else {
-                console.log(data);                            
+
+                console.log(data);
             }
         });
     };
