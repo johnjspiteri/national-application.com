@@ -15,17 +15,17 @@
                     .patient-holder
                         p Preferred Customer
                         .row
-                            p BIN
-                            p 018398
+                            h6 BIN
+                            h6 018398
                         .row
-                            p PCN
-                            p 48300712
+                            h6 PCN
+                            h6 48300712
                         .row
-                            p GROUP
-                            p 96100245
+                            h6 GROUP
+                            h6 96100245
                         .row
-                            p PATIENT
-                            p NRX43710
+                            h6 PATIENT
+                            h6 NRX43710
 
             .download
                 .tag(data-ng-click='textModal();')
@@ -64,49 +64,73 @@
             h1 We Are Partnered With Over 63,000 Pharmacies Nationwide
             .center-holder
                 .logo
-                    img(ng-src='/img/pharmacies/albertsons.gif')
+                    img.albertsons(ng-src='/img/pharmacies/albertsons.gif')
                 .logo
-                    img(ng-src='/img/pharmacies/ap.gif')
-                .logo
-                    img(ng-src='/img/pharmacies/kmart.gif')
-                .logo
-                    img(ng-src='/img/pharmacies/costco.gif')
+                    img.ap(ng-src='/img/pharmacies/ap.gif')
 
                 .logo
-                    img.large(ng-src='/img/pharmacies/kroger.gif')
+                    img.costco(ng-src='/img/pharmacies/costco.gif')
                 .logo
-                    img(ng-src='/img/pharmacies/duanereade.gif')
-                .logo
-                    img(ng-src='/img/pharmacies/target.gif')
-                .logo
-                    img.large(ng-src='/img/pharmacies/riteaid.gif')
+                    img.medicap(ng-src='/img/pharmacies/medicap.png')
 
                 .logo
-                    img(ng-src='/img/pharmacies/vons.gif')
+                    img.cvs(ng-src='/img/pharmacies/cvs.png')
+                .logo
+                    img.publix(ng-src='/img/pharmacies/publix.png')
 
                 .logo
-                    img(ng-src='/img/pharmacies/walmart.gif')
+                    img.duanereade(ng-src='/img/pharmacies/duanereade.png')
                 .logo
-                    img.large(ng-src='/img/pharmacies/intermountain.png')
+                    img.intermountain(ng-src='/img/pharmacies/intermountain.png')
 
                 .logo
-                    img(ng-src='/img/pharmacies/walgreens.gif')
+                    img.kmart(ng-src='/img/pharmacies/kmart.gif')
                 .logo
-                    img(ng-src='/img/pharmacies/winndixie.gif')
+                    img.kroger(ng-src='/img/pharmacies/kroger.jpg')
+
+                .logo
+                    img.longs(ng-src='/img/pharmacies/longs.png')
+                .logo
+                    img.stopshop(ng-src='/img/pharmacies/stopshop.png')
+
+                .logo
+                    img.riteaid(ng-src='/img/pharmacies/riteaid.gif')
+                .logo
+                    img.starmarket(ng-src='/img/pharmacies/starmarket.png')
+
+                .logo
+                    img.walmart(ng-src='/img/pharmacies/walmart.gif')
+                .logo
+                    img.safeway(ng-src='/img/pharmacies/safeway.png')
+
+                .logo
+                    img.vons(ng-src='/img/pharmacies/vons.gif')
+                .logo
+                    img.winndixie(ng-src='/img/pharmacies/winndixie.gif')
+
+                .logo
+                    img.walgreens(ng-src='/img/pharmacies/walgreens.png')
+                .logo
+                    img.target(ng-src='/img/pharmacies/target.png')
+
+                .logo
+                    img.shoprite(ng-src='/img/pharmacies/shoprite.png')
+                .logo
+                    img.usadrug(ng-src='/img/pharmacies/usadrug.png')
 
         .locator
             .locator-state
                 h2 Search Pharmacies By State & City
                 select(type="text", data-ng-model='location.state', ng-options="state for state in states", data-ng-change='stateUpdate()')
-                    option(value='') State
+                    option(value='') Enter State
                 select(type="text", data-ng-model='location.city', ng-options="city for city in cities | orderBy:'toString()'", data-ng-change='cityResult()', ng-disabled="!location.state")
-                    option(value='') City
+                    option(value='') Enter City
 
                 .submit(type='submit') Search
 
             .locator-zip
                 h2 Search Pharmacies By Zip Code
-                input(type="text", data-ng-model='location.zip', ng-init='location.zip ="10010"')
+                input(type="text", data-ng-model='location.zip', placeholder='10010')
                 .submit(data-ng-click='zip()') Search
 
             .locator-results(data-ng-show='results')

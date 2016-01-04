@@ -14,20 +14,20 @@
           <div class="patient-holder">
             <p>Preferred Customer</p>
             <div class="row">
-              <p>BIN</p>
-              <p>018398</p>
+              <h6>BIN</h6>
+              <h6>018398</h6>
             </div>
             <div class="row">
-              <p>PCN</p>
-              <p>48300712</p>
+              <h6>PCN</h6>
+              <h6>48300712</h6>
             </div>
             <div class="row">
-              <p>GROUP</p>
-              <p>96100245</p>
+              <h6>GROUP</h6>
+              <h6>96100245</h6>
             </div>
             <div class="row">
-              <p>PATIENT</p>
-              <p>NRX43710</p>
+              <h6>PATIENT</h6>
+              <h6>NRX43710</h6>
             </div>
           </div>
         </div>
@@ -80,35 +80,44 @@
     <div class="center"><span class="fa fa-certificate"></span>
       <h1>We Are Partnered With Over 63,000 Pharmacies Nationwide</h1>
       <div class="center-holder">
-        <div class="logo"><img ng-src="/img/pharmacies/albertsons.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/ap.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/kmart.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/costco.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/kroger.gif" class="large"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/duanereade.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/target.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/riteaid.gif" class="large"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/vons.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/walmart.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/intermountain.png" class="large"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/walgreens.gif"/></div>
-        <div class="logo"><img ng-src="/img/pharmacies/winndixie.gif"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/albertsons.gif" class="albertsons"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/ap.gif" class="ap"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/costco.gif" class="costco"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/medicap.png" class="medicap"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/cvs.png" class="cvs"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/publix.png" class="publix"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/duanereade.png" class="duanereade"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/intermountain.png" class="intermountain"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/kmart.gif" class="kmart"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/kroger.jpg" class="kroger"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/longs.png" class="longs"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/stopshop.png" class="stopshop"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/riteaid.gif" class="riteaid"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/starmarket.png" class="starmarket"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/walmart.gif" class="walmart"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/safeway.png" class="safeway"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/vons.gif" class="vons"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/winndixie.gif" class="winndixie"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/walgreens.png" class="walgreens"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/target.png" class="target"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/shoprite.png" class="shoprite"/></div>
+        <div class="logo"><img ng-src="/img/pharmacies/usadrug.png" class="usadrug"/></div>
       </div>
     </div>
     <div class="locator">
       <div class="locator-state">
         <h2>Search Pharmacies By State & City</h2>
         <select type="text" data-ng-model="location.state" ng-options="state for state in states" data-ng-change="stateUpdate()">
-          <option value="">State</option>
+          <option value="">Enter State</option>
         </select>
         <select type="text" data-ng-model="location.city" ng-options="city for city in cities | orderBy:'toString()'" data-ng-change="cityResult()" ng-disabled="!location.state">
-          <option value="">City</option>
+          <option value="">Enter City</option>
         </select>
         <div type="submit" class="submit">Search</div>
       </div>
       <div class="locator-zip">
         <h2>Search Pharmacies By Zip Code</h2>
-        <input type="text" data-ng-model="location.zip" ng-init="location.zip =&quot;10010&quot;"/>
+        <input type="text" data-ng-model="location.zip" placeholder="10010"/>
         <div data-ng-click="zip()" class="submit">Search</div>
       </div>
       <div data-ng-show="results" class="locator-results">

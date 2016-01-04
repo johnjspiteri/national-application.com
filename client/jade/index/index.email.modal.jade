@@ -1,9 +1,9 @@
 .modal-holder
     .modal-container
-        .fa.fa-close(data-ng-click="close();")
+        .fa.fa-close(data-ng-click='close();')
         .row
-            input(type="email" placeholder="Email Address", data-ng-model="data.email")
-        .submit(data-ng-click='email();') Email Me A Free<br>Rx Discount Card
+            input(type='email' placeholder='Enter Your Email', data-ng-model='data.email')
+        .submit(data-ng-click='email();') Send Email
         .card-modal
             .card-logo
                 img(ng-src='/img/icon.png')
@@ -27,13 +27,13 @@
                     .row
                         h6 BIN
                         h6 018398
-                    //- .row
-                    //-     h6 PCN
-                    //-     h6 48300712
+                    .row
+                        h6 PCN
+                        h6 48300712
 
         .legal
             p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.
-            p <b><i>Note To Utah Residents:</i></b> This discount card program is not protected by the Utah Life and Health Guaranty Association.
+
             p NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT: <a href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a>
 
 #panel(data-ng-show='display')

@@ -25,6 +25,7 @@
         };
 
         $scope.stateUpdate = function() {
+            $scope.location.city = '';
             return location.query({
                 id: $scope.location.state
             }).$promise.then(function(success) {

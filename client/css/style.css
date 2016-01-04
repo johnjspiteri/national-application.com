@@ -2337,8 +2337,8 @@ small {
     width: 100%;
     padding: 0;
     margin: 0 0 20px 0;
-    background: #f7f8ee url("../img/cream-dust.png") repeat;
-    border-bottom: 1px solid #444;
+    background: #fff;
+    border-bottom: 1px solid #333;
   }
   header .header {
     position: relative;
@@ -2449,7 +2449,7 @@ small {
     position: absolute;
     width: 52px;
     padding: 0;
-    margin: 104px 0 0 180px;
+    margin: 118px 0 0 170px;
     z-index: 1;
   }
   .card .card-logo img,
@@ -2469,10 +2469,10 @@ small {
   .card-modal .card-content h1 {
     float: left;
     width: 100%;
-    margin: 0 0 6px 0;
-    font-weight: 600;
+    margin: 0 0 8px 0;
+    font-weight: 300;
     font-size: 29px;
-    line-height: 35px;
+    line-height: 29px;
     color: #222;
     text-align: left;
   }
@@ -2480,18 +2480,18 @@ small {
   .card-modal .card-content .company {
     float: left;
     width: 100%;
-    margin: 0 0 18px 0;
+    margin: 0 0 26px 0;
   }
   .card .card-content .company h5,
   .card-modal .card-content .company h5 {
     float: left;
     font-style: italic;
     font-weight: 500;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 18px;
     color: #444;
     text-align: left;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
   }
   .card .card-content .company span,
   .card-modal .card-content .company span {
@@ -2516,32 +2516,39 @@ small {
     padding: 0;
     margin: 0 0 22px 0;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    color: #444;
+    font-size: 23px;
+    line-height: 23px;
+    color: #777;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
   }
   .card .card-content .patient-holder .row,
   .card-modal .card-content .patient-holder .row {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0 0 11px 0;
   }
-  .card .card-content .patient-holder .row p,
-  .card-modal .card-content .patient-holder .row p {
+  .card .card-content .patient-holder .row h6,
+  .card-modal .card-content .patient-holder .row h6 {
     float: left;
-    width: 72px;
+    width: 68px;
     padding: 0;
     margin: 0;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 12px;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 9px;
     color: #777;
+    text-shadow: 0 1px 0 #fff;
+  }
+  .card {
+    width: 294px;
+    padding: 18px 0px 12px 26px;
+    margin: 0 0 12px 0;
+    border-radius: 0 0 0 0;
   }
   .page {
     position: relative;
@@ -2557,15 +2564,15 @@ small {
   }
   .content .main {
     float: left;
-    width: 280px;
+    width: 320px;
     padding: 0;
-    margin: 0 0 0 20px;
+    margin: 0;
   }
   .content .main .download {
     float: left;
     width: 300px;
     padding: 0;
-    margin: 0 0 38px 0;
+    margin: 0 0 38px 20px;
   }
   .content .main .download .tag {
     float: left;
@@ -2605,7 +2612,7 @@ small {
   }
   .content .main .download .tag .fa-mobile {
     height: 36px;
-    margin: -8px 0 0 -2px;
+    margin: -8px 0 0 0px;
     font-size: 35px;
   }
   .content .main .download .tag .fa-send {
@@ -2669,50 +2676,149 @@ small {
   .content .center .fa-certificate {
     position: absolute;
     width: 20px;
-    margin: -18px 0 0 270px;
-    font-size: 39px;
+    margin: -18px 0 0 288px;
+    font-size: 35px;
     color: #ff9;
     text-shadow: 2px 2px 0px #000;
   }
   .content .center h1 {
     float: left;
-    width: 220px;
-    padding: 14px 20px;
-    margin: 0 0 18px 30px;
+    width: 260px;
+    padding: 12px 20px 10px 20px;
+    margin: 0 0 10px 10px;
     font-weight: 500;
-    font-size: 27px;
-    line-height: 35px;
+    font-size: 23px;
+    line-height: 30px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
-    background: #8a0d4a;
-    border-bottom: 3px solid #4a0024;
+    background: #666;
+    border-bottom: 3px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder {
     float: left;
-    width: 300px;
-    padding: 20px 0 24px 20px;
+    width: 310px;
+    padding: 30px 0 10px 10px;
     margin: 0;
-    background: #f7f8ee url("../img/cream-dust.png") repeat;
+    background: #fff;
     border-left: none;
     border-right: none;
     border-bottom: 4px solid #333;
   }
   .content .center .center-holder .logo {
     float: left;
-    padding: 0 20px 20px 0;
-    margin: 0 0 4px 10px;
-  }
-  .content .center .center-holder .logo img {
-    float: left;
-    height: 34px;
     padding: 0;
-    margin: 0;
-    font-size: 22px;
   }
-  .content .center .center-holder .logo img.large {
-    height: 60px;
+  .content .center .center-holder .logo .albertsons {
+    float: left;
+    width: 190px;
+    margin: 0 10px 22px 10px;
+  }
+  .content .center .center-holder .logo .ap {
+    float: left;
+    width: 70px;
+    margin: 0 10px 22px 10px;
+  }
+  .content .center .center-holder .logo .costco {
+    float: left;
+    width: 130px;
+    margin: 0 14px 2px 20px;
+  }
+  .content .center .center-holder .logo .medicap {
+    float: left;
+    width: 110px;
+    margin: 0 10px 10px 10px;
+  }
+  .content .center .center-holder .logo .cvs {
+    float: left;
+    width: 210px;
+    margin: 18px 10px 22px 5px;
+  }
+  .content .center .center-holder .logo .publix {
+    float: left;
+    width: 52px;
+    margin: 4px 10px 14px 5px;
+  }
+  .content .center .center-holder .logo .duanereade {
+    float: left;
+    width: 140px;
+    margin: 8px 8px 0 0;
+  }
+  .content .center .center-holder .logo .intermountain {
+    float: left;
+    width: 140px;
+    margin: 0 0 18px 10px;
+  }
+  .content .center .center-holder .logo .kmart {
+    float: left;
+    width: 160px;
+    margin: 10px 30px 18px 10px;
+  }
+  .content .center .center-holder .logo .kroger {
+    float: left;
+    width: 58px;
+    margin: 4px 10px 8px 10px;
+  }
+  .content .center .center-holder .logo .longs {
+    float: left;
+    width: 160px;
+    margin: 10px 20px 8px 10px;
+  }
+  .content .center .center-holder .logo .stopshop {
+    float: left;
+    width: 80px;
+    margin: 4px 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .riteaid {
+    float: left;
+    width: 46px;
+    margin: 10px 25px 16px 25px;
+  }
+  .content .center .center-holder .logo .starmarket {
+    float: left;
+    width: 180px;
+    margin: 10px 0 18px 10px;
+  }
+  .content .center .center-holder .logo .walmart {
+    float: left;
+    width: 140px;
+    margin: 4px 20px 18px 15px;
+  }
+  .content .center .center-holder .logo .safeway {
+    float: left;
+    width: 90px;
+    margin: -16px 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .vons {
+    float: left;
+    width: 80px;
+    margin: -5px 20px 0 15px;
+  }
+  .content .center .center-holder .logo .winndixie {
+    float: left;
+    width: 160px;
+    margin: 0 0 14px 10px;
+  }
+  .content .center .center-holder .logo .walgreens {
+    float: left;
+    width: 190px;
+    margin: 10px 20px 0px 10px;
+  }
+  .content .center .center-holder .logo .shoprite {
+    float: left;
+    width: 90px;
+    margin: -10px 10px 18px 30px;
+  }
+  .content .center .center-holder .logo .target {
+    float: left;
+    width: 56px;
+    margin: 0 10px 18px 0;
+  }
+  .content .center .center-holder .logo .usadrug {
+    float: left;
+    width: 120px;
+    margin: 0 10px 18px 10px;
   }
   .content .locator {
     float: left;
@@ -2738,8 +2844,8 @@ small {
     width: 240px;
     padding: 20px 20px 20px 20px;
     margin: 0 0 30px 20px;
-    background: #8a0d4a;
-    border-bottom: 3px solid #4a0024;
+    background: #666;
+    border-bottom: 3px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
   .content .locator .locator-zip input,
@@ -2749,7 +2855,7 @@ small {
     height: 52px;
     padding: 0;
     margin: 0 0 14px 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
     line-height: 25px;
     border: none;
@@ -2758,6 +2864,10 @@ small {
     text-align: center;
     cursor: pointer;
   }
+  .content .locator .locator-zip ::-webkit-input-placeholder,
+  .content .locator .locator-state ::-webkit-input-placeholder {
+    line-height: normal;
+  }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     float: left;
@@ -2765,7 +2875,7 @@ small {
     height: 56px;
     padding: 0;
     margin: 0 0 10px 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
     line-height: 25px;
     background: #fff;
@@ -2786,8 +2896,8 @@ small {
     line-height: 51px;
     color: #fff;
     border: none;
-    background: #777;
-    border-bottom: 3px solid #333;
+    background: #8a0d4a;
+    border-bottom: 3px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
@@ -2798,7 +2908,7 @@ small {
     width: 320px;
     padding: 20px 0 25px 0;
     margin: 0 0 30px 0;
-    background: #999 url("../img/asfalt-light.png") repeat;
+    background: #666;
     border-bottom: 3px solid #333;
   }
   .content .locator-results h2 {
@@ -2884,7 +2994,7 @@ small {
     line-height: 32px;
     color: #000;
     text-align: center;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     float: left;
@@ -2895,7 +3005,7 @@ small {
     line-height: 27px;
     margin: 0 0 12px 0;
     text-align: center;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     float: left;
@@ -2907,7 +3017,7 @@ small {
     font-size: 22px;
     line-height: 22px;
     text-align: center;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: none;
@@ -2963,7 +3073,7 @@ small {
     line-height: 20px;
     color: #9e1e4c;
     text-align: center;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
   }
   .contact-holder .contact-detail .contact-container h4 {
     float: left;
@@ -3032,7 +3142,7 @@ small {
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
     box-shadow: 1px 1px 4px #aaa;
     text-align: center;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
     vertical-align: middle;
     user-select: none;
     cursor: pointer;
@@ -3095,8 +3205,8 @@ small {
     width: 280px;
     padding: 14px 10px 18px 10px;
     margin: 8px 0 12px 0;
-    background: #999 url("../img/asfalt-light.png") repeat;
-    border: 1px solid #aaa;
+    background: #666;
+    border: 1px solid #000;
     border-radius: 6px 6px 6px 6px;
   }
   .modal-holder .modal-container .print {
@@ -3120,7 +3230,7 @@ small {
     line-height: 18px;
     color: #000;
     text-align: center;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
     cursor: pointer;
   }
   .modal-holder .modal-container .row {
@@ -3144,6 +3254,9 @@ small {
     border-radius: 6px 6px 6px 6px;
     text-align: center;
   }
+  .modal-holder .modal-container .row ::-webkit-input-placeholder {
+    line-height: normal;
+  }
   .modal-holder .modal-container .submit {
     float: left;
     width: 280px;
@@ -3157,9 +3270,6 @@ small {
     border: none;
     border-bottom: 4px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
-    box-shadow: none;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
-    box-shadow: 1px 1px 4px #aaa;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
     vertical-align: middle;
@@ -3184,7 +3294,8 @@ small {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    text-shadow: 1px 1px 0 #ddd;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
   }
   .modal-holder .modal-container .legal a {
     font-weight: 500;
@@ -3192,13 +3303,13 @@ small {
     line-height: 26px;
     color: #9e1e4c;
     text-align: center;
-    text-shadow: 1px 1px 0 #ddd;
+    text-shadow: 0 1px 0 #fff;
   }
   footer {
     float: left;
     width: 100%;
     height: 74px;
-    background: #999 url("../img/asfalt-light.png") repeat;
+    background: #666;
     border-top: 1px solid #333;
   }
   footer .footer {
@@ -3297,7 +3408,7 @@ small {
     font-weight: 500;
     font-size: 23px;
     line-height: 54px;
-    background: #999 url("../img/asfalt-light.png") repeat;
+    background: #666;
     border: none;
     border-bottom: 3px solid #333;
     border-radius: 6px 6px 6px 6px;
@@ -3455,7 +3566,7 @@ small {
     background: none;
     outline: none;
     overflow: none;
-    background: #777;
+    background: #fff;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -3496,7 +3607,7 @@ small {
     top: 0;
     padding: 0 0 1000px 0;
     margin: 0;
-    background: #777;
+    background: #fff;
     border-right: 1px solid #000;
     z-index: 99999;
   }
@@ -3588,7 +3699,7 @@ small {
     margin: 0;
   }
   .card-modal .card-content h1 {
-    margin: 0 0 10px 0;
+    margin: 0 0 12px 0;
     font-size: 29px;
     line-height: 29px;
   }
@@ -3621,9 +3732,10 @@ small {
     line-height: 10px;
   }
   .card {
-    width: 305px;
-    padding: 28px 0 16px 30px;
+    width: 325px;
+    padding: 24px 0 16px 30px;
     margin: 0 0 14px 0;
+    border-radius: 8px;
   }
   .card .card-logo {
     width: 64px;
@@ -3633,9 +3745,9 @@ small {
     width: 305px;
   }
   .card .card-content h1 {
-    margin: 0 0 8px 0;
-    font-size: 35px;
-    line-height: 35px;
+    margin: 0 0 10px 0;
+    font-size: 31px;
+    line-height: 31px;
   }
   .card .card-content .company {
     margin: 0 0 22px 0;
@@ -3654,18 +3766,16 @@ small {
   }
   .card .card-content .patient-holder p {
     margin: 0 0 28px 0;
-    font-size: 27px;
-    line-height: 27px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 8px 0;
+    margin: 0 0 12px 0;
   }
   .card .card-content .patient-holder .row h6 {
     width: 78px;
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 11px;
+    line-height: 11px;
   }
   .page {
     width: 375px;
@@ -3674,12 +3784,12 @@ small {
     width: 375px;
   }
   .content .main {
-    width: 335px;
-    margin: 0 0 0 20px;
+    width: 355px;
+    margin: 0 0 0 10px;
   }
   .content .main .download {
     width: 344px;
-    margin: 0 0 48px 0;
+    margin: 0 0 48px 10px;
   }
   .content .main .download .tag {
     width: 76px;
@@ -3733,7 +3843,7 @@ small {
     line-height: 36px;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 7px 0;
+    padding: 0 0 6px 0;
   }
   .content .center {
     width: 375px;
@@ -3741,30 +3851,111 @@ small {
   }
   .content .center .fa-certificate {
     width: 20px;
-    margin: -18px 0 0 330px;
+    margin: -18px 0 0 340px;
     font-size: 39px;
   }
   .content .center h1 {
-    width: 285px;
-    padding: 14px 20px;
-    margin: 0 0 18px 25px;
+    width: 305px;
+    padding: 14px 20px 12px 20px;
+    margin: 0 0 12px 15px;
     font-size: 27px;
-    line-height: 37px;
+    line-height: 34px;
   }
   .content .center .center-holder {
     width: 355px;
-    padding: 28px 0 24px 20px;
+    padding: 34px 0 24px 20px;
     margin: 0;
   }
   .content .center .center-holder .logo {
-    padding: 0 20px 20px 0;
-    margin: 0 0 0 10px;
-  }
-  .content .center .center-holder .logo img {
-    float: left;
-    height: 30px;
     padding: 0;
-    margin: 0;
+  }
+  .content .center .center-holder .logo .albertsons {
+    width: 210px;
+    margin: 0 10px 26px 10px;
+  }
+  .content .center .center-holder .logo .ap {
+    width: 84px;
+    margin: 0 10px 26px 10px;
+  }
+  .content .center .center-holder .logo .costco {
+    width: 150px;
+    margin: 0 30px 20px 10px;
+  }
+  .content .center .center-holder .logo .medicap {
+    width: 124px;
+    margin: 0 10px 14px 10px;
+  }
+  .content .center .center-holder .logo .cvs {
+    width: 240px;
+    margin: 16px 10px 22px 0;
+  }
+  .content .center .center-holder .logo .publix {
+    width: 56px;
+    margin: 0 10px 22px 10px;
+  }
+  .content .center .center-holder .logo .duanereade {
+    width: 160px;
+    margin: 4px 20px 14px 0;
+  }
+  .content .center .center-holder .logo .intermountain {
+    width: 150px;
+    margin: 0 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .kmart {
+    width: 200px;
+    margin: 20px 20px 10px 10px;
+  }
+  .content .center .center-holder .logo .kroger {
+    width: 72px;
+    margin: 4px 10px 14px 10px;
+  }
+  .content .center .center-holder .logo .longs {
+    width: 200px;
+    margin: 10px 20px 8px 0;
+  }
+  .content .center .center-holder .logo .stopshop {
+    width: 92px;
+    margin: 4px 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .riteaid {
+    width: 56px;
+    margin: 18px 24px 10px 20px;
+  }
+  .content .center .center-holder .logo .starmarket {
+    width: 220px;
+    margin: 18px 0 20px 10px;
+  }
+  .content .center .center-holder .logo .walmart {
+    width: 170px;
+    margin: 8px 30px 14px 10px;
+  }
+  .content .center .center-holder .logo .safeway {
+    width: 92px;
+    margin: -10px 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .vons {
+    width: 92px;
+    margin: 0 20px 10px 10px;
+  }
+  .content .center .center-holder .logo .winndixie {
+    width: 190px;
+    margin: 0 0 22px 10px;
+  }
+  .content .center .center-holder .logo .walgreens {
+    width: 230px;
+    margin: 10px 20px 0 0;
+  }
+  .content .center .center-holder .logo .shoprite {
+    width: 90px;
+    margin: -10px 20px 18px 30px;
+  }
+  .content .center .center-holder .logo .target {
+    width: 66px;
+    margin: 0px 10px 8px 0px;
+  }
+  .content .center .center-holder .logo .usadrug {
+    width: 132px;
+    margin: 0 10px 18px 10px;
   }
   .content .locator {
     float: left;
@@ -3799,7 +3990,7 @@ small {
   .content .locator .locator-state select {
     width: 255px;
     height: 62px;
-    padding: 0 0 0 50px;
+    padding: 2px 0 0 30px;
     margin: 0 0 14px 10px;
     font-size: 27px;
     line-height: 27px;
@@ -4408,7 +4599,7 @@ small {
   }
   .content .main .download .tag {
     width: 91px;
-    padding: 12px 0 10px 0;
+    padding: 12px 0 8px 0;
     margin: 0 12px 0 0;
   }
   .content .main .download .tag p {
@@ -4434,7 +4625,7 @@ small {
     font-size: 20px;
   }
   .content .main .download .tag .fa-file-text {
-    font-size: 22px;
+    font-size: 21px;
   }
   .content .points {
     width: 480px;
@@ -4442,7 +4633,7 @@ small {
   }
   .content .points .point-container {
     width: 480px;
-    margin: 0 0 20px 0;
+    margin: 0;
   }
   .content .points .point-container .point {
     display: inline-block;
@@ -4459,7 +4650,7 @@ small {
     line-height: 39px;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 4px 0;
+    padding: 0 0 5px 0;
   }
   .content .center {
     width: 480px;
@@ -4479,14 +4670,99 @@ small {
   }
   .content .center .center-holder {
     width: 460px;
-    padding: 20px 0 20px 20px;
+    padding: 28px 0 6px 20px;
+    margin: 0;
   }
   .content .center .center-holder .logo {
-    padding: 0 30px 20px 0;
-    margin: 0 0 0 10px;
+    padding: 0;
   }
-  .content .center .center-holder .logo img {
-    height: 30px;
+  .content .center .center-holder .logo .albertsons {
+    width: 190px;
+    margin: 0 10px 22px 0;
+  }
+  .content .center .center-holder .logo .ap {
+    width: 70px;
+    margin: 0 20px 22px 10px;
+  }
+  .content .center .center-holder .logo .costco {
+    width: 130px;
+    margin: 0 14px 22px 0;
+  }
+  .content .center .center-holder .logo .medicap {
+    width: 110px;
+    margin: 0 20px 6px 5px;
+  }
+  .content .center .center-holder .logo .cvs {
+    width: 210px;
+    margin: 8px 20px 18px 5px;
+  }
+  .content .center .center-holder .logo .publix {
+    width: 52px;
+    margin: 0 10px 14px 0;
+  }
+  .content .center .center-holder .logo .duanereade {
+    width: 140px;
+    margin: 8px 10px 0 0;
+  }
+  .content .center .center-holder .logo .intermountain {
+    width: 136px;
+    margin: 0 0 14px 10px;
+  }
+  .content .center .center-holder .logo .kmart {
+    width: 140px;
+    margin: 10px 0 24px 10px;
+  }
+  .content .center .center-holder .logo .kroger {
+    width: 58px;
+    margin: 10px 20px 0 0;
+  }
+  .content .center .center-holder .logo .longs {
+    width: 160px;
+    margin: 14px 20px 8px 0;
+  }
+  .content .center .center-holder .logo .stopshop {
+    width: 80px;
+    margin: 4px 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .riteaid {
+    width: 46px;
+    margin: 10px 25px 16px 25px;
+  }
+  .content .center .center-holder .logo .starmarket {
+    width: 180px;
+    margin: 18px 20px 14px 0;
+  }
+  .content .center .center-holder .logo .walmart {
+    width: 140px;
+    margin: 18px 10px 14px 0;
+  }
+  .content .center .center-holder .logo .safeway {
+    width: 90px;
+    margin: -10px 0 10px 0;
+  }
+  .content .center .center-holder .logo .vons {
+    width: 76px;
+    margin: 0px 15px 0 0;
+  }
+  .content .center .center-holder .logo .winndixie {
+    width: 150px;
+    margin: 0 15px 10px 0;
+  }
+  .content .center .center-holder .logo .walgreens {
+    width: 190px;
+    margin: 0 0 0 0;
+  }
+  .content .center .center-holder .logo .shoprite {
+    width: 90px;
+    margin: 5px 10px 18px 30px;
+  }
+  .content .center .center-holder .logo .target {
+    width: 56px;
+    margin: 10px 10px 14px 30px;
+  }
+  .content .center .center-holder .logo .usadrug {
+    width: 120px;
+    margin: 10px 10px 18px 10px;
   }
   .content .locator {
     width: 480px;
@@ -4882,7 +5158,7 @@ small {
     float: left;
     margin: 10px 10px 0 0;
     padding: 0;
-    background: #999 url("../img/asfalt-light.png") repeat;
+    background: #666;
     border-bottom: 4px solid #333;
     border-radius: 4px;
   }
@@ -5065,7 +5341,7 @@ small {
   }
   .card-modal {
     width: 310px;
-    padding: 26px 0 12px 30px;
+    padding: 24px 0 14px 30px;
     margin: 0 0 22px 0;
   }
   .card-modal .card-logo {
@@ -5081,7 +5357,7 @@ small {
     line-height: 33px;
   }
   .card-modal .card-content .company {
-    margin: 0 0 22px 0;
+    margin: 0 0 28px 0;
   }
   .card-modal .card-content .company h5 {
     font-size: 20px;
@@ -5097,8 +5373,8 @@ small {
   }
   .card-modal .card-content .patient-holder p {
     margin: 0 0 24px 0;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .card-modal .card-content .patient-holder .row {
     margin: 0 0 12px 0;
@@ -5107,8 +5383,8 @@ small {
     width: 72px;
     padding: 0;
     margin: 0;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 10px;
+    line-height: 10px;
   }
   .card {
     width: 430px;
@@ -5228,31 +5504,117 @@ small {
   }
   .content .center {
     width: 500px;
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
   }
   .content .center .fa-certificate {
     width: 20px;
-    margin: -18px 0 0 445px;
+    margin: -18px 0 0 465px;
     font-size: 45px;
   }
   .content .center h1 {
-    width: 380px;
-    padding: 12px 20px 10px 20px;
-    margin: 0 0 18px 50px;
+    width: 480px;
+    padding: 12px 20px 12px 20px;
+    margin: 0 0 12px 0;
     font-size: 33px;
-    line-height: 40px;
+    line-height: 39px;
   }
   .content .center .center-holder {
-    width: 520px;
-    padding: 20px 0 20px 0;
-    border-radius: 12px;
+    width: 600px;
+    padding: 28px 0 10px 40px;
+    margin: 0 0 0 -60px;
+    border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder .logo {
-    padding: 0 30px 20px 0;
-    margin: 0 0 0 10px;
+    padding: 0;
   }
-  .content .center .center-holder .logo img {
-    height: 30px;
+  .content .center .center-holder .logo .albertsons {
+    width: 180px;
+    margin: 0 20px 18px 0;
+  }
+  .content .center .center-holder .logo .ap {
+    width: 66px;
+    margin: 0 20px 8px 10px;
+  }
+  .content .center .center-holder .logo .costco {
+    width: 112px;
+    margin: 0 30px 24px 10px;
+  }
+  .content .center .center-holder .logo .medicap {
+    width: 96px;
+    margin: -8px 0 2px 0;
+  }
+  .content .center .center-holder .logo .cvs {
+    width: 190px;
+    margin: 14px 20px 10px -10px;
+  }
+  .content .center .center-holder .logo .publix {
+    width: 46px;
+    margin: -6px 30px 0 10px;
+  }
+  .content .center .center-holder .logo .duanereade {
+    width: 130px;
+    margin: 0 20px 22px 0;
+  }
+  .content .center .center-holder .logo .intermountain {
+    width: 130px;
+    margin: -10px 0 0 0;
+  }
+  .content .center .center-holder .logo .kmart {
+    width: 160px;
+    margin: 2px 20px 12px 0;
+  }
+  .content .center .center-holder .logo .kroger {
+    width: 60px;
+    margin: -4px 20px 0 10px;
+  }
+  .content .center .center-holder .logo .longs {
+    width: 160px;
+    margin: 2px 20px 10px 10px;
+  }
+  .content .center .center-holder .logo .stopshop {
+    width: 76px;
+    margin: -8px 10px 20px 10px;
+  }
+  .content .center .center-holder .logo .riteaid {
+    width: 46px;
+    margin: 16px 20px 8px 10px;
+  }
+  .content .center .center-holder .logo .starmarket {
+    width: 170px;
+    margin: 16px 20px 0 10px;
+  }
+  .content .center .center-holder .logo .walmart {
+    width: 140px;
+    margin: 16px 20px 0 10px;
+  }
+  .content .center .center-holder .logo .safeway {
+    width: 90px;
+    margin: 0 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .vons {
+    width: 80px;
+    margin: 0 20px 28px 0;
+  }
+  .content .center .center-holder .logo .winndixie {
+    display: none;
+    width: 160px;
+    margin: 0 0 22px 10px;
+  }
+  .content .center .center-holder .logo .walgreens {
+    width: 180px;
+    margin: 0 10px 18px 0;
+  }
+  .content .center .center-holder .logo .shoprite {
+    width: 80px;
+    margin: -16px 0 18px 10px;
+  }
+  .content .center .center-holder .logo .target {
+    width: 60px;
+    margin: -22px 10px 18px 0;
+  }
+  .content .center .center-holder .logo .usadrug {
+    width: 100px;
+    margin: -6px 10px 18px 10px;
   }
   .content .locator {
     width: 520px;
@@ -5774,7 +6136,7 @@ small {
 }
 @media (min-width: 768px) {
   header {
-    height: 248px;
+    height: 244px;
     margin: 0 0 60px 0;
   }
   header .header {
@@ -5786,7 +6148,7 @@ small {
   }
   header .header .brand .logo {
     width: 320px;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 60px;
   }
   header .header .brand .mobile-navigation {
     display: none;
@@ -5795,35 +6157,35 @@ small {
     display: block;
     float: left;
     width: 750px;
-    height: 82px;
+    height: 78px;
     padding: 0;
     margin: 0 0 0 6px;
-    border-right: 1px solid #444;
+    border-right: 1px solid #333;
     border-radius: 6px 6px 0 0;
   }
   header .header nav .tile {
     float: right;
-    height: 81px;
+    height: 77px;
     padding: 0 28px;
     margin: 0;
-    background: #999 url("../img/asfalt-light.png") repeat;
-    border-top: 1px solid #444;
-    border-left: 1px solid #444;
+    background: #666;
+    border-top: 1px solid #333;
+    border-left: 1px solid #333;
     cursor: pointer;
   }
   header .header nav .tile h4 {
     float: left;
     padding: 0;
-    margin: 15px 0 0 0;
+    margin: 14px 0 0 0;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 21px;
+    line-height: 26px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
   }
   header .header nav .tile.active {
-    height: 82px;
+    height: 78px;
     background: #777;
   }
   header .header nav .tile.first {
@@ -5833,95 +6195,98 @@ small {
     border-radius: 0 6px 0 0;
   }
   .card {
-    width: 584px;
-    padding: 42px 0px 24px 64px;
-    margin: 0 0 22px 30px;
+    width: 604px;
+    padding: 34px 0px 28px 64px;
+    margin: 0 0 18px 40px;
   }
   .card .card-logo {
-    width: 142px;
-    margin: 84px 0 0 400px;
+    width: 102px;
+    margin: 124px 0 0 400px;
   }
   .card .card-content {
     width: 480px;
   }
   .card .card-content h1 {
     margin: 0 0 16px 0;
-    font-size: 47px;
-    line-height: 47px;
+    font-size: 49px;
+    line-height: 49px;
   }
   .card .card-content .company {
     margin: 0 0 36px 0;
   }
   .card .card-content .company h5 {
-    font-size: 29px;
-    line-height: 29px;
+    font-size: 31px;
+    line-height: 31px;
   }
   .card .card-content .company span {
     margin: 0 14px;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 29px;
+    line-height: 31px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder p {
-    margin: 0 0 44px 0;
-    font-size: 29px;
-    line-height: 29px;
+    margin: 0 0 48px 0;
+    font-size: 37px;
+    line-height: 37px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 16px 0;
+    margin: 0 0 18px 0;
   }
   .card .card-content .patient-holder .row h6 {
-    width: 98px;
+    width: 122px;
+    font-weight: 600;
     font-size: 15px;
     line-height: 15px;
   }
   .page {
-    width: 708px;
+    width: 768px;
   }
   .content {
-    width: 708px;
+    width: 768px;
   }
   .content .main {
-    width: 708px;
+    width: 768px;
     margin: 0 0 60px 0;
   }
   .content .main .download {
-    width: 520px;
-    margin: 0 0 0 108px;
+    width: 650px;
+    margin: 0 0 0 68px;
   }
   .content .main .download .tag {
-    width: 108px;
-    padding: 20px 0 14px 0;
+    width: 138px;
+    padding: 18px 0 12px 0;
     margin: 0 20px 0 0;
   }
   .content .main .download .tag p {
+    width: 100%;
+    margin: 0;
     font-size: 22px;
-    line-height: 22px;
+    line-height: 25px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 36px;
-    font-size: 29px;
+    height: 38px;
+    font-size: 33px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 48px;
-    margin: -12px 0 0 -12px;
-    font-size: 48px;
+    height: 50px;
+    margin: -12px 0 0 -10px;
+    font-size: 51px;
   }
   .content .main .download .tag .fa-send {
-    font-size: 24px;
+    font-size: 26px;
   }
   .content .main .download .tag .fa-file-text {
-    font-size: 26px;
+    font-size: 28px;
   }
   .content .points {
     width: 600px;
     padding: 0;
-    margin: 0 0 50px 54px;
+    margin: 0 0 50px 84px;
   }
   .content .points .point-container {
     width: 600px;
@@ -5937,49 +6302,131 @@ small {
     font-size: 47px;
   }
   .content .points .point-container .point h3 {
-    padding: 14px 40px 24px 40px;
-    font-size: 43px;
-    line-height: 53px;
+    padding: 14px 50px 24px 50px;
+    font-size: 41px;
+    line-height: 51px;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 6px 0;
+    padding: 0 0 5px 0;
   }
   .content .center {
-    width: 708px;
+    width: 768px;
     padding: 0;
     margin: 0 0 40px 0;
   }
   .content .center .fa-certificate {
     width: 20px;
-    margin: -26px 0 0 646px;
+    margin: -26px 0 0 682px;
     font-size: 55px;
   }
   .content .center h1 {
-    width: 580px;
+    width: 568px;
     padding: 20px 30px 24px 30px;
-    margin: 0 0 26px 34px;
+    margin: 0 0 14px 80px;
     font-size: 41px;
     line-height: 53px;
   }
   .content .center .center-holder {
-    width: 678px;
-    padding: 20px 0 20px 30px;
+    width: 738px;
+    padding: 38px 0 28px 30px;
     margin: 0;
+    border-radius: 0 0 0 0;
   }
   .content .center .center-holder .logo {
-    padding: 0 20px 20px 0;
-    margin: 0 0 0 10px;
+    padding: 0;
   }
-  .content .center .center-holder .logo img {
-    height: 40px;
+  .content .center .center-holder .logo .albertsons {
+    width: 220px;
+    margin: 0 30px 20px 0;
+  }
+  .content .center .center-holder .logo .ap {
+    width: 88px;
+    margin: 0 20px 20px 10px;
+  }
+  .content .center .center-holder .logo .costco {
+    width: 152px;
+    margin: 0 30px 20px 20px;
+  }
+  .content .center .center-holder .logo .medicap {
+    width: 136px;
+    margin: 0 0 22px 0;
+  }
+  .content .center .center-holder .logo .cvs {
+    width: 200px;
+    margin: 18px 30px 24px -10px;
+  }
+  .content .center .center-holder .logo .publix {
+    width: 58px;
+    margin: 0 30px 24px 0;
+  }
+  .content .center .center-holder .logo .duanereade {
+    width: 190px;
+    margin: 0 30px 24px 0;
+  }
+  .content .center .center-holder .logo .intermountain {
+    width: 180px;
+    margin: 0 0 32px 0;
+  }
+  .content .center .center-holder .logo .kmart {
+    width: 200px;
+    margin: 0 30px 18px 10px;
+  }
+  .content .center .center-holder .logo .kroger {
+    width: 78px;
+    margin: -8px 24px 4px 10px;
+  }
+  .content .center .center-holder .logo .longs {
+    width: 210px;
+    margin: 0 26px 20px 10px;
+  }
+  .content .center .center-holder .logo .stopshop {
+    width: 92px;
+    margin: 0 20px 26px 10px;
+  }
+  .content .center .center-holder .logo .riteaid {
+    width: 58px;
+    margin: 10px 50px 8px 10px;
+  }
+  .content .center .center-holder .logo .starmarket {
+    width: 220px;
+    margin: 14px 20px 0 0;
+  }
+  .content .center .center-holder .logo .walmart {
+    width: 180px;
+    margin: 10px 30px 0 10px;
+  }
+  .content .center .center-holder .logo .safeway {
+    width: 100px;
+    margin: 0 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .vons {
+    width: 96px;
+    margin: 0 20px 28px 0;
+  }
+  .content .center .center-holder .logo .walgreens {
+    width: 230px;
+    margin: 0 20px 0 0;
+  }
+  .content .center .center-holder .logo .shoprite {
+    width: 92px;
+    margin: -10px 30px 0 0;
+  }
+  .content .center .center-holder .logo .target {
+    width: 76px;
+    margin: -16px 20px 0 0;
+  }
+  .content .center .center-holder .logo .usadrug {
+    width: 120px;
+    margin: 0;
   }
   .content .locator {
     width: 728px;
+    margin: 0 0 0 30px;
   }
   .content .locator h2 {
-    margin: 0 0 28px 0;
-    font-size: 33px;
-    line-height: 42px;
+    margin: 0 0 24px 0;
+    font-size: 35px;
+    line-height: 43px;
   }
   .content .locator .locator-zip,
   .content .locator .locator-state {
@@ -5999,25 +6446,25 @@ small {
     height: 62px;
     padding: 0;
     margin: 0 0 14px 0;
-    font-size: 29px;
-    line-height: 29px;
+    font-size: 31px;
+    line-height: 31px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     width: 304px;
-    height: 66px;
-    padding: 0;
+    height: 67px;
+    padding: 0 0 0 40px;
     margin: 0 0 14px 0;
-    font-size: 29px;
-    line-height: 29px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
     width: 304px;
     padding: 0;
     margin: 0;
-    font-size: 31px;
-    line-height: 69px;
+    font-size: 33px;
+    line-height: 70px;
     text-shadow: 2px 2px 0px #000;
   }
   .content .locator .locator-results {
@@ -6058,36 +6505,26 @@ small {
   }
   .content .testimonals-holder {
     width: 728px;
-    margin: 0;
+    margin: 0 0 0 30px;
   }
   .content .testimonals-holder .testimonals {
     width: 728px;
-    margin: 0 0 30px 0;
+    margin: 0 0 40px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
-    float: left;
-    width: 304px;
-    padding: 28px 20px 30px 20px;
-    margin: 0 20px 14px 0;
+    width: 284px;
+    padding: 28px 30px 30px 30px;
+    margin: 0 20px 16px 0;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 14px 0;
+    margin: 0 0 22px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 12px 0;
-    font-weight: 600;
+    margin: 0 0 14px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    font-size: 25px;
+    line-height: 25px;
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: block;
@@ -6110,7 +6547,7 @@ small {
     margin: 12px 60px 0 10px;
   }
   footer .footer .link.phone {
-    margin: 12px 90px 0 0;
+    margin: 12px 80px 0 0;
   }
   footer .footer .link.privacy {
     margin: 12px 0 0 0;
@@ -6436,221 +6873,358 @@ small {
   header .header nav .tile.active {
     height: 76px;
   }
-  .card {
-    width: 476px;
-    padding: 42px 0px 24px 54px;
-    margin: 0 0 20px 0;
+  header .header nav .tile.last {
+    border-radius: 0 0 0 0;
   }
-  .card h1 {
+  .card {
+    width: 444px;
+    padding: 32px 0px 22px 44px;
     margin: 0 0 18px 0;
-    font-size: 41px;
-    line-height: 42px;
+  }
+  .card .card-logo {
+    display: none;
+    width: 90px;
+    margin: 90px 0 0 280px;
   }
   .card .card-content {
-    width: 480px;
+    width: 344px;
+  }
+  .card .card-content h1 {
+    margin: 0 0 12px 0;
+    font-size: 41px;
+    line-height: 41px;
   }
   .card .card-content .company {
     margin: 0 0 32px 0;
   }
   .card .card-content .company h5 {
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .card .card-content .company span {
     margin: 0 12px;
     font-size: 21px;
-    line-height: 26px;
+    line-height: 25px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder p {
-    margin: 0 0 22px 0;
-    font-size: 27px;
+    width: 340px;
+    margin: 0 0 44px 0;
+    font-size: 33px;
     line-height: 33px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 20px 0;
+    margin: 0 0 14px 0;
   }
-  .card .card-content .patient-holder .row h6 {
-    width: 98px;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    line-height: 14px;
+  .card .card-content .patient-holder .row p {
+    width: 86px;
+    font-size: 11px;
+    line-height: 11px;
   }
   .page {
-    width: 928px;
+    width: 1000px;
   }
   .content {
-    width: 708px;
+    width: 1000px;
   }
   .content .main {
-    width: 708px;
-    margin: 0 0 60px 0;
+    width: 530px;
+    margin: 0 0 50px 20px;
   }
   .content .main .download {
-    width: 120px;
-    padding: 0;
-    margin: 0 0 0 40px;
+    width: 528px;
+    margin: 0 0 0 0;
   }
   .content .main .download .tag {
-    width: 91px;
-    padding: 10px 0;
-    margin: 0 0 12px 0;
+    width: 112px;
+    padding: 16px 0 10px 0;
+    margin: 0 14px 0 0;
   }
   .content .main .download .tag p {
-    margin: 3px 0 0 0;
-    font-size: 20px;
-    line-height: 20px;
+    margin: 0;
+    width: 112px;
+    font-size: 18px;
+    line-height: 18px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 32px;
-    font-size: 22px;
-    line-height: 22px;
+    height: 36px;
+    font-size: 28px;
   }
   .content .main .download .tag .fa-mobile {
-    font-size: 39px;
+    height: 46px;
+    margin: -10px 0 0 -10px;
+    font-size: 42px;
   }
   .content .main .download .tag .fa-send {
-    font-size: 20px;
-  }
-  .content .main .download .tag .fa-file-text {
     font-size: 22px;
   }
+  .content .main .download .tag .fa-file-text {
+    font-size: 24px;
+  }
   .content .points {
-    width: 688px;
-    padding: 0;
-    margin: 0 0 70px 10px;
+    width: 440px;
+    margin: 20px 0 0 0;
   }
-  .content .points .point {
-    margin: 0;
+  .content .points .point-container {
+    width: 440px;
+    margin: 0 0 26px 0;
   }
-  .content .points .point .text {
-    width: 584px;
-    padding: 8px 0 18px 0;
+  .content .points .point-container .point {
+    display: inline-block;
   }
-  .content .points .point .text .fa-certificate {
-    width: 92px;
-    margin: -20px 0 0 -22px;
-    font-size: 62px;
-    line-height: 62px;
+  .content .points .point-container .point .fa-certificate {
+    width: 66px;
+    top: -15px;
+    left: -32px;
+    font-size: 35px;
+    line-height: 35px;
   }
-  .content .points .point .text h3 {
-    font-size: 49px;
-    line-height: 69px;
+  .content .points .point-container .point h3 {
+    padding: 16px 34px 24px 34px;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 31px;
+    text-align: left;
   }
-  .content .points .point .text h3 span {
-    padding: 0 0 8px 0;
+  .content .points .point-container .point h3 span {
+    padding: 0 0 5px 0;
+    border-bottom: 4px solid #ff9;
   }
   .content .center {
-    width: 708px;
-    padding: 0;
+    width: 1000px;
     margin: 0 0 40px 0;
   }
   .content .center .fa-certificate {
-    width: 20px;
-    margin: -26px 0 0 646px;
-    font-size: 55px;
+    width: 30px;
+    margin: -16px 0 0 940px;
+    font-size: 39px;
   }
   .content .center h1 {
-    width: 580px;
-    padding: 20px 30px 24px 30px;
-    margin: 0 0 26px 34px;
-    font-size: 41px;
-    line-height: 53px;
+    width: 920px;
+    padding: 18px 0 14px 0;
+    margin: 0 0 14px 40px;
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
   }
   .content .center .center-holder {
-    width: 678px;
-    padding: 20px 0 20px 30px;
-    margin: 0;
+    width: 938px;
+    padding: 44px 0 40px 60px;
+    border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder .logo {
-    padding: 0 20px 20px 0;
-    margin: 0 0 0 10px;
+    padding: 0;
   }
-  .content .center .center-holder .logo img {
-    height: 40px;
+  .content .center .center-holder .logo .albertsons {
+    width: 200px;
+    margin: 0 30px 20px 0;
   }
-  .content .locator {
-    float: left;
-    width: 728px;
-    margin: 0 0 30px 0;
+  .content .center .center-holder .logo .ap {
+    width: 78px;
+    margin: 0 40px 20px 0;
   }
-  .content .locator .locator-zip,
-  .content .locator .locator-state {
-    float: left;
-    width: 304px;
-    padding: 28px 20px 30px 20px;
+  .content .center .center-holder .logo .costco {
+    width: 142px;
+    margin: 0 30px 20px 0;
+  }
+  .content .center .center-holder .logo .medicap {
+    width: 126px;
+    margin: 0 40px 22px 0;
+  }
+  .content .center .center-holder .logo .cvs {
+    width: 200px;
+    margin: 18px 30px 24px -10px;
+  }
+  .content .center .center-holder .logo .publix {
+    width: 58px;
+    margin: 0 30px 24px 0;
+  }
+  .content .center .center-holder .logo .duanereade {
+    width: 190px;
+    margin: 0 30px 24px 0;
+  }
+  .content .center .center-holder .logo .intermountain {
+    width: 180px;
+    margin: 0 0 32px 0;
+  }
+  .content .center .center-holder .logo .kmart {
+    width: 200px;
+    margin: 0 30px 18px 10px;
+  }
+  .content .center .center-holder .logo .kroger {
+    width: 78px;
+    margin: -8px 24px 4px 10px;
+  }
+  .content .center .center-holder .logo .longs {
+    width: 210px;
+    margin: 0 26px 20px 10px;
+  }
+  .content .center .center-holder .logo .stopshop {
+    width: 92px;
+    margin: 0 20px 26px 10px;
+  }
+  .content .center .center-holder .logo .riteaid {
+    width: 58px;
+    margin: 10px 50px 8px 10px;
+  }
+  .content .center .center-holder .logo .starmarket {
+    width: 220px;
+    margin: 14px 20px 0 0;
+  }
+  .content .center .center-holder .logo .walmart {
+    width: 180px;
+    margin: 10px 30px 0 10px;
+  }
+  .content .center .center-holder .logo .safeway {
+    width: 100px;
+    margin: 0 10px 18px 10px;
+  }
+  .content .center .center-holder .logo .vons {
+    width: 96px;
+    margin: 0 20px 28px 0;
+  }
+  .content .center .center-holder .logo .walgreens {
+    width: 230px;
     margin: 0 20px 0 0;
   }
-  .content .locator .locator-zip h2,
-  .content .locator .locator-state h2 {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 28px 0;
+  .content .center .center-holder .logo .shoprite {
+    width: 92px;
+    margin: -10px 30px 0 0;
   }
-  .content .locator .locator-zip input,
-  .content .locator .locator-state input {
-    float: left;
-    width: 304px;
-    height: 48px;
-    padding: 0;
-    margin: 0 0 14px 0;
+  .content .center .center-holder .logo .target {
+    width: 76px;
+    margin: -16px 20px 0 0;
   }
-  .content .locator .locator-zip select,
-  .content .locator .locator-state select {
-    float: left;
-    width: 304px;
-    height: 52px;
-    padding: 0;
-    margin: 0 0 10px 0;
-  }
-  .content .locator .locator-zip .submit,
-  .content .locator .locator-state .submit {
-    float: left;
-    width: 304px;
-    padding: 0;
-    margin: 0 0 0 0;
-  }
-  .content .testimonals-holder {
-    width: 728px;
+  .content .center .center-holder .logo .usadrug {
+    width: 120px;
     margin: 0;
   }
-  .content .testimonals-holder .testimonals {
-    width: 728px;
+  .content .locator {
+    width: 1000px;
     margin: 0 0 30px 0;
   }
-  .content .testimonals-holder .testimonals .testimonal {
+  .content .locator h2 {
+    width: 280px;
+    margin: 0 0 24px 10px;
+  }
+  .content .locator .locator-zip {
+    width: 300px;
+    padding: 22px 40px 24px 40px;
+    margin: 0 0 20px 0;
+  }
+  .content .locator .locator-zip h2 {
+    width: 240px;
+    margin: 0 0 24px 30px;
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .content .locator .locator-zip input {
+    width: 158px;
+    height: 52px;
+    padding: 0 0 0 0;
+    margin: 0 20px 0 0;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .content .locator .locator-zip .submit {
+    width: 120px;
+    height: 52px;
+    padding: 0 0 0 30px;
+    font-size: 25px;
+    line-height: 54px;
+  }
+  .content .locator .locator-state {
+    width: 520px;
+    padding: 22px 40px 24px 40px;
+    margin: 0 20px 20px 0;
+  }
+  .content .locator .locator-state h2 {
+    width: 320px;
+    margin: 0 0 24px 100px;
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .content .locator .locator-state select {
     float: left;
-    width: 304px;
-    padding: 28px 20px 30px 20px;
-    margin: 0 20px 14px 0;
+    width: 178px;
+    height: 56px;
+    padding: 6px 0 0 40px;
+    margin: 0 20px 0 0;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .content .locator .locator-state .submit {
+    width: 120px;
+    height: 52px;
+    font-size: 25px;
+    line-height: 54px;
+  }
+  .content .locator .locator-results {
+    width: 1000px;
+    padding: 28px 0 30px 0;
+    margin: 0 0 30px 0;
+  }
+  .content .locator .locator-results h2 {
+    width: 100%;
+    margin: 0 0 34px 0;
+    font-size: 43px;
+    line-height: 56px;
+  }
+  .content .locator .locator-results .locator-results-content {
+    width: 850px;
+    margin: 0 100px;
+  }
+  .content .locator .locator-results .locator-results-content .row-container {
+    width: 390px;
+    padding: 0;
+    margin: 0 20px 12px 0;
+  }
+  .content .locator .locator-results .locator-results-content .row-container p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .content .locator .locator-results .locator-results-content .row-container .pharmacy {
+    width: 350px;
+    padding: 16px 20px 14px 20px;
+  }
+  .content .locator .locator-results .locator-results-content .row-container .address {
+    width: 350px;
+    padding: 16px 20px 14px 20px;
+  }
+  .content .locator .locator-results .locator-results-content .row-container .phone {
+    width: 350px;
+    padding: 16px 20px 14px 20px;
+  }
+  .content .testimonals-holder {
+    width: 1020px;
+  }
+  .content .testimonals-holder .testimonals {
+    width: 1020px;
+    margin: 0 0 60px 0;
+  }
+  .content .testimonals-holder .testimonals .testimonal {
+    width: 185px;
+    padding: 28px 25px 28px 25px;
+    margin: 0 20px 20px 0;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 14px 0;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    line-height: 30px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    float: left;
-    width: 100%;
-    padding: 0;
+    font-size: 24px;
+    line-height: 24px;
     margin: 0 0 12px 0;
-    font-weight: 600;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .content .testimonals-holder .testimonals .testimonal.hide {
-    display: block;
+    font-size: 19px;
+    line-height: 19px;
   }
   footer {
     height: 68px;
@@ -6976,13 +7550,13 @@ small {
     width: 1024px;
   }
   header .header .brand {
-    width: 260px;
+    width: 273px;
     padding: 0;
-    margin: 8px 10px 0 13px;
+    margin: 12px 10px 0 0;
   }
   header .header .brand .logo {
     width: 240px;
-    margin: 0;
+    margin: 0 0 0 10px;
   }
   header .header nav {
     width: 740px;
@@ -6994,7 +7568,7 @@ small {
     padding: 0 30px;
   }
   header .header nav .tile h4 {
-    margin: 12px 0 0 0;
+    margin: 13px 0 0 0;
     font-weight: 500;
     font-size: 21px;
     line-height: 24px;
@@ -7017,20 +7591,22 @@ small {
   }
   .card .card-content h1 {
     margin: 0 0 12px 0;
-    font-size: 43px;
-    line-height: 43px;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
   }
   .card .card-content .company {
-    margin: 0 0 28px 0;
+    margin: 0 0 32px 0;
   }
   .card .card-content .company h5 {
-    font-size: 25px;
-    line-height: 25px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
   }
   .card .card-content .company span {
-    margin: 0 11px;
-    font-size: 20px;
-    line-height: 25px;
+    margin: 0 12px;
+    font-size: 19px;
+    line-height: 23px;
   }
   .card .card-content .patient-holder {
     width: 100%;
@@ -7038,16 +7614,17 @@ small {
   .card .card-content .patient-holder p {
     width: 340px;
     margin: 0 0 38px 0;
-    font-size: 31px;
-    line-height: 31px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 29px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 11px 0;
+    margin: 0 0 12px 0;
   }
   .card .card-content .patient-holder .row p {
     width: 86px;
-    font-size: 13px;
-    line-height: 13px;
+    font-size: 8px;
+    line-height: 8px;
   }
   .page {
     width: 1000px;
@@ -7065,11 +7642,10 @@ small {
   }
   .content .main .download .tag {
     width: 112px;
-    padding: 14px 0 12px 0;
+    padding: 14px 0 10px 0;
     margin: 0 14px 0 0;
   }
   .content .main .download .tag p {
-    margin: 0;
     width: 112px;
     font-weight: 400;
     font-size: 18px;
@@ -7079,13 +7655,13 @@ small {
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 34px;
-    font-size: 29px;
+    height: 36px;
+    font-size: 28px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 44px;
-    margin: -10px 0 0 -12px;
-    font-size: 45px;
+    height: 46px;
+    margin: -10px 0 0 -10px;
+    font-size: 42px;
   }
   .content .main .download .tag .fa-send {
     font-size: 22px;
@@ -7108,11 +7684,11 @@ small {
     width: 66px;
     top: -16px;
     left: -32px;
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 37px;
+    line-height: 37px;
   }
   .content .points .point-container .point h3 {
-    padding: 16px 34px 22px 34px;
+    padding: 16px 34px 24px 34px;
     font-weight: 500;
     font-size: 31px;
     line-height: 31px;
@@ -7124,39 +7700,120 @@ small {
   }
   .content .center {
     width: 1000px;
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
   }
   .content .center .fa-certificate {
     width: 30px;
-    margin: -16px 0 0 918px;
+    margin: -16px 0 0 940px;
     font-size: 39px;
   }
   .content .center h1 {
-    width: 880px;
-    padding: 22px 0 18px 0;
-    margin: 0 0 12px 60px;
-    font-size: 31px;
-    line-height: 31px;
+    width: 920px;
+    padding: 18px 0 14px 0;
+    margin: 0 0 14px 40px;
+    font-size: 33px;
+    line-height: 33px;
     text-align: center;
   }
   .content .center .center-holder {
-    width: 958px;
-    padding: 34px 0 10px 40px;
+    width: 938px;
+    padding: 44px 0 20px 60px;
+    border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder .logo {
-    padding: 0 30px 38px 30px;
-    margin: 0;
+    padding: 0;
   }
-  .content .center .center-holder .logo img {
-    height: 40px;
+  .content .center .center-holder .logo .albertsons {
+    width: 200px;
+    margin: 0 30px 20px 0;
+  }
+  .content .center .center-holder .logo .ap {
+    width: 78px;
+    margin: 0 35px 20px 0;
+  }
+  .content .center .center-holder .logo .costco {
+    width: 142px;
+    margin: 0 35px 10px 0;
+  }
+  .content .center .center-holder .logo .medicap {
+    width: 126px;
+    margin: -6px 40px 12px 0;
+  }
+  .content .center .center-holder .logo .cvs {
+    width: 200px;
+    margin: 8px 30px 32px -10px;
+  }
+  .content .center .center-holder .logo .publix {
+    width: 58px;
+    margin: 0 30px 14px 0;
+  }
+  .content .center .center-holder .logo .duanereade {
+    width: 190px;
+    margin: 0 40px 14px 0;
+  }
+  .content .center .center-holder .logo .intermountain {
+    width: 180px;
+    margin: -8px 30px 22px 0;
+  }
+  .content .center .center-holder .logo .kmart {
+    width: 200px;
+    margin: 6px 30px 28px 10px;
+  }
+  .content .center .center-holder .logo .kroger {
+    width: 78px;
+    margin: -8px 24px 4px 10px;
+  }
+  .content .center .center-holder .logo .longs {
+    width: 210px;
+    margin: 0 26px 0 0;
+  }
+  .content .center .center-holder .logo .stopshop {
+    width: 92px;
+    margin: 0 20px 6px 10px;
+  }
+  .content .center .center-holder .logo .riteaid {
+    width: 58px;
+    margin: 10px 20px 8px 20px;
+  }
+  .content .center .center-holder .logo .starmarket {
+    width: 220px;
+    margin: 14px 10px 10px 0;
+  }
+  .content .center .center-holder .logo .walmart {
+    width: 180px;
+    margin: 10px 10px 20px 10px;
+  }
+  .content .center .center-holder .logo .safeway {
+    width: 100px;
+    margin: -8px 20px 0 10px;
+  }
+  .content .center .center-holder .logo .vons {
+    width: 96px;
+    margin: 20px 30px 28px 0;
+  }
+  .content .center .center-holder .logo .walgreens {
+    width: 230px;
+    margin: 20px 20px 0 0;
+  }
+  .content .center .center-holder .logo .shoprite {
+    width: 98px;
+    margin: 0px 10px 0 0;
+  }
+  .content .center .center-holder .logo .target {
+    width: 70px;
+    margin: -4px 30px 0 0;
+  }
+  .content .center .center-holder .logo .usadrug {
+    width: 130px;
+    margin: 8px 0 0 0;
   }
   .content .locator {
     width: 1000px;
     margin: 0 0 30px 0;
   }
   .content .locator h2 {
-    width: 280px;
-    margin: 0 0 24px 10px;
+    width: 320px;
+    margin: 0 0 24px 0;
   }
   .content .locator .locator-zip {
     width: 300px;
@@ -7164,8 +7821,8 @@ small {
     margin: 0 0 20px 0;
   }
   .content .locator .locator-zip h2 {
-    width: 240px;
-    margin: 0 0 24px 30px;
+    width: 280px;
+    margin: 0 0 24px 10px;
     font-size: 29px;
     line-height: 35px;
   }
@@ -7180,6 +7837,7 @@ small {
   .content .locator .locator-zip .submit {
     width: 120px;
     height: 52px;
+    padding: 0 0 0 0;
     font-size: 25px;
     line-height: 54px;
   }
@@ -7198,7 +7856,7 @@ small {
     float: left;
     width: 178px;
     height: 56px;
-    padding: 6px 0 0 40px;
+    padding: 0 0 0 40px;
     margin: 0 20px 0 0;
     font-size: 23px;
     line-height: 23px;
@@ -7212,7 +7870,7 @@ small {
   .content .locator .locator-results {
     width: 1000px;
     padding: 28px 0 30px 0;
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
   }
   .content .locator .locator-results h2 {
     width: 100%;
@@ -7247,10 +7905,11 @@ small {
   }
   .content .testimonals-holder {
     width: 1020px;
+    margin: 0;
   }
   .content .testimonals-holder .testimonals {
     width: 1020px;
-    margin: 0 0 60px 0;
+    margin: 0 0 40px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 185px;
@@ -7496,7 +8155,7 @@ small {
     padding: 12px 0 10px 0;
     margin: 0 0 22px 0;
     font-size: 28px;
-    line-height: 31px;
+    line-height: 33px;
   }
   .modal-holder .modal-container .submit.print {
     margin: 18px 0 26px 0;
