@@ -19,7 +19,7 @@
                     title: '',
                     description: ''
                 },
-                url: '/member/:id',
+                url: '/:id',
                 views: {
                     'page@': {
                         templateUrl: 'member/member.view.html',

@@ -2338,7 +2338,7 @@ small {
     padding: 0;
     margin: 0 0 20px 0;
     background: #fffefc url("../img/cream-dust.png") repeat;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #222;
   }
   header .header {
     position: relative;
@@ -2432,222 +2432,6 @@ small {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-  .card-member {
-    float: left;
-    width: 320px;
-    padding: 20px 0 0 0;
-    margin: 0 0 12px 0;
-    background: #fffefc url("../img/cream-dust.png") repeat;
-    border-top: none;
-    border-bottom: 3px solid #333;
-    overflow: hidden;
-  }
-  .card-member .member {
-    float: left;
-    width: 280px;
-    padding: 0 0 40px 40px;
-    margin: 0;
-  }
-  .card-member .member .member-brand {
-    float: left;
-    width: 260px;
-    margin: 0;
-  }
-  .card-member .member .member-brand img {
-    float: left;
-    width: 100%;
-    height: 100%;
-  }
-  .card-member .member .member-content {
-    float: left;
-    width: 280px;
-    margin: 10px 0 20px 0;
-  }
-  .card-member .member .member-content .row {
-    float: left;
-    width: 100%;
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row h4 {
-    float: left;
-    width: 100%;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 25px;
-    color: #000;
-    text-shadow: 1px 1px 0 #fff;
-    text-align: left;
-  }
-  .card-member .member .member-content .row .left {
-    float: left;
-    width: 120px;
-    margin: 0;
-  }
-  .card-member .member .member-content .row .right {
-    float: left;
-    width: 160px;
-  }
-  .card-member .member .member-content .row .right h4 {
-    color: #8a0d4a;
-    text-shadow: 1px 1px 0 #fff;
-  }
-  .card-member .disclaimer {
-    float: left;
-    width: 280px;
-    padding: 30px 10px 10px 30px;
-    margin: 0;
-    background: #fff;
-    border-top: 2px dotted #ccc;
-  }
-  .card-member .disclaimer p {
-    width: 100%;
-    padding: 0;
-    margin: 0 0 22px 0;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 27px;
-    color: #000;
-    text-shadow: 1px 1px 0 #fff;
-    text-align: left;
-  }
-  .card-member .disclaimer a {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 21px;
-    color: #000;
-    text-shadow: 1px 1px 0 #fff;
-  }
-  .card-member .disclaimer .brand {
-    float: left;
-    width: 280px;
-    margin: 0 20px 20px 0;
-  }
-  .card-member .disclaimer .brand img {
-    float: left;
-    width: 260px;
-  }
-  .card,
-  .card-modal {
-    float: left;
-    width: 254px;
-    padding: 18px 0px 12px 26px;
-    margin: 0 0 12px 0;
-    background: #fffefc url("../img/cream-dust.png") repeat;
-    border-top: none;
-    border-bottom: 3px solid #333;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .card .card-logo,
-  .card-modal .card-logo {
-    position: absolute;
-    width: 52px;
-    padding: 0;
-    margin: 118px 0 0 170px;
-    z-index: 1;
-  }
-  .card .card-logo img,
-  .card-modal .card-logo img {
-    float: left;
-    width: 100%;
-  }
-  .card .card-content,
-  .card-modal .card-content {
-    position: relative;
-    width: 250px;
-    padding: 0;
-    margin: 0;
-    z-index: 99;
-  }
-  .card .card-content h1,
-  .card-modal .card-content h1 {
-    float: left;
-    width: 100%;
-    margin: 0 0 8px 0;
-    font-weight: 300;
-    font-size: 29px;
-    line-height: 29px;
-    color: #222;
-    text-align: left;
-  }
-  .card .card-content .company,
-  .card-modal .card-content .company {
-    float: left;
-    width: 100%;
-    margin: 0 0 26px 0;
-  }
-  .card .card-content .company h5,
-  .card-modal .card-content .company h5 {
-    float: left;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 18px;
-    color: #444;
-    text-align: left;
-    text-shadow: 1px 1px 0 #fff;
-  }
-  .card .card-content .company span,
-  .card-modal .card-content .company span {
-    float: left;
-    margin: 0 8px;
-    font-size: 17px;
-    line-height: 19px;
-    color: #555;
-    text-align: left;
-  }
-  .card .card-content .patient-holder,
-  .card-modal .card-content .patient-holder {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .card .card-content .patient-holder p,
-  .card-modal .card-content .patient-holder p {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 22px 0;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 23px;
-    color: #777;
-    background: none;
-    border: none;
-    outline: none;
-    text-align: left;
-    text-shadow: 1px 1px 0 #fff;
-  }
-  .card .card-content .patient-holder .row,
-  .card-modal .card-content .patient-holder .row {
-    float: left;
-    width: 100%;
-    padding: 0;
-    margin: 0 0 11px 0;
-  }
-  .card .card-content .patient-holder .row h6,
-  .card-modal .card-content .patient-holder .row h6 {
-    float: left;
-    width: 68px;
-    padding: 0;
-    margin: 0;
-    font-weight: 600;
-    font-size: 9px;
-    line-height: 9px;
-    color: #777;
-    text-shadow: 1px 1px 0 #fff;
-  }
-  .card {
-    width: 294px;
-    padding: 18px 0px 12px 26px;
-    margin: 0 0 12px 0;
-    border-radius: 0 0 0 0;
-  }
   .page {
     position: relative;
     width: 320px;
@@ -2675,7 +2459,7 @@ small {
   .content .main .download .tag {
     float: left;
     width: 61px;
-    padding: 12px 0 8px 0;
+    padding: 10px 0 6px 0;
     margin: 0 12px 0 0;
     background: #666;
     border-bottom: 3px solid #222;
@@ -2687,10 +2471,10 @@ small {
     width: 51px;
     padding: 0;
     margin: 0 5px;
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 19px;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
   }
@@ -2709,8 +2493,8 @@ small {
     text-shadow: 2px 2px 0px #000;
   }
   .content .main .download .tag .fa-mobile {
-    height: 36px;
-    margin: -8px 0 0 0px;
+    height: 34px;
+    margin: -4px 0 0 0px;
     font-size: 35px;
   }
   .content .main .download .tag .fa-send {
@@ -2802,7 +2586,7 @@ small {
     background: #fff;
     border-left: none;
     border-right: none;
-    border-bottom: 3px solid #333;
+    border-bottom: 4px solid #333;
   }
   .content .center .center-holder .logo {
     float: left;
@@ -2957,7 +2741,7 @@ small {
     font-size: 25px;
     line-height: 25px;
     border: none;
-    border-bottom: 3px solid #333;
+    border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
     text-align: center;
     cursor: pointer;
@@ -2978,7 +2762,7 @@ small {
     line-height: 25px;
     background: #fff;
     border: none;
-    border-bottom: 3px solid #333;
+    border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
   .content appearance:none {
@@ -3008,7 +2792,7 @@ small {
     padding: 20px 0 25px 0;
     margin: 0 0 30px 0;
     background: #666;
-    border-bottom: 3px solid #333;
+    border-bottom: 4px solid #333;
   }
   .content .locator-results h2 {
     float: left;
@@ -3031,7 +2815,7 @@ small {
     float: left;
     width: 280px;
     background: #fff;
-    border-bottom: 3px solid #333;
+    border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
     margin: 0 0 12px 0;
   }
@@ -3083,7 +2867,7 @@ small {
     padding: 30px 30px 32px 30px;
     margin: 0 0 14px 0;
     background: #fffefc url("../img/cream-dust.png") repeat;
-    border-bottom: 3px solid #333;
+    border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
   .content .testimonals-holder .testimonals .testimonal p {
@@ -3321,7 +3105,7 @@ small {
     width: 280px;
     padding: 14px 10px 18px 10px;
     margin: 8px 0 12px 0;
-    background: #666;
+    background: #ccc;
     border: 1px solid #000;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3412,8 +3196,8 @@ small {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #fff;
-    text-shadow: 2px 2px 0px #000;
+    color: #000;
+    text-shadow: 1px 1px 0 #fff;
   }
   .modal-holder .modal-container .legal a {
     font-weight: 500;
@@ -3454,6 +3238,8 @@ small {
   }
   footer .footer .link a {
     font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
     color: #ff9;
   }
   footer .footer .link.email {
@@ -3610,6 +3396,323 @@ small {
     line-height: 15px;
     color: #fff;
     text-shadow: 2px 2px 0px #000;
+  }
+  .card-member {
+    float: left;
+    width: 320px;
+    padding: 20px 0 0 0;
+    margin: 0 0 12px 0;
+    background: #d1d1d1;
+    border-top: none;
+    border-bottom: 4px solid #333;
+    overflow: hidden;
+  }
+  .card-member .member {
+    float: left;
+    width: 290px;
+    padding: 0 0 20px 30px;
+    margin: 0;
+  }
+  .card-member .member .member-content {
+    float: left;
+    width: 290px;
+    margin: 10px 0 10px 0;
+  }
+  .card-member .member .member-content .row {
+    float: left;
+    margin: 0;
+  }
+  .card-member .member .member-content .row h4 {
+    float: left;
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    color: #000;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: left;
+  }
+  .card-member .member .member-content .row .left {
+    float: left;
+    width: 54px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .right {
+    float: left;
+    width: 80px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .right h4 {
+    color: #8a0d4a;
+    text-align: left;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .card-member .member .member-content .row .left.small {
+    width: 60px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .right.small {
+    width: 220px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .left.middle {
+    width: 140px;
+    margin: 0 0 6px 0;
+  }
+  .card-member .member .member-content .row .right.middle {
+    width: 140px;
+    margin: 0 0 6px 0;
+  }
+  .card-member .member .member-brand {
+    float: left;
+    width: 240px;
+    margin: 0 0 0 10px;
+  }
+  .card-member .member .member-brand img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .card-member .disclaimer {
+    float: left;
+    width: 280px;
+    padding: 30px 10px 10px 30px;
+    margin: 0;
+    background: #fff;
+    border-top: 2px dotted #999;
+  }
+  .card-member .disclaimer p {
+    width: 260px;
+    padding: 0;
+    margin: 0 0 22px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: left;
+  }
+  .card-member .disclaimer a {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .card-member .disclaimer .brand {
+    float: left;
+    width: 280px;
+    margin: 0 20px 20px 0;
+  }
+  .card-member .disclaimer .brand img {
+    float: left;
+    width: 180px;
+  }
+  .card-modal {
+    float: left;
+    width: 254px;
+    padding: 24px 0px 18px 26px;
+    margin: 0 0 12px 0;
+    background: #fffefc url("../img/cream-dust.png") repeat;
+    border-top: none;
+    border-bottom: 4px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card-modal .card-logo {
+    position: absolute;
+    width: 64px;
+    padding: 0;
+    margin: 132px 0 0 190px;
+    z-index: 1;
+  }
+  .card-modal .card-logo img {
+    float: left;
+    width: 100%;
+  }
+  .card-modal .card-content {
+    position: relative;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+  }
+  .card-modal .card-content h1 {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    color: #222;
+    text-align: left;
+  }
+  .card-modal .card-content .company {
+    float: left;
+    width: 100%;
+    margin: 0 0 24px 0;
+  }
+  .card-modal .card-content .company h5 {
+    float: left;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    color: #444;
+    text-align: left;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .card-modal .card-content .company span {
+    float: left;
+    margin: 0 8px;
+    font-size: 17px;
+    line-height: 19px;
+    color: #555;
+    text-align: left;
+  }
+  .card-modal .card-content .patient-holder {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .card-modal .card-content .patient-holder p {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 28px 0;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    color: #777;
+    background: none;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .card-modal .card-content .patient-holder .row {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 8px 0;
+  }
+  .card-modal .card-content .patient-holder .row h6 {
+    float: left;
+    width: 78px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #777;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .card {
+    float: left;
+    width: 294px;
+    padding: 18px 0px 12px 26px;
+    margin: 0 0 12px 0;
+    background: #fffefc url("../img/cream-dust.png") repeat;
+    border-top: none;
+    border-bottom: 4px solid #333;
+    border-radius: 0 0 0 0;
+    overflow: hidden;
+  }
+  .card .card-logo {
+    position: absolute;
+    width: 64px;
+    padding: 0;
+    margin: 132px 0 0 190px;
+    z-index: 1;
+  }
+  .card .card-logo img {
+    float: left;
+    width: 100%;
+  }
+  .card .card-content {
+    position: relative;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+  }
+  .card .card-content h1 {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+    font-size: 31px;
+    line-height: 31px;
+    color: #222;
+    text-align: left;
+  }
+  .card .card-content .company {
+    float: left;
+    width: 100%;
+    margin: 0 0 26px 0;
+  }
+  .card .card-content .company h5 {
+    float: left;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #444;
+    text-align: left;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .card .card-content .company span {
+    float: left;
+    margin: 0 9px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #555;
+    text-align: left;
+  }
+  .card .card-content .patient-holder {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .card .card-content .patient-holder p {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 32px 0;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    color: #777;
+    background: none;
+    border: none;
+    outline: none;
+    text-align: left;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  .card .card-content .patient-holder .row {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 8px 0;
+  }
+  .card .card-content .patient-holder .row h6 {
+    float: left;
+    width: 78px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #777;
+    text-shadow: 1px 1px 0 #fff;
   }
   .legal-container {
     position: relative;
@@ -3807,150 +3910,6 @@ small {
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
     line-height: 24px;
-  }
-  .card-member {
-    width: 355px;
-    padding: 20px 0 0 0;
-    margin: 0 0 12px 0;
-    border-radius: 6px 6px 6px 6px;
-  }
-  .card-member .member {
-    width: 290px;
-    padding: 0 0 30px 40px;
-  }
-  .card-member .member .member-brand {
-    width: 280px;
-  }
-  .card-member .member .member-content {
-    width: 280px;
-    margin: 10px 0 20px 20px;
-  }
-  .card-member .member .member-content .row {
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row h4 {
-    font-size: 19px;
-    line-height: 25px;
-  }
-  .card-member .member .member-content .row .left {
-    width: 120px;
-  }
-  .card-member .member .member-content .row .right {
-    width: 160px;
-  }
-  .card-member .disclaimer {
-    width: 275px;
-    padding: 30px 40px 10px 40px;
-  }
-  .card-member .disclaimer p {
-    margin: 0 0 22px 0;
-    font-size: 18px;
-    line-height: 27px;
-  }
-  .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card-member .disclaimer .brand {
-    width: 275px;
-    margin: 0 0 20px 0;
-  }
-  .card-member .disclaimer .brand img {
-    width: 260px;
-  }
-  .card-modal {
-    width: 268px;
-    padding: 22px 0px 18px 30px;
-    margin: 0 0 20px 0;
-  }
-  .card-modal .card-logo {
-    width: 68px;
-    margin: 94px 0 0 180px;
-  }
-  .card-modal .card-content {
-    float: left;
-    width: 268px;
-    padding: 0;
-    margin: 0;
-  }
-  .card-modal .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 29px;
-    line-height: 29px;
-  }
-  .card-modal .card-content .company {
-    width: 100%;
-  }
-  .card-modal .card-content .company h5 {
-    font-size: 18px;
-    line-height: 18px;
-  }
-  .card-modal .card-content .company span {
-    margin: 0 8px;
-    font-size: 16px;
-    line-height: 18px;
-  }
-  .card-modal .card-content .patient-holder {
-    width: 100%;
-  }
-  .card-modal .card-content .patient-holder p {
-    margin: 0 0 24px 0;
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card-modal .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
-  }
-  .card-modal .card-content .patient-holder .row h6 {
-    width: 72px;
-    font-size: 10px;
-    line-height: 10px;
-  }
-  .card {
-    width: 325px;
-    padding: 24px 0 16px 30px;
-    margin: 0 0 14px 0;
-    border-radius: 8px;
-  }
-  .card .card-logo {
-    width: 64px;
-    margin: 134px 0 0 190px;
-  }
-  .card .card-content {
-    width: 305px;
-  }
-  .card .card-content h1 {
-    margin: 0 0 10px 0;
-    font-size: 31px;
-    line-height: 31px;
-  }
-  .card .card-content .company {
-    margin: 0 0 22px 0;
-  }
-  .card .card-content .company h5 {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card .card-content .company span {
-    margin: 0 10px;
-    font-size: 20px;
-    line-height: 21px;
-  }
-  .card .card-content .patient-holder {
-    width: 100%;
-  }
-  .card .card-content .patient-holder p {
-    margin: 0 0 28px 0;
-    font-size: 25px;
-    line-height: 25px;
-  }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
-  }
-  .card .card-content .patient-holder .row h6 {
-    width: 78px;
-    font-size: 11px;
-    line-height: 11px;
   }
   .page {
     width: 375px;
@@ -4253,7 +4212,8 @@ small {
   footer .footer .link {
     margin: 0 20px 0 0;
   }
-  footer .footer .link p {
+  footer .footer .link p,
+  footer .footer .link a {
     font-size: 18px;
     line-height: 27px;
   }
@@ -4377,18 +4337,19 @@ small {
   }
   .modal-holder .modal-container .row input {
     width: 300px;
-    height: 62px;
+    height: 54px;
     padding: 0;
     margin: 0 0 12px 0;
-    font-size: 31px;
-    line-height: 33px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .modal-holder .modal-container .submit {
     width: 300px;
-    padding: 12px 0 10px 0;
+    height: 29px;
+    padding: 12px 0 8px 0;
     margin: 0 0 20px 0;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .modal-holder .modal-container .legal {
     width: 270px;
@@ -4539,6 +4500,166 @@ small {
   .answers-holder .answer .tag-holder .tag h5 {
     margin: 0;
     padding: 8px 16px;
+  }
+  .card-member {
+    width: 335px;
+    padding: 20px 0 0 0;
+    margin: 0 0 12px 10px;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .card-member .member {
+    width: 290px;
+    padding: 0 0 20px 20px;
+  }
+  .card-member .member .member-content {
+    width: 280px;
+    margin: 10px 0 10px 15px;
+  }
+  .card-member .member .member-content .row {
+    margin: 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 54px;
+    margin: 0 0 14px 0;
+  }
+  .card-member .member .member-content .row .right {
+    width: 80px;
+    margin: 0 0 14px 0;
+  }
+  .card-member .member .member-content .row .left.small {
+    width: 60px;
+    margin: 0 0 14px 0;
+  }
+  .card-member .member .member-content .row .right.small {
+    width: 220px;
+    margin: 0 0 14px 0;
+  }
+  .card-member .member .member-content .row .left.middle {
+    width: 140px;
+    margin: 0 0 6px 0;
+  }
+  .card-member .member .member-content .row .right.middle {
+    width: 140px;
+    margin: 0 0 6px 0;
+  }
+  .card-member .member .member-brand {
+    width: 240px;
+    margin: 0 0 0 25px;
+  }
+  .card-member .disclaimer {
+    width: 275px;
+    padding: 20px 40px 10px 40px;
+  }
+  .card-member .disclaimer p {
+    margin: 0 0 22px 0;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 300px;
+    margin: 0 0 22px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 220px;
+  }
+  .card-modal {
+    width: 268px;
+    padding: 24px 0px 16px 30px;
+    margin: 0 0 10px 0;
+  }
+  .card-modal .card-logo {
+    width: 68px;
+    margin: 94px 0 0 180px;
+  }
+  .card-modal .card-content {
+    width: 268px;
+  }
+  .card-modal .card-content h1 {
+    margin: 0 0 12px 0;
+    font-size: 29px;
+    line-height: 29px;
+  }
+  .card-modal .card-content .company {
+    width: 100%;
+  }
+  .card-modal .card-content .company h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .card-modal .card-content .company span {
+    margin: 0 8px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .card-modal .card-content .patient-holder {
+    width: 100%;
+  }
+  .card-modal .card-content .patient-holder p {
+    margin: 0 0 28px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .card-modal .card-content .patient-holder .row {
+    margin: 0 0 8px 0;
+  }
+  .card-modal .card-content .patient-holder .row h6 {
+    width: 82px;
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .card {
+    width: 325px;
+    padding: 28px 0 22px 30px;
+    margin: 0 0 12px 0;
+    border-radius: 8px;
+  }
+  .card .card-logo {
+    width: 64px;
+    margin: 154px 0 0 240px;
+  }
+  .card .card-content {
+    width: 305px;
+  }
+  .card .card-content h1 {
+    margin: 0 0 11px 0;
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .card .card-content .company {
+    margin: 0 0 32px 0;
+  }
+  .card .card-content .company h5 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .card .card-content .company span {
+    margin: 0 10px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .card .card-content .patient-holder {
+    width: 100%;
+  }
+  .card .card-content .patient-holder p {
+    margin: 0 0 34px 0;
+    font-size: 27px;
+    line-height: 27px;
+  }
+  .card .card-content .patient-holder .row {
+    margin: 0 0 9px 0;
+  }
+  .card .card-content .patient-holder .row h6 {
+    width: 78px;
+    font-size: 13px;
+    line-height: 13px;
   }
   .legal-container {
     width: 338px;
@@ -4706,104 +4827,6 @@ small {
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
     line-height: 24px;
-  }
-  .card-member {
-    width: 400px;
-    padding: 30px 0 0 0;
-    margin: 0 0 18px 40px;
-  }
-  .card-member .member {
-    width: 360px;
-    padding: 0 0 30px 40px;
-  }
-  .card-member .member .member-brand {
-    width: 320px;
-    margin: 0 0 0 0px;
-  }
-  .card-member .member .member-content {
-    width: 280px;
-    margin: 10px 0 20px 20px;
-  }
-  .card-member .member .member-content .row {
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row h4 {
-    font-size: 19px;
-    line-height: 25px;
-  }
-  .card-member .member .member-content .row .left {
-    width: 120px;
-  }
-  .card-member .member .member-content .row .right {
-    width: 160px;
-  }
-  .card-member .disclaimer {
-    width: 320px;
-    padding: 30px 40px 10px 40px;
-  }
-  .card-member .disclaimer p {
-    margin: 0 0 22px 0;
-    font-size: 18px;
-    line-height: 27px;
-  }
-  .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card-member .disclaimer .brand {
-    width: 320px;
-    margin: 0 0 20px 0;
-  }
-  .card-member .disclaimer .brand img {
-    width: 280px;
-    margin: 0 0 0 20px;
-  }
-  .card {
-    width: 360px;
-    padding: 26px 0 14px 40px;
-    margin: 0 0 14px 40px;
-  }
-  .card .card-logo {
-    width: 82px;
-    margin: 94px 0 0 250px;
-  }
-  .card .card-content {
-    width: 360px;
-  }
-  .card .card-content h1 {
-    margin: 0 0 8px 0;
-    font-size: 34px;
-    line-height: 39px;
-  }
-  .card .card-content .company {
-    margin: 0 0 18px 0;
-  }
-  .card .card-content .company h5 {
-    font-size: 21px;
-    line-height: 23px;
-  }
-  .card .card-content .company span {
-    margin: 0 8px;
-    font-size: 18px;
-    line-height: 25px;
-  }
-  .card .card-content .patient-holder {
-    width: 100%;
-  }
-  .card .card-content .patient-holder p {
-    margin: 0 0 26px 0;
-    font-size: 20px;
-    line-height: 20px;
-  }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
-  }
-  .card .card-content .patient-holder .row h6 {
-    width: 82px;
-    padding: 0;
-    margin: 0;
-    font-size: 11px;
-    line-height: 11px;
   }
   .page {
     width: 480px;
@@ -5101,7 +5124,8 @@ small {
   footer .footer .link {
     margin: 0;
   }
-  footer .footer .link p {
+  footer .footer .link p,
+  footer .footer .link a {
     font-size: 17px;
     line-height: 26px;
   }
@@ -5210,32 +5234,32 @@ small {
     width: 300px;
   }
   .modal-holder .modal-container .fa-close {
-    width: 30px;
-    margin: 0 0 16px 135px;
-    font-size: 21px;
-    line-height: 21px;
+    width: 20px;
+    margin: 0 0 16px 140px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
   }
   .modal-holder .modal-container .row input {
     width: 300px;
-    height: 66px;
+    height: 54px;
     margin: 0 0 14px 0;
-    font-size: 33px;
-    line-height: 35px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .modal-holder .modal-container .submit {
     width: 300px;
-    padding: 8px 0 6px 0;
+    height: 30px;
+    padding: 12px 0 8px 0;
     margin: 0 0 20px 0;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .modal-holder .modal-container .legal {
-    width: 280px;
-    margin: 10px;
+    width: 270px;
+    margin: 10px 0 0 15px;
   }
   .modal-holder .modal-container .legal p {
     margin: 0 0 24px 0;
@@ -5243,8 +5267,8 @@ small {
     line-height: 29px;
   }
   .modal-holder .modal-container .legal a {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .map-holder {
     position: relative;
@@ -5392,6 +5416,167 @@ small {
     line-height: 15px;
     color: #fff;
     text-shadow: 2px 2px 0px #000;
+  }
+  .card-member {
+    width: 400px;
+    padding: 30px 0 0 0;
+    margin: 0 0 18px 40px;
+  }
+  .card-member .member {
+    width: 350px;
+    padding: 0 0 20px 50px;
+  }
+  .card-member .member .member-content {
+    width: 350px;
+    margin: 10px 0 20px 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 19px;
+    line-height: 19px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 54px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .right {
+    width: 100px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .left.small {
+    width: 80px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .right.small {
+    width: 220px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .left.middle {
+    width: 140px;
+    margin: 0 0 8px 0;
+  }
+  .card-member .member .member-content .row .right.middle {
+    width: 140px;
+    margin: 0 0 8px 0;
+  }
+  .card-member .member .member-brand {
+    width: 280px;
+    margin: 0 0 0 10px;
+  }
+  .card-member .disclaimer {
+    width: 420px;
+    padding: 30px 10px 10px 40px;
+  }
+  .card-member .disclaimer p {
+    width: 310px;
+    margin: 12px 0 10px 0;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 160px;
+    margin: 0 20px 0 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 160px;
+  }
+  .card-modal {
+    width: 268px;
+    padding: 24px 0px 18px 30px;
+    margin: 0 0 10px 0;
+  }
+  .card-modal .card-logo {
+    width: 68px;
+    margin: 94px 0 0 180px;
+  }
+  .card-modal .card-content {
+    width: 268px;
+  }
+  .card-modal .card-content h1 {
+    margin: 0 0 12px 0;
+    font-size: 29px;
+    line-height: 29px;
+  }
+  .card-modal .card-content .company {
+    width: 100%;
+  }
+  .card-modal .card-content .company h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .card-modal .card-content .company span {
+    margin: 0 8px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .card-modal .card-content .patient-holder {
+    width: 100%;
+  }
+  .card-modal .card-content .patient-holder p {
+    margin: 0 0 28px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .card-modal .card-content .patient-holder .row {
+    margin: 0 0 8px 0;
+  }
+  .card-modal .card-content .patient-holder .row h6 {
+    width: 86px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .card {
+    width: 360px;
+    padding: 32px 0 22px 40px;
+    margin: 0 0 14px 40px;
+  }
+  .card .card-logo {
+    width: 82px;
+    margin: 154px 0 0 240px;
+  }
+  .card .card-content {
+    width: 360px;
+  }
+  .card .card-content h1 {
+    margin: 0 0 12px 0;
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .card .card-content .company {
+    margin: 0 0 36px 0;
+  }
+  .card .card-content .company h5 {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .card .card-content .company span {
+    margin: 0 11px;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .card .card-content .patient-holder {
+    width: 100%;
+  }
+  .card .card-content .patient-holder p {
+    margin: 0 0 36px 0;
+    font-size: 29px;
+    line-height: 29px;
+  }
+  .card .card-content .patient-holder .row {
+    margin: 0 0 11px 0;
+  }
+  .card .card-content .patient-holder .row h6 {
+    width: 82px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 14px;
   }
   .legal-container {
     width: 438px;
@@ -5560,151 +5745,6 @@ small {
     font-size: 24px;
     line-height: 24px;
   }
-  .card-member {
-    width: 480px;
-    padding: 30px 0 0 0;
-    margin: 0 0 18px 20px;
-  }
-  .card-member .member {
-    width: 360px;
-    padding: 0 0 40px 60px;
-  }
-  .card-member .member .member-brand {
-    width: 320px;
-    margin: 0 0 0 25px;
-  }
-  .card-member .member .member-content {
-    width: 360px;
-    margin: 10px 0 20px 0;
-  }
-  .card-member .member .member-content .row {
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row h4 {
-    font-size: 19px;
-    line-height: 25px;
-  }
-  .card-member .member .member-content .row .left {
-    width: 120px;
-  }
-  .card-member .member .member-content .row .right {
-    width: 240px;
-  }
-  .card-member .disclaimer {
-    width: 380px;
-    padding: 30px 50px 20px 50px;
-  }
-  .card-member .disclaimer p {
-    margin: 0 0 22px 0;
-    font-size: 19px;
-    line-height: 29px;
-  }
-  .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card-member .disclaimer .brand {
-    width: 360px;
-    margin: 0 0 30px 20px;
-  }
-  .card-member .disclaimer .brand img {
-    width: 320px;
-    margin: 0 0 0 20px;
-  }
-  .card-modal {
-    width: 310px;
-    padding: 24px 0 14px 30px;
-    margin: 0 0 22px 0;
-  }
-  .card-modal .card-logo {
-    width: 68px;
-    margin: 114px 0 0 210px;
-  }
-  .card-modal .card-content {
-    width: 305px;
-  }
-  .card-modal .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 33px;
-    line-height: 33px;
-  }
-  .card-modal .card-content .company {
-    margin: 0 0 28px 0;
-  }
-  .card-modal .card-content .company h5 {
-    font-size: 20px;
-    line-height: 20px;
-  }
-  .card-modal .card-content .company span {
-    margin: 0 10px;
-    font-size: 18px;
-    line-height: 20px;
-  }
-  .card-modal .card-content .patient-holder {
-    width: 100%;
-  }
-  .card-modal .card-content .patient-holder p {
-    margin: 0 0 24px 0;
-    font-size: 22px;
-    line-height: 22px;
-  }
-  .card-modal .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
-  }
-  .card-modal .card-content .patient-holder .row h6 {
-    width: 72px;
-    padding: 0;
-    margin: 0;
-    font-size: 10px;
-    line-height: 10px;
-  }
-  .card {
-    width: 430px;
-    padding: 28px 0 16px 50px;
-    margin: 0 0 16px 20px;
-  }
-  .card .card-logo {
-    width: 102px;
-    margin: 94px 0 0 270px;
-  }
-  .card .card-content {
-    width: 440px;
-  }
-  .card .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 45px;
-    line-height: 45px;
-  }
-  .card .card-content .company {
-    margin: 0 0 24px 0;
-  }
-  .card .card-content .company h5 {
-    font-size: 25px;
-    line-height: 25px;
-  }
-  .card .card-content .company span {
-    margin: 0 10px;
-    font-size: 21px;
-    line-height: 25px;
-  }
-  .card .card-content .patient-holder {
-    width: 100%;
-  }
-  .card .card-content .patient-holder p {
-    margin: 0 0 22px 0;
-    font-size: 25px;
-    line-height: 25px;
-  }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 14px 0;
-  }
-  .card .card-content .patient-holder .row p {
-    width: 90px;
-    padding: 0;
-    margin: 0;
-    font-size: 13px;
-    line-height: 13px;
-  }
   .page {
     width: 520px;
   }
@@ -5718,17 +5758,17 @@ small {
   .content .main .download {
     width: 446px;
     padding: 0;
-    margin: 0 0 58px 48px;
+    margin: 0 0 58px 63px;
   }
   .content .main .download .tag {
     width: 95px;
-    padding: 16px 0 10px 0;
+    padding: 14px 0 8px 0;
     margin: 0 12px 0 0;
   }
   .content .main .download .tag p {
-    width: 75px;
-    margin: 0 10px;
-    font-size: 20px;
+    width: 71px;
+    margin: 0 12px;
+    font-size: 19px;
     line-height: 23px;
   }
   .content .main .download .tag .fa-cloud,
@@ -5999,7 +6039,8 @@ small {
   footer .footer .link {
     margin: 0 30px 0 0;
   }
-  footer .footer .link p {
+  footer .footer .link p,
+  footer .footer .link a {
     font-size: 17px;
     line-height: 26px;
   }
@@ -6097,40 +6138,41 @@ small {
     width: 340px;
   }
   .modal-holder .modal-container .fa-close {
-    width: 30px;
-    margin: 0 0 16px 155px;
-    font-size: 22px;
-    line-height: 22px;
+    width: 20px;
+    margin: 0 0 16px 160px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
   }
   .modal-holder .modal-container .row input {
     width: 340px;
-    height: 68px;
+    height: 56px;
     margin: 0 0 14px 0;
-    font-size: 33px;
-    line-height: 35px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .modal-holder .modal-container .submit {
     width: 340px;
+    height: 31px;
     padding: 12px 0 10px 0;
     margin: 0 0 20px 0;
     font-size: 31px;
-    line-height: 36px;
+    line-height: 31px;
   }
   .modal-holder .modal-container .legal {
     width: 320px;
-    margin: 10px;
+    margin: 10px 0 0 10px;
   }
   .modal-holder .modal-container .legal p {
     margin: 0 0 24px 0;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 29px;
   }
   .modal-holder .modal-container .legal a {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .map-holder {
     position: relative;
@@ -6259,6 +6301,168 @@ small {
     float: left;
     margin: 0;
     padding: 8px 16px;
+  }
+  .card-member {
+    width: 500px;
+    padding: 30px 0 0 0;
+    margin: 0 0 18px 20px;
+  }
+  .card-member .member {
+    width: 460px;
+    padding: 0 0 20px 40px;
+  }
+  .card-member .member .member-content {
+    width: 440px;
+    margin: 10px 0 20px 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 100px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .right {
+    width: 110px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .left.small {
+    width: 80px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .right.small {
+    width: 220px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .left.middle {
+    width: 100px;
+    margin: 0 0 8px 0;
+  }
+  .card-member .member .member-content .row .right.middle {
+    width: 110px;
+    margin: 0 0 8px 0;
+  }
+  .card-member .member .member-content .row.hide {
+    display: none;
+  }
+  .card-member .member .member-brand {
+    width: 300px;
+    margin: 0 0 0 60px;
+  }
+  .card-member .disclaimer {
+    width: 480px;
+    padding: 30px 0 20px 40px;
+  }
+  .card-member .disclaimer p {
+    width: 420px;
+    margin: 6px 0 14px 0;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 200px;
+    margin: 0 20px 0 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 200px;
+  }
+  .card-modal {
+    width: 298px;
+    padding: 24px 0px 20px 40px;
+    margin: 0 0 10px 0;
+  }
+  .card-modal .card-logo {
+    width: 68px;
+    margin: 94px 0 0 180px;
+  }
+  .card-modal .card-content {
+    width: 268px;
+  }
+  .card-modal .card-content h1 {
+    margin: 0 0 12px 0;
+    font-size: 29px;
+    line-height: 29px;
+  }
+  .card-modal .card-content .company {
+    width: 100%;
+  }
+  .card-modal .card-content .company h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .card-modal .card-content .company span {
+    margin: 0 8px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .card-modal .card-content .patient-holder {
+    width: 100%;
+  }
+  .card-modal .card-content .patient-holder p {
+    margin: 0 0 32px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .card-modal .card-content .patient-holder .row {
+    margin: 0 0 8px 0;
+  }
+  .card-modal .card-content .patient-holder .row h6 {
+    width: 86px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .card {
+    width: 430px;
+    padding: 28px 0 24px 50px;
+    margin: 0 0 16px 20px;
+  }
+  .card .card-logo {
+    width: 102px;
+    margin: 144px 0 0 290px;
+  }
+  .card .card-content {
+    width: 440px;
+  }
+  .card .card-content h1 {
+    margin: 0 0 12px 0;
+    font-size: 37px;
+    line-height: 37px;
+  }
+  .card .card-content .company {
+    margin: 0 0 36px 0;
+  }
+  .card .card-content .company h5 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .card .card-content .company span {
+    margin: 0 11px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .card .card-content .patient-holder {
+    width: 100%;
+  }
+  .card .card-content .patient-holder p {
+    margin: 0 0 38px 0;
+    font-size: 29px;
+    line-height: 29px;
+  }
+  .card .card-content .patient-holder .row {
+    margin: 0 0 11px 0;
+  }
+  .card .card-content .patient-holder .row p {
+    width: 90px;
+    font-size: 15px;
+    line-height: 15px;
   }
   .legal-container {
     width: 538px;
@@ -6406,161 +6610,60 @@ small {
 }
 @media (min-width: 768px) {
   header {
-    height: 244px;
-    margin: 0 0 60px 0;
+    height: 254px;
+    margin: 0 0 50px 0;
   }
   header .header {
     width: 768px;
   }
   header .header .brand {
     width: 690px;
-    margin: 18px 0 12px 10px;
+    height: 162px;
+    margin: 0;
   }
   header .header .brand .logo {
-    width: 320px;
-    margin: 0 0 0 60px;
+    width: 330px;
+    margin: 22px 0 12px 70px;
   }
   header .header .brand .mobile-navigation {
     display: none;
   }
   header .header nav {
     display: block;
-    float: left;
-    width: 750px;
-    height: 78px;
+    float: right;
+    width: 768px;
+    height: 74px;
     padding: 0;
-    margin: 0 0 0 6px;
-    border-right: 1px solid #333;
-    border-radius: 6px 6px 0 0;
+    margin: 0;
+    border-radius: 6px 0 0 0;
   }
   header .header nav .tile {
     float: right;
-    height: 77px;
-    padding: 0 28px;
+    height: 73px;
+    padding: 0 26px;
     margin: 0;
     background: #666;
-    border-top: 1px solid #333;
-    border-left: 1px solid #333;
+    border-top: 1px solid #222;
+    border-left: 1px solid #222;
     cursor: pointer;
   }
   header .header nav .tile h4 {
     float: left;
     padding: 0;
-    margin: 14px 0 0 0;
-    font-weight: 600;
-    font-size: 21px;
+    margin: 12px 0 0 0;
+    font-weight: 500;
+    font-size: 22px;
     line-height: 26px;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
   }
   header .header nav .tile.active {
-    height: 78px;
+    height: 74px;
     background: #4280e5;
   }
   header .header nav .tile.first {
     border-radius: 6px 0 0 0;
-  }
-  header .header nav .tile.last {
-    border-radius: 0 6px 0 0;
-  }
-  .card-member {
-    width: 768px;
-    padding: 30px 0 0 0;
-    margin: 0 0 18px 0;
-    border-radius: 0;
-  }
-  .card-member .member {
-    width: 728px;
-    padding: 0 0 30px 40px;
-  }
-  .card-member .member .member-brand {
-    width: 380px;
-    margin: 20px 0 0 35px;
-  }
-  .card-member .member .member-content {
-    width: 280px;
-    margin: 10px 0 0 0;
-  }
-  .card-member .member .member-content .row {
-    margin: 0 0 14px 0;
-  }
-  .card-member .member .member-content .row h4 {
-    font-size: 20px;
-    line-height: 27px;
-  }
-  .card-member .member .member-content .row .left {
-    width: 120px;
-  }
-  .card-member .member .member-content .row .right {
-    width: 160px;
-  }
-  .card-member .disclaimer {
-    width: 668px;
-    padding: 30px 50px 20px 50px;
-  }
-  .card-member .disclaimer p {
-    margin: 0 0 22px 0;
-    font-size: 19px;
-    line-height: 29px;
-  }
-  .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card-member .disclaimer .brand {
-    width: 320px;
-    margin: 0 0 30px 0;
-  }
-  .card-member .disclaimer .brand img {
-    width: 280px;
-    margin: 0;
-  }
-  .card {
-    width: 604px;
-    padding: 34px 0px 28px 64px;
-    margin: 0 0 18px 40px;
-  }
-  .card .card-logo {
-    width: 102px;
-    margin: 124px 0 0 400px;
-  }
-  .card .card-content {
-    width: 480px;
-  }
-  .card .card-content h1 {
-    margin: 0 0 16px 0;
-    font-size: 49px;
-    line-height: 49px;
-  }
-  .card .card-content .company {
-    margin: 0 0 36px 0;
-  }
-  .card .card-content .company h5 {
-    font-size: 31px;
-    line-height: 31px;
-  }
-  .card .card-content .company span {
-    margin: 0 14px;
-    font-size: 29px;
-    line-height: 31px;
-  }
-  .card .card-content .patient-holder {
-    width: 100%;
-  }
-  .card .card-content .patient-holder p {
-    margin: 0 0 48px 0;
-    font-size: 37px;
-    line-height: 37px;
-  }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 18px 0;
-  }
-  .card .card-content .patient-holder .row h6 {
-    width: 122px;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 15px;
   }
   .page {
     width: 768px;
@@ -6574,7 +6677,7 @@ small {
   }
   .content .main .download {
     width: 650px;
-    margin: 0 0 0 68px;
+    margin: 0 0 0 78px;
   }
   .content .main .download .tag {
     width: 138px;
@@ -6584,8 +6687,9 @@ small {
   .content .main .download .tag p {
     width: 100%;
     margin: 0;
-    font-size: 22px;
-    line-height: 25px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -6638,15 +6742,15 @@ small {
   }
   .content .center .fa-certificate {
     width: 20px;
-    margin: -26px 0 0 682px;
+    margin: -26px 0 0 692px;
     font-size: 55px;
   }
   .content .center h1 {
-    width: 568px;
-    padding: 20px 30px 24px 30px;
-    margin: 0 0 14px 80px;
+    width: 588px;
+    padding: 14px 30px 16px 30px;
+    margin: 0 0 16px 70px;
     font-size: 41px;
-    line-height: 53px;
+    line-height: 50px;
   }
   .content .center .center-holder {
     width: 738px;
@@ -6671,7 +6775,7 @@ small {
   }
   .content .center .center-holder .logo .medicap {
     width: 136px;
-    margin: 0 0 22px 0;
+    margin: -8px 0 14px 0;
   }
   .content .center .center-holder .logo .cvs {
     width: 200px;
@@ -6683,7 +6787,7 @@ small {
   }
   .content .center .center-holder .logo .duanereade {
     width: 190px;
-    margin: 0 30px 24px 0;
+    margin: 4px 30px 24px 0;
   }
   .content .center .center-holder .logo .intermountain {
     width: 180px;
@@ -6691,15 +6795,15 @@ small {
   }
   .content .center .center-holder .logo .kmart {
     width: 200px;
-    margin: 0 30px 18px 10px;
+    margin: 0 30px 20px 10px;
   }
   .content .center .center-holder .logo .kroger {
     width: 78px;
-    margin: -8px 24px 4px 10px;
+    margin: -8px 24px 6px 10px;
   }
   .content .center .center-holder .logo .longs {
     width: 210px;
-    margin: 0 26px 20px 10px;
+    margin: 0 26px 22px 10px;
   }
   .content .center .center-holder .logo .stopshop {
     width: 92px;
@@ -6707,7 +6811,7 @@ small {
   }
   .content .center .center-holder .logo .riteaid {
     width: 58px;
-    margin: 10px 50px 8px 10px;
+    margin: 10px 50px 12px 10px;
   }
   .content .center .center-holder .logo .starmarket {
     width: 220px;
@@ -6719,7 +6823,7 @@ small {
   }
   .content .center .center-holder .logo .safeway {
     width: 100px;
-    margin: 0 10px 18px 10px;
+    margin: -2px 10px 18px 10px;
   }
   .content .center .center-holder .logo .vons {
     width: 96px;
@@ -6731,11 +6835,11 @@ small {
   }
   .content .center .center-holder .logo .shoprite {
     width: 92px;
-    margin: -10px 30px 0 0;
+    margin: -8px 20px 0 0;
   }
   .content .center .center-holder .logo .target {
     width: 76px;
-    margin: -16px 20px 0 0;
+    margin: -16px 30px 0 0;
   }
   .content .center .center-holder .logo .usadrug {
     width: 120px;
@@ -6852,27 +6956,28 @@ small {
     display: block;
   }
   footer {
-    height: 82px;
+    height: 86px;
   }
   footer .footer {
     width: 680px;
-    height: 82px;
+    height: 86px;
   }
   footer .footer .link {
     margin: 0;
   }
-  footer .footer .link p {
+  footer .footer .link p,
+  footer .footer .link a {
     font-size: 20px;
     line-height: 29px;
   }
   footer .footer .link.email {
-    margin: 12px 60px 0 10px;
+    margin: 13px 60px 0 10px;
   }
   footer .footer .link.phone {
-    margin: 12px 80px 0 0;
+    margin: 13px 80px 0 0;
   }
   footer .footer .link.privacy {
-    margin: 12px 0 0 0;
+    margin: 13px 0 0 0;
   }
   footer .footer .legal {
     width: 180px;
@@ -6944,60 +7049,61 @@ small {
     margin: 0 0 40px 0;
   }
   .modal-holder {
-    width: 500px;
-    margin: 0 0 0 -250px;
+    width: 400px;
+    margin: 0 0 0 -200px;
   }
   .modal-holder .modal-container {
-    width: 440px;
-    padding: 28px 30px 28px 30px;
+    width: 340px;
+    padding: 24px 30px 28px 30px;
     margin: 22px 0 0 0;
   }
   .modal-holder .modal-container .print {
-    width: 440px;
+    width: 340px;
   }
   .modal-holder .modal-container .print img {
-    width: 440px;
+    width: 340px;
   }
   .modal-holder .modal-container .fa-close {
-    width: 40px;
-    margin: 0 0 24px 205px;
+    width: 20px;
+    margin: 0 0 20px 160px;
     font-size: 23px;
     line-height: 23px;
   }
   .modal-holder .modal-container .row {
-    width: 440px;
+    width: 340px;
   }
   .modal-holder .modal-container .row input {
-    width: 440px;
-    height: 68px;
+    width: 340px;
+    height: 64px;
+    padding: 4px 0 0 0;
     margin: 0 0 14px 0;
-    font-size: 34px;
-    line-height: 37px;
-  }
-  .modal-holder .modal-container .submit {
-    width: 440px;
-    padding: 12px 0 8px 0;
-    margin: 0 0 24px 0;
-    font-size: 33px;
-    line-height: 38px;
-  }
-  .modal-holder .modal-container .submit.print {
-    margin: 14px 0 25px 0;
-  }
-  .modal-holder .modal-container .legal {
-    width: 440px;
-    margin: 10px 0 0 0;
-  }
-  .modal-holder .modal-container .legal p {
-    width: 420px;
-    margin: 0 0 10px 10px;
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 31px;
     line-height: 31px;
   }
+  .modal-holder .modal-container .row ::-webkit-input-placeholder {
+    line-height: normal;
+  }
+  .modal-holder .modal-container .submit {
+    width: 340px;
+    height: 33px;
+    padding: 18px 0 12px 0;
+    margin: 0 0 20px 0;
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .modal-holder .modal-container .legal {
+    width: 320px;
+    margin: 10px 0 0 10px;
+  }
+  .modal-holder .modal-container .legal p {
+    margin: 0 0 18px 0;
+    font-size: 20px;
+    line-height: 32px;
+  }
   .modal-holder .modal-container .legal a {
-    margin: 4px 0 0 0;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .map-holder {
     width: 300px;
@@ -7124,6 +7230,153 @@ small {
     margin: 0;
     padding: 8px 16px;
   }
+  .card-member {
+    width: 768px;
+    padding: 30px 0 0 0;
+    margin: 0 0 18px 0;
+    border-radius: 0;
+  }
+  .card-member .member {
+    width: 718px;
+    padding: 0 0 20px 50px;
+  }
+  .card-member .member .member-brand {
+    width: 340px;
+    margin: 20px 0 0 0;
+  }
+  .card-member .member .member-content {
+    width: 300px;
+    margin: 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 2px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .card-member .member .member-content .row .left,
+  .card-member .member .member-content .row .left.small,
+  .card-member .member .member-content .row .left.middle {
+    width: 100px;
+  }
+  .card-member .member .member-content .row .right,
+  .card-member .member .member-content .row .right.small,
+  .card-member .member .member-content .row .right.middle {
+    width: 160px;
+  }
+  .card-member .disclaimer {
+    width: 668px;
+    padding: 30px 50px 20px 50px;
+  }
+  .card-member .disclaimer p {
+    width: 660px;
+    margin: 0 0 22px 0;
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 180px;
+    margin: 0 20px 10px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 180px;
+    margin: 0;
+  }
+  .card-modal {
+    width: 298px;
+    padding: 24px 0px 18px 40px;
+    margin: 0 0 20px 0;
+  }
+  .card-modal .card-logo {
+    width: 68px;
+    margin: 94px 0 0 180px;
+  }
+  .card-modal .card-content {
+    width: 268px;
+  }
+  .card-modal .card-content h1 {
+    margin: 0 0 12px 0;
+    font-size: 31px;
+    line-height: 31px;
+  }
+  .card-modal .card-content .company {
+    width: 100%;
+  }
+  .card-modal .card-content .company h5 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .card-modal .card-content .company span {
+    margin: 0 9px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .card-modal .card-content .patient-holder {
+    width: 100%;
+  }
+  .card-modal .card-content .patient-holder p {
+    margin: 0 0 32px 0;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .card-modal .card-content .patient-holder .row {
+    margin: 0 0 8px 0;
+  }
+  .card-modal .card-content .patient-holder .row h6 {
+    width: 94px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .card {
+    width: 568px;
+    padding: 44px 0 32px 60px;
+    margin: 0 0 18px 70px;
+  }
+  .card .card-logo {
+    width: 122px;
+    margin: 214px 0 0 370px;
+  }
+  .card .card-content {
+    width: 480px;
+  }
+  .card .card-content h1 {
+    margin: 0 0 20px 0;
+    font-size: 51px;
+    line-height: 51px;
+  }
+  .card .card-content .company {
+    margin: 0 0 48px 0;
+  }
+  .card .card-content .company h5 {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .card .card-content .company span {
+    margin: 0 14px;
+    font-size: 31px;
+    line-height: 33px;
+  }
+  .card .card-content .patient-holder {
+    width: 100%;
+  }
+  .card .card-content .patient-holder p {
+    margin: 0 0 56px 0;
+    font-size: 39px;
+    line-height: 39px;
+  }
+  .card .card-content .patient-holder .row {
+    margin: 0 0 14px 0;
+  }
+  .card .card-content .patient-holder .row h6 {
+    width: 124px;
+    font-size: 21px;
+    line-height: 21px;
+  }
   .legal-container {
     width: 688px;
   }
@@ -7161,6 +7414,7 @@ small {
 }
 @media (min-width: 900px) {
   header {
+    padding: 0;
     margin: 0 0 40px 0;
     height: 130px;
   }
@@ -7170,7 +7424,7 @@ small {
   header .header .brand {
     width: 270px;
     padding: 0;
-    margin: 14px 24px 0 29px;
+    margin: 14px 24px 0 24px;
   }
   header .header .brand .logo {
     width: 270px;
@@ -7193,109 +7447,6 @@ small {
   header .header nav .tile.active {
     height: 76px;
   }
-  header .header nav .tile.last {
-    border-radius: 0 0 0 0;
-  }
-  .card-member {
-    width: 1000px;
-    padding: 50px 0 0 0;
-    margin: 0 0 16px -20px;
-    border-radius: 6px 6px 6px 6px;
-  }
-  .card-member .member {
-    width: 920px;
-    padding: 0 0 40px 0;
-    margin: 0 0 0 80px;
-  }
-  .card-member .member .member-brand {
-    width: 420px;
-    margin: 10px 0 0 0;
-  }
-  .card-member .member .member-content {
-    width: 400px;
-    margin: 10px 0 0 0;
-  }
-  .card-member .member .member-content .row {
-    margin: 0 0 10px 0;
-  }
-  .card-member .member .member-content .row h4 {
-    font-size: 19px;
-    line-height: 25px;
-  }
-  .card-member .member .member-content .row .left {
-    width: 120px;
-    margin: 0 20px 0 0;
-  }
-  .card-member .member .member-content .row .right {
-    width: 200px;
-  }
-  .card-member .disclaimer {
-    width: 870px;
-    padding: 40px 60px 20px 70px;
-  }
-  .card-member .disclaimer p {
-    margin: 0 0 22px 0;
-    font-size: 18px;
-    line-height: 26px;
-  }
-  .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card-member .disclaimer .brand {
-    width: 320px;
-    margin: 0 20px 10px 0;
-  }
-  .card-member .disclaimer .brand img {
-    width: 300px;
-  }
-  .card {
-    width: 444px;
-    padding: 32px 0px 22px 44px;
-    margin: 0 0 18px 0;
-  }
-  .card .card-logo {
-    display: none;
-    width: 90px;
-    margin: 90px 0 0 280px;
-  }
-  .card .card-content {
-    width: 344px;
-  }
-  .card .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 41px;
-    line-height: 41px;
-  }
-  .card .card-content .company {
-    margin: 0 0 32px 0;
-  }
-  .card .card-content .company h5 {
-    font-size: 25px;
-    line-height: 25px;
-  }
-  .card .card-content .company span {
-    margin: 0 12px;
-    font-size: 21px;
-    line-height: 25px;
-  }
-  .card .card-content .patient-holder {
-    width: 100%;
-  }
-  .card .card-content .patient-holder p {
-    width: 340px;
-    margin: 0 0 44px 0;
-    font-size: 33px;
-    line-height: 33px;
-  }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 14px 0;
-  }
-  .card .card-content .patient-holder .row p {
-    width: 86px;
-    font-size: 11px;
-    line-height: 11px;
-  }
   .page {
     width: 1000px;
   }
@@ -7303,51 +7454,52 @@ small {
     width: 1000px;
   }
   .content .main {
-    width: 530px;
-    margin: 0 0 50px 20px;
+    width: 570px;
+    margin: 0 0 40px 20px;
   }
   .content .main .download {
-    width: 528px;
-    margin: 0;
+    width: 548px;
+    margin: 0 0 0 0;
   }
   .content .main .download .tag {
-    width: 112px;
-    padding: 16px 0 10px 0;
+    width: 122px;
+    padding: 16px 0 12px 0;
     margin: 0 14px 0 0;
   }
   .content .main .download .tag p {
+    width: 122px;
     margin: 0;
-    width: 112px;
-    font-size: 18px;
-    line-height: 18px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 36px;
-    font-size: 28px;
+    height: 40px;
+    font-size: 32px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 46px;
-    margin: -10px 0 0 -10px;
-    font-size: 42px;
+    height: 52px;
+    margin: -12px 0 0 -12px;
+    font-size: 43px;
   }
   .content .main .download .tag .fa-send {
-    font-size: 22px;
+    font-size: 24px;
   }
   .content .main .download .tag .fa-file-text {
-    font-size: 24px;
+    font-size: 26px;
   }
   .content .main .download.member {
     margin: 0 0 0 235px;
   }
   .content .points {
-    width: 440px;
+    width: 400px;
     margin: 20px 0 0 0;
   }
   .content .points .point-container {
-    width: 440px;
+    width: 400px;
     margin: 0 0 26px 0;
   }
   .content .points .point-container .point {
@@ -7361,7 +7513,7 @@ small {
     line-height: 35px;
   }
   .content .points .point-container .point h3 {
-    padding: 16px 34px 24px 34px;
+    padding: 16px 24px 24px 24px;
     font-weight: 500;
     font-size: 31px;
     line-height: 31px;
@@ -7373,7 +7525,7 @@ small {
   }
   .content .center {
     width: 1000px;
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
   }
   .content .center .fa-certificate {
     width: 30px;
@@ -7381,16 +7533,16 @@ small {
     font-size: 39px;
   }
   .content .center h1 {
-    width: 920px;
+    width: 940px;
     padding: 18px 0 14px 0;
-    margin: 0 0 14px 40px;
+    margin: 0 0 16px 30px;
     font-size: 33px;
     line-height: 33px;
     text-align: center;
   }
   .content .center .center-holder {
     width: 938px;
-    padding: 44px 0 40px 60px;
+    padding: 44px 0 30px 60px;
     border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder .logo {
@@ -7398,91 +7550,91 @@ small {
   }
   .content .center .center-holder .logo .albertsons {
     width: 200px;
-    margin: 0 30px 20px 0;
+    margin: 0 30px 24px 0;
   }
   .content .center .center-holder .logo .ap {
     width: 78px;
-    margin: 0 40px 20px 0;
+    margin: 0 35px 24px 0;
   }
   .content .center .center-holder .logo .costco {
     width: 142px;
-    margin: 0 30px 20px 0;
+    margin: 0 35px 14px 0;
   }
   .content .center .center-holder .logo .medicap {
     width: 126px;
-    margin: 0 40px 22px 0;
+    margin: -6px 40px 16px 0;
   }
   .content .center .center-holder .logo .cvs {
     width: 200px;
-    margin: 18px 30px 24px -10px;
+    margin: 8px 30px 36px -10px;
   }
   .content .center .center-holder .logo .publix {
     width: 58px;
-    margin: 0 30px 24px 0;
+    margin: 0 30px 26px 0;
   }
   .content .center .center-holder .logo .duanereade {
     width: 190px;
-    margin: 0 30px 24px 0;
+    margin: 0 40px 24px 0;
   }
   .content .center .center-holder .logo .intermountain {
     width: 180px;
-    margin: 0 0 32px 0;
+    margin: -8px 30px 30px 0;
   }
   .content .center .center-holder .logo .kmart {
     width: 200px;
-    margin: 0 30px 18px 10px;
+    margin: 8px 30px 34px 10px;
   }
   .content .center .center-holder .logo .kroger {
-    width: 78px;
-    margin: -8px 24px 4px 10px;
+    width: 76px;
+    margin: -4px 24px 8px 10px;
   }
   .content .center .center-holder .logo .longs {
     width: 210px;
-    margin: 0 26px 20px 10px;
+    margin: 0 26px 16px 0;
   }
   .content .center .center-holder .logo .stopshop {
     width: 92px;
-    margin: 0 20px 26px 10px;
+    margin: 0 20px 14px 10px;
   }
   .content .center .center-holder .logo .riteaid {
     width: 58px;
-    margin: 10px 50px 8px 10px;
+    margin: 10px 20px 16px 20px;
   }
   .content .center .center-holder .logo .starmarket {
     width: 220px;
-    margin: 14px 20px 0 0;
+    margin: 10px 10px 18px 0;
   }
   .content .center .center-holder .logo .walmart {
     width: 180px;
-    margin: 10px 30px 0 10px;
+    margin: 6px 10px 28px 10px;
   }
   .content .center .center-holder .logo .safeway {
     width: 100px;
-    margin: 0 10px 18px 10px;
+    margin: 0px 20px 0 10px;
   }
   .content .center .center-holder .logo .vons {
     width: 96px;
-    margin: 0 20px 28px 0;
+    margin: 22px 30px 28px 0;
   }
   .content .center .center-holder .logo .walgreens {
     width: 230px;
-    margin: 0 20px 0 0;
+    margin: 20px 20px 0 0;
   }
   .content .center .center-holder .logo .shoprite {
-    width: 92px;
-    margin: -10px 30px 0 0;
+    width: 98px;
+    margin: 0px 10px 0 0;
   }
   .content .center .center-holder .logo .target {
-    width: 76px;
-    margin: -16px 20px 0 0;
+    width: 70px;
+    margin: -4px 30px 0 0;
   }
   .content .center .center-holder .logo .usadrug {
-    width: 120px;
-    margin: 0;
+    width: 130px;
+    margin: 8px 0 0 0;
   }
   .content .locator {
     width: 1000px;
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
   }
   .content .locator h2 {
     width: 280px;
@@ -7494,14 +7646,14 @@ small {
     margin: 0 0 20px 0;
   }
   .content .locator .locator-zip h2 {
-    width: 240px;
-    margin: 0 0 24px 30px;
-    font-size: 29px;
-    line-height: 35px;
+    width: 300px;
+    margin: 0 0 24px 0;
+    font-size: 33px;
+    line-height: 39px;
   }
   .content .locator .locator-zip input {
     width: 158px;
-    height: 52px;
+    height: 56px;
     padding: 0 0 0 0;
     margin: 0 20px 0 0;
     font-size: 25px;
@@ -7509,10 +7661,10 @@ small {
   }
   .content .locator .locator-zip .submit {
     width: 120px;
-    height: 52px;
-    padding: 0 0 0 30px;
-    font-size: 25px;
-    line-height: 54px;
+    height: 56px;
+    padding: 0;
+    font-size: 26px;
+    line-height: 59px;
   }
   .content .locator .locator-state {
     width: 520px;
@@ -7522,28 +7674,28 @@ small {
   .content .locator .locator-state h2 {
     width: 320px;
     margin: 0 0 24px 100px;
-    font-size: 29px;
-    line-height: 35px;
+    font-size: 33px;
+    line-height: 39px;
   }
   .content .locator .locator-state select {
     float: left;
     width: 178px;
-    height: 56px;
-    padding: 6px 0 0 40px;
+    height: 62px;
+    padding: 3px 0 0 20px;
     margin: 0 20px 0 0;
     font-size: 23px;
     line-height: 23px;
   }
   .content .locator .locator-state .submit {
     width: 120px;
-    height: 52px;
-    font-size: 25px;
-    line-height: 54px;
+    height: 56px;
+    font-size: 26px;
+    line-height: 59px;
   }
   .content .locator .locator-results {
     width: 1000px;
     padding: 28px 0 30px 0;
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
   }
   .content .locator .locator-results h2 {
     width: 100%;
@@ -7578,6 +7730,7 @@ small {
   }
   .content .testimonals-holder {
     width: 1020px;
+    margin: 0;
   }
   .content .testimonals-holder .testimonals {
     width: 1020px;
@@ -7591,39 +7744,43 @@ small {
   .content .testimonals-holder .testimonals .testimonal p {
     margin: 0 0 20px 0;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 29px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     font-size: 24px;
     line-height: 24px;
-    margin: 0 0 12px 0;
+    margin: 0 0 10px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 19px;
     line-height: 19px;
   }
   footer {
-    height: 68px;
+    height: 82px;
   }
   footer .footer {
-    width: 760px;
-    height: 68px;
+    width: 780px;
+    height: 82px;
   }
   footer .footer .link {
-    margin: 10px 40px 0 0;
+    margin: 0;
   }
-  footer .footer .link h4 {
-    font-size: 19px;
-    line-height: 24px;
+  footer .footer .link p,
+  footer .footer .link a {
+    font-size: 20px;
+    line-height: 29px;
   }
   footer .footer .link.email {
-    margin: 10px 60px 0 0px;
+    margin: 12px 60px 0 10px;
   }
   footer .footer .link.phone {
-    margin: 10px 130px 0 0;
+    margin: 12px 180px 0 0;
   }
   footer .footer .link.privacy {
-    margin: 10px 0 0 0;
+    margin: 12px 0 0 0;
+  }
+  footer .footer .legal {
+    width: 180px;
   }
   .contact-holder {
     width: 380px;
@@ -7694,61 +7851,61 @@ small {
     margin: 0 0 40px 0;
   }
   .modal-holder {
-    width: 500px;
-    margin: 0 0 0 -250px;
+    width: 400px;
+    margin: 0 0 0 -200px;
   }
   .modal-holder .modal-container {
-    width: 440px;
-    padding: 28px 40px 28px 40px;
+    width: 340px;
+    padding: 24px 30px 28px 30px;
     margin: 22px 0 0 0;
   }
   .modal-holder .modal-container .print {
-    width: 440px;
+    width: 340px;
   }
   .modal-holder .modal-container .print img {
-    width: 440px;
+    width: 340px;
   }
   .modal-holder .modal-container .fa-close {
-    width: 40px;
-    margin: 0 0 20px 200px;
-    font-size: 25px;
-    line-height: 25px;
+    width: 20px;
+    margin: 0 0 20px 160px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .modal-holder .modal-container .row {
-    width: 440px;
+    width: 340px;
   }
   .modal-holder .modal-container .row input {
-    width: 440px;
-    height: 66px;
-    padding: 2px 0 0 0;
+    width: 340px;
+    height: 64px;
+    padding: 4px 0 0 0;
     margin: 0 0 14px 0;
-    font-size: 35px;
-    line-height: 35px;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 31px;
+  }
+  .modal-holder .modal-container .row ::-webkit-input-placeholder {
+    line-height: normal;
   }
   .modal-holder .modal-container .submit {
-    width: 440px;
-    padding: 12px 0 8px 0;
-    margin: 0 0 24px 0;
-    font-size: 34px;
-    line-height: 39px;
-  }
-  .modal-holder .modal-container .submit.print {
-    margin: 14px 0 25px 0;
-  }
-  .modal-holder .modal-container .legal {
-    width: 440px;
-    margin: 10px 0 0 0;
-  }
-  .modal-holder .modal-container .legal p {
-    width: 420px;
-    margin: 0 0 22px 10px;
-    font-size: 22px;
+    width: 340px;
+    height: 33px;
+    padding: 18px 0 12px 0;
+    margin: 0 0 20px 0;
+    font-size: 33px;
     line-height: 33px;
   }
+  .modal-holder .modal-container .legal {
+    width: 320px;
+    margin: 10px 0 0 10px;
+  }
+  .modal-holder .modal-container .legal p {
+    margin: 0 0 18px 0;
+    font-size: 20px;
+    line-height: 32px;
+  }
   .modal-holder .modal-container .legal a {
-    margin: 4px 0 0 0;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .map-holder {
     position: relative;
@@ -7878,6 +8035,125 @@ small {
     margin: 0;
     padding: 8px 16px;
   }
+  .card-member {
+    width: 898px;
+    padding: 40px 0 0 0;
+    margin: 0 0 18px 20px;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .card-member .member {
+    width: 848px;
+    padding: 0 0 40px 50px;
+  }
+  .card-member .member .member-brand {
+    width: 338px;
+    margin: 0 0 0 50px;
+  }
+  .card-member .member .member-content {
+    width: 400px;
+    margin: 20px 0 0 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 2px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 90px;
+    margin: 0 10px 8px 0;
+  }
+  .card-member .member .member-content .row .left h4 {
+    text-align: right;
+  }
+  .card-member .member .member-content .row .right {
+    width: 90px;
+    margin: 0 10px 8px 0;
+  }
+  .card-member .member .member-content .row .left.small {
+    width: 90px;
+    margin: 0 10px 8px 0;
+  }
+  .card-member .member .member-content .row .right.small {
+    width: 300px;
+    margin: 0 0 8px 0;
+  }
+  .card-member .member .member-content .row .left.middle {
+    width: 90px;
+    margin: 0 10px 8px 0;
+  }
+  .card-member .member .member-content .row .right.middle {
+    width: 90px;
+    margin: 0 10px 8px 0;
+  }
+  .card-member .disclaimer {
+    width: 778px;
+    padding: 30px 60px 20px 60px;
+  }
+  .card-member .disclaimer p {
+    width: 778px;
+    margin: 0 0 18px 0;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 220px;
+    margin: 0 30px 10px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 220px;
+  }
+  .card {
+    width: 484px;
+    padding: 38px 0px 32px 44px;
+    margin: 0 0 18px 0;
+  }
+  .card .card-logo {
+    width: 100px;
+    margin: 190px 0 0 330px;
+  }
+  .card .card-content {
+    width: 344px;
+  }
+  .card .card-content h1 {
+    margin: 0 0 18px 0;
+    font-size: 44px;
+    line-height: 44px;
+  }
+  .card .card-content .company {
+    margin: 0 0 42px 0;
+  }
+  .card .card-content .company h5 {
+    font-size: 31px;
+    line-height: 31px;
+  }
+  .card .card-content .company span {
+    margin: 0 12px;
+    font-size: 23px;
+    line-height: 29px;
+  }
+  .card .card-content .patient-holder {
+    width: 100%;
+  }
+  .card .card-content .patient-holder p {
+    width: 340px;
+    margin: 0 0 44px 0;
+    font-size: 31px;
+    line-height: 31px;
+  }
+  .card .card-content .patient-holder .row {
+    margin: 0 0 15px 0;
+  }
+  .card .card-content .patient-holder .row h6 {
+    width: 124px;
+    font-size: 20px;
+    line-height: 20px;
+  }
   .legal-container {
     width: 928px;
   }
@@ -7951,108 +8227,6 @@ small {
   header .header nav .tile.last {
     border-radius: 0 6px 0 0;
   }
-  .card-member {
-    width: 1000px;
-    padding: 50px 0 0 0;
-    margin: 0 0 18px -20px;
-  }
-  .card-member .member {
-    width: 940px;
-    padding: 0 0 30px 0;
-    margin: 0 0 0 60px;
-  }
-  .card-member .member .member-brand {
-    width: 440px;
-    margin: 0 0 0 0;
-  }
-  .card-member .member .member-content {
-    width: 400px;
-    margin: 0 0 0 0;
-  }
-  .card-member .member .member-content .row {
-    margin: 0 0 14px 0;
-  }
-  .card-member .member .member-content .row h4 {
-    font-size: 20px;
-    line-height: 26px;
-  }
-  .card-member .member .member-content .row .left {
-    width: 120px;
-    margin: 0 20px 0 0;
-  }
-  .card-member .member .member-content .row .right {
-    width: 200px;
-  }
-  .card-member .disclaimer {
-    width: 880px;
-    padding: 40px 60px 20px 60px;
-  }
-  .card-member .disclaimer p {
-    margin: 0 0 22px 0;
-    font-size: 18px;
-    line-height: 26px;
-  }
-  .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card-member .disclaimer .brand {
-    width: 280px;
-    margin: 0 20px 10px 0;
-  }
-  .card-member .disclaimer .brand img {
-    width: 260px;
-  }
-  .card {
-    width: 464px;
-    padding: 32px 0px 28px 44px;
-    margin: 0 0 12px 0;
-  }
-  .card .card-logo {
-    display: none;
-    width: 90px;
-    margin: 90px 0 0 280px;
-  }
-  .card .card-content {
-    width: 344px;
-  }
-  .card .card-content h1 {
-    margin: 0 0 14px 0;
-    font-weight: 400;
-    font-size: 39px;
-    line-height: 39px;
-  }
-  .card .card-content .company {
-    margin: 0 0 32px 0;
-  }
-  .card .card-content .company h5 {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-  }
-  .card .card-content .company span {
-    margin: 0 12px;
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .card .card-content .patient-holder {
-    width: 100%;
-  }
-  .card .card-content .patient-holder p {
-    width: 340px;
-    margin: 0 0 38px 0;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 27px;
-  }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 14px 0;
-  }
-  .card .card-content .patient-holder .row h6 {
-    width: 92px;
-    font-size: 12px;
-    line-height: 12px;
-  }
   .page {
     width: 1000px;
   }
@@ -8060,7 +8234,7 @@ small {
     width: 1000px;
   }
   .content .main {
-    width: 560px;
+    width: 540px;
     margin: 0 0 40px 20px;
   }
   .content .main .download {
@@ -8097,7 +8271,7 @@ small {
     font-size: 24px;
   }
   .content .points {
-    width: 400px;
+    width: 440px;
     margin: 10px 0 0 0;
   }
   .content .points .point-container {
@@ -8115,14 +8289,14 @@ small {
     line-height: 37px;
   }
   .content .points .point-container .point h3 {
-    padding: 16px 24px 24px 24px;
-    font-weight: 500;
+    padding: 14px 34px 22px 34px;
+    font-weight: 400;
     font-size: 31px;
     line-height: 31px;
     text-align: left;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 5px 0;
+    padding: 0 0 4px 0;
     border-bottom: 4px solid #ff9;
   }
   .content .center {
@@ -8131,13 +8305,14 @@ small {
   }
   .content .center .fa-certificate {
     width: 30px;
-    margin: -16px 0 0 950px;
+    margin: -16px 0 0 940px;
     font-size: 39px;
   }
   .content .center h1 {
-    width: 940px;
-    padding: 18px 0 14px 0;
-    margin: 0 0 14px 30px;
+    width: 920px;
+    padding: 16px 0 14px 0;
+    margin: 0 0 14px 40px;
+    font-weight: 400;
     font-size: 33px;
     line-height: 33px;
     text-align: center;
@@ -8145,6 +8320,7 @@ small {
   .content .center .center-holder {
     width: 938px;
     padding: 44px 0 30px 60px;
+    margin: 0;
     border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder .logo {
@@ -8367,7 +8543,8 @@ small {
   footer .footer .link {
     margin: 0;
   }
-  footer .footer .link p {
+  footer .footer .link p,
+  footer .footer .link a {
     font-size: 19px;
     line-height: 28px;
   }
@@ -8550,7 +8727,7 @@ small {
   }
   .modal-holder .modal-container {
     width: 338px;
-    padding: 24px 30px 18px 30px;
+    padding: 18px 30px 18px 30px;
     margin: 22px 0 0 0;
   }
   .modal-holder .modal-container .print {
@@ -8561,45 +8738,46 @@ small {
   }
   .modal-holder .modal-container .fa-close {
     width: 20px;
-    margin: 0 0 22px 158px;
-    font-size: 19px;
-    line-height: 19px;
+    margin: 0 0 18px 158px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .modal-holder .modal-container .row {
     width: 338px;
   }
   .modal-holder .modal-container .row input {
     width: 338px;
-    height: 64px;
-    padding: 0;
-    margin: 0 0 14px 0;
+    height: 56px;
+    padding: 2px 0 0 0;
+    margin: 0 0 12px 0;
     font-size: 27px;
-    line-height: 36px;
+    line-height: 27px;
   }
   .modal-holder .modal-container .submit {
     width: 338px;
-    padding: 12px 0 10px 0;
+    height: 30px;
+    padding: 14px 0 10px 0;
     margin: 0 0 22px 0;
-    font-size: 28px;
-    line-height: 33px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .modal-holder .modal-container .submit.print {
     margin: 18px 0 26px 0;
   }
   .modal-holder .modal-container .legal {
     width: 100%;
-    margin: 0 0 0 0;
+    margin: 4px 0 0 0;
   }
   .modal-holder .modal-container .legal p {
     width: 318px;
     margin: 0 0 20px 10px;
     font-size: 17px;
-    line-height: 26px;
+    line-height: 27px;
   }
   .modal-holder .modal-container .legal a {
     margin: 8px 0 0 0;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 21px;
   }
   .map-holder {
     position: relative;
@@ -8668,6 +8846,127 @@ small {
   }
   .map-full {
     height: 500px;
+  }
+  .card-member {
+    width: 898px;
+    padding: 30px 0 0 0;
+    margin: 0 0 12px 50px;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .card-member .member {
+    width: 848px;
+    padding: 0 0 20px 50px;
+  }
+  .card-member .member .member-brand {
+    width: 318px;
+    margin: 0 0 0 30px;
+  }
+  .card-member .member .member-content {
+    width: 440px;
+    margin: 20px 0 0 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 0 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 100px;
+    margin: 0 10px 12px 0;
+  }
+  .card-member .member .member-content .row .left h4 {
+    text-align: right;
+  }
+  .card-member .member .member-content .row .right {
+    width: 100px;
+    margin: 0 10px 12px 0;
+  }
+  .card-member .member .member-content .row .left.small {
+    width: 100px;
+    margin: 0 10px 12px 0;
+  }
+  .card-member .member .member-content .row .right.small {
+    width: 300px;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row .left.middle {
+    width: 100px;
+    margin: 0 10px 12px 0;
+  }
+  .card-member .member .member-content .row .right.middle {
+    width: 100px;
+    margin: 0 10px 12px 0;
+  }
+  .card-member .disclaimer {
+    width: 778px;
+    padding: 30px 60px 20px 60px;
+  }
+  .card-member .disclaimer p {
+    width: 778px;
+    margin: 0 0 14px 0;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 180px;
+    margin: 0 30px 10px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 180px;
+  }
+  .card {
+    width: 464px;
+    padding: 34px 0px 24px 44px;
+    margin: 0 0 12px 0;
+  }
+  .card .card-logo {
+    width: 110px;
+    margin: 130px 0 0 300px;
+  }
+  .card .card-content {
+    width: 344px;
+  }
+  .card .card-content h1 {
+    margin: 0 0 14px 0;
+    font-size: 37px;
+    line-height: 37px;
+  }
+  .card .card-content .company {
+    margin: 0 0 36px 0;
+  }
+  .card .card-content .company h5 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .card .card-content .company span {
+    margin: 0 10px;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .card .card-content .patient-holder {
+    width: 100%;
+  }
+  .card .card-content .patient-holder p {
+    width: 340px;
+    margin: 0 0 38px 0;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 29px;
+  }
+  .card .card-content .patient-holder .row {
+    margin: 0 0 10px 0;
+  }
+  .card .card-content .patient-holder .row h6 {
+    width: 110px;
+    font-size: 15px;
+    line-height: 15px;
   }
   .legal-container {
     width: 998px;

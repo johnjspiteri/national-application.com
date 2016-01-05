@@ -1,46 +1,57 @@
 .page
     .content
+        .card-member
+            .member
+                .member-content
+                    .row
+                        .left.small
+                            h4 NAME
+                        .right.small
+                            h4(data-ng-bind='member.plan.title')
+                    .row
+                        .left
+                            h4 BIN#
+                        .right
+                            h4(data-ng-bind='member.plan.bin')
+                    .row
+                        .left
+                            h4 PCN#
+                        .right
+                            h4(data-ng-bind='member.plan.pcn')
+                    .row.hide
+                        .left.middle
+                            h4 GROUP#
+                        .left.middle
+                            h4 PATIENT#
+                    .row.hide
+                        .right.middle
+                            h4(data-ng-bind='member.plan.group')
+                        .right.middle
+                            h4(data-ng-bind='member.plan.patient_id')
+
+                    .row
+                        .left.middle
+                            h4 GROUP#
+                        .right.middle
+                            h4(data-ng-bind='member.plan.group')
+                    .row
+                        .left.middle
+                            h4 PATIENT#
+                        .right.middle
+                            h4(data-ng-bind='member.plan.patient_id')
+
+                .member-brand
+                    //- img(ng-src='/img/best_deals_4_moms.jpg')
+                    img(ng-src='/img/pharmacies/intermountain.png')
+
+            .disclaimer
+                .brand
+                    img(ng-src='/img/logo.png')
+                p <b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. <b>THIS IS NOT INSURANCE</b>
+                p <b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. <b>THIS IS NOT INSURANCE</b>
+                //- a() www.nationalrxcard.com
+
         .main
-            .card-member
-                .member
-                    .member-content
-                        .row
-                            .left
-                                h4 NAME
-                            .right
-                                h4(data-ng-bind='member.plan.title')
-                        .row
-                            .left
-                                h4 BIN#
-                            .right
-                                h4(data-ng-bind='member.plan.bin')
-                        .row
-                            .left
-                                h4 PCN#
-                            .right
-                                h4(data-ng-bind='member.plan.pcn')
-                        .row
-                            .left
-                                h4 GROUP#
-                            .right
-                                h4(data-ng-bind='member.plan.group')
-                        .row
-                            .left
-                                h4 PATIENT#
-                            .right
-                                h4(data-ng-bind='member.plan.patient_id')
-
-                    .member-brand
-                        //- img(ng-src='/img/best_deals_4_moms.jpg')
-                        img(ng-src='/img/pharmacies/intermountain.png')
-
-                .disclaimer
-                    .brand
-                        img(ng-src='/img/logo.png')
-                    p <b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs.<br><b>THIS IS NOT INSURANCE</b>
-                    p <b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs.<br><b>THIS IS NOT INSURANCE</b>
-                    //- a() www.nationalrxcard.com
-
             .download.member
                 .tag(data-ng-click='textModal();')
                     .fa.fa-mobile.fa-rotate-90
@@ -54,7 +65,6 @@
                 .tag(data-ng-click='printModal();')
                     .fa.fa-file-text
                     p Print Card
-
         //- .points
         //-     .point-container
         //-         .point

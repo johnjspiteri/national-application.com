@@ -1,60 +1,76 @@
 
 <div class="page">
   <div class="content">
-    <div class="main">
-      <div class="card-member">
-        <div class="member">
-          <div class="member-content">
-            <div class="row">
-              <div class="left">
-                <h4>NAME</h4>
-              </div>
-              <div class="right">
-                <h4 data-ng-bind="member.plan.title"></h4>
-              </div>
+    <div class="card-member">
+      <div class="member">
+        <div class="member-content">
+          <div class="row">
+            <div class="left small">
+              <h4>NAME</h4>
             </div>
-            <div class="row">
-              <div class="left">
-                <h4>BIN#</h4>
-              </div>
-              <div class="right">
-                <h4 data-ng-bind="member.plan.bin"></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="left">
-                <h4>PCN#</h4>
-              </div>
-              <div class="right">
-                <h4 data-ng-bind="member.plan.pcn"></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="left">
-                <h4>GROUP#</h4>
-              </div>
-              <div class="right">
-                <h4 data-ng-bind="member.plan.group"></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="left">
-                <h4>PATIENT#</h4>
-              </div>
-              <div class="right">
-                <h4 data-ng-bind="member.plan.patient_id"></h4>
-              </div>
+            <div class="right small">
+              <h4 data-ng-bind="member.plan.title"></h4>
             </div>
           </div>
-          <div class="member-brand"><img ng-src="/img/pharmacies/intermountain.png"/>
+          <div class="row">
+            <div class="left">
+              <h4>BIN#</h4>
+            </div>
+            <div class="right">
+              <h4 data-ng-bind="member.plan.bin"></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <h4>PCN#</h4>
+            </div>
+            <div class="right">
+              <h4 data-ng-bind="member.plan.pcn"></h4>
+            </div>
+          </div>
+          <div class="row hide">
+            <div class="left middle">
+              <h4>GROUP#</h4>
+            </div>
+            <div class="left middle">
+              <h4>PATIENT#</h4>
+            </div>
+          </div>
+          <div class="row hide">
+            <div class="right middle">
+              <h4 data-ng-bind="member.plan.group"></h4>
+            </div>
+            <div class="right middle">
+              <h4 data-ng-bind="member.plan.patient_id"></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left middle">
+              <h4>GROUP#</h4>
+            </div>
+            <div class="right middle">
+              <h4 data-ng-bind="member.plan.group"></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left middle">
+              <h4>PATIENT#</h4>
+            </div>
+            <div class="right middle">
+              <h4 data-ng-bind="member.plan.patient_id"></h4>
+            </div>
           </div>
         </div>
-        <div class="disclaimer">
-          <div class="brand"><img ng-src="/img/logo.png"/></div>
-          <p><b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs.<br><b>THIS IS NOT INSURANCE</b></p>
-          <p><b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs.<br><b>THIS IS NOT INSURANCE</b></p>
+        <div class="member-brand"><img ng-src="/img/pharmacies/intermountain.png"/>
         </div>
       </div>
+      <div class="disclaimer">
+        <div class="brand"><img ng-src="/img/logo.png"/></div>
+        <p><b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. <b>THIS IS NOT INSURANCE</b></p>
+        <p><b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. <b>THIS IS NOT INSURANCE</b></p>
+      </div>
+    </div>
+    <div class="main">
       <div class="download member">
         <div data-ng-click="textModal();" class="tag">
           <div class="fa fa-mobile fa-rotate-90"></div>
