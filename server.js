@@ -4,22 +4,21 @@
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
    var express = require('express'),
-       // favicon = require('serve-favicon'),
-    mongoose = require('mongoose'),
-    morgan = require('morgan'),
-    path = require('path'),
-    methodOverride = require('method-override'),
-    compression = require('compression'),
+      location = require('./server/config/development.json'),
+      mongoose = require('mongoose'),
+        morgan = require('morgan'),
+          path = require('path'),
+methodOverride = require('method-override'),
+   compression = require('compression'),
     bodyParser = require('body-parser'),
-    cookieParser = require('cookie-parser'),
-    errorHandler = require('errorhandler'),
-    app = express(),
-    ip = '127.0.0.1',
-    port = 8080,
+  cookieParser = require('cookie-parser'),
+  errorHandler = require('errorhandler'),
+           app = express(),
+            ip = location.ip,
+          port = location.port,
     connection = 'mongodb://worker:nat1onal@127.0.0.1:27017/national',
-    server = require('http').createServer(app),
-    seedDB = false,
-    env = app.get('env');
+        server = require('http').createServer(app),
+           env = app.get('env');
 
 app.set('views', __dirname + '/public/html');
 app.set('view engine', 'jade');
@@ -38,10 +37,6 @@ db.once('open', function callback () {
 });
 mongoose
     .set('debug', false);
-
-if (seedDB) {
-  require('./server/config/seed');
-}
 
 if ('production' === env) {
     app.use(express.static(__dirname + '/client'));
@@ -62,7 +57,7 @@ app.use('/api/text', require('./server/api/text'));
 app.use('/api/zip', require('./server/api/zip'));
 app.use('/api/location', require('./server/api/location'));
 app.use('/api/contact', require('./server/api/contact'));
-app.use('/api/client', require('./server/api/client'));
+app.use('/api/member', require('./server/api/member'));
 
 app.all('/*', function(req, res, next) {
     res.sendFile('client/html/index.html', { root: __dirname });

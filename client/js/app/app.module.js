@@ -21,6 +21,6 @@
             'app.about',
             'app.privacy',
             'app.terms',
-            'app.client',
+            'app.member',
         ]);
 })();

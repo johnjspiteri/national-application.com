@@ -1,8 +1,8 @@
 (function() {
     'use strict';
 
-    function client ($resource) {
-        return $resource("/api/client/:id", { id: "@_id" },
+    function member ($resource) {
+        return $resource("/api/member/:id", { id: "@_id" },
             {
                 'create':  { method: 'POST' },
                 'query':   { method: 'GET', isArray: true },
@@ -14,9 +14,9 @@
     }
 
     angular
-        .module('app.client')
-        .factory('client', client);
+        .module('app.member')
+        .factory('member', member);
 
-    client.$inject = ['$resource'];
+    member.$inject = ['$resource'];
 
 })();

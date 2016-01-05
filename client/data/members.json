@@ -1,0 +1,13 @@
+{
+    "clean": "best-deals-4-moms",
+    "plan": {
+        "title": "PREFERRED CUSTOMER",
+        "bin": "018398",
+        "pcn": "48300712",
+        "group": "96100245",
+        "patient_id": "BDM61530"
+    },
+    "organization": "Best Deals 4 Moms",
+    "email": "info@bestdeals4moms.com",
+    "file_url": "https://s3.amazonaws.com/nationalrx/card/NationalRxCard.jpg"
+}

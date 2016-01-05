@@ -1,14 +1,14 @@
 (function() {
     'use strict';
 
-    function Client ($scope, client) {
+    function Member ($scope, member) {
 
         $scope.item = {};
 
         $scope.addItem = function() {
             console.log($scope.item.pdf);
 
-            client.create({
+            member.create({
                 plan: $scope.item.plan,
                 organization: $scope.item.organization,
                 email: $scope.item.email,
@@ -20,9 +20,9 @@
     }
 
     angular
-        .module('app.client')
-        .controller('Client', Client);
+        .module('app.member')
+        .controller('Member', Member);
 
-    Client.$inject = ['$scope', 'client'];
+    Member.$inject = ['$scope', 'member'];
 
 })();

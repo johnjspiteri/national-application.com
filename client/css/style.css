@@ -187,7 +187,7 @@ body {
   margin: 0;
   padding: 0;
   z-index: 1;
-  background: #777;
+  background: #777 url("../img/brilliant.png") repeat;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 * {
@@ -2432,6 +2432,100 @@ small {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
+  .card-member {
+    float: left;
+    width: 320px;
+    padding: 20px 0 0 0;
+    margin: 0 0 12px 0;
+    background: #fff;
+    border-top: none;
+    border-bottom: 4px solid #333;
+    overflow: hidden;
+  }
+  .card-member .member {
+    float: left;
+    width: 280px;
+    padding: 0 0 40px 40px;
+    margin: 0;
+  }
+  .card-member .member .member-brand {
+    float: left;
+    width: 260px;
+    margin: 0;
+  }
+  .card-member .member .member-brand img {
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+  .card-member .member .member-content {
+    float: left;
+    width: 280px;
+    margin: 10px 0 20px 0;
+  }
+  .card-member .member .member-content .row {
+    float: left;
+    width: 100%;
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    float: left;
+    width: 100%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    text-align: left;
+  }
+  .card-member .member .member-content .row .left {
+    float: left;
+    width: 120px;
+    margin: 0;
+  }
+  .card-member .member .member-content .row .right {
+    float: left;
+    width: 160px;
+  }
+  .card-member .disclaimer {
+    float: left;
+    width: 280px;
+    padding: 30px 10px 10px 30px;
+    margin: 0;
+    background: #f5f5f5;
+    border-top: 2px dotted #ccc;
+  }
+  .card-member .disclaimer p {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 22px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    text-align: left;
+  }
+  .card-member .disclaimer a {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+  }
+  .card-member .disclaimer .brand {
+    float: left;
+    width: 280px;
+    margin: 0 20px 20px 0;
+  }
+  .card-member .disclaimer .brand img {
+    float: left;
+    width: 260px;
+  }
   .card,
   .card-modal {
     float: left;
@@ -3646,7 +3740,7 @@ small {
     width: 144px;
     padding: 20px 0 16px 0;
     margin: 0;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -3707,6 +3801,56 @@ small {
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
     line-height: 24px;
+  }
+  .card-member {
+    width: 355px;
+    padding: 20px 0 0 0;
+    margin: 0 0 12px 0;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .card-member .member {
+    width: 290px;
+    padding: 0 0 30px 40px;
+  }
+  .card-member .member .member-brand {
+    width: 280px;
+  }
+  .card-member .member .member-content {
+    width: 280px;
+    margin: 10px 0 20px 20px;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 120px;
+  }
+  .card-member .member .member-content .row .right {
+    width: 160px;
+  }
+  .card-member .disclaimer {
+    width: 275px;
+    padding: 30px 40px 10px 40px;
+  }
+  .card-member .disclaimer p {
+    margin: 0 0 22px 0;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 275px;
+    margin: 0 0 20px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 260px;
   }
   .card-modal {
     width: 268px;
@@ -4440,7 +4584,7 @@ small {
     background: none;
     outline: none;
     overflow: none;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -4481,7 +4625,7 @@ small {
     top: 0;
     padding: 0 0 1000px 0;
     margin: 0;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     border-right: 1px solid #000;
     z-index: 99999;
   }
@@ -4495,7 +4639,7 @@ small {
     width: 164px;
     padding: 22px 0 18px 0;
     margin: 0;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -4556,6 +4700,57 @@ small {
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
     line-height: 24px;
+  }
+  .card-member {
+    width: 400px;
+    padding: 30px 0 0 0;
+    margin: 0 0 18px 40px;
+  }
+  .card-member .member {
+    width: 360px;
+    padding: 0 0 30px 40px;
+  }
+  .card-member .member .member-brand {
+    width: 320px;
+    margin: 0 0 0 0px;
+  }
+  .card-member .member .member-content {
+    width: 280px;
+    margin: 10px 0 20px 20px;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 120px;
+  }
+  .card-member .member .member-content .row .right {
+    width: 160px;
+  }
+  .card-member .disclaimer {
+    width: 320px;
+    padding: 30px 40px 10px 40px;
+  }
+  .card-member .disclaimer p {
+    margin: 0 0 22px 0;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 320px;
+    margin: 0 0 20px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 280px;
+    margin: 0 0 0 20px;
   }
   .card {
     width: 360px;
@@ -5242,7 +5437,7 @@ small {
     background: none;
     outline: none;
     overflow: none;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -5283,7 +5478,7 @@ small {
     top: 0;
     padding: 0 0 1000px 0;
     margin: 0;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     border-right: 1px solid #000;
     z-index: 99999;
   }
@@ -5297,7 +5492,7 @@ small {
     width: 144px;
     padding: 20px 0 16px 0;
     margin: 0;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -5358,6 +5553,57 @@ small {
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
     line-height: 24px;
+  }
+  .card-member {
+    width: 480px;
+    padding: 30px 0 0 0;
+    margin: 0 0 18px 20px;
+  }
+  .card-member .member {
+    width: 360px;
+    padding: 0 0 40px 60px;
+  }
+  .card-member .member .member-brand {
+    width: 320px;
+    margin: 0 0 0 25px;
+  }
+  .card-member .member .member-content {
+    width: 360px;
+    margin: 10px 0 20px 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 120px;
+  }
+  .card-member .member .member-content .row .right {
+    width: 240px;
+  }
+  .card-member .disclaimer {
+    width: 380px;
+    padding: 30px 50px 20px 50px;
+  }
+  .card-member .disclaimer p {
+    margin: 0 0 22px 0;
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 360px;
+    margin: 0 0 30px 20px;
+  }
+  .card-member .disclaimer .brand img {
+    width: 320px;
+    margin: 0 0 0 20px;
   }
   .card-modal {
     width: 310px;
@@ -6058,7 +6304,7 @@ small {
     background: none;
     outline: none;
     overflow: none;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -6099,7 +6345,7 @@ small {
     top: 0;
     padding: 0 0 1000px 0;
     margin: 0;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     border-right: 1px solid #000;
     z-index: 99999;
   }
@@ -6113,7 +6359,7 @@ small {
     width: 144px;
     padding: 20px 0 16px 0;
     margin: 0;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -6204,13 +6450,65 @@ small {
   }
   header .header nav .tile.active {
     height: 78px;
-    background: #777;
+    background: #777 url("../img/brilliant.png") repeat;
   }
   header .header nav .tile.first {
     border-radius: 6px 0 0 0;
   }
   header .header nav .tile.last {
     border-radius: 0 6px 0 0;
+  }
+  .card-member {
+    width: 768px;
+    padding: 30px 0 0 0;
+    margin: 0 0 18px 0;
+    border-radius: 0;
+  }
+  .card-member .member {
+    width: 728px;
+    padding: 0 0 30px 40px;
+  }
+  .card-member .member .member-brand {
+    width: 380px;
+    margin: 20px 0 0 35px;
+  }
+  .card-member .member .member-content {
+    width: 280px;
+    margin: 10px 0 0 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 14px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 120px;
+  }
+  .card-member .member .member-content .row .right {
+    width: 160px;
+  }
+  .card-member .disclaimer {
+    width: 668px;
+    padding: 30px 50px 20px 50px;
+  }
+  .card-member .disclaimer p {
+    margin: 0 0 22px 0;
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 320px;
+    margin: 0 0 30px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 280px;
+    margin: 0;
   }
   .card {
     width: 604px;
@@ -6892,6 +7190,59 @@ small {
   header .header nav .tile.last {
     border-radius: 0 0 0 0;
   }
+  .card-member {
+    width: 1000px;
+    padding: 50px 0 0 0;
+    margin: 0 0 16px -20px;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .card-member .member {
+    width: 920px;
+    padding: 0 0 40px 0;
+    margin: 0 0 0 80px;
+  }
+  .card-member .member .member-brand {
+    width: 420px;
+    margin: 10px 0 0 0;
+  }
+  .card-member .member .member-content {
+    width: 400px;
+    margin: 10px 0 0 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 10px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 120px;
+    margin: 0 20px 0 0;
+  }
+  .card-member .member .member-content .row .right {
+    width: 200px;
+  }
+  .card-member .disclaimer {
+    width: 870px;
+    padding: 40px 60px 20px 70px;
+  }
+  .card-member .disclaimer p {
+    margin: 0 0 22px 0;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 320px;
+    margin: 0 20px 10px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 300px;
+  }
   .card {
     width: 444px;
     padding: 32px 0px 22px 44px;
@@ -6951,7 +7302,7 @@ small {
   }
   .content .main .download {
     width: 528px;
-    margin: 0 0 0 0;
+    margin: 0;
   }
   .content .main .download .tag {
     width: 112px;
@@ -6981,6 +7332,9 @@ small {
   }
   .content .main .download .tag .fa-file-text {
     font-size: 24px;
+  }
+  .content .main .download.member {
+    margin: 0 0 0 235px;
   }
   .content .points {
     width: 440px;
@@ -7555,7 +7909,7 @@ small {
 }
 @media (min-width: 1100px) {
   header {
-    height: 110px;
+    height: 120px;
     margin: 0 0 50px 0;
   }
   header .header {
@@ -7564,20 +7918,20 @@ small {
   header .header .brand {
     width: 273px;
     padding: 0;
-    margin: 12px 10px 0 0;
+    margin: 12px 0 0 0;
   }
   header .header .brand .logo {
-    width: 240px;
+    width: 250px;
     margin: 0 0 0 20px;
   }
   header .header nav {
-    width: 740px;
+    width: 750px;
     height: 72px;
-    margin: 38px 0 0 0;
+    margin: 48px 0 0 0;
   }
   header .header nav .tile {
     height: 71px;
-    padding: 0 28px;
+    padding: 0 30px;
   }
   header .header nav .tile h4 {
     margin: 13px 0 0 0;
@@ -7588,10 +7942,65 @@ small {
   header .header nav .tile.active {
     height: 72px;
   }
+  header .header nav .tile.last {
+    border-radius: 0 6px 0 0;
+  }
+  .card-member {
+    width: 1000px;
+    padding: 40px 0 0 0;
+    margin: 0 0 12px -20px;
+  }
+  .card-member .member {
+    width: 940px;
+    padding: 0 0 30px 0;
+    margin: 0 0 0 60px;
+  }
+  .card-member .member .member-brand {
+    width: 460px;
+    margin: 0 0 0 0;
+  }
+  .card-member .member .member-content {
+    width: 400px;
+    margin: 0 0 0 0;
+  }
+  .card-member .member .member-content .row {
+    margin: 0 0 12px 0;
+  }
+  .card-member .member .member-content .row h4 {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .card-member .member .member-content .row .left {
+    width: 120px;
+    margin: 0 20px 0 0;
+  }
+  .card-member .member .member-content .row .right {
+    width: 200px;
+  }
+  .card-member .disclaimer {
+    width: 880px;
+    padding: 40px 60px 20px 60px;
+  }
+  .card-member .disclaimer p {
+    margin: 0 0 22px 0;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .card-member .disclaimer a {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .card-member .disclaimer .brand {
+    width: 280px;
+    margin: 0 20px 10px 0;
+  }
+  .card-member .disclaimer .brand img {
+    width: 260px;
+  }
   .card {
-    width: 444px;
+    width: 464px;
     padding: 32px 0px 28px 44px;
-    margin: 0 0 18px 0;
+    margin: 0 0 12px 0;
   }
   .card .card-logo {
     display: none;
@@ -7602,7 +8011,7 @@ small {
     width: 344px;
   }
   .card .card-content h1 {
-    margin: 0 0 12px 0;
+    margin: 0 0 14px 0;
     font-weight: 400;
     font-size: 39px;
     line-height: 39px;
@@ -7612,13 +8021,13 @@ small {
   }
   .card .card-content .company h5 {
     font-weight: 400;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 24px;
+    line-height: 24px;
   }
   .card .card-content .company span {
     margin: 0 12px;
-    font-size: 19px;
-    line-height: 23px;
+    font-size: 20px;
+    line-height: 24px;
   }
   .card .card-content .patient-holder {
     width: 100%;
@@ -7627,16 +8036,16 @@ small {
     width: 340px;
     margin: 0 0 38px 0;
     font-weight: 400;
-    font-size: 29px;
-    line-height: 29px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
+    margin: 0 0 14px 0;
   }
-  .card .card-content .patient-holder .row p {
-    width: 86px;
-    font-size: 8px;
-    line-height: 8px;
+  .card .card-content .patient-holder .row h6 {
+    width: 92px;
+    font-size: 12px;
+    line-height: 12px;
   }
   .page {
     width: 1000px;
@@ -7645,12 +8054,12 @@ small {
     width: 1000px;
   }
   .content .main {
-    width: 540px;
-    margin: 0 0 50px 20px;
+    width: 560px;
+    margin: 0 0 40px 20px;
   }
   .content .main .download {
     width: 528px;
-    margin: 0 0 0 0;
+    margin: 0 0 0 10px;
   }
   .content .main .download .tag {
     width: 112px;
@@ -7682,12 +8091,12 @@ small {
     font-size: 24px;
   }
   .content .points {
-    width: 440px;
+    width: 400px;
     margin: 10px 0 0 0;
   }
   .content .points .point-container {
     width: 440px;
-    margin: 0 0 22px 0;
+    margin: 0 0 24px 0;
   }
   .content .points .point-container .point {
     display: inline-block;
@@ -7700,7 +8109,7 @@ small {
     line-height: 37px;
   }
   .content .points .point-container .point h3 {
-    padding: 16px 34px 24px 34px;
+    padding: 16px 24px 24px 24px;
     font-weight: 500;
     font-size: 31px;
     line-height: 31px;
@@ -7737,71 +8146,71 @@ small {
   }
   .content .center .center-holder .logo .albertsons {
     width: 200px;
-    margin: 0 30px 20px 0;
+    margin: 0 30px 24px 0;
   }
   .content .center .center-holder .logo .ap {
     width: 78px;
-    margin: 0 35px 20px 0;
+    margin: 0 35px 24px 0;
   }
   .content .center .center-holder .logo .costco {
     width: 142px;
-    margin: 0 35px 10px 0;
+    margin: 0 35px 14px 0;
   }
   .content .center .center-holder .logo .medicap {
     width: 126px;
-    margin: -6px 40px 12px 0;
+    margin: -6px 40px 16px 0;
   }
   .content .center .center-holder .logo .cvs {
     width: 200px;
-    margin: 8px 30px 32px -10px;
+    margin: 8px 30px 36px -10px;
   }
   .content .center .center-holder .logo .publix {
     width: 58px;
-    margin: 0 30px 14px 0;
+    margin: 0 30px 22px 0;
   }
   .content .center .center-holder .logo .duanereade {
     width: 190px;
-    margin: 0 40px 14px 0;
+    margin: 0 40px 18px 0;
   }
   .content .center .center-holder .logo .intermountain {
     width: 180px;
-    margin: -8px 30px 22px 0;
+    margin: -8px 30px 26px 0;
   }
   .content .center .center-holder .logo .kmart {
     width: 200px;
-    margin: 6px 30px 28px 10px;
+    margin: 8px 30px 30px 10px;
   }
   .content .center .center-holder .logo .kroger {
-    width: 78px;
-    margin: -8px 24px 4px 10px;
+    width: 76px;
+    margin: -4px 24px 4px 10px;
   }
   .content .center .center-holder .logo .longs {
     width: 210px;
-    margin: 0 26px 0 0;
+    margin: 0 26px 12px 0;
   }
   .content .center .center-holder .logo .stopshop {
     width: 92px;
-    margin: 0 20px 6px 10px;
+    margin: 0 20px 10px 10px;
   }
   .content .center .center-holder .logo .riteaid {
     width: 58px;
-    margin: 10px 20px 8px 20px;
+    margin: 10px 20px 12px 20px;
   }
   .content .center .center-holder .logo .starmarket {
     width: 220px;
-    margin: 14px 10px 10px 0;
+    margin: 10px 10px 14px 0;
   }
   .content .center .center-holder .logo .walmart {
     width: 180px;
-    margin: 10px 10px 20px 10px;
+    margin: 6px 10px 24px 10px;
   }
   .content .center .center-holder .logo .safeway {
     width: 100px;
-    margin: -8px 20px 0 10px;
+    margin: 0px 20px 0 10px;
   }
   .content .center .center-holder .logo .vons {
     width: 96px;
-    margin: 20px 30px 28px 0;
+    margin: 22px 30px 28px 0;
   }
   .content .center .center-holder .logo .walgreens {
     width: 230px;
