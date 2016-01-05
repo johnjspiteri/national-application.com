@@ -187,7 +187,7 @@ body {
   margin: 0;
   padding: 0;
   z-index: 1;
-  background: #777 url("../img/brilliant.png") repeat;
+  background: #4280e5;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 * {
@@ -2337,7 +2337,7 @@ small {
     width: 100%;
     padding: 0;
     margin: 0 0 20px 0;
-    background: #fff;
+    background: #fffefc url("../img/cream-dust.png") repeat;
     border-bottom: 1px solid #333;
   }
   header .header {
@@ -2437,9 +2437,9 @@ small {
     width: 320px;
     padding: 20px 0 0 0;
     margin: 0 0 12px 0;
-    background: #fff;
+    background: #fffefc url("../img/cream-dust.png") repeat;
     border-top: none;
-    border-bottom: 4px solid #333;
+    border-bottom: 3px solid #333;
     overflow: hidden;
   }
   .card-member .member {
@@ -2475,7 +2475,7 @@ small {
     font-size: 19px;
     line-height: 25px;
     color: #000;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
     text-align: left;
   }
   .card-member .member .member-content .row .left {
@@ -2487,12 +2487,16 @@ small {
     float: left;
     width: 160px;
   }
+  .card-member .member .member-content .row .right h4 {
+    color: #8a0d4a;
+    text-shadow: 1px 1px 0 #fff;
+  }
   .card-member .disclaimer {
     float: left;
     width: 280px;
     padding: 30px 10px 10px 30px;
     margin: 0;
-    background: #f5f5f5;
+    background: #fff;
     border-top: 2px dotted #ccc;
   }
   .card-member .disclaimer p {
@@ -2503,7 +2507,7 @@ small {
     font-size: 18px;
     line-height: 27px;
     color: #000;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
     text-align: left;
   }
   .card-member .disclaimer a {
@@ -2515,7 +2519,7 @@ small {
     font-size: 21px;
     line-height: 21px;
     color: #000;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   .card-member .disclaimer .brand {
     float: left;
@@ -2532,9 +2536,9 @@ small {
     width: 254px;
     padding: 18px 0px 12px 26px;
     margin: 0 0 12px 0;
-    background: #f7f8ee url("../img/cream-dust.png") repeat;
+    background: #fffefc url("../img/cream-dust.png") repeat;
     border-top: none;
-    border-bottom: 4px solid #333;
+    border-bottom: 3px solid #333;
     border-radius: 8px;
     overflow: hidden;
   }
@@ -2585,7 +2589,7 @@ small {
     line-height: 18px;
     color: #444;
     text-align: left;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   .card .card-content .company span,
   .card-modal .card-content .company span {
@@ -2617,7 +2621,7 @@ small {
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   .card .card-content .patient-holder .row,
   .card-modal .card-content .patient-holder .row {
@@ -2636,7 +2640,7 @@ small {
     font-size: 9px;
     line-height: 9px;
     color: #777;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   .card {
     width: 294px;
@@ -2673,8 +2677,8 @@ small {
     width: 61px;
     padding: 12px 0 8px 0;
     margin: 0 12px 0 0;
-    background: #8a0d4a;
-    border-bottom: 3px solid #4a0024;
+    background: #666;
+    border-bottom: 3px solid #222;
     border-radius: 6px 6px 6px 6px;
     cursor: pointer;
   }
@@ -2786,8 +2790,8 @@ small {
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
-    background: #666;
-    border-bottom: 3px solid #333;
+    background: #8a0d4a;
+    border-bottom: 3px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder {
@@ -2798,7 +2802,7 @@ small {
     background: #fff;
     border-left: none;
     border-right: none;
-    border-bottom: 4px solid #333;
+    border-bottom: 3px solid #333;
   }
   .content .center .center-holder .logo {
     float: left;
@@ -2938,8 +2942,8 @@ small {
     width: 240px;
     padding: 20px 20px 20px 20px;
     margin: 0 0 30px 20px;
-    background: #666;
-    border-bottom: 3px solid #333;
+    background: #8a0d4a;
+    border-bottom: 3px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
   }
   .content .locator .locator-zip input,
@@ -2990,8 +2994,8 @@ small {
     line-height: 51px;
     color: #fff;
     border: none;
-    background: #8a0d4a;
-    border-bottom: 3px solid #4a0024;
+    background: #666;
+    border-bottom: 3px solid #222;
     border-radius: 6px 6px 6px 6px;
     box-shadow: none;
     text-align: center;
@@ -3078,7 +3082,7 @@ small {
     width: 220px;
     padding: 30px 30px 32px 30px;
     margin: 0 0 14px 0;
-    background: #f7f8ee url("../img/cream-dust.png") repeat;
+    background: #fffefc url("../img/cream-dust.png") repeat;
     border-bottom: 3px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3091,9 +3095,9 @@ small {
     font-weight: 600;
     font-size: 21px;
     line-height: 32px;
-    color: #000;
+    color: #333;
     text-align: center;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     float: left;
@@ -3104,7 +3108,7 @@ small {
     line-height: 27px;
     margin: 0 0 12px 0;
     text-align: center;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     float: left;
@@ -3116,7 +3120,7 @@ small {
     font-size: 22px;
     line-height: 22px;
     text-align: center;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: none;
@@ -3137,7 +3141,7 @@ small {
     margin: 0 0 14px 0;
     border: none;
     border-bottom: 3px solid #333;
-    background: #f7f8ee url("../img/cream-dust.png") repeat;
+    background: #fffefc url("../img/cream-dust.png") repeat;
     border-radius: 6px 6px 6px 6px;
   }
   .contact-holder .contact-detail h2 {
@@ -3176,7 +3180,7 @@ small {
     line-height: 20px;
     color: #9e1e4c;
     text-align: center;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   .contact-holder .contact-detail .contact-container h4 {
     float: left;
@@ -3193,7 +3197,7 @@ small {
     width: 238px;
     padding: 30px 20px 20px 20px;
     margin: 0 0 15px 0;
-    background: #f7f8ee url("../img/cream-dust.png") repeat;
+    background: #fffefc url("../img/cream-dust.png") repeat;
     border-bottom: 3px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3251,7 +3255,7 @@ small {
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
     box-shadow: 1px 1px 4px #aaa;
     text-align: center;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
     vertical-align: middle;
     user-select: none;
     cursor: pointer;
@@ -3342,7 +3346,7 @@ small {
     line-height: 18px;
     color: #000;
     text-align: center;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
     cursor: pointer;
   }
   .modal-holder .modal-container .row {
@@ -3358,8 +3362,8 @@ small {
     padding: 0;
     margin: 0 0 12px 0;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 25px;
     background: #fff;
     border: none;
     border-bottom: 4px solid #444;
@@ -3372,6 +3376,7 @@ small {
   .modal-holder .modal-container .submit {
     float: left;
     width: 280px;
+    height: 34px;
     padding: 12px 0 10px 0;
     margin: 0 0 18px 0;
     font-weight: 600;
@@ -3382,6 +3387,7 @@ small {
     border: none;
     border-bottom: 4px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
+    box-shadow: none;
     text-align: center;
     text-shadow: 2px 2px 0px #000;
     vertical-align: middle;
@@ -3406,8 +3412,8 @@ small {
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #000;
-    text-shadow: 0 1px 0 #fff;
+    color: #fff;
+    text-shadow: 2px 2px 0px #000;
   }
   .modal-holder .modal-container .legal a {
     font-weight: 500;
@@ -3415,7 +3421,7 @@ small {
     line-height: 26px;
     color: #9e1e4c;
     text-align: center;
-    text-shadow: 0 1px 0 #fff;
+    text-shadow: 1px 1px 0 #fff;
   }
   footer {
     float: left;
@@ -3554,7 +3560,7 @@ small {
     width: 240px;
     padding: 20px;
     margin: 0 0 14px 0;
-    background: #f7f8ee url("../img/cream-dust.png") repeat;
+    background: #fffefc url("../img/cream-dust.png") repeat;
     border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3740,7 +3746,7 @@ small {
     width: 144px;
     padding: 20px 0 16px 0;
     margin: 0;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -4584,7 +4590,7 @@ small {
     background: none;
     outline: none;
     overflow: none;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -4625,7 +4631,7 @@ small {
     top: 0;
     padding: 0 0 1000px 0;
     margin: 0;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     border-right: 1px solid #000;
     z-index: 99999;
   }
@@ -4639,7 +4645,7 @@ small {
     width: 164px;
     padding: 22px 0 18px 0;
     margin: 0;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -5437,7 +5443,7 @@ small {
     background: none;
     outline: none;
     overflow: none;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -5478,7 +5484,7 @@ small {
     top: 0;
     padding: 0 0 1000px 0;
     margin: 0;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     border-right: 1px solid #000;
     z-index: 99999;
   }
@@ -5492,7 +5498,7 @@ small {
     width: 144px;
     padding: 20px 0 16px 0;
     margin: 0;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -6304,7 +6310,7 @@ small {
     background: none;
     outline: none;
     overflow: none;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -6345,7 +6351,7 @@ small {
     top: 0;
     padding: 0 0 1000px 0;
     margin: 0;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     border-right: 1px solid #000;
     z-index: 99999;
   }
@@ -6359,7 +6365,7 @@ small {
     width: 144px;
     padding: 20px 0 16px 0;
     margin: 0;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
@@ -6450,7 +6456,7 @@ small {
   }
   header .header nav .tile.active {
     height: 78px;
-    background: #777 url("../img/brilliant.png") repeat;
+    background: #4280e5;
   }
   header .header nav .tile.first {
     border-radius: 6px 0 0 0;
@@ -7947,8 +7953,8 @@ small {
   }
   .card-member {
     width: 1000px;
-    padding: 40px 0 0 0;
-    margin: 0 0 12px -20px;
+    padding: 50px 0 0 0;
+    margin: 0 0 18px -20px;
   }
   .card-member .member {
     width: 940px;
@@ -7956,7 +7962,7 @@ small {
     margin: 0 0 0 60px;
   }
   .card-member .member .member-brand {
-    width: 460px;
+    width: 440px;
     margin: 0 0 0 0;
   }
   .card-member .member .member-content {
@@ -7964,11 +7970,11 @@ small {
     margin: 0 0 0 0;
   }
   .card-member .member .member-content .row {
-    margin: 0 0 12px 0;
+    margin: 0 0 14px 0;
   }
   .card-member .member .member-content .row h4 {
-    font-size: 19px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 26px;
   }
   .card-member .member .member-content .row .left {
     width: 120px;
@@ -8125,20 +8131,20 @@ small {
   }
   .content .center .fa-certificate {
     width: 30px;
-    margin: -16px 0 0 940px;
+    margin: -16px 0 0 950px;
     font-size: 39px;
   }
   .content .center h1 {
-    width: 920px;
+    width: 940px;
     padding: 18px 0 14px 0;
-    margin: 0 0 14px 40px;
+    margin: 0 0 14px 30px;
     font-size: 33px;
     line-height: 33px;
     text-align: center;
   }
   .content .center .center-holder {
     width: 938px;
-    padding: 44px 0 20px 60px;
+    padding: 44px 0 30px 60px;
     border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder .logo {
@@ -8166,43 +8172,43 @@ small {
   }
   .content .center .center-holder .logo .publix {
     width: 58px;
-    margin: 0 30px 22px 0;
+    margin: 0 30px 26px 0;
   }
   .content .center .center-holder .logo .duanereade {
     width: 190px;
-    margin: 0 40px 18px 0;
+    margin: 0 40px 24px 0;
   }
   .content .center .center-holder .logo .intermountain {
     width: 180px;
-    margin: -8px 30px 26px 0;
+    margin: -8px 30px 30px 0;
   }
   .content .center .center-holder .logo .kmart {
     width: 200px;
-    margin: 8px 30px 30px 10px;
+    margin: 8px 30px 34px 10px;
   }
   .content .center .center-holder .logo .kroger {
     width: 76px;
-    margin: -4px 24px 4px 10px;
+    margin: -4px 24px 8px 10px;
   }
   .content .center .center-holder .logo .longs {
     width: 210px;
-    margin: 0 26px 12px 0;
+    margin: 0 26px 16px 0;
   }
   .content .center .center-holder .logo .stopshop {
     width: 92px;
-    margin: 0 20px 10px 10px;
+    margin: 0 20px 14px 10px;
   }
   .content .center .center-holder .logo .riteaid {
     width: 58px;
-    margin: 10px 20px 12px 20px;
+    margin: 10px 20px 16px 20px;
   }
   .content .center .center-holder .logo .starmarket {
     width: 220px;
-    margin: 10px 10px 14px 0;
+    margin: 10px 10px 18px 0;
   }
   .content .center .center-holder .logo .walmart {
     width: 180px;
-    margin: 6px 10px 24px 10px;
+    margin: 6px 10px 28px 10px;
   }
   .content .center .center-holder .logo .safeway {
     width: 100px;
@@ -8277,7 +8283,7 @@ small {
     float: left;
     width: 178px;
     height: 56px;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 22px;
     margin: 0 20px 0 0;
     font-size: 23px;
     line-height: 23px;
@@ -8340,7 +8346,7 @@ small {
   .content .testimonals-holder .testimonals .testimonal p {
     margin: 0 0 20px 0;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 26px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     font-size: 24px;
@@ -8567,7 +8573,7 @@ small {
     height: 64px;
     padding: 0;
     margin: 0 0 14px 0;
-    font-size: 31px;
+    font-size: 27px;
     line-height: 36px;
   }
   .modal-holder .modal-container .submit {
@@ -8582,13 +8588,13 @@ small {
   }
   .modal-holder .modal-container .legal {
     width: 100%;
-    margin: 10px 0 0 0;
+    margin: 0 0 0 0;
   }
   .modal-holder .modal-container .legal p {
     width: 318px;
-    margin: 0 0 18px 10px;
-    font-size: 18px;
-    line-height: 28px;
+    margin: 0 0 20px 10px;
+    font-size: 17px;
+    line-height: 26px;
   }
   .modal-holder .modal-container .legal a {
     margin: 8px 0 0 0;

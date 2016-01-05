@@ -5,8 +5,8 @@
             input(type="text", data-ng-model='data.destination', placeholder='Enter Your Number', data-ng-min='10', data-ng-max='10', required)
         .submit(data-ng-click='text();') Send Text
         .card-modal
-            .card-logo
-                img(ng-src='/img/icon.png')
+            //- .card-logo
+            //-     img(ng-src='/img/icon.png')
             .card-content
                 h1 National Rx Card
                 .company
@@ -27,9 +27,9 @@
                     .row
                         h6 BIN
                         h6 018398
-                    //- .row
-                    //-     h6 PCN
-                    //-     h6 48300712
+                    .row
+                        h6 PCN
+                        h6 48300712
 
         .legal
             p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.

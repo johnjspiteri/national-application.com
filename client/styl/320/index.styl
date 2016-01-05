@@ -3,9 +3,9 @@
 	width 320px
 	padding 20px 0 0 0
 	margin 0 0 12px 0
-	background $white
+	background $card
 	border-top none
-	border-bottom 4px solid #333
+	border-bottom 3px solid #333
 	// border-radius 8px
 	overflow hidden
 
@@ -54,12 +54,16 @@
 					float left
 					width 160px
 
+					h4
+						color $tag
+						text-shadow $white-shadow
+
 	.disclaimer
 		float left
 		width 280px
 		padding 30px 10px 10px 30px
 		margin 0
-		background #f5f5f5
+		background $white
 		border-top 2px dotted #ccc
 
 		p
@@ -93,9 +97,6 @@
 				float left
 				width 260px
 
-
-
-
 .card
 .card-modal
 	float left
@@ -104,7 +105,7 @@
 	margin 0 0 12px 0
 	background $card
 	border-top none
-	border-bottom 4px solid #333
+	border-bottom 3px solid #333
 	border-radius 8px
 	overflow hidden
 
@@ -232,8 +233,8 @@
 					width 61px
 					padding 12px 0 8px 0
 					margin 0 12px 0 0
-					background $tag
-					border-bottom 3px solid $tag-border
+					background $header-tile
+					border-bottom 3px solid $header-tile-bottom
 					border-radius $border-radius
 					cursor pointer
 
@@ -345,8 +346,8 @@
 				color $white
 				text-align center
 				text-shadow $shadow
-				background $header-tile
-				border-bottom 3px solid #333
+				background $tag
+				border-bottom 3px solid $tag-border
 				border-radius $border-radius
 
 			.center-holder
@@ -357,7 +358,7 @@
 				background $white
 				border-left none
 				border-right none
-				border-bottom 4px solid #333
+				border-bottom 3px solid #333
 
 				.logo
 					float left
@@ -499,8 +500,8 @@
 				width 240px
 				padding 20px 20px 20px 20px
 				margin 0 0 30px 20px
-				background $header-tile
-				border-bottom 3px solid #333
+				background $tag
+				border-bottom 3px solid $tag-border
 				border-radius $border-radius
 
 				input
@@ -547,8 +548,8 @@
 					line-height 51px
 					color $white
 					border none
-					background $tag
-					border-bottom 3px solid $tag-border
+					background $header-tile
+					border-bottom 3px solid $header-tile-bottom
 					border-radius $border-radius
 					box-shadow none
 					text-align center
@@ -651,7 +652,7 @@
 						font-weight 600
 						font-size 21px
 						line-height 32px
-						color $black
+						color #333
 						text-align center
 						text-shadow $white-shadow
 
