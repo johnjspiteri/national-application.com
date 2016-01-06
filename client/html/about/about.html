@@ -9,10 +9,18 @@
         </div>
       </div>
       <form name="user" id="user" data-ng-model="data" data-ng-submit="sendContact(user.$valid)" ng-show="!contacted" novalidate="novalidate" class="contact-form">
-        <input type="text" data-ng-model="data.name" placeholder="Name" required="required"/>
-        <input type="email" data-ng-model="data.email" placeholder="Email" required="required"/>
-        <input type="text" data-ng-model="data.phone" placeholder="Phone"/>
-        <textarea data-ng-model="data.message" placeholder="Message" required="required"></textarea>
+        <div class="row">
+          <input type="text" data-ng-model="data.name" placeholder="Name" required="required"/>
+        </div>
+        <div class="row">
+          <input type="email" data-ng-model="data.email" placeholder="Email" required="required"/>
+        </div>
+        <div class="row">
+          <input type="text" data-ng-model="data.phone" placeholder="Phone"/>
+        </div>
+        <div class="row">
+          <textarea data-ng-model="data.message" placeholder="Message" required="required"></textarea>
+        </div>
         <button type="submit" ng-disabled="user.$invalid" class="submit">Submit</button>
       </form>
       <div ng-show="contacted" class="contact-detail">
