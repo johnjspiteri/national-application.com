@@ -54,7 +54,7 @@
             }]
         },{
             title: "What Are Your Support Options?",
-            content: 'Support hours: emailing nationalrxcard.Com through our "About Us" page for quicker answers. Have any questions? Info@nationalrxcard.Com',
+            content: 'Support hours: emailing nationalrxcard.com through our "About Us" page for quicker answers. Have any questions? info@nationalrxcard.Com',
             keywords:[{
                 value: "Drug",
             },{

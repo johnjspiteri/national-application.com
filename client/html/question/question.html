@@ -4,7 +4,9 @@
     <div class="content">
       <div class="filter-holder">
         <div class="filter-container">
-          <select type="text" data-ng-model="dropdown"></select>
+          <select type="text" data-ng-model="dropdown">
+            <option value="">Category</option>
+          </select>
           <input type="text" data-ng-model="filter" placeholder="Enter Search"/>
           <div data-ng-click="reset();" class="reset"><span class="fa fa-times"></span></div>
         </div>

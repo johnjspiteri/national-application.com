@@ -4,6 +4,7 @@
             .filter-holder
                 .filter-container
                     select(type="text", data-ng-model='dropdown')
+                        option(value='') Category
                     input(type="text", data-ng-model='filter', placeholder='Enter Search')
                     .reset(data-ng-click='reset();')
                         span.fa.fa-times
