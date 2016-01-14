@@ -217,9 +217,6 @@
 					color $grey-light
 					text-shadow $white-shadow
 
-
-
-
 .card
 	float left
 	width 294px
@@ -227,11 +224,12 @@
 	margin 0 0 12px 0
 	background $card
 	border-top none
-	border-bottom 4px solid #333
+	border-bottom 4px solid $card-border
 	border-radius 0 0 0 0
 	overflow hidden
 
 	.card-logo
+		// display none
 		position absolute
 		width 64px
 		padding 0
@@ -256,8 +254,9 @@
 			font-weight 300
 			font-size 31px
 			line-height 31px
-			color #222
+			color $black
 			text-align left
+			// text-shadow $grey-text-shadow
 
 		.company
 			float left
@@ -270,17 +269,18 @@
 				font-weight 500
 				font-size 20px
 				line-height 20px
-				color $grey
+				color $black
 				text-align left
-				text-shadow $white-shadow
+				// text-shadow $grey-text-shadow
 
 			span
 				float left
 				margin 0 9px
 				font-size 18px
 				line-height 20px
-				color #555
+				color $black
 				text-align left
+				// text-shadow $grey-text-shadow
 
 		.patient-holder
 			float left
@@ -288,7 +288,7 @@
 			padding 0
 			margin 0
 
-			p
+			h6
 				float left
 				width 100%
 				padding 0
