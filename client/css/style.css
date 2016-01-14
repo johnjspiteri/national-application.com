@@ -2867,7 +2867,7 @@ small {
     width: 220px;
     padding: 30px 30px 32px 30px;
     margin: 0 0 14px 0;
-    background: #f4f4ed;
+    background: #6ea6a2 url("../img/absurdidad.png") repeat;
     border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3503,7 +3503,7 @@ small {
     width: 254px;
     padding: 24px 0px 18px 26px;
     margin: 0 0 12px 0;
-    background: #f4f4ed;
+    background: #6ea6a2 url("../img/absurdidad.png") repeat;
     border-top: none;
     border-bottom: 4px solid #333;
     border-radius: 8px;
@@ -3603,7 +3603,7 @@ small {
     width: 294px;
     padding: 18px 0px 12px 26px;
     margin: 0 0 12px 0;
-    background: #f4f4ed;
+    background: #6ea6a2 url("../img/absurdidad.png") repeat;
     border-top: none;
     border-bottom: 4px solid #161601;
     border-radius: 0 0 0 0;
@@ -3634,8 +3634,9 @@ small {
     font-weight: 300;
     font-size: 31px;
     line-height: 31px;
-    color: #000;
+    color: #fff;
     text-align: left;
+    text-shadow: -1px -1px 0px #333;
   }
   .card .card-content .company {
     float: left;
@@ -3645,19 +3646,21 @@ small {
   .card .card-content .company h5 {
     float: left;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    color: #000;
+    color: #fff;
     text-align: left;
+    text-shadow: -1px -1px 0px #333;
   }
   .card .card-content .company span {
     float: left;
     margin: 0 9px;
     font-size: 18px;
     line-height: 20px;
-    color: #000;
+    color: #fff;
     text-align: left;
+    text-shadow: -1px -1px 0px #333;
   }
   .card .card-content .patient-holder {
     float: left;
@@ -3673,12 +3676,12 @@ small {
     font-weight: 400;
     font-size: 25px;
     line-height: 25px;
-    color: $grey-light;
+    color: #fff;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: $white-shadow;
+    text-shadow: -1px -1px 0px #333;
   }
   .card .card-content .patient-holder .row {
     float: left;
@@ -3694,8 +3697,8 @@ small {
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
-    color: $grey-light;
-    text-shadow: $white-shadow;
+    color: #fff;
+    text-shadow: -1px -1px 0px #333;
   }
   .legal-container {
     position: relative;
@@ -8008,14 +8011,14 @@ small {
     line-height: 37px;
   }
   .content .points .point-container .point h3 {
-    padding: 14px 34px 24px 34px;
+    padding: 14px 38px 22px 38px;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 32px;
+    line-height: 32px;
     text-align: left;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 5px 0;
+    padding: 0 0 3px 0;
     border-bottom: 4px solid #ff9;
   }
   .content .center {
@@ -8575,51 +8578,49 @@ small {
   }
   .card {
     width: 454px;
-    height: 340px;
-    padding: 34px 0px 22px 54px;
+    padding: 38px 0px 22px 54px;
     margin: 0 0 12px 0;
   }
   .card .card-logo {
-    width: 58px;
-    margin: 130px 0 0 300px;
+    width: 56px;
+    margin: 210px 0 0 330px;
   }
   .card .card-content {
     width: 344px;
   }
   .card .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 35px;
-    line-height: 35px;
+    margin: 0 0 14px 0;
+    font-size: 41px;
+    line-height: 41px;
   }
   .card .card-content .company {
-    margin: 0 0 28px 0;
+    margin: 0 0 38px 0;
   }
   .card .card-content .company h5 {
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 22px;
+    font-size: 24px;
+    line-height: 23px;
   }
   .card .card-content .company span {
-    margin: 0 11px;
-    font-size: 22px;
-    line-height: 22px;
+    margin: 0 12px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
     width: 340px;
-    margin: 0 0 38px 0;
-    font-size: 27px;
-    line-height: 27px;
+    margin: 0 0 32px 0;
+    font-size: 31px;
+    line-height: 31px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 10px 0;
+    margin: 0 0 12px 0;
   }
   .card .card-content .patient-holder .row h6 {
-    width: 110px;
-    font-size: 14px;
-    line-height: 14px;
+    width: 106px;
+    font-size: 15px;
+    line-height: 15px;
   }
   .legal-container {
     width: 998px;
