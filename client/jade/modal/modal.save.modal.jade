@@ -1,9 +1,7 @@
 .modal-holder
     .modal-container
-        .fa.fa-close(data-ng-click="close();")
-        .row
-            input(type="text", data-ng-model='data.destination', placeholder='Enter Your Number', data-ng-min='10', data-ng-max='10', required)
-        .modal-submit(data-ng-click='text();') Send Text
+        .fa.fa-close(data-ng-click='close();')
+        a.submit(href="{{cardUrl}}" target="_blank" download='National Rx Card.png') Save Rx Card
         .card-modal
             //- .card-logo
             //-     img(ng-src='/img/icon.png')
@@ -17,22 +15,22 @@
                     h5 Discounts
 
                 .patient-holder
-                    p Preferred Client
-                    .row
-                        h6 PATIENT
-                        h6 NRX43710
-                    .row
-                        h6 GROUP
-                        h6 96100245
+                    h6 Preferred Client
                     .row
                         h6 BIN
                         h6 018398
                     .row
                         h6 PCN
                         h6 48300712
+                    .row
+                        h6 GROUP
+                        h6 96100245
+                    .row
+                        h6 PATIENT
+                        h6 NRX43710
 
         .legal
             p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.
-            p NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT: <a ng-href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a>
 
+            p NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT: <a href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a>
 #panel(data-ng-show='display')

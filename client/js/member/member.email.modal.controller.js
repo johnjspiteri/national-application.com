@@ -1,14 +1,13 @@
 (function() {
     'use strict';
 
-    function IndexEmailModal ($document, $scope, $state, mail) {
+    function MemberEmailModal ($document, $scope, $state, mail) {
 
         $scope.display = true;
-        $scope.cardUrl='https://s3.amazonaws.com/nationalrx/card/national_rx_card.png';
 
         $scope.close = function () {
             $scope.display = false;
-            $state.go('frontend.index');
+            $state.go('frontend.view');
         };
 
         $scope.toTheTop = function() {
@@ -28,9 +27,9 @@
     }
 
     angular
-        .module('app.index')
-        .controller('IndexEmailModal', IndexEmailModal);
+        .module('app.member')
+        .controller('MemberEmailModal', MemberEmailModal);
 
-    IndexEmailModal.$inject = ['$document', '$scope', '$state', 'mail'];
+    MemberEmailModal.$inject = ['$document', '$scope', '$state', 'mail'];
 
 })();

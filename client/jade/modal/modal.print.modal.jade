@@ -1,0 +1,37 @@
+.modal-holder
+    .modal-container
+        .fa.fa-close(data-ng-click="close();")
+        .print
+            img(ng-src='https://s3.amazonaws.com/nationalrx/card/NationalRxCard.jpg')
+        .submit.print(data-ng-click='print();') Print Rx Card
+        .card-modal
+            //- .card-logo
+            //-     img(ng-src='/img/icon.png')
+            .card-content
+                h1 National Rx Card
+                .company
+                    h5 Free
+                    span &bull;
+                    h5 Fast
+                    span &bull;
+                    h5 Discounts
+
+                .patient-holder
+                    h6 Preferred Client
+                    .row
+                        h6 BIN
+                        h6 018398
+                    .row
+                        h6 PCN
+                        h6 48300712
+                    .row
+                        h6 GROUP
+                        h6 96100245
+                    .row
+                        h6 PATIENT
+                        h6 NRX43710        
+        .legal
+            p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.
+
+            p NationalRxCard&#174; is administered by NationalRxCard, LLC, located at Park City, UT: <a href='mailto:info@nationalrxcard.com'>info@nationalrxcard.com</a>
+#panel(data-ng-show='display')

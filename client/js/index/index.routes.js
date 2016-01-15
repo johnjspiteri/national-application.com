@@ -21,7 +21,7 @@
                 url: 'text-a-free-rx-card',
                 views: {
                     'modal@': {
-                        templateUrl: 'index/index.text.modal.html',
+                        templateUrl: 'modal/modal.text.modal.html',
                         controller: 'IndexTextModal'
                     },
                 },
@@ -30,7 +30,7 @@
                 url: 'email-a-free-rx-card',
                 views: {
                     'modal@': {
-                        templateUrl: 'index/index.email.modal.html',
+                        templateUrl: 'modal/modal.email.modal.html',
                         controller: 'IndexEmailModal'
                     },
                 },
@@ -39,7 +39,7 @@
                 url: 'save-a-free-rx-card',
                 views: {
                     'modal@': {
-                        templateUrl: 'index/index.save.modal.html',
+                        templateUrl: 'modal/modal.save.modal.html',
                         controller: 'IndexSaveModal'
                     },
                 },
@@ -48,7 +48,7 @@
                 url: 'print-a-free-rx-card',
                 views: {
                     'modal@': {
-                        templateUrl: 'index/index.print.modal.html',
+                        templateUrl: 'modal/modal.print.modal.html',
                         controller: 'IndexPrintModal'
                     },
                 },

@@ -6,7 +6,7 @@ Client.find({}).remove(function () {
         plan: 114,
         organization: 'Testing',
         email: 'testing@testing.com',
-        file: 'https://s3.amazonaws.com/nationalrx/card/NationalRxCard.jpg'
+        file: 'https://s3.amazonaws.com/nationalrx/card/national_rx_card.png'
     },
     function () {
         console.log('Finished populating client');

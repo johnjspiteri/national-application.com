@@ -119,7 +119,7 @@
     </div>
     <div class="locator">
       <div class="locator-state">
-        <h2>Search Pharmacies By State & City</h2>
+        <h4>Search Pharmacies By State & City</h4>
         <select type="text" data-ng-model="location.state" ng-options="state for state in states" data-ng-change="stateUpdate()">
           <option value="">Enter State</option>
         </select>
@@ -129,12 +129,12 @@
         <div type="submit" class="submit">Search</div>
       </div>
       <div class="locator-zip">
-        <h2>Search Pharmacies By Zip Code</h2>
+        <h4>Search Pharmacies By Zip Code</h4>
         <input type="text" data-ng-model="location.zip" placeholder="10010"/>
         <div data-ng-click="zip()" class="submit">Search</div>
       </div>
       <div data-ng-show="results" class="locator-results">
-        <h2>Pharmacy Locator Results</h2>
+        <h4>Pharmacy Locator Results</h4>
         <div class="locator-results-content">
           <div ng-repeat="row in results" class="row-container">
             <div class="pharmacy">

@@ -65,23 +65,6 @@
                 .tag(data-ng-click='printModal();')
                     .fa.fa-file-text
                     p Print Card
-        //- .points
-        //-     .point-container
-        //-         .point
-        //-             .fa.fa-certificate
-        //-             h3 Membership <span>Is Free</span>
-        //-     .point-container
-        //-         .point
-        //-             .fa.fa-certificate
-        //-             h3 Everyone <span>Qualifies</span>
-        //-     .point-container
-        //-         .point
-        //-             .fa.fa-certificate
-        //-             h3 No Waiting Or <span>Deductibles</span>
-        //-     .point-container
-        //-         .point
-        //-             .fa.fa-certificate
-        //-             h3 No Pre-Existing <span>Exclusions</span>
 
         .center
             span.fa.fa-certificate
@@ -144,7 +127,7 @@
 
         .locator
             .locator-state
-                h2 Search Pharmacies By State & City
+                h4 Search Pharmacies By State & City
                 select(type="text", data-ng-model='location.state', ng-options="state for state in states", data-ng-change='stateUpdate()')
                     option(value='') Enter State
                 select(type="text", data-ng-model='location.city', ng-options="city for city in cities | orderBy:'toString()'", data-ng-change='cityResult()', ng-disabled="!location.state")
@@ -153,12 +136,12 @@
                 .submit(type='submit') Search
 
             .locator-zip
-                h2 Search Pharmacies By Zip Code
+                h4 Search Pharmacies By Zip Code
                 input(type="text", data-ng-model='location.zip', placeholder='10010')
                 .submit(data-ng-click='zip()') Search
 
             .locator-results(data-ng-show='results')
-                h2 Pharmacy Locator Results
+                h4 Pharmacy Locator Results
                 .locator-results-content
                     .row-container(ng-repeat='row in results')
                         .pharmacy

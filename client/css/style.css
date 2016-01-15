@@ -2337,7 +2337,7 @@ small {
     width: 100%;
     padding: 0;
     margin: 0 0 20px 0;
-    background: #f4f4ed;
+    background: #fff;
     border-bottom: 1px solid #222;
   }
   header .header {
@@ -2353,7 +2353,6 @@ small {
     margin: 0;
   }
   header .header .brand .logo {
-    display: none;
     float: left;
     width: 250px;
     padding: 0;
@@ -2366,9 +2365,9 @@ small {
   }
   header .header .brand .mobile-navigation {
     float: left;
-    width: 280px;
+    width: 260px;
     padding: 10px 0 8px 0;
-    margin: 0;
+    margin: 0 0 0 10px;
     background: #8a0d4a;
     border-bottom: 4px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
@@ -2384,7 +2383,7 @@ small {
     line-height: 22px;
     color: #fff;
     text-align: center;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   header .header nav {
     display: none;
@@ -2438,6 +2437,7 @@ small {
     width: 320px;
     padding: 0;
     margin: 0 auto;
+    overflow: hidden;
   }
   .content {
     float: left;
@@ -2455,12 +2455,12 @@ small {
     float: left;
     width: 300px;
     padding: 0;
-    margin: 0 0 38px 20px;
+    margin: 0 0 38px 16px;
   }
   .content .main .download .tag {
     float: left;
-    width: 61px;
-    padding: 10px 0 6px 0;
+    width: 63px;
+    padding: 10px 0 7px 0;
     margin: 0 12px 0 0;
     background: #8a0d4a;
     border-bottom: 4px solid #4a0024;
@@ -2469,15 +2469,18 @@ small {
   }
   .content .main .download .tag p {
     float: left;
-    width: 51px;
+    width: 63px;
     padding: 0;
-    margin: 0 5px;
+    margin: 0;
     font-weight: 400;
     color: #fff;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 17px;
+    line-height: 20px;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
+  }
+  .content .main .download .tag p span {
+    display: none;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -2494,8 +2497,8 @@ small {
     text-shadow: -1px -1px 0px #000;
   }
   .content .main .download .tag .fa-mobile {
-    height: 34px;
-    margin: -4px 0 0 0px;
+    height: 35px;
+    margin: -6px 0 0 0px;
     font-size: 35px;
   }
   .content .main .download .tag .fa-send {
@@ -2506,17 +2509,19 @@ small {
   }
   .content .points {
     float: left;
-    width: 240px;
+    width: 300px;
     padding: 0;
-    margin: 0 0 10px 40px;
+    margin: 0 0 10px 10px;
   }
   .content .points .point-container {
+    width: 300px;
     margin: 0 0 14px 0;
     text-align: center;
   }
   .content .points .point-container .point {
     display: inline-block;
     position: relative;
+    padding: 0;
     margin: 0 auto;
     z-index: 99;
   }
@@ -2524,19 +2529,20 @@ small {
     position: absolute;
     width: 31px;
     padding: 0;
-    top: -14px;
-    left: -12px;
-    color: #ff9;
-    font-size: 31px;
+    margin: 0;
+    top: -13px;
+    left: -14px;
+    color: #ffffb5;
+    font-size: 29px;
     text-shadow: $shadow;
   }
   .content .points .point-container .point h3 {
     float: left;
-    padding: 8px 20px 18px 20px;
-    margin: 0;
+    padding: 10px 24px 21px 24px;
+    margin: 0 0 0 0;
     font-weight: 500;
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 28px;
+    line-height: 35px;
     color: #fff;
     text-align: center;
     background: #8a0d4a;
@@ -2546,9 +2552,10 @@ small {
   }
   .content .points .point-container .point h3 span {
     padding: 0 0 4px 0;
+    margin: 0;
     font-weight: 500;
     font-style: italic;
-    border-bottom: 4px solid #ff9;
+    border-bottom: 3px solid #ffffb5;
   }
   .content .center {
     float: left;
@@ -2559,23 +2566,22 @@ small {
   .content .center .fa-certificate {
     position: absolute;
     width: 20px;
-    margin: -18px 0 0 288px;
-    font-size: 35px;
-    color: #ff9;
+    margin: -18px 0 0 300px;
+    font-size: 34px;
+    color: #ffffb5;
     text-shadow: $shadow;
   }
   .content .center h1 {
     float: left;
-    width: 260px;
-    padding: 12px 20px 10px 20px;
-    margin: 0 0 10px 10px;
+    width: 300px;
+    padding: 14px 10px 12px 10px;
+    margin: 0 0 12px 0;
     font-weight: 500;
-    font-size: 23px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 35px;
     color: #fff;
     background: #666;
     border-bottom: 4px solid #222;
-    border-radius: 6px 6px 6px 6px;
     text-align: center;
     text-shadow: -1px -1px 0px #333;
   }
@@ -2584,7 +2590,7 @@ small {
     width: 310px;
     padding: 30px 0 10px 10px;
     margin: 0;
-    background: #f4f4ed;
+    background: #fff;
     border-left: none;
     border-right: none;
     border-bottom: 4px solid #333;
@@ -2709,7 +2715,18 @@ small {
     margin: 0;
     padding: 0;
   }
-  .content .locator h2 {
+  .content .locator .locator-zip,
+  .content .locator .locator-state {
+    float: left;
+    width: 240px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 0 30px 20px;
+    background: #666;
+    border-bottom: 4px solid #222;
+    border-radius: 6px 6px 6px 6px;
+  }
+  .content .locator .locator-zip h4,
+  .content .locator .locator-state h4 {
     float: left;
     width: 100%;
     padding: 0;
@@ -2721,23 +2738,13 @@ small {
     text-align: center;
     text-shadow: -1px -1px 0px #333;
   }
-  .content .locator .locator-zip,
-  .content .locator .locator-state {
-    float: left;
-    width: 240px;
-    padding: 20px 20px 20px 20px;
-    margin: 0 0 30px 20px;
-    background: #666;
-    border-bottom: 4px solid #222;
-    border-radius: 6px 6px 6px 6px;
-  }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
     float: left;
-    width: 200px;
+    width: 240px;
     height: 52px;
     padding: 0;
-    margin: 0 0 14px 20px;
+    margin: 0 0 14px 0;
     font-weight: 500;
     font-size: 25px;
     line-height: 25px;
@@ -2754,26 +2761,27 @@ small {
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
     float: left;
-    width: 200px;
+    width: 240px;
     height: 56px;
-    padding: 0;
-    margin: 0 0 10px 20px;
+    padding: 2px 0 0 20px;
+    margin: 0 0 10px 0;
     font-weight: 500;
     font-size: 25px;
     line-height: 25px;
+    color: #666;
     background: #fff;
     border: none;
     border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
-  }
-  .content appearance:none {
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
   }
-  .content .submit {
+  .content .locator .locator-zip .submit,
+  .content .locator .locator-state .submit {
     float: left;
-    width: 200px;
-    margin: 0 0 0 20px;
+    width: 240px;
+    margin: 0;
     height: 48px;
     font-size: 27px;
     line-height: 51px;
@@ -2787,7 +2795,7 @@ small {
     text-shadow: -1px -1px 0px #000;
     cursor: pointer;
   }
-  .content .locator-results {
+  .content .locator .locator-results {
     float: left;
     width: 320px;
     padding: 20px 0 25px 0;
@@ -2795,10 +2803,10 @@ small {
     background: #666;
     border-bottom: 4px solid #333;
   }
-  .content .locator-results h2 {
+  .content .locator .locator-results h4 {
     float: left;
-    width: 280px;
-    margin: 0 0 18px 20px;
+    width: 320px;
+    margin: 0 0 18px 0;
     font-weight: 500;
     font-size: 27px;
     line-height: 35px;
@@ -2806,13 +2814,13 @@ small {
     text-align: center;
     text-shadow: $shadow;
   }
-  .content .locator-results .locator-results-content {
+  .content .locator .locator-results .locator-results-content {
     float: left;
     width: 280px;
     padding: 0;
     margin: 0 20px;
   }
-  .content .locator-results .locator-results-content .row-container {
+  .content .locator .locator-results .locator-results-content .row-container {
     float: left;
     width: 280px;
     background: #fff;
@@ -2820,7 +2828,7 @@ small {
     border-radius: 6px 6px 6px 6px;
     margin: 0 0 12px 0;
   }
-  .content .locator-results .locator-results-content .row-container p {
+  .content .locator .locator-results .locator-results-content .row-container p {
     float: left;
     width: 100%;
     font-weight: 600;
@@ -2829,19 +2837,19 @@ small {
     color: #000;
     text-align: center;
   }
-  .content .locator-results .locator-results-content .row-container .pharmacy {
+  .content .locator .locator-results .locator-results-content .row-container .pharmacy {
     float: left;
     width: 240px;
     padding: 12px 20px 12px 20px;
     border-bottom: 1px dotted #ccc;
   }
-  .content .locator-results .locator-results-content .row-container .address {
+  .content .locator .locator-results .locator-results-content .row-container .address {
     float: left;
     width: 240px;
     padding: 12px 20px 12px 20px;
     border-bottom: 1px dotted #ccc;
   }
-  .content .locator-results .locator-results-content .row-container .phone {
+  .content .locator .locator-results .locator-results-content .row-container .phone {
     float: left;
     width: 240px;
     padding: 12px 20px 12px 20px;
@@ -2864,10 +2872,12 @@ small {
     vertical-align: top;
     margin: 0 1% 16px 0;
     font-size: 16px;
-    width: 220px;
-    padding: 30px 30px 32px 30px;
+    width: 240px;
+    padding: 40px 20px 28px 20px;
     margin: 0 0 14px 0;
-    background: #dfdccb url("../img/absurdidad.png") repeat;
+    background: #fff;
+    background-image: linear-gradient(#f1f1f1 0.1em, transparent 0.1em);
+    background-size: 100% 1.9em;
     border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
@@ -2875,11 +2885,11 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 18px 0;
+    margin: 0 0 34px 0;
     font-style: italic;
     font-weight: 600;
-    font-size: 21px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
     color: #333;
     text-align: center;
     text-shadow: $white-shadow;
@@ -2889,9 +2899,9 @@ small {
     width: 100%;
     padding: 0;
     font-weight: 600;
-    font-size: 27px;
-    line-height: 27px;
-    margin: 0 0 12px 0;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 0 9px 0;
     text-align: center;
     text-shadow: $white-shadow;
   }
@@ -2902,8 +2912,8 @@ small {
     margin: 0;
     font-style: italic;
     font-weight: 500;
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 21px;
+    line-height: 21px;
     text-align: center;
     text-shadow: $white-shadow;
   }
@@ -3123,13 +3133,13 @@ small {
     float: left;
     width: 20px;
     padding: 0;
-    margin: 0 0 16px 130px;
+    margin: 0 0 18px 130px;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 18px;
-    color: #000;
+    font-size: 19px;
+    line-height: 19px;
+    color: #333;
     text-align: center;
-    text-shadow: $white-shadow;
+    text-shadow: -1px -1px 0px #fff;
     cursor: pointer;
   }
   .modal-holder .modal-container .row {
@@ -3142,11 +3152,11 @@ small {
     float: left;
     width: 280px;
     height: 60px;
-    padding: 0;
+    padding: 2px 0 0 0;
     margin: 0 0 12px 0;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 25px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 26px;
     background: #fff;
     border: none;
     border-bottom: 4px solid #666;
@@ -3156,23 +3166,22 @@ small {
   .modal-holder .modal-container .row ::-webkit-input-placeholder {
     line-height: normal;
   }
-  .modal-holder .modal-container .modal-submit {
+  .modal-holder .modal-container .submit {
     float: left;
     width: 280px;
-    height: 34px;
-    padding: 12px 0 10px 0;
+    padding: 14px 0 10px 0;
     margin: 0 0 18px 0;
     font-weight: 600;
     font-size: 29px;
-    line-height: 34px;
+    line-height: 29px;
     color: #fff;
-    background: $tag;
+    background: #8a0d4a;
     border: none;
-    border-bottom: 4px solid $tag-border;
+    border-bottom: 4px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
     box-shadow: none;
     text-align: center;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
     vertical-align: middle;
     user-select: none;
     cursor: pointer;
@@ -3182,29 +3191,29 @@ small {
   }
   .modal-holder .modal-container .legal {
     float: left;
-    width: 260px;
+    width: 250px;
     padding: 0;
-    margin: 10px 0 0 10px;
+    margin: 14px 0 0 15px;
   }
   .modal-holder .modal-container .legal p {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 14px 0;
+    margin: 0 0 18px 0;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 17px;
+    line-height: 28px;
     text-align: center;
     color: #000;
-    text-shadow: $white-shadow;
+    text-shadow: -1px -1px 0px #fff;
   }
   .modal-holder .modal-container .legal a {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 28px;
     color: #8a0d4a;
     text-align: center;
-    text-shadow: $white-shadow;
+    text-shadow: -1px -1px 0px #fff;
   }
   footer {
     float: left;
@@ -3239,7 +3248,7 @@ small {
     font-style: italic;
     font-size: 16px;
     line-height: 24px;
-    color: #ff9;
+    color: #ffffb5;
   }
   footer .footer .link.email {
     display: none;
@@ -3412,7 +3421,7 @@ small {
     font-weight: 400;
     font-size: 17px;
     line-height: 17px;
-    color: #000;
+    color: #333;
     text-shadow: $white-shadow;
     text-align: left;
   }
@@ -3474,7 +3483,7 @@ small {
     font-weight: 300;
     font-size: 16px;
     line-height: 25px;
-    color: #000;
+    color: #333;
     text-shadow: $white-shadow;
     text-align: left;
   }
@@ -3486,7 +3495,7 @@ small {
     font-weight: 500;
     font-size: 21px;
     line-height: 21px;
-    color: #000;
+    color: #333;
     text-shadow: $white-shadow;
   }
   .card-member .disclaimer .brand {
@@ -3501,11 +3510,11 @@ small {
   .card-modal {
     float: left;
     width: 254px;
-    padding: 24px 0px 18px 26px;
+    padding: 26px 0px 16px 26px;
     margin: 0 0 12px 0;
-    background: #dfdccb url("../img/absurdidad.png") repeat;
+    background: linear-gradient(to bottom, #ffe, #ffffb5);
     border-top: none;
-    border-bottom: 4px solid #333;
+    border-bottom: 4px solid #8b8b23;
     border-radius: 8px;
     overflow: hidden;
   }
@@ -3530,35 +3539,37 @@ small {
   .card-modal .card-content h1 {
     float: left;
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0 0 11px 0;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 28px;
-    color: #222;
+    font-size: 30px;
+    line-height: 30px;
+    color: #333;
     text-align: left;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-modal .card-content .company {
     float: left;
     width: 100%;
-    margin: 0 0 24px 0;
+    margin: 0 0 32px 0;
   }
   .card-modal .card-content .company h5 {
     float: left;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 19px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
     color: #666;
     text-align: left;
-    text-shadow: $white-shadow;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-modal .card-content .company span {
     float: left;
+    padding: 0;
     margin: 0 8px;
-    font-size: 17px;
-    line-height: 19px;
-    color: #555;
+    font-size: 22px;
+    line-height: 22px;
+    color: #666;
     text-align: left;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-modal .card-content .patient-holder {
     float: left;
@@ -3566,47 +3577,47 @@ small {
     padding: 0;
     margin: 0;
   }
-  .card-modal .card-content .patient-holder p {
+  .card-modal .card-content .patient-holder h6 {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 28px 0;
+    margin: 0 0 32px 0;
     font-weight: 400;
     font-size: 23px;
     line-height: 23px;
-    color: $grey-light;
+    color: #333;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: $white-shadow;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-modal .card-content .patient-holder .row {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0 0 9px 0;
   }
   .card-modal .card-content .patient-holder .row h6 {
     float: left;
-    width: 78px;
+    width: 82px;
     padding: 0;
     margin: 0;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 13px;
-    color: $grey-light;
-    text-shadow: $white-shadow;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card {
     float: left;
-    width: 294px;
-    padding: 18px 0px 12px 26px;
-    margin: 0 0 12px 0;
-    background: #dfdccb url("../img/absurdidad.png") repeat;
+    width: 272px;
+    padding: 22px 0px 16px 28px;
+    margin: 0 0 10px 10px;
+    background: linear-gradient(to bottom, #ffe, #ffffb5);
     border-top: none;
-    border-bottom: 4px solid #161601;
-    border-radius: 0 0 0 0;
+    border-bottom: 4px solid #8b8b23;
+    border-radius: 8px;
     overflow: hidden;
   }
   .card .card-logo {
@@ -3630,35 +3641,35 @@ small {
   .card .card-content h1 {
     float: left;
     width: 100%;
-    margin: 0 0 10px 0;
-    font-weight: 300;
+    margin: 0 0 12px 0;
+    font-weight: 400;
     font-size: 31px;
     line-height: 31px;
-    color: #000;
+    color: #333;
     text-align: left;
     text-shadow: -1px -1px 0px #fff;
   }
   .card .card-content .company {
     float: left;
     width: 100%;
-    margin: 0 0 26px 0;
+    margin: 0 0 32px 0;
   }
   .card .card-content .company h5 {
     float: left;
-    font-style: italic;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    color: #000;
+    color: #666;
     text-align: left;
     text-shadow: -1px -1px 0px #fff;
   }
   .card .card-content .company span {
     float: left;
-    margin: 0 9px;
-    font-size: 18px;
-    line-height: 20px;
-    color: #000;
+    padding: 0;
+    margin: 0 8px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #666;
     text-align: left;
     text-shadow: -1px -1px 0px #fff;
   }
@@ -3668,37 +3679,37 @@ small {
     padding: 0;
     margin: 0;
   }
-  .card .card-content .patient-holder h2 {
+  .card .card-content .patient-holder h6 {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0 0 32px 0;
     font-weight: 400;
-    font-size: 25px;
-    line-height: 25px;
-    color: #fff;
+    font-size: 23px;
+    line-height: 23px;
+    color: #333;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: -1px -1px 0px #333;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card .card-content .patient-holder .row {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0 0 10px 0;
   }
   .card .card-content .patient-holder .row h6 {
     float: left;
-    width: 78px;
+    width: 82px;
     padding: 0;
     margin: 0;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #fff;
-    text-shadow: -1px -1px 0px #333;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+    text-shadow: -1px -1px 0px #fff;
   }
   .legal-container {
     position: relative;
@@ -3885,17 +3896,17 @@ small {
     padding: 0 0 16px 0;
   }
   header .header .brand .logo {
-    width: 290px;
-    margin: 8px 0 18px 15px;
+    width: 260px;
+    margin: 8px 0 18px 30px;
   }
   header .header .brand .mobile-navigation {
-    width: 300px;
-    padding: 11px 0 8px 0;
-    margin: 0 0 0 10px;
+    width: 260px;
+    padding: 10px 0 7px 0;
+    margin: 0 0 0 30px;
   }
   header .header .brand .mobile-navigation h5 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .page {
     width: 375px;
@@ -3919,8 +3930,8 @@ small {
   .content .main .download .tag p {
     width: 56px;
     margin: 0 10px;
-    font-size: 17px;
-    line-height: 21px;
+    font-size: 19px;
+    line-height: 19px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -3941,11 +3952,11 @@ small {
     font-size: 21px;
   }
   .content .points {
-    width: 375px;
-    margin: 0 0 30px 0;
+    width: 355px;
+    margin: 0 0 30px 10px;
   }
   .content .points .point-container {
-    width: 375px;
+    width: 355px;
     margin: 0 0 16px 0;
   }
   .content .points .point-container .point {
@@ -3958,12 +3969,13 @@ small {
     font-size: 33px;
   }
   .content .points .point-container .point h3 {
-    padding: 10px 25px 20px 25px;
-    font-size: 26px;
+    padding: 10px 28px 20px 28px;
+    margin: 0;
+    font-size: 29px;
     line-height: 36px;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 6px 0;
+    padding: 0 0 4px 0;
   }
   .content .center {
     width: 375px;
@@ -3971,15 +3983,16 @@ small {
   }
   .content .center .fa-certificate {
     width: 20px;
-    margin: -18px 0 0 340px;
-    font-size: 39px;
+    margin: -18px 0 0 342px;
+    font-size: 37px;
   }
   .content .center h1 {
     width: 305px;
     padding: 14px 20px 12px 20px;
     margin: 0 0 12px 15px;
-    font-size: 27px;
-    line-height: 34px;
+    font-size: 29px;
+    line-height: 36px;
+    border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder {
     width: 355px;
@@ -4081,14 +4094,6 @@ small {
     float: left;
     width: 375px;
   }
-  .content .locator h2 {
-    float: left;
-    width: 275px;
-    padding: 0;
-    margin: 0 0 22px 0;
-    font-size: 31px;
-    line-height: 39px;
-  }
   .content .locator .locator-zip,
   .content .locator .locator-state {
     float: left;
@@ -4096,36 +4101,40 @@ small {
     padding: 20px 30px 20px 30px;
     margin: 0 0 20px 20px;
   }
+  .content .locator .locator-zip h4,
+  .content .locator .locator-state h4 {
+    float: left;
+    width: 275px;
+    padding: 0;
+    margin: 0 0 22px 0;
+    font-size: 31px;
+    line-height: 39px;
+  }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
     float: left;
-    width: 255px;
+    width: 275px;
     height: 58px;
     padding: 0;
-    margin: 0 0 14px 10px;
+    margin: 0 0 14px 0;
     font-size: 27px;
     line-height: 27px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
-    width: 255px;
+    width: 275px;
     height: 62px;
-    padding: 2px 0 0 30px;
-    margin: 0 0 14px 10px;
-    font-size: 27px;
-    line-height: 27px;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    padding: 2px 0 0 40px;
+    margin: 0 0 14px 0;
+    font-size: 26px;
+    line-height: 26px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
-    float: left;
-    width: 255px;
+    width: 275px;
     height: 58px;
     padding: 0;
-    margin: 0 0 0 10px;
-    font-weight: 600;
+    margin: 0 0 0 0;
     font-size: 31px;
     line-height: 61px;
   }
@@ -4134,9 +4143,9 @@ small {
     padding: 20px 0 25px 0;
     margin: 0 0 30px 0;
   }
-  .content .locator .locator-results h2 {
-    width: 333px;
-    margin: 0 0 22px 20px;
+  .content .locator .locator-results h4 {
+    width: 373px;
+    margin: 0 0 22px 0;
   }
   .content .locator .locator-results .locator-results-content {
     width: 313px;
@@ -4163,26 +4172,27 @@ small {
   }
   .content .testimonals-holder {
     width: 335px;
-    margin: 0 0 40px 20px;
+    margin: 0 0 20px 20px;
   }
   .content .testimonals-holder .testimonals {
     width: 335px;
     margin: 0 0 20px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
-    width: 255px;
-    padding: 34px 40px 32px 40px;
+    width: 275px;
+    padding: 41px 30px 28px 30px;
     margin: 0 0 14px 0;
+    background-size: 100% 2em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 22px 0;
-    font-size: 22px;
-    line-height: 35px;
+    margin: 0 0 34px 0;
+    font-size: 21px;
+    line-height: 32px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    font-size: 27px;
-    line-height: 27px;
-    margin: 0 0 12px 0;
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0 0 9px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 22px;
@@ -4309,7 +4319,7 @@ small {
   }
   .modal-holder .modal-container {
     width: 300px;
-    padding: 18px 20px 28px 20px;
+    padding: 18px 20px 18px 20px;
     margin: 14px 0 30px 0;
   }
   .modal-holder .modal-container .print {
@@ -4320,41 +4330,40 @@ small {
   }
   .modal-holder .modal-container .fa-close {
     width: 20px;
-    margin: 0 0 16px 140px;
-    font-size: 19px;
-    line-height: 19px;
+    margin: 0 0 18px 140px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .modal-holder .modal-container .row {
     width: 300px;
   }
   .modal-holder .modal-container .row input {
     width: 300px;
-    height: 54px;
-    padding: 0;
+    height: 56px;
+    padding: 2px 0 0 0;
     margin: 0 0 12px 0;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 27px;
+    line-height: 27px;
   }
-  .modal-holder .modal-container .modal-submit {
+  .modal-holder .modal-container .submit {
     width: 300px;
-    height: 29px;
-    padding: 12px 0 8px 0;
+    padding: 14px 0 10px 0;
     margin: 0 0 20px 0;
     font-size: 29px;
     line-height: 29px;
   }
   .modal-holder .modal-container .legal {
     width: 270px;
-    margin: 10px 0 0 15px;
+    margin: 14px 0 0 15px;
   }
   .modal-holder .modal-container .legal p {
-    margin: 0 0 24px 0;
-    font-size: 19px;
-    line-height: 28px;
+    margin: 0 0 18px 0;
+    font-size: 18px;
+    line-height: 29px;
   }
   .modal-holder .modal-container .legal a {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 19px;
+    line-height: 30px;
   }
   .filter-holder {
     width: 335px;
@@ -4489,7 +4498,7 @@ small {
   }
   .card-modal {
     width: 268px;
-    padding: 24px 0px 16px 30px;
+    padding: 26px 0px 18px 30px;
     margin: 0 0 10px 0;
   }
   .card-modal .card-logo {
@@ -4497,15 +4506,15 @@ small {
     margin: 94px 0 0 180px;
   }
   .card-modal .card-content {
-    width: 268px;
+    width: 305px;
   }
   .card-modal .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 29px;
-    line-height: 29px;
+    margin: 0 0 11px 0;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card-modal .card-content .company {
-    width: 100%;
+    margin: 0 0 32px 0;
   }
   .card-modal .card-content .company h5 {
     font-size: 20px;
@@ -4513,30 +4522,29 @@ small {
   }
   .card-modal .card-content .company span {
     margin: 0 8px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .card-modal .card-content .patient-holder {
     width: 100%;
   }
-  .card-modal .card-content .patient-holder p {
+  .card-modal .card-content .patient-holder h6 {
     margin: 0 0 28px 0;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .card-modal .card-content .patient-holder .row {
-    margin: 0 0 8px 0;
+    margin: 0 0 9px 0;
   }
   .card-modal .card-content .patient-holder .row h6 {
-    width: 82px;
-    font-size: 13px;
-    line-height: 13px;
+    width: 84px;
+    font-size: 14px;
+    line-height: 14px;
   }
   .card {
-    width: 325px;
-    padding: 28px 0 22px 30px;
-    margin: 0 0 12px 0;
-    border-radius: 8px;
+    width: 315px;
+    padding: 24px 0 22px 30px;
+    margin: 0 0 12px 5px;
   }
   .card .card-logo {
     width: 64px;
@@ -4551,32 +4559,32 @@ small {
     line-height: 33px;
   }
   .card .card-content .company {
-    margin: 0 0 32px 0;
+    margin: 0 0 34px 0;
   }
   .card .card-content .company h5 {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .card .card-content .company span {
-    margin: 0 10px;
-    font-size: 20px;
+    margin: 0 9px;
+    font-size: 22px;
     line-height: 22px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
-  .card .card-content .patient-holder p {
-    margin: 0 0 34px 0;
-    font-size: 27px;
-    line-height: 27px;
+  .card .card-content .patient-holder h6 {
+    margin: 0 0 32px 0;
+    font-size: 26px;
+    line-height: 26px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 9px 0;
+    margin: 0 0 10px 0;
   }
   .card .card-content .patient-holder .row h6 {
-    width: 78px;
-    font-size: 13px;
-    line-height: 13px;
+    width: 84px;
+    font-size: 15px;
+    line-height: 15px;
   }
   .legal-container {
     width: 338px;
@@ -4733,13 +4741,13 @@ small {
     padding: 0 0 14px 0;
   }
   header .header .brand .logo {
-    width: 300px;
-    margin: 6px 0 20px 70px;
+    width: 290px;
+    margin: 6px 0 20px 75px;
   }
   header .header .brand .mobile-navigation {
-    width: 380px;
-    padding: 10px 0 11px 0;
-    margin: 0 0 0 30px;
+    width: 320px;
+    padding: 11px 0 8px 0;
+    margin: 0 0 0 60px;
   }
   header .header .brand .mobile-navigation h5 {
     font-size: 24px;
@@ -4769,7 +4777,7 @@ small {
     width: 71px;
     margin: 0 10px;
     font-size: 19px;
-    line-height: 22px;
+    line-height: 19px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -4792,7 +4800,7 @@ small {
   }
   .content .points {
     width: 480px;
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
   }
   .content .points .point-container {
     width: 480px;
@@ -4803,17 +4811,19 @@ small {
   }
   .content .points .point-container .point .fa-certificate {
     top: -14px;
-    left: -15px;
+    left: -17px;
     width: 36px;
-    font-size: 35px;
+    font-size: 33px;
   }
   .content .points .point-container .point h3 {
     padding: 10px 30px 20px 30px;
+    margin: 0 0 10px 0;
     font-size: 31px;
     line-height: 39px;
   }
   .content .points .point-container .point h3 span {
     padding: 0 0 5px 0;
+    margin: 0;
   }
   .content .center {
     width: 480px;
@@ -4822,7 +4832,7 @@ small {
   .content .center .fa-certificate {
     width: 20px;
     margin: -18px 0 0 425px;
-    font-size: 39px;
+    font-size: 35px;
   }
   .content .center h1 {
     width: 360px;
@@ -4936,8 +4946,8 @@ small {
     padding: 22px 20px 24px 20px;
     margin: 0 0 20px 40px;
   }
-  .content .locator .locator-zip h2,
-  .content .locator .locator-state h2 {
+  .content .locator .locator-zip h4,
+  .content .locator .locator-state h4 {
     width: 280px;
     padding: 0;
     margin: 0 0 20px 40px;
@@ -4946,27 +4956,27 @@ small {
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
-    width: 300px;
+    width: 320px;
     height: 56px;
-    margin: 0 20px 14px 30px;
+    margin: 0 20px 14px 20px;
     font-size: 29px;
     line-height: 29px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
-    width: 300px;
+    width: 320px;
     height: 60px;
-    padding: 0 0 0 30px;
-    margin: 0 0 14px 30px;
-    font-size: 29px;
-    line-height: 29px;
+    padding: 2px 0 0 30px;
+    margin: 0 0 14px 20px;
+    font-size: 28px;
+    line-height: 28px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
-    width: 300px;
+    width: 320px;
     height: 58px;
     padding: 0;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 20px;
     font-size: 31px;
     line-height: 61px;
   }
@@ -4975,9 +4985,9 @@ small {
     padding: 20px 0 25px 0;
     margin: 0 0 30px 0;
   }
-  .content .locator .locator-results h2 {
-    width: 440px;
-    margin: 0 0 18px 20px;
+  .content .locator .locator-results h4 {
+    width: 480px;
+    margin: 0 0 18px 0;
     font-size: 31px;
     line-height: 39px;
   }
@@ -5014,22 +5024,23 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 320px;
-    padding: 28px 40px 32px 40px;
-    margin: 0 0 15px 0;
+    padding: 44px 40px 32px 40px;
+    margin: 0 0 16px 0;
+    background-size: 100% 2.1em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 24px 0;
-    font-size: 21px;
+    margin: 0 0 37px 0;
+    font-size: 22px;
     line-height: 33px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    font-size: 25px;
-    line-height: 25px;
-    margin: 0 0 12px 0;
+    font-size: 27px;
+    line-height: 27px;
+    margin: 0 0 11px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 23px;
+    line-height: 23px;
   }
   footer {
     height: 74px;
@@ -5147,8 +5158,8 @@ small {
   }
   .modal-holder .modal-container {
     width: 300px;
-    padding: 18px 30px 18px 30px;
-    margin: 12px 0 30px 0;
+    padding: 18px 30px 20px 30px;
+    margin: 18px 0 0 0;
   }
   .modal-holder .modal-container .print {
     width: 300px;
@@ -5158,40 +5169,40 @@ small {
   }
   .modal-holder .modal-container .fa-close {
     width: 20px;
-    margin: 0 0 16px 140px;
-    font-size: 20px;
-    line-height: 20px;
+    margin: 0 0 20px 140px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
   }
   .modal-holder .modal-container .row input {
     width: 300px;
-    height: 54px;
-    margin: 0 0 14px 0;
-    font-size: 26px;
-    line-height: 26px;
+    height: 56px;
+    padding: 2px 0 0 0;
+    margin: 0 0 12px 0;
+    font-size: 28px;
+    line-height: 28px;
   }
   .modal-holder .modal-container .submit {
     width: 300px;
-    height: 30px;
-    padding: 12px 0 8px 0;
+    padding: 14px 0 10px 0;
     margin: 0 0 20px 0;
     font-size: 30px;
     line-height: 30px;
   }
   .modal-holder .modal-container .legal {
     width: 270px;
-    margin: 10px 0 0 15px;
+    margin: 20px 0 0 15px;
   }
   .modal-holder .modal-container .legal p {
-    margin: 0 0 24px 0;
+    margin: 0 0 20px 0;
     font-size: 19px;
-    line-height: 29px;
+    line-height: 30px;
   }
   .modal-holder .modal-container .legal a {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 31px;
   }
   .filter-holder {
     width: 400px;
@@ -5388,9 +5399,9 @@ small {
     line-height: 14px;
   }
   .card {
-    width: 360px;
-    padding: 32px 0 22px 40px;
-    margin: 0 0 14px 40px;
+    width: 370px;
+    padding: 28px 0 22px 50px;
+    margin: 0 0 12px 30px;
   }
   .card .card-logo {
     width: 82px;
@@ -5408,31 +5419,31 @@ small {
     margin: 0 0 36px 0;
   }
   .card .card-content .company h5 {
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .card .card-content .company span {
-    margin: 0 11px;
-    font-size: 22px;
+    margin: 0 9px;
+    font-size: 24px;
     line-height: 24px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
-  .card .card-content .patient-holder p {
+  .card .card-content .patient-holder h6 {
     margin: 0 0 36px 0;
-    font-size: 29px;
-    line-height: 29px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 11px 0;
+    margin: 0 0 12px 0;
   }
   .card .card-content .patient-holder .row h6 {
-    width: 82px;
+    width: 102px;
     padding: 0;
     margin: 0;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
   }
   .legal-container {
     width: 438px;
@@ -5594,27 +5605,27 @@ small {
   }
   header .header .brand .mobile-navigation {
     width: 358px;
-    padding: 11px 0 10px 0;
+    padding: 12px 0 10px 0;
     margin: 0 0 0 40px;
   }
   header .header .brand .mobile-navigation h5 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .page {
-    width: 520px;
+    width: 640px;
   }
   .content {
-    width: 520px;
+    width: 640px;
   }
   .content .main {
     width: 520px;
-    margin: 0;
+    margin: 0 0 0 60px;
   }
   .content .main .download {
     width: 446px;
     padding: 0;
-    margin: 0 0 58px 63px;
+    margin: 0 0 58px 53px;
   }
   .content .main .download .tag {
     width: 95px;
@@ -5624,18 +5635,18 @@ small {
   .content .main .download .tag p {
     width: 71px;
     margin: 0 12px;
-    font-size: 19px;
-    line-height: 23px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 34px;
+    height: 32px;
     font-size: 27px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 46px;
+    height: 44px;
     margin: -12px 0 0 -12px;
     font-size: 44px;
   }
@@ -5647,7 +5658,7 @@ small {
   }
   .content .points {
     width: 520px;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 60px;
   }
   .content .points .point-container {
     width: 520px;
@@ -5655,41 +5666,44 @@ small {
   }
   .content .points .point-container .point {
     display: inline-block;
+    margin: 0;
   }
   .content .points .point-container .point .fa-certificate {
     top: -14px;
-    left: -15px;
+    left: -17px;
     width: 36px;
-    font-size: 35px;
+    font-size: 33px;
   }
   .content .points .point-container .point h3 {
-    padding: 10px 30px 20px 30px;
+    padding: 14px 34px 22px 34px;
+    margin: 0;
     font-size: 33px;
-    line-height: 43px;
+    line-height: 33px;
   }
   .content .points .point-container .point h3 span {
     padding: 0 0 4px 0;
+    margin: 0;
   }
   .content .center {
-    width: 500px;
+    width: 640px;
     margin: 0 0 20px 0;
   }
   .content .center .fa-certificate {
     width: 20px;
-    margin: -18px 0 0 465px;
-    font-size: 45px;
+    margin: -18px 0 0 560px;
+    font-size: 39px;
   }
   .content .center h1 {
     width: 480px;
     padding: 12px 20px 12px 20px;
-    margin: 0 0 12px 0;
+    margin: 0 0 14px 60px;
     font-size: 33px;
-    line-height: 39px;
+    line-height: 41px;
   }
   .content .center .center-holder {
     width: 600px;
     padding: 28px 0 10px 40px;
-    margin: 0 0 0 -60px;
+    margin: 0 0 0 0;
     border-radius: 6px 6px 6px 6px;
   }
   .content .center .center-holder .logo {
@@ -5785,55 +5799,57 @@ small {
     margin: -6px 10px 18px 10px;
   }
   .content .locator {
-    width: 520px;
-  }
-  .content .locator h2 {
-    width: 280px;
-    margin: 0 0 24px 40px;
-    font-size: 33px;
-    line-height: 42px;
+    width: 660px;
   }
   .content .locator .locator-zip,
   .content .locator .locator-state {
-    width: 360px;
+    width: 270px;
     padding: 24px 20px 26px 20px;
-    margin: 0 0 20px 60px;
+    margin: 0 20px 20px 0;
+  }
+  .content .locator .locator-zip h4,
+  .content .locator .locator-state h4 {
+    width: 270px;
+    padding: 0;
+    margin: 0 0 24px 0;
+    font-size: 31px;
+    line-height: 40px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
-    width: 300px;
+    width: 270px;
     height: 60px;
     padding: 0;
-    margin: 0 20px 14px 30px;
+    margin: 0 20px 14px 0;
     font-size: 29px;
     line-height: 29px;
   }
   .content .locator .locator-zip select,
   .content .locator .locator-state select {
-    width: 300px;
+    width: 270px;
     height: 64px;
     padding: 2px 0 0 30px;
-    margin: 0 0 14px 30px;
-    font-size: 29px;
-    line-height: 29px;
+    margin: 0 0 14px 0;
+    font-size: 28px;
+    line-height: 28px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
-    width: 300px;
-    height: 64px;
-    margin: 0 0 0 30px;
+    width: 270px;
+    height: 60px;
+    margin: 0 0 0 0;
     font-size: 33px;
-    line-height: 68px;
+    line-height: 64px;
   }
   .content .locator .locator-results {
     width: 520px;
     padding: 20px 0 25px 0;
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 60px;
     border-radius: 12px;
   }
-  .content .locator .locator-results h2 {
-    width: 440px;
-    margin: 0 0 18px 40px;
+  .content .locator .locator-results h4 {
+    width: 520px;
+    margin: 0 0 18px 0;
   }
   .content .locator .locator-results .locator-results-content {
     width: 440px;
@@ -5859,27 +5875,28 @@ small {
     padding: 12px 30px 10px 30px;
   }
   .content .testimonals-holder {
-    width: 400px;
-    margin: 0 0 0 60px;
+    width: 660px;
+    margin: 0;
   }
   .content .testimonals-holder .testimonals {
-    width: 400px;
+    width: 660px;
     margin: 0 0 20px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
-    width: 340px;
-    padding: 38px 30px 42px 30px;
-    margin: 0 0 15px 0;
+    width: 270px;
+    padding: 42px 20px 34px 20px;
+    margin: 0 20px 15px 0;
+    background-size: 100% 2.1em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 24px 0;
-    font-size: 23px;
-    line-height: 35px;
+    margin: 0 0 34px 0;
+    font-size: 22px;
+    line-height: 34px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     font-size: 28px;
     line-height: 28px;
-    margin: 0 0 14px 0;
+    margin: 0 0 10px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 24px;
@@ -5989,7 +6006,7 @@ small {
   }
   .modal-holder .modal-container {
     width: 340px;
-    padding: 20px 30px 18px 30px;
+    padding: 20px 30px 20px 30px;
     margin: 18px 0 0 0;
   }
   .modal-holder .modal-container .print {
@@ -6000,9 +6017,9 @@ small {
   }
   .modal-holder .modal-container .fa-close {
     width: 20px;
-    margin: 0 0 16px 160px;
-    font-size: 20px;
-    line-height: 20px;
+    margin: 0 0 20px 160px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
@@ -6010,14 +6027,14 @@ small {
   .modal-holder .modal-container .row input {
     width: 340px;
     height: 56px;
+    padding: 2px 0 0 0;
     margin: 0 0 14px 0;
-    font-size: 27px;
-    line-height: 27px;
+    font-size: 29px;
+    line-height: 29px;
   }
-  .modal-holder .modal-container .modal-submit {
+  .modal-holder .modal-container .submit {
     width: 340px;
-    height: 31px;
-    padding: 12px 0 10px 0;
+    padding: 14px 0 10px 0;
     margin: 0 0 20px 0;
     font-size: 31px;
     line-height: 31px;
@@ -6027,7 +6044,7 @@ small {
     margin: 10px 0 0 10px;
   }
   .modal-holder .modal-container .legal p {
-    margin: 0 0 24px 0;
+    margin: 0 0 20px 0;
     font-size: 19px;
     line-height: 29px;
   }
@@ -6216,8 +6233,8 @@ small {
   }
   .card {
     width: 430px;
-    padding: 28px 0 24px 50px;
-    margin: 0 0 16px 20px;
+    padding: 32px 0 24px 50px;
+    margin: 0 0 12px 20px;
   }
   .card .card-logo {
     width: 102px;
@@ -6235,29 +6252,29 @@ small {
     margin: 0 0 36px 0;
   }
   .card .card-content .company h5 {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .card .card-content .company span {
     margin: 0 11px;
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 22px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
-  .card .card-content .patient-holder p {
-    margin: 0 0 38px 0;
-    font-size: 29px;
-    line-height: 29px;
+  .card .card-content .patient-holder h6 {
+    margin: 0 0 32px 0;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 11px 0;
+    margin: 0 0 12px 0;
   }
-  .card .card-content .patient-holder .row p {
-    width: 90px;
-    font-size: 15px;
-    line-height: 15px;
+  .card .card-content .patient-holder .row h6 {
+    width: 108px;
+    font-size: 17px;
+    line-height: 17px;
   }
   .legal-container {
     width: 538px;
@@ -6476,27 +6493,30 @@ small {
   }
   .content .main .download .tag {
     width: 138px;
-    padding: 18px 0 12px 0;
+    padding: 18px 0 10px 0;
     margin: 0 20px 0 0;
   }
   .content .main .download .tag p {
     width: 100%;
+    padding: 0;
     margin: 0;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .content .main .download .tag p span {
+    display: block;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 38px;
+    height: 40px;
     font-size: 33px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 50px;
-    margin: -12px 0 0 -10px;
-    font-size: 51px;
+    height: 56px;
+    margin: -16px 0 0 -14px;
+    font-size: 52px;
   }
   .content .main .download .tag .fa-send {
     font-size: 26px;
@@ -6507,7 +6527,7 @@ small {
   .content .points {
     width: 600px;
     padding: 0;
-    margin: 0 0 50px 84px;
+    margin: 0 0 30px 84px;
   }
   .content .points .point-container {
     width: 600px;
@@ -6518,17 +6538,17 @@ small {
   }
   .content .points .point-container .point .fa-certificate {
     top: -20px;
-    left: -22px;
+    left: -23px;
     width: 47px;
-    font-size: 47px;
+    font-size: 41px;
   }
   .content .points .point-container .point h3 {
     padding: 14px 50px 24px 50px;
-    font-size: 41px;
-    line-height: 51px;
+    font-size: 37px;
+    line-height: 37px;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 5px 0;
+    padding: 0 0 4px 0;
   }
   .content .center {
     width: 768px;
@@ -6537,15 +6557,15 @@ small {
   }
   .content .center .fa-certificate {
     width: 20px;
-    margin: -26px 0 0 692px;
-    font-size: 55px;
+    margin: -24px 0 0 706px;
+    font-size: 45px;
   }
   .content .center h1 {
-    width: 588px;
-    padding: 14px 30px 16px 30px;
-    margin: 0 0 16px 70px;
-    font-size: 41px;
-    line-height: 50px;
+    width: 608px;
+    padding: 12px 30px 14px 30px;
+    margin: 0 0 16px 60px;
+    font-size: 37px;
+    line-height: 45px;
   }
   .content .center .center-holder {
     width: 738px;
@@ -6644,22 +6664,19 @@ small {
     width: 728px;
     margin: 0 0 0 30px;
   }
-  .content .locator h2 {
-    margin: 0 0 24px 0;
-    font-size: 35px;
-    line-height: 43px;
-  }
   .content .locator .locator-zip,
   .content .locator .locator-state {
     float: left;
     width: 304px;
-    padding: 22px 20px 22px 20px;
+    padding: 24px 20px 22px 20px;
     margin: 0 20px 30px 0;
   }
-  .content .locator .locator-zip h2,
-  .content .locator .locator-state h2 {
-    width: 284px;
-    margin: 0 0 26px 10px;
+  .content .locator .locator-zip h4,
+  .content .locator .locator-state h4 {
+    width: 304px;
+    margin: 0 0 28px 0;
+    font-size: 35px;
+    line-height: 41px;
   }
   .content .locator .locator-zip input,
   .content .locator .locator-state input {
@@ -6674,18 +6691,19 @@ small {
   .content .locator .locator-state select {
     width: 304px;
     height: 67px;
-    padding: 0 0 0 40px;
+    padding: 2px 0 0 40px;
     margin: 0 0 14px 0;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .content .locator .locator-zip .submit,
   .content .locator .locator-state .submit {
     width: 304px;
+    height: 60px;
     padding: 0;
     margin: 0;
     font-size: 33px;
-    line-height: 70px;
+    line-height: 64px;
     text-shadow: $shadow;
   }
   .content .locator .locator-results {
@@ -6694,11 +6712,11 @@ small {
     margin: 0 0 30px 0;
     border-radius: 12px;
   }
-  .content .locator .locator-results h2 {
+  .content .locator .locator-results h4 {
     width: 708px;
     margin: 0 0 32px 0;
-    font-size: 37px;
-    line-height: 46px;
+    font-size: 33px;
+    line-height: 39px;
   }
   .content .locator .locator-results .locator-results-content {
     width: 648px;
@@ -6734,14 +6752,19 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 284px;
-    padding: 28px 30px 30px 30px;
+    padding: 46px 30px 30px 30px;
     margin: 0 20px 16px 0;
+    background-size: 100% 2.2em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 22px 0;
+    margin: 0 0 36px 0;
+    font-size: 23px;
+    line-height: 35px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    margin: 0 0 14px 0;
+    margin: 0 0 10px 0;
+    font-size: 29px;
+    line-height: 29px;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 25px;
@@ -6855,7 +6878,7 @@ small {
   }
   .modal-holder .modal-container {
     width: 340px;
-    padding: 24px 30px 28px 30px;
+    padding: 24px 30px 18px 30px;
     margin: 22px 0 0 0;
   }
   .modal-holder .modal-container .print {
@@ -6866,9 +6889,9 @@ small {
   }
   .modal-holder .modal-container .fa-close {
     width: 20px;
-    margin: 0 0 20px 160px;
-    font-size: 23px;
-    line-height: 23px;
+    margin: 0 0 22px 160px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
@@ -6876,20 +6899,18 @@ small {
   .modal-holder .modal-container .row input {
     width: 340px;
     height: 64px;
-    padding: 4px 0 0 0;
+    padding: 2px 0 0 0;
     margin: 0 0 14px 0;
-    font-weight: 500;
-    font-size: 31px;
-    line-height: 31px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .modal-holder .modal-container .row ::-webkit-input-placeholder {
     line-height: normal;
   }
-  .modal-holder .modal-container .modal-submit {
+  .modal-holder .modal-container .submit {
     width: 340px;
-    height: 33px;
-    padding: 18px 0 12px 0;
-    margin: 0 0 20px 0;
+    padding: 16px 0 12px 0;
+    margin: 0 0 24px 0;
     font-size: 33px;
     line-height: 33px;
   }
@@ -6898,13 +6919,13 @@ small {
     margin: 10px 0 0 10px;
   }
   .modal-holder .modal-container .legal p {
-    margin: 0 0 18px 0;
+    margin: 0 0 20px 0;
     font-size: 20px;
     line-height: 32px;
   }
   .modal-holder .modal-container .legal a {
     font-size: 21px;
-    line-height: 21px;
+    line-height: 32px;
   }
   .filter-holder {
     width: 568px;
@@ -7073,9 +7094,9 @@ small {
     line-height: 15px;
   }
   .card {
-    width: 568px;
-    padding: 44px 0 32px 60px;
-    margin: 0 0 18px 70px;
+    width: 588px;
+    padding: 42px 0 28px 60px;
+    margin: 0 0 18px 60px;
   }
   .card .card-logo {
     width: 122px;
@@ -7085,37 +7106,38 @@ small {
     width: 480px;
   }
   .card .card-content h1 {
-    margin: 0 0 20px 0;
-    font-size: 51px;
-    line-height: 51px;
+    margin: 0 0 16px 0;
+    font-size: 47px;
+    line-height: 47px;
   }
   .card .card-content .company {
-    margin: 0 0 48px 0;
+    margin: 0 0 52px 0;
   }
   .card .card-content .company h5 {
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card .card-content .company span {
-    margin: 0 14px;
-    font-size: 31px;
+    padding: 0;
+    margin: 0 10px;
+    font-size: 32px;
     line-height: 33px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
-  .card .card-content .patient-holder p {
-    margin: 0 0 56px 0;
-    font-size: 39px;
-    line-height: 39px;
+  .card .card-content .patient-holder h6 {
+    margin: 0 0 42px 0;
+    font-size: 37px;
+    line-height: 37px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 14px 0;
+    margin: 0 0 12px 0;
   }
   .card .card-content .patient-holder .row h6 {
-    width: 124px;
-    font-size: 21px;
-    line-height: 21px;
+    width: 132px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .legal-container {
     width: 688px;
@@ -7156,7 +7178,7 @@ small {
   header {
     padding: 0;
     margin: 0 0 40px 0;
-    height: 130px;
+    height: 120px;
   }
   header .header {
     width: 1024px;
@@ -7164,23 +7186,23 @@ small {
   header .header .brand {
     width: 270px;
     padding: 0;
-    margin: 14px 24px 0 24px;
+    margin: 10px 24px 0 24px;
   }
   header .header .brand .logo {
-    width: 270px;
+    width: 260px;
     margin: 0;
   }
   header .header nav {
     width: 700px;
     height: 76px;
-    margin: 54px 0 0 0;
+    margin: 44px 0 0 0;
   }
   header .header nav .tile {
     height: 75px;
     padding: 0 24px;
   }
   header .header nav .tile h4 {
-    margin: 13px 0 0 0;
+    margin: 14px 0 0 0;
     font-size: 21px;
     line-height: 25px;
   }
@@ -7195,7 +7217,7 @@ small {
   }
   .content .main {
     width: 570px;
-    margin: 0 0 40px 20px;
+    margin: 0 0 50px 20px;
   }
   .content .main .download {
     width: 548px;
@@ -7203,27 +7225,26 @@ small {
   }
   .content .main .download .tag {
     width: 122px;
-    padding: 16px 0 12px 0;
+    padding: 18px 0 10px 0;
     margin: 0 14px 0 0;
   }
   .content .main .download .tag p {
     width: 122px;
     margin: 0;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 40px;
+    height: 38px;
     font-size: 32px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 52px;
-    margin: -12px 0 0 -12px;
-    font-size: 43px;
+    height: 56px;
+    margin: -18px 0 0 -16px;
+    font-size: 47px;
   }
   .content .main .download .tag .fa-send {
     font-size: 24px;
@@ -7260,8 +7281,7 @@ small {
     text-align: left;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 5px 0;
-    border-bottom: 4px solid #ff9;
+    padding: 0 0 4px 0;
   }
   .content .center {
     width: 1000px;
@@ -7269,15 +7289,15 @@ small {
   }
   .content .center .fa-certificate {
     width: 30px;
-    margin: -16px 0 0 940px;
-    font-size: 39px;
+    margin: -18px 0 0 950px;
+    font-size: 43px;
   }
   .content .center h1 {
     width: 940px;
-    padding: 18px 0 14px 0;
+    padding: 20px 0 16px 0;
     margin: 0 0 16px 30px;
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 35px;
+    line-height: 35px;
     text-align: center;
   }
   .content .center .center-holder {
@@ -7376,28 +7396,24 @@ small {
     width: 1000px;
     margin: 0 0 20px 0;
   }
-  .content .locator h2 {
-    width: 280px;
-    margin: 0 0 24px 10px;
-  }
   .content .locator .locator-zip {
-    width: 300px;
-    padding: 22px 40px 24px 40px;
+    width: 320px;
+    padding: 22px 30px 24px 30px;
     margin: 0 0 20px 0;
   }
-  .content .locator .locator-zip h2 {
+  .content .locator .locator-zip h4 {
     width: 300px;
     margin: 0 0 24px 0;
     font-size: 33px;
     line-height: 39px;
   }
   .content .locator .locator-zip input {
-    width: 158px;
-    height: 56px;
+    width: 178px;
+    height: 58px;
     padding: 0 0 0 0;
     margin: 0 20px 0 0;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .content .locator .locator-zip .submit {
     width: 120px;
@@ -7407,24 +7423,24 @@ small {
     line-height: 59px;
   }
   .content .locator .locator-state {
-    width: 520px;
-    padding: 22px 40px 24px 40px;
+    width: 540px;
+    padding: 22px 30px 24px 30px;
     margin: 0 20px 20px 0;
   }
-  .content .locator .locator-state h2 {
+  .content .locator .locator-state h4 {
     width: 320px;
-    margin: 0 0 24px 100px;
+    margin: 0 100px 24px 100px;
     font-size: 33px;
     line-height: 39px;
   }
   .content .locator .locator-state select {
     float: left;
-    width: 178px;
+    width: 188px;
     height: 62px;
     padding: 3px 0 0 20px;
     margin: 0 20px 0 0;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .content .locator .locator-state .submit {
     width: 120px;
@@ -7478,22 +7494,23 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 185px;
-    padding: 28px 25px 28px 25px;
+    padding: 40px 25px 28px 25px;
     margin: 0 20px 20px 0;
+    background-size: 100% 1.9em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 20px 0;
+    margin: 0 0 33px 0;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 30px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 23px;
+    line-height: 23px;
     margin: 0 0 10px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 20px;
+    line-height: 20px;
   }
   footer {
     height: 82px;
@@ -7632,8 +7649,8 @@ small {
   .modal-holder .modal-container .fa-close {
     width: 20px;
     margin: 0 0 20px 160px;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
@@ -7641,7 +7658,7 @@ small {
   .modal-holder .modal-container .row input {
     width: 340px;
     height: 64px;
-    padding: 4px 0 0 0;
+    padding: 2px 0 0 0;
     margin: 0 0 14px 0;
     font-weight: 500;
     font-size: 31px;
@@ -7663,7 +7680,7 @@ small {
     margin: 10px 0 0 10px;
   }
   .modal-holder .modal-container .legal p {
-    margin: 0 0 18px 0;
+    margin: 0 0 20px 0;
     font-size: 20px;
     line-height: 32px;
   }
@@ -7828,7 +7845,7 @@ small {
   }
   .card {
     width: 484px;
-    padding: 38px 0px 32px 44px;
+    padding: 36px 0 28px 44px;
     margin: 0 0 18px 0;
   }
   .card .card-logo {
@@ -7836,41 +7853,41 @@ small {
     margin: 190px 0 0 330px;
   }
   .card .card-content {
-    width: 344px;
+    width: 444px;
   }
   .card .card-content h1 {
-    margin: 0 0 18px 0;
+    margin: 0 0 15px 0;
     font-size: 44px;
     line-height: 44px;
   }
   .card .card-content .company {
-    margin: 0 0 42px 0;
+    margin: 0 0 54px 0;
   }
   .card .card-content .company h5 {
-    font-size: 31px;
-    line-height: 31px;
+    font-size: 28px;
+    line-height: 28px;
   }
   .card .card-content .company span {
-    margin: 0 12px;
-    font-size: 23px;
-    line-height: 29px;
+    margin: 0 10px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
-  .card .card-content .patient-holder p {
-    width: 340px;
-    margin: 0 0 44px 0;
-    font-size: 31px;
-    line-height: 31px;
+  .card .card-content .patient-holder h6 {
+    width: 420px;
+    margin: 0 0 38px 0;
+    font-size: 34px;
+    line-height: 34px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 15px 0;
+    margin: 0 0 13px 0;
   }
   .card .card-content .patient-holder .row h6 {
-    width: 124px;
-    font-size: 20px;
-    line-height: 20px;
+    width: 122px;
+    font-size: 19px;
+    line-height: 19px;
   }
   .legal-container {
     width: 928px;
@@ -7909,7 +7926,7 @@ small {
 }
 @media (min-width: 1100px) {
   header {
-    height: 116px;
+    height: 110px;
     margin: 0 0 50px 0;
   }
   header .header {
@@ -7918,7 +7935,7 @@ small {
   header .header .brand {
     width: 273px;
     padding: 0;
-    margin: 12px 0 0 0;
+    margin: 8px 0 0 0;
   }
   header .header .brand .logo {
     width: 250px;
@@ -7927,7 +7944,7 @@ small {
   header .header nav {
     width: 750px;
     height: 68px;
-    margin: 48px 0 0 0;
+    margin: 42px 0 0 0;
   }
   header .header nav .tile {
     height: 67px;
@@ -7941,10 +7958,6 @@ small {
   }
   header .header nav .tile.active {
     height: 68px;
-  }
-  header .header nav .tile.active h4 {
-    font-size: 21px;
-    line-height: 23px;
   }
   header .header nav .tile.last {
     border-radius: 0 6px 0 0;
@@ -7970,9 +7983,8 @@ small {
   }
   .content .main .download .tag p {
     width: 112px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 19px;
+    line-height: 19px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -7982,8 +7994,8 @@ small {
     font-size: 28px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 46px;
-    margin: -10px 0 0 -10px;
+    height: 48px;
+    margin: -12px 0 0 -10px;
     font-size: 42px;
   }
   .content .main .download .tag .fa-send {
@@ -7994,7 +8006,7 @@ small {
   }
   .content .points {
     width: 430px;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
   }
   .content .points .point-container {
     width: 440px;
@@ -8007,19 +8019,18 @@ small {
     width: 66px;
     top: -15px;
     left: -32px;
-    font-size: 34px;
-    line-height: 34px;
+    font-size: 33px;
+    line-height: 33px;
   }
   .content .points .point-container .point h3 {
-    padding: 14px 28px 22px 28px;
+    padding: 14px 30px 22px 30px;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 29px;
+    line-height: 29px;
     text-align: left;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 3px 0;
-    border-bottom: 4px solid #ff9;
+    padding: 0 0 4px 0;
   }
   .content .center {
     width: 1000px;
@@ -8027,16 +8038,16 @@ small {
   }
   .content .center .fa-certificate {
     width: 30px;
-    margin: -16px 0 0 940px;
+    margin: -16px 0 0 910px;
     font-size: 39px;
   }
   .content .center h1 {
-    width: 920px;
-    padding: 16px 0 14px 0;
-    margin: 0 0 14px 40px;
+    width: 860px;
+    padding: 18px 0 12px 0;
+    margin: 0 0 14px 70px;
     font-weight: 400;
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 31px;
+    line-height: 31px;
     text-align: center;
   }
   .content .center .center-holder {
@@ -8134,30 +8145,26 @@ small {
   }
   .content .locator {
     width: 1000px;
-    margin: 0 0 30px 0;
-  }
-  .content .locator h2 {
-    width: 320px;
-    margin: 0 0 24px 0;
+    margin: 0 0 10px 0;
   }
   .content .locator .locator-zip {
-    width: 300px;
-    padding: 22px 40px 24px 40px;
-    margin: 0 0 20px 0;
+    width: 320px;
+    padding: 22px 30px 20px 30px;
+    margin: 0 0 10px 0;
   }
-  .content .locator .locator-zip h2 {
+  .content .locator .locator-zip h4 {
     width: 280px;
-    margin: 0 0 24px 10px;
+    margin: 0 0 24px 20px;
     font-size: 29px;
     line-height: 35px;
   }
   .content .locator .locator-zip input {
-    width: 158px;
+    width: 178px;
     height: 52px;
     padding: 0 0 0 0;
     margin: 0 20px 0 0;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .content .locator .locator-zip .submit {
     width: 120px;
@@ -8167,24 +8174,24 @@ small {
     line-height: 54px;
   }
   .content .locator .locator-state {
-    width: 520px;
-    padding: 22px 40px 24px 40px;
+    width: 540px;
+    padding: 22px 30px 20px 30px;
     margin: 0 20px 20px 0;
   }
-  .content .locator .locator-state h2 {
+  .content .locator .locator-state h4 {
     width: 320px;
-    margin: 0 0 24px 100px;
+    margin: 0 0 24px 110px;
     font-size: 29px;
     line-height: 35px;
   }
   .content .locator .locator-state select {
     float: left;
-    width: 178px;
+    width: 188px;
     height: 56px;
-    padding: 0 0 0 22px;
+    padding: 2px 0 0 22px;
     margin: 0 20px 0 0;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .content .locator .locator-state .submit {
     width: 120px;
@@ -8234,22 +8241,24 @@ small {
   }
   .content .testimonals-holder .testimonals {
     width: 1020px;
-    margin: 0 0 40px 0;
+    margin: 0 0 60px 0;
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 185px;
-    padding: 28px 25px 28px 25px;
+    padding: 40px 25px 26px 25px;
     margin: 0 20px 20px 0;
+    background-size: 100% 1.9em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 20px 0;
+    margin: 0 0 33px 0;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 30px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    font-size: 24px;
-    line-height: 24px;
-    margin: 0 0 12px 0;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0 0 11px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 19px;
@@ -8451,7 +8460,7 @@ small {
   }
   .modal-holder .modal-container {
     width: 338px;
-    padding: 18px 30px 18px 30px;
+    padding: 18px 30px 14px 30px;
     margin: 22px 0 0 0;
   }
   .modal-holder .modal-container .print {
@@ -8463,8 +8472,8 @@ small {
   .modal-holder .modal-container .fa-close {
     width: 20px;
     margin: 0 0 18px 158px;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 19px;
+    line-height: 19px;
   }
   .modal-holder .modal-container .row {
     width: 338px;
@@ -8479,11 +8488,10 @@ small {
   }
   .modal-holder .modal-container .submit {
     width: 338px;
-    height: 30px;
     padding: 14px 0 10px 0;
     margin: 0 0 22px 0;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .modal-holder .modal-container .submit.print {
     margin: 18px 0 26px 0;
@@ -8500,8 +8508,8 @@ small {
   }
   .modal-holder .modal-container .legal a {
     margin: 8px 0 0 0;
-    font-size: 20px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 27px;
   }
   .card-member {
     width: 898px;
@@ -8578,8 +8586,8 @@ small {
   }
   .card {
     width: 458px;
-    padding: 38px 0px 24px 50px;
-    margin: 0 0 12px 0;
+    padding: 38px 0px 20px 50px;
+    margin: 10px 0 14px 0;
   }
   .card .card-logo {
     display: none;
@@ -8587,15 +8595,15 @@ small {
     margin: 210px 0 0 330px;
   }
   .card .card-content {
-    width: 344px;
+    width: 444px;
   }
   .card .card-content h1 {
     margin: 0 0 14px 0;
-    font-size: 41px;
-    line-height: 41px;
+    font-size: 39px;
+    line-height: 39px;
   }
   .card .card-content .company {
-    margin: 0 0 38px 0;
+    margin: 0 0 40px 0;
   }
   .card .card-content .company h5 {
     font-size: 24px;
@@ -8603,25 +8611,25 @@ small {
   }
   .card .card-content .company span {
     margin: 0 12px;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 26px;
+    line-height: 28px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
-  .card .card-content .patient-holder h2 {
-    width: 340px;
-    margin: 0 0 28px 0;
-    font-size: 31px;
-    line-height: 31px;
+  .card .card-content .patient-holder h6 {
+    width: 440px;
+    margin: 0 0 36px 0;
+    font-size: 32px;
+    line-height: 32px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
+    margin: 0 0 14px 0;
   }
   .card .card-content .patient-holder .row h6 {
     width: 106px;
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
   }
   .legal-container {
     width: 998px;

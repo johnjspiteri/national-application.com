@@ -30,7 +30,7 @@
 					font-weight 400
 					font-size 17px
 					line-height 17px
-					color $black
+					color $black-light
 					text-shadow $white-shadow
 					text-align left
 
@@ -92,7 +92,7 @@
 			font-weight 300
 			font-size 16px
 			line-height 25px
-			color $black
+			color $black-light
 			text-shadow $white-shadow
 			text-align left
 
@@ -104,7 +104,7 @@
 			font-weight 500
 			font-size 21px
 			line-height 21px
-			color $black
+			color $black-light
 			text-shadow $white-shadow
 
 		.brand
@@ -120,11 +120,11 @@
 .card-modal
 	float left
 	width 254px
-	padding 24px 0px 18px 26px
+	padding 26px 0px 16px 26px
 	margin 0 0 12px 0
-	background $card
+	background $card-gradient
 	border-top none
-	border-bottom 4px solid #333
+	border-bottom 4px solid $card-border
 	border-radius 8px
 	overflow hidden
 
@@ -149,35 +149,37 @@
 		h1
 			float left
 			width 100%
-			margin 0 0 10px 0
+			margin 0 0 11px 0
 			font-weight 400
-			font-size 28px
-			line-height 28px
-			color #222
+			font-size 30px
+			line-height 30px
+			color $black-light
 			text-align left
+			text-shadow $card-text-shadow
 
 		.company
 			float left
 			width 100%
-			margin 0 0 24px 0
+			margin 0 0 32px 0
 
 			h5
 				float left
-				font-style italic
-				font-weight 500
-				font-size 19px
-				line-height 19px
+				font-weight 400
+				font-size 20px
+				line-height 20px
 				color $grey
 				text-align left
-				text-shadow $white-shadow
+				text-shadow $card-text-shadow
 
 			span
 				float left
+				padding 0
 				margin 0 8px
-				font-size 17px
-				line-height 19px
-				color #555
+				font-size 22px
+				line-height 22px
+				color $grey
 				text-align left
+				text-shadow $card-text-shadow
 
 		.patient-holder
 			float left
@@ -185,51 +187,50 @@
 			padding 0
 			margin 0
 
-			p
+			h6
 				float left
 				width 100%
 				padding 0
-				margin 0 0 28px 0
+				margin 0 0 32px 0
 				font-weight 400
 				font-size 23px
 				line-height 23px
-				color $grey-light
+				color $black-light
 				background none
 				border none
 				outline none
 				text-align left
-				text-shadow $white-shadow
+				text-shadow $card-text-shadow
 
 			.row
 				float left
 				width 100%
 				padding 0
-				margin 0 0 8px 0
+				margin 0 0 9px 0
 
 				h6
 					float left
-					width 78px
+					width 82px
 					padding 0
 					margin 0
 					font-weight 400
-					font-size 13px
-					line-height 13px
-					color $grey-light
-					text-shadow $white-shadow
+					font-size 14px
+					line-height 14px
+					color $grey
+					text-shadow $card-text-shadow
 
 .card
 	float left
-	width 294px
-	padding 18px 0px 12px 26px
-	margin 0 0 12px 0
-	background $card
+	width 272px
+	padding 22px 0px 16px 28px
+	margin 0 0 10px 10px
+	background $card-gradient
 	border-top none
 	border-bottom 4px solid $card-border
-	border-radius 0 0 0 0
+	border-radius 8px
 	overflow hidden
 
 	.card-logo
-		// display none
 		position absolute
 		width 64px
 		padding 0
@@ -250,35 +251,35 @@
 		h1
 			float left
 			width 100%
-			margin 0 0 10px 0
-			font-weight 300
+			margin 0 0 12px 0
+			font-weight 400
 			font-size 31px
 			line-height 31px
-			color $black
+			color $black-light
 			text-align left
 			text-shadow $card-text-shadow
 
 		.company
 			float left
 			width 100%
-			margin 0 0 26px 0
+			margin 0 0 32px 0
 
 			h5
 				float left
-				font-style italic
 				font-weight 400
 				font-size 20px
 				line-height 20px
-				color $black
+				color $grey
 				text-align left
 				text-shadow $card-text-shadow
 
 			span
 				float left
-				margin 0 9px
-				font-size 18px
-				line-height 20px
-				color $black
+				padding 0
+				margin 0 8px
+				font-size 22px
+				line-height 22px
+				color $grey
 				text-align left
 				text-shadow $card-text-shadow
 
@@ -288,34 +289,34 @@
 			padding 0
 			margin 0
 
-			h2
+			h6
 				float left
 				width 100%
 				padding 0
 				margin 0 0 32px 0
 				font-weight 400
-				font-size 25px
-				line-height 25px
-				color $white
+				font-size 23px
+				line-height 23px
+				color $black-light
 				background none
 				border none
 				outline none
 				text-align left
-				text-shadow $grey-text-shadow
+				text-shadow $card-text-shadow
 
 			.row
 				float left
 				width 100%
 				padding 0
-				margin 0 0 8px 0
+				margin 0 0 10px 0
 
 				h6
 					float left
-					width 78px
+					width 82px
 					padding 0
 					margin 0
 					font-weight 400
-					font-size 12px
-					line-height 12px
-					color $white
-					text-shadow $grey-text-shadow
+					font-size 14px
+					line-height 14px
+					color $grey
+					text-shadow $card-text-shadow

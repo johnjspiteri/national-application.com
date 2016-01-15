@@ -32,7 +32,43 @@
                         controller: 'View',
                     }
                 }
-            });
+            })
+            .state('frontend.view.text', {
+                url: '/text-a-free-rx-card',
+                views: {
+                    'modal@': {
+                        templateUrl: 'modal/modal.text.modal.html',
+                        controller: 'MemberTextModal'
+                    },
+                },
+            })
+            .state('frontend.view.email', {
+                url: '/email-a-free-rx-card',
+                views: {
+                    'modal@': {
+                        templateUrl: 'modal/modal.email.modal.html',
+                        controller: 'MemberEmailModal'
+                    },
+                },
+            })
+            .state('frontend.view.save', {
+                url: '/save-a-free-rx-card',
+                views: {
+                    'modal@': {
+                        templateUrl: 'modal/modal.save.modal.html',
+                        controller: 'MemberSaveModal'
+                    },
+                },
+            })
+            .state('frontend.view.print', {
+                url: '/print-a-free-rx-card',
+                views: {
+                    'modal@': {
+                        templateUrl: 'modal/modal.print.modal.html',
+                        controller: 'MemberPrintModal'
+                    },
+                },
+            });            
     }
 
     angular
