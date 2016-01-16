@@ -3,10 +3,46 @@
 	{
 		"selected_items":
 		[
+			[
+				"bur",
+				"burgundy-text-shadow"
+			],
+			[
+				"head",
+				"header-tile"
+			],
+			[
+				"header-",
+				"header-tile-bottom"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "client/styl/1100/index.styl",
+			"settings":
+			{
+				"buffer_size": 4646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/js/member/member.view.controller.js",
+			"settings":
+			{
+				"buffer_size": 907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/jade/member/member.view.jade",
+			"settings":
+			{
+				"buffer_size": 7269,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -93,10 +129,73 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jj/Development/nationalrxcard.com"
+		"/Users/jj/Development/nationalrxcard.com",
+		"/Users/jj/Development/nationalrxcard.com/client",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/member",
+		"/Users/jj/Development/nationalrxcard.com/server",
+		"/Users/jj/Development/nationalrxcard.com/server/config"
 	],
 	"file_history":
 	[
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.text.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.email.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.print.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.save.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/index.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/member/member.text.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.view.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.text.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/data/members.json",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.text.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/app/app.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.save.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.email.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/server/config/seed.js",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.print.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/config.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.email.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.save.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/header/header.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/footer.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/questions.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/questions.styl",
+		"/Users/jj/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jj/Development/nationalrxcard.com/server/config/development.json",
+		"/Users/jj/Development/nationalrxcard.com/nationalrxcard.com.sublime-project",
+		"/Users/jj/Development/nationalrxcard.com/.gitignore",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/900/game.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/jade/game/game.view.jade",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/360/game.styl",
@@ -110,7 +209,6 @@
 		"/Users/jj/Development/landonboardwalk.com/client/js/data/games.json",
 		"/Users/jj/Development/landonboardwalk.com/landonboardwalk.com.sublime-project",
 		"/Users/jj/Development/landonboardwalk.com/package.json",
-		"/Users/jj/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/jj/Development/landonboardwalk.com/gruntfile.js",
 		"/Users/jj/Development/landonboardwalk.com/server/config/development.json",
 		"/Users/jj/Development/automotive-v1/client/html/user/user.register.html",
@@ -166,75 +264,19 @@
 		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/search.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/768/items.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/768/search.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/index.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/320/header.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/js/data/panels.json",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/index.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/js/app/app.route.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/header/header.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/app.route.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/panel/panel.module.js",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/base.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/js/common/common.module.js",
-		"/Users/jj/Development/landonboardwalk.com/bower.json",
-		"/Users/jj/Development/landonboardwalk.com/client/js/contact/contact.route.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/contact/contact.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/contact/contact.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/js/contact/contact.module.js",
-		"/Users/jj/Development/landonboardwalk.com/server/config/seed.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/data/items.json",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/game/game.list.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/js/index/index.route.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/app/app.run.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/index/index.slide.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/index/index.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/js/index/index.slide.service.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/index/index.module.js",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/index/index.slide.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/js/app/app.config.js",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/game/items.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/_front/index.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/_back/index.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/game/game.list.backend.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/js/error/error.route.js",
-		"/Users/jj/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/Users/jj/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
-		"/Users/jj/Development/nationalrxcard.com/server/config/development.json",
-		"/Users/jj/Development/learn/server/server/config/development.json",
-		"/Users/jj/Development/nationalrxcard.com/client/data/pharmacies.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/data/pharmacies.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/data/states/CO.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/WY.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/WV.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/WI.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/WA.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/VT.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/VI.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/VA.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/UT.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/TX.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/TN.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/SD.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/SC.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/RI.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/PR.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/PA.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/OR.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/OK.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/OH.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/NY.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/NV.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/states/NM.json"
+		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/index.styl"
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
 		"height": 149.0,
 		"where_history":
 		[
+			"*.js",
+			"*.styl",
 			"*.js"
 		]
 	},
@@ -243,134 +285,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"table",
-			"gri",
-			"gr",
-			"209px",
-			"10px",
-			"418px",
-			"10px",
-			"img",
-			"10px",
-			"img",
-			"14px",
-			"img",
-			"gri",
-			"dotted",
-			"19px",
-			"26px",
-			"mater",
-			"h4",
-			"row",
-			"h4",
-			"19px",
-			"16px",
-			"exp",
-			"21px",
-			"23px",
-			"29px",
-			"ol",
-			"18px",
-			"15px",
-			"tag",
-			"span",
-			"19px",
-			"17px",
-			"tag",
-			"490px",
-			"360px",
-			"full",
-			"mater",
-			"20px",
-			"17px",
-			"tag",
-			"h4",
+			"IndexEmailModal",
+			"IndexPrintModal",
+			"IndexSaveModal",
+			"index",
+			"member",
+			"index",
+			"IndexTextModal",
+			"index",
+			"controller: 'Index",
+			"h2",
+			"NationalRxCard.jpg",
+			"black",
 			"30px",
+			"20px",
+			"36px",
+			"45px",
+			"23px",
+			"20px",
+			"23px",
+			"31px",
+			"20px",
+			"27px",
+			"20px",
+			"18px",
+			"white",
+			"19px",
+			"18px",
+			"20px",
+			"27px",
+			"26px",
+			"19px",
+			"29px",
+			"31px",
+			"27px",
+			"20px",
+			"29px",
+			"24px",
+			"31px",
+			"24px",
+			"h2",
+			"15px",
+			"26px",
+			"20px",
+			"33px",
 			"27px",
 			"25px",
+			"tag",
+			"19px",
 			"20px",
-			"24px",
-			"348px",
-			"table",
-			"12px",
-			"21px",
-			"14px",
-			"19px",
-			"h5",
-			"tag",
-			"h5",
-			"tag",
-			"15px",
-			"tag",
-			"283px",
-			"348px",
-			"340px",
-			"tab",
-			"335px",
-			"18px",
+			"23px",
+			"32px",
+			"30px",
 			"28px",
-			"19px",
+			"31px",
+			"34px",
+			"33px",
 			"25px",
-			"table",
-			"tag",
-			"17px",
-			"16px",
-			"11px",
-			"12px",
+			"23px",
+			"20px",
+			"40px",
+			"39px",
+			"32px",
+			"31px",
 			"18px",
-			"17px",
-			"15px",
-			"17px",
-			"				",
-			"17px",
-			"center",
-			"tab",
-			"config",
-			"user",
-			"game",
-			"app.games",
-			"itemsResolve",
-			"\"",
-			"column",
-			"left",
-			"white",
-			"\"",
-			"                        ",
-			"column",
-			"40100",
-			"column",
-			"10px",
-			"280px",
-			"300px",
-			"top",
-			"light",
-			"left",
-			"\"",
-			"small",
+			"25px",
+			"29px",
+			"23px",
+			"24px",
+			"23px",
+			"25px",
+			"40px",
+			"h2",
+			"33px",
+			"26px",
+			"20px",
+			"35px",
+			"28px",
+			"34px",
+			"19px",
+			"400px",
+			"20px",
+			"35px",
 			"18px",
-			"\"",
-			"data:{{item.tabs.review.images[7].filetype}};base64,{{item.tabs.review.images[7].base64}}",
-			"data:{{item.tabs.review.images[0].filetype}};base64,{{item.tabs.review.images[0].base64}}",
+			"34px",
+			"47px",
+			"card",
+			"30px",
+			"28px",
+			"30px",
 			"10px",
-			"tablecontents",
+			"h2",
+			"19px",
+			"card",
+			"<span>",
+			"29px",
+			"35px",
+			"000",
+			"card",
+			"33px",
+			"35px",
+			"49px",
+			"22px",
+			"19px",
+			"30px",
+			"h4",
+			"h",
+			"h2",
 			"h3",
-			"\"",
-			"item",
-			"itemResolve",
-			"itemsResolve",
-			"item",
-			"Item",
-			"item",
-			"Game",
-			"ItemSchema",
-			"#ff0",
-			" 0",
-			"item",
-			"items",
-			"118px",
-			"108px",
-			"58px",
-			"210px"
+			"h2",
+			"29px",
+			"260px",
+			"25px",
+			"24px",
+			"280px",
+			"20px",
+			"30px",
+			"300px",
+			"30px",
+			"60px",
+			"point",
+			"23px",
+			"25px",
+			"27px",
+			"test",
+			"27px",
+			"40px",
+			"20px",
+			"0"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -378,6 +420,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"national_rx_card.png",
+			"$grey",
+			"$grey-border",
 			"app.game"
 		],
 		"reverse": false,
@@ -389,8 +434,114 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "client/styl/1100/index.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/js/member/member.view.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "client/jade/member/member.view.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4907,
+								4907
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1085.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -411,11 +562,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -447,8 +605,344 @@
 		"selected_items":
 		[
 			[
+				"viewcon",
+				"client/js/member/member.view.controller.js"
+			],
+			[
+				"membemial",
+				"client/js/member/member.email.modal.controller.js"
+			],
+			[
+				"memberprin",
+				"client/js/member/member.print.modal.controller.js"
+			],
+			[
+				"membsav",
+				"client/js/member/member.save.modal.controller.js"
+			],
+			[
+				"indrou",
+				"client/js/index/index.routes.js"
+			],
+			[
+				"membtextcon",
+				"client/js/member/member.text.modal.controller.js"
+			],
+			[
+				"membertext",
+				"client/jade/member/member.text.modal.jade"
+			],
+			[
+				"membrou",
+				"client/js/member/member.routes.js"
+			],
+			[
+				"inj",
+				"client/jade/index.jade"
+			],
+			[
+				"membercon",
+				"client/js/member/member.controller.js"
+			],
+			[
+				"membertextmo",
+				"client/js/member/member.text.modal.controller.js"
+			],
+			[
+				"mem",
+				"client/data/members.json"
+			],
+			[
+				"indtextmodo",
+				"client/js/index/index.text.modal.controller.js"
+			],
+			[
+				"indtextmo",
+				"client/jade/index/index.text.modal.jade"
+			],
+			[
+				"indcon",
+				"client/js/index/index.controller.js"
+			],
+			[
+				"inja",
+				"client/jade/index.jade"
+			],
+			[
+				"approut",
+				"client/js/app/app.routes.js"
+			],
+			[
+				"memberrou",
+				"client/js/member/member.routes.js"
+			],
+			[
+				"11ind",
+				"client/styl/1100/index.styl"
+			],
+			[
+				"textmocon",
+				"client/js/index/index.text.modal.controller.js"
+			],
+			[
+				"memjson",
+				"client/data/members.json"
+			],
+			[
+				"11head",
+				"client/styl/1100/header.styl"
+			],
+			[
+				"11card",
+				"client/styl/1100/card.styl"
+			],
+			[
+				"32card",
+				"client/styl/320/card.styl"
+			],
+			[
+				"32mod",
+				"client/styl/320/modal.styl"
+			],
+			[
+				"printmo",
+				"client/jade/index/index.print.modal.jade"
+			],
+			[
+				"emailmo",
+				"client/jade/index/index.email.modal.jade"
+			],
+			[
+				"savemod",
+				"client/jade/index/index.save.modal.jade"
+			],
+			[
+				"em",
+				"client/jade/index/index.email.modal.jade"
+			],
+			[
+				"11mod",
+				"client/styl/1100/modal.styl"
+			],
+			[
+				"9card",
+				"client/styl/900/card.styl"
+			],
+			[
+				"9ind",
+				"client/styl/900/index.styl"
+			],
+			[
+				"9car",
+				"client/styl/900/card.styl"
+			],
+			[
+				"9mod",
+				"client/styl/900/modal.styl"
+			],
+			[
+				"7mod",
+				"client/styl/768/modal.styl"
+			],
+			[
+				"36car",
+				"client/styl/360/card.styl"
+			],
+			[
+				"32car",
+				"client/styl/320/card.styl"
+			],
+			[
+				"config",
+				"client/styl/config.styl"
+			],
+			[
+				"5mod",
+				"client/styl/560/modal.styl"
+			],
+			[
+				"32mo",
+				"client/styl/320/modal.styl"
+			],
+			[
+				"36card",
+				"client/styl/360/card.styl"
+			],
+			[
+				"intextmo",
+				"client/jade/index/index.text.modal.jade"
+			],
+			[
+				"36mod",
+				"client/styl/360/modal.styl"
+			],
+			[
+				"48mod",
+				"client/styl/480/modal.styl"
+			],
+			[
+				"48card",
+				"client/styl/480/card.styl"
+			],
+			[
+				"indeprinmo",
+				"client/jade/index/index.print.modal.jade"
+			],
+			[
+				"indsavmod",
+				"client/jade/index/index.save.modal.jade"
+			],
+			[
+				"indemmodja",
+				"client/jade/index/index.email.modal.jade"
+			],
+			[
+				"indindja",
+				"client/jade/index/index.jade"
+			],
+			[
+				"textmodja",
+				"client/jade/index/index.text.modal.jade"
+			],
+			[
+				"32ind",
+				"client/styl/320/index.styl"
+			],
+			[
+				"9head",
+				"client/styl/900/header.styl"
+			],
+			[
+				"7card",
+				"client/styl/768/card.styl"
+			],
+			[
+				"7car",
+				"client/styl/768/card.styl"
+			],
+			[
+				"7ind",
+				"client/styl/768/index.styl"
+			],
+			[
+				"4ind",
+				"client/styl/480/index.styl"
+			],
+			[
+				"36ind",
+				"client/styl/360/index.styl"
+			],
+			[
+				"40in",
+				"client/styl/480/index.styl"
+			],
+			[
+				"5he",
+				"client/styl/560/header.styl"
+			],
+			[
+				"56ind",
+				"client/styl/560/index.styl"
+			],
+			[
+				"inindja",
+				"client/jade/index/index.jade"
+			],
+			[
+				"4head",
+				"client/styl/480/header.styl"
+			],
+			[
+				"32hea",
+				"client/styl/320/header.styl"
+			],
+			[
+				"56car",
+				"client/styl/560/card.styl"
+			],
+			[
+				"4card",
+				"client/styl/480/card.styl"
+			],
+			[
+				"5ind",
+				"client/styl/560/index.styl"
+			],
+			[
+				"56card",
+				"client/styl/560/card.styl"
+			],
+			[
+				"32he",
+				"client/styl/320/header.styl"
+			],
+			[
+				"48car",
+				"client/styl/480/card.styl"
+			],
+			[
+				"36in",
+				"client/styl/360/index.styl"
+			],
+			[
+				"36head",
+				"client/styl/360/header.styl"
+			],
+			[
+				"headja",
+				"client/jade/header/header.jade"
+			],
+			[
+				"32head",
+				"client/styl/320/header.styl"
+			],
+			[
+				"ininja",
+				"client/jade/index/index.jade"
+			],
+			[
+				"11heae",
+				"client/styl/1100/header.styl"
+			],
+			[
+				"11he",
+				"client/styl/1100/header.styl"
+			],
+			[
 				"conf",
 				"client/styl/config.styl"
+			],
+			[
+				"indindj",
+				"client/jade/index/index.jade"
+			],
+			[
+				"11car",
+				"client/styl/1100/card.styl"
+			],
+			[
+				"7head",
+				"client/styl/768/header.styl"
+			],
+			[
+				"con",
+				"client/styl/config.styl"
+			],
+			[
+				"32foot",
+				"client/styl/320/footer.styl"
+			],
+			[
+				"7he",
+				"client/styl/768/header.styl"
+			],
+			[
+				"32h",
+				"client/styl/320/header.styl"
+			],
+			[
+				"32in",
+				"client/styl/320/index.styl"
 			],
 			[
 				"gameviewja",
@@ -621,342 +1115,6 @@
 			[
 				"gamcon",
 				"server/api/game/game.controller.js"
-			],
-			[
-				"gammo",
-				"client/js/games/games.module.js"
-			],
-			[
-				"appm",
-				"client/js/app/app.module.js"
-			],
-			[
-				"app",
-				"client/js/app/app.module.js"
-			],
-			[
-				"viewcon",
-				"client/js/games/games.view.controller.js"
-			],
-			[
-				"gamrou",
-				"client/js/games/games.route.js"
-			],
-			[
-				"gri",
-				"client/jade/_common/grid.jade"
-			],
-			[
-				"gameviewcon",
-				"client/js/games/games.view.controller.js"
-			],
-			[
-				"gamelistcon",
-				"client/js/games/games.list.controller.js"
-			],
-			[
-				"gameimagmod",
-				"server/api/game/game.image.model.js"
-			],
-			[
-				"gamecont",
-				"server/api/game/game.controller.js"
-			],
-			[
-				"gamemod",
-				"server/api/game/game.model.js"
-			],
-			[
-				"gamecon",
-				"server/api/game/game.controller.js"
-			],
-			[
-				"gamind",
-				"server/api/game/index.js"
-			],
-			[
-				"server",
-				"server.js"
-			],
-			[
-				"itemmod",
-				"server/api/item/item.model.js"
-			],
-			[
-				"gamejad",
-				"client/jade/game/game.view.jade"
-			],
-			[
-				"gam",
-				"client/js/data/games.json"
-			],
-			[
-				"inst",
-				"client/styl/index.styl"
-			],
-			[
-				"11he",
-				"client/styl/1100/header.styl"
-			],
-			[
-				"32pan",
-				"client/styl/320/side-panel.styl"
-			],
-			[
-				"11sipa",
-				"client/styl/1100/side-panel.styl"
-			],
-			[
-				"9sidpa",
-				"client/styl/900/side-panel.styl"
-			],
-			[
-				"7sipa",
-				"client/styl/768/side-panel.styl"
-			],
-			[
-				"56sidpa",
-				"client/styl/560/side-panel.styl"
-			],
-			[
-				"4sidpa",
-				"client/styl/480/side-panel.styl"
-			],
-			[
-				"36sipa",
-				"client/styl/360/side-panel.styl"
-			],
-			[
-				"corncon",
-				"client/js/corner/corner.controller.js"
-			],
-			[
-				"pancon",
-				"client/js/panel/panel.controller.js"
-			],
-			[
-				"cor",
-				"client/jade/corner/corner.jade"
-			],
-			[
-				"corner",
-				"client/js/corner/corner.controller.js"
-			],
-			[
-				"cornja",
-				"client/jade/corner/corner.jade"
-			],
-			[
-				"36sid",
-				"client/styl/360/side.styl"
-			],
-			[
-				"7side",
-				"client/styl/768/side.styl"
-			],
-			[
-				"5side",
-				"client/styl/560/side.styl"
-			],
-			[
-				"48side",
-				"client/styl/480/side.styl"
-			],
-			[
-				"36si",
-				"client/styl/360/side.styl"
-			],
-			[
-				"head",
-				"client/jade/header/header.jade"
-			],
-			[
-				"32si",
-				"client/styl/320/side.styl"
-			],
-			[
-				"header",
-				"client/jade/header/header.jade"
-			],
-			[
-				"11si",
-				"client/styl/1100/side-panel.styl"
-			],
-			[
-				"9sidp",
-				"client/styl/900/side-panel.styl"
-			],
-			[
-				"7sidp",
-				"client/styl/768/side-panel.styl"
-			],
-			[
-				"5sipa",
-				"client/styl/560/side-panel.styl"
-			],
-			[
-				"4sipa",
-				"client/styl/480/side-panel.styl"
-			],
-			[
-				"32sipa",
-				"client/styl/320/side-panel.styl"
-			],
-			[
-				"32sid",
-				"client/styl/320/side.styl"
-			],
-			[
-				"768itsm",
-				"client/styl/768/items.styl"
-			],
-			[
-				"7sear",
-				"client/styl/768/search.styl"
-			],
-			[
-				"11sear",
-				"client/styl/1100/search.styl"
-			],
-			[
-				"11ind",
-				"client/styl/1100/index.styl"
-			],
-			[
-				"32head",
-				"client/styl/320/header.styl"
-			],
-			[
-				"panja",
-				"client/jade/panel/panel.jade"
-			],
-			[
-				"11sidpa",
-				"client/styl/1100/side-panel.styl"
-			],
-			[
-				"7sidpa",
-				"client/styl/768/side-panel.styl"
-			],
-			[
-				"5sidpa",
-				"client/styl/560/side-panel.styl"
-			],
-			[
-				"36sidpa",
-				"client/styl/360/side-panel.styl"
-			],
-			[
-				"slidej",
-				"client/js/data/slides.json"
-			],
-			[
-				"gamesjs",
-				"client/js/data/games.json"
-			],
-			[
-				"indst",
-				"client/styl/index.styl"
-			],
-			[
-				"panejs",
-				"client/js/data/panels.json"
-			],
-			[
-				"panecon",
-				"client/js/panel/panel.controller.js"
-			],
-			[
-				"cornercon",
-				"client/js/corner/corner.controller.js"
-			],
-			[
-				"inja",
-				"client/jade/index.jade"
-			],
-			[
-				"corn",
-				"client/jade/corner/corner.jade"
-			],
-			[
-				"aprou",
-				"client/js/app.route.js"
-			],
-			[
-				"headja",
-				"client/jade/header/header.jade"
-			],
-			[
-				"panepane",
-				"client/jade/panel/panel.jade"
-			],
-			[
-				"apmod",
-				"client/js/app/app.module.js"
-			],
-			[
-				"panelmod",
-				"client/js/panel/panel.module.js"
-			],
-			[
-				"approut",
-				"client/js/app.route.js"
-			],
-			[
-				"base",
-				"client/styl/base.styl"
-			],
-			[
-				"headcon",
-				"client/js/header/header.controller.js"
-			],
-			[
-				"commod",
-				"client/js/common/common.module.js"
-			],
-			[
-				"controu",
-				"client/js/contact/contact.route.js"
-			],
-			[
-				"contcont",
-				"client/js/contact/contact.controller.js"
-			],
-			[
-				"contja",
-				"client/jade/contact/contact.jade"
-			],
-			[
-				"contmod",
-				"client/js/contact/contact.module.js"
-			],
-			[
-				"commmod",
-				"client/js/common/common.module.js"
-			],
-			[
-				"contarout",
-				"client/js/contact/contact.route.js"
-			],
-			[
-				"appmod",
-				"client/js/app/app.module.js"
-			],
-			[
-				"seed",
-				"server/config/seed.js"
-			],
-			[
-				"itemjs",
-				"client/js/data/items.json"
-			],
-			[
-				"gamelistja",
-				"client/jade/game/game.list.jade"
-			],
-			[
-				"gameview",
-				"client/js/games/games.view.controller.js"
 			]
 		],
 		"width": 0.0
@@ -983,11 +1141,11 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 283.0,
+	"side_bar_width": 298.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
