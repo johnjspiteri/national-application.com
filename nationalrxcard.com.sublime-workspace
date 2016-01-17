@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"foreground-border"
+			],
+			[
 				"bur",
 				"burgundy-text-shadow"
 			],
@@ -19,30 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "client/styl/1100/index.styl",
-			"settings":
-			{
-				"buffer_size": 4646,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/js/member/member.view.controller.js",
-			"settings":
-			{
-				"buffer_size": 907,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/jade/member/member.view.jade",
-			"settings":
-			{
-				"buffer_size": 7269,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -129,14 +109,31 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jj/Development/nationalrxcard.com",
-		"/Users/jj/Development/nationalrxcard.com/client",
-		"/Users/jj/Development/nationalrxcard.com/client/jade/member",
-		"/Users/jj/Development/nationalrxcard.com/server",
-		"/Users/jj/Development/nationalrxcard.com/server/config"
+		"/Users/jj/Development/nationalrxcard.com"
 	],
 	"file_history":
 	[
+		"/Users/jj/Development/landonboardwalk.com/client/styl/320/page.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/base.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/320/side-panel.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/game.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/games.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/320/game.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/config.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/900/side-panel.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/side-panel.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/768/side-panel.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/560/side-panel.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/480/side-panel.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/360/side-panel.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/360/game.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/560/game.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/900/game.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/header.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/jade/corner/corner.jade",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/480/game.styl",
+		"/Users/jj/Development/landonboardwalk.com/client/styl/768/game.styl",
+		"/Users/jj/Development/landonboardwalk.com/server/config/development.json",
 		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.text.modal.controller.js",
 		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.email.modal.controller.js",
 		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.print.modal.controller.js",
@@ -196,21 +193,12 @@
 		"/Users/jj/Development/nationalrxcard.com/server/config/development.json",
 		"/Users/jj/Development/nationalrxcard.com/nationalrxcard.com.sublime-project",
 		"/Users/jj/Development/nationalrxcard.com/.gitignore",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/900/game.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/jade/game/game.view.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/360/game.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/320/game.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/480/game.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/game.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/768/game.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/560/game.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/config.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/js/data/slides.json",
 		"/Users/jj/Development/landonboardwalk.com/client/js/data/games.json",
 		"/Users/jj/Development/landonboardwalk.com/landonboardwalk.com.sublime-project",
 		"/Users/jj/Development/landonboardwalk.com/package.json",
 		"/Users/jj/Development/landonboardwalk.com/gruntfile.js",
-		"/Users/jj/Development/landonboardwalk.com/server/config/development.json",
 		"/Users/jj/Development/automotive-v1/client/html/user/user.register.html",
 		"/Users/jj/Development/automotive-v1/client/js/inventory/inventory.route.js",
 		"/Users/jj/Development/automotive-v1/client/js/common/common.module.js",
@@ -233,8 +221,6 @@
 		"/Users/jj/Development/landonboardwalk.com/server.js",
 		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.service.js",
 		"/Users/jj/Development/landonboardwalk.com/client/js/app/app.module.js",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/320/side-panel.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/corner/corner.jade",
 		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.view.controller.js",
 		"/Users/jj/Development/landonboardwalk.com/server/api/game/game.controller.js",
 		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.module.js",
@@ -245,13 +231,6 @@
 		"/Users/jj/Development/landonboardwalk.com/server/api/game/index.js",
 		"/Users/jj/Development/landonboardwalk.com/server/api/item/item.model.js",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/index.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/header.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/900/side-panel.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/side-panel.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/768/side-panel.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/360/side-panel.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/560/side-panel.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/480/side-panel.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/jade/panel/panel.jade",
 		"/Users/jj/Development/landonboardwalk.com/client/js/corner/corner.controller.js",
 		"/Users/jj/Development/landonboardwalk.com/client/js/panel/panel.controller.js",
@@ -261,14 +240,11 @@
 		"/Users/jj/Development/landonboardwalk.com/client/styl/480/side.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/560/side.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/jade/header/header.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/search.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/768/items.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/768/search.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/index.styl"
+		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/search.styl"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -285,6 +261,28 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"128px",
+			"108px",
+			"88px",
+			"84px",
+			"78px",
+			"84px",
+			"68px",
+			"108px",
+			"24px",
+			"table",
+			"26px",
+			"table",
+			"26px",
+			"table",
+			"24px",
+			"table",
+			"23px",
+			"24px",
+			"table",
+			"22px",
+			"table",
+			"shad",
 			"IndexEmailModal",
 			"IndexPrintModal",
 			"IndexSaveModal",
@@ -390,29 +388,7 @@
 			"19px",
 			"30px",
 			"h4",
-			"h",
-			"h2",
-			"h3",
-			"h2",
-			"29px",
-			"260px",
-			"25px",
-			"24px",
-			"280px",
-			"20px",
-			"30px",
-			"300px",
-			"30px",
-			"60px",
-			"point",
-			"23px",
-			"25px",
-			"27px",
-			"test",
-			"27px",
-			"40px",
-			"20px",
-			"0"
+			"h"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -434,114 +410,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "client/styl/1100/index.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4646,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/predawn (SL).tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "client/js/member/member.view.controller.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 907,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								230,
-								230
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "client/jade/member/member.view.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7269,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4907,
-								4907
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1085.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -562,18 +432,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -604,6 +467,106 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"base",
+				"client/styl/base.styl"
+			],
+			[
+				"32pag",
+				"client/styl/320/page.styl"
+			],
+			[
+				"con",
+				"client/styl/config.styl"
+			],
+			[
+				"11game",
+				"client/styl/1100/game.styl"
+			],
+			[
+				"11games",
+				"client/styl/1100/games.styl"
+			],
+			[
+				"32gam",
+				"client/styl/320/game.styl"
+			],
+			[
+				"32si",
+				"client/styl/320/side-panel.styl"
+			],
+			[
+				"32game",
+				"client/styl/320/game.styl"
+			],
+			[
+				"conf",
+				"client/styl/config.styl"
+			],
+			[
+				"11siap",
+				"client/styl/1100/side-panel.styl"
+			],
+			[
+				"9sidpa",
+				"client/styl/900/side-panel.styl"
+			],
+			[
+				"7sidpa",
+				"client/styl/768/side-panel.styl"
+			],
+			[
+				"56sidpa",
+				"client/styl/560/side-panel.styl"
+			],
+			[
+				"4sipa",
+				"client/styl/480/side-panel.styl"
+			],
+			[
+				"36sidpa",
+				"client/styl/360/side-panel.styl"
+			],
+			[
+				"32sidpa",
+				"client/styl/320/side-panel.styl"
+			],
+			[
+				"corner",
+				"client/jade/corner/corner.jade"
+			],
+			[
+				"11head",
+				"client/styl/1100/header.styl"
+			],
+			[
+				"11ga",
+				"client/styl/1100/game.styl"
+			],
+			[
+				"9game",
+				"client/styl/900/game.styl"
+			],
+			[
+				"7gam",
+				"client/styl/768/game.styl"
+			],
+			[
+				"56ga",
+				"client/styl/560/game.styl"
+			],
+			[
+				"4ga",
+				"client/styl/480/game.styl"
+			],
+			[
+				"36ga",
+				"client/styl/360/game.styl"
+			],
+			[
+				"config",
+				"client/styl/config.styl"
+			],
 			[
 				"viewcon",
 				"client/js/member/member.view.controller.js"
@@ -689,10 +652,6 @@
 				"client/data/members.json"
 			],
 			[
-				"11head",
-				"client/styl/1100/header.styl"
-			],
-			[
 				"11card",
 				"client/styl/1100/card.styl"
 			],
@@ -751,10 +710,6 @@
 			[
 				"32car",
 				"client/styl/320/card.styl"
-			],
-			[
-				"config",
-				"client/styl/config.styl"
 			],
 			[
 				"5mod",
@@ -909,10 +864,6 @@
 				"client/styl/1100/header.styl"
 			],
 			[
-				"conf",
-				"client/styl/config.styl"
-			],
-			[
 				"indindj",
 				"client/jade/index/index.jade"
 			],
@@ -923,10 +874,6 @@
 			[
 				"7head",
 				"client/styl/768/header.styl"
-			],
-			[
-				"con",
-				"client/styl/config.styl"
 			],
 			[
 				"32foot",
@@ -951,10 +898,6 @@
 			[
 				"32",
 				"client/styl/320/game.styl"
-			],
-			[
-				"11ga",
-				"client/styl/1100/game.styl"
 			],
 			[
 				"gamevieja",
@@ -1001,14 +944,6 @@
 				"client/jade/game/game.view.jade"
 			],
 			[
-				"36ga",
-				"client/styl/360/game.styl"
-			],
-			[
-				"4ga",
-				"client/styl/480/game.styl"
-			],
-			[
 				"56gam",
 				"client/styl/560/game.styl"
 			],
@@ -1043,78 +978,6 @@
 			[
 				"userreistja",
 				"client/jade/user/user.register.jade"
-			],
-			[
-				"userreg",
-				"client/html/user/user.register.html"
-			],
-			[
-				"userja",
-				"client/jade/user/user.login.jade"
-			],
-			[
-				"approu",
-				"client/js/app/app.routes.js"
-			],
-			[
-				"inventrou",
-				"client/js/inventory/inventory.route.js"
-			],
-			[
-				"appcon",
-				"client/js/app/app.config.js"
-			],
-			[
-				"commo",
-				"client/js/common/common.module.js"
-			],
-			[
-				"ser",
-				"server/server.js"
-			],
-			[
-				"indja",
-				"client/jade/index.jade"
-			],
-			[
-				"appmo",
-				"client/js/app/app.module.js"
-			],
-			[
-				"bower",
-				"client/js/bower.json"
-			],
-			[
-				"listcon",
-				"client/js/games/games.list.controller.js"
-			],
-			[
-				"gamerou",
-				"client/js/games/games.route.js"
-			],
-			[
-				"gameser",
-				"client/js/games/games.service.js"
-			],
-			[
-				"32sidpa",
-				"client/styl/320/side-panel.styl"
-			],
-			[
-				"corneja",
-				"client/jade/corner/corner.jade"
-			],
-			[
-				"apmo",
-				"client/js/app/app.module.js"
-			],
-			[
-				"gamlicon",
-				"client/js/games/games.list.controller.js"
-			],
-			[
-				"gamcon",
-				"server/api/game/game.controller.js"
 			]
 		],
 		"width": 0.0

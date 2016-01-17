@@ -2354,9 +2354,9 @@ small {
   }
   header .header .brand .logo {
     float: left;
-    width: 250px;
+    width: 240px;
     padding: 0;
-    margin: 6px 0 16px 15px;
+    margin: 6px 0 16px 20px;
   }
   header .header .brand .logo img {
     float: left;
@@ -2460,7 +2460,7 @@ small {
   .content .main .download .tag {
     float: left;
     width: 63px;
-    padding: 10px 0 7px 0;
+    padding: 10px 0 6px 0;
     margin: 0 12px 0 0;
     background: #8a0d4a;
     border-bottom: 4px solid #4a0024;
@@ -2479,7 +2479,7 @@ small {
     text-align: center;
     text-shadow: -1px -1px 0px #000;
   }
-  .content .main .download .tag p span {
+  .content .main .download .tag p.full {
     display: none;
   }
   .content .main .download .tag .fa-cloud,
@@ -2490,14 +2490,14 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    height: 28px;
+    height: 26px;
     font-size: 22px;
     color: #fff;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
   }
   .content .main .download .tag .fa-mobile {
-    height: 35px;
+    height: 33px;
     margin: -6px 0 0 0px;
     font-size: 35px;
   }
@@ -2505,7 +2505,7 @@ small {
     font-size: 18px;
   }
   .content .main .download .tag .fa-file-text {
-    font-size: 20px;
+    font-size: 19px;
   }
   .content .points {
     float: left;
@@ -2534,15 +2534,15 @@ small {
     left: -14px;
     color: #ffffb5;
     font-size: 29px;
-    text-shadow: $shadow;
+    text-shadow: 0px 1px 0px #000;
   }
   .content .points .point-container .point h3 {
     float: left;
-    padding: 10px 24px 21px 24px;
-    margin: 0 0 0 0;
+    padding: 8px 24px 18px 24px;
+    margin: 0;
     font-weight: 500;
     font-size: 28px;
-    line-height: 35px;
+    line-height: 33px;
     color: #fff;
     text-align: center;
     background: #8a0d4a;
@@ -2569,7 +2569,7 @@ small {
     margin: -18px 0 0 300px;
     font-size: 34px;
     color: #ffffb5;
-    text-shadow: $shadow;
+    text-shadow: 0px 1px 0px #000;
   }
   .content .center h1 {
     float: left;
@@ -2812,7 +2812,7 @@ small {
     line-height: 35px;
     color: #fff;
     text-align: center;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #333;
   }
   .content .locator .locator-results .locator-results-content {
     float: left;
@@ -2887,12 +2887,12 @@ small {
     padding: 0;
     margin: 0 0 34px 0;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #333;
     text-align: center;
-    text-shadow: $white-shadow;
+    text-shadow: none;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
     float: left;
@@ -2903,7 +2903,7 @@ small {
     line-height: 25px;
     margin: 0 0 9px 0;
     text-align: center;
-    text-shadow: $white-shadow;
+    text-shadow: none;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     float: left;
@@ -2915,7 +2915,7 @@ small {
     font-size: 21px;
     line-height: 21px;
     text-align: center;
-    text-shadow: $white-shadow;
+    text-shadow: none;
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: none;
@@ -2975,7 +2975,7 @@ small {
     line-height: 20px;
     color: #8a0d4a;
     text-align: center;
-    text-shadow: $white-shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .contact-holder .contact-detail .contact-container h4 {
     float: left;
@@ -3039,16 +3039,16 @@ small {
     font-size: 25px;
     line-height: 52px;
     color: #fff;
-    background: $tag;
+    background: #8a0d4a;
     border: none;
-    border-bottom: 3px solid $tag-border;
+    border-bottom: 3px solid #4a0024;
     background-repeat: repeat-x;
     border-radius: 6px 6px 6px 6px;
     box-shadow: none;
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
     box-shadow: 1px 1px 4px #aaa;
     text-align: center;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
     vertical-align: middle;
     user-select: none;
     cursor: pointer;
@@ -3114,7 +3114,7 @@ small {
     width: 280px;
     padding: 14px 10px 18px 10px;
     margin: 8px 0 12px 0;
-    background: #ccc;
+    background: #777;
     border: 1px solid #000;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3139,7 +3139,6 @@ small {
     line-height: 19px;
     color: #333;
     text-align: center;
-    text-shadow: -1px -1px 0px #fff;
     cursor: pointer;
   }
   .modal-holder .modal-container .row {
@@ -3159,7 +3158,7 @@ small {
     line-height: 26px;
     background: #fff;
     border: none;
-    border-bottom: 4px solid #666;
+    border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
     text-align: center;
   }
@@ -3204,16 +3203,17 @@ small {
     font-size: 17px;
     line-height: 28px;
     text-align: center;
-    color: #000;
-    text-shadow: -1px -1px 0px #fff;
+    color: #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .modal-holder .modal-container .legal a {
+    font-style: italic;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
-    color: #8a0d4a;
+    color: #fff;
     text-align: center;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   footer {
     float: left;
@@ -3308,9 +3308,9 @@ small {
     font-weight: 500;
     font-size: 23px;
     line-height: 52px;
-    background: $tag;
+    background: #8a0d4a;
     border: none;
-    border-bottom: 3px solid $tag-border;
+    border-bottom: 3px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
     cursor: pointer;
   }
@@ -3322,7 +3322,7 @@ small {
     line-height: 54px;
     color: #fff;
     text-align: center;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .answers-holder {
     float: left;
@@ -3352,7 +3352,7 @@ small {
     font-size: 23px;
     line-height: 29px;
     text-align: center;
-    border-bottom: 3px solid $tag;
+    border-bottom: 3px solid #8a0d4a;
   }
   .answers-holder .answer p {
     float: left;
@@ -3375,8 +3375,8 @@ small {
     float: left;
     margin: 10px 8px 0 0;
     padding: 0;
-    background: $tag;
-    border-bottom: 4px solid $tag-border;
+    background: #8a0d4a;
+    border-bottom: 4px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
   }
   .answers-holder .answer .tag-holder .tag h5 {
@@ -3388,14 +3388,14 @@ small {
     font-size: 15px;
     line-height: 15px;
     color: #fff;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .card-member {
     float: left;
     width: 320px;
     padding: 20px 0 0 0;
     margin: 0 0 12px 0;
-    background: #d1d1d1;
+    background: #999226 url("../img/squairy.png");
     border-top: none;
     border-bottom: 4px solid #333;
     overflow: hidden;
@@ -3421,8 +3421,8 @@ small {
     font-weight: 400;
     font-size: 17px;
     line-height: 17px;
-    color: #333;
-    text-shadow: $white-shadow;
+    color: #fff;
+    text-shadow: -1px -1px 0px #000;
     text-align: left;
   }
   .card-member .member .member-content .row .left {
@@ -3436,9 +3436,9 @@ small {
     margin: 0 0 12px 0;
   }
   .card-member .member .member-content .row .right h4 {
-    color: $tag;
+    color: #8a0d4a;
     text-align: left;
-    text-shadow: $white-shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .card-member .member .member-content .row .left.small {
     width: 60px;
@@ -3483,8 +3483,8 @@ small {
     font-weight: 300;
     font-size: 16px;
     line-height: 25px;
-    color: #333;
-    text-shadow: $white-shadow;
+    color: #fff;
+    text-shadow: -1px -1px 0px #000;
     text-align: left;
   }
   .card-member .disclaimer a {
@@ -3495,8 +3495,8 @@ small {
     font-weight: 500;
     font-size: 21px;
     line-height: 21px;
-    color: #333;
-    text-shadow: $white-shadow;
+    color: #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card-member .disclaimer .brand {
     float: left;
@@ -3510,11 +3510,11 @@ small {
   .card-modal {
     float: left;
     width: 254px;
-    padding: 26px 0px 16px 26px;
+    padding: 28px 0px 16px 26px;
     margin: 0 0 12px 0;
-    background: linear-gradient(to bottom, #ffe, #ffffb5);
+    background: #999226 url("../img/squairy.png");
     border-top: none;
-    border-bottom: 4px solid #8b8b23;
+    border-bottom: 4px solid #474200;
     border-radius: 8px;
     overflow: hidden;
   }
@@ -3541,11 +3541,11 @@ small {
     width: 100%;
     margin: 0 0 11px 0;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    color: #333;
+    font-size: 29px;
+    line-height: 29px;
+    color: #fff;
     text-align: left;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card-modal .card-content .company {
     float: left;
@@ -3557,9 +3557,9 @@ small {
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    color: #666;
+    color: #fff;
     text-align: left;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card-modal .card-content .company span {
     float: left;
@@ -3567,9 +3567,9 @@ small {
     margin: 0 8px;
     font-size: 22px;
     line-height: 22px;
-    color: #666;
+    color: #fff;
     text-align: left;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card-modal .card-content .patient-holder {
     float: left;
@@ -3585,12 +3585,12 @@ small {
     font-weight: 400;
     font-size: 23px;
     line-height: 23px;
-    color: #333;
+    color: #fff;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card-modal .card-content .patient-holder .row {
     float: left;
@@ -3600,78 +3600,90 @@ small {
   }
   .card-modal .card-content .patient-holder .row h6 {
     float: left;
-    width: 82px;
+    width: 94px;
     padding: 0;
     margin: 0;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    color: #666;
-    text-shadow: -1px -1px 0px #fff;
+    font-size: 15px;
+    line-height: 15px;
+    color: #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card {
     float: left;
-    width: 272px;
-    padding: 22px 0px 16px 28px;
+    width: 276px;
+    padding: 26px 0px 16px 24px;
     margin: 0 0 10px 10px;
-    background: linear-gradient(to bottom, #ffe, #ffffb5);
+    background: #999226 url("../img/squairy.png");
     border-top: none;
-    border-bottom: 4px solid #8b8b23;
+    border-bottom: 4px solid #333;
     border-radius: 8px;
     overflow: hidden;
   }
-  .card .card-logo {
+  .card .card-lines {
     position: absolute;
-    width: 64px;
+    width: 248px;
     padding: 0;
-    margin: 132px 0 0 190px;
+    margin: 92px 0 0 72px;
     z-index: 1;
+    opacity: 0.6;
   }
-  .card .card-logo img {
+  .card .card-lines img {
     float: left;
     width: 100%;
   }
   .card .card-content {
     position: relative;
-    width: 250px;
+    width: 276px;
     padding: 0;
     margin: 0;
     z-index: 99;
   }
-  .card .card-content h1 {
+  .card .card-content .card-logo {
+    float: left;
+    width: 42px;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  .card .card-content .card-logo img {
     float: left;
     width: 100%;
-    margin: 0 0 12px 0;
+  }
+  .card .card-content h1 {
+    float: left;
+    width: 200px;
+    margin: 0 0 7px 0;
     font-weight: 400;
-    font-size: 31px;
-    line-height: 31px;
-    color: #333;
+    font-size: 23px;
+    line-height: 23px;
+    color: #fff;
     text-align: left;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card .card-content .company {
     float: left;
-    width: 100%;
+    width: 200px;
     margin: 0 0 32px 0;
   }
   .card .card-content .company h5 {
     float: left;
+    font-style: italic;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    color: #666;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
     text-align: left;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card .card-content .company span {
     float: left;
     padding: 0;
-    margin: 0 8px;
-    font-size: 22px;
-    line-height: 22px;
-    color: #666;
+    margin: 0 6px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
     text-align: left;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
   .card .card-content .patient-holder {
     float: left;
@@ -3685,31 +3697,41 @@ small {
     padding: 0;
     margin: 0 0 32px 0;
     font-weight: 400;
-    font-size: 23px;
-    line-height: 23px;
-    color: #333;
+    font-size: 22px;
+    line-height: 22px;
+    color: #fff;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: -1px -1px 0px #fff;
+    text-shadow: -1px -1px 0px #000;
   }
-  .card .card-content .patient-holder .row {
+  .card .card-content .patient-holder .row-holder {
+    float: left;
+    width: 190px;
+  }
+  .card .card-content .patient-holder .row-holder .row {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 10px 0;
+    margin: 0 0 8px 0;
   }
-  .card .card-content .patient-holder .row h6 {
+  .card .card-content .patient-holder .row-holder .row h6 {
     float: left;
-    width: 82px;
+    width: 78px;
     padding: 0;
     margin: 0;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    color: #666;
-    text-shadow: -1px -1px 0px #fff;
+    font-size: 13px;
+    line-height: 13px;
+    color: #fff;
+    text-shadow: -1px -1px 0px #000;
+  }
+  .card .card-content .patient-holder .lines {
+    float: left;
+    width: 46px;
+    padding: 0;
+    margin: 26px 0 0 0;
   }
   .legal-container {
     position: relative;
@@ -3751,11 +3773,11 @@ small {
     font-size: 21px;
     line-height: 29px;
     color: #fff;
-    background: $tag;
-    border-bottom: 4px solid $tag-border;
+    background: #8a0d4a;
+    border-bottom: 4px solid #4a0024;
     border-radius: 8px;
     text-align: center;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .legal-container .legal h4 {
     float: left;
@@ -3861,7 +3883,7 @@ small {
     line-height: 19px;
     color: #fff;
     text-align: right;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .side ul li.close {
     float: left;
@@ -3876,7 +3898,7 @@ small {
     line-height: 23px;
     color: #fff;
     text-align: right;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .side ul li.active {
     background: #8a0d4a;
@@ -3924,24 +3946,24 @@ small {
   }
   .content .main .download .tag {
     width: 76px;
-    padding: 12px 0 8px 0;
+    padding: 12px 0 6px 0;
     margin: 0 10px 0 0;
   }
   .content .main .download .tag p {
     width: 56px;
     margin: 0 10px;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 20px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 30px;
+    height: 28px;
     font-size: 23px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 38px;
+    height: 36px;
     margin: -8px 0 0 -1px;
     font-size: 38px;
   }
@@ -4543,32 +4565,36 @@ small {
   }
   .card {
     width: 315px;
-    padding: 24px 0 22px 30px;
+    padding: 28px 0 22px 30px;
     margin: 0 0 12px 5px;
-  }
-  .card .card-logo {
-    width: 64px;
-    margin: 154px 0 0 240px;
   }
   .card .card-content {
     width: 305px;
   }
+  .card .card-content .card-logo {
+    float: left;
+    width: 46px;
+    padding: 0;
+    margin: 0 22px 0 0;
+  }
   .card .card-content h1 {
-    margin: 0 0 11px 0;
-    font-size: 33px;
-    line-height: 33px;
+    width: 234px;
+    margin: 0 0 8px 0;
+    font-size: 27px;
+    line-height: 27px;
   }
   .card .card-content .company {
-    margin: 0 0 34px 0;
+    width: 234px;
+    margin: 0 0 38px 0;
   }
   .card .card-content .company h5 {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 19px;
+    line-height: 19px;
   }
   .card .card-content .company span {
-    margin: 0 9px;
-    font-size: 22px;
-    line-height: 22px;
+    margin: 0 7px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .card .card-content .patient-holder {
     width: 100%;
@@ -4578,13 +4604,23 @@ small {
     font-size: 26px;
     line-height: 26px;
   }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 10px 0;
+  .card .card-content .patient-holder .row-holder {
+    float: left;
+    width: 210px;
   }
-  .card .card-content .patient-holder .row h6 {
-    width: 84px;
+  .card .card-content .patient-holder .row-holder .row {
+    margin: 0 0 11px 0;
+  }
+  .card .card-content .patient-holder .row-holder .row h6 {
+    width: 88px;
     font-size: 15px;
     line-height: 15px;
+  }
+  .card .card-content .patient-holder .lines {
+    float: left;
+    width: 48px;
+    padding: 0;
+    margin: 38px 0 0 8px;
   }
   .legal-container {
     width: 338px;
@@ -4706,7 +4742,7 @@ small {
     line-height: 23px;
     color: #fff;
     text-align: right;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .side ul li.close {
     float: left;
@@ -4721,7 +4757,7 @@ small {
     line-height: 23px;
     color: #fff;
     text-align: right;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .side ul li.active {
     background: #8a0d4a;
@@ -4770,21 +4806,21 @@ small {
   }
   .content .main .download .tag {
     width: 91px;
-    padding: 12px 0 8px 0;
+    padding: 12px 0 6px 0;
     margin: 0 12px 0 0;
   }
   .content .main .download .tag p {
     width: 71px;
     margin: 0 10px;
     font-size: 19px;
-    line-height: 19px;
+    line-height: 22px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
     height: 30px;
-    font-size: 22px;
+    font-size: 25px;
     line-height: 22px;
   }
   .content .main .download .tag .fa-mobile {
@@ -5282,7 +5318,7 @@ small {
     font-size: 15px;
     line-height: 15px;
     color: #fff;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .card-member {
     width: 400px;
@@ -5400,50 +5436,68 @@ small {
   }
   .card {
     width: 370px;
-    padding: 28px 0 22px 50px;
+    padding: 32px 0 22px 50px;
     margin: 0 0 12px 30px;
   }
   .card .card-logo {
-    width: 82px;
+    width: 62px;
     margin: 154px 0 0 240px;
   }
   .card .card-content {
     width: 360px;
   }
+  .card .card-content .card-logo {
+    float: left;
+    width: 52px;
+    padding: 0;
+    margin: 0 26px 0 0;
+  }
   .card .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 35px;
-    line-height: 35px;
+    width: 280px;
+    margin: 0 0 9px 0;
+    font-size: 29px;
+    line-height: 29px;
   }
   .card .card-content .company {
-    margin: 0 0 36px 0;
+    width: 280px;
+    margin: 0 0 38px 0;
   }
   .card .card-content .company h5 {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .card .card-content .company span {
-    margin: 0 9px;
-    font-size: 24px;
-    line-height: 24px;
+    margin: 0 8px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
-    margin: 0 0 36px 0;
+    margin: 0 0 32px 0;
     font-size: 27px;
     line-height: 27px;
   }
-  .card .card-content .patient-holder .row {
+  .card .card-content .patient-holder .row-holder {
+    float: left;
+    width: 250px;
+  }
+  .card .card-content .patient-holder .row-holder .row {
     margin: 0 0 12px 0;
   }
-  .card .card-content .patient-holder .row h6 {
-    width: 102px;
+  .card .card-content .patient-holder .row-holder .row h6 {
+    width: 108px;
     padding: 0;
     margin: 0;
     font-size: 16px;
     line-height: 16px;
+  }
+  .card .card-content .patient-holder .lines {
+    float: left;
+    width: 54px;
+    padding: 0;
+    margin: 40px 0 0 10px;
   }
   .legal-container {
     width: 438px;
@@ -5565,7 +5619,7 @@ small {
     line-height: 19px;
     color: #fff;
     text-align: right;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .side ul li.close {
     float: left;
@@ -5580,7 +5634,7 @@ small {
     line-height: 23px;
     color: #fff;
     text-align: right;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .side ul li.active {
     background: #8a0d4a;
@@ -5629,14 +5683,14 @@ small {
   }
   .content .main .download .tag {
     width: 95px;
-    padding: 14px 0 8px 0;
+    padding: 14px 0 6px 0;
     margin: 0 12px 0 0;
   }
   .content .main .download .tag p {
     width: 71px;
     margin: 0 12px;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 19px;
+    line-height: 22px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -6233,48 +6287,60 @@ small {
   }
   .card {
     width: 430px;
-    padding: 32px 0 24px 50px;
+    padding: 36px 0 24px 50px;
     margin: 0 0 12px 20px;
-  }
-  .card .card-logo {
-    width: 102px;
-    margin: 144px 0 0 290px;
   }
   .card .card-content {
     width: 440px;
   }
+  .card .card-content .card-logo {
+    width: 56px;
+    margin: 0 30px 0 0;
+  }
   .card .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 37px;
-    line-height: 37px;
+    width: 340px;
+    margin: 0 0 10px 0;
+    font-size: 31px;
+    line-height: 31px;
   }
   .card .card-content .company {
-    margin: 0 0 36px 0;
+    width: 340px;
+    margin: 0 0 38px 0;
   }
   .card .card-content .company h5 {
     font-size: 23px;
     line-height: 23px;
   }
   .card .card-content .company span {
-    margin: 0 11px;
+    margin: 0 8px;
     font-size: 25px;
-    line-height: 22px;
+    line-height: 25px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
-    margin: 0 0 32px 0;
+    margin: 0 0 36px 0;
     font-size: 30px;
     line-height: 30px;
   }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
+  .card .card-content .patient-holder .row-holder {
+    float: left;
+    width: 250px;
   }
-  .card .card-content .patient-holder .row h6 {
-    width: 108px;
-    font-size: 17px;
-    line-height: 17px;
+  .card .card-content .patient-holder .row-holder .row {
+    margin: 0 0 13px 0;
+  }
+  .card .card-content .patient-holder .row-holder .row h6 {
+    width: 114px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .card .card-content .patient-holder .lines {
+    float: left;
+    width: 54px;
+    padding: 0;
+    margin: 40px 0 0 10px;
   }
   .legal-container {
     width: 538px;
@@ -6396,7 +6462,7 @@ small {
     line-height: 19px;
     color: #fff;
     text-align: right;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .side ul li.close {
     float: left;
@@ -6411,7 +6477,7 @@ small {
     line-height: 23px;
     color: #fff;
     text-align: right;
-    text-shadow: $shadow;
+    text-shadow: -1px -1px 0px #000;
   }
   .side ul li.active {
     background: #8a0d4a;
@@ -6485,37 +6551,38 @@ small {
   }
   .content .main {
     width: 768px;
-    margin: 0 0 60px 0;
+    margin: 0 0 50px 0;
   }
   .content .main .download {
-    width: 650px;
-    margin: 0 0 0 78px;
+    width: 150px;
+    margin: 10px 0 0 0;
   }
   .content .main .download .tag {
-    width: 138px;
+    width: 142px;
     padding: 18px 0 10px 0;
-    margin: 0 20px 0 0;
+    margin: 0 0 10px 0;
   }
   .content .main .download .tag p {
+    display: none;
     width: 100%;
     padding: 0;
     margin: 0;
     font-size: 22px;
     line-height: 22px;
   }
-  .content .main .download .tag p span {
+  .content .main .download .tag p.full {
     display: block;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 40px;
+    height: 38px;
     font-size: 33px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 56px;
-    margin: -16px 0 0 -14px;
+    height: 54px;
+    margin: -16px 0 0 -16px;
     font-size: 52px;
   }
   .content .main .download .tag .fa-send {
@@ -6544,8 +6611,8 @@ small {
   }
   .content .points .point-container .point h3 {
     padding: 14px 50px 24px 50px;
-    font-size: 37px;
-    line-height: 37px;
+    font-size: 41px;
+    line-height: 41px;
   }
   .content .points .point-container .point h3 span {
     padding: 0 0 4px 0;
@@ -6703,8 +6770,8 @@ small {
     padding: 0;
     margin: 0;
     font-size: 33px;
-    line-height: 64px;
-    text-shadow: $shadow;
+    line-height: 66px;
+    text-shadow: -1px -1px 0px #000;
   }
   .content .locator .locator-results {
     width: 708px;
@@ -6752,23 +6819,23 @@ small {
   }
   .content .testimonals-holder .testimonals .testimonal {
     width: 284px;
-    padding: 46px 30px 30px 30px;
+    padding: 48px 30px 30px 30px;
     margin: 0 20px 16px 0;
-    background-size: 100% 2.2em;
+    background-size: 100% 2.3em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 36px 0;
-    font-size: 23px;
-    line-height: 35px;
+    margin: 0 0 40px 0;
+    font-size: 25px;
+    line-height: 37px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
-    margin: 0 0 10px 0;
-    font-size: 29px;
-    line-height: 29px;
+    margin: 0 0 12px 0;
+    font-size: 30px;
+    line-height: 30px;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 24px;
+    line-height: 24px;
   }
   .content .testimonals-holder .testimonals .testimonal.hide {
     display: block;
@@ -7094,50 +7161,52 @@ small {
     line-height: 15px;
   }
   .card {
-    width: 588px;
+    width: 468px;
     padding: 42px 0 28px 60px;
-    margin: 0 0 18px 60px;
-  }
-  .card .card-logo {
-    width: 122px;
-    margin: 214px 0 0 370px;
+    margin: 0 30px 18px 40px;
   }
   .card .card-content {
     width: 480px;
   }
+  .card .card-content .card-logo {
+    width: 68px;
+    margin: 0 28px 0 0;
+  }
   .card .card-content h1 {
-    margin: 0 0 16px 0;
-    font-size: 47px;
-    line-height: 47px;
+    width: 340px;
+    margin: 0 0 11px 0;
+    font-size: 38px;
+    line-height: 38px;
   }
   .card .card-content .company {
+    width: 340px;
     margin: 0 0 52px 0;
   }
   .card .card-content .company h5 {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .card .card-content .company span {
     padding: 0;
     margin: 0 10px;
-    font-size: 32px;
-    line-height: 33px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
-    margin: 0 0 42px 0;
-    font-size: 37px;
-    line-height: 37px;
+    margin: 0 0 48px 0;
+    font-size: 34px;
+    line-height: 34px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 12px 0;
+    margin: 0 0 14px 0;
   }
   .card .card-content .patient-holder .row h6 {
-    width: 132px;
-    font-size: 20px;
-    line-height: 20px;
+    width: 134px;
+    font-size: 19px;
+    line-height: 19px;
   }
   .legal-container {
     width: 688px;
@@ -7848,46 +7917,48 @@ small {
     padding: 36px 0 28px 44px;
     margin: 0 0 18px 0;
   }
-  .card .card-logo {
-    width: 100px;
-    margin: 190px 0 0 330px;
-  }
   .card .card-content {
     width: 444px;
   }
+  .card .card-content .card-logo {
+    width: 72px;
+    margin: 0 32px 0 0;
+  }
   .card .card-content h1 {
-    margin: 0 0 15px 0;
-    font-size: 44px;
-    line-height: 44px;
+    width: 340px;
+    margin: 2px 0 12px 0;
+    font-size: 38px;
+    line-height: 38px;
   }
   .card .card-content .company {
-    margin: 0 0 54px 0;
+    width: 340px;
+    margin: 0 0 58px 0;
   }
   .card .card-content .company h5 {
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .card .card-content .company span {
     margin: 0 10px;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
     width: 420px;
-    margin: 0 0 38px 0;
-    font-size: 34px;
-    line-height: 34px;
+    margin: 0 0 42px 0;
+    font-size: 33px;
+    line-height: 33px;
   }
   .card .card-content .patient-holder .row {
-    margin: 0 0 13px 0;
+    margin: 0 0 14px 0;
   }
   .card .card-content .patient-holder .row h6 {
     width: 122px;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 18px;
   }
   .legal-container {
     width: 928px;
@@ -7938,8 +8009,8 @@ small {
     margin: 8px 0 0 0;
   }
   header .header .brand .logo {
-    width: 250px;
-    margin: 0 0 0 20px;
+    width: 230px;
+    margin: 5px 0 0 25px;
   }
   header .header nav {
     width: 750px;
@@ -7954,7 +8025,7 @@ small {
     margin: 10px 0 0 0;
     font-weight: 500;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 24px;
   }
   header .header nav .tile.active {
     height: 68px;
@@ -7978,13 +8049,13 @@ small {
   }
   .content .main .download .tag {
     width: 112px;
-    padding: 14px 0 10px 0;
+    padding: 14px 0 9px 0;
     margin: 0 14px 0 0;
   }
   .content .main .download .tag p {
     width: 112px;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 18px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
@@ -8014,6 +8085,8 @@ small {
   }
   .content .points .point-container .point {
     display: inline-block;
+    margin: 0;
+    padding: 0;
   }
   .content .points .point-container .point .fa-certificate {
     width: 66px;
@@ -8024,6 +8097,7 @@ small {
   }
   .content .points .point-container .point h3 {
     padding: 14px 30px 22px 30px;
+    margin: 0;
     font-weight: 400;
     font-size: 29px;
     line-height: 29px;
@@ -8589,47 +8663,59 @@ small {
     padding: 38px 0px 20px 50px;
     margin: 10px 0 14px 0;
   }
-  .card .card-logo {
-    display: none;
-    width: 56px;
-    margin: 210px 0 0 330px;
-  }
   .card .card-content {
     width: 444px;
   }
+  .card .card-content .card-logo {
+    width: 68px;
+    margin: 0 38px 0 0;
+  }
   .card .card-content h1 {
-    margin: 0 0 14px 0;
-    font-size: 39px;
-    line-height: 39px;
+    width: 324px;
+    margin: 0 0 11px 0;
+    font-size: 32px;
+    line-height: 32px;
   }
   .card .card-content .company {
-    margin: 0 0 40px 0;
+    width: 324px;
+    margin: 0 0 48px 0;
   }
   .card .card-content .company h5 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .card .card-content .company span {
-    margin: 0 12px;
-    font-size: 26px;
-    line-height: 28px;
+    margin: 0 8px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
-    width: 440px;
-    margin: 0 0 36px 0;
-    font-size: 32px;
-    line-height: 32px;
+    width: 100%;
+    margin: 0 0 38px 0;
+    font-size: 31px;
+    line-height: 31px;
   }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 14px 0;
+  .card .card-content .patient-holder .row-holder {
+    float: left;
+    width: 330px;
+    padding: 0;
+    margin: 0;
   }
-  .card .card-content .patient-holder .row h6 {
-    width: 106px;
-    font-size: 16px;
-    line-height: 16px;
+  .card .card-content .patient-holder .row-holder .row {
+    margin: 0 0 12px 0;
+  }
+  .card .card-content .patient-holder .row-holder .row h6 {
+    width: 108px;
+    font-size: 17px;
+    line-height: 17px;
+  }
+  .card .card-content .patient-holder .lines {
+    float: left;
+    width: 68px;
+    margin: 40px 0 0 0;
   }
   .legal-container {
     width: 998px;

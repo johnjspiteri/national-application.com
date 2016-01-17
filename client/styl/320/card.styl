@@ -3,7 +3,7 @@
 	width 320px
 	padding 20px 0 0 0
 	margin 0 0 12px 0
-	background #d1d1d1
+	background $card
 	border-top none
 	border-bottom 4px solid #333
 	overflow hidden
@@ -30,8 +30,8 @@
 					font-weight 400
 					font-size 17px
 					line-height 17px
-					color $black-light
-					text-shadow $white-shadow
+					color $white
+					text-shadow $burgundy-text-shadow
 					text-align left
 
 				.left
@@ -45,9 +45,9 @@
 					margin 0 0 12px 0
 
 					h4
-						color $tag
+						color $burgundy
 						text-align left
-						text-shadow $white-shadow
+						text-shadow $burgundy-text-shadow
 
 				.left.small
 					width 60px
@@ -92,8 +92,8 @@
 			font-weight 300
 			font-size 16px
 			line-height 25px
-			color $black-light
-			text-shadow $white-shadow
+			color $white
+			text-shadow $burgundy-text-shadow
 			text-align left
 
 		a
@@ -104,8 +104,8 @@
 			font-weight 500
 			font-size 21px
 			line-height 21px
-			color $black-light
-			text-shadow $white-shadow
+			color $white
+			text-shadow $burgundy-text-shadow
 
 		.brand
 			float left
@@ -120,9 +120,9 @@
 .card-modal
 	float left
 	width 254px
-	padding 26px 0px 16px 26px
+	padding 28px 0px 16px 26px
 	margin 0 0 12px 0
-	background $card-gradient
+	background $card
 	border-top none
 	border-bottom 4px solid $card-border
 	border-radius 8px
@@ -151,11 +151,11 @@
 			width 100%
 			margin 0 0 11px 0
 			font-weight 400
-			font-size 30px
-			line-height 30px
-			color $black-light
+			font-size 29px
+			line-height 29px
+			color $white
 			text-align left
-			text-shadow $card-text-shadow
+			text-shadow $burgundy-text-shadow
 
 		.company
 			float left
@@ -167,9 +167,9 @@
 				font-weight 400
 				font-size 20px
 				line-height 20px
-				color $grey
+				color $white
 				text-align left
-				text-shadow $card-text-shadow
+				text-shadow $burgundy-text-shadow
 
 			span
 				float left
@@ -177,9 +177,9 @@
 				margin 0 8px
 				font-size 22px
 				line-height 22px
-				color $grey
+				color $white
 				text-align left
-				text-shadow $card-text-shadow
+				text-shadow $burgundy-text-shadow
 
 		.patient-holder
 			float left
@@ -195,12 +195,12 @@
 				font-weight 400
 				font-size 23px
 				line-height 23px
-				color $black-light
+				color $white
 				background none
 				border none
 				outline none
 				text-align left
-				text-shadow $card-text-shadow
+				text-shadow $burgundy-text-shadow
 
 			.row
 				float left
@@ -210,78 +210,90 @@
 
 				h6
 					float left
-					width 82px
+					width 94px
 					padding 0
 					margin 0
 					font-weight 400
-					font-size 14px
-					line-height 14px
-					color $grey
-					text-shadow $card-text-shadow
+					font-size 15px
+					line-height 15px
+					color $white
+					text-shadow $burgundy-text-shadow
 
 .card
 	float left
-	width 272px
-	padding 22px 0px 16px 28px
+	width 276px
+	padding 26px 0px 16px 24px
 	margin 0 0 10px 10px
-	background $card-gradient
+	background $card
 	border-top none
-	border-bottom 4px solid $card-border
+	border-bottom 4px solid #333
 	border-radius 8px
 	overflow hidden
 
-	.card-logo
+	.card-lines
 		position absolute
-		width 64px
+		width 248px
 		padding 0
-		margin 132px 0 0 190px
+		margin 92px 0 0 72px
 		z-index 1
+		opacity .6
 
 		img
 			float left
 			width 100%
-
+						
 	.card-content
 		position relative
-		width 250px
+		width 276px
 		padding 0
 		margin 0
 		z-index 99
 
+		.card-logo
+			float left
+			width 42px
+			padding 0
+			margin 0 20px 0 0
+
+			img
+				float left
+				width 100%
+				
 		h1
 			float left
-			width 100%
-			margin 0 0 12px 0
+			width 200px
+			margin 0 0 7px 0
 			font-weight 400
-			font-size 31px
-			line-height 31px
-			color $black-light
+			font-size 23px
+			line-height 23px
+			color $white
 			text-align left
-			text-shadow $card-text-shadow
+			text-shadow $burgundy-text-shadow
 
 		.company
 			float left
-			width 100%
+			width 200px
 			margin 0 0 32px 0
 
 			h5
 				float left
+				font-style italic
 				font-weight 400
-				font-size 20px
-				line-height 20px
-				color $grey
+				font-size 18px
+				line-height 18px
+				color $white
 				text-align left
-				text-shadow $card-text-shadow
+				text-shadow $burgundy-text-shadow
 
 			span
 				float left
 				padding 0
-				margin 0 8px
-				font-size 22px
-				line-height 22px
-				color $grey
+				margin 0 6px
+				font-size 20px
+				line-height 20px
+				color $white
 				text-align left
-				text-shadow $card-text-shadow
+				text-shadow $burgundy-text-shadow
 
 		.patient-holder
 			float left
@@ -295,28 +307,38 @@
 				padding 0
 				margin 0 0 32px 0
 				font-weight 400
-				font-size 23px
-				line-height 23px
-				color $black-light
+				font-size 22px
+				line-height 22px
+				color $white
 				background none
 				border none
 				outline none
 				text-align left
-				text-shadow $card-text-shadow
+				text-shadow $burgundy-text-shadow
 
-			.row
+			.row-holder
 				float left
-				width 100%
-				padding 0
-				margin 0 0 10px 0
+				width 190px
 
-				h6
+				.row
 					float left
-					width 82px
+					width 100%
 					padding 0
-					margin 0
-					font-weight 400
-					font-size 14px
-					line-height 14px
-					color $grey
-					text-shadow $card-text-shadow
+					margin 0 0 8px 0
+
+					h6
+						float left
+						width 78px
+						padding 0
+						margin 0
+						font-weight 400
+						font-size 13px
+						line-height 13px
+						color $white
+						text-shadow $burgundy-text-shadow
+						
+			.lines
+				float left 
+				width 46px
+				padding 0
+				margin 26px 0 0 0

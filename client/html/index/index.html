@@ -4,29 +4,34 @@
     <div class="main">
       <div class="card">
         <div class="card-content">
+          <div class="card-logo"><img ng-src="/img/icon.png"/></div>
           <h1>National Rx Card</h1>
           <div class="company">
             <h5>Free</h5><span>&bull;</span>
             <h5>Fast</h5><span>&bull;</span>
-            <h5>Discounts</h5>
+            <h5>Discounts                        </h5>
           </div>
           <div class="patient-holder">
             <h6>Preferred Customer</h6>
-            <div class="row">
-              <h6>BIN</h6>
-              <h6>018398</h6>
+            <div class="row-holder">
+              <div class="row">
+                <h6>BIN</h6>
+                <h6>018398</h6>
+              </div>
+              <div class="row">
+                <h6>PCN</h6>
+                <h6>48300712</h6>
+              </div>
+              <div class="row">
+                <h6>GROUP</h6>
+                <h6>96100245</h6>
+              </div>
+              <div class="row">
+                <h6>PATIENT</h6>
+                <h6>NRX43710</h6>
+              </div>
             </div>
-            <div class="row">
-              <h6>PCN</h6>
-              <h6>48300712</h6>
-            </div>
-            <div class="row">
-              <h6>GROUP</h6>
-              <h6>96100245</h6>
-            </div>
-            <div class="row">
-              <h6>PATIENT</h6>
-              <h6>NRX43710</h6>
+            <div class="lines"><img ng-src="/img/chip.png"/>
             </div>
           </div>
         </div>
@@ -34,19 +39,23 @@
       <div class="download">
         <div data-ng-click="textModal();" class="tag">
           <div class="fa fa-mobile fa-rotate-90"></div>
-          <p>Text Card</p>
+          <p>Text</p>
+          <p class="full">Text <span>Card</span></p>
         </div>
         <div data-ng-click="emailModal();" class="tag">
           <div class="fa fa-send"></div>
-          <p>Email Card</p>
+          <p>Email</p>
+          <p class="full">Email <span>Card</span></p>
         </div>
         <div data-ng-click="saveModal();" class="tag">
           <div class="fa fa-cloud"></div>
-          <p>Save Card</p>
+          <p>Save</p>
+          <p class="full">Save <span>Card</span></p>
         </div>
         <div data-ng-click="printModal();" class="tag">
           <div class="fa fa-file-text"></div>
-          <p>Print Card</p>
+          <p>Print</p>
+          <p class="full">Print <span>Card</span></p>
         </div>
       </div>
     </div>

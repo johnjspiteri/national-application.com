@@ -1,10 +1,10 @@
 {
-	"folders":
-	[
-		{
+    "folders":
+    [
+        {
             "path": ".",
             "folder_exclude_patterns": ["node_modules/**", ".svn/**", ".git/**", ".hg", "CVS","_notes/**","forever/**",".openshift","client/js/vendor/**","client/js/css/**","client/js/img/**","client/js/fonts/**","client/js/html/**"],
-            "file_exclude_patterns": ["*.html","*.css", "*.otf"]
-		}
-	]
+            "file_exclude_patterns": ["*.html", "*.css", "*.otf"]
+        }
+    ]
 }
