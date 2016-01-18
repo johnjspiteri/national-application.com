@@ -6,6 +6,7 @@
             'ngAnimate',
             'ngResource',
             'ngSanitize',
+            'angular-google-analytics',
             'ngFileSaver',
             // 'ngTouch',
             'naif.base64',

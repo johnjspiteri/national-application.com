@@ -39,6 +39,7 @@ module.exports = function (grunt) {
                         'client/js/vendor/angular-messages/angular-messages.min.js',
                         'client/js/vendor/angular-resource/angular-resource.js',
                         'client/js/vendor/angular-sanitize/angular-sanitize.js',
+                        'client/js/vendor/angular-google-analytics/dist/angular-google-analytics.min.js',
                         'client/js/vendor/angular-google-maps/dist/angular-google-maps.min.js',
                         'client/js/vendor/angular-scroll/angular-scroll.js',
                         'client/js/vendor/angular-ui-mask/dist/mask.js',
@@ -107,7 +108,7 @@ module.exports = function (grunt) {
         jade: {
             compile: {
                 options: {
-                    pretty: true,
+                    pretty: false,
                 },
                 files: [{
                     expand: true,
@@ -208,7 +209,7 @@ module.exports = function (grunt) {
     ]);
     grunt.registerTask('client', [
         'concurrent:frontend',
-        // 'autoprefixer',
+        'autoprefixer',
         'uglify',
         // 'usebanner',
     ]);

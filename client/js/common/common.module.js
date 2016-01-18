@@ -3,6 +3,7 @@
 
     angular
         .module('app.common', [
+            'angular-google-analytics',
             'ngAnimate',
             'ngResource',
             'ngSanitize',

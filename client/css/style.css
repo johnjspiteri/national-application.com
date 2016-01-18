@@ -88,8 +88,8 @@ figure {
   margin: 1em 40px;
 }
 hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
 }
 pre {
@@ -139,7 +139,8 @@ input {
 }
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box; /* 1 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
 input[type="number"]::-webkit-inner-spin-button,
@@ -148,7 +149,6 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 input[type="search"] {
   -webkit-appearance: textfield; /* 1 */
-  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box; /* 2 */
   box-sizing: content-box;
 }
@@ -300,9 +300,7 @@ small {
 }
 .fa-rotate-90 {
   -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 .fa-lg {
@@ -421,7 +419,8 @@ small {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 .fa-stack {
   position: relative;
@@ -2291,27 +2290,7 @@ small {
 .fa-fonticons:before {
   content: "\f280";
 }
-@-moz-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
 @-webkit-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-@-o-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -2747,7 +2726,8 @@ small {
     background: #8a0d4a;
     border-bottom: 4px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
     cursor: pointer;
@@ -2833,6 +2813,8 @@ small {
     padding: 40px 20px 28px 20px;
     margin: 0 0 14px 0;
     background: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.1em, #f1f1f1), color-stop(0.1em, transparent));
+    background-image: -webkit-linear-gradient(#f1f1f1 0.1em, transparent 0.1em);
     background-image: linear-gradient(#f1f1f1 0.1em, transparent 0.1em);
     background-size: 100% 1.9em;
     border-bottom: 4px solid #333;
@@ -3008,11 +2990,15 @@ small {
     border-bottom: 4px solid #4a0024;
     background-repeat: repeat-x;
     border-radius: 6px 6px 6px 6px;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
     vertical-align: middle;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     cursor: pointer;
   }
   .contact-holder .card-confirmation {
@@ -3144,11 +3130,15 @@ small {
     border: none;
     border-bottom: 4px solid #4a0024;
     border-radius: 6px 6px 6px 6px;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
     vertical-align: middle;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     cursor: pointer;
   }
   .modal-holder .modal-container .submit.print {
@@ -3737,7 +3727,9 @@ small {
     position: absolute;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     width: 194px;
     max-width: 194px;
     height: 2000px;
@@ -3746,7 +3738,8 @@ small {
     background: none;
     outline: none;
     overflow: none;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     left: 0;
     top: 0;
     z-index: 999999;
@@ -3761,18 +3754,22 @@ small {
   md-sidenav.md-closed-remove {
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
-    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -webkit-transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
   md-sidenav.md-closed-add.md-closed-add-active,
   md-sidenav.md-closed-remove.md-closed-remove-active {
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -webkit-transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
   md-sidenav.md-locked-open-add,
   md-sidenav.md-locked-open-remove {
     position: static;
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -6237,7 +6234,7 @@ small {
   }
   .content .points .point-container {
     width: 600px;
-    margin: 0 0 24px 0;
+    margin: 0 0 20px 0;
   }
   .content .points .point-container .point {
     display: inline-block;
