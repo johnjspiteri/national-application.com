@@ -1,92 +1,94 @@
 
 <div class="page">
   <div class="content">
-    <div class="card-member">
-      <div class="member">
-        <div class="member-content">
-          <div class="row">
-            <div class="left small">
-              <h4>NAME</h4>
-            </div>
-            <div class="right small">
-              <h4 data-ng-bind="member.plan.title"></h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="left">
-              <h4>BIN#</h4>
-            </div>
-            <div class="right">
-              <h4 data-ng-bind="member.plan.bin"></h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="left">
-              <h4>PCN#</h4>
-            </div>
-            <div class="right">
-              <h4 data-ng-bind="member.plan.pcn"></h4>
-            </div>
-          </div>
-          <div class="row hide">
-            <div class="left middle">
-              <h4>GROUP#</h4>
-            </div>
-            <div class="left middle">
-              <h4>PATIENT#</h4>
-            </div>
-          </div>
-          <div class="row hide">
-            <div class="right middle">
-              <h4 data-ng-bind="member.plan.group"></h4>
-            </div>
-            <div class="right middle">
-              <h4 data-ng-bind="member.plan.patient_id"></h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="left middle">
-              <h4>GROUP#</h4>
-            </div>
-            <div class="right middle">
-              <h4 data-ng-bind="member.plan.group"></h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="left middle">
-              <h4>PATIENT#</h4>
-            </div>
-            <div class="right middle">
-              <h4 data-ng-bind="member.plan.patient_id"></h4>
-            </div>
-          </div>
-        </div>
-        <div class="member-brand"><img ng-src="/img/best_deals_4_moms.jpg"/>
-        </div>
-      </div>
-      <div class="disclaimer">
-        <div class="brand"><img ng-src="/img/logo.png"/></div>
-        <p><b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. <b>THIS IS NOT INSURANCE</b></p>
-        <p><b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. <b>THIS IS NOT INSURANCE</b></p>
-      </div>
-    </div>
     <div class="main">
+      <div class="card-member">
+        <div class="member">
+          <div class="member-brand"><img ng-src="/img/best_deals_4_moms.png"/></div>
+          <div class="member-content">
+            <div class="row">
+              <div class="left">
+                <h4>Name:</h4>
+              </div>
+              <div class="right">
+                <h4>Preferred Customer</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="left">
+                <h4>BIN#:</h4>
+              </div>
+              <div class="right">
+                <h4 data-ng-bind="member.plan.bin"></h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="left">
+                <h4>PCN#:</h4>
+              </div>
+              <div class="right">
+                <h4 data-ng-bind="member.plan.pcn"></h4>
+              </div>
+            </div>
+            <div class="row hide">
+              <div class="left">
+                <h4>GROUP#:</h4>
+              </div>
+              <div class="left">
+                <h4>PATIENT#:</h4>
+              </div>
+            </div>
+            <div class="row hide">
+              <div class="right">
+                <h4 data-ng-bind="member.plan.group"></h4>
+              </div>
+              <div class="right">
+                <h4 data-ng-bind="member.plan.patient_id"></h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="left">
+                <h4>GROUP#:</h4>
+              </div>
+              <div class="right">
+                <h4 data-ng-bind="member.plan.group"></h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="left">
+                <h4>PATIENT ID#:</h4>
+              </div>
+              <div class="right">
+                <h4 data-ng-bind="member.plan.patient_id"></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="disclaimer">
+          <div class="brand"><img ng-src="/img/logo.png"/></div>
+          <p>Present this card to a participating pharmacy to receive your discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. For processing questions call: Argus Health Systems <a href='tel:1-866-921-7286'>1-866 921-7286</a>, customer service: <a href='tel:1-855-525-6375'>1-855 525-6375</a></p>
+        </div>
+      </div>
       <div class="download member">
         <div data-ng-click="textModal();" class="tag">
           <div class="fa fa-mobile fa-rotate-90"></div>
-          <p>Text Card</p>
+          <p>Text</p>
+          <p class="full">Text <span>Card</span></p>
         </div>
         <div data-ng-click="emailModal();" class="tag">
           <div class="fa fa-send"></div>
-          <p>Email Card</p>
+          <p>Email</p>
+          <p class="full">Email <span>Card</span></p>
         </div>
         <div data-ng-click="saveModal();" class="tag">
           <div class="fa fa-cloud"></div>
-          <p>Save Card</p>
+          <p>Save</p>
+          <p class="full">Save <span>Card</span></p>
         </div>
         <div data-ng-click="printModal();" class="tag">
           <div class="fa fa-file-text"></div>
-          <p>Print Card</p>
+          <p>Print</p>
+          <p class="full">Print <span>Card</span></p>
         </div>
       </div>
     </div>

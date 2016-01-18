@@ -1,0 +1,36 @@
+header
+    .header
+        .brand
+            .logo
+                img(ng-src='/img/logo.png')
+            .mobile-navigation(data-ng-click="open();")
+                h5 Navigation
+        nav
+            .tile.last(ui-sref='member.about', data-ng-class="{active: $state.includes('member.about')}")
+                h4 About The<br>Company
+            .tile(ui-sref='member.testimonial', data-ng-class="{active: $state.includes('member.testimonial')}")
+                h4 Client<br>Testimonials
+            .tile(ui-sref='member.question', data-ng-class="{active: $state.includes('member.question')}")
+                h4 Frequently<br>Asked Questions
+            .tile.first(ui-sref='member.view', data-ng-class="{active: $state.includes('member.view')}")
+                h4 Get Your Free<br>Savings Card
+
+
+md-sidenav(md-component-id="navigationPanel", class="md-sidenav-left md-closed")
+    .side
+        ul
+            li.close
+                .fa.fa-long-arrow-left(ng-click="close();")
+            li(ui-sref='member.view', data-ng-click='close();', data-ng-class="{active: $state.includes('member.view')}")
+                h4 Get Your Free<br>Savings Card
+
+            li(ui-sref='member.question', data-ng-click='close();', data-ng-class="{active: $state.includes('member.question')}")
+                h4 Frequently<br>Asked Questions
+
+            li(ui-sref='member.testimonial', data-ng-click='close();', data-ng-class="{active: $state.includes('member.testimonial')}")
+                h4 Client<br>Testimonials
+
+            li(ui-sref='member.about', data-ng-click='close();', data-ng-class="{active: $state.includes('member.about')}")
+                h4 About The<br>Company
+
+#panel(ng-show='display')

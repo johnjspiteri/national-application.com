@@ -1,70 +1,74 @@
 .page
     .content
-        .card-member
-            .member
-                .member-content
-                    .row
-                        .left.small
-                            h4 NAME
-                        .right.small
-                            h4(data-ng-bind='member.plan.title')
-                    .row
-                        .left
-                            h4 BIN#
-                        .right
-                            h4(data-ng-bind='member.plan.bin')
-                    .row
-                        .left
-                            h4 PCN#
-                        .right
-                            h4(data-ng-bind='member.plan.pcn')
-                    .row.hide
-                        .left.middle
-                            h4 GROUP#
-                        .left.middle
-                            h4 PATIENT#
-                    .row.hide
-                        .right.middle
-                            h4(data-ng-bind='member.plan.group')
-                        .right.middle
-                            h4(data-ng-bind='member.plan.patient_id')
-
-                    .row
-                        .left.middle
-                            h4 GROUP#
-                        .right.middle
-                            h4(data-ng-bind='member.plan.group')
-                    .row
-                        .left.middle
-                            h4 PATIENT#
-                        .right.middle
-                            h4(data-ng-bind='member.plan.patient_id')
-
-                .member-brand
-                    //- img(ng-src='/img/best_deals_4_moms.jpg')
-                    img(ng-src='/img/best_deals_4_moms.jpg')
-
-            .disclaimer
-                .brand
-                    img(ng-src='/img/logo.png')
-                p <b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. <b>THIS IS NOT INSURANCE</b>
-                p <b>PATIENT:</b> Present this card to a participating pharmacy to receive a discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. <b>THIS IS NOT INSURANCE</b>
-                //- a() www.nationalrxcard.com
-
         .main
+            .card-member
+                .member
+                    .member-brand
+                        img(ng-src='/img/best_deals_4_moms.png')
+
+                    .member-content
+                        .row
+                            .left
+                                h4 Name:
+                            .right
+                                h4 Preferred Customer
+                        .row
+                            .left
+                                h4 BIN#:
+                            .right
+                                h4(data-ng-bind='member.plan.bin')
+                        .row
+                            .left
+                                h4 PCN#:
+                            .right
+                                h4(data-ng-bind='member.plan.pcn')
+                        .row.hide
+                            .left
+                                h4 GROUP#:
+                            .left
+                                h4 PATIENT#:
+                        .row.hide
+                            .right
+                                h4(data-ng-bind='member.plan.group')
+                            .right
+                                h4(data-ng-bind='member.plan.patient_id')
+
+                        .row
+                            .left
+                                h4 GROUP#:
+                            .right
+                                h4(data-ng-bind='member.plan.group')
+                        .row
+                            .left
+                                h4 PATIENT ID#:
+                            .right
+                                h4(data-ng-bind='member.plan.patient_id')
+
+                    //- .member-brand
+                    //-     img(ng-src='/img/best_deals_4_moms.png')
+
+                .disclaimer
+                    .brand
+                        img(ng-src='/img/logo.png')
+                    p Present this card to a participating pharmacy to receive your discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. For processing questions call: Argus Health Systems <a href='tel:1-866-921-7286'>1-866 921-7286</a>, customer service: <a href='tel:1-855-525-6375'>1-855 525-6375</a>
+
             .download.member
                 .tag(data-ng-click='textModal();')
                     .fa.fa-mobile.fa-rotate-90
-                    p Text Card
+                    p Text
+                    p.full Text <span>Card</span>
                 .tag(data-ng-click='emailModal();')
                     .fa.fa-send
-                    p Email Card
+                    p Email
+                    p.full Email <span>Card</span>
                 .tag(data-ng-click='saveModal();')
                     .fa.fa-cloud
-                    p Save Card
+                    p Save
+                    p.full Save <span>Card</span>
                 .tag(data-ng-click='printModal();')
                     .fa.fa-file-text
-                    p Print Card
+                    p Print
+                    p.full Print <span>Card</span>
 
         .center
             span.fa.fa-certificate

@@ -22,15 +22,15 @@ md-sidenav(md-component-id="navigationPanel", class="md-sidenav-left md-closed")
             li.close
                 .fa.fa-long-arrow-left(ng-click="close();")
             li(ui-sref='frontend.index', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.index')}")
-                h4 Savings Card
+                h4 Get Your Free<br>Savings Card
 
             li(ui-sref='frontend.question', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.question')}")
-                h4 FAQ
+                h4 Frequently<br>Asked Questions
 
             li(ui-sref='frontend.testimonial', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.testimonial')}")
-                h4 Testimonials
+                h4 Client<br>Testimonials
 
             li(ui-sref='frontend.about', data-ng-click='close();', data-ng-class="{active: $state.includes('frontend.about')}")
-                h4 About
+                h4 About The<br>Company
 
 #panel(ng-show='display')

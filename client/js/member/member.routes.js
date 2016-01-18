@@ -5,35 +5,45 @@
         $locationProvider.html5Mode(true);
 
         $stateProvider
-            .state('frontend.member', {
-                url: '/member',
+            .state('member', {
+                url: '/plan/:id',
+                abstract: true,
+                resolve: {
+                    memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                        var ItemId = $stateParams.id;
+                        return member.show({id: ItemId}).$promise;
+                    }],
+                },                
                 views: {
-                    'page@': {
-                        templateUrl: 'member/member.html',
-                        controller: 'Member',
-                    }
+                    'header@': {
+                        templateUrl: 'header/header-member.html',
+                        controller: 'CommonController',
+                    },
+                     'footer@': {
+                        templateUrl: 'footer/footer-member.html',
+                    },
                 }
-            })
-            .state('frontend.view', {
+            })        
+            .state('member.view', {
                 meta: {
                     title: '',
                     description: ''
                 },
-                url: '/:id',
+                url: '',
                 views: {
                     'page@': {
                         templateUrl: 'member/member.view.html',
-                        resolve: {
-                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
-                                var ItemId = $stateParams.id;
-                                return member.show({id: ItemId}).$promise;
-                            }],
-                        },
+                        // resolve: {
+                        //     memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                        //         var ItemId = $stateParams.id;
+                        //         return member.show({id: ItemId}).$promise;
+                        //     }],
+                        // },
                         controller: 'View',
                     }
                 }
             })
-            .state('frontend.view.text', {
+            .state('member.view.text', {
                 url: '/text-a-free-rx-card',
                 views: {
                     'modal@': {
@@ -42,7 +52,7 @@
                     },
                 },
             })
-            .state('frontend.view.email', {
+            .state('member.view.email', {
                 url: '/email-a-free-rx-card',
                 views: {
                     'modal@': {
@@ -51,7 +61,7 @@
                     },
                 },
             })
-            .state('frontend.view.save', {
+            .state('member.view.save', {
                 url: '/save-a-free-rx-card',
                 views: {
                     'modal@': {
@@ -60,7 +70,7 @@
                     },
                 },
             })
-            .state('frontend.view.print', {
+            .state('member.view.print', {
                 url: '/print-a-free-rx-card',
                 views: {
                     'modal@': {
@@ -68,7 +78,33 @@
                         controller: 'MemberPrintModal'
                     },
                 },
-            });            
+            })
+            .state('member.question', {
+                url: '/questions',
+                views: {
+                    'page@': {
+                        templateUrl: 'question/question.html',
+                        controller: 'Question',
+                    }
+                }
+            })
+            .state('member.testimonial', {
+                url: '/testimonial',
+                views: {
+                    'page@': {
+                        templateUrl: 'testimonial/testimonial.html',
+                    },
+                },
+            })
+            .state('member.about', {
+                url: '/about-us',
+                views: {
+                    'page@': {
+                        templateUrl: 'about/about.html',
+                        controller: 'About',
+                    },
+                }
+            });                                        
     }
 
     angular

@@ -3,8 +3,6 @@
         .fa.fa-close(data-ng-click='close();')
         a.submit(href="{{cardUrl}}" target="_blank" download='National Rx Card.png') Save Rx Card
         .card-modal
-            //- .card-logo
-            //-     img(ng-src='/img/icon.png')
             .card-content
                 h1 National Rx Card
                 .company
@@ -16,18 +14,19 @@
 
                 .patient-holder
                     h6 Preferred Client
-                    .row
-                        h6 BIN
-                        h6 018398
-                    .row
-                        h6 PCN
-                        h6 48300712
-                    .row
-                        h6 GROUP
-                        h6 96100245
-                    .row
-                        h6 PATIENT
-                        h6 NRX43710
+                    .row-holder
+                        .row
+                            h6 BIN
+                            h6 018398
+                        .row
+                            h6 PCN
+                            h6 48300712
+                        .row
+                            h6 GROUP
+                            h6 96100245
+                        .row
+                            h6 PATIENT
+                            h6 NRX43710
 
         .legal
             p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.

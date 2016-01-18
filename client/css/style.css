@@ -187,7 +187,7 @@ body {
   margin: 0;
   padding: 0;
   z-index: 1;
-  background: #777;
+  background: #888;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 * {
@@ -2337,7 +2337,7 @@ small {
     width: 100%;
     padding: 0;
     margin: 0 0 20px 0;
-    background: #fff;
+    background: #fffff2 url("../img/squairy.png");
     border-bottom: 1px solid #222;
   }
   header .header {
@@ -2387,50 +2387,6 @@ small {
   }
   header .header nav {
     display: none;
-  }
-  md-sidenav {
-    position: absolute;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 144px;
-    max-width: 144px;
-    height: 600px;
-    max-height: 700px;
-    bottom: 0;
-    background: none;
-    outline: none;
-    overflow: none;
-    box-sizing: border-box;
-    left: 0;
-    top: 0;
-    z-index: 999999;
-    -webkit-transform: translate3d(0%, 0, 0);
-    transform: translate3d(0%, 0, 0);
-    overflow: scroll;
-  }
-  md-sidenav.md-closed {
-    transform: translate3d(-100%, 0, 0);
-  }
-  md-sidenav.md-closed-remove {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-closed-add.md-closed-add-active,
-  md-sidenav.md-closed-remove.md-closed-remove-active {
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-locked-open-add,
-  md-sidenav.md-locked-open-remove {
-    position: static;
-    display: -webkit-flex;
-  }
-  display: -ms-flexbox {
-    display: flex;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
   }
   .page {
     position: relative;
@@ -2541,8 +2497,8 @@ small {
     padding: 8px 24px 18px 24px;
     margin: 0;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 33px;
+    font-size: 27px;
+    line-height: 32px;
     color: #fff;
     text-align: center;
     background: #8a0d4a;
@@ -2566,22 +2522,23 @@ small {
   .content .center .fa-certificate {
     position: absolute;
     width: 20px;
-    margin: -18px 0 0 300px;
+    margin: -18px 0 0 282px;
     font-size: 34px;
     color: #ffffb5;
     text-shadow: 0px 1px 0px #000;
   }
   .content .center h1 {
     float: left;
-    width: 300px;
-    padding: 14px 10px 12px 10px;
-    margin: 0 0 12px 0;
+    width: 240px;
+    padding: 12px 20px 12px 20px;
+    margin: 0 0 14px 20px;
     font-weight: 500;
     font-size: 28px;
-    line-height: 35px;
+    line-height: 36px;
     color: #fff;
     background: #666;
     border-bottom: 4px solid #222;
+    border-radius: 6px 6px 6px 6px;
     text-align: center;
     text-shadow: -1px -1px 0px #333;
   }
@@ -2590,7 +2547,7 @@ small {
     width: 310px;
     padding: 30px 0 10px 10px;
     margin: 0;
-    background: #fff;
+    background: #fffff2 url("../img/squairy.png");
     border-left: none;
     border-right: none;
     border-bottom: 4px solid #333;
@@ -2885,7 +2842,7 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 34px 0;
+    margin: 0 0 33px 0;
     font-style: italic;
     font-weight: 500;
     font-size: 20px;
@@ -2932,11 +2889,11 @@ small {
   .contact-holder .contact-detail {
     float: left;
     width: 238px;
-    padding: 20px 20px 24px 20px;
+    padding: 26px 20px 24px 20px;
     margin: 0 0 14px 0;
     border: none;
-    border-bottom: 3px solid #333;
-    background: #fff;
+    background: #fffff2 url("../img/squairy.png");
+    border-bottom: 4px solid #222;
     border-radius: 6px 6px 6px 6px;
   }
   .contact-holder .contact-detail h2 {
@@ -2944,8 +2901,10 @@ small {
     width: 100%;
     padding: 0;
     margin: 0 0 18px 0;
-    font-size: 28px;
-    line-height: 32px;
+    color: #333;
+    font-size: 23px;
+    line-height: 23px;
+    text-shadow: -1px -1px 0px #fff;
     text-align: center;
   }
   .contact-holder .contact-detail .contact-container {
@@ -2960,8 +2919,10 @@ small {
     width: 100%;
     padding: 0;
     margin: 0 0 14px 0;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 17px;
+    line-height: 17px;
+    color: #333;
+    text-shadow: -1px -1px 0px #fff;
     font-weight: 600;
     text-align: center;
   }
@@ -2969,13 +2930,12 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 12px 0;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 20px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 19px;
     color: #8a0d4a;
     text-align: center;
-    text-shadow: -1px -1px 0px #000;
   }
   .contact-holder .contact-detail .contact-container h4 {
     float: left;
@@ -2989,64 +2949,66 @@ small {
   }
   .contact-holder .contact-form {
     float: left;
-    width: 238px;
+    width: 240px;
     padding: 30px 20px 20px 20px;
     margin: 0 0 15px 0;
-    background: #fff;
-    border-bottom: 3px solid #333;
+    background: #666;
+    border-bottom: 4px solid #222;
     border-radius: 6px 6px 6px 6px;
   }
   .contact-holder .contact-form .row {
     float: left;
-    width: 238px;
+    width: 240px;
     padding: 0;
     margin: 0 0 12px 0;
   }
   .contact-holder .contact-form .row input {
-    width: 238px;
-    height: 52px;
-    padding: 6px 0 0 0;
+    width: 240px;
+    height: 58px;
+    padding: 2px 0 0 0;
     margin: 0;
     font-weight: 500;
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 25px;
+    line-height: 25px;
     text-align: center;
     border: none;
-    border-bottom: 3px solid #333;
+    background: #fff;
+    border-bottom: 4px solid #222;
     border-radius: 6px 6px 6px 6px;
+  }
+  .contact-holder .contact-form .row ::-webkit-input-placeholder {
+    line-height: normal;
   }
   .contact-holder .contact-form .row textarea {
     float: left;
-    width: 218px;
+    width: 220px;
     height: 80px;
     padding: 16px 10px 14px 10px;
     margin: 0;
-    font-size: 21px;
-    line-height: 25px;
+    font-size: 25px;
+    line-height: 30px;
     border: none;
     text-align: center;
-    border-bottom: 3px solid #333;
+    border-bottom: 4px solid #222;
     border-radius: 6px 6px 6px 6px;
   }
   .contact-holder .contact-form .submit {
     float: left;
     width: 240px;
-    height: 50px;
+    height: 60px;
     padding: 0;
     margin: 0;
     font-style: italic;
     font-weight: 600;
-    font-size: 25px;
-    line-height: 52px;
+    font-size: 27px;
+    line-height: 62px;
     color: #fff;
     background: #8a0d4a;
     border: none;
-    border-bottom: 3px solid #4a0024;
+    border-bottom: 4px solid #4a0024;
     background-repeat: repeat-x;
     border-radius: 6px 6px 6px 6px;
     box-shadow: none;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
-    box-shadow: 1px 1px 4px #aaa;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
     vertical-align: middle;
@@ -3059,7 +3021,7 @@ small {
     padding: 0;
     margin: 0;
     border: 1px solid #aaa;
-    border-bottom: 3px solid #333;
+    border-bottom: 3px solid #222;
     border-radius: 6px 6px 6px 6px;
   }
   .contact-holder .card-confirmation h1 {
@@ -3093,12 +3055,16 @@ small {
     height: 280px;
     padding: 0;
     margin: 0 0 35px 20px;
-    background: #ccc;
+    background: #666;
     border: none;
-    border-bottom: 4px solid #333;
+    border-bottom: 4px solid #222;
     border-radius: 6px 6px 6px 6px;
   }
   .map #map_canvas {
+    border-radius: 6px 6px 6px 6px;
+  }
+  .map #map_canvas ui-gmap-google-map,
+  .map #map_canvas .angular-google-map-container {
     border-radius: 6px 6px 6px 6px;
   }
   .modal-holder {
@@ -3114,7 +3080,7 @@ small {
     width: 280px;
     padding: 14px 10px 18px 10px;
     margin: 8px 0 12px 0;
-    background: #777;
+    background: #888;
     border: 1px solid #000;
     border-radius: 6px 6px 6px 6px;
   }
@@ -3154,8 +3120,8 @@ small {
     padding: 2px 0 0 0;
     margin: 0 0 12px 0;
     font-weight: 500;
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 25px;
+    line-height: 25px;
     background: #fff;
     border: none;
     border-bottom: 4px solid #333;
@@ -3171,8 +3137,8 @@ small {
     padding: 14px 0 10px 0;
     margin: 0 0 18px 0;
     font-weight: 600;
-    font-size: 29px;
-    line-height: 29px;
+    font-size: 27px;
+    line-height: 27px;
     color: #fff;
     background: #8a0d4a;
     border: none;
@@ -3200,8 +3166,8 @@ small {
     padding: 0;
     margin: 0 0 18px 0;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 25px;
     text-align: center;
     color: #fff;
     text-shadow: -1px -1px 0px #000;
@@ -3209,8 +3175,8 @@ small {
   .modal-holder .modal-container .legal a {
     font-style: italic;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 17px;
+    line-height: 25px;
     color: #fff;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
@@ -3284,12 +3250,12 @@ small {
   .filter-holder .filter-container input {
     float: left;
     width: 240px;
-    height: 50px;
-    padding: 0;
+    height: 58px;
+    padding: 2px 0 0 0;
     margin: 0 0 12px 20px;
     font-weight: 500;
     font-size: 27px;
-    line-height: 29px;
+    line-height: 27px;
     text-align: center;
     border: none;
     border-bottom: 3px solid #333;
@@ -3304,10 +3270,6 @@ small {
     height: 50px;
     padding: 0;
     margin: 0 0 0 20px;
-    color: #fff;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 52px;
     background: #8a0d4a;
     border: none;
     border-bottom: 3px solid #4a0024;
@@ -3318,8 +3280,8 @@ small {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 23px;
-    line-height: 54px;
+    font-size: 22px;
+    line-height: 51px;
     color: #fff;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
@@ -3337,20 +3299,20 @@ small {
     margin: 0 1% 16px 0;
     font-size: 16px;
     width: 240px;
-    padding: 22px 20px 20px 20px;
+    padding: 22px 20px 12px 20px;
     margin: 0 0 14px 0;
-    background: #fff;
+    background: #fffff2 url("../img/squairy.png");
     border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
   .answers-holder .answer h2 {
     float: left;
     width: 100%;
-    margin: 0 0 14px 0;
+    margin: 0 0 16px 0;
     padding: 0 0 8px 0;
     font-weight: 700;
-    font-size: 23px;
-    line-height: 29px;
+    font-size: 27px;
+    line-height: 32px;
     text-align: center;
     border-bottom: 3px solid #8a0d4a;
   }
@@ -3361,8 +3323,8 @@ small {
     padding: 0;
     font-weight: 500;
     font-size: 18px;
-    line-height: 27px;
-    color: #666;
+    line-height: 28px;
+    color: #333;
     text-align: center;
   }
   .answers-holder .answer .tag-holder {
@@ -3395,21 +3357,33 @@ small {
     width: 320px;
     padding: 20px 0 0 0;
     margin: 0 0 12px 0;
-    background: #999226 url("../img/squairy.png");
+    background: #fffff2 url("../img/squairy.png");
     border-top: none;
     border-bottom: 4px solid #333;
     overflow: hidden;
   }
   .card-member .member {
     float: left;
-    width: 290px;
-    padding: 0 0 20px 30px;
+    width: 300px;
+    padding: 0 0 20px 20px;
+    margin: 0;
+  }
+  .card-member .member .member-brand {
+    float: left;
+    width: 280px;
+    margin: 0 0 20px 0;
+  }
+  .card-member .member .member-brand img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0;
     margin: 0;
   }
   .card-member .member .member-content {
     float: left;
     width: 290px;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 0 10px;
   }
   .card-member .member .member-content .row {
     float: left;
@@ -3419,84 +3393,55 @@ small {
     float: left;
     width: 100%;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 17px;
-    color: #fff;
-    text-shadow: -1px -1px 0px #000;
+    font-size: 21px;
+    line-height: 27px;
+    color: #666;
+    text-shadow: -1px -1px 0px #fff;
     text-align: left;
   }
   .card-member .member .member-content .row .left {
     float: left;
-    width: 54px;
-    margin: 0 0 12px 0;
+    width: 150px;
+    margin: 0 0 14px 0;
   }
   .card-member .member .member-content .row .right {
     float: left;
-    width: 80px;
-    margin: 0 0 12px 0;
+    width: 140px;
+    margin: 0 0 14px 0;
   }
   .card-member .member .member-content .row .right h4 {
+    font-weight: 500;
     color: #8a0d4a;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
-  }
-  .card-member .member .member-content .row .left.small {
-    width: 60px;
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row .right.small {
-    width: 220px;
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row .left.middle {
-    width: 140px;
-    margin: 0 0 6px 0;
-  }
-  .card-member .member .member-content .row .right.middle {
-    width: 140px;
-    margin: 0 0 6px 0;
-  }
-  .card-member .member .member-brand {
-    float: left;
-    width: 240px;
-    margin: 0 0 0 10px;
-  }
-  .card-member .member .member-brand img {
-    float: left;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-member .disclaimer {
     float: left;
     width: 280px;
-    padding: 30px 10px 10px 30px;
+    padding: 30px 10px 20px 30px;
     margin: 0;
     background: #fff;
     border-top: 2px dotted #999;
   }
   .card-member .disclaimer p {
-    width: 260px;
+    width: 280px;
     padding: 0;
-    margin: 0 0 22px 0;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 25px;
-    color: #fff;
-    text-shadow: -1px -1px 0px #000;
+    margin: 0 0 18px 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+    color: #333;
+    text-shadow: -1px -1px 0px #fff;
     text-align: left;
   }
   .card-member .disclaimer a {
-    float: left;
-    width: 100%;
     padding: 0;
     margin: 0;
     font-weight: 500;
-    font-size: 21px;
-    line-height: 21px;
-    color: #fff;
-    text-shadow: -1px -1px 0px #000;
+    font-size: 17px;
+    line-height: 27px;
+    color: #666;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-member .disclaimer .brand {
     float: left;
@@ -3505,16 +3450,16 @@ small {
   }
   .card-member .disclaimer .brand img {
     float: left;
-    width: 180px;
+    width: 240px;
   }
   .card-modal {
     float: left;
     width: 254px;
     padding: 28px 0px 16px 26px;
     margin: 0 0 12px 0;
-    background: #999226 url("../img/squairy.png");
+    background: #fffff2 url("../img/squairy.png");
     border-top: none;
-    border-bottom: 4px solid #474200;
+    border-bottom: 4px solid #000812;
     border-radius: 8px;
     overflow: hidden;
   }
@@ -3538,28 +3483,29 @@ small {
   }
   .card-modal .card-content h1 {
     float: left;
-    width: 100%;
-    margin: 0 0 11px 0;
+    width: 260px;
+    margin: 0 0 12px 0;
     font-weight: 400;
-    font-size: 29px;
-    line-height: 29px;
-    color: #fff;
+    font-size: 28px;
+    line-height: 28px;
+    color: #333;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-modal .card-content .company {
     float: left;
-    width: 100%;
-    margin: 0 0 32px 0;
+    width: 260px;
+    margin: 0 0 28px 0;
   }
   .card-modal .card-content .company h5 {
     float: left;
+    font-style: italic;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    color: #fff;
+    color: #8a0d4a;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-modal .card-content .company span {
     float: left;
@@ -3567,9 +3513,9 @@ small {
     margin: 0 8px;
     font-size: 22px;
     line-height: 22px;
-    color: #fff;
+    color: #666;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card-modal .card-content .patient-holder {
     float: left;
@@ -3581,56 +3527,54 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 32px 0;
+    margin: 0 0 28px 0;
     font-weight: 400;
     font-size: 23px;
     line-height: 23px;
-    color: #fff;
+    color: #333;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
-  .card-modal .card-content .patient-holder .row {
+  .card-modal .card-content .patient-holder .row-holder {
+    float: left;
+    width: 200px;
+  }
+  .card-modal .card-content .patient-holder .row-holder .row {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 9px 0;
+    margin: 0 0 10px 0;
   }
-  .card-modal .card-content .patient-holder .row h6 {
+  .card-modal .card-content .patient-holder .row-holder .row h6 {
     float: left;
-    width: 94px;
+    width: 84px;
     padding: 0;
     margin: 0;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 15px;
-    color: #fff;
-    text-shadow: -1px -1px 0px #000;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+    text-shadow: -1px -1px 0px #fff;
+  }
+  .card-modal .card-content .patient-holder .lines {
+    float: left;
+    width: 54px;
+    padding: 0;
+    margin: 20px 0 0 0;
   }
   .card {
     float: left;
     width: 276px;
-    padding: 26px 0px 16px 24px;
+    padding: 28px 0px 14px 24px;
     margin: 0 0 10px 10px;
-    background: #999226 url("../img/squairy.png");
+    background: #fffff2 url("../img/squairy.png");
     border-top: none;
-    border-bottom: 4px solid #333;
+    border-bottom: 4px solid #000812;
     border-radius: 8px;
     overflow: hidden;
-  }
-  .card .card-lines {
-    position: absolute;
-    width: 248px;
-    padding: 0;
-    margin: 92px 0 0 72px;
-    z-index: 1;
-    opacity: 0.6;
-  }
-  .card .card-lines img {
-    float: left;
-    width: 100%;
   }
   .card .card-content {
     position: relative;
@@ -3639,51 +3583,40 @@ small {
     margin: 0;
     z-index: 99;
   }
-  .card .card-content .card-logo {
-    float: left;
-    width: 42px;
-    padding: 0;
-    margin: 0 20px 0 0;
-  }
-  .card .card-content .card-logo img {
-    float: left;
-    width: 100%;
-  }
   .card .card-content h1 {
     float: left;
-    width: 200px;
-    margin: 0 0 7px 0;
+    width: 260px;
+    margin: 0 0 12px 0;
     font-weight: 400;
-    font-size: 23px;
-    line-height: 23px;
-    color: #fff;
+    font-size: 28px;
+    line-height: 28px;
+    color: #333;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card .card-content .company {
     float: left;
-    width: 200px;
-    margin: 0 0 32px 0;
+    width: 260px;
+    margin: 0 0 28px 0;
   }
   .card .card-content .company h5 {
     float: left;
     font-style: italic;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    color: #8a0d4a;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
   }
   .card .card-content .company span {
     float: left;
     padding: 0;
-    margin: 0 6px;
-    font-size: 20px;
-    line-height: 20px;
-    color: #fff;
+    margin: 0 8px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #666;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card .card-content .patient-holder {
     float: left;
@@ -3695,16 +3628,16 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 32px 0;
+    margin: 0 0 28px 0;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 22px;
-    color: #fff;
+    font-size: 23px;
+    line-height: 23px;
+    color: #666;
     background: none;
     border: none;
     outline: none;
     text-align: left;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card .card-content .patient-holder .row-holder {
     float: left;
@@ -3714,24 +3647,24 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0 0 10px 0;
   }
   .card .card-content .patient-holder .row-holder .row h6 {
     float: left;
-    width: 78px;
+    width: 84px;
     padding: 0;
     margin: 0;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 13px;
-    color: #fff;
-    text-shadow: -1px -1px 0px #000;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+    text-shadow: -1px -1px 0px #fff;
   }
   .card .card-content .patient-holder .lines {
     float: left;
-    width: 46px;
+    width: 54px;
     padding: 0;
-    margin: 26px 0 0 0;
+    margin: 10px 0 0 0;
   }
   .legal-container {
     position: relative;
@@ -3805,15 +3738,14 @@ small {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 144px;
-    max-width: 144px;
+    width: 194px;
+    max-width: 194px;
     height: 2000px;
     min-height: 2000px;
     bottom: 0;
     background: none;
     outline: none;
     overflow: none;
-    background: #fff;
     box-sizing: border-box;
     left: 0;
     top: 0;
@@ -3848,63 +3780,62 @@ small {
   .side {
     display: block;
     float: left;
-    width: 144px;
+    width: 194px;
     height: 2000px;
     min-height: 2000px;
     top: 0;
     padding: 0 0 1000px 0;
     margin: 0;
-    background: #fff;
+    background: #fffff2 url("../img/squairy.png");
     border-right: 1px solid #000;
-    z-index: 99999;
   }
   .side ul {
     float: left;
-    width: 144px;
+    width: 194px;
     height: 1000px;
   }
   .side ul li {
     float: left;
-    width: 144px;
-    padding: 20px 0 16px 0;
+    width: 194px;
+    padding: 16px 0 14px 0;
     margin: 0;
-    background: #777;
     border-bottom: 1px dotted #999;
     cursor: pointer;
   }
   .side ul li h4 {
     float: left;
-    width: 130px;
+    width: 178px;
     padding: 0;
     margin: 0;
-    font-style: italic;
     font-weight: 500;
-    font-size: 19px;
-    line-height: 19px;
-    color: #fff;
+    font-size: 21px;
+    line-height: 27px;
+    color: #333;
     text-align: right;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
   .side ul li.close {
     float: left;
-    padding: 12px 0 8px 0;
+    padding: 14px 0 10px 0;
   }
   .side ul li.close .fa-long-arrow-left {
     float: left;
-    width: 130px;
+    width: 178px;
     padding: 0;
     margin: 0;
-    font-size: 23px;
-    line-height: 23px;
-    color: #fff;
+    font-size: 27px;
+    line-height: 27px;
+    color: #333;
     text-align: right;
-    text-shadow: -1px -1px 0px #000;
+    text-shadow: -1px -1px 0px #fff;
   }
   .side ul li.active {
     background: #8a0d4a;
   }
   .side ul li.active h4 {
-    font-style: normal;
+    font-style: italic;
+    color: #fff;
+    text-shadow: -1px -1px 0px #000;
   }
 }
 @media (min-width: 360px) {
@@ -4254,9 +4185,9 @@ small {
     margin: 0 0 20px 0;
   }
   .contact-holder .contact-detail h2 {
-    margin: 0 0 26px 0;
-    font-size: 32px;
-    line-height: 32px;
+    margin: 0 0 24px 0;
+    font-size: 26px;
+    line-height: 26px;
   }
   .contact-holder .contact-detail .contact-container {
     width: 293px;
@@ -4264,56 +4195,55 @@ small {
   .contact-holder .contact-detail .contact-container p {
     padding: 0;
     margin: 0 0 14px 0;
+    font-size: 18px;
+    line-height: 18px;
   }
   .contact-holder .contact-detail .contact-container a {
     padding: 0;
-    margin: 0 0 12px 0;
-    font-size: 22px;
-    line-height: 22px;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    line-height: 20px;
   }
   .contact-holder .contact-detail .contact-container h4 {
-    float: left;
-    width: 100%;
-    padding: 0;
     margin: 10px 0 0 0;
     font-size: 19px;
     line-height: 29px;
   }
   .contact-holder .contact-form {
-    width: 273px;
+    width: 275px;
     padding: 38px 30px 20px 30px;
     margin: 0 0 16px 0;
   }
   .contact-holder .contact-form .row {
     float: left;
-    width: 273px;
+    width: 275px;
     padding: 0;
     margin: 0 0 15px 0;
   }
   .contact-holder .contact-form .row input {
-    width: 273px;
-    height: 52px;
-    padding: 6px 0 0 0;
+    width: 275px;
+    height: 60px;
+    padding: 2px 0 0 0;
     margin: 0;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .contact-holder .contact-form .row textarea {
-    width: 253px;
-    height: 80px;
-    padding: 14px 10px;
+    width: 255px;
+    height: 100px;
+    padding: 16px 10px;
     margin: 0;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 26px;
+    line-height: 31px;
   }
   .contact-holder .contact-form .submit {
-    width: 273px;
-    height: 58px;
-    font-size: 29px;
-    line-height: 59px;
+    width: 275px;
+    height: 62px;
+    font-size: 28px;
+    line-height: 63px;
   }
   .contact-holder .card-confirmation {
-    width: 293px;
+    width: 295px;
     padding: 0;
     margin: 0;
   }
@@ -4361,18 +4291,18 @@ small {
   }
   .modal-holder .modal-container .row input {
     width: 300px;
-    height: 56px;
+    height: 60px;
     padding: 2px 0 0 0;
     margin: 0 0 12px 0;
-    font-size: 27px;
-    line-height: 27px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .modal-holder .modal-container .submit {
     width: 300px;
     padding: 14px 0 10px 0;
-    margin: 0 0 20px 0;
-    font-size: 29px;
-    line-height: 29px;
+    margin: 0 0 18px 0;
+    font-size: 28px;
+    line-height: 28px;
   }
   .modal-holder .modal-container .legal {
     width: 270px;
@@ -4380,12 +4310,12 @@ small {
   }
   .modal-holder .modal-container .legal p {
     margin: 0 0 18px 0;
-    font-size: 18px;
-    line-height: 29px;
+    font-size: 17px;
+    line-height: 26px;
   }
   .modal-holder .modal-container .legal a {
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 26px;
   }
   .filter-holder {
     width: 335px;
@@ -4400,40 +4330,40 @@ small {
     height: 58px;
     padding: 2px 0 0 0;
     margin: 0 0 12px 30px;
-    font-size: 29px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 28px;
   }
   .filter-holder .filter-container .reset {
     width: 275px;
-    height: 56px;
+    height: 50px;
     padding: 0;
     margin: 0 0 0 30px;
   }
   .filter-holder .filter-container .reset .fa-times {
     font-size: 23px;
-    line-height: 59px;
+    line-height: 51px;
   }
   .answers-holder {
     width: 335px;
   }
   .answers-holder .answer {
     width: 295px;
-    padding: 24px 20px 20px 20px;
+    padding: 24px 20px 12px 20px;
     margin: 0 0 14px 0;
   }
   .answers-holder .answer h2 {
-    width: 275px;
-    padding: 0 10px 12px 10px;
-    margin: 0 0 20px 0;
-    font-size: 30px;
-    line-height: 36px;
+    width: 295px;
+    padding: 0 0 12px 0;
+    margin: 0 0 16px 0;
+    font-size: 28px;
+    line-height: 33px;
   }
   .answers-holder .answer p {
     width: 275px;
     padding: 0 10px;
     margin: 0 0 20px 0;
     font-size: 19px;
-    line-height: 31px;
+    line-height: 29px;
   }
   .answers-holder .answer .tag-holder {
     position: relative;
@@ -4459,64 +4389,49 @@ small {
     width: 290px;
     padding: 0 0 20px 20px;
   }
+  .card-member .member .member-brand {
+    width: 290px;
+    margin: 0 0 20px 0;
+  }
   .card-member .member .member-content {
     width: 280px;
-    margin: 10px 0 10px 15px;
+    margin: 10px 0 0 20px;
   }
   .card-member .member .member-content .row {
     margin: 0;
   }
   .card-member .member .member-content .row h4 {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 22px;
+    line-height: 28px;
   }
   .card-member .member .member-content .row .left {
-    width: 54px;
+    width: 150px;
     margin: 0 0 14px 0;
   }
   .card-member .member .member-content .row .right {
-    width: 80px;
+    width: 130px;
     margin: 0 0 14px 0;
-  }
-  .card-member .member .member-content .row .left.small {
-    width: 60px;
-    margin: 0 0 14px 0;
-  }
-  .card-member .member .member-content .row .right.small {
-    width: 220px;
-    margin: 0 0 14px 0;
-  }
-  .card-member .member .member-content .row .left.middle {
-    width: 140px;
-    margin: 0 0 6px 0;
-  }
-  .card-member .member .member-content .row .right.middle {
-    width: 140px;
-    margin: 0 0 6px 0;
-  }
-  .card-member .member .member-brand {
-    width: 240px;
-    margin: 0 0 0 25px;
   }
   .card-member .disclaimer {
     width: 275px;
-    padding: 20px 40px 10px 40px;
+    padding: 20px 40px 20px 40px;
   }
   .card-member .disclaimer p {
-    margin: 0 0 22px 0;
-    font-size: 17px;
-    line-height: 26px;
+    width: 270px;
+    margin: 0 0 18px 0;
+    font-size: 18px;
+    line-height: 28px;
   }
   .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 28px;
   }
   .card-member .disclaimer .brand {
     width: 300px;
     margin: 0 0 22px 0;
   }
   .card-member .disclaimer .brand img {
-    width: 220px;
+    width: 260px;
   }
   .card-modal {
     width: 268px;
@@ -4531,85 +4446,89 @@ small {
     width: 305px;
   }
   .card-modal .card-content h1 {
+    width: 234px;
     margin: 0 0 11px 0;
     font-size: 30px;
     line-height: 30px;
   }
   .card-modal .card-content .company {
+    width: 234px;
     margin: 0 0 32px 0;
   }
   .card-modal .card-content .company h5 {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .card-modal .card-content .company span {
     margin: 0 8px;
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 24px;
+    line-height: 24px;
   }
   .card-modal .card-content .patient-holder {
     width: 100%;
   }
   .card-modal .card-content .patient-holder h6 {
-    margin: 0 0 28px 0;
-    font-size: 23px;
-    line-height: 23px;
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    line-height: 25px;
   }
-  .card-modal .card-content .patient-holder .row {
-    margin: 0 0 9px 0;
+  .card-modal .card-content .patient-holder .row-holder {
+    float: left;
+    width: 210px;
   }
-  .card-modal .card-content .patient-holder .row h6 {
-    width: 84px;
-    font-size: 14px;
-    line-height: 14px;
+  .card-modal .card-content .patient-holder .row-holder .row {
+    margin: 0 0 10px 0;
+  }
+  .card-modal .card-content .patient-holder .row-holder .row h6 {
+    width: 88px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .card-modal .card-content .patient-holder .lines {
+    width: 58px;
+    margin: 12px 0 0 0;
   }
   .card {
     width: 315px;
-    padding: 28px 0 22px 30px;
+    padding: 28px 0 18px 30px;
     margin: 0 0 12px 5px;
   }
   .card .card-content {
     width: 305px;
   }
-  .card .card-content .card-logo {
-    float: left;
-    width: 46px;
-    padding: 0;
-    margin: 0 22px 0 0;
-  }
   .card .card-content h1 {
     width: 234px;
-    margin: 0 0 8px 0;
-    font-size: 27px;
-    line-height: 27px;
+    margin: 0 0 11px 0;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card .card-content .company {
     width: 234px;
-    margin: 0 0 38px 0;
+    margin: 0 0 32px 0;
   }
   .card .card-content .company h5 {
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .card .card-content .company span {
-    margin: 0 7px;
-    font-size: 21px;
-    line-height: 21px;
+    margin: 0 8px;
+    font-size: 24px;
+    line-height: 24px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
-    margin: 0 0 32px 0;
-    font-size: 26px;
-    line-height: 26px;
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    line-height: 25px;
   }
   .card .card-content .patient-holder .row-holder {
     float: left;
     width: 210px;
   }
   .card .card-content .patient-holder .row-holder .row {
-    margin: 0 0 11px 0;
+    margin: 0 0 10px 0;
   }
   .card .card-content .patient-holder .row-holder .row h6 {
     width: 88px;
@@ -4617,10 +4536,8 @@ small {
     line-height: 15px;
   }
   .card .card-content .patient-holder .lines {
-    float: left;
-    width: 48px;
-    padding: 0;
-    margin: 38px 0 0 8px;
+    width: 58px;
+    margin: 12px 0 0 0;
   }
   .legal-container {
     width: 338px;
@@ -4656,114 +4573,33 @@ small {
     line-height: 26px;
     margin: 0 0 14px 0;
   }
-  md-sidenav.md-closed {
-    display: none;
-  }
   md-sidenav {
-    position: absolute;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 164px;
-    max-width: 164px;
-    height: 2000px;
-    min-height: 2000px;
-    bottom: 0;
-    background: none;
-    outline: none;
-    overflow: none;
-    background: #777;
-    box-sizing: border-box;
-    left: 0;
-    top: 0;
-    z-index: 999999;
-    -webkit-transform: translate3d(0%, 0, 0);
-    transform: translate3d(0%, 0, 0);
-    overflow: scroll;
-  }
-  md-sidenav.md-closed {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-  md-sidenav.md-closed-remove {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-closed-add.md-closed-add-active,
-  md-sidenav.md-closed-remove.md-closed-remove-active {
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-locked-open-add,
-  md-sidenav.md-locked-open-remove {
-    position: static;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    width: 194px;
+    max-width: 194px;
   }
   .side {
-    display: block;
-    float: left;
-    width: 164px;
-    height: 2000px;
-    min-height: 2000px;
-    top: 0;
-    padding: 0 0 1000px 0;
-    margin: 0;
-    background: #777;
-    border-right: 1px solid #000;
-    z-index: 99999;
+    width: 194px;
   }
   .side ul {
-    float: left;
-    width: 164px;
-    height: 1000px;
+    width: 194px;
   }
   .side ul li {
-    float: left;
-    width: 164px;
-    padding: 22px 0 18px 0;
+    width: 194px;
+    padding: 16px 0 14px 0;
     margin: 0;
-    background: #777;
-    border-bottom: 1px dotted #999;
-    cursor: pointer;
   }
   .side ul li h4 {
-    float: left;
-    width: 150px;
-    padding: 0;
-    margin: 0;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 23px;
-    color: #fff;
-    text-align: right;
-    text-shadow: -1px -1px 0px #000;
+    width: 178px;
+    font-size: 21px;
+    line-height: 27px;
   }
   .side ul li.close {
-    float: left;
     padding: 14px 0 10px 0;
   }
   .side ul li.close .fa-long-arrow-left {
-    float: left;
-    width: 140px;
-    padding: 0;
-    margin: 0;
-    font-size: 23px;
-    line-height: 23px;
-    color: #fff;
-    text-align: right;
-    text-shadow: -1px -1px 0px #000;
-  }
-  .side ul li.active {
-    background: #8a0d4a;
-  }
-  .side ul li.active h4 {
-    font-style: normal;
+    width: 178px;
+    font-size: 27px;
+    line-height: 27px;
   }
 }
 @media (min-width: 480px) {
@@ -4777,17 +4613,17 @@ small {
     padding: 0 0 14px 0;
   }
   header .header .brand .logo {
-    width: 290px;
+    width: 270px;
     margin: 6px 0 20px 75px;
   }
   header .header .brand .mobile-navigation {
-    width: 320px;
+    width: 300px;
     padding: 11px 0 8px 0;
-    margin: 0 0 0 60px;
+    margin: 0 0 0 70px;
   }
   header .header .brand .mobile-navigation h5 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .page {
     width: 480px;
@@ -4812,19 +4648,19 @@ small {
   .content .main .download .tag p {
     width: 71px;
     margin: 0 10px;
-    font-size: 19px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 18px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 30px;
+    height: 31px;
     font-size: 25px;
     line-height: 22px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 38px;
+    height: 39px;
     margin: -8px 0 0 -8px;
     font-size: 36px;
   }
@@ -4849,16 +4685,16 @@ small {
     top: -14px;
     left: -17px;
     width: 36px;
-    font-size: 33px;
+    font-size: 31px;
   }
   .content .points .point-container .point h3 {
-    padding: 10px 30px 20px 30px;
+    padding: 9px 30px 18px 30px;
     margin: 0 0 10px 0;
-    font-size: 31px;
-    line-height: 39px;
+    font-size: 30px;
+    line-height: 38px;
   }
   .content .points .point-container .point h3 span {
-    padding: 0 0 5px 0;
+    padding: 0 0 4px 0;
     margin: 0;
   }
   .content .center {
@@ -5065,7 +4901,7 @@ small {
     background-size: 100% 2.1em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 37px 0;
+    margin: 0 0 36px 0;
     font-size: 22px;
     line-height: 33px;
   }
@@ -5113,27 +4949,27 @@ small {
   }
   .contact-holder .contact-detail h2 {
     width: 358px;
-    margin: 0 0 28px 0;
-    font-size: 33px;
-    line-height: 33px;
+    margin: 0 0 26px 0;
+    font-size: 30px;
+    line-height: 30px;
   }
   .contact-holder .contact-detail .contact-container {
     width: 358px;
   }
   .contact-holder .contact-detail .contact-container p {
     margin: 0 0 14px 0;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .contact-holder .contact-detail .contact-container a {
     margin: 0 0 12px 0;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .contact-holder .contact-detail .contact-container h4 {
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 22px;
     line-height: 31px;
   }
   .contact-holder .contact-form {
@@ -5204,41 +5040,41 @@ small {
     width: 300px;
   }
   .modal-holder .modal-container .fa-close {
-    width: 20px;
-    margin: 0 0 20px 140px;
-    font-size: 21px;
-    line-height: 21px;
+    width: 22px;
+    margin: 0 0 20px 139px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .modal-holder .modal-container .row {
     width: 340px;
   }
   .modal-holder .modal-container .row input {
     width: 300px;
-    height: 56px;
+    height: 64px;
     padding: 2px 0 0 0;
     margin: 0 0 12px 0;
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .modal-holder .modal-container .submit {
     width: 300px;
     padding: 14px 0 10px 0;
-    margin: 0 0 20px 0;
-    font-size: 30px;
-    line-height: 30px;
+    margin: 0 0 18px 0;
+    font-size: 31px;
+    line-height: 31px;
   }
   .modal-holder .modal-container .legal {
     width: 270px;
-    margin: 20px 0 0 15px;
+    margin: 14px 0 0 15px;
   }
   .modal-holder .modal-container .legal p {
     margin: 0 0 20px 0;
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 27px;
   }
   .modal-holder .modal-container .legal a {
-    font-size: 20px;
-    line-height: 31px;
+    font-size: 19px;
+    line-height: 27px;
   }
   .filter-holder {
     width: 400px;
@@ -5258,15 +5094,15 @@ small {
   }
   .filter-holder .filter-container input {
     width: 340px;
-    height: 56px;
-    padding: 0;
-    margin: 0 0 14px 0;
-    font-size: 27px;
+    height: 60px;
+    padding: 2px 0 0 0;
+    margin: 0 0 12px 0;
+    font-size: 29px;
     line-height: 29px;
   }
   .filter-holder .filter-container .reset {
     width: 340px;
-    height: 56px;
+    height: 54px;
     margin: 0;
   }
   .filter-holder .filter-container .reset .fa-times {
@@ -5279,22 +5115,22 @@ small {
   }
   .answers-holder .answer {
     width: 320px;
-    padding: 22px 40px 20px 40px;
+    padding: 22px 40px 12px 40px;
     margin: 0 0 14px 0;
   }
   .answers-holder .answer h2 {
-    width: 280px;
+    width: 320px;
     margin: 0 0 14px 0;
-    padding: 0 20px 8px 20px;
-    font-size: 28px;
-    line-height: 35px;
+    padding: 0 0px 8px 0px;
+    font-size: 29px;
+    line-height: 34px;
   }
   .answers-holder .answer p {
     width: 320px;
     padding: 0;
-    margin: 0 0 10px 0;
-    font-size: 17px;
-    line-height: 28px;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 30px;
   }
   .answers-holder .answer .tag-holder {
     position: relative;
@@ -5322,76 +5158,60 @@ small {
   }
   .card-member {
     width: 400px;
-    padding: 30px 0 0 0;
+    padding: 20px 0 0 0;
     margin: 0 0 18px 40px;
   }
   .card-member .member {
     width: 350px;
     padding: 0 0 20px 50px;
   }
+  .card-member .member .member-brand {
+    width: 300px;
+    margin: 0 0 20px 0;
+  }
   .card-member .member .member-content {
-    width: 350px;
-    margin: 10px 0 20px 0;
+    width: 330px;
+    margin: 10px 0 0 10px;
   }
   .card-member .member .member-content .row {
     margin: 0;
   }
   .card-member .member .member-content .row h4 {
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 23px;
+    line-height: 29px;
   }
   .card-member .member .member-content .row .left {
-    width: 54px;
+    width: 160px;
     margin: 0 0 12px 0;
   }
   .card-member .member .member-content .row .right {
-    width: 100px;
+    width: 150px;
     margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row .left.small {
-    width: 80px;
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row .right.small {
-    width: 220px;
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row .left.middle {
-    width: 140px;
-    margin: 0 0 8px 0;
-  }
-  .card-member .member .member-content .row .right.middle {
-    width: 140px;
-    margin: 0 0 8px 0;
-  }
-  .card-member .member .member-brand {
-    width: 280px;
-    margin: 0 0 0 10px;
   }
   .card-member .disclaimer {
     width: 420px;
-    padding: 30px 10px 10px 40px;
+    padding: 20px 10px 20px 40px;
   }
   .card-member .disclaimer p {
-    width: 310px;
-    margin: 12px 0 10px 0;
-    font-size: 17px;
-    line-height: 26px;
+    width: 320px;
+    margin: 0 0 18px 0;
+    font-size: 19px;
+    line-height: 30px;
   }
   .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 19px;
+    line-height: 30px;
   }
   .card-member .disclaimer .brand {
-    width: 160px;
-    margin: 0 20px 0 0;
+    width: 280px;
+    margin: 0 20px 20px 25px;
   }
   .card-member .disclaimer .brand img {
-    width: 160px;
+    width: 360px;
   }
   .card-modal {
     width: 268px;
-    padding: 24px 0px 18px 30px;
+    padding: 28px 0px 18px 30px;
     margin: 0 0 10px 0;
   }
   .card-modal .card-logo {
@@ -5402,102 +5222,100 @@ small {
     width: 268px;
   }
   .card-modal .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 29px;
-    line-height: 29px;
+    width: 234px;
+    margin: 0 0 11px 0;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card-modal .card-content .company {
-    width: 100%;
+    width: 234px;
+    margin: 0 0 32px 0;
   }
   .card-modal .card-content .company h5 {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .card-modal .card-content .company span {
     margin: 0 8px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 24px;
   }
   .card-modal .card-content .patient-holder {
     width: 100%;
   }
-  .card-modal .card-content .patient-holder p {
-    margin: 0 0 28px 0;
-    font-size: 24px;
-    line-height: 24px;
+  .card-modal .card-content .patient-holder h6 {
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    line-height: 25px;
   }
-  .card-modal .card-content .patient-holder .row {
-    margin: 0 0 8px 0;
+  .card-modal .card-content .patient-holder .row-holder {
+    float: left;
+    width: 210px;
   }
-  .card-modal .card-content .patient-holder .row h6 {
-    width: 86px;
-    font-size: 14px;
-    line-height: 14px;
+  .card-modal .card-content .patient-holder .row-holder .row {
+    margin: 0 0 10px 0;
+  }
+  .card-modal .card-content .patient-holder .row-holder .row h6 {
+    width: 88px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .card-modal .card-content .patient-holder .lines {
+    width: 58px;
+    margin: 12px 0 0 0;
   }
   .card {
-    width: 370px;
-    padding: 32px 0 22px 50px;
+    width: 376px;
+    padding: 30px 0 22px 44px;
     margin: 0 0 12px 30px;
-  }
-  .card .card-logo {
-    width: 62px;
-    margin: 154px 0 0 240px;
   }
   .card .card-content {
     width: 360px;
   }
-  .card .card-content .card-logo {
-    float: left;
-    width: 52px;
-    padding: 0;
-    margin: 0 26px 0 0;
-  }
   .card .card-content h1 {
     width: 280px;
-    margin: 0 0 9px 0;
-    font-size: 29px;
-    line-height: 29px;
+    margin: 0 0 12px 0;
+    font-size: 32px;
+    line-height: 32px;
   }
   .card .card-content .company {
     width: 280px;
-    margin: 0 0 38px 0;
+    margin: 0 0 32px 0;
   }
   .card .card-content .company h5 {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .card .card-content .company span {
     margin: 0 8px;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
-    margin: 0 0 32px 0;
+    margin: 0 0 30px 0;
     font-size: 27px;
     line-height: 27px;
   }
   .card .card-content .patient-holder .row-holder {
     float: left;
-    width: 250px;
+    width: 240px;
   }
   .card .card-content .patient-holder .row-holder .row {
     margin: 0 0 12px 0;
   }
   .card .card-content .patient-holder .row-holder .row h6 {
-    width: 108px;
+    width: 104px;
     padding: 0;
     margin: 0;
     font-size: 16px;
     line-height: 16px;
   }
   .card .card-content .patient-holder .lines {
-    float: left;
-    width: 54px;
-    padding: 0;
-    margin: 40px 0 0 10px;
+    width: 64px;
+    margin: 12px 0 0 0;
   }
   .legal-container {
     width: 438px;
@@ -5533,114 +5351,33 @@ small {
     line-height: 28px;
     margin: 0 0 14px 0;
   }
-  md-sidenav.md-closed {
-    display: none;
-  }
   md-sidenav {
-    position: absolute;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 144px;
-    max-width: 144px;
-    height: 2000px;
-    min-height: 2000px;
-    bottom: 0;
-    background: none;
-    outline: none;
-    overflow: none;
-    background: #777;
-    box-sizing: border-box;
-    left: 0;
-    top: 0;
-    z-index: 999999;
-    -webkit-transform: translate3d(0%, 0, 0);
-    transform: translate3d(0%, 0, 0);
-    overflow: scroll;
-  }
-  md-sidenav.md-closed {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-  md-sidenav.md-closed-remove {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-closed-add.md-closed-add-active,
-  md-sidenav.md-closed-remove.md-closed-remove-active {
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-locked-open-add,
-  md-sidenav.md-locked-open-remove {
-    position: static;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    width: 194px;
+    max-width: 194px;
   }
   .side {
-    display: block;
-    float: left;
-    width: 144px;
-    height: 2000px;
-    min-height: 2000px;
-    top: 0;
-    padding: 0 0 1000px 0;
-    margin: 0;
-    background: #777;
-    border-right: 1px solid #000;
-    z-index: 99999;
+    width: 194px;
   }
   .side ul {
-    float: left;
-    width: 144px;
-    height: 1000px;
+    width: 194px;
   }
   .side ul li {
-    float: left;
-    width: 144px;
-    padding: 20px 0 16px 0;
+    width: 194px;
+    padding: 16px 0 14px 0;
     margin: 0;
-    background: #777;
-    border-bottom: 1px dotted #999;
-    cursor: pointer;
   }
   .side ul li h4 {
-    float: left;
-    width: 130px;
-    padding: 0;
-    margin: 0;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 19px;
-    color: #fff;
-    text-align: right;
-    text-shadow: -1px -1px 0px #000;
+    width: 178px;
+    font-size: 21px;
+    line-height: 27px;
   }
   .side ul li.close {
-    float: left;
-    padding: 12px 0 8px 0;
+    padding: 14px 0 10px 0;
   }
   .side ul li.close .fa-long-arrow-left {
-    float: left;
-    width: 130px;
-    padding: 0;
-    margin: 0;
-    font-size: 23px;
-    line-height: 23px;
-    color: #fff;
-    text-align: right;
-    text-shadow: -1px -1px 0px #000;
-  }
-  .side ul li.active {
-    background: #8a0d4a;
-  }
-  .side ul li.active h4 {
-    font-style: normal;
+    width: 178px;
+    font-size: 27px;
+    line-height: 27px;
   }
 }
 @media (min-width: 560px) {
@@ -5654,17 +5391,17 @@ small {
     padding: 0 0 18px 0;
   }
   header .header .brand .logo {
-    width: 330px;
-    margin: 8px 0 20px 55px;
+    width: 290px;
+    margin: 8px 0 20px 75px;
   }
   header .header .brand .mobile-navigation {
-    width: 358px;
+    width: 338px;
     padding: 12px 0 10px 0;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 50px;
   }
   header .header .brand .mobile-navigation h5 {
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .page {
     width: 640px;
@@ -5986,7 +5723,7 @@ small {
   }
   .contact-holder {
     width: 480px;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 80px;
   }
   .contact-holder .contact-detail {
     width: 438px;
@@ -6007,52 +5744,52 @@ small {
     font-size: 20px;
     line-height: 24px;
   }
-  .contact-holder .contact-detail .contact-container h3 {
+  .contact-holder .contact-detail .contact-container a {
     margin: 0 0 12px 0;
     font-size: 24px;
-    line-height: 27px;
+    line-height: 24px;
   }
   .contact-holder .contact-detail .contact-container h4 {
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     font-size: 21px;
     line-height: 31px;
   }
   .contact-holder .contact-form {
-    width: 398px;
+    width: 400px;
     padding: 40px 40px 30px 40px;
     margin: 0 0 20px 0;
   }
   .contact-holder .contact-form .row {
-    width: 398px;
+    width: 400px;
     padding: 0;
     margin: 0 0 15px 0;
   }
   .contact-holder .contact-form .row input {
-    width: 396px;
+    width: 400px;
     height: 62px;
-    padding: 10px 0 0 0;
+    padding: 2px 0 0 0;
     margin: 0;
-    font-size: 26px;
-    line-height: 26px;
+    font-size: 28px;
+    line-height: 28px;
   }
   .contact-holder .contact-form .row textarea {
-    width: 356px;
+    width: 360px;
     height: 80px;
     padding: 20px 20px;
     margin: 0;
-    font-size: 27px;
-    line-height: 29px;
+    font-size: 28px;
+    line-height: 34px;
   }
   .contact-holder .contact-form .submit {
-    width: 396px;
-    height: 68px;
-    font-size: 31px;
-    line-height: 70px;
+    width: 400px;
+    height: 64px;
+    font-size: 32px;
+    line-height: 65px;
   }
   .map {
     width: 478px;
     height: 280px;
-    margin: 0 0 40px 20px;
+    margin: 0 0 40px 80px;
   }
   .modal-holder {
     width: 400px;
@@ -6095,21 +5832,21 @@ small {
   }
   .modal-holder .modal-container .legal {
     width: 320px;
-    margin: 10px 0 0 10px;
+    margin: 14px 0 0 10px;
   }
   .modal-holder .modal-container .legal p {
     margin: 0 0 20px 0;
     font-size: 19px;
-    line-height: 29px;
+    line-height: 27px;
   }
   .modal-holder .modal-container .legal a {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 27px;
   }
   .filter-holder {
     width: 520px;
     padding: 24px 0 18px 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 60px;
   }
   .filter-holder .filter-container {
     width: 400px;
@@ -6117,43 +5854,43 @@ small {
   }
   .filter-holder .filter-container input {
     width: 400px;
-    height: 64px;
-    padding: 4px 0 0 0;
+    height: 62px;
+    padding: 2px 0 0 0;
     margin: 0 0 12px 0;
-    font-size: 31px;
-    line-height: 31px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .filter-holder .filter-container .reset {
     width: 400px;
-    height: 60px;
-    margin: 0 0 0 0;
+    height: 56px;
+    margin: 0;
   }
   .filter-holder .filter-container .reset .fa-times {
     font-size: 25px;
-    line-height: 63px;
+    line-height: 62px;
   }
   .answers-holder {
     width: 520px;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 60px;
   }
   .answers-holder .answer {
     width: 420px;
-    padding: 30px 50px 22px 50px;
-    margin: 0 0 18px 0;
+    padding: 30px 50px 12px 50px;
+    margin: 0 0 16px 0;
   }
   .answers-holder .answer h2 {
-    width: 380px;
-    padding: 0 20px 10px 20px;
-    margin: 0 0 22px 0;
-    font-size: 35px;
-    line-height: 44px;
+    width: 420px;
+    padding: 0 0 10px 0;
+    margin: 0 0 18px 0;
+    font-size: 30px;
+    line-height: 36px;
   }
   .answers-holder .answer p {
     width: 420px;
     padding: 0;
-    margin: 0 0 18px 0;
-    font-size: 22px;
-    line-height: 35px;
+    margin: 0 0 20px 0;
+    font-size: 21px;
+    line-height: 31px;
   }
   .answers-holder .answer .tag-holder {
     width: 340px;
@@ -6170,177 +5907,160 @@ small {
   }
   .card-member {
     width: 500px;
-    padding: 30px 0 0 0;
-    margin: 0 0 18px 20px;
+    padding: 20px 0 0 0;
+    margin: 0 0 18px 10px;
   }
   .card-member .member {
     width: 460px;
     padding: 0 0 20px 40px;
   }
+  .card-member .member .member-brand {
+    width: 380px;
+    margin: 0 0 20px 20px;
+  }
   .card-member .member .member-content {
-    width: 440px;
-    margin: 10px 0 20px 0;
+    width: 400px;
+    margin: 10px 0 0 20px;
   }
   .card-member .member .member-content .row {
     margin: 0;
   }
   .card-member .member .member-content .row h4 {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 23px;
+    line-height: 29px;
   }
   .card-member .member .member-content .row .left {
-    width: 100px;
-    margin: 0 0 12px 0;
+    width: 170px;
+    margin: 0 0 14px 0;
   }
   .card-member .member .member-content .row .right {
-    width: 110px;
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row .left.small {
-    width: 80px;
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row .right.small {
-    width: 220px;
-    margin: 0 0 12px 0;
-  }
-  .card-member .member .member-content .row .left.middle {
-    width: 100px;
-    margin: 0 0 8px 0;
-  }
-  .card-member .member .member-content .row .right.middle {
-    width: 110px;
-    margin: 0 0 8px 0;
+    width: 230px;
+    margin: 0 0 14px 0;
   }
   .card-member .member .member-content .row.hide {
     display: none;
   }
-  .card-member .member .member-brand {
-    width: 300px;
-    margin: 0 0 0 60px;
-  }
   .card-member .disclaimer {
-    width: 480px;
-    padding: 30px 0 20px 40px;
+    width: 460px;
+    padding: 20px 0 20px 60px;
   }
   .card-member .disclaimer p {
-    width: 420px;
+    width: 380px;
     margin: 6px 0 14px 0;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 19px;
+    line-height: 31px;
   }
   .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 19px;
+    line-height: 31px;
   }
   .card-member .disclaimer .brand {
-    width: 200px;
-    margin: 0 20px 0 0;
+    width: 280px;
+    margin: 0 80px 20px 0;
   }
   .card-member .disclaimer .brand img {
-    width: 200px;
+    width: 280px;
   }
   .card-modal {
     width: 298px;
-    padding: 24px 0px 20px 40px;
+    padding: 28px 0px 20px 40px;
     margin: 0 0 10px 0;
-  }
-  .card-modal .card-logo {
-    width: 68px;
-    margin: 94px 0 0 180px;
   }
   .card-modal .card-content {
     width: 268px;
   }
   .card-modal .card-content h1 {
-    margin: 0 0 12px 0;
-    font-size: 29px;
-    line-height: 29px;
+    width: 234px;
+    margin: 0 0 11px 0;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card-modal .card-content .company {
-    width: 100%;
+    width: 234px;
+    margin: 0 0 32px 0;
   }
   .card-modal .card-content .company h5 {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 22px;
   }
   .card-modal .card-content .company span {
     margin: 0 8px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 24px;
   }
   .card-modal .card-content .patient-holder {
     width: 100%;
   }
-  .card-modal .card-content .patient-holder p {
-    margin: 0 0 32px 0;
-    font-size: 24px;
-    line-height: 24px;
+  .card-modal .card-content .patient-holder h6 {
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    line-height: 25px;
   }
-  .card-modal .card-content .patient-holder .row {
-    margin: 0 0 8px 0;
+  .card-modal .card-content .patient-holder .row-holder {
+    float: left;
+    width: 210px;
   }
-  .card-modal .card-content .patient-holder .row h6 {
-    width: 86px;
-    font-size: 14px;
-    line-height: 14px;
+  .card-modal .card-content .patient-holder .row-holder .row {
+    margin: 0 0 10px 0;
+  }
+  .card-modal .card-content .patient-holder .row-holder .row h6 {
+    width: 88px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .card-modal .card-content .patient-holder .lines {
+    width: 58px;
+    margin: 12px 0 0 0;
   }
   .card {
     width: 430px;
-    padding: 36px 0 24px 50px;
+    padding: 32px 0 22px 50px;
     margin: 0 0 12px 20px;
   }
   .card .card-content {
     width: 440px;
   }
-  .card .card-content .card-logo {
-    width: 56px;
-    margin: 0 30px 0 0;
-  }
   .card .card-content h1 {
     width: 340px;
-    margin: 0 0 10px 0;
-    font-size: 31px;
-    line-height: 31px;
+    margin: 0 0 13px 0;
+    font-size: 35px;
+    line-height: 35px;
   }
   .card .card-content .company {
     width: 340px;
-    margin: 0 0 38px 0;
+    margin: 0 0 34px 0;
   }
   .card .card-content .company h5 {
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .card .card-content .company span {
     margin: 0 8px;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
-    margin: 0 0 36px 0;
+    margin: 0 0 32px 0;
     font-size: 30px;
     line-height: 30px;
   }
   .card .card-content .patient-holder .row-holder {
-    float: left;
-    width: 250px;
+    width: 274px;
   }
   .card .card-content .patient-holder .row-holder .row {
-    margin: 0 0 13px 0;
+    margin: 0 0 12px 0;
   }
   .card .card-content .patient-holder .row-holder .row h6 {
-    width: 114px;
-    font-size: 18px;
-    line-height: 18px;
+    width: 110px;
+    font-size: 17px;
+    line-height: 17px;
   }
   .card .card-content .patient-holder .lines {
-    float: left;
-    width: 54px;
-    padding: 0;
-    margin: 40px 0 0 10px;
+    width: 74px;
+    margin: 8px 0 0 0;
   }
   .legal-container {
     width: 538px;
@@ -6376,119 +6096,38 @@ small {
     line-height: 29px;
     margin: 0 0 14px 0;
   }
-  md-sidenav.md-closed {
-    display: none;
-  }
   md-sidenav {
-    position: absolute;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 144px;
-    max-width: 144px;
-    height: 2000px;
-    min-height: 2000px;
-    bottom: 0;
-    background: none;
-    outline: none;
-    overflow: none;
-    background: #777;
-    box-sizing: border-box;
-    left: 0;
-    top: 0;
-    z-index: 999999;
-    -webkit-transform: translate3d(0%, 0, 0);
-    transform: translate3d(0%, 0, 0);
-    overflow: scroll;
-  }
-  md-sidenav.md-closed {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-  md-sidenav.md-closed-remove {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-closed-add.md-closed-add-active,
-  md-sidenav.md-closed-remove.md-closed-remove-active {
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  }
-  md-sidenav.md-locked-open-add,
-  md-sidenav.md-locked-open-remove {
-    position: static;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    width: 194px;
+    max-width: 194px;
   }
   .side {
-    display: block;
-    float: left;
-    width: 144px;
-    height: 2000px;
-    min-height: 2000px;
-    top: 0;
-    padding: 0 0 1000px 0;
-    margin: 0;
-    background: #777;
-    border-right: 1px solid #000;
-    z-index: 99999;
+    width: 194px;
   }
   .side ul {
-    float: left;
-    width: 144px;
-    height: 1000px;
+    width: 194px;
   }
   .side ul li {
-    float: left;
-    width: 144px;
-    padding: 20px 0 16px 0;
+    width: 194px;
+    padding: 16px 0 14px 0;
     margin: 0;
-    background: #777;
-    border-bottom: 1px dotted #999;
-    cursor: pointer;
   }
   .side ul li h4 {
-    float: left;
-    width: 130px;
-    padding: 0;
-    margin: 0;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 19px;
-    color: #fff;
-    text-align: right;
-    text-shadow: -1px -1px 0px #000;
+    width: 178px;
+    font-size: 21px;
+    line-height: 27px;
   }
   .side ul li.close {
-    float: left;
-    padding: 12px 0 8px 0;
+    padding: 14px 0 10px 0;
   }
   .side ul li.close .fa-long-arrow-left {
-    float: left;
-    width: 130px;
-    padding: 0;
-    margin: 0;
-    font-size: 23px;
-    line-height: 23px;
-    color: #fff;
-    text-align: right;
-    text-shadow: -1px -1px 0px #000;
-  }
-  .side ul li.active {
-    background: #8a0d4a;
-  }
-  .side ul li.active h4 {
-    font-style: normal;
+    width: 178px;
+    font-size: 27px;
+    line-height: 27px;
   }
 }
 @media (min-width: 768px) {
   header {
-    height: 254px;
+    height: 234px;
     margin: 0 0 50px 0;
   }
   header .header {
@@ -6496,11 +6135,11 @@ small {
   }
   header .header .brand {
     width: 690px;
-    height: 162px;
+    height: 142px;
     margin: 0;
   }
   header .header .brand .logo {
-    width: 330px;
+    width: 290px;
     margin: 22px 0 12px 70px;
   }
   header .header .brand .mobile-navigation {
@@ -6530,15 +6169,15 @@ small {
     padding: 0;
     margin: 11px 0 0 0;
     font-weight: 600;
-    font-size: 23px;
-    line-height: 26px;
+    font-size: 21px;
+    line-height: 24px;
     color: #fff;
     text-align: center;
     text-shadow: -1px -1px 0px #333;
   }
   header .header nav .tile.active {
     height: 74px;
-    background: #777;
+    background: #888;
   }
   header .header nav .tile.first {
     border-radius: 6px 0 0 0;
@@ -6559,16 +6198,16 @@ small {
   }
   .content .main .download .tag {
     width: 142px;
-    padding: 18px 0 10px 0;
-    margin: 0 0 10px 0;
+    padding: 18px 0 9px 0;
+    margin: 0 0 12px 0;
   }
   .content .main .download .tag p {
     display: none;
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 21px;
+    line-height: 21px;
   }
   .content .main .download .tag p.full {
     display: block;
@@ -6577,11 +6216,11 @@ small {
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 38px;
+    height: 36px;
     font-size: 33px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 54px;
+    height: 52px;
     margin: -16px 0 0 -16px;
     font-size: 52px;
   }
@@ -6873,15 +6512,15 @@ small {
   }
   .contact-holder .contact-detail {
     width: 338px;
-    padding: 24px 20px;
+    padding: 28px 20px 18px 20px;
     margin: 0 0 20px 0;
   }
   .contact-holder .contact-detail h2 {
     width: 338px;
-    padding: 10px 0;
+    padding: 0;
     margin: 0 0 24px 0;
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .contact-holder .contact-detail .contact-container {
     width: 338px;
@@ -6892,14 +6531,14 @@ small {
     line-height: 24px;
   }
   .contact-holder .contact-detail .contact-container a {
-    margin: 0 0 16px 0;
-    font-size: 25px;
-    line-height: 25px;
+    margin: 0 0 12px 0;
+    font-size: 24px;
+    line-height: 24px;
   }
   .contact-holder .contact-detail .contact-container h4 {
-    margin: 15px 0 0 0;
-    font-size: 21px;
-    line-height: 30px;
+    margin: 6px 0 10px 0;
+    font-size: 23px;
+    line-height: 33px;
   }
   .contact-holder .contact-form {
     width: 338px;
@@ -6913,26 +6552,26 @@ small {
   }
   .contact-holder .contact-form .row input {
     width: 336px;
-    height: 54px;
+    height: 64px;
     margin: 0;
-    padding: 8px 0 0 0;
+    padding: 2px 0 0 0;
     margin: 0;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .contact-holder .contact-form .row textarea {
     width: 336px;
-    height: 100px;
+    height: 120px;
     padding: 18px 0;
     margin: 0;
-    font-size: 26px;
-    line-height: 35px;
+    font-size: 29px;
+    line-height: 37px;
   }
   .contact-holder .contact-form .submit {
     width: 336px;
-    height: 68px;
+    height: 66px;
     font-size: 31px;
-    line-height: 70px;
+    line-height: 67px;
   }
   .map {
     width: 298px;
@@ -6968,31 +6607,31 @@ small {
     height: 64px;
     padding: 2px 0 0 0;
     margin: 0 0 14px 0;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .modal-holder .modal-container .row ::-webkit-input-placeholder {
     line-height: normal;
   }
   .modal-holder .modal-container .submit {
     width: 340px;
-    padding: 16px 0 12px 0;
-    margin: 0 0 24px 0;
-    font-size: 33px;
-    line-height: 33px;
+    padding: 14px 0 10px 0;
+    margin: 0 0 20px 0;
+    font-size: 31px;
+    line-height: 31px;
   }
   .modal-holder .modal-container .legal {
-    width: 320px;
-    margin: 10px 0 0 10px;
+    width: 340px;
+    margin: 14px 0 0 0;
   }
   .modal-holder .modal-container .legal p {
     margin: 0 0 20px 0;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 27px;
   }
   .modal-holder .modal-container .legal a {
-    font-size: 21px;
-    line-height: 32px;
+    font-size: 19px;
+    line-height: 27px;
   }
   .filter-holder {
     width: 568px;
@@ -7005,42 +6644,42 @@ small {
   }
   .filter-holder .filter-container input {
     width: 568px;
-    height: 74px;
-    padding: 4px 0 0 0;
-    margin: 0 0 18px 0;
-    font-size: 35px;
-    line-height: 36px;
+    height: 64px;
+    padding: 2px 0 0 0;
+    margin: 0 0 14px 0;
+    font-size: 31px;
+    line-height: 31px;
   }
   .filter-holder .filter-container .reset {
     width: 568px;
-    height: 68px;
+    height: 58px;
   }
   .filter-holder .filter-container .reset .fa-times {
-    font-size: 28px;
-    line-height: 70px;
+    font-size: 26px;
+    line-height: 64px;
   }
   .answers-holder {
     width: 568px;
     margin: 0 0 20px 50px;
   }
   .answers-holder .answer {
-    width: 548px;
-    padding: 30px 60px 24px 60px;
+    width: 588px;
+    padding: 30px 40px 24px 40px;
     margin: 0 0 16px 0;
   }
   .answers-holder .answer h2 {
-    width: 488px;
-    margin: 0 0 22px 0;
-    padding: 0 30px 10px 30px;
-    font-size: 38px;
-    line-height: 49px;
+    width: 588px;
+    margin: 0 0 18px 0;
+    padding: 0 0 10px 0;
+    font-size: 32px;
+    line-height: 39px;
   }
   .answers-holder .answer p {
-    width: 528px;
-    padding: 0 10px;
+    width: 588px;
+    padding: 0;
     margin: 0 0 20px 0;
-    font-size: 24px;
-    line-height: 37px;
+    font-size: 22px;
+    line-height: 33px;
   }
   .answers-holder .answer .tag-holder {
     position: relative;
@@ -7059,154 +6698,112 @@ small {
     padding: 8px 16px;
   }
   .card-member {
-    width: 768px;
-    padding: 30px 0 0 0;
-    margin: 0 0 18px 0;
-    border-radius: 0;
+    width: 500px;
+    padding: 20px 0 0 0;
+    margin: 10px 20px 0 40px;
   }
   .card-member .member {
-    width: 718px;
-    padding: 0 0 20px 50px;
+    width: 460px;
+    padding: 0 0 20px 40px;
   }
   .card-member .member .member-brand {
-    width: 340px;
-    margin: 20px 0 0 0;
+    width: 380px;
+    margin: 0 0 20px 20px;
   }
   .card-member .member .member-content {
-    width: 300px;
-    margin: 0;
+    width: 400px;
+    margin: 10px 0 0 20px;
   }
   .card-member .member .member-content .row {
-    margin: 0 0 2px 0;
-  }
-  .card-member .member .member-content .row h4 {
-    font-size: 20px;
-    line-height: 27px;
-  }
-  .card-member .member .member-content .row .left,
-  .card-member .member .member-content .row .left.small,
-  .card-member .member .member-content .row .left.middle {
-    width: 100px;
-  }
-  .card-member .member .member-content .row .right,
-  .card-member .member .member-content .row .right.small,
-  .card-member .member .member-content .row .right.middle {
-    width: 160px;
-  }
-  .card-member .disclaimer {
-    width: 668px;
-    padding: 30px 50px 20px 50px;
-  }
-  .card-member .disclaimer p {
-    width: 660px;
-    margin: 0 0 22px 0;
-    font-size: 19px;
-    line-height: 29px;
-  }
-  .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
-  }
-  .card-member .disclaimer .brand {
-    width: 180px;
-    margin: 0 20px 10px 0;
-  }
-  .card-member .disclaimer .brand img {
-    width: 180px;
     margin: 0;
   }
-  .card-modal {
-    width: 298px;
-    padding: 24px 0px 18px 40px;
-    margin: 0 0 20px 0;
+  .card-member .member .member-content .row h4 {
+    font-size: 23px;
+    line-height: 29px;
   }
-  .card-modal .card-logo {
-    width: 68px;
-    margin: 94px 0 0 180px;
-  }
-  .card-modal .card-content {
-    width: 268px;
-  }
-  .card-modal .card-content h1 {
+  .card-member .member .member-content .row .left {
+    width: 170px;
     margin: 0 0 12px 0;
-    font-size: 31px;
-    line-height: 31px;
   }
-  .card-modal .card-content .company {
-    width: 100%;
+  .card-member .member .member-content .row .right {
+    width: 180px;
+    margin: 0 0 12px 0;
   }
-  .card-modal .card-content .company h5 {
-    font-size: 22px;
-    line-height: 22px;
+  .card-member .member .member-content .row.hide {
+    display: none;
   }
-  .card-modal .card-content .company span {
-    margin: 0 9px;
-    font-size: 20px;
-    line-height: 22px;
+  .card-member .disclaimer {
+    width: 480px;
+    padding: 30px 0 20px 40px;
   }
-  .card-modal .card-content .patient-holder {
-    width: 100%;
+  .card-member .disclaimer p {
+    width: 420px;
+    margin: 6px 0 14px 0;
+    font-size: 19px;
+    line-height: 30px;
   }
-  .card-modal .card-content .patient-holder p {
-    margin: 0 0 32px 0;
-    font-size: 25px;
-    line-height: 25px;
+  .card-member .disclaimer a {
+    font-size: 19px;
+    line-height: 30px;
   }
-  .card-modal .card-content .patient-holder .row {
-    margin: 0 0 8px 0;
+  .card-member .disclaimer .brand {
+    width: 320px;
+    margin: 0 80px 20px 0;
   }
-  .card-modal .card-content .patient-holder .row h6 {
-    width: 94px;
-    font-size: 15px;
-    line-height: 15px;
+  .card-member .disclaimer .brand img {
+    width: 320px;
   }
   .card {
     width: 468px;
-    padding: 42px 0 28px 60px;
+    padding: 42px 0 26px 60px;
     margin: 0 30px 18px 40px;
   }
   .card .card-content {
     width: 480px;
   }
-  .card .card-content .card-logo {
-    width: 68px;
-    margin: 0 28px 0 0;
-  }
   .card .card-content h1 {
     width: 340px;
-    margin: 0 0 11px 0;
-    font-size: 38px;
-    line-height: 38px;
+    margin: 0 0 13px 0;
+    font-size: 39px;
+    line-height: 39px;
   }
   .card .card-content .company {
     width: 340px;
     margin: 0 0 52px 0;
   }
   .card .card-content .company h5 {
-    font-size: 27px;
-    line-height: 27px;
+    font-size: 28px;
+    line-height: 28px;
   }
   .card .card-content .company span {
     padding: 0;
     margin: 0 10px;
-    font-size: 29px;
-    line-height: 29px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
     margin: 0 0 48px 0;
-    font-size: 34px;
-    line-height: 34px;
+    font-size: 35px;
+    line-height: 35px;
   }
-  .card .card-content .patient-holder .row {
-    margin: 0 0 14px 0;
+  .card .card-content .patient-holder .row-holder {
+    width: 300px;
   }
-  .card .card-content .patient-holder .row h6 {
-    width: 134px;
+  .card .card-content .patient-holder .row-holder .row {
+    margin: 0 0 15px 0;
+  }
+  .card .card-content .patient-holder .row-holder .row h6 {
+    width: 124px;
     font-size: 19px;
     line-height: 19px;
+  }
+  .card .card-content .patient-holder .lines {
+    width: 92px;
+    padding: 0;
+    margin: 0;
   }
   .legal-container {
     width: 688px;
@@ -7247,7 +6844,7 @@ small {
   header {
     padding: 0;
     margin: 0 0 40px 0;
-    height: 120px;
+    height: 128px;
   }
   header .header {
     width: 1024px;
@@ -7255,7 +6852,7 @@ small {
   header .header .brand {
     width: 270px;
     padding: 0;
-    margin: 10px 24px 0 24px;
+    margin: 18px 13px 0 35px;
   }
   header .header .brand .logo {
     width: 260px;
@@ -7264,7 +6861,7 @@ small {
   header .header nav {
     width: 700px;
     height: 76px;
-    margin: 44px 0 0 0;
+    margin: 52px 0 0 0;
   }
   header .header nav .tile {
     height: 75px;
@@ -7294,24 +6891,24 @@ small {
   }
   .content .main .download .tag {
     width: 122px;
-    padding: 18px 0 10px 0;
+    padding: 18px 0 9px 0;
     margin: 0 14px 0 0;
   }
   .content .main .download .tag p {
     width: 122px;
     margin: 0;
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .content .main .download .tag .fa-cloud,
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 38px;
+    height: 36px;
     font-size: 32px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 56px;
+    height: 54px;
     margin: -18px 0 0 -16px;
     font-size: 47px;
   }
@@ -7614,13 +7211,12 @@ small {
   }
   .contact-holder .contact-detail {
     width: 378px;
-    padding: 20px 40px 34px 40px;
+    padding: 28px 40px 34px 40px;
     margin: 0 20px 20px 0;
   }
   .contact-holder .contact-detail h2 {
     width: 378px;
-    margin: 0 0 12px 0;
-    font-weight: 500;
+    margin: 0 0 22px 0;
     font-size: 33px;
     line-height: 33px;
   }
@@ -7636,19 +7232,19 @@ small {
     width: 378px;
     margin: 0 0 12px 0;
     font-weight: 600;
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .contact-holder .contact-detail .contact-container h4 {
     width: 378px;
     margin: 6px 0 0 0;
-    font-size: 21px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 33px;
   }
   .contact-holder .contact-form {
     width: 428px;
     padding: 38px 0 30px 30px;
-    margin: 0 20px 20px 0;
+    margin: 0 20px 50px 0;
   }
   .contact-holder .contact-form .row {
     width: 398px;
@@ -7657,22 +7253,19 @@ small {
   }
   .contact-holder .contact-form .row input {
     width: 396px;
-    height: 58px;
-    padding: 8px 0 0 0;
+    height: 64px;
+    padding: 2px 0 0 0;
     margin: 0;
-    font-size: 25px;
-    line-height: 25px;
-    border-bottom: 3px solid #333;
+    font-size: 29px;
+    line-height: 29px;
   }
   .contact-holder .contact-form .row textarea {
     width: 356px;
     height: 120px;
     padding: 18px 20px;
     margin: 0;
-    font-size: 25px;
-    line-height: 29px;
-    border: none;
-    border-bottom: 3px solid #333;
+    font-size: 29px;
+    line-height: 37px;
   }
   .contact-holder .contact-form .submit {
     width: 398px;
@@ -7729,33 +7322,31 @@ small {
     height: 64px;
     padding: 2px 0 0 0;
     margin: 0 0 14px 0;
-    font-weight: 500;
-    font-size: 31px;
-    line-height: 31px;
+    font-size: 29px;
+    line-height: 29px;
   }
   .modal-holder .modal-container .row ::-webkit-input-placeholder {
     line-height: normal;
   }
-  .modal-holder .modal-container .modal-submit {
+  .modal-holder .modal-container .submit {
     width: 340px;
-    height: 33px;
-    padding: 18px 0 12px 0;
+    padding: 14px 0 10px 0;
     margin: 0 0 20px 0;
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 31px;
+    line-height: 31px;
   }
   .modal-holder .modal-container .legal {
-    width: 320px;
-    margin: 10px 0 0 10px;
+    width: 340px;
+    margin: 10px 0 0 0;
   }
   .modal-holder .modal-container .legal p {
     margin: 0 0 20px 0;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 27px;
   }
   .modal-holder .modal-container .legal a {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 19px;
+    line-height: 27px;
   }
   .filter-holder {
     width: 898px;
@@ -7787,11 +7378,11 @@ small {
   }
   .filter-holder .filter-container input {
     width: 428px;
-    height: 62px;
-    padding: 4px 0 0 50px;
+    height: 64px;
+    padding: 2px 0 0 50px;
     margin: 0 20px 0 0;
-    font-size: 32px;
-    line-height: 33px;
+    font-size: 31px;
+    line-height: 31px;
     text-align: left;
   }
   .filter-holder .filter-container .reset {
@@ -7800,7 +7391,7 @@ small {
   }
   .filter-holder .filter-container .reset .fa-times {
     font-size: 23px;
-    line-height: 65px;
+    line-height: 69px;
   }
   .answers-holder {
     width: 1000px;
@@ -7809,22 +7400,22 @@ small {
   }
   .answers-holder .answer {
     width: 418px;
-    padding: 26px 30px 12px 30px;
+    padding: 26px 30px 18px 30px;
     margin: 0 20px 20px 0;
   }
   .answers-holder .answer h2 {
-    width: 398px;
-    margin: 0 0 20px 0;
-    padding: 0 10px 8px 10px;
+    width: 418px;
+    margin: 0 0 18px 0;
+    padding: 0 0 8px 0;
     font-size: 33px;
-    line-height: 42px;
+    line-height: 40px;
   }
   .answers-holder .answer p {
-    width: 418px;
-    padding: 0;
-    margin: 0 0 24px 0;
+    width: 408px;
+    padding: 0 5px;
+    margin: 0 0 20px 0;
     font-size: 23px;
-    line-height: 36px;
+    line-height: 34px;
   }
   .answers-holder .answer .tag-holder {
     width: 258px;
@@ -7840,106 +7431,84 @@ small {
     line-height: 15px;
   }
   .card-member {
-    width: 898px;
-    padding: 40px 0 0 0;
-    margin: 0 0 18px 20px;
-    border-radius: 6px 6px 6px 6px;
+    width: 940px;
+    padding: 0 0 0 0;
+    margin: 0 0 18px 10px;
   }
   .card-member .member {
-    width: 848px;
-    padding: 0 0 40px 50px;
+    width: 420px;
+    padding: 30px 30px 40px 30px;
   }
   .card-member .member .member-brand {
-    width: 338px;
-    margin: 0 0 0 50px;
+    width: 420px;
+    margin: 0 0 20px 0;
   }
   .card-member .member .member-content {
     width: 400px;
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 20px;
   }
   .card-member .member .member-content .row {
-    margin: 0 0 2px 0;
+    margin: 0;
   }
   .card-member .member .member-content .row h4 {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 25px;
+    line-height: 31px;
   }
   .card-member .member .member-content .row .left {
-    width: 90px;
-    margin: 0 10px 8px 0;
-  }
-  .card-member .member .member-content .row .left h4 {
-    text-align: right;
+    width: 170px;
+    margin: 0 0 20px 0;
   }
   .card-member .member .member-content .row .right {
-    width: 90px;
-    margin: 0 10px 8px 0;
-  }
-  .card-member .member .member-content .row .left.small {
-    width: 90px;
-    margin: 0 10px 8px 0;
-  }
-  .card-member .member .member-content .row .right.small {
-    width: 300px;
-    margin: 0 0 8px 0;
-  }
-  .card-member .member .member-content .row .left.middle {
-    width: 90px;
-    margin: 0 10px 8px 0;
-  }
-  .card-member .member .member-content .row .right.middle {
-    width: 90px;
-    margin: 0 10px 8px 0;
+    width: 230px;
+    margin: 0 0 20px 0;
   }
   .card-member .disclaimer {
-    width: 778px;
-    padding: 30px 60px 20px 60px;
+    width: 378px;
+    padding: 30px 40px 16px 40px;
+    border-top: none;
+    border-left: 2px dotted #999;
   }
   .card-member .disclaimer p {
-    width: 778px;
+    width: 378px;
     margin: 0 0 18px 0;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 32px;
   }
   .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 32px;
   }
   .card-member .disclaimer .brand {
-    width: 220px;
-    margin: 0 30px 10px 0;
+    width: 320px;
+    margin: 0 30px 20px 30px;
   }
   .card-member .disclaimer .brand img {
-    width: 220px;
+    width: 320px;
   }
   .card {
-    width: 484px;
-    padding: 36px 0 28px 44px;
-    margin: 0 0 18px 0;
+    width: 476px;
+    padding: 36px 0 22px 52px;
+    margin: 10px 0 18px 0;
   }
   .card .card-content {
     width: 444px;
   }
-  .card .card-content .card-logo {
-    width: 72px;
-    margin: 0 32px 0 0;
-  }
   .card .card-content h1 {
     width: 340px;
-    margin: 2px 0 12px 0;
-    font-size: 38px;
-    line-height: 38px;
+    margin: 0 0 13px 0;
+    font-size: 39px;
+    line-height: 39px;
   }
   .card .card-content .company {
     width: 340px;
-    margin: 0 0 58px 0;
+    margin: 0 0 48px 0;
   }
   .card .card-content .company h5 {
     font-size: 27px;
     line-height: 27px;
   }
   .card .card-content .company span {
-    margin: 0 10px;
+    margin: 0 9px;
     font-size: 29px;
     line-height: 29px;
   }
@@ -7949,16 +7518,24 @@ small {
   .card .card-content .patient-holder h6 {
     width: 420px;
     margin: 0 0 42px 0;
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 32px;
+    line-height: 32px;
   }
-  .card .card-content .patient-holder .row {
+  .card .card-content .patient-holder .row-holder {
+    width: 320px;
+  }
+  .card .card-content .patient-holder .row-holder .row {
     margin: 0 0 14px 0;
   }
-  .card .card-content .patient-holder .row h6 {
-    width: 122px;
-    font-size: 18px;
-    line-height: 18px;
+  .card .card-content .patient-holder .row-holder .row h6 {
+    width: 126px;
+    font-size: 19px;
+    line-height: 19px;
+  }
+  .card .card-content .patient-holder .lines {
+    width: 86px;
+    padding: 0;
+    margin: 0;
   }
   .legal-container {
     width: 928px;
@@ -7997,7 +7574,7 @@ small {
 }
 @media (min-width: 1100px) {
   header {
-    height: 110px;
+    height: 120px;
     margin: 0 0 50px 0;
   }
   header .header {
@@ -8009,13 +7586,13 @@ small {
     margin: 8px 0 0 0;
   }
   header .header .brand .logo {
-    width: 230px;
-    margin: 5px 0 0 25px;
+    width: 250px;
+    margin: 5px 0 0 10px;
   }
   header .header nav {
     width: 750px;
     height: 68px;
-    margin: 42px 0 0 0;
+    margin: 52px 0 0 0;
   }
   header .header nav .tile {
     height: 67px;
@@ -8045,7 +7622,7 @@ small {
   }
   .content .main .download {
     width: 528px;
-    margin: 0 0 0 10px;
+    margin: 0;
   }
   .content .main .download .tag {
     width: 112px;
@@ -8061,11 +7638,11 @@ small {
   .content .main .download .tag .fa-mobile,
   .content .main .download .tag .fa-send,
   .content .main .download .tag .fa-file-text {
-    height: 36px;
+    height: 35px;
     font-size: 28px;
   }
   .content .main .download .tag .fa-mobile {
-    height: 48px;
+    height: 47px;
     margin: -12px 0 0 -10px;
     font-size: 42px;
   }
@@ -8326,7 +7903,7 @@ small {
   .content .testimonals-holder .testimonals .testimonal p {
     margin: 0 0 33px 0;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 30px;
   }
   .content .testimonals-holder .testimonals .testimonal h2 {
@@ -8381,25 +7958,26 @@ small {
   }
   .filter-holder .filter-container select {
     width: 258px;
-    height: 68px;
+    height: 70px;
     padding: 4px 0 0 30px;
     margin: 0 20px 0 0;
     font-size: 25px;
+    line-height: 29px;
   }
   .filter-holder .filter-container input {
-    width: 428px;
-    height: 62px;
-    padding: 2px 0 0 70px;
+    width: 458px;
+    height: 64px;
+    padding: 2px 0 0 40px;
     margin: 0 20px 0 0;
     font-size: 27px;
   }
   .filter-holder .filter-container .reset {
     width: 78px;
-    height: 62px;
+    height: 64px;
   }
   .filter-holder .filter-container .reset .fa-times {
-    font-size: 21px;
-    line-height: 65px;
+    font-size: 22px;
+    line-height: 67px;
   }
   .answers-holder {
     width: 1020px;
@@ -8412,15 +7990,15 @@ small {
     margin: 0 20px 20px 0;
   }
   .answers-holder .answer h2 {
-    width: 358px;
-    margin: 0 0 18px 0;
-    padding: 0 30px 8px 30px;
-    font-size: 25px;
-    line-height: 31px;
+    width: 418px;
+    margin: 0 0 16px 0;
+    padding: 0 0 8px 0;
+    font-size: 27px;
+    line-height: 35px;
   }
   .answers-holder .answer p {
-    width: 418px;
-    padding: 0;
+    width: 408px;
+    padding: 0 5px;
     margin: 0 0 18px 0;
     font-size: 19px;
     line-height: 28px;
@@ -8449,8 +8027,7 @@ small {
   }
   .contact-holder .contact-detail h2 {
     width: 378px;
-    margin: 0 0 12px 0;
-    font-weight: 500;
+    margin: 0 0 24px 0;
     font-size: 31px;
     line-height: 31px;
   }
@@ -8465,7 +8042,6 @@ small {
   .contact-holder .contact-detail .contact-container a {
     width: 378px;
     margin: 0 0 12px 0;
-    font-weight: 600;
     font-size: 23px;
     line-height: 23px;
   }
@@ -8487,45 +8063,44 @@ small {
   }
   .contact-holder .contact-form .row input {
     width: 396px;
-    height: 58px;
-    padding: 8px 0 0 0;
+    height: 62px;
+    padding: 2px 0 0 0;
     margin: 0;
     font-size: 25px;
     line-height: 25px;
   }
-  .contact-holder border-bottom 3px solid #333 textarea {
+  .contact-holder .contact-form .row textarea {
     width: 356px;
     height: 120px;
     padding: 18px 20px;
     margin: 0;
     font-size: 25px;
-    line-height: 29px;
-    border: none;
+    line-height: 31px;
   }
-  .contact-holder border-bottom 3px solid #333 .submit {
+  .contact-holder .contact-form .submit {
     width: 398px;
-    height: 68px;
-    font-size: 31px;
-    line-height: 70px;
+    height: 64px;
+    font-size: 29px;
+    line-height: 65px;
   }
-  .contact-holder border-bottom 3px solid #333 .card-confirmation {
+  .contact-holder .contact-form .card-confirmation {
     width: 466px;
   }
-  .contact-holder border-bottom 3px solid #333 .card-confirmation h1 {
+  .contact-holder .contact-form .card-confirmation h1 {
     width: 436px;
     margin: 0 0 20px 0;
     font-size: 24px;
   }
-  .contact-holder border-bottom 3px solid #333 .card-confirmation h2 {
+  .contact-holder .contact-form .card-confirmation h2 {
     margin: 0 0 15px 0;
     font-size: 18px;
   }
-  .contact-holder border-bottom 3px solid #333 .card-confirmation p {
+  .contact-holder .contact-form .card-confirmation p {
     font-size: 14px;
   }
   .map {
     width: 488px;
-    height: 900px;
+    height: 830px;
     margin: 0 0 40px 0;
   }
   .modal-holder {
@@ -8554,7 +8129,7 @@ small {
   }
   .modal-holder .modal-container .row input {
     width: 338px;
-    height: 56px;
+    height: 60px;
     padding: 2px 0 0 0;
     margin: 0 0 12px 0;
     font-size: 27px;
@@ -8572,135 +8147,113 @@ small {
   }
   .modal-holder .modal-container .legal {
     width: 100%;
-    margin: 4px 0 0 0;
+    margin: 10px 0 0 0;
   }
   .modal-holder .modal-container .legal p {
     width: 318px;
     margin: 0 0 20px 10px;
-    font-size: 17px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 25px;
   }
   .modal-holder .modal-container .legal a {
     margin: 8px 0 0 0;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 17px;
+    line-height: 25px;
   }
   .card-member {
-    width: 898px;
-    padding: 30px 0 0 0;
-    margin: 0 0 12px 50px;
-    border-radius: 6px 6px 6px 6px;
+    width: 940px;
+    padding: 0 0 0 0;
+    margin: 0 0 18px 20px;
   }
   .card-member .member {
-    width: 848px;
-    padding: 0 0 20px 50px;
+    width: 420px;
+    padding: 10px 30px 40px 30px;
   }
   .card-member .member .member-brand {
-    width: 318px;
-    margin: 0 0 0 30px;
+    width: 380px;
+    margin: 0 0 20px 20px;
   }
   .card-member .member .member-content {
-    width: 440px;
-    margin: 20px 0 0 0;
+    width: 380px;
+    margin: 20px 0 0 40px;
   }
   .card-member .member .member-content .row {
-    margin: 0 0 0 0;
+    margin: 0;
   }
   .card-member .member .member-content .row h4 {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 22px;
+    line-height: 28px;
   }
   .card-member .member .member-content .row .left {
-    width: 100px;
-    margin: 0 10px 12px 0;
-  }
-  .card-member .member .member-content .row .left h4 {
-    text-align: right;
-  }
-  .card-member .member .member-content .row .right {
-    width: 100px;
-    margin: 0 10px 12px 0;
-  }
-  .card-member .member .member-content .row .left.small {
-    width: 100px;
-    margin: 0 10px 12px 0;
-  }
-  .card-member .member .member-content .row .right.small {
-    width: 300px;
+    width: 170px;
     margin: 0 0 12px 0;
   }
-  .card-member .member .member-content .row .left.middle {
-    width: 100px;
-    margin: 0 10px 12px 0;
-  }
-  .card-member .member .member-content .row .right.middle {
-    width: 100px;
-    margin: 0 10px 12px 0;
+  .card-member .member .member-content .row .right {
+    width: 210px;
+    margin: 0 0 12px 0;
   }
   .card-member .disclaimer {
-    width: 778px;
-    padding: 30px 60px 20px 60px;
+    width: 378px;
+    padding: 10px 40px 16px 40px;
+    border-top: none;
+    border-left: 2px dotted #999;
   }
   .card-member .disclaimer p {
-    width: 778px;
-    margin: 0 0 14px 0;
-    font-size: 17px;
-    line-height: 26px;
+    width: 378px;
+    margin: 0 0 18px 0;
+    font-size: 18px;
+    line-height: 29px;
   }
   .card-member .disclaimer a {
-    font-size: 21px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 29px;
   }
   .card-member .disclaimer .brand {
-    width: 180px;
-    margin: 0 30px 10px 0;
+    width: 280px;
+    margin: 0 30px 20px 50px;
   }
   .card-member .disclaimer .brand img {
-    width: 180px;
+    width: 280px;
   }
   .card {
-    width: 458px;
-    padding: 38px 0px 20px 50px;
+    width: 434px;
+    padding: 32px 0px 20px 54px;
     margin: 10px 0 14px 0;
   }
   .card .card-content {
     width: 444px;
   }
-  .card .card-content .card-logo {
-    width: 68px;
-    margin: 0 38px 0 0;
-  }
   .card .card-content h1 {
     width: 324px;
-    margin: 0 0 11px 0;
-    font-size: 32px;
-    line-height: 32px;
+    margin: 0 0 12px 0;
+    font-size: 35px;
+    line-height: 35px;
   }
   .card .card-content .company {
     width: 324px;
-    margin: 0 0 48px 0;
+    margin: 0 0 34px 0;
   }
   .card .card-content .company h5 {
-    font-size: 23px;
-    line-height: 23px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .card .card-content .company span {
     margin: 0 8px;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 27px;
+    line-height: 27px;
   }
   .card .card-content .patient-holder {
     width: 100%;
   }
   .card .card-content .patient-holder h6 {
     width: 100%;
-    margin: 0 0 38px 0;
-    font-size: 31px;
-    line-height: 31px;
+    margin: 0 0 32px 0;
+    font-size: 30px;
+    line-height: 30px;
   }
   .card .card-content .patient-holder .row-holder {
     float: left;
-    width: 330px;
+    width: 290px;
     padding: 0;
     margin: 0;
   }
@@ -8708,14 +8261,13 @@ small {
     margin: 0 0 12px 0;
   }
   .card .card-content .patient-holder .row-holder .row h6 {
-    width: 108px;
-    font-size: 17px;
-    line-height: 17px;
+    width: 104px;
+    font-size: 16px;
+    line-height: 16px;
   }
   .card .card-content .patient-holder .lines {
-    float: left;
-    width: 68px;
-    margin: 40px 0 0 0;
+    width: 74px;
+    margin: 4px 0 0 0;
   }
   .legal-container {
     width: 998px;
@@ -8781,7 +8333,8 @@ small {
   }
   .modal-holder .modal-container .fa-close,
   .modal-holder .modal-container .submit,
-  .modal-holder .modal-container .legal {
+  .modal-holder .modal-container .legal,
+  .modal-holder .modal-container .card-modal {
     display: none;
   }
 }

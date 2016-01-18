@@ -6,15 +6,14 @@ md-sidenav
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 144px
-    max-width: 144px
+    width: 194px
+    max-width: 194px
     height 2000px;
     min-height 2000px;
     bottom: 0
     background none
     outline none
     overflow: none
-    background $white
     box-sizing: border-box;
     left: 0
     top: 0
@@ -48,60 +47,59 @@ md-sidenav.md-locked-open-remove
 .side
     display block
     float left
-    width 144px
+    width 194px
     height 2000px;
     min-height 2000px;
     top 0
     padding 0 0 1000px 0
     margin 0
-    background $white
+    background $header
     border-right $black-border
-    z-index: 99999
 
     ul
         float left
-        width 144px
+        width 194px
         height 1000px
 
         li
             float: left
-            width 144px
-            padding: 20px 0 16px 0
+            width 194px
+            padding: 16px 0 14px 0
             margin: 0
-            background $background
             border-bottom $border-dotted
             cursor pointer
 
             h4
                 float: left
-                width 130px
+                width 178px
                 padding 0
                 margin 0
-                font-style italic
                 font-weight 500
-                font-size 19px
-                line-height 19px
-                color $white
+                font-size 21px
+                line-height 27px
+                color $black-light
                 text-align: right
-                text-shadow $burgundy-text-shadow
+                text-shadow $card-text-shadow
 
         li.close
             float: left
-            padding: 12px 0 8px 0
+            padding: 14px 0 10px 0
 
             .fa-long-arrow-left
                 float: left
-                width 130px
+                width 178px
                 padding 0
                 margin: 0
-                font-size 23px
-                line-height 23px
-                color $white
+                font-size 27px
+                line-height 27px
+                color $black-light
                 text-align: right
-                text-shadow $burgundy-text-shadow
+                text-shadow $card-text-shadow
 
         li.active
             background $burgundy
 
             h4
-                font-style normal
+                font-style italic
+                color $white
+                text-shadow $burgundy-text-shadow
