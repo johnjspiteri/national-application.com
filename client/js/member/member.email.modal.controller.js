@@ -7,7 +7,7 @@
 
         $scope.close = function () {
             $scope.display = false;
-            $state.go('frontend.view');
+            $state.go('member.view');
         };
 
         $scope.toTheTop = function() {
@@ -17,7 +17,7 @@
         $scope.email = function () {
             mail.create({
                 email: $scope.data.email,
-                file: $scope.cardUrl,
+                file: $scope.member.file_url,
             });
             $scope.user = {};
             $scope.display = false;

@@ -6,14 +6,12 @@
         $scope.display = true;
         $scope.close = function () {
             $scope.display = false;
-            $state.go('frontend.view');
+            $state.go('member.view');
         };
 
         $scope.print = function() {
             $window.print();
         };
-        $scope.print();
-
     }
 
     angular

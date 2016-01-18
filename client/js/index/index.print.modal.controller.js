@@ -12,8 +12,6 @@
         $scope.print = function() {
             $window.print();
         };
-        $scope.print();
-
     }
 
     angular

@@ -7,7 +7,7 @@
 
         $scope.close = function() {
             $scope.display = false;
-            $state.go('frontend.view');
+            $state.go('member.view');
         };
     }
 

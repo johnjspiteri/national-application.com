@@ -7,7 +7,7 @@
         console.log($scope.member)
         $scope.close = function () {
             $scope.display = false;
-            $state.go('frontend.view');
+            $state.go('member.view');
         };
 
         $scope.toTheTop = function() {
@@ -17,7 +17,7 @@
         $scope.text = function () {
             text.create({
                 destination: $scope.data.destination,
-                file: $scope.cardUrl
+                file: $scope.member.file_url,
             });
             $scope.data = {};
             $scope.display = false;
