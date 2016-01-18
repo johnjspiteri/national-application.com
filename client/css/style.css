@@ -6190,7 +6190,7 @@ small {
   }
   .content .main {
     width: 768px;
-    margin: 0 0 50px 0;
+    margin: 0 0 30px 0;
   }
   .content .main .download {
     width: 150px;
@@ -6927,7 +6927,7 @@ small {
   }
   .content .points .point-container {
     width: 400px;
-    margin: 0 0 26px 0;
+    margin: 0 0 18px 0;
   }
   .content .points .point-container .point {
     display: inline-block;
@@ -7654,11 +7654,12 @@ small {
   }
   .content .points {
     width: 430px;
-    margin: 20px 0 0 0;
+    margin: 20px 0 20px 0;
   }
   .content .points .point-container {
     width: 440px;
-    margin: 0 0 24px 0;
+    padding: 0;
+    margin: 0 0 18px 0;
   }
   .content .points .point-container .point {
     display: inline-block;
@@ -7901,7 +7902,7 @@ small {
     background-size: 100% 1.9em;
   }
   .content .testimonals-holder .testimonals .testimonal p {
-    margin: 0 0 33px 0;
+    margin: 0 0 32px 0;
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
@@ -7909,7 +7910,7 @@ small {
   .content .testimonals-holder .testimonals .testimonal h2 {
     font-size: 22px;
     line-height: 22px;
-    margin: 0 0 11px 0;
+    margin: 0 0 12px 0;
   }
   .content .testimonals-holder .testimonals .testimonal h3 {
     font-size: 19px;

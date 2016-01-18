@@ -10,7 +10,7 @@
         client.messages.create({
             to: req.body.destination,
             from:'+14352144586',
-            body:'Here is your National Rx Card, you can use this card at over 63,000 pharmacies nationwide. If you have any questions of comments please contact us at 1-866-444-5555.',
+            body:'Here is your National Rx Card, you can use this card at over 63,000 pharmacies nationwide.',
             mediaUrl: req.body.file,
         }, function(error, message) {
             if (!error) {

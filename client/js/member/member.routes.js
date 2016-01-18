@@ -6,7 +6,7 @@
 
         $stateProvider
             .state('member', {
-                url: '/plan/:id',
+                url: '/nrx/:id',
                 abstract: true,            
                 views: {
                     'header@': {

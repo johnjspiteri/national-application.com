@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"for",
-				"foreground-border"
+				"grey",
+				"grey-border"
 			],
 			[
 				"bur",
-				"burgundy-text-shadow"
+				"burgundy"
+			],
+			[
+				"for",
+				"foreground-border"
 			],
 			[
 				"head",
@@ -23,6 +27,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 8388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/jade/index.jade",
+			"settings":
+			{
+				"buffer_size": 4987,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -109,10 +129,97 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jj/Development/nationalrxcard.com"
+		"/Users/jj/Development/nationalrxcard.com",
+		"/Users/jj/Development/nationalrxcard.com/client",
+		"/Users/jj/Development/nationalrxcard.com/client/js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/common",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index"
 	],
 	"file_history":
 	[
+		"/Users/jj/Development/nationalrxcard.com/client/js/common/common.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.text.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/server/api/index/index.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/modal/modal.text.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/modal/modal.print.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/js/data/members.json",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/modal/modal.save.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/modal/modal.email.modal.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.save.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.print.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.email.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/server/api/index/index.js",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/index.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.service.js",
+		"/Users/jj/Development/nationalrxcard.com/server.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.text.service.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.text.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.email.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.save.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.print.modal.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.view.controller.js",
+		"/Users/jj/Development/nationalrxcard.com/client/data/members.json",
+		"/Users/jj/Development/nationalrxcard.com/client/data/pharmacies.json",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/about.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/about.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/about.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/about.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/about.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/about.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/about.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/about/about.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/question.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/questions.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/questions.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/questions.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/questions.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/questions.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/questions.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/panel.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/panel.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/panel.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/panel.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/header/header.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/header/header-member.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/testimonial/testimonial.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/config.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/jade/member/member.view.jade",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/card.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/320/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/print.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/modal.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/480/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/768/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/560/header.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/js/app/app.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/about/about.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/testimonial/testimonial.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/js/question/question.routes.js",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/900/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/client/styl/360/index.styl",
+		"/Users/jj/Development/nationalrxcard.com/nationalrxcard.com.sublime-project",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/320/page.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/base.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/320/side-panel.styl",
@@ -134,64 +241,18 @@
 		"/Users/jj/Development/landonboardwalk.com/client/styl/480/game.styl",
 		"/Users/jj/Development/landonboardwalk.com/client/styl/768/game.styl",
 		"/Users/jj/Development/landonboardwalk.com/server/config/development.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.text.modal.controller.js",
-		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.email.modal.controller.js",
-		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.print.modal.controller.js",
-		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.save.modal.controller.js",
-		"/Users/jj/Development/nationalrxcard.com/client/jade/index.jade",
 		"/Users/jj/Development/nationalrxcard.com/client/jade/member/member.text.modal.jade",
-		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.routes.js",
-		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.routes.js",
-		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.view.controller.js",
 		"/Users/jj/Development/nationalrxcard.com/client/js/member/member.controller.js",
 		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.text.modal.jade",
-		"/Users/jj/Development/nationalrxcard.com/client/data/members.json",
-		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.text.modal.controller.js",
 		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.controller.js",
-		"/Users/jj/Development/nationalrxcard.com/client/js/app/app.routes.js",
-		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.save.modal.controller.js",
-		"/Users/jj/Development/nationalrxcard.com/client/js/index/index.email.modal.controller.js",
 		"/Users/jj/Development/nationalrxcard.com/server/config/seed.js",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/card.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/900/modal.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/header.styl",
 		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.print.modal.jade",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/320/modal.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/config.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/320/card.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/560/modal.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/modal.styl",
 		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.email.modal.jade",
 		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.save.modal.jade",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/900/card.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/480/modal.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/768/modal.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/900/index.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/360/modal.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/360/card.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/480/card.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/1100/index.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/jade/index/index.jade",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/320/index.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/768/index.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/480/index.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/768/card.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/900/header.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/560/index.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/360/index.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/560/header.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/480/header.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/320/header.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/560/card.styl",
 		"/Users/jj/Development/nationalrxcard.com/client/styl/360/header.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/jade/header/header.jade",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/768/header.styl",
 		"/Users/jj/Development/nationalrxcard.com/client/styl/320/footer.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/320/questions.styl",
-		"/Users/jj/Development/nationalrxcard.com/client/styl/480/questions.styl",
 		"/Users/jj/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/jj/Development/nationalrxcard.com/server/config/development.json",
-		"/Users/jj/Development/nationalrxcard.com/nationalrxcard.com.sublime-project",
 		"/Users/jj/Development/nationalrxcard.com/.gitignore",
 		"/Users/jj/Development/landonboardwalk.com/client/jade/game/game.view.jade",
 		"/Users/jj/Development/landonboardwalk.com/client/js/data/slides.json",
@@ -203,54 +264,19 @@
 		"/Users/jj/Development/automotive-v1/client/js/inventory/inventory.route.js",
 		"/Users/jj/Development/automotive-v1/client/js/common/common.module.js",
 		"/Users/jj/Development/automotive-v1/server/server.js",
-		"/Users/jj/Development/automotive-v1/client/js/app/app.routes.js",
-		"/Users/jj/Development/automotive-v1/client/js/app/app.module.js",
-		"/Users/jj/Development/automotive-v1/client/jade/index.jade",
-		"/Users/jj/Development/automotive-v1/client/js/app/app.config.js",
-		"/Users/jj/Development/automotive-v1/client/js/bower.json",
-		"/Users/jj/Development/automotive-v1/server/package.json",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/backend.list.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.category.filter.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.image.directive.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.rating.directive.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.sub.category.filter.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.route.js",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/_common/grid.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.list.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.player.filter.js",
-		"/Users/jj/Development/landonboardwalk.com/server.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.service.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/app/app.module.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.view.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/server/api/game/game.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/games/games.module.js",
-		"/Users/jj/Development/landonboardwalk.com/.gitignore",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/_common/example.jade",
-		"/Users/jj/Development/landonboardwalk.com/server/api/game/game.image.model.js",
-		"/Users/jj/Development/landonboardwalk.com/server/api/game/game.model.js",
-		"/Users/jj/Development/landonboardwalk.com/server/api/game/index.js",
-		"/Users/jj/Development/landonboardwalk.com/server/api/item/item.model.js",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/index.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/panel/panel.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/js/corner/corner.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/client/js/panel/panel.controller.js",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/360/side.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/768/side.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/320/side.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/480/side.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/560/side.styl",
-		"/Users/jj/Development/landonboardwalk.com/client/jade/header/header.jade",
-		"/Users/jj/Development/landonboardwalk.com/client/styl/1100/search.styl"
+		"/Users/jj/Development/automotive-v1/client/js/app/app.routes.js"
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
 		"height": 149.0,
 		"where_history":
 		[
+			"*.styl",
+			"",
 			"*.js",
 			"*.styl",
 			"*.js"
@@ -261,134 +287,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"128px",
-			"108px",
-			"88px",
-			"84px",
-			"78px",
-			"84px",
-			"68px",
-			"108px",
-			"24px",
-			"table",
-			"26px",
-			"table",
-			"26px",
-			"table",
-			"24px",
-			"table",
-			"23px",
-			"24px",
-			"table",
-			"22px",
-			"table",
-			"shad",
-			"IndexEmailModal",
-			"IndexPrintModal",
-			"IndexSaveModal",
-			"index",
+			"// 'clie",
+			"                     // 'client/",
+			"    // 'client",
+			" // 'client",
+			" 'client",
+			"'/js/",
+			"script(src=",
 			"member",
-			"index",
-			"IndexTextModal",
-			"index",
-			"controller: 'Index",
-			"h2",
-			"NationalRxCard.jpg",
-			"black",
-			"30px",
-			"20px",
-			"36px",
-			"45px",
+			"National Rx",
+			"memberResolve",
+			"member",
+			"ItemId",
+			"                                var ItemId = $stateParams.id;\n",
+			"member",
+			"member.s",
+			"member",
+			"ItemId",
+			"                                var ItemId = $stateParams.id;\n",
+			"member",
+			"routes",
+			"memberResolve",
+			"bin",
+			"memberResolve",
+			"frontend",
+			"    			border-bottom 3px solid #333\n",
+			"25px",
+			"                border-bottom 3px solid #333\n",
+			"25px",
 			"23px",
-			"20px",
-			"23px",
+			"33px",
+			"25px",
+			"29px",
+			"25px",
 			"31px",
+			"33px",
+			"26px",
+			"60px",
+			"396px",
+			"398px",
+			"21px",
+			"28px",
+			"25px",
+			"33px",
+			"273px",
+			"23px",
+			"17px",
+			"22px",
+			"24px",
+			"32px",
+			"238px",
+			"#333",
+			"23px",
+			"21px",
+			"16px",
 			"20px",
-			"27px",
-			"20px",
-			"18px",
+			"25px",
+			"grey",
 			"white",
-			"19px",
-			"18px",
-			"20px",
-			"27px",
-			"26px",
-			"19px",
-			"29px",
-			"31px",
-			"27px",
-			"20px",
-			"29px",
-			"24px",
-			"31px",
-			"24px",
-			"h2",
-			"15px",
-			"26px",
-			"20px",
-			"33px",
-			"27px",
-			"25px",
-			"tag",
-			"19px",
-			"20px",
-			"23px",
-			"32px",
-			"30px",
-			"28px",
-			"31px",
-			"34px",
-			"33px",
-			"25px",
-			"23px",
-			"20px",
-			"40px",
-			"39px",
-			"32px",
-			"31px",
-			"18px",
-			"25px",
-			"29px",
-			"23px",
-			"24px",
-			"23px",
-			"25px",
-			"40px",
-			"h2",
-			"33px",
-			"26px",
-			"20px",
-			"35px",
-			"28px",
-			"34px",
-			"19px",
-			"400px",
-			"20px",
-			"35px",
-			"18px",
-			"34px",
-			"47px",
-			"card",
-			"30px",
-			"28px",
+			"header",
 			"30px",
 			"10px",
-			"h2",
-			"19px",
-			"card",
-			"<span>",
-			"29px",
-			"35px",
-			"000",
-			"card",
-			"33px",
-			"35px",
-			"49px",
-			"22px",
-			"19px",
+			"0px",
+			"548px",
+			"50px",
+			"528px",
+			"60px",
 			"30px",
-			"h4",
-			"h"
+			"20px",
+			"10px",
+			"header",
+			"12px",
+			"30px",
+			"320px",
+			"28px",
+			"174px",
+			"170px",
+			"184px",
+			"150px",
+			"164px",
+			"26px",
+			"27px",
+			"25px",
+			"150px",
+			"164px",
+			"21px",
+			"22px",
+			"23px",
+			"150px",
+			"23px",
+			"130px",
+			"144px",
+			"23px",
+			"19px",
+			"burgundy",
+			"white",
+			"2000px",
+			"background",
+			"white",
+			".side",
+			"secondary",
+			"index",
+			"testi",
+			"view",
+			"18px",
+			"#",
+			"14px",
+			"1",
+			"19px",
+			"left",
+			"21px",
+			"320px",
+			"32px",
+			"12px",
+			"20px",
+			"26",
+			"20px",
+			"top",
+			"30px",
+			"60px",
+			"220px",
+			"100px",
+			"29px",
+			"160px",
+			"10px",
+			"center",
+			"1-866-921-7286",
+			"20px",
+			"12px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -396,6 +422,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"https://s3.amazonaws.com/nationalrx/card/national_rx_card.png",
 			"national_rx_card.png",
 			"$grey",
 			"$grey-border",
@@ -410,8 +437,82 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3168,
+								3168
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Materialize/Langs/Gruntfile JS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1286.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "client/jade/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4827,
+								4987
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1129.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -432,11 +533,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -468,115 +576,183 @@
 		"selected_items":
 		[
 			[
-				"base",
-				"client/styl/base.styl"
+				"commcon",
+				"client/js/common/common.controller.js"
 			],
 			[
-				"32pag",
-				"client/styl/320/page.styl"
+				"indja",
+				"client/jade/index.jade"
 			],
 			[
-				"con",
-				"client/styl/config.styl"
+				"grunt",
+				"gruntfile.js"
 			],
 			[
-				"11game",
-				"client/styl/1100/game.styl"
+				"mem",
+				"client/js/data/members.json"
 			],
 			[
-				"11games",
-				"client/styl/1100/games.styl"
+				"modalprin",
+				"client/jade/modal/modal.print.modal.jade"
 			],
 			[
-				"32gam",
-				"client/styl/320/game.styl"
+				"modsav",
+				"client/jade/modal/modal.save.modal.jade"
 			],
 			[
-				"32si",
-				"client/styl/320/side-panel.styl"
+				"modalemail",
+				"client/jade/modal/modal.email.modal.jade"
 			],
 			[
-				"32game",
-				"client/styl/320/game.styl"
+				"membj",
+				"client/js/data/members.json"
 			],
 			[
-				"conf",
-				"client/styl/config.styl"
+				"textmodja",
+				"client/jade/modal/modal.text.modal.jade"
 			],
 			[
-				"11siap",
-				"client/styl/1100/side-panel.styl"
+				"textmodcon",
+				"client/js/index/index.text.modal.controller.js"
 			],
 			[
-				"9sidpa",
-				"client/styl/900/side-panel.styl"
+				"membrou",
+				"client/js/member/member.routes.js"
 			],
 			[
-				"7sidpa",
-				"client/styl/768/side-panel.styl"
+				"indrou",
+				"client/js/index/index.routes.js"
 			],
 			[
-				"56sidpa",
-				"client/styl/560/side-panel.styl"
+				"inrou",
+				"client/js/index/index.routes.js"
 			],
 			[
-				"4sipa",
-				"client/styl/480/side-panel.styl"
+				"indcont",
+				"server/api/index/index.controller.js"
 			],
 			[
-				"36sidpa",
-				"client/styl/360/side-panel.styl"
+				"indsvcon",
+				"client/js/index/index.save.modal.controller.js"
 			],
 			[
-				"32sidpa",
-				"client/styl/320/side-panel.styl"
+				"indprincon",
+				"client/js/index/index.print.modal.controller.js"
 			],
 			[
-				"corner",
-				"client/jade/corner/corner.jade"
+				"indemailcon",
+				"client/js/index/index.email.modal.controller.js"
 			],
 			[
-				"11head",
-				"client/styl/1100/header.styl"
+				"indetextcon",
+				"client/js/index/index.text.modal.controller.js"
 			],
 			[
-				"11ga",
-				"client/styl/1100/game.styl"
+				"indexser",
+				"client/js/index/index.service.js"
 			],
 			[
-				"9game",
-				"client/styl/900/game.styl"
+				"membjs",
+				"client/js/data/members.json"
 			],
 			[
-				"7gam",
-				"client/styl/768/game.styl"
+				"indexcon",
+				"server/api/index/index.controller.js"
 			],
 			[
-				"56ga",
-				"client/styl/560/game.styl"
+				"serapiind",
+				"server/api/index/index.js"
 			],
 			[
-				"4ga",
-				"client/styl/480/game.styl"
+				"server",
+				"server.js"
 			],
 			[
-				"36ga",
-				"client/styl/360/game.styl"
+				"indser",
+				"client/js/index/index.service.js"
 			],
 			[
-				"config",
-				"client/styl/config.styl"
+				"indetextser",
+				"client/js/index/index.text.service.js"
+			],
+			[
+				"indexsavmod",
+				"client/js/index/index.save.modal.controller.js"
+			],
+			[
+				"indexprin",
+				"client/js/index/index.print.modal.controller.js"
+			],
+			[
+				"indemcon",
+				"client/js/index/index.email.modal.controller.js"
+			],
+			[
+				"membtext",
+				"client/js/member/member.text.modal.controller.js"
+			],
+			[
+				"indtextmod",
+				"client/js/index/index.text.modal.controller.js"
+			],
+			[
+				"memsavm",
+				"client/js/member/member.save.modal.controller.js"
+			],
+			[
+				"membprintmo",
+				"client/js/member/member.print.modal.controller.js"
+			],
+			[
+				"prinmo",
+				"client/jade/modal/modal.print.modal.jade"
+			],
+			[
+				"savemod",
+				"client/jade/modal/modal.save.modal.jade"
+			],
+			[
+				"prinmod",
+				"client/jade/modal/modal.print.modal.jade"
+			],
+			[
+				"textmoda",
+				"client/jade/modal/modal.text.modal.jade"
+			],
+			[
+				"email",
+				"client/jade/modal/modal.email.modal.jade"
+			],
+			[
+				"memberjs",
+				"client/js/data/members.json"
+			],
+			[
+				"text",
+				"client/jade/modal/modal.text.modal.jade"
+			],
+			[
+				"printmod",
+				"client/jade/modal/modal.print.modal.jade"
+			],
+			[
+				"memberprin",
+				"client/js/member/member.print.modal.controller.js"
+			],
+			[
+				"membtextmod",
+				"client/js/member/member.text.modal.controller.js"
 			],
 			[
 				"viewcon",
 				"client/js/member/member.view.controller.js"
 			],
 			[
-				"membemial",
+				"memberemail",
 				"client/js/member/member.email.modal.controller.js"
 			],
 			[
-				"memberprin",
+				"membprincon",
 				"client/js/member/member.print.modal.controller.js"
 			],
 			[
@@ -584,400 +760,332 @@
 				"client/js/member/member.save.modal.controller.js"
 			],
 			[
-				"indrou",
-				"client/js/index/index.routes.js"
+				"membsavdo",
+				"client/js/member/member.save.modal.controller.js"
 			],
 			[
-				"membtextcon",
-				"client/js/member/member.text.modal.controller.js"
+				"pritnmodcon",
+				"client/js/index/index.print.modal.controller.js"
 			],
 			[
 				"membertext",
-				"client/jade/member/member.text.modal.jade"
-			],
-			[
-				"membrou",
-				"client/js/member/member.routes.js"
-			],
-			[
-				"inj",
-				"client/jade/index.jade"
-			],
-			[
-				"membercon",
-				"client/js/member/member.controller.js"
-			],
-			[
-				"membertextmo",
 				"client/js/member/member.text.modal.controller.js"
 			],
 			[
-				"mem",
+				"membemail",
+				"client/js/member/member.email.modal.controller.js"
+			],
+			[
+				"member",
 				"client/data/members.json"
 			],
 			[
-				"indtextmodo",
-				"client/js/index/index.text.modal.controller.js"
+				"ph",
+				"client/data/pharmacies.json"
 			],
 			[
-				"indtextmo",
-				"client/jade/index/index.text.modal.jade"
+				"servjs",
+				"server.js"
 			],
 			[
-				"indcon",
-				"client/js/index/index.controller.js"
-			],
-			[
-				"inja",
-				"client/jade/index.jade"
-			],
-			[
-				"approut",
-				"client/js/app/app.routes.js"
-			],
-			[
-				"memberrou",
-				"client/js/member/member.routes.js"
-			],
-			[
-				"11ind",
-				"client/styl/1100/index.styl"
-			],
-			[
-				"textmocon",
-				"client/js/index/index.text.modal.controller.js"
-			],
-			[
-				"memjson",
-				"client/data/members.json"
-			],
-			[
-				"11card",
-				"client/styl/1100/card.styl"
-			],
-			[
-				"32card",
-				"client/styl/320/card.styl"
-			],
-			[
-				"32mod",
-				"client/styl/320/modal.styl"
-			],
-			[
-				"printmo",
-				"client/jade/index/index.print.modal.jade"
-			],
-			[
-				"emailmo",
-				"client/jade/index/index.email.modal.jade"
-			],
-			[
-				"savemod",
-				"client/jade/index/index.save.modal.jade"
-			],
-			[
-				"em",
-				"client/jade/index/index.email.modal.jade"
-			],
-			[
-				"11mod",
-				"client/styl/1100/modal.styl"
-			],
-			[
-				"9card",
-				"client/styl/900/card.styl"
-			],
-			[
-				"9ind",
-				"client/styl/900/index.styl"
-			],
-			[
-				"9car",
-				"client/styl/900/card.styl"
-			],
-			[
-				"9mod",
-				"client/styl/900/modal.styl"
-			],
-			[
-				"7mod",
-				"client/styl/768/modal.styl"
-			],
-			[
-				"36car",
-				"client/styl/360/card.styl"
-			],
-			[
-				"32car",
-				"client/styl/320/card.styl"
-			],
-			[
-				"5mod",
-				"client/styl/560/modal.styl"
-			],
-			[
-				"32mo",
-				"client/styl/320/modal.styl"
-			],
-			[
-				"36card",
-				"client/styl/360/card.styl"
-			],
-			[
-				"intextmo",
-				"client/jade/index/index.text.modal.jade"
-			],
-			[
-				"36mod",
-				"client/styl/360/modal.styl"
-			],
-			[
-				"48mod",
-				"client/styl/480/modal.styl"
-			],
-			[
-				"48card",
-				"client/styl/480/card.styl"
-			],
-			[
-				"indeprinmo",
-				"client/jade/index/index.print.modal.jade"
-			],
-			[
-				"indsavmod",
-				"client/jade/index/index.save.modal.jade"
-			],
-			[
-				"indemmodja",
-				"client/jade/index/index.email.modal.jade"
-			],
-			[
-				"indindja",
-				"client/jade/index/index.jade"
-			],
-			[
-				"textmodja",
-				"client/jade/index/index.text.modal.jade"
-			],
-			[
-				"32ind",
-				"client/styl/320/index.styl"
+				"11abou",
+				"client/styl/1100/about.styl"
 			],
 			[
 				"9head",
 				"client/styl/900/header.styl"
 			],
 			[
-				"7card",
-				"client/styl/768/card.styl"
+				"9abou",
+				"client/styl/900/about.styl"
 			],
 			[
-				"7car",
-				"client/styl/768/card.styl"
+				"5ab",
+				"client/styl/560/about.styl"
 			],
 			[
-				"7ind",
-				"client/styl/768/index.styl"
+				"7abou",
+				"client/styl/768/about.styl"
+			],
+			[
+				"5about",
+				"client/styl/560/about.styl"
+			],
+			[
+				"abouja",
+				"client/jade/about/about.jade"
+			],
+			[
+				"4abou",
+				"client/styl/480/about.styl"
+			],
+			[
+				"36about",
+				"client/styl/360/about.styl"
+			],
+			[
+				"32ind",
+				"client/styl/320/index.styl"
+			],
+			[
+				"32abou",
+				"client/styl/320/about.styl"
+			],
+			[
+				"11quest",
+				"client/styl/1100/question.styl"
+			],
+			[
+				"9ques",
+				"client/styl/900/questions.styl"
+			],
+			[
+				"7ques",
+				"client/styl/768/questions.styl"
+			],
+			[
+				"5que",
+				"client/styl/560/questions.styl"
+			],
+			[
+				"4ques",
+				"client/styl/480/questions.styl"
+			],
+			[
+				"36que",
+				"client/styl/360/questions.styl"
+			],
+			[
+				"32quest",
+				"client/styl/320/questions.styl"
+			],
+			[
+				"5",
+				"client/styl/560/card.styl"
 			],
 			[
 				"4ind",
 				"client/styl/480/index.styl"
 			],
 			[
-				"36ind",
-				"client/styl/360/index.styl"
+				"32pan",
+				"client/styl/320/panel.styl"
 			],
 			[
-				"40in",
-				"client/styl/480/index.styl"
-			],
-			[
-				"5he",
-				"client/styl/560/header.styl"
-			],
-			[
-				"56ind",
-				"client/styl/560/index.styl"
-			],
-			[
-				"inindja",
-				"client/jade/index/index.jade"
-			],
-			[
-				"4head",
-				"client/styl/480/header.styl"
-			],
-			[
-				"32hea",
-				"client/styl/320/header.styl"
-			],
-			[
-				"56car",
-				"client/styl/560/card.styl"
-			],
-			[
-				"4card",
-				"client/styl/480/card.styl"
-			],
-			[
-				"5ind",
-				"client/styl/560/index.styl"
-			],
-			[
-				"56card",
-				"client/styl/560/card.styl"
-			],
-			[
-				"32he",
-				"client/styl/320/header.styl"
-			],
-			[
-				"48car",
-				"client/styl/480/card.styl"
-			],
-			[
-				"36in",
-				"client/styl/360/index.styl"
-			],
-			[
-				"36head",
-				"client/styl/360/header.styl"
+				"headmem",
+				"client/jade/header/header-member.jade"
 			],
 			[
 				"headja",
 				"client/jade/header/header.jade"
 			],
 			[
+				"5car",
+				"client/styl/560/card.styl"
+			],
+			[
+				"5pan",
+				"client/styl/560/panel.styl"
+			],
+			[
+				"4pan",
+				"client/styl/480/panel.styl"
+			],
+			[
+				"36car",
+				"client/styl/360/card.styl"
+			],
+			[
+				"36pan",
+				"client/styl/360/panel.styl"
+			],
+			[
+				"32pa",
+				"client/styl/320/panel.styl"
+			],
+			[
+				"32he",
+				"client/styl/320/header.styl"
+			],
+			[
+				"config",
+				"client/styl/config.styl"
+			],
+			[
 				"32head",
 				"client/styl/320/header.styl"
 			],
 			[
-				"ininja",
+				"heamem",
+				"client/jade/header/header-member.jade"
+			],
+			[
+				"indindja",
 				"client/jade/index/index.jade"
 			],
 			[
-				"11heae",
+				"test",
+				"client/jade/testimonial/testimonial.jade"
+			],
+			[
+				"memberrou",
+				"client/js/member/member.routes.js"
+			],
+			[
+				"11head",
 				"client/styl/1100/header.styl"
 			],
 			[
-				"11he",
-				"client/styl/1100/header.styl"
-			],
-			[
-				"indindj",
-				"client/jade/index/index.jade"
+				"membviewja",
+				"client/jade/member/member.view.jade"
 			],
 			[
 				"11car",
 				"client/styl/1100/card.styl"
 			],
 			[
+				"32car",
+				"client/styl/320/card.styl"
+			],
+			[
+				"9car",
+				"client/styl/900/card.styl"
+			],
+			[
+				"7ind",
+				"client/styl/768/index.styl"
+			],
+			[
+				"indinja",
+				"client/jade/index/index.jade"
+			],
+			[
+				"view",
+				"client/jade/member/member.view.jade"
+			],
+			[
+				"7car",
+				"client/styl/768/card.styl"
+			],
+			[
+				"4card",
+				"client/styl/480/card.styl"
+			],
+			[
+				"32mod",
+				"client/styl/320/modal.styl"
+			],
+			[
+				"textmod",
+				"client/jade/modal/modal.text.modal.jade"
+			],
+			[
+				"viewja",
+				"client/jade/member/member.view.jade"
+			],
+			[
+				"confi",
+				"client/styl/config.styl"
+			],
+			[
+				"11mod",
+				"client/styl/1100/modal.styl"
+			],
+			[
+				"11card",
+				"client/styl/1100/card.styl"
+			],
+			[
+				"11ind",
+				"client/styl/1100/index.styl"
+			],
+			[
+				"9mod",
+				"client/styl/900/modal.styl"
+			],
+			[
+				"5mod",
+				"client/styl/560/modal.styl"
+			],
+			[
+				"7mod",
+				"client/styl/768/modal.styl"
+			],
+			[
+				"5ind",
+				"client/styl/560/index.styl"
+			],
+			[
+				"prinst",
+				"client/styl/print.styl"
+			],
+			[
+				"primodal",
+				"client/jade/modal/modal.print.modal.jade"
+			],
+			[
+				"5c",
+				"client/styl/560/card.styl"
+			],
+			[
+				"4mod",
+				"client/styl/480/modal.styl"
+			],
+			[
+				"5mo",
+				"client/styl/560/modal.styl"
+			],
+			[
+				"5card",
+				"client/styl/560/card.styl"
+			],
+			[
+				"36mod",
+				"client/styl/360/modal.styl"
+			],
+			[
+				"4car",
+				"client/styl/480/card.styl"
+			],
+			[
+				"4head",
+				"client/styl/480/header.styl"
+			],
+			[
+				"32card",
+				"client/styl/320/card.styl"
+			],
+			[
+				"32ca",
+				"client/styl/320/card.styl"
+			],
+			[
+				"7ca",
+				"client/styl/768/card.styl"
+			],
+			[
+				"testj",
+				"client/jade/testimonial/testimonial.jade"
+			],
+			[
 				"7head",
 				"client/styl/768/header.styl"
 			],
 			[
-				"32foot",
-				"client/styl/320/footer.styl"
+				"5he",
+				"client/styl/560/header.styl"
 			],
 			[
-				"7he",
-				"client/styl/768/header.styl"
+				"48car",
+				"client/styl/480/card.styl"
 			],
 			[
-				"32h",
-				"client/styl/320/header.styl"
+				"indexrou",
+				"client/js/index/index.routes.js"
 			],
 			[
-				"32in",
-				"client/styl/320/index.styl"
-			],
-			[
-				"gameviewja",
-				"client/jade/game/game.view.jade"
-			],
-			[
-				"32",
-				"client/styl/320/game.styl"
-			],
-			[
-				"gamevieja",
-				"client/jade/game/game.view.jade"
-			],
-			[
-				"4game",
-				"client/styl/480/game.styl"
-			],
-			[
-				"36gam",
-				"client/styl/360/game.styl"
-			],
-			[
-				"gamvi",
-				"client/jade/game/game.view.jade"
-			],
-			[
-				"32ga",
-				"client/styl/320/game.styl"
-			],
-			[
-				"36g",
-				"client/styl/360/game.styl"
-			],
-			[
-				"7ga",
-				"client/styl/768/game.styl"
-			],
-			[
-				"5ga",
-				"client/styl/560/game.styl"
-			],
-			[
-				"4gam",
-				"client/styl/480/game.styl"
-			],
-			[
-				"11gam",
-				"client/styl/1100/game.styl"
-			],
-			[
-				"gamviewja",
-				"client/jade/game/game.view.jade"
-			],
-			[
-				"56gam",
-				"client/styl/560/game.styl"
-			],
-			[
-				"9ga",
-				"client/styl/900/game.styl"
-			],
-			[
-				"56game",
-				"client/styl/560/game.styl"
-			],
-			[
-				"slid",
-				"client/js/data/slides.json"
-			],
-			[
-				"gamejs",
-				"client/js/data/games.json"
-			],
-			[
-				"gameja",
-				"client/jade/game/game.view.jade"
-			],
-			[
-				"pack",
-				"package.json"
-			],
-			[
-				"grunt",
-				"gruntfile.js"
-			],
-			[
-				"userreistja",
-				"client/jade/user/user.register.jade"
+				"approut",
+				"client/js/app/app.routes.js"
 			]
 		],
 		"width": 0.0
