@@ -1,9 +1,12 @@
 (function() {
     'use strict';
 
-    function MemberEmailModal ($document, $scope, $state, mail) {
+    function MemberEmailModal ($document, $scope, $state, mail, memberResolve) {
 
         $scope.display = true;
+        $scope.member = memberResolve;
+
+        console.log($scope.member);
 
         $scope.close = function () {
             $scope.display = false;
@@ -30,6 +33,6 @@
         .module('app.member')
         .controller('MemberEmailModal', MemberEmailModal);
 
-    MemberEmailModal.$inject = ['$document', '$scope', '$state', 'mail'];
+    MemberEmailModal.$inject = ['$document', '$scope', '$state', 'mail', 'memberResolve'];
 
 })();

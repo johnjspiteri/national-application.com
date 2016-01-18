@@ -1,10 +1,10 @@
 (function() {
     'use strict';
 
-    function IndexTextModal ($document, $scope, $state, text) {
+    function IndexTextModal ($document, $scope, $state, indexResolve, text) {
 
         $scope.display = true;
-        $scope.cardUrl='https://s3.amazonaws.com/nationalrx/card/national_rx_card.png';
+        $scope.member = indexResolve;
 
         $scope.close = function () {
             $scope.display = false;
@@ -18,7 +18,7 @@
         $scope.text = function () {
             text.create({
                 destination: $scope.data.destination,
-                file: $scope.cardUrl
+                file: $scope.member.file_url,
             });
             $scope.data = {};
             $scope.display = false;
@@ -32,6 +32,6 @@
         .module('app.index')
         .controller('IndexTextModal', IndexTextModal);
 
-    IndexTextModal.$inject = ['$document', '$scope', '$state', 'text'];
+    IndexTextModal.$inject = ['$document', '$scope', '$state', 'indexResolve', 'text'];
 
 })();

@@ -1,9 +1,10 @@
 (function() {
     'use strict';
 
-    function MemberSaveModal ($scope, $state, $window) {
+    function MemberSaveModal ($scope, $state, $window, memberResolve) {
 
         $scope.display = true;
+        $scope.member = memberResolve;
 
         $scope.close = function() {
             $scope.display = false;
@@ -15,6 +16,6 @@
         .module('app.member')
         .controller('MemberSaveModal', MemberSaveModal);
 
-    MemberSaveModal.$inject = ['$scope', '$state', '$window'];
+    MemberSaveModal.$inject = ['$scope', '$state', '$window', 'memberResolve'];
 
 })();

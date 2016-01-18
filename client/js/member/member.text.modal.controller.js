@@ -1,10 +1,11 @@
 (function() {
     'use strict';
 
-    function MemberTextModal ($document, $scope, $state, text) {
+    function MemberTextModal ($document, $scope, $state, memberResolve, text) {
 
         $scope.display = true;
-        console.log($scope.member)
+        $scope.member = memberResolve;
+
         $scope.close = function () {
             $scope.display = false;
             $state.go('member.view');
@@ -31,6 +32,6 @@
         .module('app.member')
         .controller('MemberTextModal', MemberTextModal);
 
-    MemberTextModal.$inject = ['$document', '$scope', '$state', 'text'];
+    MemberTextModal.$inject = ['$document', '$scope', '$state', 'memberResolve', 'text'];
 
 })();

@@ -7,13 +7,7 @@
         $stateProvider
             .state('member', {
                 url: '/plan/:id',
-                abstract: true,
-                resolve: {
-                    memberResolve: ['$stateParams', 'member', function($stateParams, member) {
-                        var ItemId = $stateParams.id;
-                        return member.show({id: ItemId}).$promise;
-                    }],
-                },                
+                abstract: true,            
                 views: {
                     'header@': {
                         templateUrl: 'header/header-member.html',
@@ -33,12 +27,12 @@
                 views: {
                     'page@': {
                         templateUrl: 'member/member.view.html',
-                        // resolve: {
-                        //     memberResolve: ['$stateParams', 'member', function($stateParams, member) {
-                        //         var ItemId = $stateParams.id;
-                        //         return member.show({id: ItemId}).$promise;
-                        //     }],
-                        // },
+                        resolve: {
+                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                                var ItemId = $stateParams.id;
+                                return member.show({id: ItemId}).$promise;
+                            }],
+                        },
                         controller: 'View',
                     }
                 }
@@ -48,6 +42,12 @@
                 views: {
                     'modal@': {
                         templateUrl: 'modal/modal.text.modal.html',
+                        resolve: {
+                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                                var ItemId = $stateParams.id;
+                                return member.show({id: ItemId}).$promise;
+                            }],
+                        },                        
                         controller: 'MemberTextModal'
                     },
                 },
@@ -57,6 +57,12 @@
                 views: {
                     'modal@': {
                         templateUrl: 'modal/modal.email.modal.html',
+                        resolve: {
+                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                                var ItemId = $stateParams.id;
+                                return member.show({id: ItemId}).$promise;
+                            }],
+                        },                        
                         controller: 'MemberEmailModal'
                     },
                 },
@@ -66,6 +72,12 @@
                 views: {
                     'modal@': {
                         templateUrl: 'modal/modal.save.modal.html',
+                        resolve: {
+                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                                var ItemId = $stateParams.id;
+                                return member.show({id: ItemId}).$promise;
+                            }],
+                        },                        
                         controller: 'MemberSaveModal'
                     },
                 },
@@ -75,6 +87,12 @@
                 views: {
                     'modal@': {
                         templateUrl: 'modal/modal.print.modal.html',
+                        resolve: {
+                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                                var ItemId = $stateParams.id;
+                                return member.show({id: ItemId}).$promise;
+                            }],
+                        },                        
                         controller: 'MemberPrintModal'
                     },
                 },

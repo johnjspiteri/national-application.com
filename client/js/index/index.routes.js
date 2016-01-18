@@ -9,10 +9,15 @@
                     title: 'Test This To The Auto Dealership | Interface Agency',
                     description: 'This is the description shown in Google search results'
                 },
-                url: '/',
+                url: '/',                 
                 views: {
                     'page@': {
                         templateUrl: 'index/index.html',
+                        resolve: {
+                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
+                                return index.show({id: 'NRX43710'}).$promise;
+                            }],
+                        },                         
                         controller: 'Index'
                     },
                 }
@@ -22,6 +27,11 @@
                 views: {
                     'modal@': {
                         templateUrl: 'modal/modal.text.modal.html',
+                        resolve: {
+                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
+                                return index.show({id: 'NRX43710'}).$promise;
+                            }],
+                        },                         
                         controller: 'IndexTextModal'
                     },
                 },
@@ -31,6 +41,11 @@
                 views: {
                     'modal@': {
                         templateUrl: 'modal/modal.email.modal.html',
+                        resolve: {
+                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
+                                return index.show({id: 'NRX43710'}).$promise;
+                            }],
+                        },                         
                         controller: 'IndexEmailModal'
                     },
                 },
@@ -40,6 +55,11 @@
                 views: {
                     'modal@': {
                         templateUrl: 'modal/modal.save.modal.html',
+                        resolve: {
+                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
+                                return index.show({id: 'NRX43710'}).$promise;
+                            }],
+                        },                         
                         controller: 'IndexSaveModal'
                     },
                 },
@@ -49,6 +69,11 @@
                 views: {
                     'modal@': {
                         templateUrl: 'modal/modal.print.modal.html',
+                        resolve: {
+                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
+                                return index.show({id: 'NRX43710'}).$promise;
+                            }],
+                        },                         
                         controller: 'IndexPrintModal'
                     },
                 },

@@ -1,9 +1,11 @@
 (function() {
     'use strict';
 
-    function IndexPrintModal ($document, $scope, $window, $state) {
+    function IndexPrintModal ($document, $scope, $window, $state, indexResolve) {
 
         $scope.display = true;
+        $scope.member = indexResolve;
+
         $scope.close = function () {
             $scope.display = false;
             $state.go('frontend.index');
@@ -18,6 +20,6 @@
         .module('app.index')
         .controller('IndexPrintModal', IndexPrintModal);
 
-    IndexPrintModal.$inject = ['$document', '$scope', '$window', '$state'];
+    IndexPrintModal.$inject = ['$document', '$scope', '$window', '$state', 'indexResolve'];
 
 })();

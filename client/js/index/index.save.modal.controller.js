@@ -1,10 +1,10 @@
 (function() {
     'use strict';
 
-    function IndexSaveModal ($scope, $state, $window) {
+    function IndexSaveModal ($scope, $state, $window, indexResolve) {
 
         $scope.display = true;
-        $scope.cardUrl='https://s3.amazonaws.com/nationalrx/card/national_rx_card.png';
+        $scope.member = indexResolve;
 
         $scope.close = function() {
             $scope.display = false;
@@ -16,6 +16,6 @@
         .module('app.index')
         .controller('IndexSaveModal', IndexSaveModal);
 
-    IndexSaveModal.$inject = ['$scope', '$state', '$window'];
+    IndexSaveModal.$inject = ['$scope', '$state', '$window', 'indexResolve'];
 
 })();

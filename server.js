@@ -57,6 +57,7 @@ app.use('/api/text', require('./server/api/text'));
 app.use('/api/zip', require('./server/api/zip'));
 app.use('/api/location', require('./server/api/location'));
 app.use('/api/contact', require('./server/api/contact'));
+app.use('/api/index', require('./server/api/index'));
 app.use('/api/member', require('./server/api/member'));
 
 app.all('/*', function(req, res, next) {
