@@ -1,58 +1,9 @@
 .page
     .content
         .main
-            .card-member
-                .member
-                    .member-brand
-                        img(ng-src='/img/best_deals_4_moms.png')
-
-                    .member-content
-                        .row
-                            .left
-                                h4 Name:
-                            .right
-                                h4 Preferred Customer
-                        .row
-                            .left
-                                h4 BIN#:
-                            .right
-                                h4(data-ng-bind='member.plan.bin')
-                        .row
-                            .left
-                                h4 PCN#:
-                            .right
-                                h4(data-ng-bind='member.plan.pcn')
-                        .row.hide
-                            .left
-                                h4 GROUP#:
-                            .left
-                                h4 PATIENT#:
-                        .row.hide
-                            .right
-                                h4(data-ng-bind='member.plan.group')
-                            .right
-                                h4(data-ng-bind='member.plan.patient_id')
-
-                        .row
-                            .left
-                                h4 GROUP#:
-                            .right
-                                h4(data-ng-bind='member.plan.group')
-                        .row
-                            .left
-                                h4 PATIENT ID#:
-                            .right
-                                h4(data-ng-bind='member.plan.patient_id')
-
-                    //- .member-brand
-                    //-     img(ng-src='/img/best_deals_4_moms.png')
-
-                .disclaimer
-                    .brand
-                        img(ng-src='/img/logo.png')
-                    p Present this card to a participating pharmacy to receive your discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. For processing questions call: Argus Health Systems <a href='tel:1-866-921-7286'>1-866 921-7286</a>, customer service: <a href='tel:1-855-525-6375'>1-855 525-6375</a>
-
-            .download.member
+            .card-discount
+                img(src='{{member.file_url}}')
+            .download
                 .tag(data-ng-click='textModal();')
                     .fa.fa-mobile.fa-rotate-90
                     p Text
@@ -69,6 +20,35 @@
                     .fa.fa-file-text
                     p Print
                     p.full Print <span>Card</span>
+                    //- .member-brand
+                    //-     img(ng-src='/img/best_deals_4_moms.png')
+
+                //- .disclaimer
+                //-     .brand
+                //-         img(ng-src='/img/logo.png')
+                //-     p Present this card to a participating pharmacy to receive your discount on your prescription. This card is not valid for Medicaid or Medicare patients, including Medicare Part D, or other state or federal programs. For processing questions call: Argus Health Systems <a href='tel:1-866-921-7286'>1-866 921-7286</a>, customer service: <a href='tel:1-855-525-6375'>1-855 525-6375</a>
+
+        .points
+            .point-container
+                .point
+                    .fa.fa-certificate
+                    h3 Membership <span>Is Free</span>
+            .point-container
+                .point
+                    .fa.fa-certificate
+                    h3 Everyone <span>Qualifies</span>
+            .point-container
+                .point
+                    .fa.fa-certificate
+                    h3 No Waiting Or <span>Deductibles</span>
+            .point-container
+                .point
+                    .fa.fa-certificate
+                    h3 No Pre-Existing <span>Exclusions</span>
+            .point-container
+                .point
+                    .fa.fa-certificate
+                    h3 Available For <span>Pet Meds</span>
 
         .center
             span.fa.fa-certificate
