@@ -8,7 +8,7 @@
             'ngSanitize',
             'angular-google-analytics',
             'ngFileSaver',
-            'satellizer',
+            // 'ngTouch',
             'naif.base64',
             'uiGmapgoogle-maps',
             'ui.router',
@@ -22,8 +22,6 @@
             'app.about',
             'app.privacy',
             'app.terms',
-            'app.account',
-            'app.user',
             'app.member',
         ]);
 })();

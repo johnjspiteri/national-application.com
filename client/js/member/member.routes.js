@@ -5,9 +5,9 @@
         $locationProvider.html5Mode(true);
 
         $stateProvider
-            .state('frontend.member', {
+            .state('member', {
                 url: '/nrx/:id',
-                abstract: true,
+                abstract: true,            
                 views: {
                     'header@': {
                         templateUrl: 'header/header-member.html',
@@ -17,8 +17,8 @@
                         templateUrl: 'footer/footer-member.html',
                     },
                 }
-            })
-            .state('frontend.member.view', {
+            })        
+            .state('member.view', {
                 meta: {
                     title: '',
                     description: ''
@@ -37,7 +37,7 @@
                     }
                 }
             })
-            .state('frontend.member.view.text', {
+            .state('member.view.text', {
                 url: '/text-a-free-rx-card',
                 views: {
                     'modal@': {
@@ -47,12 +47,12 @@
                                 var ItemId = $stateParams.id;
                                 return member.show({id: ItemId}).$promise;
                             }],
-                        },
+                        },                        
                         controller: 'MemberTextModal'
                     },
                 },
             })
-            .state('frontend.member.view.email', {
+            .state('member.view.email', {
                 url: '/email-a-free-rx-card',
                 views: {
                     'modal@': {
@@ -62,12 +62,12 @@
                                 var ItemId = $stateParams.id;
                                 return member.show({id: ItemId}).$promise;
                             }],
-                        },
+                        },                        
                         controller: 'MemberEmailModal'
                     },
                 },
             })
-            .state('frontend.member.view.save', {
+            .state('member.view.save', {
                 url: '/save-a-free-rx-card',
                 views: {
                     'modal@': {
@@ -77,12 +77,12 @@
                                 var ItemId = $stateParams.id;
                                 return member.show({id: ItemId}).$promise;
                             }],
-                        },
+                        },                        
                         controller: 'MemberSaveModal'
                     },
                 },
             })
-            .state('frontend.member.view.print', {
+            .state('member.view.print', {
                 url: '/print-a-free-rx-card',
                 views: {
                     'modal@': {
@@ -92,12 +92,12 @@
                                 var ItemId = $stateParams.id;
                                 return member.show({id: ItemId}).$promise;
                             }],
-                        },
+                        },                        
                         controller: 'MemberPrintModal'
                     },
                 },
             })
-            .state('frontend.member.question', {
+            .state('member.question', {
                 url: '/questions',
                 views: {
                     'page@': {
@@ -106,7 +106,7 @@
                     }
                 }
             })
-            .state('frontend.member.testimonial', {
+            .state('member.testimonial', {
                 url: '/testimonial',
                 views: {
                     'page@': {
@@ -114,7 +114,7 @@
                     },
                 },
             })
-            .state('frontend.member.about', {
+            .state('member.about', {
                 url: '/about-us',
                 views: {
                     'page@': {
@@ -122,7 +122,7 @@
                         controller: 'About',
                     },
                 }
-            });
+            });                                        
     }
 
     angular

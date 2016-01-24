@@ -48,7 +48,6 @@ module.exports = function (grunt) {
                         'client/js/vendor/angular-base64-upload/dist/angular-base64-upload.js',
                         'client/js/vendor/angular-file-saver/dist/angular-file-saver.bundle.js',
                         'client/js/vendor/angular-material/angular-material.js',
-                        'client/js/vendor/satellizer/satellizer.js',
                         'client/js/vendor/angular-aria/angular-aria.js',
                         'client/js/app/app.module.js',
                         'client/js/app/app.config.js',
@@ -88,17 +87,7 @@ module.exports = function (grunt) {
                         'client/js/member/member.text.modal.controller.js',
                         'client/js/member/member.email.modal.controller.js',
                         'client/js/member/member.save.modal.controller.js',
-                        'client/js/member/member.print.modal.controller.js',
-                        'client/js/user/user.module.js',
-                        'client/js/user/user.routes.js',
-                        'client/js/user/user.error.directive.js',
-                        'client/js/user/user.login.controller.js',
-                        'client/js/user/user.register.controller.js',
-                        'client/js/account/account.module.js',
-                        'client/js/account/account.routes.js',
-                        'client/js/account/account.service.js',
-                        'client/js/account/account.list.controller.js',
-                        'client/js/account/account.view.controller.js',
+                        'client/js/member/member.print.modal.controller.js'
                     ]
                 }
             }
