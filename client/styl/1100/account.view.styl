@@ -1,0 +1,128 @@
+.content
+	float left
+	width 820px
+	padding 0
+	// padding 50px 90px
+	height 1000px
+	// background #f1f1f1
+
+	.fields
+		float left
+		width 460px
+		padding 50px 0 0 90px
+
+		input
+			float left
+			width 360px
+			height 56px
+			padding 4px 0 0 40px
+			margin 0 0 16px 0
+			border $border
+			font-size 25px
+			line-height 25px
+			color $black
+
+	.logo
+		float left
+		width 360px
+		height 320px
+
+		.image
+			float left
+			width 360px
+			height 180px
+			margin 0
+			background $white
+			border $border
+
+			.tags
+				position absolute
+				width 100px
+				height 60px
+				margin -1px 0 0 230px
+				z-index 99999
+
+				.edit
+					float left
+					width 40px
+					height 40px
+					margin 0 10px 0 0
+					background $burgundy
+					border $border
+					border-top none
+					border-radius 0 0 4px 4px
+
+					.fa-pencil
+						float left
+						width 100%
+						height 100%
+						color $white
+						font-size 21px
+						line-height 41px
+						text-align center
+						text-shadow $burgundy-text-shadow
+
+						.file-upload
+							position absolute
+							width 100%
+							height 100%
+							padding 0
+							margin 0
+							border none
+							cursor pointer
+							z-index 1
+
+							input[type='file']
+								display none
+								padding 0
+								margin 0
+
+				.save
+					float left
+					width 40px
+					height 40px
+					margin 0
+					background $grey
+					border $border
+					border-top none
+					border-radius 0 0 4px 4px
+
+					.fa-cloud
+						float left
+						width 100%
+						height 100%
+						color $white
+						font-size 21px
+						line-height 41px
+						text-align center
+						text-shadow $burgundy-text-shadow
+
+			.thumb-image
+				float left
+				width 360px
+				height 180px
+
+				img
+					float left
+					width 100%
+					height 100%
+
+	.submit
+		float left
+		width 100%
+		height 60px
+		background $burgundy
+		font-size 31px
+		line-height 62px
+		color $white
+		border none
+		border $border
+		border-radius $border-radius
+		text-shadow $burgundy-text-shadow
+		text-align center
+
+	.submit.disabled
+		background $grey
+		color $white
+		text-shadow $grey-text-shadow
+		border-bottom 3px solid $black

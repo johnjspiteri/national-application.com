@@ -6,8 +6,13 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
    var express = require('express'),
       location = require('./server/config/development.json'),
       mongoose = require('mongoose'),
+        // morgan = require('morgan'),
+        colors = require('colors'),
+        logger = require('morgan'),
         morgan = require('morgan'),
           path = require('path'),
+            qs = require('querystring'),
+         async = require('async'),
 methodOverride = require('method-override'),
    compression = require('compression'),
     bodyParser = require('body-parser'),
@@ -52,11 +57,14 @@ if ('development' === env || 'test' === env) {
     app.use(express.static(__dirname + '/client/js'));
 }
 
+app.use('/auth/login', require('./server/auth/login'));
+app.use('/auth/register', require('./server/auth/register'));
 app.use('/api/mail', require('./server/api/mail'));
 app.use('/api/text', require('./server/api/text'));
 app.use('/api/zip', require('./server/api/zip'));
 app.use('/api/location', require('./server/api/location'));
 app.use('/api/contact', require('./server/api/contact'));
+app.use('/api/account', require('./server/api/account'));
 app.use('/api/index', require('./server/api/index'));
 app.use('/api/member', require('./server/api/member'));
 

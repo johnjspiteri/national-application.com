@@ -8,8 +8,8 @@
             'ngResource',
             'ngSanitize',
             'ngTouch',
+            'satellizer',
             'angularModalService',
-            'shoppinpal.mobile-menu',
             'uiGmapgoogle-maps',
             'ui.router'
         ]);

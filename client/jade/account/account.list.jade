@@ -1,0 +1,39 @@
+.page
+    .content-holder
+        .content
+            .filter-holder
+                .filter-container
+                    select(type="text", data-ng-model='dropdown')
+                        option(value='') Category
+                    input(type="text", data-ng-model='phraseFilter', placeholder='Enter Search')
+                    .reset(data-ng-click='reset();')
+                        span.fa.fa-times
+
+            .panel(ng-repeat='item in items | filter: phraseFilter', ui-sref="backend.view({id:item.clean})")
+                .fields
+                    .full
+                        h6 Organization
+                        input(data-ng-bind='::item.organization', placeholder="Organization Name")
+                    .full
+                        h6 Email Address
+                        input(data-ng-bind='::item.email', placeholder="Organization Email")
+                    .half
+                        h6 BIN Number
+                        input(data-ng-bind='::item.plan.bin', placeholder="Plan BIN Number")
+                    .half
+                        h6 PCN Number
+                        input(data-ng-bind='::item.plan.pcn', placeholder="Plan PCN Number")
+                    .half
+                        h6 Group Number
+                        input(data-ng-bind='::item.plan.group', placeholder="Plan Group Number")
+                    .half
+                        h6 Group Number
+                        input(data-ng-bind='::item.plan.patient_id', placeholder="Plan Patient ID")
+                    .full
+                        h6 File URL
+                        input(data-ng-bind='::item.file_url', placeholder="URL")
+
+                .logo
+                    .image
+                        .thumb-image
+                            img(ng-src='data:{{image.filetype}};base64,{{image.base64}}')

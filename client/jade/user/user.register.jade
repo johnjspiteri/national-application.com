@@ -1,0 +1,12 @@
+form.user-holder(ng-submit="signup()", name="signupForm")
+    .user
+        h1 Sign up
+        .user-row
+            h6 Email
+            input(type="text", id="email", name="email", ng-model="user.email", placeholder="Email Address", required autofocus)
+
+        .user-row
+            h6 Password
+            input(type="password", name="password", ng-model="user.password", placeholder="Password", required)
+
+        button.submit(type="submit") Sign up <span class='fa fa-lock'></span>

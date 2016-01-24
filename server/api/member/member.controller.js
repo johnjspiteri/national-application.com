@@ -5,36 +5,36 @@
         res.status(500).send(err)
     }
     var mongoose = require('mongoose');
-    var Member = require('./member.model');
+    var Account = require('./../account/account.model');
 
     exports.index = function (req,res,next) {
-        Member.find({}, function (err,data) {
+        Account.find({}, function (err,data) {
             if (err) { return handleError(res,err); }
             return res.status(200).json(data);
         });
     };
     exports.show = function (req, res, next) {
         console.log(req.params.id);
-        Member.findOne({clean:req.params.id}, function (err, data) {
+        Account.findOne({clean:req.params.id}, function (err, data) {
             if (err) {return handleError(res, err);}
             if (!data) { return res.sendStatus(404); }
             return res.json(data);
         });
     };
     exports.create = function (req, res) {
-        Member.create(req.body, function (err, data) {
+        Account.create(req.body, function (err, data) {
             if (err) { return handleError(res, err); }
             return res.status(201).json(data);
         });
     };
     exports.update = function(req, res) {
-        Member.findByIdAndUpdate(req.params.id, req.body, {new: true, upsert: true}, function(err, data) {
+        Account.findByIdAndUpdate(req.params.id, req.body, {new: true, upsert: true}, function(err, data) {
             if (err) { return handleError(res, err); }
             res.json(data);
         })
     };
     exports.destroy = function (req, res) {
-        Member.findById(req.params.id, function (err, data) {
+        Account.findById(req.params.id, function (err, data) {
             if (err) { return handleError(res, err); }
             if (!data) { return res.send(404); }
             data.remove(function (err) {
