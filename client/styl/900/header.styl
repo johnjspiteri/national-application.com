@@ -1,33 +1,64 @@
 header
 	padding 0
 	margin 0 0 40px 0
-	height 128px
+	height 138px
 
 	.header
 		width 1024px
 
 		.brand
-			width 270px
+			width 290px
 			padding 0
-			margin 18px 13px 0 35px
+			margin 12px 13px 0 35px
+
+			.logo
+				width 290px
+				margin 0
+
+			.mobile-navigation
+				display none
+
+		.brand.member
+			width 270px
 
 			.logo
 				width 260px
 				margin 0
+				// margin 12px 0 12px 120px
 
 		nav
-			width 700px
+			display block
+			float right
+			width 680px
 			height 76px
-			margin 52px 0 0 0
+			padding 0
+			margin 62px 0 0 0
+			border-radius 6px 0 0 0
 
 			.tile
+				float right
 				height 75px
 				padding 0 24px
+				margin 0
+				background $grey
+				border-top $border-header
+				border-left $border-header
+				cursor pointer
 
 				h4
+					float left
+					padding 0
+					font-weight 600
 					margin 14px 0 0 0
-					font-size 21px
+					font-size 20px
 					line-height 25px
+					color $white
+					text-align center
+					text-shadow $grey-text-shadow
 
 			.tile.active
 				height 76px
+				background $background
+
+			.tile.first
+				border-radius 6px 0 0 0

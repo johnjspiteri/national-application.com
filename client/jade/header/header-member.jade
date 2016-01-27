@@ -5,7 +5,9 @@ header
                 img(ng-src='data:{{member.image.filetype}};base64,{{member.image.base64}}')
             .mobile-navigation(data-ng-click="openMemberdNavigation();")
                 h5 Navigation
-        nav
+        nav.member
+            .tile.last(ui-sref='member.about', data-ng-class="{active: $state.includes('member.about')}")
+                h4 About The<br>Company
             .tile(ui-sref='member.testimonial', data-ng-class="{active: $state.includes('member.testimonial')}")
                 h4 Client<br>Testimonials
             .tile(ui-sref='member.question', data-ng-class="{active: $state.includes('member.question')}")

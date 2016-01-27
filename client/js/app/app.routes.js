@@ -43,7 +43,7 @@
                         controller: 'HeaderMember',
                     },
                      'footer@': {
-                        templateUrl: 'footer/footer-member.html',
+                        templateUrl: 'footer/footer.html',
                     },
                 }
             })
