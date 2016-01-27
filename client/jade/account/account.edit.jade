@@ -1,0 +1,50 @@
+.page
+    .content
+        .filter-holder
+            .filter-container
+                select(type="text", data-ng-model='dropdown')
+                    option(value='') Category
+                input(type="text", data-ng-model='filter', placeholder='Enter Search')
+                .reset(data-ng-click='reset();')
+                    span.fa.fa-times
+
+        .lists
+            .item
+                .image
+                    .tag-holder
+                        .tag.save(data-ng-click='saveImage(new)', data-ng-show='new.filetype')
+                            .fa.fa-cloud
+                        .tag
+                            .fa.fa-pencil
+                            label.file-upload
+                                input(type='file', data-ng-model='new', accept='image/*', base-sixty-four-input)
+                    .thumb-image(ng-show='!new.filetype')
+                        img(ng-src='data:{{item.image.filetype}};base64,{{item.image.base64}}')
+                    .thumb-image(ng-show='new.filetype')
+                        img(ng-src='data:{{new.filetype}};base64,{{new.base64}}')
+
+                .information
+                    .full
+                        h5 Organization
+                        textarea.h3(data-ng-model='item.organization', ng-model-options='{updateOn:"blur"}', data-ng-change='updateOrganization();', msd-elastic='')
+                    .full
+                        h5 Email Address
+                        textarea.h3(data-ng-model='item.email', ng-model-options='{updateOn:"blur"}', data-ng-change='updateEmail();', msd-elastic='')
+                    .full
+                        h5 Application URL
+                        textarea.h3(data-ng-model='url', ng-model-options='{updateOn:"blur"}', data-ng-disabled='!disable', msd-elastic='')
+                    .full
+                        h5 File URL
+                        textarea.h3(data-ng-model='item.file_url', ng-model-options='{updateOn:"blur"}', data-ng-change='updateURL();', msd-elastic='')
+                    .full
+                        h5 BIN Number
+                        textarea.h3(data-ng-model='item.plan.bin', ng-model-options='{updateOn:"blur"}', data-ng-change='updateBIN();', msd-elastic='')
+                    .full
+                        h5 PCN Number
+                        textarea.h3(data-ng-model='item.plan.pcn', ng-model-options='{updateOn:"blur"}', data-ng-change='updatePCN();', msd-elastic='')
+                    .full
+                        h5 Group Number
+                        textarea.h3(data-ng-model='item.plan.group', ng-model-options='{updateOn:"blur"}', data-ng-change='updateGroup();', msd-elastic='')
+                    .full
+                        h5 Patient ID
+                        textarea.h3(data-ng-model='item.plan.patient_id', ng-model-options='{updateOn:"blur"}', data-ng-change='updatePatientID();', msd-elastic='')

@@ -2358,8 +2358,8 @@ small {
     padding: 0;
     margin: 0;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 25px;
+    line-height: 25px;
     color: #fff;
     text-align: center;
     text-shadow: -1px -1px 0px #000;
@@ -2374,25 +2374,25 @@ small {
     margin: 0 auto;
     overflow: hidden;
   }
-  .content {
+  .page .content {
     float: left;
     width: 320px;
     margin: 0;
     padding: 0;
   }
-  .content .main {
+  .page .content .main {
     float: left;
     width: 320px;
     padding: 0;
     margin: 0;
   }
-  .content .main .download {
+  .page .content .main .download {
     float: left;
     width: 300px;
     padding: 0;
     margin: 0 0 38px 16px;
   }
-  .content .main .download .tag {
+  .page .content .main .download .tag {
     float: left;
     width: 63px;
     padding: 10px 0 6px 0;
@@ -2402,7 +2402,7 @@ small {
     border-radius: 6px 6px 6px 6px;
     cursor: pointer;
   }
-  .content .main .download .tag p {
+  .page .content .main .download .tag p {
     float: left;
     width: 63px;
     padding: 0;
@@ -2414,13 +2414,13 @@ small {
     text-align: center;
     text-shadow: -1px -1px 0px #000;
   }
-  .content .main .download .tag p.full {
+  .page .content .main .download .tag p.full {
     display: none;
   }
-  .content .main .download .tag .fa-cloud,
-  .content .main .download .tag .fa-mobile,
-  .content .main .download .tag .fa-send,
-  .content .main .download .tag .fa-file-text {
+  .page .content .main .download .tag .fa-cloud,
+  .page .content .main .download .tag .fa-mobile,
+  .page .content .main .download .tag .fa-send,
+  .page .content .main .download .tag .fa-file-text {
     float: left;
     width: 100%;
     padding: 0;
@@ -2431,36 +2431,36 @@ small {
     text-align: center;
     text-shadow: -1px -1px 0px #000;
   }
-  .content .main .download .tag .fa-mobile {
+  .page .content .main .download .tag .fa-mobile {
     height: 33px;
     margin: -6px 0 0 0px;
     font-size: 35px;
   }
-  .content .main .download .tag .fa-send {
+  .page .content .main .download .tag .fa-send {
     font-size: 18px;
   }
-  .content .main .download .tag .fa-file-text {
+  .page .content .main .download .tag .fa-file-text {
     font-size: 19px;
   }
-  .content .points {
+  .page .content .points {
     float: left;
     width: 300px;
     padding: 0;
     margin: 0 0 10px 10px;
   }
-  .content .points .point-container {
+  .page .content .points .point-container {
     width: 300px;
     margin: 0 0 14px 0;
     text-align: center;
   }
-  .content .points .point-container .point {
+  .page .content .points .point-container .point {
     display: inline-block;
     position: relative;
     padding: 0;
     margin: 0 auto;
     z-index: 99;
   }
-  .content .points .point-container .point .fa-certificate {
+  .page .content .points .point-container .point .fa-certificate {
     position: absolute;
     width: 31px;
     padding: 0;
@@ -2471,7 +2471,7 @@ small {
     font-size: 29px;
     text-shadow: 0px 1px 0px #000;
   }
-  .content .points .point-container .point h3 {
+  .page .content .points .point-container .point h3 {
     float: left;
     padding: 8px 24px 18px 24px;
     margin: 0;
@@ -2485,20 +2485,20 @@ small {
     border-radius: 6px 6px 6px 6px;
     text-shadow: -1px -1px 0px #000;
   }
-  .content .points .point-container .point h3 span {
+  .page .content .points .point-container .point h3 span {
     padding: 0 0 4px 0;
     margin: 0;
     font-weight: 500;
     font-style: italic;
     border-bottom: 3px solid #ffffb5;
   }
-  .content .center {
+  .page .content .center {
     float: left;
     width: 100%;
     padding: 0;
     margin: 0 0 20px 0;
   }
-  .content .center .fa-certificate {
+  .page .content .center .fa-certificate {
     position: absolute;
     width: 20px;
     margin: -18px 0 0 282px;
@@ -2506,7 +2506,7 @@ small {
     color: #ffffb5;
     text-shadow: 0px 1px 0px #000;
   }
-  .content .center h1 {
+  .page .content .center h1 {
     float: left;
     width: 240px;
     padding: 12px 20px 12px 20px;
@@ -2521,7 +2521,7 @@ small {
     text-align: center;
     text-shadow: -1px -1px 0px #333;
   }
-  .content .center .center-holder {
+  .page .content .center .center-holder {
     float: left;
     width: 310px;
     padding: 30px 0 10px 10px;
@@ -2531,128 +2531,128 @@ small {
     border-right: none;
     border-bottom: 4px solid #333;
   }
-  .content .center .center-holder .logo {
+  .page .content .center .center-holder .logo {
     float: left;
     padding: 0;
   }
-  .content .center .center-holder .logo .albertsons {
+  .page .content .center .center-holder .logo .albertsons {
     float: left;
     width: 190px;
     margin: 0 10px 22px 10px;
   }
-  .content .center .center-holder .logo .ap {
+  .page .content .center .center-holder .logo .ap {
     float: left;
     width: 70px;
     margin: 0 10px 22px 10px;
   }
-  .content .center .center-holder .logo .costco {
+  .page .content .center .center-holder .logo .costco {
     float: left;
     width: 130px;
     margin: 0 14px 2px 20px;
   }
-  .content .center .center-holder .logo .medicap {
+  .page .content .center .center-holder .logo .medicap {
     float: left;
     width: 110px;
     margin: 0 10px 10px 10px;
   }
-  .content .center .center-holder .logo .cvs {
+  .page .content .center .center-holder .logo .cvs {
     float: left;
     width: 210px;
     margin: 18px 10px 22px 5px;
   }
-  .content .center .center-holder .logo .publix {
+  .page .content .center .center-holder .logo .publix {
     float: left;
     width: 52px;
     margin: 4px 10px 14px 5px;
   }
-  .content .center .center-holder .logo .duanereade {
+  .page .content .center .center-holder .logo .duanereade {
     float: left;
     width: 140px;
     margin: 8px 8px 0 0;
   }
-  .content .center .center-holder .logo .intermountain {
+  .page .content .center .center-holder .logo .intermountain {
     float: left;
     width: 140px;
     margin: 0 0 18px 10px;
   }
-  .content .center .center-holder .logo .kmart {
+  .page .content .center .center-holder .logo .kmart {
     float: left;
     width: 160px;
     margin: 10px 30px 18px 10px;
   }
-  .content .center .center-holder .logo .kroger {
+  .page .content .center .center-holder .logo .kroger {
     float: left;
     width: 58px;
     margin: 4px 10px 8px 10px;
   }
-  .content .center .center-holder .logo .longs {
+  .page .content .center .center-holder .logo .longs {
     float: left;
     width: 160px;
     margin: 10px 20px 8px 10px;
   }
-  .content .center .center-holder .logo .stopshop {
+  .page .content .center .center-holder .logo .stopshop {
     float: left;
     width: 80px;
     margin: 4px 10px 18px 10px;
   }
-  .content .center .center-holder .logo .riteaid {
+  .page .content .center .center-holder .logo .riteaid {
     float: left;
     width: 46px;
     margin: 10px 25px 16px 25px;
   }
-  .content .center .center-holder .logo .starmarket {
+  .page .content .center .center-holder .logo .starmarket {
     float: left;
     width: 180px;
     margin: 10px 0 18px 10px;
   }
-  .content .center .center-holder .logo .walmart {
+  .page .content .center .center-holder .logo .walmart {
     float: left;
     width: 140px;
     margin: 4px 20px 18px 15px;
   }
-  .content .center .center-holder .logo .safeway {
+  .page .content .center .center-holder .logo .safeway {
     float: left;
     width: 90px;
     margin: -16px 10px 18px 10px;
   }
-  .content .center .center-holder .logo .vons {
+  .page .content .center .center-holder .logo .vons {
     float: left;
     width: 80px;
     margin: -5px 20px 0 15px;
   }
-  .content .center .center-holder .logo .winndixie {
+  .page .content .center .center-holder .logo .winndixie {
     float: left;
     width: 160px;
     margin: 0 0 14px 10px;
   }
-  .content .center .center-holder .logo .walgreens {
+  .page .content .center .center-holder .logo .walgreens {
     float: left;
     width: 190px;
     margin: 10px 20px 0px 10px;
   }
-  .content .center .center-holder .logo .shoprite {
+  .page .content .center .center-holder .logo .shoprite {
     float: left;
     width: 90px;
     margin: -10px 10px 18px 30px;
   }
-  .content .center .center-holder .logo .target {
+  .page .content .center .center-holder .logo .target {
     float: left;
     width: 56px;
     margin: 0 10px 18px 0;
   }
-  .content .center .center-holder .logo .usadrug {
+  .page .content .center .center-holder .logo .usadrug {
     float: left;
     width: 120px;
     margin: 0 10px 18px 10px;
   }
-  .content .locator {
+  .page .content .locator {
     float: left;
     width: 320px;
     margin: 0;
     padding: 0;
   }
-  .content .locator .locator-zip,
-  .content .locator .locator-state {
+  .page .content .locator .locator-zip,
+  .page .content .locator .locator-state {
     float: left;
     width: 240px;
     padding: 20px 20px 20px 20px;
@@ -2661,8 +2661,8 @@ small {
     border-bottom: 4px solid #222;
     border-radius: 6px 6px 6px 6px;
   }
-  .content .locator .locator-zip h4,
-  .content .locator .locator-state h4 {
+  .page .content .locator .locator-zip h4,
+  .page .content .locator .locator-state h4 {
     float: left;
     width: 100%;
     padding: 0;
@@ -2674,8 +2674,8 @@ small {
     text-align: center;
     text-shadow: -1px -1px 0px #333;
   }
-  .content .locator .locator-zip input,
-  .content .locator .locator-state input {
+  .page .content .locator .locator-zip input,
+  .page .content .locator .locator-state input {
     float: left;
     width: 240px;
     height: 52px;
@@ -2690,12 +2690,12 @@ small {
     text-align: center;
     cursor: pointer;
   }
-  .content .locator .locator-zip ::-webkit-input-placeholder,
-  .content .locator .locator-state ::-webkit-input-placeholder {
+  .page .content .locator .locator-zip ::-webkit-input-placeholder,
+  .page .content .locator .locator-state ::-webkit-input-placeholder {
     line-height: normal;
   }
-  .content .locator .locator-zip select,
-  .content .locator .locator-state select {
+  .page .content .locator .locator-zip select,
+  .page .content .locator .locator-state select {
     float: left;
     width: 240px;
     height: 56px;
@@ -2713,8 +2713,8 @@ small {
     -webkit-appearance: none;
     -moz-appearance: none;
   }
-  .content .locator .locator-zip .submit,
-  .content .locator .locator-state .submit {
+  .page .content .locator .locator-zip .submit,
+  .page .content .locator .locator-state .submit {
     float: left;
     width: 240px;
     margin: 0;
@@ -2732,7 +2732,7 @@ small {
     text-shadow: -1px -1px 0px #000;
     cursor: pointer;
   }
-  .content .locator .locator-results {
+  .page .content .locator .locator-results {
     float: left;
     width: 320px;
     padding: 20px 0 25px 0;
@@ -2740,7 +2740,7 @@ small {
     background: #666;
     border-bottom: 4px solid #333;
   }
-  .content .locator .locator-results h4 {
+  .page .content .locator .locator-results h4 {
     float: left;
     width: 320px;
     margin: 0 0 18px 0;
@@ -2751,13 +2751,13 @@ small {
     text-align: center;
     text-shadow: -1px -1px 0px #333;
   }
-  .content .locator .locator-results .locator-results-content {
+  .page .content .locator .locator-results .locator-results-content {
     float: left;
     width: 280px;
     padding: 0;
     margin: 0 20px;
   }
-  .content .locator .locator-results .locator-results-content .row-container {
+  .page .content .locator .locator-results .locator-results-content .row-container {
     float: left;
     width: 280px;
     background: #fff;
@@ -2765,7 +2765,7 @@ small {
     border-radius: 6px 6px 6px 6px;
     margin: 0 0 12px 0;
   }
-  .content .locator .locator-results .locator-results-content .row-container p {
+  .page .content .locator .locator-results .locator-results-content .row-container p {
     float: left;
     width: 100%;
     font-weight: 600;
@@ -2774,37 +2774,37 @@ small {
     color: #000;
     text-align: center;
   }
-  .content .locator .locator-results .locator-results-content .row-container .pharmacy {
+  .page .content .locator .locator-results .locator-results-content .row-container .pharmacy {
     float: left;
     width: 240px;
     padding: 12px 20px 12px 20px;
     border-bottom: 1px dotted #ccc;
   }
-  .content .locator .locator-results .locator-results-content .row-container .address {
+  .page .content .locator .locator-results .locator-results-content .row-container .address {
     float: left;
     width: 240px;
     padding: 12px 20px 12px 20px;
     border-bottom: 1px dotted #ccc;
   }
-  .content .locator .locator-results .locator-results-content .row-container .phone {
+  .page .content .locator .locator-results .locator-results-content .row-container .phone {
     float: left;
     width: 240px;
     padding: 12px 20px 12px 20px;
   }
-  .content .testimonals-holder {
+  .page .content .testimonals-holder {
     float: left;
     width: 280px;
     padding: 0;
     margin: 0 0 0 20px;
   }
-  .content .testimonals-holder .testimonals {
+  .page .content .testimonals-holder .testimonals {
     float: left;
     width: 280px;
     padding: 0;
     margin: 0 0 30px 0;
     font-size: 0;
   }
-  .content .testimonals-holder .testimonals .testimonal {
+  .page .content .testimonals-holder .testimonals .testimonal {
     display: inline-block;
     vertical-align: top;
     margin: 0 1% 16px 0;
@@ -2820,7 +2820,7 @@ small {
     border-bottom: 4px solid #333;
     border-radius: 6px 6px 6px 6px;
   }
-  .content .testimonals-holder .testimonals .testimonal p {
+  .page .content .testimonals-holder .testimonals .testimonal p {
     float: left;
     width: 100%;
     padding: 0;
@@ -2833,7 +2833,7 @@ small {
     text-align: center;
     text-shadow: none;
   }
-  .content .testimonals-holder .testimonals .testimonal h2 {
+  .page .content .testimonals-holder .testimonals .testimonal h2 {
     float: left;
     width: 100%;
     padding: 0;
@@ -2844,7 +2844,7 @@ small {
     text-align: center;
     text-shadow: none;
   }
-  .content .testimonals-holder .testimonals .testimonal h3 {
+  .page .content .testimonals-holder .testimonals .testimonal h3 {
     float: left;
     width: 100%;
     padding: 0;
@@ -2856,7 +2856,7 @@ small {
     text-align: center;
     text-shadow: none;
   }
-  .content .testimonals-holder .testimonals .testimonal.hide {
+  .page .content .testimonals-holder .testimonals .testimonal.hide {
     display: none;
   }
   .contact-holder {
@@ -3052,6 +3052,215 @@ small {
   .map #map_canvas ui-gmap-google-map,
   .map #map_canvas .angular-google-map-container {
     border-radius: 6px 6px 6px 6px;
+  }
+  .lists {
+    float: left;
+    width: 280px;
+    margin: 0 0 30px 0;
+  }
+  .lists .list {
+    float: left;
+    width: 238px;
+    padding: 20px 20px 16px 20px;
+    margin: 0 0 14px 20px;
+    background: #fffff2 url("../img/squairy.png");
+    border: #000812;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .lists .list .image {
+    float: left;
+    width: 238px;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .lists .list .image .thumb-image {
+    float: left;
+    width: 236px;
+    padding: 0 0 1px 0;
+    margin: 0;
+    min-height: 80px;
+    background: #fff;
+    border: 1px solid #ccc;
+  }
+  .lists .list .information {
+    float: left;
+    width: 238px;
+  }
+  .lists .list .information h3 {
+    float: left;
+    width: 218px;
+    height: 29px;
+    padding: 4px 10px 6px 10px;
+    margin: 0;
+    font-size: 25px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-shadow: -1px -1px 0px #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    border-radius: 0;
+    outline: none;
+    color: #000;
+    font-weight: 400;
+  }
+  .lists .list .information h5 {
+    float: left;
+    width: 238px;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: -1px -1px 0px #fff;
+  }
+  .lists .item {
+    float: left;
+    width: 238px;
+    padding: 20px 20px 0 20px;
+    margin: 0 0 14px 20px;
+    background: #fffff2 url("../img/squairy.png");
+    border: #000812;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .lists .item .image {
+    float: left;
+    width: 238px;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .lists .item .image .tag-holder {
+    position: absolute;
+    width: 218px;
+    margin: 0;
+  }
+  .lists .item .image .tag-holder .tag {
+    float: right;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    margin: 0 6px 0 0;
+    background: #666;
+    border: 1px solid #000;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    cursor: pointer;
+  }
+  .lists .item .image .tag-holder .tag .fa-pencil {
+    float: right;
+    width: 38px;
+    height: 38px;
+    font-size: 21px;
+    line-height: 43px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  }
+  .lists .item .image .tag-holder .tag .file-upload {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .lists .item .image .tag-holder .tag .file-upload input[type='file'] {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+  .lists .item .image .tag-holder .tag.save {
+    background: #8a0d4a;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-cloud {
+    float: right;
+    width: 38px;
+    height: 38px;
+    font-size: 17px;
+    line-height: 43px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  }
+  .lists .item .image .thumb-image {
+    float: left;
+    width: 236px;
+    padding: 0 0 1px 0;
+    margin: 0;
+    min-height: 80px;
+    background: #fff;
+    border: 1px solid #ccc;
+  }
+  .lists .item .information {
+    float: left;
+    width: 238px;
+  }
+  .lists .item .information .h3 {
+    float: left;
+    width: 216px;
+    height: 29px;
+    padding: 4px 10px 4px 10px;
+    margin: 0;
+    font-size: 25px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-shadow: -1px -1px 0px #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    border-radius: 0;
+    outline: none;
+    color: #000;
+    font-weight: 400;
+  }
+  .lists .item .information .h3.disabled {
+    background: #e1e1e1;
+    color: #000;
+  }
+  .lists .item .information h5 {
+    float: left;
+    width: 238px;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: -1px -1px 0px #fff;
+  }
+  .lists .item .information .full {
+    float: left;
+    width: 238px;
+    margin: 0 0 28px 0;
+  }
+  .lists .item .submit {
+    float: left;
+    width: 238px;
+    padding: 12px 0 10px 0;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    border-radius: 4px 4px 4px 4px;
+    background: #8a0d4a;
+    border: 1px solid #000;
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    text-shadow: -1px -1px 0px #000;
+  }
+  .lists .item .submit.disabled {
+    background: #666;
   }
   .modal-holder {
     position: absolute;
@@ -3854,6 +4063,116 @@ small {
     color: #fff;
     text-shadow: -1px -1px 0px #000;
   }
+  .modal_holder {
+    float: left;
+    width: 100%;
+    margin: 10px 0 30px 0;
+  }
+  .modal_holder .modal {
+    position: relative;
+    width: 300px;
+    padding: 0;
+    margin: 0 auto;
+    z-index: 9999;
+  }
+  .modal_holder .modal .square {
+    float: left;
+    width: 258px;
+    padding: 28px 20px 24px 20px;
+    margin: 0;
+    border: 1px solid #000;
+    background: #fffff2 url("../img/squairy.png");
+  }
+  .modal_holder .modal .square h1 {
+    float: left;
+    width: 258px;
+    padding: 0 0 9px 0;
+    margin: 0 0 28px 0;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 39px;
+    border-bottom: 3px solid #666;
+    text-shadow: -1px -1px 0px #fff;
+    text-align: center;
+  }
+  .modal_holder .modal .square .field,
+  .modal_holder .modal .square .field.textarea {
+    float: left;
+    width: 258px;
+    padding: 0;
+    margin: 0 0 36px 0;
+  }
+  .modal_holder .modal .square .field h5,
+  .modal_holder .modal .square .field.textarea h5 {
+    float: left;
+    width: 100%;
+    margin: 0 0 14px 0;
+    font-size: 21px;
+    line-height: 21px;
+    color: #666;
+    text-align: center;
+    text-shadow: -1px -1px 0px #fff;
+  }
+  .modal_holder .modal .square .field input,
+  .modal_holder .modal .square .field.textarea input {
+    float: left;
+    width: 256px;
+    height: 48px;
+    padding: 10px 0 0 0;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid #aaa;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .modal_holder .modal .square .field.end {
+    margin: 0 0 18px 0;
+  }
+  .modal_holder .modal .square .submit {
+    float: left;
+    width: 258px;
+    height: 58px;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 60px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background: #333;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#333));
+    background-image: -webkit-linear-gradient(top, #444, #333);
+    background-image: linear-gradient(to bottom, #444, #333);
+    background-repeat: repeat-x;
+    border-color: rgba(0,0,0,0.5) rgba(0,0,0,0.5) rgba(0,0,0,0.8);
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1), 0 1px 2px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 1px 1px 4px #aaa;
+            box-shadow: 1px 1px 4px #aaa;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: -moz-linear-grad;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .modal_holder .modal .square .submit span.fa-lock {
+    float: none;
+    margin: 0 0 0 10px;
+    font-size: 25px;
+    line-height: 25px;
+    color: #fff;
+    text-shadow: $dark-shadow;
+  }
 }
 @media (min-width: 360px) {
   header {
@@ -4282,6 +4601,114 @@ small {
     width: 333px;
     margin: 0 0 35px 20px;
   }
+  .lists {
+    width: 335px;
+    margin: 0 0 30px 20px;
+  }
+  .lists .list {
+    width: 293px;
+    padding: 20px 20px 18px 20px;
+    margin: 0 0 14px 0;
+  }
+  .lists .list .image {
+    width: 291px;
+    margin: 0 0 20px 0;
+  }
+  .lists .list .image .thumb-image {
+    width: 291px;
+    min-height: 80px;
+  }
+  .lists .list .information {
+    float: left;
+    width: 291px;
+  }
+  .lists .list .information h3 {
+    width: 271px;
+    height: 25px;
+    padding: 4px 10px 10px 10px;
+    margin: 0;
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .lists .list .information h5 {
+    width: 291px;
+    margin: 0 0 12px 0;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .lists .list .information .full {
+    width: 291px;
+    margin: 0 0 28px 0;
+  }
+  .lists .item {
+    width: 293px;
+    padding: 20px 20px 8px 20px;
+    margin: 0 0 14px 0;
+  }
+  .lists .item .image {
+    width: 291px;
+    margin: 0 0 30px 0;
+  }
+  .lists .item .image .tag-holder {
+    width: 271px;
+  }
+  .lists .item .image .tag-holder .tag {
+    width: 38px;
+    height: 38px;
+    margin: 0 6px 0 0;
+  }
+  .lists .item .image .tag-holder .tag .fa-pencil {
+    width: 38px;
+    height: 38px;
+    font-size: 21px;
+    line-height: 39px;
+  }
+  .lists .item .image .tag-holder .tag .file-upload {
+    width: 38px;
+    height: 38px;
+  }
+  .lists .item .image .tag-holder .tag.save {
+    background: #8a0d4a;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-cloud {
+    width: 38px;
+    height: 38px;
+    font-size: 19px;
+    line-height: 39px;
+  }
+  .lists .item .image .thumb-image {
+    width: 291px;
+    min-height: 80px;
+  }
+  .lists .item .information {
+    float: left;
+    width: 291px;
+  }
+  .lists .item .information .h3 {
+    width: 269px;
+    height: 31px;
+    padding: 4px 10px 4px 10px;
+    margin: 0;
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .lists .item .information h5 {
+    width: 291px;
+    margin: 0 0 12px 0;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .lists .item .information .full {
+    width: 291px;
+    margin: 0 0 28px 0;
+  }
+  .lists .item .submit {
+    width: 289px;
+    padding: 12px 0 10px 0;
+    margin: 0 0 20px 0;
+    font-size: 26px;
+    line-height: 26px;
+  }
   .modal-holder {
     width: 340px;
     margin: 0 0 0 -170px;
@@ -4632,6 +5059,56 @@ small {
     font-size: 27px;
     line-height: 27px;
   }
+  .modal_holder {
+    margin: 10px 0 30px 0;
+  }
+  .modal_holder .modal {
+    width: 300px;
+  }
+  .modal_holder .modal .square {
+    width: 258px;
+    padding: 28px 20px 24px 20px;
+  }
+  .modal_holder .modal .square h1 {
+    width: 258px;
+    padding: 0 0 8px 0;
+    margin: 0 0 28px 0;
+    font-size: 37px;
+    line-height: 37px;
+  }
+  .modal_holder .modal .square .field,
+  .modal_holder .modal .square .field.textarea {
+    width: 258px;
+    margin: 0 0 32px 0;
+  }
+  .modal_holder .modal .square .field h5,
+  .modal_holder .modal .square .field.textarea h5 {
+    margin: 0 0 14px 0;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .modal_holder .modal .square .field input,
+  .modal_holder .modal .square .field.textarea input {
+    width: 256px;
+    height: 48px;
+    padding: 10px 0 0 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .modal_holder .modal .square .field.end {
+    margin: 0 0 18px 0;
+  }
+  .modal_holder .modal .square .submit {
+    width: 258px;
+    height: 54px;
+    font-size: 27px;
+    line-height: 56px;
+  }
+  .modal_holder .modal .square .submit span.fa-lock {
+    margin: 0 0 0 10px;
+    font-size: 22px;
+    line-height: 22px;
+  }
 }
 @media (min-width: 480px) {
   header {
@@ -4645,7 +5122,7 @@ small {
   }
   header .header .brand .logo {
     width: 270px;
-    margin: 6px 0 20px 75px;
+    margin: 6px 0 20px 80px;
   }
   header .header .brand .mobile-navigation {
     width: 300px;
@@ -5055,6 +5532,112 @@ small {
     height: 280px;
     margin: 0 0 40px 40px;
   }
+  .lists {
+    width: 400px;
+    margin: 0 0 30px 40px;
+  }
+  .lists .list {
+    width: 338px;
+    padding: 20px 30px 18px 30px;
+    margin: 0 0 14px 0;
+  }
+  .lists .list .image {
+    width: 338px;
+    margin: 0 0 30px 0;
+  }
+  .lists .list .image .thumb-image {
+    width: 336px;
+    min-height: 80px;
+  }
+  .lists .list .information {
+    width: 338px;
+  }
+  .lists .list .information h3 {
+    width: 316px;
+    height: 33px;
+    padding: 4px 10px 5px 10px;
+    margin: 0;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .lists .list .information h5 {
+    width: 338px;
+    margin: 0 0 12px 0;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .lists .list .information .full {
+    width: 338px;
+    margin: 0 0 18px 0;
+  }
+  .lists .item {
+    width: 338px;
+    padding: 20px 30px 8px 30px;
+    margin: 0 0 14px 0;
+  }
+  .lists .item .image {
+    width: 338px;
+    margin: 0 0 30px 0;
+  }
+  .lists .item .image .tag-holder {
+    width: 338px;
+  }
+  .lists .item .image .tag-holder .tag {
+    width: 42px;
+    height: 42px;
+    margin: 0 6px 0 0;
+  }
+  .lists .item .image .tag-holder .tag .fa-pencil {
+    width: 42px;
+    height: 42px;
+    font-size: 21px;
+    line-height: 43px;
+  }
+  .lists .item .image .tag-holder .tag .file-upload {
+    width: 42px;
+    height: 42px;
+  }
+  .lists .item .image .tag-holder .tag.save {
+    background: #8a0d4a;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-cloud {
+    width: 42px;
+    height: 42px;
+    font-size: 19px;
+    line-height: 43px;
+  }
+  .lists .item .image .thumb-image {
+    width: 336px;
+    min-height: 80px;
+  }
+  .lists .item .information {
+    width: 338px;
+  }
+  .lists .item .information .h3 {
+    width: 316px;
+    height: 33px;
+    padding: 4px 10px 4px 10px;
+    margin: 0;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .lists .item .information h5 {
+    width: 338px;
+    margin: 0 0 12px 0;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .lists .item .information .full {
+    width: 338px;
+    margin: 0 0 28px 0;
+  }
+  .lists .item .submit {
+    width: 336px;
+    padding: 12px 0 10px 0;
+    margin: 0 0 20px 0;
+    font-size: 27px;
+    line-height: 27px;
+  }
   .modal-holder {
     width: 360px;
     margin: 0 0 0 -180px;
@@ -5423,6 +6006,56 @@ small {
     width: 178px;
     font-size: 27px;
     line-height: 27px;
+  }
+  .modal_holder {
+    margin: 10px 0 30px 0;
+  }
+  .modal_holder .modal {
+    width: 340px;
+  }
+  .modal_holder .modal .square {
+    width: 298px;
+    padding: 28px 20px 24px 20px;
+  }
+  .modal_holder .modal .square h1 {
+    width: 298px;
+    padding: 0 0 8px 0;
+    margin: 0 0 34px 0;
+    font-size: 39px;
+    line-height: 39px;
+  }
+  .modal_holder .modal .square .field,
+  .modal_holder .modal .square .field.textarea {
+    width: 298px;
+    margin: 0 0 32px 0;
+  }
+  .modal_holder .modal .square .field h5,
+  .modal_holder .modal .square .field.textarea h5 {
+    margin: 0 0 14px 0;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .modal_holder .modal .square .field input,
+  .modal_holder .modal .square .field.textarea input {
+    width: 296px;
+    height: 48px;
+    padding: 10px 0 0 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .modal_holder .modal .square .field.end {
+    margin: 0 0 18px 0;
+  }
+  .modal_holder .modal .square .submit {
+    width: 298px;
+    height: 54px;
+    font-size: 26px;
+    line-height: 56px;
+  }
+  .modal_holder .modal .square .submit span.fa-lock {
+    margin: 0 0 0 10px;
+    font-size: 22px;
+    line-height: 22px;
   }
 }
 @media (min-width: 560px) {
@@ -5836,6 +6469,114 @@ small {
     height: 280px;
     margin: 0 0 40px 80px;
   }
+  .lists {
+    width: 520px;
+    margin: 0 0 30px 60px;
+  }
+  .lists .list {
+    width: 438px;
+    padding: 20px 40px 24px 40px;
+    margin: 0 0 14px 0;
+  }
+  .lists .list .image {
+    width: 438px;
+    margin: 0 0 30px 0;
+  }
+  .lists .list .image .thumb-image {
+    width: 436px;
+    min-height: 80px;
+  }
+  .lists .list .information {
+    width: 438px;
+  }
+  .lists .list .information h3,
+  .lists .list .information .h3 {
+    width: 416px;
+    height: 36px;
+    padding: 4px 10px 8px 10px;
+    font-size: 31px;
+    line-height: 36px;
+  }
+  .lists .list .information h3 {
+    padding: 4px 10px 6px 10px;
+  }
+  .lists .list .information h5 {
+    width: 438px;
+    margin: 0 0 14px 0;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .lists .list .information .full {
+    width: 438px;
+    margin: 0 0 28px 0;
+  }
+  .lists .item {
+    width: 438px;
+    padding: 30px 40px 14px 40px;
+    margin: 0 0 14px 0;
+  }
+  .lists .item .image {
+    width: 438px;
+    margin: 0 0 38px 0;
+  }
+  .lists .item .image .tag-holder {
+    width: 408px;
+  }
+  .lists .item .image .tag-holder .tag {
+    width: 44px;
+    height: 44px;
+    margin: 0 6px 0 0;
+  }
+  .lists .item .image .tag-holder .tag .fa-pencil {
+    width: 44px;
+    height: 44px;
+    font-size: 21px;
+    line-height: 45px;
+  }
+  .lists .item .image .tag-holder .tag .file-upload {
+    width: 44px;
+    height: 44px;
+  }
+  .lists .item .image .tag-holder .tag.save {
+    background: #8a0d4a;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-cloud {
+    width: 44px;
+    height: 44px;
+    font-size: 19px;
+    line-height: 45px;
+  }
+  .lists .item .image .thumb-image {
+    width: 436px;
+    min-height: 80px;
+  }
+  .lists .item .information {
+    width: 438px;
+  }
+  .lists .item .information .h3 {
+    width: 416px;
+    height: 36px;
+    padding: 4px 10px 4px 10px;
+    font-size: 31px;
+    line-height: 36px;
+  }
+  .lists .item .information h5 {
+    width: 438px;
+    margin: 0 0 12px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .lists .item .information .full {
+    width: 438px;
+    margin: 0 0 34px 0;
+  }
+  .lists .item .submit {
+    width: 436px;
+    padding: 12px 0 10px 0;
+    margin: 0 0 20px 0;
+    font-size: 28px;
+    line-height: 28px;
+  }
   .modal-holder {
     width: 400px;
     margin: 0 0 0 -200px;
@@ -6182,6 +6923,56 @@ small {
     width: 178px;
     font-size: 27px;
     line-height: 27px;
+  }
+  .modal_holder {
+    margin: 10px 0 30px 0;
+  }
+  .modal_holder .modal {
+    width: 340px;
+  }
+  .modal_holder .modal .square {
+    width: 298px;
+    padding: 28px 20px 24px 20px;
+  }
+  .modal_holder .modal .square h1 {
+    width: 298px;
+    padding: 0 0 7px 0;
+    margin: 0 0 34px 0;
+    font-size: 39px;
+    line-height: 39px;
+  }
+  .modal_holder .modal .square .field,
+  .modal_holder .modal .square .field.textarea {
+    width: 298px;
+    margin: 0 0 32px 0;
+  }
+  .modal_holder .modal .square .field h5,
+  .modal_holder .modal .square .field.textarea h5 {
+    margin: 0 0 14px 0;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .modal_holder .modal .square .field input,
+  .modal_holder .modal .square .field.textarea input {
+    width: 296px;
+    height: 48px;
+    padding: 10px 0 0 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .modal_holder .modal .square .field.end {
+    margin: 0 0 18px 0;
+  }
+  .modal_holder .modal .square .submit {
+    width: 298px;
+    height: 54px;
+    font-size: 26px;
+    line-height: 56px;
+  }
+  .modal_holder .modal .square .submit span.fa-lock {
+    margin: 0 0 0 10px;
+    font-size: 22px;
+    line-height: 22px;
   }
 }
 @media (min-width: 768px) {
@@ -6637,6 +7428,106 @@ small {
     height: 750px;
     margin: 0 0 40px 0;
   }
+  .lists {
+    width: 738px;
+    margin: 0 0 30px 30px;
+  }
+  .lists .list {
+    width: 304px;
+    padding: 30px 20px 20px 20px;
+    margin: 0 20px 24px 0;
+  }
+  .lists .list .image {
+    width: 304px;
+    margin: 0 0 32px 0;
+  }
+  .lists .list .image .thumb-image {
+    width: 302px;
+    min-height: 80px;
+  }
+  .lists .list .information {
+    width: 304px;
+  }
+  .lists .list .information h3 {
+    width: 284px;
+    height: 35px;
+    padding: 4px 10px 4px 10px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .lists .list .information h5 {
+    width: 304px;
+    margin: 0 0 12px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .lists .item {
+    width: 628px;
+    padding: 30px 40px 10px 40px;
+    margin: 0 20px 24px 0;
+  }
+  .lists .item .image {
+    width: 628px;
+    margin: 0 0 38px 0;
+  }
+  .lists .item .image .tag-holder {
+    width: 588px;
+  }
+  .lists .item .image .tag-holder .tag {
+    width: 50px;
+    height: 50px;
+    margin: 0 6px 0 0;
+  }
+  .lists .item .image .tag-holder .tag .fa-pencil {
+    width: 50px;
+    height: 50px;
+    font-size: 23px;
+    line-height: 54px;
+  }
+  .lists .item .image .tag-holder .tag .file-upload {
+    width: 50px;
+    height: 50px;
+  }
+  .lists .item .image .tag-holder .tag.save {
+    background: #8a0d4a;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-cloud {
+    width: 50px;
+    height: 50px;
+    font-size: 21px;
+    line-height: 54px;
+  }
+  .lists .item .image .thumb-image {
+    width: 626px;
+    min-height: 80px;
+  }
+  .lists .item .information {
+    width: 628px;
+  }
+  .lists .item .information .h3 {
+    width: 586px;
+    height: 35px;
+    padding: 8px 20px 10px 20px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .lists .item .information h5 {
+    width: 628px;
+    margin: 0 0 12px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .lists .item .information .full {
+    width: 628px;
+    margin: 0 0 38px 0;
+  }
+  .lists .item .submit {
+    width: 626px;
+    padding: 16px 0 14px 0;
+    margin: 0 0 30px 0;
+    font-size: 31px;
+    line-height: 31px;
+  }
   .modal-holder {
     width: 400px;
     margin: 0 0 0 -200px;
@@ -6911,6 +7802,56 @@ small {
     font-size: 21px;
     line-height: 35px;
     margin: 0 0 14px 0;
+  }
+  .modal_holder {
+    margin: 30px 0 0 0;
+  }
+  .modal_holder .modal {
+    width: 380px;
+  }
+  .modal_holder .modal .square {
+    width: 338px;
+    padding: 28px 20px 24px 20px;
+  }
+  .modal_holder .modal .square h1 {
+    width: 338px;
+    padding: 0 0 7px 0;
+    margin: 0 0 28px 0;
+    font-size: 41px;
+    line-height: 41px;
+  }
+  .modal_holder .modal .square .field,
+  .modal_holder .modal .square .field.textarea {
+    width: 338px;
+    margin: 0 0 32px 0;
+  }
+  .modal_holder .modal .square .field h5,
+  .modal_holder .modal .square .field.textarea h5 {
+    margin: 0 0 14px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .modal_holder .modal .square .field input,
+  .modal_holder .modal .square .field.textarea input {
+    width: 336px;
+    height: 48px;
+    padding: 12px 0 0 0;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .modal_holder .modal .square .field.end {
+    margin: 0 0 18px 0;
+  }
+  .modal_holder .modal .square .submit {
+    width: 338px;
+    height: 58px;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .modal_holder .modal .square .submit span.fa-lock {
+    margin: 0 0 0 10px;
+    font-size: 25px;
+    line-height: 25px;
   }
 }
 @media (min-width: 900px) {
@@ -7366,6 +8307,108 @@ small {
     height: 820px;
     margin: 0 0 40px 0;
   }
+  .lists {
+    width: 1020px;
+    margin: 0 0 30px 0;
+  }
+  .lists .list {
+    width: 428px;
+    padding: 30px 30px 10px 30px;
+    margin: 0 20px 14px 0;
+  }
+  .lists .list .image {
+    width: 428px;
+    margin: 0 0 26px 0;
+  }
+  .lists .list .image .thumb-image {
+    width: 428px;
+    min-height: 80px;
+  }
+  .lists .list .information {
+    width: 428px;
+  }
+  .lists .list .information h3 {
+    width: 408px;
+    height: 42px;
+    padding: 4px 10px 4px 10px;
+    margin: 0 0 14px 0;
+    font-size: 37px;
+    line-height: 42px;
+  }
+  .lists .list .information h5 {
+    width: 428px;
+    margin: 0 0 12px 0;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .lists .item {
+    width: 938px;
+    padding: 30px 20px 10px 40px;
+    margin: 0 20px 14px 0;
+  }
+  .lists .item .image {
+    width: 918px;
+    margin: 0 0 46px 0;
+  }
+  .lists .item .image .tag-holder {
+    width: 868px;
+  }
+  .lists .item .image .tag-holder .tag {
+    width: 48px;
+    height: 48px;
+    margin: 0 6px 0 0;
+  }
+  .lists .item .image .tag-holder .tag .fa-pencil {
+    width: 48px;
+    height: 48px;
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .lists .item .image .tag-holder .tag .file-upload {
+    width: 48px;
+    height: 48px;
+  }
+  .lists .item .image .tag-holder .tag.save {
+    background: #8a0d4a;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-cloud {
+    width: 48px;
+    height: 48px;
+    font-size: 21px;
+    line-height: 50px;
+  }
+  .lists .item .image .thumb-image {
+    width: 916px;
+    min-height: 80px;
+  }
+  .lists .item .information {
+    width: 938px;
+  }
+  .lists .item .information .h3 {
+    width: 426px;
+    height: 42px;
+    padding: 4px 10px 4px 10px;
+    margin: 0;
+    font-size: 37px;
+    line-height: 42px;
+  }
+  .lists .item .information h5 {
+    width: 448px;
+    margin: 0 0 14px 0;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .lists .item .information .full {
+    width: 448px;
+    margin: 0 20px 48px 0;
+  }
+  .lists .item .submit {
+    width: 916px;
+    padding: 16px 0 14px 0;
+    margin: 0 0 30px 0;
+    font-size: 33px;
+    line-height: 33px;
+  }
   .modal-holder {
     width: 400px;
     margin: 0 0 0 -200px;
@@ -7657,6 +8700,56 @@ small {
     font-size: 21px;
     line-height: 35px;
     margin: 0 0 14px 0;
+  }
+  .modal_holder {
+    margin: 30px 0 0 0;
+  }
+  .modal_holder .modal {
+    width: 380px;
+  }
+  .modal_holder .modal .square {
+    width: 338px;
+    padding: 28px 20px 24px 20px;
+  }
+  .modal_holder .modal .square h1 {
+    width: 338px;
+    padding: 0 0 7px 0;
+    margin: 0 0 28px 0;
+    font-size: 41px;
+    line-height: 41px;
+  }
+  .modal_holder .modal .square .field,
+  .modal_holder .modal .square .field.textarea {
+    width: 338px;
+    margin: 0 0 32px 0;
+  }
+  .modal_holder .modal .square .field h5,
+  .modal_holder .modal .square .field.textarea h5 {
+    margin: 0 0 14px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .modal_holder .modal .square .field input,
+  .modal_holder .modal .square .field.textarea input {
+    width: 336px;
+    height: 48px;
+    padding: 12px 0 0 0;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .modal_holder .modal .square .field.end {
+    margin: 0 0 18px 0;
+  }
+  .modal_holder .modal .square .submit {
+    width: 338px;
+    height: 58px;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .modal_holder .modal .square .submit span.fa-lock {
+    margin: 0 0 0 10px;
+    font-size: 25px;
+    line-height: 25px;
   }
 }
 @media (min-width: 1100px) {
@@ -8191,6 +9284,108 @@ small {
     height: 830px;
     margin: 0 0 40px 0;
   }
+  .lists {
+    width: 1020px;
+    margin: 0 0 30px 0;
+  }
+  .lists .list {
+    width: 428px;
+    padding: 26px 30px 10px 30px;
+    margin: 0 20px 14px 0;
+  }
+  .lists .list .image {
+    width: 428px;
+    margin: 0 0 26px 0;
+  }
+  .lists .list .image .thumb-image {
+    width: 428px;
+    min-height: 80px;
+  }
+  .lists .list .information {
+    width: 428px;
+  }
+  .lists .list .information h3 {
+    width: 408px;
+    height: 33px;
+    padding: 4px 10px 8px 10px;
+    margin: 0 0 14px 0;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .lists .list .information h5 {
+    width: 428px;
+    margin: 0 0 12px 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .lists .item {
+    width: 938px;
+    padding: 30px 20px 10px 40px;
+    margin: 0 20px 14px 0;
+  }
+  .lists .item .image {
+    width: 918px;
+    margin: 0 0 46px 0;
+  }
+  .lists .item .image .tag-holder {
+    width: 868px;
+  }
+  .lists .item .image .tag-holder .tag {
+    width: 48px;
+    height: 48px;
+    margin: 0 6px 0 0;
+  }
+  .lists .item .image .tag-holder .tag .fa-pencil {
+    width: 48px;
+    height: 48px;
+    font-size: 25px;
+    line-height: 50px;
+  }
+  .lists .item .image .tag-holder .tag .file-upload {
+    width: 48px;
+    height: 48px;
+  }
+  .lists .item .image .tag-holder .tag.save {
+    background: #8a0d4a;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-cloud {
+    width: 48px;
+    height: 48px;
+    font-size: 21px;
+    line-height: 50px;
+  }
+  .lists .item .image .thumb-image {
+    width: 916px;
+    min-height: 80px;
+  }
+  .lists .item .information {
+    width: 938px;
+  }
+  .lists .item .information .h3 {
+    width: 426px;
+    height: 33px;
+    padding: 4px 10px 4px 10px;
+    margin: 0;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .lists .item .information h5 {
+    width: 448px;
+    margin: 0 0 14px 0;
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .lists .item .information .full {
+    width: 448px;
+    margin: 0 20px 38px 0;
+  }
+  .lists .item .submit {
+    width: 916px;
+    padding: 16px 0 14px 0;
+    margin: 0 0 30px 0;
+    font-size: 29px;
+    line-height: 29px;
+  }
   .modal-holder {
     width: 380px;
     margin: 0 0 0 -190px;
@@ -8404,6 +9599,56 @@ small {
     font-size: 21px;
     line-height: 35px;
     margin: 0 0 14px 0;
+  }
+  .modal_holder {
+    margin: 30px 0 0 0;
+  }
+  .modal_holder .modal {
+    width: 380px;
+  }
+  .modal_holder .modal .square {
+    width: 338px;
+    padding: 28px 20px 24px 20px;
+  }
+  .modal_holder .modal .square h1 {
+    width: 338px;
+    padding: 0 0 7px 0;
+    margin: 0 0 28px 0;
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .modal_holder .modal .square .field,
+  .modal_holder .modal .square .field.textarea {
+    width: 338px;
+    margin: 0 0 32px 0;
+  }
+  .modal_holder .modal .square .field h5,
+  .modal_holder .modal .square .field.textarea h5 {
+    margin: 0 0 14px 0;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .modal_holder .modal .square .field input,
+  .modal_holder .modal .square .field.textarea input {
+    width: 336px;
+    height: 48px;
+    padding: 10px 0 0 0;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .modal_holder .modal .square .field.end {
+    margin: 0 0 18px 0;
+  }
+  .modal_holder .modal .square .submit {
+    width: 338px;
+    height: 58px;
+    font-size: 28px;
+    line-height: 59px;
+  }
+  .modal_holder .modal .square .submit span.fa-lock {
+    margin: 0 0 0 10px;
+    font-size: 23px;
+    line-height: 23px;
   }
 }
 @media print {

@@ -49,6 +49,8 @@ module.exports = function (grunt) {
                         'client/js/vendor/angular-file-saver/dist/angular-file-saver.bundle.js',
                         'client/js/vendor/angular-material/angular-material.js',
                         'client/js/vendor/angular-aria/angular-aria.js',
+                        'client/js/vendor/ngMeta/dist/ngMeta.js',
+                        'client/js/vendor/satellizer/satellizer.js',
                         'client/js/app/app.module.js',
                         'client/js/app/app.config.js',
                         'client/js/app/app.routes.js',
@@ -210,7 +212,7 @@ module.exports = function (grunt) {
     grunt.registerTask('client', [
         'concurrent:frontend',
         'autoprefixer',
-        'uglify',
+        // 'uglify',
         // 'usebanner',
     ]);
     grunt.registerTask('server', [

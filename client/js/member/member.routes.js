@@ -5,19 +5,6 @@
         $locationProvider.html5Mode(true);
 
         $stateProvider
-            .state('member', {
-                url: '/nrx/:id',
-                abstract: true,            
-                views: {
-                    'header@': {
-                        templateUrl: 'header/header-member.html',
-                        controller: 'CommonController',
-                    },
-                     'footer@': {
-                        templateUrl: 'footer/footer-member.html',
-                    },
-                }
-            })        
             .state('member.view', {
                 meta: {
                     title: '',
@@ -27,12 +14,12 @@
                 views: {
                     'page@': {
                         templateUrl: 'member/member.view.html',
-                        resolve: {
-                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
-                                var ItemId = $stateParams.id;
-                                return member.show({id: ItemId}).$promise;
-                            }],
-                        },
+                        // resolve: {
+                        //     accountResolve: ['$stateParams', 'account', function($stateParams, account) {
+                        //         var ItemId = $stateParams.id;
+                        //         return account.show({id: ItemId}).$promise;
+                        //     }],
+                        // },
                         controller: 'View',
                     }
                 }
@@ -43,11 +30,11 @@
                     'modal@': {
                         templateUrl: 'modal/modal.text.modal.html',
                         resolve: {
-                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                            accountResolve: ['$stateParams', 'account', function($stateParams, account) {
                                 var ItemId = $stateParams.id;
-                                return member.show({id: ItemId}).$promise;
+                                return account.show({id: ItemId}).$promise;
                             }],
-                        },                        
+                        },
                         controller: 'MemberTextModal'
                     },
                 },
@@ -58,11 +45,11 @@
                     'modal@': {
                         templateUrl: 'modal/modal.email.modal.html',
                         resolve: {
-                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                            accountResolve: ['$stateParams', 'account', function($stateParams, account) {
                                 var ItemId = $stateParams.id;
-                                return member.show({id: ItemId}).$promise;
+                                return account.show({id: ItemId}).$promise;
                             }],
-                        },                        
+                        },
                         controller: 'MemberEmailModal'
                     },
                 },
@@ -73,11 +60,11 @@
                     'modal@': {
                         templateUrl: 'modal/modal.save.modal.html',
                         resolve: {
-                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                            accountResolve: ['$stateParams', 'account', function($stateParams, account) {
                                 var ItemId = $stateParams.id;
-                                return member.show({id: ItemId}).$promise;
+                                return account.show({id: ItemId}).$promise;
                             }],
-                        },                        
+                        },
                         controller: 'MemberSaveModal'
                     },
                 },
@@ -88,11 +75,11 @@
                     'modal@': {
                         templateUrl: 'modal/modal.print.modal.html',
                         resolve: {
-                            memberResolve: ['$stateParams', 'member', function($stateParams, member) {
+                            accountResolve: ['$stateParams', 'account', function($stateParams, account) {
                                 var ItemId = $stateParams.id;
-                                return member.show({id: ItemId}).$promise;
+                                return account.show({id: ItemId}).$promise;
                             }],
-                        },                        
+                        },
                         controller: 'MemberPrintModal'
                     },
                 },
@@ -122,7 +109,7 @@
                         controller: 'About',
                     },
                 }
-            });                                        
+            });
     }
 
     angular

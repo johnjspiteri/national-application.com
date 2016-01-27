@@ -1,0 +1,40 @@
+.page
+    .content
+        .lists
+            form.item(name='form', id='item', data-ng-model='item', data-ng-submit='addItem(form.$valid)', novalidate)
+                .image
+                    .tag-holder
+                        .tag
+                            .fa.fa-pencil
+                            label.file-upload
+                                input(type='file', data-ng-model='item.image', accept='image/*', base-sixty-four-input)
+                    .thumb-image
+                        img(ng-src='data:{{item.image.filetype}};base64,{{item.image.base64}}')
+
+                .information
+                    .full
+                        h5 Organization
+                        textarea.h3(data-ng-model='item.organization', msd-elastic='', required)
+                    .full
+                        h5 Email Address
+                        textarea.h3(data-ng-model='item.email', msd-elastic='', required)
+                    .full
+                        h5 Application URL
+                        textarea.h3(data-ng-model='url', data-ng-disabled='readOnly', msd-elastic='')
+                    .full
+                        h5 File URL
+                        textarea.h3(data-ng-model='item.file_url', msd-elastic='', required)
+                    .full
+                        h5 BIN Number
+                        textarea.h3(data-ng-model='item.plan.bin', msd-elastic='', required)
+                    .full
+                        h5 PCN Number
+                        textarea.h3(data-ng-model='item.plan.pcn', msd-elastic='', required)
+                    .full
+                        h5 Group Number
+                        textarea.h3(data-ng-model='item.plan.group', msd-elastic='', required)
+                    .full
+                        h5 Patient ID
+                        textarea.h3(data-ng-model='item.plan.patient_id', msd-elastic='', required)
+
+                button.submit(type="submit", ng-disabled="form.$invalid", ng-class="{'disabled': form.$invalid}") Add Account

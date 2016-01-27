@@ -1,0 +1,18 @@
+.page
+    .content
+        .filter-holder
+            .filter-container
+                select(type="text", data-ng-model='dropdown')
+                    option(value='') Category
+                input(type="text", data-ng-model='textFilter', placeholder='Enter Search')
+                .reset(data-ng-click='reset();')
+                    span.fa.fa-times
+
+        .lists
+            .list(ng-repeat='item in items | filter: {organization: textFilter}', ui-sref='backend.edit({id:item.clean})')
+                .image
+                    .thumb-image
+                        img(ng-src='data:{{item.image.filetype}};base64,{{item.image.base64}}')
+                .information
+                    h5 Organization
+                    h3(data-ng-bind='item.organization')

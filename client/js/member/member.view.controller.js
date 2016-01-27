@@ -1,9 +1,10 @@
 (function() {
     'use strict';
 
-    function View ($document, $scope, $state, memberResolve) {
+    function View ($document, $scope, $state, accountResolve) {
 
-        $scope.member = memberResolve;
+        $scope.member = accountResolve;
+        console.log($scope.member);
 
         $scope.toTheTop = function() {
             $document.scrollTopAnimated(0);
@@ -32,6 +33,6 @@
         .module('app.member')
         .controller('View', View);
 
-    View.$inject = ['$document', '$scope', '$state', 'memberResolve'];
+    View.$inject = ['$document', '$scope', '$state', 'accountResolve'];
 
 })();
