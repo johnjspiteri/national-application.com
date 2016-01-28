@@ -1,11 +1,11 @@
 header
     .header
-        .brand
+        .brand(data-ng-class="{'rectangle': member.imageState}")
             .logo
                 img(ng-src='data:{{member.image.filetype}};base64,{{member.image.base64}}')
             .mobile-navigation(data-ng-click="openMemberdNavigation();")
                 h5 Navigation
-        nav.member
+        nav(data-ng-class="{'rectangle': member.imageState}")
             .tile.last(ui-sref='member.testimonial', data-ng-class="{active: $state.includes('member.testimonial')}")
                 h4 Client<br>Testimonials
             .tile(ui-sref='member.question', data-ng-class="{active: $state.includes('member.question')}")

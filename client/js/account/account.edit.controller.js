@@ -16,6 +16,12 @@
             });
             $scope.new = null;
         };
+        $scope.updateImageState = function () {
+            $scope.item.imageState = !$scope.item.imageState;
+            account.update({id:$scope.item._id}, {
+                'imageState': $scope.item.imageState
+            });
+        };
         $scope.updateOrganization = function () {
             account.update({id:$scope.item._id}, {
                 'organization': $scope.item.organization

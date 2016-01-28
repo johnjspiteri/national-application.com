@@ -4,6 +4,8 @@
             .item
                 .image
                     .tag-holder
+                        .tag(data-ng-click='updateImageState();', data-ng-class="{'save': item.imageState}")
+                            .fa.fa-arrows-h
                         .tag.save(data-ng-click='saveImage(new)', data-ng-show='new.filetype')
                             .fa.fa-cloud
                         .tag

@@ -1,6 +1,7 @@
 {
     "clean": "national-rx",
     "image": "",
+    "imageState": false,
     "plan": {
         "bin": "018398",
         "pcn": "48300712",
@@ -14,6 +15,7 @@
 {
     "clean": "best-deals-4-moms",
     "image": "",
+    "imageState": false,
     "plan": {
         "bin": "018398",
         "pcn": "48300712",

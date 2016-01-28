@@ -4,7 +4,10 @@
     function HeaderMember ($scope, $mdSidenav, accountResolve) {
 
         $scope.display = false;
+
         $scope.member = accountResolve;
+        console.log($scope.member);
+
         $scope.openMemberdNavigation = function () {
             $scope.display = true;
             $mdSidenav('memberNavigationPanel').open();

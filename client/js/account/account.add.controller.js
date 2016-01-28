@@ -28,6 +28,7 @@
             account.create({
                 clean: $scope.item.clean,
                 image: $scope.item.image,
+                imageState: $scope.item.imageState,
                 plan: {
                     bin: $scope.item.plan.bin,
                     pcn: $scope.item.plan.pcn,

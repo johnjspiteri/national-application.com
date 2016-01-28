@@ -7,6 +7,7 @@
     var AccountSchema = new Schema({
         clean: String,
         image: Object,
+        imageState: Boolean,
         plan: {
             bin: String,
             pcn: String,

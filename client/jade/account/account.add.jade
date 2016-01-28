@@ -4,6 +4,8 @@
             form.item(name='form', id='item', data-ng-model='item', data-ng-submit='addItem(form.$valid)', novalidate)
                 .image
                     .tag-holder
+                        .tag(data-ng-click='updateImageState();', data-ng-class="{'save': item.imageState}")
+                            .fa.fa-arrows-h
                         .tag
                             .fa.fa-pencil
                             label.file-upload

@@ -4,7 +4,6 @@
     function View ($document, $scope, $state, accountResolve) {
 
         $scope.member = accountResolve;
-        console.log($scope.member);
 
         $scope.toTheTop = function() {
             $document.scrollTopAnimated(0);

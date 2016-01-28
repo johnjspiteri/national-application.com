@@ -3145,12 +3145,24 @@ small {
     -webkit-box-shadow: none;
             box-shadow: none;
     cursor: pointer;
+    outline: none;
   }
   .lists .item .image .tag-holder .tag .fa-pencil {
     float: right;
     width: 38px;
     height: 38px;
     font-size: 21px;
+    line-height: 43px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  }
+  .lists .item .image .tag-holder .tag .fa-arrows-h {
+    float: right;
+    width: 38px;
+    height: 38px;
+    font-size: 23px;
     line-height: 43px;
     color: #fff;
     border: none;
@@ -3180,6 +3192,17 @@ small {
     width: 38px;
     height: 38px;
     font-size: 17px;
+    line-height: 43px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  }
+  .lists .item .image .tag-holder .tag.save .fa-arrows-h {
+    float: right;
+    width: 38px;
+    height: 38px;
+    font-size: 23px;
     line-height: 43px;
     color: #fff;
     border: none;
@@ -3573,7 +3596,6 @@ small {
     background: #fffff2 url("../img/squairy.png");
     border-top: none;
     border-bottom: 4px solid #333;
-    border-radius: 4px 4px 4px 4px;
     overflow: hidden;
   }
   .card-discount img {
@@ -3583,7 +3605,6 @@ small {
     background: none;
     padding: 0;
     margin: 0;
-    border-radius: 4px 4px 4px 4px;
   }
   .card-member {
     float: left;
@@ -4674,6 +4695,12 @@ small {
     font-size: 21px;
     line-height: 39px;
   }
+  .lists .item .image .tag-holder .tag .fa-arrows-h {
+    width: 38px;
+    height: 38px;
+    font-size: 23px;
+    line-height: 41px;
+  }
   .lists .item .image .tag-holder .tag .file-upload {
     width: 38px;
     height: 38px;
@@ -4686,6 +4713,12 @@ small {
     height: 38px;
     font-size: 19px;
     line-height: 39px;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-arrows-h {
+    width: 38px;
+    height: 38px;
+    font-size: 23px;
+    line-height: 41px;
   }
   .lists .item .image .thumb-image {
     width: 291px;
@@ -5599,7 +5632,7 @@ small {
     margin: 0 0 30px 0;
   }
   .lists .item .image .tag-holder {
-    width: 338px;
+    width: 318px;
   }
   .lists .item .image .tag-holder .tag {
     width: 42px;
@@ -5611,6 +5644,12 @@ small {
     height: 42px;
     font-size: 21px;
     line-height: 43px;
+  }
+  .lists .item .image .tag-holder .tag .fa-arrows-h {
+    width: 42px;
+    height: 42px;
+    font-size: 25px;
+    line-height: 45px;
   }
   .lists .item .image .tag-holder .tag .file-upload {
     width: 42px;
@@ -5624,6 +5663,12 @@ small {
     height: 42px;
     font-size: 19px;
     line-height: 43px;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-arrows-h {
+    width: 42px;
+    height: 42px;
+    font-size: 25px;
+    line-height: 45px;
   }
   .lists .item .image .thumb-image {
     width: 336px;
@@ -6560,6 +6605,12 @@ small {
     font-size: 21px;
     line-height: 45px;
   }
+  .lists .item .image .tag-holder .tag .fa-arrows-h {
+    width: 44px;
+    height: 44px;
+    font-size: 25px;
+    line-height: 47px;
+  }
   .lists .item .image .tag-holder .tag .file-upload {
     width: 44px;
     height: 44px;
@@ -6572,6 +6623,12 @@ small {
     height: 44px;
     font-size: 19px;
     line-height: 45px;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-arrows-h {
+    width: 44px;
+    height: 44px;
+    font-size: 25px;
+    line-height: 47px;
   }
   .lists .item .image .thumb-image {
     width: 436px;
@@ -7031,6 +7088,14 @@ small {
   header .header .brand .mobile-navigation h5 {
     font-size: 25px;
     line-height: 25px;
+  }
+  header .header .brand.rectangle {
+    width: 688px;
+    margin: 0 0 0 30px;
+  }
+  header .header .brand.rectangle .logo {
+    width: 388px;
+    margin: 22px 50px 0 10px;
   }
   header .header .brand.member {
     width: 768px;
@@ -7493,6 +7558,12 @@ small {
     font-size: 23px;
     line-height: 54px;
   }
+  .lists .item .image .tag-holder .tag .fa-arrows-h {
+    width: 50px;
+    height: 50px;
+    font-size: 27px;
+    line-height: 52px;
+  }
   .lists .item .image .tag-holder .tag .file-upload {
     width: 50px;
     height: 50px;
@@ -7505,6 +7576,12 @@ small {
     height: 50px;
     font-size: 21px;
     line-height: 54px;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-arrows-h {
+    width: 50px;
+    height: 50px;
+    font-size: 27px;
+    line-height: 52px;
   }
   .lists .item .image .thumb-image {
     width: 626px;
@@ -7889,12 +7966,14 @@ small {
   header .header .brand .mobile-navigation {
     display: none;
   }
-  header .header .brand.member {
-    width: 270px;
+  header .header .brand.rectangle {
+    width: 410px;
+    padding: 0;
+    margin: 0 13px 0 35px;
   }
-  header .header .brand.member .logo {
-    width: 260px;
-    margin: 0;
+  header .header .brand.rectangle .logo {
+    width: 390px;
+    margin: 25px 0 0 10px;
   }
   header .header nav {
     display: block;
@@ -7932,6 +8011,11 @@ small {
   }
   header .header nav .tile.first {
     border-radius: 6px 0 0 0;
+  }
+  header .header nav.rectangle {
+    width: 560px;
+    height: 72px;
+    margin: 62px 0 0 0;
   }
   .page {
     width: 1000px;
@@ -8410,6 +8494,12 @@ small {
     font-size: 25px;
     line-height: 50px;
   }
+  .lists .item .image .tag-holder .tag .fa-arrows-h {
+    width: 48px;
+    height: 48px;
+    font-size: 27px;
+    line-height: 52px;
+  }
   .lists .item .image .tag-holder .tag .file-upload {
     width: 48px;
     height: 48px;
@@ -8422,6 +8512,12 @@ small {
     height: 48px;
     font-size: 21px;
     line-height: 50px;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-arrows-h {
+    width: 48px;
+    height: 48px;
+    font-size: 27px;
+    line-height: 52px;
   }
   .lists .item .image .thumb-image {
     width: 916px;
@@ -8821,9 +8917,14 @@ small {
     width: 250px;
     margin: 5px 0 0 20px;
   }
-  header .header .brand .logo.rectangle {
-    width: 270px;
-    margin: 5px 0 0 0;
+  header .header .brand.rectangle {
+    width: 393px;
+    padding: 0;
+    margin: 0px 0 0 0;
+  }
+  header .header .brand.rectangle .logo {
+    width: 360px;
+    margin: 20px 0 0 30px;
   }
   header .header nav {
     width: 750px;
@@ -8845,6 +8946,11 @@ small {
   }
   header .header nav .tile.last {
     border-radius: 0 6px 0 0;
+  }
+  header .header nav.rectangle {
+    width: 630px;
+    height: 68px;
+    margin: 52px 0 0 0;
   }
   .page {
     width: 1000px;
@@ -9396,6 +9502,12 @@ small {
     font-size: 25px;
     line-height: 50px;
   }
+  .lists .item .image .tag-holder .tag .fa-arrows-h {
+    width: 48px;
+    height: 48px;
+    font-size: 27px;
+    line-height: 52px;
+  }
   .lists .item .image .tag-holder .tag .file-upload {
     width: 48px;
     height: 48px;
@@ -9408,6 +9520,12 @@ small {
     height: 48px;
     font-size: 21px;
     line-height: 50px;
+  }
+  .lists .item .image .tag-holder .tag.save .fa-arrows-h {
+    width: 48px;
+    height: 48px;
+    font-size: 27px;
+    line-height: 52px;
   }
   .lists .item .image .thumb-image {
     width: 916px;
