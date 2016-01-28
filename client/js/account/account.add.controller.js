@@ -13,6 +13,15 @@
             }
         };
 
+        $scope.item = {
+            file_url: 'https://s3.amazonaws.com/nationalrx/card/',
+            plan: {
+                bin: '018398',
+                pcn: '48300712',
+                group: '96100245',
+            }
+        };
+
         $scope.addItem = function() {
             $scope.createClean();
 
@@ -35,7 +44,7 @@
             $scope.item = {};
             $scope.item.image = {};
             $scope.url = {};
-            $state.go('account.list');
+            $state.go('backend.list');
         };
     }
 

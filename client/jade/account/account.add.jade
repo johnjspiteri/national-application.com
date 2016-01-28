@@ -7,7 +7,7 @@
                         .tag
                             .fa.fa-pencil
                             label.file-upload
-                                input(type='file', data-ng-model='item.image', accept='image/*', base-sixty-four-input)
+                                input(type='file', data-ng-model='item.image', accept='image/*', base-sixty-four-input, required)
                     .thumb-image
                         img(ng-src='data:{{item.image.filetype}};base64,{{item.image.base64}}')
 
