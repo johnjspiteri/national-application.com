@@ -1,10 +1,10 @@
 (function() {
     'use strict';
 
-    function MemberPrintModal ($document, $scope, $window, $state, memberResolve) {
+    function MemberPrintModal ($document, $scope, $window, $state, accountResolve) {
 
         $scope.display = true;
-        $scope.member = memberResolve;
+        $scope.member = accountResolve;
         console.log($scope.member);
 
         $scope.close = function () {
@@ -21,6 +21,6 @@
         .module('app.member')
         .controller('MemberPrintModal', MemberPrintModal);
 
-    MemberPrintModal.$inject = ['$document', '$scope', '$window', '$state', 'memberResolve'];
+    MemberPrintModal.$inject = ['$document', '$scope', '$window', '$state', 'accountResolve'];
 
 })();

@@ -14,12 +14,12 @@
                 views: {
                     'page@': {
                         templateUrl: 'member/member.view.html',
-                        // resolve: {
-                        //     accountResolve: ['$stateParams', 'account', function($stateParams, account) {
-                        //         var ItemId = $stateParams.id;
-                        //         return account.show({id: ItemId}).$promise;
-                        //     }],
-                        // },
+                        resolve: {
+                            accountResolve: ['$stateParams', 'account', function($stateParams, account) {
+                                var ItemId = $stateParams.id;
+                                return account.show({id: ItemId}).$promise;
+                            }],
+                        },
                         controller: 'View',
                     }
                 }

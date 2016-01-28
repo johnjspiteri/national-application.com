@@ -6,9 +6,7 @@ header
             .mobile-navigation(data-ng-click="openMemberdNavigation();")
                 h5 Navigation
         nav.member
-            .tile.last(ui-sref='member.about', data-ng-class="{active: $state.includes('member.about')}")
-                h4 About The<br>Company
-            .tile(ui-sref='member.testimonial', data-ng-class="{active: $state.includes('member.testimonial')}")
+            .tile.last(ui-sref='member.testimonial', data-ng-class="{active: $state.includes('member.testimonial')}")
                 h4 Client<br>Testimonials
             .tile(ui-sref='member.question', data-ng-class="{active: $state.includes('member.question')}")
                 h4 Frequently<br>Asked Questions
