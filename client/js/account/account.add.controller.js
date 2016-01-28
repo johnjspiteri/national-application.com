@@ -35,8 +35,8 @@
             $scope.item = {};
             $scope.item.image = {};
             $scope.url = {};
+            $state.go('account.list');
         };
-
     }
 
     angular

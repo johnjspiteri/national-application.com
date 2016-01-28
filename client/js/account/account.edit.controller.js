@@ -51,6 +51,11 @@
                 'plan.patient_id': $scope.item.plan.patient_id
             });
         };
+
+        $scope.deleteItem = function (data) {
+            account.destroy({id:data});
+            $state.go('backend.list', {}, {reload: true});
+        };
     }
 
     angular

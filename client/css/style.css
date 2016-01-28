@@ -2438,12 +2438,12 @@ small {
   }
   .page .points {
     float: left;
-    width: 300px;
+    width: 280px;
     padding: 0;
-    margin: 0 0 10px 10px;
+    margin: 0 0 10px 20px;
   }
   .page .points .point-container {
-    width: 300px;
+    width: 280px;
     margin: 0 0 14px 0;
     text-align: center;
   }
@@ -3347,6 +3347,18 @@ small {
   .modal-holder .modal-container .submit.print {
     margin: 14px 0 14px 0;
   }
+  .modal-holder .modal-container .brand-holder {
+    float: left;
+    width: 260px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    background: #fffff2 url("../img/squairy.png");
+    border-radius: 4px 4px 4px 4px;
+  }
+  .modal-holder .modal-container .brand-holder img {
+    float: left;
+    width: 100%;
+  }
   .modal-holder .modal-container .legal {
     float: left;
     width: 250px;
@@ -4241,11 +4253,11 @@ small {
     font-size: 21px;
   }
   .page .points {
-    width: 315px;
-    margin: 0 0 30px 30px;
+    width: 305px;
+    margin: 0 0 30px 35px;
   }
   .page .points .point-container {
-    width: 315px;
+    width: 305px;
     margin: 0 0 16px 0;
   }
   .page .points .point-container .point {
@@ -4746,6 +4758,12 @@ small {
     margin: 0 0 18px 0;
     font-size: 28px;
     line-height: 28px;
+  }
+  .modal-holder .modal-container .brand-holder {
+    float: left;
+    width: 280px;
+    padding: 10px;
+    margin: 0 0 10px 0;
   }
   .modal-holder .modal-container .legal {
     width: 270px;
@@ -5677,6 +5695,12 @@ small {
     margin: 0 0 18px 0;
     font-size: 31px;
     line-height: 31px;
+  }
+  .modal-holder .modal-container .brand-holder {
+    float: left;
+    width: 280px;
+    padding: 10px;
+    margin: 0 0 10px 0;
   }
   .modal-holder .modal-container .legal {
     width: 270px;
@@ -6619,6 +6643,12 @@ small {
     font-size: 31px;
     line-height: 31px;
   }
+  .modal-holder .modal-container .brand-holder {
+    float: left;
+    width: 320px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+  }
   .modal-holder .modal-container .legal {
     width: 320px;
     margin: 14px 0 0 10px;
@@ -7549,6 +7579,11 @@ small {
     font-size: 31px;
     line-height: 31px;
   }
+  .modal-holder .modal-container .brand-holder {
+    width: 320px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+  }
   .modal-holder .modal-container .legal {
     width: 340px;
     margin: 14px 0 0 0;
@@ -8461,6 +8496,12 @@ small {
     margin: 0 0 20px 0;
     font-size: 31px;
     line-height: 31px;
+  }
+  .modal-holder .modal-container .brand-holder {
+    float: left;
+    width: 320px;
+    padding: 10px;
+    margin: 0 0 10px 0;
   }
   .modal-holder .modal-container .legal {
     width: 340px;
@@ -9441,6 +9482,12 @@ small {
   }
   .modal-holder .modal-container .submit.print {
     margin: 18px 0 26px 0;
+  }
+  .modal-holder .modal-container .brand-holder {
+    float: left;
+    width: 318px;
+    padding: 10px;
+    margin: 0 0 10px 0;
   }
   .modal-holder .modal-container .legal {
     width: 100%;

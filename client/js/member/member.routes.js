@@ -28,7 +28,7 @@
                 url: '/text-a-free-rx-card',
                 views: {
                     'modal@': {
-                        templateUrl: 'modal/modal.text.modal.html',
+                        templateUrl: 'member/member.text.modal.html',
                         resolve: {
                             accountResolve: ['$stateParams', 'account', function($stateParams, account) {
                                 var ItemId = $stateParams.id;
@@ -43,7 +43,7 @@
                 url: '/email-a-free-rx-card',
                 views: {
                     'modal@': {
-                        templateUrl: 'modal/modal.email.modal.html',
+                        templateUrl: 'member/member.email.modal.html',
                         resolve: {
                             accountResolve: ['$stateParams', 'account', function($stateParams, account) {
                                 var ItemId = $stateParams.id;
@@ -58,7 +58,7 @@
                 url: '/save-a-free-rx-card',
                 views: {
                     'modal@': {
-                        templateUrl: 'modal/modal.save.modal.html',
+                        templateUrl: 'member/member.save.modal.html',
                         resolve: {
                             accountResolve: ['$stateParams', 'account', function($stateParams, account) {
                                 var ItemId = $stateParams.id;
@@ -73,7 +73,7 @@
                 url: '/print-a-free-rx-card',
                 views: {
                     'modal@': {
-                        templateUrl: 'modal/modal.print.modal.html',
+                        templateUrl: 'member/member.print.modal.html',
                         resolve: {
                             accountResolve: ['$stateParams', 'account', function($stateParams, account) {
                                 var ItemId = $stateParams.id;

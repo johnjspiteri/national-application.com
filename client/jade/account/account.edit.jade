@@ -1,13 +1,5 @@
 .page
     .content
-        .filter-holder
-            .filter-container
-                select(type="text", data-ng-model='dropdown')
-                    option(value='') Category
-                input(type="text", data-ng-model='filter', placeholder='Enter Search')
-                .reset(data-ng-click='reset();')
-                    span.fa.fa-times
-
         .lists
             .item
                 .image
@@ -48,3 +40,4 @@
                     .full
                         h5 Patient ID
                         textarea.h3(data-ng-model='item.plan.patient_id', ng-model-options='{updateOn:"blur"}', data-ng-change='updatePatientID();', msd-elastic='')
+                button.submit(data-ng-click='deleteItem(item._id);') Delete Account

@@ -1,0 +1,13 @@
+.modal-holder
+    .modal-container
+        .fa.fa-close(data-ng-click='close();')
+        .row
+            input(type='email' placeholder='Enter Your Email', data-ng-model='data.email')
+        .submit(data-ng-click='email();') Send Email
+        .brand-holder
+            img(ng-src='data:{{member.image.filetype}};base64,{{member.image.base64}}')
+
+        .legal
+            p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.
+
+#panel(data-ng-show='display')
