@@ -19,9 +19,9 @@ methodOverride = require('method-override'),
   cookieParser = require('cookie-parser'),
   errorHandler = require('errorhandler'),
            app = express(),
-            ip = location.ip,
-          port = location.port,
-    connection = 'mongodb://worker:nat1onal@127.0.0.1:27017/national',
+            ip = process.env.OPENSHIFT_NODEJS_IP || location.ip,
+          port = process.env.OPENSHIFT_NODEJS_PORT || location.port,
+    connection = 'mongodb://worker:nat10nal@ds055505.mongolab.com:55505/national',
         server = require('http').createServer(app),
            env = app.get('env');
 
