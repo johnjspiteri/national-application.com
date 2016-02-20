@@ -9,7 +9,7 @@
                     title: 'Test This To The Auto Dealership | Interface Agency',
                     description: 'This is the description shown in Google search results'
                 },
-                url: '/',                 
+                url: '/',
                 views: {
                     'page@': {
                         templateUrl: 'index/index.html',
@@ -17,7 +17,7 @@
                             indexResolve: ['$stateParams', 'index', function($stateParams, index) {
                                 return index.show({id: 'NRX43710'}).$promise;
                             }],
-                        },                         
+                        },
                         controller: 'Index'
                     },
                 }
@@ -31,7 +31,7 @@
                             indexResolve: ['$stateParams', 'index', function($stateParams, index) {
                                 return index.show({id: 'NRX43710'}).$promise;
                             }],
-                        },                         
+                        },
                         controller: 'IndexTextModal'
                     },
                 },
@@ -45,7 +45,7 @@
                             indexResolve: ['$stateParams', 'index', function($stateParams, index) {
                                 return index.show({id: 'NRX43710'}).$promise;
                             }],
-                        },                         
+                        },
                         controller: 'IndexEmailModal'
                     },
                 },
@@ -59,7 +59,7 @@
                             indexResolve: ['$stateParams', 'index', function($stateParams, index) {
                                 return index.show({id: 'NRX43710'}).$promise;
                             }],
-                        },                         
+                        },
                         controller: 'IndexSaveModal'
                     },
                 },
@@ -73,7 +73,7 @@
                             indexResolve: ['$stateParams', 'index', function($stateParams, index) {
                                 return index.show({id: 'NRX43710'}).$promise;
                             }],
-                        },                         
+                        },
                         controller: 'IndexPrintModal'
                     },
                 },
