@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 
-	function config ($compileProvider, $urlRouterProvider, AnalyticsProvider, uiGmapGoogleMapApiProvider) {
+	function config ($compileProvider, $urlRouterProvider, AngularyticsProvider, uiGmapGoogleMapApiProvider) {
 
 		uiGmapGoogleMapApiProvider.configure({
 			 //    key: 'your api key',
@@ -9,8 +9,7 @@
 			libraries: 'weather,geometry,visualization'
 		});
 
-		AnalyticsProvider.setAccount('UA-74035692-1');
-		AnalyticsProvider.trackPages(true);
+		AngularyticsProvider.setEventHandlers(['Console', 'GoogleUniversal']);
 
 		$urlRouterProvider.otherwise('/404');
 		$urlRouterProvider.rule(function ($injector, $location) {
@@ -30,6 +29,6 @@
 		.module('app')
 		.config(config);
 
-	config.$inject = ['$compileProvider','$urlRouterProvider', 'AnalyticsProvider', 'uiGmapGoogleMapApiProvider'];
+	config.$inject = ['$compileProvider','$urlRouterProvider', 'AngularyticsProvider', 'uiGmapGoogleMapApiProvider'];
 
 })();
