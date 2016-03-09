@@ -35,7 +35,7 @@
 					title: 'The National RX Card Has Been Texted | National RX Card',
 					description: 'The National RX Card has been successfully texted, use this card at over 63,000 pharmacies nationwide.'
 				},
-				url: '/confirmation',
+				url: '/sent',
 				views: {
 					'modal@': {
 						templateUrl: 'index/modal/text.modal.confirmation.html',
@@ -61,7 +61,7 @@
 					title: 'The National RX Card Has Been Emailed | National RX Card',
 					description: 'The National RX Card has been successfully emailed, use this card at over 63,000 pharmacies nationwide.'
 				},
-				url: '/confirmation',
+				url: '/sent',
 				views: {
 					'modal@': {
 						templateUrl: 'index/modal/email.modal.confirmation.html',

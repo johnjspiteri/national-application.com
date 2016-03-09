@@ -1,36 +1,36 @@
-.modal-holder
-    .modal-container
-        .fa.fa-close(data-ng-click="close();")
-        .print
-            img(ng-src='{{member.file_url}}')
-        .submit.print(data-ng-click='print();') Print Rx Card
-        .card-modal
-            .card-content
-                h1 National Rx Card
-                .company
-                    h5 Free
-                    span &bull;
-                    h5 Fast
-                    span &bull;
-                    h5 Discounts
+.modal-holder(esc-key='close();')
+	.modal-container
+		.fa.fa-close(data-ng-click="close();")
+		.print
+			img(ng-src='{{account.file_url}}')
+		.submit.print(data-ng-click='print();') Print Rx Card
+		.card-modal
+			.card-content
+				h1 National Rx Card
+				.company
+					h5 Free
+					span &bull;
+					h5 Fast
+					span &bull;
+					h5 Discounts
 
-                .patient-holder
-                    h6 Preferred Client
-                    .row-holder
-                        .row
-                            h6 BIN
-                            h6(data-ng-bind='member.plan.bin')
-                        .row
-                            h6 PCN
-                            h6(data-ng-bind='member.plan.pcn')
-                        .row
-                            h6 GROUP
-                            h6(data-ng-bind='member.plan.group')
-                        .row
-                            h6 PATIENT
-                            h6(data-ng-bind='member.plan.patient_id')
+				.patient-holder
+					h6 Preferred Client
+					.row-holder
+						.row
+							h6 BIN
+							h6(data-ng-bind='account.plan.bin')
+						.row
+							h6 PCN
+							h6(data-ng-bind='account.plan.pcn')
+						.row
+							h6 GROUP
+							h6(data-ng-bind='account.plan.group')
+						.row
+							h6 PATIENT
+							h6(data-ng-bind='account.plan.patient_id')
 
-        .legal
-            p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.
+		.legal
+			p This is <b>NOT</b> insurance and is not a substitute for insurance. Discounts are available only at participating pharmacies. You pay 100% of the discount price at the pharmacy.
 
 #panel(data-ng-show='display')

@@ -3300,7 +3300,7 @@ small {
     float: left;
     width: 100%;
     padding: 0;
-    margin: 0 0 8px 0;
+    margin: 0 0 10px 0;
     font-weight: 400;
     font-size: 25px;
     line-height: 34px;
@@ -3309,12 +3309,12 @@ small {
   }
   .modal-holder .modal-container h3 {
     float: left;
-    width: 100%;
+    width: 260px;
     padding: 0;
-    margin: 0 0 20px 0;
+    margin: 0 0 14px 10px;
     font-weight: 400;
     font-size: 19px;
-    line-height: 25px;
+    line-height: 27px;
     color: #fff;
     text-align: center;
   }
@@ -4791,6 +4791,18 @@ small {
     padding: 18px 20px 18px 20px;
     margin: 14px 0 30px 0;
   }
+  .modal-holder .modal-container h2 {
+    margin: 0 0 10px 0;
+    font-size: 27px;
+    line-height: 36px;
+  }
+  .modal-holder .modal-container h3 {
+    width: 260px;
+    padding: 0;
+    margin: 0 0 14px 20px;
+    font-size: 21px;
+    line-height: 30px;
+  }
   .modal-holder .modal-container .print {
     width: 300px;
   }
@@ -5739,6 +5751,18 @@ small {
     width: 300px;
     padding: 18px 30px 20px 30px;
     margin: 18px 0 0 0;
+  }
+  .modal-holder .modal-container h2 {
+    margin: 0 0 12px 0;
+    font-size: 29px;
+    line-height: 38px;
+  }
+  .modal-holder .modal-container h3 {
+    width: 260px;
+    padding: 0;
+    margin: 0 0 14px 20px;
+    font-size: 21px;
+    line-height: 30px;
   }
   .modal-holder .modal-container .print {
     width: 300px;
@@ -6699,6 +6723,18 @@ small {
     padding: 20px 30px 20px 30px;
     margin: 18px 0 0 0;
   }
+  .modal-holder .modal-container h2 {
+    margin: 0 0 16px 0;
+    font-size: 31px;
+    line-height: 40px;
+  }
+  .modal-holder .modal-container h3 {
+    width: 300px;
+    padding: 0;
+    margin: 0 0 14px 20px;
+    font-size: 23px;
+    line-height: 32px;
+  }
   .modal-holder .modal-container .print {
     width: 340px;
   }
@@ -7652,6 +7688,18 @@ small {
     padding: 24px 30px 18px 30px;
     margin: 22px 0 0 0;
   }
+  .modal-holder .modal-container h2 {
+    margin: 0 0 18px 0;
+    font-size: 33px;
+    line-height: 42px;
+  }
+  .modal-holder .modal-container h3 {
+    width: 300px;
+    padding: 0;
+    margin: 0 0 14px 20px;
+    font-size: 24px;
+    line-height: 33px;
+  }
   .modal-holder .modal-container .print {
     width: 340px;
   }
@@ -8588,6 +8636,18 @@ small {
     width: 340px;
     padding: 24px 30px 28px 30px;
     margin: 22px 0 0 0;
+  }
+  .modal-holder .modal-container h2 {
+    margin: 0 0 18px 0;
+    font-size: 33px;
+    line-height: 42px;
+  }
+  .modal-holder .modal-container h3 {
+    width: 320px;
+    padding: 0;
+    margin: 0 0 14px 10px;
+    font-size: 24px;
+    line-height: 33px;
   }
   .modal-holder .modal-container .print {
     width: 340px;
@@ -9596,6 +9656,18 @@ small {
     width: 338px;
     padding: 18px 30px 14px 30px;
     margin: 22px 0 0 0;
+  }
+  .modal-holder .modal-container h2 {
+    margin: 0 0 14px 0;
+    font-size: 29px;
+    line-height: 38px;
+  }
+  .modal-holder .modal-container h3 {
+    width: 320px;
+    padding: 0;
+    margin: 0 0 14px 10px;
+    font-size: 20px;
+    line-height: 28px;
   }
   .modal-holder .modal-container .print {
     width: 338px;
