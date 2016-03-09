@@ -15,7 +15,7 @@
 		client.messages.create({
 			to: req.body.number,
 			from:'+14352144586',
-			body:'Here is your National Rx Card, you can use this card at over 63,000 pharmacies nationwide.',
+			body:'Here is your National Rx Card, you can use this card at over 63,000 pharmacies nationwide.\n\n',
 			mediaUrl: req.body.file,
 		}, function(error, message) {
 			if (!error) {

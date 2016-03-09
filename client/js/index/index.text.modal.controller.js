@@ -18,7 +18,7 @@
 		$scope.text = function () {
 			text.create({
 				number: $scope.data.number,
-				file: $scope.member.file_url,
+				file: $scope.account.file_url,
 			});
 			$scope.data = {};
 			$scope.toTheTop();

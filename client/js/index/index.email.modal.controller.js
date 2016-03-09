@@ -18,7 +18,7 @@
 		$scope.email = function () {
 			mail.create({
 				email: $scope.data.email,
-				file: $scope.member.file_url,
+				file: $scope.account.file_url,
 			}).$promise.then(function() {
 				$scope.data = {};
 				$scope.toTheTop();
