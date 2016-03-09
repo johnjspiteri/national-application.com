@@ -1,25 +1,29 @@
 (function() {
-    'use strict';
+	'use strict';
 
-    function routes($locationProvider, $stateProvider) {
-        $locationProvider.html5Mode(true);
+	function routes($locationProvider, $stateProvider, ngMetaProvider) {
+		$locationProvider.html5Mode(true);
 
-        $stateProvider
-            .state('frontend.about', {
-                url: '/about-us',
-                views: {
-                    'page@': {
-                        templateUrl: 'about/about.html',
-                        controller: 'About',
-                    },
-                }
-            });
-    }
+		$stateProvider
+			.state('frontend.about', {
+				meta: {
+					title: 'About National RX Card, LLC | National RX Card',
+					description: 'Contact us regarding any coments, issues and user feedback.'
+				},
+				url: '/about-us',
+				views: {
+					'page@': {
+						templateUrl: 'about/about.html',
+						controller: 'About',
+					},
+				}
+			});
+	}
 
-    angular
-        .module('app.about')
-        .config(routes);
+	angular
+		.module('app.about')
+		.config(routes);
 
-    routes.$inject = ['$locationProvider', '$stateProvider'];
+	routes.$inject = ['$locationProvider', '$stateProvider', 'ngMetaProvider'];
 
 })();

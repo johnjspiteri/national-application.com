@@ -1,25 +1,25 @@
 (function() {
-    'use strict';
+	'use strict';
 
-    function IndexPrintModal ($document, $scope, $window, $state, indexResolve) {
+	function Print ($document, $scope, $window, $state, stateFactory) {
 
-        $scope.display = true;
-        $scope.member = indexResolve;
+		$scope.display = true;
+		$scope.account = stateFactory.getState();
 
-        $scope.close = function () {
-            $scope.display = false;
-            $state.go('frontend.index');
-        };
+		$scope.close = function () {
+			$scope.display = false;
+			$state.go('frontend.index');
+		};
 
-        $scope.print = function() {
-            $window.print();
-        };
-    }
+		$scope.print = function() {
+			$window.print();
+		};
+	}
 
-    angular
-        .module('app.index')
-        .controller('IndexPrintModal', IndexPrintModal);
+	angular
+		.module('app.index')
+		.controller('Print', Print);
 
-    IndexPrintModal.$inject = ['$document', '$scope', '$window', '$state', 'indexResolve'];
+	Print.$inject = ['$document', '$scope', '$window', '$state', 'stateFactory'];
 
 })();

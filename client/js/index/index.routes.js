@@ -1,89 +1,106 @@
 (function() {
-    'use strict';
+	'use strict';
 
-    function routes($locationProvider, $stateProvider) {
-        $locationProvider.html5Mode(true);
-        $stateProvider
-            .state('frontend.index', {
-                meta: {
-                    title: 'Test This To The Auto Dealership | Interface Agency',
-                    description: 'This is the description shown in Google search results'
-                },
-                url: '/',
-                views: {
-                    'page@': {
-                        templateUrl: 'index/index.html',
-                        resolve: {
-                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
-                                return index.show({id: 'NRX43710'}).$promise;
-                            }],
-                        },
-                        controller: 'Index'
-                    },
-                }
-            })
-            .state('frontend.index.text', {
-                url: 'text-a-free-rx-card',
-                views: {
-                    'modal@': {
-                        templateUrl: 'modal/modal.text.modal.html',
-                        resolve: {
-                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
-                                return index.show({id: 'NRX43710'}).$promise;
-                            }],
-                        },
-                        controller: 'IndexTextModal'
-                    },
-                },
-            })
-            .state('frontend.index.email', {
-                url: 'email-a-free-rx-card',
-                views: {
-                    'modal@': {
-                        templateUrl: 'modal/modal.email.modal.html',
-                        resolve: {
-                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
-                                return index.show({id: 'NRX43710'}).$promise;
-                            }],
-                        },
-                        controller: 'IndexEmailModal'
-                    },
-                },
-            })
-            .state('frontend.index.save', {
-                url: 'save-a-free-rx-card',
-                views: {
-                    'modal@': {
-                        templateUrl: 'modal/modal.save.modal.html',
-                        resolve: {
-                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
-                                return index.show({id: 'NRX43710'}).$promise;
-                            }],
-                        },
-                        controller: 'IndexSaveModal'
-                    },
-                },
-            })
-            .state('frontend.index.print', {
-                url: 'print-a-free-rx-card',
-                views: {
-                    'modal@': {
-                        templateUrl: 'modal/modal.print.modal.html',
-                        resolve: {
-                            indexResolve: ['$stateParams', 'index', function($stateParams, index) {
-                                return index.show({id: 'NRX43710'}).$promise;
-                            }],
-                        },
-                        controller: 'IndexPrintModal'
-                    },
-                },
-            });
-    }
+	function routes($locationProvider, $stateProvider, ngMetaProvider) {
+		$locationProvider.html5Mode(true);
+		$stateProvider
+			.state('frontend.index', {
+				meta: {
+					title: 'Welcome To The National RX Card | National RX Card',
+					description: 'This is the description shown in Google search results'
+				},
+				url: '/',
+				views: {
+					'page@': {
+						templateUrl: 'index/index.html',
+						controller: 'Index'
+					},
+				}
+			})
+			.state('frontend.index.text', {
+				meta: {
+					title: 'Text The National RX Card | National RX Card',
+					description: 'Text the National RX Card, and use this card at over 63,000 pharmacies nationwide.'
+				},
+				url: 'text-a-free-rx-card',
+				views: {
+					'modal@': {
+						templateUrl: 'index/modal/text.modal.html',
+						controller: 'Text'
+					},
+				},
+			})
+			.state('frontend.index.text.confirmation', {
+				meta: {
+					title: 'The National RX Card Has Been Texted | National RX Card',
+					description: 'The National RX Card has been successfully texted, use this card at over 63,000 pharmacies nationwide.'
+				},
+				url: '/confirmation',
+				views: {
+					'modal@': {
+						templateUrl: 'index/modal/text.modal.confirmation.html',
+						controller: 'Text'
+					},
+				},
+			})
+			.state('frontend.index.email', {
+				meta: {
+					title: 'Email The National RX Card | National RX Card',
+					description: 'Email the National RX Card, and use this card at over 63,000 pharmacies nationwide.'
+				},
+				url: 'email-a-free-rx-card',
+				views: {
+					'modal@': {
+						templateUrl: 'index/modal/email.modal.html',
+						controller: 'Email'
+					},
+				},
+			})
+			.state('frontend.index.email.confirmation', {
+				meta: {
+					title: 'The National RX Card Has Been Emailed | National RX Card',
+					description: 'The National RX Card has been successfully emailed, use this card at over 63,000 pharmacies nationwide.'
+				},
+				url: '/confirmation',
+				views: {
+					'modal@': {
+						templateUrl: 'index/modal/email.modal.confirmation.html',
+						controller: 'Email'
+					},
+				},
+			})
+			.state('frontend.index.save', {
+				meta: {
+					title: 'Save The National RX Card | National RX Card',
+					description: 'Save the National RX Card, and use this card at over 63,000 pharmacies nationwide.'
+				},
+				url: 'save-a-free-rx-card',
+				views: {
+					'modal@': {
+						templateUrl: 'index/modal/save.modal.html',
+						controller: 'Save'
+					},
+				},
+			})
+			.state('frontend.index.print', {
+				meta: {
+					title: 'Print The National RX Card | National RX Card',
+					description: 'Print the National RX Card, and use this card at over 63,000 pharmacies nationwide.'
+				},
+				url: 'print-a-free-rx-card',
+				views: {
+					'modal@': {
+						templateUrl: 'index/modal/print.modal.html',
+						controller: 'Print'
+					},
+				},
+			});
+	}
 
-    angular
-        .module('app.index')
-        .config(routes);
+	angular
+		.module('app.index')
+		.config(routes);
 
-    routes.$inject = ['$locationProvider', '$stateProvider'];
+	routes.$inject = ['$locationProvider', '$stateProvider', 'ngMetaProvider'];
 
 })();

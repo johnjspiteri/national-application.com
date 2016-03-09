@@ -1,36 +1,36 @@
 (function() {
-    'use strict';
+	'use strict';
 
-    function IndexEmailModal ($document, $scope, $state, mail, indexResolve) {
+	function Email ($document, $scope, $state, mail, stateFactory) {
 
-        $scope.display = true;
-        $scope.member = indexResolve;
+		$scope.display = true;
+		$scope.account = stateFactory.getState();
 
-        $scope.close = function () {
-            $scope.display = false;
-            $state.go('frontend.index');
-        };
+		$scope.close = function () {
+			$scope.display = false;
+			$state.go('frontend.index');
+		};
 
-        $scope.toTheTop = function() {
-            $document.scrollTopAnimated(0);
-        };
+		$scope.toTheTop = function() {
+			$document.scrollTopAnimated(0);
+		};
 
-        $scope.email = function () {
-            mail.create({
-                email: $scope.data.email,
-                file: $scope.member.file_url,
-            });
-            $scope.user = {};
-            $scope.display = false;
-            $scope.toTheTop();
-            $scope.close();
-        };
-    }
+		$scope.email = function () {
+			mail.create({
+				email: $scope.data.email,
+				file: $scope.member.file_url,
+			}).$promise.then(function() {
+				$scope.data = {};
+				$scope.toTheTop();
+				$state.go('frontend.index.email.confirmation');
+			});
+		};
+	}
 
-    angular
-        .module('app.index')
-        .controller('IndexEmailModal', IndexEmailModal);
+	angular
+		.module('app.index')
+		.controller('Email', Email);
 
-    IndexEmailModal.$inject = ['$document', '$scope', '$state', 'mail', 'indexResolve'];
+	Email.$inject = ['$document', '$scope', '$state', 'mail', 'stateFactory'];
 
 })();

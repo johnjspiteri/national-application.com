@@ -1,21 +1,21 @@
 (function() {
-    'use strict';
+	'use strict';
 
-    function IndexSaveModal ($scope, $state, $window, indexResolve) {
+	function Save ($scope, $state, $window, stateFactory) {
 
-        $scope.display = true;
-        $scope.member = indexResolve;
+		$scope.display = true;
+		$scope.account = stateFactory.getState();
 
-        $scope.close = function() {
-            $scope.display = false;
-            $state.go('frontend.index');
-        };
-    }
+		$scope.close = function() {
+			$scope.display = false;
+			$state.go('frontend.index');
+		};
+	}
 
-    angular
-        .module('app.index')
-        .controller('IndexSaveModal', IndexSaveModal);
+	angular
+		.module('app.index')
+		.controller('Save', Save);
 
-    IndexSaveModal.$inject = ['$scope', '$state', '$window', 'indexResolve'];
+	Save.$inject = ['$scope', '$state', '$window', 'stateFactory'];
 
 })();
