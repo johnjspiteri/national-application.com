@@ -7,7 +7,7 @@
 			.state('frontend.index', {
 				meta: {
 					title: 'Welcome To The National RX Card | National RX Card',
-					description: 'This is the description shown in Google search results'
+					description: 'We provide a free RX prescription card, that provides amazing discounts at over 63,000 pharmacies nationwide.'
 				},
 				url: '/',
 				views: {
@@ -32,7 +32,7 @@
 			})
 			.state('frontend.index.text.confirmation', {
 				meta: {
-					title: 'The National RX Card Has Been Texted | National RX Card',
+					title: 'Your National RX Card Has Been Texted | National RX Card',
 					description: 'The National RX Card has been successfully texted, use this card at over 63,000 pharmacies nationwide.'
 				},
 				url: '/sent',
@@ -58,7 +58,7 @@
 			})
 			.state('frontend.index.email.confirmation', {
 				meta: {
-					title: 'The National RX Card Has Been Emailed | National RX Card',
+					title: 'Your National RX Card Has Been Emailed | National RX Card',
 					description: 'The National RX Card has been successfully emailed, use this card at over 63,000 pharmacies nationwide.'
 				},
 				url: '/sent',
@@ -71,7 +71,7 @@
 			})
 			.state('frontend.index.save', {
 				meta: {
-					title: 'Save The National RX Card | National RX Card',
+					title: 'Save Your National RX Card | National RX Card',
 					description: 'Save the National RX Card, and use this card at over 63,000 pharmacies nationwide.'
 				},
 				url: 'save-a-free-rx-card',
@@ -84,7 +84,7 @@
 			})
 			.state('frontend.index.print', {
 				meta: {
-					title: 'Print The National RX Card | National RX Card',
+					title: 'Print Your National RX Card | National RX Card',
 					description: 'Print the National RX Card, and use this card at over 63,000 pharmacies nationwide.'
 				},
 				url: 'print-a-free-rx-card',

@@ -7,7 +7,7 @@
 		$stateProvider
 			.state('frontend.testimonial', {
 				meta: {
-					title: 'User Testimonials | National RX Card',
+					title: 'Testimonials | National RX Card',
 					description: 'User stories and testimonials using the National RX Card.'
 				},
 				url: '/testimonial',
