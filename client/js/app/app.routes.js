@@ -19,10 +19,10 @@
 				url: '',
 				abstract: true,
 				views: {
-					// 'header@': {
-					//     templateUrl: 'header/header.html',
-					//     controller: 'Header',
-					// },
+					'header@': {
+						templateUrl: 'header/header.html',
+						controller: 'Header',
+					},
 					'footer@': {
 						templateUrl: 'footer/footer.html',
 					},

@@ -1,22 +1,18 @@
 header
 	padding 0
-	margin 0 0 40px 0
-	height 138px
+	margin 0 0 30px 0
 
 	.header
 		width 1024px
 
 		.brand
-			width 290px
+			width 284px
 			padding 0
-			margin 12px 13px 0 35px
+			margin 0 0 14px 40px
 
 			.logo
-				width 290px
-				margin 0
-
-			.mobile-navigation
-				display none
+				width 250px
+				margin 10px 0 0 0
 
 		.brand.rectangle
 			width 410px
@@ -28,43 +24,28 @@ header
 				margin 25px 0 0 10px
 
 		nav
-			display none
-			float right
-			width 680px
-			height 76px
-			padding 0
-			margin 62px 0 0 0
-			border-radius 6px 0 0 0
+			width 690px
 
-			.tile
-				float right
-				height 75px
-				padding 0 24px
-				margin 0
-				background $grey
-				border-top $header-border-bottom
-				border-left $header-border-bottom
-				cursor pointer
+			.tile-container
+				width 690px
+				margin 32px 0 0 0
 
-				h4
-					float left
-					padding 0
-					font-weight 600
-					margin 14px 0 0 0
-					font-size 20px
-					line-height 25px
-					color $white
-					text-align center
-					text-shadow $grey-text-shadow
+				.tile
+					position relative
 
-			.tile.active
-				height 76px
-				background $background
+					h4
+						float left
+						padding 9px 20px 9px 20px
+						margin 0 5px
+						font-size 21px
+						line-height 24px
 
-			.tile.first
-				border-radius 6px 0 0 0
+				.tile.testimonial
+					display inline-block
 
 		nav.rectangle
-			width 560px
-			height 72px
-			margin 62px 0 0 0
+			width 550px
+
+			.tile-container
+				width 550px
+				margin 32px 0 10px 0

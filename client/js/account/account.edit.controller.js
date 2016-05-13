@@ -5,13 +5,13 @@
 
 		$scope.item = itemResolve;
 
-		$scope.url = "http://nationalrxcard.com/nrx/" + $scope.item.clean;
+		$scope.url = "http://www.nationalrxcard.com/nrx/" + $scope.item.clean;
 
 		$scope.createClean = function() {
 			$scope.item.clean = ($scope.item.organization).replace(/[\s:,!?]/g, '-').replace(/--/g, '-').replace(/-$/, '').toLowerCase();
 
 			if($scope.item.organization) {
-				$scope.url = "http://nationalrxcard.com/nrx/" + $scope.item.clean;
+				$scope.url = "http://www.nationalrxcard.com/nrx/" + $scope.item.clean;
 			}
 		};
 

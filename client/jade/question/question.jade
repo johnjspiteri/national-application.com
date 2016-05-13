@@ -2,11 +2,11 @@
 	.filter
 		select(type="text", data-ng-model='dropdown')
 			option(value='') Category
-		input(type="text", data-ng-model='filter', placeholder='Enter Search')
-		.reset(data-ng-click='reset();')
+		input(type="text", data-ng-model='search', placeholder='Enter Search')
+		.reset(data-ng-click='reset()')
 			span.fa.fa-times
 
 	.answers
-		.answer(ng-repeat="answer in answers| filter: {title: filter}")
+		.answer(ng-repeat="answer in answers| filter: {title: search}")
 			h2(ng-bind="::answer.title")
 			p(ng-bind="::answer.content")

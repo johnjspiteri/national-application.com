@@ -1,33 +1,27 @@
 header
-	margin 0 0 50px 0
+	margin 0 0 30px 0
 
 	.header
 		width 768px
 
 		.brand
-			width 668px
-			margin 0 0 0 50px
+			width 248px
+			margin 0 0 0 20px
 
 			.logo
-				width 358px
-				margin 22px 70px 12px 0
-
-			.mobile-navigation
 				width 238px
-				padding 12px 0 10px 0
-				margin 30px 0 0 0
+				margin 12px 0 0 0
 
-				h5
-					font-size 25px
-					line-height 25px
+			.mobile
+				display none
 
 		.brand.rectangle
 			width 688px
 			margin 0 0 0 30px
 
 			.logo
-				width 388px
-				margin 22px 50px 0 10px
+				width 588px
+				margin 18px 0 0 50px
 
 		.brand.member
 			width 768px
@@ -35,3 +29,57 @@ header
 			.logo
 				width 528px
 				margin 12px 0 12px 120px
+
+		nav
+			display block
+			float left
+			width 490px
+			padding 0
+			margin 0
+
+			.tile-container
+				width 490px
+				padding 0
+				margin 28px 0 0 0
+				text-align center
+
+				.tile
+					display inline-block
+					position relative
+					padding 0
+					margin 0 auto
+					z-index 99
+
+					h4
+						float left
+						padding 8px 18px 8px 18px
+						margin 0 4px
+						font-weight 400
+						font-size 20px
+						line-height 25px
+						color $white
+						background $grey
+						border $grey-border
+						border-bottom $grey-border-bottom
+						border-radius 4px
+						text-align center
+						text-shadow $grey-text-shadow
+						cursor pointer
+
+					h4.active
+						background $burgundy
+						border $burgundy-border
+						border-bottom $burgundy-border-bottom
+
+				.tile.testimonial
+					display: none
+
+		nav.rectangle
+			display block
+			float left
+			width 768px
+
+			.tile-container
+				width 768px
+				padding 0
+				margin 4px 0 10px 0

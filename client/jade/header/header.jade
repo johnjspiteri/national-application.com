@@ -6,14 +6,15 @@ header
 			.mobile(data-ng-click="open();")
 				.fa.fa-bars
 		nav
-			.tile.last(ui-sref='frontend.about', data-ng-class="{active: $state.includes('frontend.about')}")
-				h4 About The<br>Company
-			.tile(ui-sref='frontend.testimonial', data-ng-class="{active: $state.includes('frontend.testimonial')}")
-				h4 Client<br>Testimonials
-			.tile(ui-sref='frontend.question', data-ng-class="{active: $state.includes('frontend.question')}")
-				h4 Frequently<br>Asked Questions
-			.tile.first(ui-sref='frontend.index', data-ng-class="{active: $state.includes('frontend.index') || $state.includes('frontend.view')}")
-				h4 Get Your Free<br>Savings Card
+			.tile-container
+				.tile(ui-sref='frontend.index')
+					h4(data-ng-class="{active: $state.includes('frontend.index') || $state.includes('frontend.view')}") Get Your Free<br>Savings Card
+				.tile(ui-sref='frontend.question')
+					h4(data-ng-class="{active: $state.includes('frontend.question')}") Frequently<br>Asked Questions
+				.tile.testimonial(ui-sref='frontend.testimonial')
+					h4(data-ng-class="{active: $state.includes('frontend.testimonial')}") Client<br>Testimonials
+				.tile(ui-sref='frontend.about')
+					h4(data-ng-class="{active: $state.includes('frontend.about')}") About The<br>Company
 
 
 md-sidenav(md-component-id="navigationPanel", class="md-sidenav-left md-closed")
