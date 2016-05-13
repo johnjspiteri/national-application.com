@@ -3,8 +3,9 @@ header
 	width 100%
 	padding 0
 	margin 0 0 20px 0
+	background none
 	background $header
-	border-bottom $border-header
+	border-bottom $header-border-bottom
 
 	.header
 		position relative
@@ -15,38 +16,39 @@ header
 		.brand
 			float left
 			width 100%
-			padding 0 0 12px 0
+			padding 0 0 14px 0
 			margin 0
 
 			.logo
 				float left
-				width 240px
+				width 210px
 				padding 0
-				margin 6px 0 16px 20px
+				margin 8px 24px 0 0
 
 				img
 					float left
 					width 100%
 					height 100%
 
-			.mobile-navigation
+			.mobile
 				float left
-				width 260px
-				padding 10px 0 8px 0
-				margin 0 0 0 10px
+				width 42px
+				padding 9px 0 7px 0
+				margin 26px 0 0 0
 				background $burgundy
-				border-bottom 4px solid $burgundy-border
+				border $burgundy-border
+				border-bottom $burgundy-border-bottom
 				border-radius $border-radius
 				cursor pointer
 
-				h5
+				.fa-bars
 					float left
 					width 100%
 					padding 0
 					margin 0
-					font-weight 600
-					font-size 25px
-					line-height 25px
+					font-weight normal
+					font-size 22px
+					line-height 22px
 					color $white
 					text-align center
 					text-shadow $burgundy-text-shadow

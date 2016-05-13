@@ -1,105 +1,104 @@
 md-sidenav.md-closed
-    display: none
+	display: none
 
 md-sidenav
-    position: absolute;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 194px
-    max-width: 194px
-    height 2000px;
-    min-height 2000px;
-    bottom: 0
-    background none
-    outline none
-    overflow: none
-    box-sizing: border-box;
-    left: 0
-    top: 0
-    z-index: 999999
-    -webkit-transform: translate3d(0%, 0, 0)
-    transform: translate3d(0%, 0, 0)
-    overflow scroll
+	position: absolute;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 194px
+	max-width: 194px
+	height 2000px;
+	min-height 2000px;
+	bottom: 0
+	background none
+	outline none
+	overflow: none
+	box-sizing: border-box;
+	left: 0
+	top: 0
+	z-index: 999999
+	-webkit-transform: translate3d(0%, 0, 0)
+	transform: translate3d(0%, 0, 0)
+	overflow scroll
 
 md-sidenav.md-closed
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
+	-webkit-transform: translate3d(-100%, 0, 0);
+	transform: translate3d(-100%, 0, 0);
 
 md-sidenav.md-closed-remove
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
 
 md-sidenav.md-closed-add.md-closed-add-active, md-sidenav.md-closed-remove.md-closed-remove-active
-    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 
 md-sidenav.md-locked-open-add,
 md-sidenav.md-locked-open-remove
-    position: static;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+	position: static;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 
 .side
-    display block
-    float left
-    width 194px
-    height 2000px;
-    min-height 2000px;
-    top 0
-    padding 0 0 1000px 0
-    margin 0
-    background $header
-    border-right $black-border
+	display block
+	float left
+	width 194px
+	height 2000px
+	min-height 2000px
+	top 0
+	padding 0 0 1000px 0
+	margin 0
+	background $header
+	border-right $black-border
 
-    ul
-        float left
-        width 194px
-        height 1000px
+	ul
+		float left
+		width 194px
+		height 1000px
 
-        li
-            float: left
-            width 194px
-            padding: 16px 0 14px 0
-            margin: 0
-            border-bottom $border-dotted
-            cursor pointer
+		li
+			float left
+			width 194px
+			padding 16px 0 14px 0
+			margin 0
+			border-bottom $border-dotted
+			cursor pointer
 
-            h4
-                float: left
-                width 178px
-                padding 0
-                margin 0
-                font-weight 500
-                font-size 21px
-                line-height 27px
-                color $black-light
-                text-align: right
-                text-shadow $card-text-shadow
+			h4
+				float left
+				width 174px
+				padding 0
+				margin 0
+				font-weight 400
+				font-size 22px
+				line-height 27px
+				color $black
+				text-align right
+				text-shadow $card-text-shadow
 
-        li.close
-            float: left
-            padding: 14px 0 10px 0
+		li.close
+			float: left
+			padding: 14px 0 10px 0
 
-            .fa-long-arrow-left
-                float: left
-                width 178px
-                padding 0
-                margin: 0
-                font-size 27px
-                line-height 27px
-                color $black-light
-                text-align: right
-                text-shadow $card-text-shadow
+			.fa-long-arrow-left
+				float: left
+				width 178px
+				padding 0
+				margin: 0
+				font-size 27px
+				line-height 27px
+				color $black
+				text-align: right
+				text-shadow $card-text-shadow
 
-        li.active
-            background $burgundy
+		li.active
+			background $burgundy
 
-            h4
-                font-style italic
-                color $white
-                text-shadow $burgundy-text-shadow
+			h4
+				color $white
+				text-shadow $burgundy-text-shadow

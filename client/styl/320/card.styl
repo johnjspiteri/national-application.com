@@ -5,7 +5,7 @@
 	margin 0 0 12px 10px
 	background $card
 	border-top none
-	border-bottom 4px solid #333
+	border-bottom $card-border-bottom
 	overflow hidden
 
 	img
@@ -74,7 +74,7 @@
 					margin 0 0 14px 0
 
 					h4
-						font-weight 500
+						font-weight 600
 						color $burgundy
 						text-align left
 						text-shadow $card-text-shadow
@@ -91,17 +91,17 @@
 			width 280px
 			padding 0
 			margin 0 0 18px 0
-			font-weight 500
+			font-weight 400
 			font-size 17px
 			line-height 27px
-			color $black-light
+			color $black
 			text-shadow $card-text-shadow
 			text-align left
 
 		a
 			padding 0
 			margin 0
-			font-weight 500
+			font-weight 600
 			font-size 17px
 			line-height 27px
 			color $grey
@@ -115,7 +115,6 @@
 			img
 				float left
 				width 240px
-
 
 .card-modal
 	float left
@@ -153,7 +152,7 @@
 			font-weight 400
 			font-size 28px
 			line-height 28px
-			color $black-light
+			color $black
 			text-align left
 			text-shadow $card-text-shadow
 
@@ -196,7 +195,7 @@
 				font-weight 400
 				font-size 23px
 				line-height 23px
-				color $black-light
+				color $black
 				background none
 				border none
 				outline none
@@ -234,11 +233,11 @@
 .card
 	float left
 	width 276px
-	padding 28px 0px 14px 24px
+	padding 24px 0px 10px 24px
 	margin 0 0 10px 10px
 	background $card
-	border-top none
-	border-bottom 4px solid $card-border
+	border $card-border
+	border-bottom $card-border-bottom
 	border-radius 8px
 	overflow hidden
 
@@ -252,32 +251,31 @@
 		h1
 			float left
 			width 260px
-			margin 0 0 12px 0
+			margin 0 0 9px 0
 			font-weight 400
-			font-size 28px
-			line-height 28px
-			color $black-light
+			font-size 30px
+			line-height 30px
+			color $black
 			text-align left
 			text-shadow $card-text-shadow
 
 		.company
 			float left
 			width 260px
-			margin 0 0 28px 0
+			margin 0 0 18px 0
 
-			h5
+			p
 				float left
-				font-style italic
 				font-weight 400
-				font-size 20px
-				line-height 20px
+				font-size 19px
+				line-height 19px
 				color $burgundy
 				text-align left
 
 			span
 				float left
 				padding 0
-				margin 0 8px
+				margin 0 6px
 				font-size 22px
 				line-height 22px
 				color $grey
@@ -294,7 +292,7 @@
 				float left
 				width 100%
 				padding 0
-				margin 0 0 28px 0
+				margin 0 0 22px 0
 				font-weight 400
 				font-size 23px
 				line-height 23px
@@ -313,7 +311,7 @@
 					float left
 					width 100%
 					padding 0
-					margin 0 0 10px 0
+					margin 0 0 8px 0
 
 					h6
 						float left
@@ -321,13 +319,13 @@
 						padding 0
 						margin 0
 						font-weight 400
-						font-size 14px
-						line-height 14px
+						font-size 12px
+						line-height 12px
 						color $grey
 						text-shadow $card-text-shadow
 
 			.lines
 				float left
-				width 54px
+				width 52px
 				padding 0
-				margin 10px 0 0 0
+				margin 4px 0 0 0

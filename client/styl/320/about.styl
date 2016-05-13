@@ -1,190 +1,187 @@
-.contact-holder
-    float left
-    width 280px
-    padding 0
-    margin 0 0 0 20px
-    border none
-    border-bottom none
-    background none
+.contact
+	float left
+	width 300px
+	padding 0
+	margin 0 0 0 10px
+	border none
+	border-bottom none
+	background none
 
-    .contact-detail
-        float left
-        width 238px
-        padding 26px 20px 24px 20px
-        margin 0 0 14px 0
-        border none
-        background $card
-        border-bottom 4px solid $grey-border
-        border-radius $border-radius
+	.contact-detail
+		float left
+		width 258px
+		padding 22px 20px 24px 20px
+		margin 0 0 14px 0
+		border none
+		background $card
+		border $card-border
+		border-bottom $card-border-bottom
+		border-radius $border-radius
 
-        h2
-            float left
-            width 100%
-            padding 0
-            margin 0 0 18px 0
-            color $black-light
-            font-size 23px
-            line-height 23px
-            text-shadow $card-text-shadow
-            text-align center
+		h2
+			float left
+			width 236px
+			padding 9px 10px 6px 10px
+			margin 0 0 22px 0
+			font-weight 400
+			font-size 24px
+			line-height 24px
+			color $white
+			background $burgundy
+			border $burgundy-border
+			border-bottom $burgundy-border-bottom
+			border-radius $border-radius
+			text-align center
+			text-shadow $burgundy-text-shadow
 
-        .contact-container
-            float left
-            width 238px
-            padding 0
-            margin 0
-            border none
+		.contact-container
+			float left
+			width 258px
+			padding 0
+			margin 0
+			border none
 
-            p
-                float left
-                width 100%
-                padding 0
-                margin 0 0 14px 0
-                font-size 17px
-                line-height 17px
-                color $black-light
-                text-shadow $card-text-shadow
-                font-weight 600
-                text-align center
+			a
+				float left
+				width 100%
+				padding 0
+				margin 0 0 12px 0
+				font-weight 400
+				font-size 21px
+				line-height 21px
+				color $black
+				text-align center
+				text-shadow $card-text-shadow
 
-            a
-                float left
-                width 100%
-                padding 0
-                margin 0 0 10px 0
-                font-weight 600
-                font-size 19px
-                line-height 19px
-                color $burgundy
-                text-align center
-                // text-shadow $card-text-shadow
+			h4
+				float left
+				width 100%
+				padding 0
+				margin 5px 0 0 0
+				font-weight 400
+				font-size 19px
+				line-height 28px
+				color $grey
+				text-align center
 
-            h4
-                float left
-                width 100%
-                padding 0
-                margin 5px 0 0 0
-                font-weight 500
-                font-size 17px
-                line-height 24px
-                text-align center
+	.contact-form
+		float left
+		width 258px
+		padding 24px 20px 18px 20px
+		margin 0 0 20px 0
+		background $grey
+		border $grey-border
+		border-bottom $grey-border-bottom
+		border-radius $border-radius
 
-    .contact-form
-        float left
-        width 240px
-        padding 30px 20px 20px 20px
-        margin 0 0 15px 0
-        background $grey
-        border-bottom 4px solid $grey-border
-        border-radius $border-radius
+		.row
+			float left
+			width 258px
+			padding 0
+			margin 0 0 10px 0
 
-        .row
-            float left
-            width 240px
-            padding 0
-            margin 0 0 12px 0
+			input
+				width 256px
+				height 58px
+				padding 2px 0 0 0
+				margin 0
+				font-weight 400
+				font-size 25px
+				line-height 25px
+				color $black
+				background $white
+				border $input-border
+				border-bottom $input-border-bottom
+				border-radius $border-radius
+				text-align center
 
-            input
-                width 240px
-                height 58px
-                padding 2px 0 0 0
-                margin 0
-                font-weight 500
-                font-size 25px
-                line-height 25px
-                text-align center
-                border none
-                background $white
-                border-bottom 4px solid $grey-border
-                border-radius $border-radius
+			::-webkit-input-placeholder
+				line-height: normal
 
-            ::-webkit-input-placeholder
-                line-height: normal
+			textarea
+				float left
+				width 236px
+				height 80px
+				padding 16px 10px 14px 10px
+				margin 0
+				font-weight 400
+				font-size 25px
+				line-height 30px
+				color $black
+				border $input-border
+				border-bottom $input-border-bottom
+				border-radius $border-radius
+				text-align center
 
-            textarea
-                float left
-                width 220px
-                height 80px
-                padding 16px 10px 14px 10px
-                margin 0
-                font-size 25px
-                line-height 30px
-                border none
-                text-align center
-                border-bottom 4px solid $grey-border
-                border-radius $border-radius
+		.submit
+			float left
+			width 256px
+			height 58px
+			padding 0
+			margin 0
+			font-weight 400
+			font-size 29px
+			line-height 59px
+			color $white
+			background $burgundy
+			border $burgundy-border
+			border-bottom $burgundy-border-bottom
+			border-radius $border-radius
+			box-shadow none
+			text-align center
+			text-shadow $burgundy-text-shadow
+			vertical-align middle
+			user-select none
+			cursor pointer
 
-        .submit
-            float left
-            width 240px
-            height 60px
-            padding 0
-            margin 0
-            font-style italic
-            font-weight 600
-            font-size 27px
-            line-height 62px
-            color $white
-            background $burgundy
-            border none
-            border-bottom 4px solid $burgundy-border
-            background-repeat repeat-x;
-            border-radius $border-radius
-            box-shadow none      
-            text-align center
-            text-shadow $burgundy-text-shadow
-            vertical-align middle;
-            user-select none
-            cursor pointer
+	.card-confirmation
+		float left
+		width 256px
+		padding 0
+		margin 0
+		border $border
+		border-bottom 3px solid $grey-border
+		border-radius $border-radius
 
-    .card-confirmation
-        float left
-        width 238px
-        padding 0
-        margin 0
-        border $border
-        border-bottom 3px solid $grey-border
-        border-radius $border-radius
+		h1
+			float left
+			width 100%
+			padding 0
+			margin 0 0 20px 0
+			font-size 24px
+			text-align center
 
-        h1
-            float left
-            width 100%
-            padding 0
-            margin 0 0 20px 0
-            font-size 24px
-            text-align center
+		h2
+			float left
+			width 100%
+			padding 0
+			margin 0 0 15px 0
+			font-size 18px
+			font-weight 400
+			text-align center
 
-        h2
-            float left
-            width 100%
-            padding 0
-            margin 0 0 15px 0
-            font-size 18px
-            font-weight 400
-            text-align center
-
-        p
-            float left
-            width 100%
-            margin 0
-            font-size 14px
-            font-weight 200
-            text-align center
+		p
+			float left
+			width 100%
+			margin 0
+			font-size 14px
+			font-weight 200
+			text-align center
 
 .map
-    float left
-    width 280px
-    height 280px
-    padding 0
-    margin 0 0 35px 20px
-    background $grey
-    border none
-    border-bottom 4px solid $grey-border
-    border-radius $border-radius
+	float left
+	width 298px
+	height 298px
+	padding 0
+	margin 0 0 35px 10px
+	background $grey
+	border $input-border
+	border-bottom $input-border-bottom
+	border-radius $border-radius
 
-    #map_canvas        
-        border-radius $border-radius
-        
-        ui-gmap-google-map
-        .angular-google-map-container
-            border-radius $border-radius
+	#map_canvas
+		border-radius $border-radius
+
+		ui-gmap-google-map
+		.angular-google-map-container
+			border-radius $border-radius

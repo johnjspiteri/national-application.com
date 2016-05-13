@@ -226,7 +226,7 @@ module.exports = function (grunt) {
 	grunt.registerTask('client', [
 		'concurrent:frontend',
 		'autoprefixer',
-		'uglify',
+		// 'uglify',
 		// 'usebanner',
 	]);
 	grunt.registerTask('server', [

@@ -1,15 +1,12 @@
 .page
-    .content-holder
-        .content
-            .filter-holder
-                .filter-container
-                    select(type="text", data-ng-model='dropdown')
-                        option(value='') Category
-                    input(type="text", data-ng-model='filter', placeholder='Enter Search')
-                    .reset(data-ng-click='reset();')
-                        span.fa.fa-times
+	.filter
+		select(type="text", data-ng-model='dropdown')
+			option(value='') Category
+		input(type="text", data-ng-model='filter', placeholder='Enter Search')
+		.reset(data-ng-click='reset();')
+			span.fa.fa-times
 
-            .answers-holder
-                .answer(ng-repeat="answer in answers| filter: {title: filter}")
-                    h2(ng-bind="::answer.title")
-                    p(ng-bind="::answer.content")
+	.answers
+		.answer(ng-repeat="answer in answers| filter: {title: filter}")
+			h2(ng-bind="::answer.title")
+			p(ng-bind="::answer.content")
