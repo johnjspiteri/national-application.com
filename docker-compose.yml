@@ -1,0 +1,26 @@
+version: '2.1'
+
+services:
+    database:
+        build: database
+        container_name: national_academy_database
+        restart: always
+        network_mode: bridge
+        ports:
+            - 27017:27017
+        expose:
+            - 27027
+
+    application:
+        build: application
+        container_name: national_academy_application
+        restart: always
+        environment:
+            - NODE_ENV=production
+        ports:
+            - 80:80
+        expose:
+            - 80
+        links:
+            - database
+        network_mode: bridge

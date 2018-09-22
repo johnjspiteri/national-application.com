@@ -1,0 +1,39 @@
+FROM node:boron
+
+RUN mkdir -p /app
+RUN mkdir -p /app/server
+RUN mkdir -p /app/server/api
+RUN mkdir -p /app/server/auth
+RUN mkdir -p /app/server/config
+RUN mkdir -p /app/node_modules
+RUN mkdir -p /app/client
+RUN mkdir -p /app/client/card
+RUN mkdir -p /app/client/css
+RUN mkdir -p /app/client/fonts
+RUN mkdir -p /app/client/html
+RUN mkdir -p /app/client/images
+# RUN mkdir -p /app/client/script
+
+WORKDIR /app
+
+COPY server/api /app/server/api
+COPY server/auth /app/server/auth
+COPY server/config /app/server/config
+COPY node_modules /app/node_modules
+COPY package.json /app/package.json
+COPY public/css /app/public/css
+COPY public/fonts /app/public/fonts
+COPY public/html /app/public/html
+COPY public/icons /app/public/icons
+COPY public/images /app/public/images
+COPY public/script /app/public/script
+COPY server.js /app/server.js
+
+# Set the running environment as production
+ENV NODE_ENV production
+
+# Executing defaults
+CMD ["npm", "start"]
+
+# Expose on specified network port
+EXPOSE 80
