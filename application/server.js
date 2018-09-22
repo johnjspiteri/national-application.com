@@ -64,16 +64,16 @@ if ('development' === env || 'test' === env) {
     app.use(express.static(__dirname + '/client/js'));
 }
 
-app.use('/auth/login', require('./server/auth/login'));
-app.use('/auth/register', require('./server/auth/register'));
-app.use('/api/mail', require('./server/api/mail'));
-app.use('/api/text', require('./server/api/text'));
-app.use('/api/zip', require('./server/api/zip'));
-app.use('/api/location', require('./server/api/location'));
-app.use('/api/contact', require('./server/api/contact'));
-app.use('/api/account', require('./server/api/account'));
-app.use('/api/index', require('./server/api/index'));
-app.use('/api/member', require('./server/api/member'));
+app.use('/login', require('./api/login'));
+app.use('/register', require('./api/register'));
+app.use('/api/mail', require('./api/mail'));
+app.use('/api/text', require('./api/text'));
+app.use('/api/zip', require('./api/zip'));
+app.use('/api/location', require('./api/location'));
+app.use('/api/contact', require('./api/contact'));
+app.use('/api/account', require('./api/account'));
+app.use('/api/index', require('./api/index'));
+app.use('/api/member', require('./api/member'));
 
 // app.all('/*', function(req, res, next) {
 //     res.sendFile('client/html/index.html', { root: __dirname });
