@@ -1,0 +1,22 @@
+doctype html
+html(lang='en', ng-app='app')
+	head
+		title(ng-bind='$state.current.data.title')
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		meta(name='author', content='')
+		meta(name='description', content='')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1')
+		link(rel='stylesheet', href='/css/style.css')
+		include source.pug
+		base(href='/index.html')
+	body
+		div(ui-view='modal')
+		div(ui-view='header')
+		div(ui-view='page')
+		div(ui-view='footer')
+
+		script.
+			$(document).ready(function(){
+				$.getScript('//'+location.hostname+':35729/livereload.js');
+			});
