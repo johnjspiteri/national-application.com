@@ -1,7 +1,12 @@
 (function() {
     'use strict';
 
-    function config($compileProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
+    function config(
+        $compileProvider,
+        $urlRouterProvider,
+        AngularyticsProvider,
+        uiGmapGoogleMapApiProvider
+    ) {
         uiGmapGoogleMapApiProvider.configure({
             //    key: 'your api key',
             v: '3.17',
@@ -9,22 +14,34 @@
         });
 
         // AngularyticsProvider.setEventHandlers(['Console', 'GoogleUniversal']);
+        var angularyticsEventHandlers = [];
+        if (window.location.href.match(/local/)) {
+            angularyticsEventHandlers.push('Console');
+        } else {
+            angularyticsEventHandlers.push('GoogleUniversal');
+        }
+        AngularyticsProvider.setEventHandlers(angularyticsEventHandlers);
 
-        // $urlRouterProvider.otherwise('/404');
-        // $urlRouterProvider.rule(function($injector, $location) {
-        //     var path = $location.url();
+        $urlRouterProvider.otherwise('/404');
+        $urlRouterProvider.rule(function($injector, $location) {
+            var path = $location.url();
 
-        //     if ('/' === path[path.length - 1]) {
-        //         return path.replace(/\/$/, '');
-        //     }
-        //     if (path.indexOf('/?') > 0) {
-        //         return path.replace('/?', '?');
-        //     }
-        //     return false;
-        // });
+            if ('/' === path[path.length - 1]) {
+                return path.replace(/\/$/, '');
+            }
+            if (path.indexOf('/?') > 0) {
+                return path.replace('/?', '?');
+            }
+            return false;
+        });
     }
 
     angular.module('app').config(config);
 
-    config.$inject = ['$compileProvider', '$urlRouterProvider', 'uiGmapGoogleMapApiProvider'];
+    config.$inject = [
+        '$compileProvider',
+        '$urlRouterProvider',
+        'AngularyticsProvider',
+        'uiGmapGoogleMapApiProvider'
+    ];
 })();

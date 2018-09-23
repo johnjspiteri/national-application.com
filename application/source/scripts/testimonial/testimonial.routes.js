@@ -9,7 +9,7 @@
                 title: 'Testimonials | National RX Card',
                 description: 'User stories and testimonials using the National RX Card.'
             },
-            url: '/testimonial',
+            url: 'testimonials',
             views: {
                 'page@': {
                     templateUrl: '/public/html/testimonial/testimonial.html'

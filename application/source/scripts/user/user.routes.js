@@ -18,7 +18,7 @@
         $stateProvider
             .state('login', {
                 data: { title: '' },
-                url: '/login',
+                url: 'login',
                 views: {
                     'page@': {
                         templateUrl: '/public/html/user/user.login.html',
@@ -34,7 +34,7 @@
                     title: '',
                     description: 'This is the description shown in Google search results'
                 },
-                url: '/register',
+                url: 'register',
                 views: {
                     'page@': {
                         templateUrl: '/public/html/user/user.register.html',

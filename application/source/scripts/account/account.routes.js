@@ -10,7 +10,7 @@
                     title: '',
                     description: ''
                 },
-                url: '/list',
+                url: 'list',
                 views: {
                     'page@': {
                         templateUrl: '/public/html/account/account.list.html',
@@ -31,7 +31,7 @@
                     title: '',
                     description: ''
                 },
-                url: '/add',
+                url: 'add',
                 views: {
                     'page@': {
                         templateUrl: 'account/account.add.html',
@@ -44,7 +44,7 @@
                     title: '',
                     description: ''
                 },
-                url: '/:id',
+                url: ':id',
                 views: {
                     'page@': {
                         templateUrl: 'account/account.edit.html',

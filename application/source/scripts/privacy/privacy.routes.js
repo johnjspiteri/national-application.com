@@ -5,7 +5,7 @@
         $locationProvider.html5Mode(true);
 
         $stateProvider.state('frontend.privacy', {
-            url: '/privacy',
+            url: 'privacy',
             views: {
                 'page@': {
                     templateUrl: '/public/html/privacy/privacy.html'

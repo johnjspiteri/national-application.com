@@ -10,7 +10,7 @@
                 description:
                     'Find the answers to frequently asked questions regarding the National RX Card.'
             },
-            url: '/questions',
+            url: 'questions',
             views: {
                 'page@': {
                     templateUrl: '/public/html/question/question.html',

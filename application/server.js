@@ -69,10 +69,6 @@ app.use('/api/account', require('./api/account'));
 app.use('/api/index', require('./api/index'));
 app.use('/api/member', require('./api/member'));
 
-// app.all('/*', function(req, res, next) {
-//     res.sendFile('client/html/index.html', { root: __dirname });
-// });
-
 if (process.env.NODE_ENV === 'production') {
     app.get('*', function(req, res) {
         res.sendFile(__dirname + '/public/html/index.html');

@@ -1,11 +1,11 @@
 (function() {
     'use strict';
 
-    function runBlock($rootScope, $state, $stateParams, $location) {
+    function runBlock($rootScope, $state, $stateParams, $location, Angularytics) {
         $rootScope.$on('$routeChangeSuccess', function(event, current, previous) {
             $rootScope.title = current.$$route.title;
         });
-        // Angularytics.init();
+        Angularytics.init();
 
         $rootScope.$state = $state;
         $rootScope.$stateParams = $stateParams;
@@ -14,5 +14,5 @@
 
     angular.module('app').run(runBlock);
 
-    runBlock.$inject = ['$rootScope', '$state', '$stateParams', '$location'];
+    runBlock.$inject = ['$rootScope', '$state', '$stateParams', '$location', 'Angularytics'];
 })();

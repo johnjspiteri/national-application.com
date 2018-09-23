@@ -5,7 +5,7 @@
         $locationProvider.html5Mode(true);
 
         $stateProvider.state('frontend.terms', {
-            url: '/terms',
+            url: 'terms',
             views: {
                 'page@': {
                     templateUrl: '/public/html/terms/terms.html'
