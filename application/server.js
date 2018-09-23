@@ -77,7 +77,7 @@ if (process.env.NODE_ENV === 'production') {
 
 if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test') {
     app.get('*', function(req, res) {
-        res.sendFile(__dirname + '/public/html/development.html');
+        res.sendFile(__dirname + '/public/html/index.html');
     });
 }
 

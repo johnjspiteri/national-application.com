@@ -9,9 +9,6 @@ module.exports = {
         options: {
             logConcurrentOutput: true
         },
-        tasks: [
-            'postcss'
-            // 'uglify'
-        ]
+        tasks: ['postcss', 'uglify']
     }
 };
