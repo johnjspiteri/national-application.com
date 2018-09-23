@@ -51,17 +51,11 @@ app.use(function(req, res, next) {
 // mongoose.set('debug', false);
 
 if ('production' === env) {
-    app.use(express.static(__dirname + '/client'));
-    app.use(express.static(__dirname + '/client/html'));
-    app.use(express.static(__dirname + '/client/css'));
-    app.use(express.static(__dirname + '/client/js'));
+    app.use(express.static('./'));
     // app.use(favicon(__dirname + '/client/img/favicon/favicon.ico'));
 }
 if ('development' === env || 'test' === env) {
-    app.use(express.static(__dirname + '/client'));
-    app.use(express.static(__dirname + '/client/html'));
-    app.use(express.static(__dirname + '/client/css'));
-    app.use(express.static(__dirname + '/client/js'));
+    app.use(express.static('./'));
 }
 
 app.use('/login', require('./api/login'));

@@ -1,74 +1,75 @@
 (function() {
-	'use strict';
+    'use strict';
 
-	function routes($authProvider, $locationProvider, $stateProvider, ngMetaProvider) {
-		$locationProvider.html5Mode(true);
+    function routes($authProvider, $locationProvider, $stateProvider, ngMetaProvider) {
+        $locationProvider.html5Mode(true);
 
-		function loginRequired($q, $state, $auth) {
-			var deferred = $q.defer();
-			if ($auth.isAuthenticated()) {
-				deferred.resolve();
-			} else {
-				$state.go('login');
-			}
-			return deferred.promise;
-		}
+        function loginRequired($q, $state, $auth) {
+            var deferred = $q.defer();
+            if ($auth.isAuthenticated()) {
+                deferred.resolve();
+            } else {
+                $state.go('login');
+            }
+            return deferred.promise;
+        }
 
-		$stateProvider
-			.state('frontend', {
-				url: '',
-				abstract: true,
-				views: {
-					'header@': {
-						templateUrl: 'header/header.html',
-						controller: 'Header',
-					},
-					'footer@': {
-						templateUrl: 'footer/footer.html',
-					},
-				}
-			})
-			.state('member', {
-				url: '/nrx/:id',
-				abstract: true,
-				resolve: {
-					accountResolve: ['$stateParams', 'account', function($stateParams, account) {
-						var ItemId = $stateParams.id;
-						return account.show({id: ItemId}).$promise;
-					}],
-				},
-				views: {
-					'header@': {
-						templateUrl: 'header/header-member.html',
-						controller: 'HeaderMember',
-					},
-					 'footer@': {
-						templateUrl: 'footer/footer.html',
-					},
-				}
-			})
-			.state('backend', {
-				url: '/admin',
-				abstract: true,
-				views: {
-					'header@': {
-						templateUrl: 'header/header-backend.html',
-						resolve: {
-							loginRequired: loginRequired,
-						},
-						controller: 'HeaderBackend',
-					},
-					'footer@': {
-						templateUrl: 'footer/footer.html',
-					},
-				}
-			});
-	}
+        $stateProvider
+            .state('frontend', {
+                url: '/',
+                abstract: true,
+                views: {
+                    'header@': {
+                        templateUrl: '/public/html/header/header.html',
+                        controller: 'Header'
+                    },
+                    'footer@': {
+                        templateUrl: '/public/html/footer/footer.html'
+                    }
+                }
+            })
+            .state('member', {
+                url: '/nrx/:id',
+                abstract: true,
+                resolve: {
+                    accountResolve: [
+                        '$stateParams',
+                        'account',
+                        function($stateParams, account) {
+                            var ItemId = $stateParams.id;
+                            return account.show({ id: ItemId }).$promise;
+                        }
+                    ]
+                },
+                views: {
+                    'header@': {
+                        templateUrl: '/public/html/header/header-member.html',
+                        controller: 'HeaderMember'
+                    },
+                    'footer@': {
+                        templateUrl: 'footer/footer.html'
+                    }
+                }
+            })
+            .state('backend', {
+                url: '/admin',
+                abstract: true,
+                views: {
+                    'header@': {
+                        templateUrl: '/public/html/header/header-backend.html',
+                        resolve: {
+                            loginRequired: loginRequired
+                        },
+                        controller: 'HeaderBackend'
+                    },
+                    'footer@': {
+                        templateUrl: '/public/html/footer/footer.html'
+                    }
+                }
+            });
+    }
 
-	angular
-		.module('app')
-		.config(routes);
+    angular.module('app').config(routes);
 
-	routes.$inject = ['$authProvider', '$locationProvider', '$stateProvider', 'ngMetaProvider'];
-
+    routes.$inject = ['$authProvider', '$locationProvider', '$stateProvider', 'ngMetaProvider'];
 })();

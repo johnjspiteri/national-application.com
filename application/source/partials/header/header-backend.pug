@@ -1,0 +1,31 @@
+header
+	.header
+		.brand
+			.logo
+				img(ng-src='/img/logo.png')
+			.mobile(data-ng-click="openBackendNavigation();")
+				.fa.fa-bars
+		nav
+			.tile-container
+				.tile(ui-sref='backend.list')
+					h4(data-ng-class="{active: $state.includes('backend.list')}") Account List
+				.tile(ui-sref='backend.add')
+					h4(data-ng-class="{active: $state.includes('backend.add')}") Add Account
+				.tile(data-ng-click='logout();')
+					h4 Logout
+
+md-sidenav.md-sidenav-left.md-closed(md-component-id="backendNavigationPanel")
+	.side
+		ul
+			li.close
+				.fa.fa-long-arrow-left(ng-click="closeBackendNavigation();")
+			li(ui-sref='backend.list', data-ng-click='closeBackendNavigation();', data-ng-class="{active: $state.includes('backend.list')}")
+				h4 Account List
+
+			li(ui-sref='backend.add', data-ng-click='closeBackendNavigation();', data-ng-class="{active: $state.includes('backend.add')}")
+				h4 Add Account
+
+			li(data-ng-click='logout();')
+				h4 Logout
+
+#panel(ng-show='display')

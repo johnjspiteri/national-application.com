@@ -1,0 +1,13 @@
+.modal_holder
+	form.modal(name='loginForm', id="loginForm", data-ng-submit='login(loginForm.$valid)', novalidate)
+		.square
+			h1 Admin
+			.field
+				h5 Email
+				input(type='email', name='email', ng-model='user.email', placeholder='admin@nationalrxcard.com' required)
+
+			.field.end
+				h5 Password
+				input(type='password', name='password', ng-model='user.password', placeholder='••••••••', ng-minlength='8', ng-maxlength='8', required)
+
+			button.submit(type='submit', ng-disabled='loginForm.$invalid', href='#') Login <span class='fa fa-lock'></span>

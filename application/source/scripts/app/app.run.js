@@ -1,21 +1,18 @@
 (function() {
-	'use strict';
+    'use strict';
 
-	function runBlock ($rootScope, $state, $stateParams, $location, Angularytics) {
-		$rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
-			$rootScope.title = current.$$route.title;
-		});
-		Angularytics.init();
+    function runBlock($rootScope, $state, $stateParams, $location) {
+        $rootScope.$on('$routeChangeSuccess', function(event, current, previous) {
+            $rootScope.title = current.$$route.title;
+        });
+        // Angularytics.init();
 
-		$rootScope.$state = $state;
-		$rootScope.$stateParams = $stateParams;
-		$state.go('frontend.index');
-	}
+        $rootScope.$state = $state;
+        $rootScope.$stateParams = $stateParams;
+        $state.go('frontend.index');
+    }
 
-	angular
-		.module('app')
-		.run(runBlock);
+    angular.module('app').run(runBlock);
 
-	runBlock.$inject = ['$rootScope', '$state', '$stateParams', '$location', 'Angularytics'];
-
+    runBlock.$inject = ['$rootScope', '$state', '$stateParams', '$location'];
 })();

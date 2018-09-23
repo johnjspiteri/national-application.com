@@ -1,0 +1,16 @@
+.page
+	.content-holder
+		form.content(name='form', id='item', data-ng-model='item', data-ng-submit='addItem(form.$valid)', novalidate)
+			.item-tabs-entry
+				input(data-ng-model='item.plan', placeholder="Plan Number")
+				input(data-ng-model='item.organization', placeholder="Organization Name")
+				input(data-ng-model='item.email', placeholder="Organization Email")
+				input(data-ng-model='item.file', placeholder="URL")
+
+				//- .item-gallery.full
+				//-     .item-thumbs
+				//-         .thumb-holder
+				//-             img(data-ng-src='{{item.card}}', data-ng-show='item.card')
+				//-             input.input-holder(type='file', ng-model='item.card' base-sixty-four-input)
+
+			button.submit(type="submit", ng-disabled="form.$invalid", ng-class="{'disabled': form.$invalid}") Add Game

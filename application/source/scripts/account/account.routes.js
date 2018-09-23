@@ -13,14 +13,17 @@
                 url: '/list',
                 views: {
                     'page@': {
-                        templateUrl: 'account/account.list.html',
+                        templateUrl: '/public/html/account/account.list.html',
                         resolve: {
-                            listResolve: ['account', function(account) {
-                                return account.query().$promise;
-                            }],
+                            listResolve: [
+                                'account',
+                                function(account) {
+                                    return account.query().$promise;
+                                }
+                            ]
                         },
-                        controller: 'List',
-                    },
+                        controller: 'List'
+                    }
                 }
             })
             .state('backend.add', {
@@ -32,8 +35,8 @@
                 views: {
                     'page@': {
                         templateUrl: 'account/account.add.html',
-                        controller: 'Add',
-                    },
+                        controller: 'Add'
+                    }
                 }
             })
             .state('backend.edit', {
@@ -46,21 +49,22 @@
                     'page@': {
                         templateUrl: 'account/account.edit.html',
                         resolve: {
-                            itemResolve: ['$stateParams', 'account', function($stateParams, account) {
-                                var ItemId = $stateParams.id;
-                                return account.show({id: ItemId}).$promise;
-                            }],
+                            itemResolve: [
+                                '$stateParams',
+                                'account',
+                                function($stateParams, account) {
+                                    var ItemId = $stateParams.id;
+                                    return account.show({ id: ItemId }).$promise;
+                                }
+                            ]
                         },
-                        controller: 'Edit',
+                        controller: 'Edit'
                     }
                 }
             });
     }
 
-    angular
-        .module('app.account')
-        .config(routes);
+    angular.module('app.account').config(routes);
 
     routes.$inject = ['$locationProvider', '$stateProvider'];
-
 })();
