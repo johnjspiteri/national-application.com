@@ -2,10 +2,8 @@
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
-var connection = '';
-
 var express = require('express'),
-    location = require('./development.json'),
+    connection = '',
     mongoose = require('mongoose'),
     colors = require('colors'),
     logger = require('morgan'),
@@ -23,6 +21,7 @@ var express = require('express'),
     env = app.get('env');
 
 if (process.env.NODE_ENV === 'development') {
+    var location = require('./development.json');
     connection = '127.0.0.1:27017/card';
     var location = require('./development.json');
     server = app.listen(location.port, location.ip);
@@ -77,7 +76,7 @@ if (process.env.NODE_ENV === 'production') {
 
 if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test') {
     app.get('*', function(req, res) {
-        res.sendFile(__dirname + '/public/html/index.html');
+        res.sendFile(__dirname + '/public/html/development.html');
     });
 }
 
