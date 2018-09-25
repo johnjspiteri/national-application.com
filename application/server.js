@@ -28,7 +28,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 if (process.env.NODE_ENV === 'production') {
-    connection = 'database:27017/card';
+    connection = 'mongodb://worker:Sup3rP0w3r@database:27017/card';
     server = app.listen(80, '0.0.0.0');
 }
 
